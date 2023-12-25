@@ -267,7 +267,6 @@ screen navigation():
                 textbutton _("Save") action ShowMenu("save")
                 textbutton _("Load") action ShowMenu("load")
                 textbutton _("Settings") action ShowMenu("preferences")
-                textbutton _("Help") action ShowMenu("help")
                 ## We use renpy.full_restart to avoid any potential issues with gestures.
                 textbutton _("Main Menu") action renpy.full_restart
                 if not renpy.variant("mobile"):
@@ -308,7 +307,6 @@ screen navigation():
                 textbutton _("Save") action ShowMenu("save")
                 textbutton _("Load") action ShowMenu("load")
                 textbutton _("Settings") action ShowMenu("preferences")
-                textbutton _("Help") action ShowMenu("help")
                 null
                 if not renpy.variant("mobile"):
                     textbutton _("Quit") action Quit(confirm = True)
@@ -415,14 +413,6 @@ screen mm_content():
             idle_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
             action ShowMenu("extras")
             tooltip _("Extra content")
-
-        imagebutton:
-            alt "help"
-            auto settings_button_image
-            hover_foreground Text(_("Help"), xalign=0.5, yalign=0.5)
-            idle_foreground Text(_("Help"), xalign=0.5, yalign=0.5)
-            action ShowMenu("help")
-            tooltip _("How to play")
 
         if not renpy.variant("mobile"):
 
@@ -599,14 +589,6 @@ screen nav_content():
                 idle_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
                 action ShowMenu("extras")
                 tooltip _("Extra content")
-
-        imagebutton:
-            alt "help"
-            auto help_button_image
-            hover_foreground Text(_("Help"), xalign=0.5, yalign=0.5)
-            idle_foreground Text(_("Help"), xalign=0.5, yalign=0.5)
-            action ShowMenu("help")
-            tooltip _("How to play")
 
         imagebutton:
             alt "return"
@@ -1487,326 +1469,9 @@ style history_label_text:
     xalign 0.5
 
 
-## Help screen #################################################################
-##
-## A screen that gives information about key and mouse bindings. It uses other
-## screens (keyboard_help, mouse_help, and gamepad_help) to display the actual
-## help.
-
-screen help():
-    $ tooltip = GetTooltip()
-
-    tag menu
-
-    if not renpy.variant("touch"):
-        default device = "keyboard"
-    elif renpy.variant("touch"):
-        default device = "touch"
-
-    use game_menu(_("Help"), scroll="viewport"):
-
-        style_prefix "help"
-
-        vbox:
-            ysize 120
-
-            if tooltip:
-                text "[tooltip]"
-            else:
-
-                vbox:
-                    if renpy.mobile:
-                        text _("Press and hold an option for a short description of its function")
-                    else:
-                        text _("Hover over an option for a short description of its function")
-
-        ## Used as a content divider
-        null height 10
-        bar ysize 10 xsize 1000
-        null height 10
-
-        hbox:
-
-            spacing 25
-            ## Add 40 pixels horizontal padding to center the buttons
-            null width 40
-            xfill True
-
-            if renpy.variant("touch"):
-                imagebutton:
-                    alt "touchscreen controls"
-                    auto help_touch_button_image
-                    action SetScreenVariable("device", "touch")
-                    tooltip _("Touchscreen controls")
-
-            imagebutton:
-                alt "keyboard controls"
-                auto help_kb_button_image
-                action SetScreenVariable("device", "keyboard")
-                tooltip _("Keyboard controls")
-
-            imagebutton:
-                alt "mouse controls"
-                auto help_mouse_button_image
-                action SetScreenVariable("device", "mouse")
-                tooltip _("Mouse controls")
-
-            if GamepadExists():
-                imagebutton:
-                    alt "gamepad controls"
-                    auto help_gamepad_button_image
-                    action SetScreenVariable("device", "gamepad")
-                    tooltip _("Gamepad controls")
-
-        ## Used as a content divider
-        null height 10
-        bar ysize 10 xsize 1000
-        null height 10
-
-        vbox:
-
-            if device == "touch":
-                use touch_help
-            elif device == "keyboard":
-                use keyboard_help
-            elif device == "mouse":
-                use mouse_help
-            elif device == "gamepad":
-                use gamepad_help
-
-## Original help screen
-# screen help():
-#
-#     tag menu
-#
-#     if not renpy.variant("touch"):
-#         default device = "keyboard"
-#     elif renpy.variant("touch"):
-#         default device = "touch"
-#
-#     use game_menu(_("Help"), scroll="viewport"):
-#
-#         style_prefix "help"
-#
-#         vbox:
-#             spacing 15
-#
-#             hbox:
-#
-#                 if renpy.variant("touch"):
-#                     textbutton _("Touch") action SetScreenVariable("device", "touch")
-#                 textbutton _("Keyboard") action SetScreenVariable("device", "keyboard")
-#                 textbutton _("Mouse") action SetScreenVariable("device", "mouse")
-#
-#                 if GamepadExists():
-#                     textbutton _("Gamepad") action SetScreenVariable("device", "gamepad")
-#
-#             if device == "touch":
-#                 use touch_help
-#             elif device == "keyboard":
-#                 use keyboard_help
-#             elif device == "mouse":
-#                 use mouse_help
-#             elif device == "gamepad":
-#                 use gamepad_help
-
-screen touch_help():
-
-    hbox:
-        label _("Tap Screen")
-        text _("Advances dialogue and activates the interface.")
-
-    hbox:
-        label _("Tap & Hold")
-        text _("Alternate click. Primarily used with the skip button.")
-
-    hbox:
-        label _("Swipe Right")
-        text _("Rolls back to earlier dialogue.")
-
-    hbox:
-        label _("Swipe Left")
-        text _("Rolls forward to later dialogue.")
-
-    hbox:
-        label _("Vol Down + Power button")
-        text _("Hold to take a screenshot.")
-
-
-screen keyboard_help():
-
-    hbox:
-        label _("Enter")
-        text _("Advances dialogue and activates the interface.")
-
-    hbox:
-        label _("Space")
-        text _("Advances dialogue without selecting choices.")
-
-    hbox:
-        label _("Arrow Keys")
-        text _("Navigate the interface.")
-
-    hbox:
-        label _("Escape")
-        text _("Accesses the game menu.")
-
-    hbox:
-        label _("Ctrl")
-        text _("Skips dialogue while held down.")
-
-    hbox:
-        label _("Tab")
-        text _("Toggles dialogue skipping.")
-
-    hbox:
-        label _("Page Up")
-        text _("Rolls back to earlier dialogue.")
-
-    hbox:
-        label _("Page Down")
-        text _("Rolls forward to later dialogue.")
-
-    hbox:
-        label "H"
-        text _("Hides the user interface.")
-
-    if renpy.variant("pc"):
-        hbox:
-            label "S"
-            text _("Takes a screenshot.")
-
-    if renpy.variant("pc"):
-        hbox:
-            label "V"
-            text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
-
-
-screen mouse_help():
-
-    hbox:
-        label _("Left Click")
-        text _("Advances dialogue and activates the interface.")
-
-    hbox:
-        label _("Middle Click")
-        text _("Hides the user interface.")
-
-    hbox:
-        label _("Right Click")
-        text _("Accesses the game menu.")
-
-    hbox:
-        label _("Mouse Wheel Up\nClick Rollback Side")
-        text _("Rolls back to earlier dialogue.")
-
-    hbox:
-        label _("Mouse Wheel Down")
-        text _("Rolls forward to later dialogue.")
 
 
 default persistent.controller_kind = "ps"
-screen gamepad_help():
-
-    hbox:
-        label _("Layout")
-        textbutton _("Playstation"):
-            action ToggleVariable("persistent.controller_kind", "ps", "ps")
-        textbutton _("XBox"):
-            action ToggleVariable("persistent.controller_kind", "xbox", "xbox")
-
-    null height 25
-
-    if persistent.controller_kind == "ps":
-        hbox:
-            label _("R2 / X")
-            text _("Advances dialogue and activates the interface.")
-    elif persistent.controller_kind == "xbox":
-        hbox:
-            label _("Right Trigger / A")
-            text _("Advances dialogue and activates the interface.")
-
-    null height 25
-
-    if persistent.controller_kind == "ps":
-        hbox:
-            label _("L1 / L2")
-            text _("Rolls back to earlier dialogue.")
-    if persistent.controller_kind == "xbox":
-        hbox:
-            label _("Left Trigger\nLeft Shoulder")
-            text _("Rolls back to earlier dialogue.")
-
-    null height 25
-
-    if persistent.controller_kind == "ps":
-        hbox:
-            label _("R1")
-            text _("Rolls forward to later dialogue.")
-    if persistent.controller_kind == "xbox":
-        hbox:
-            label _("Right Shoulder")
-            text _("Rolls forward to later dialogue.")
-
-    null height 25
-
-    hbox:
-        label _("D-Pad / Sticks")
-        text _("Navigate the interface.")
-
-    null height 25
-
-    hbox:
-        label _("Start")
-        text _("Accesses the game menu.")
-
-    null height 25
-
-    if persistent.controller_kind == "ps":
-        hbox:
-            label _("Triangle")
-            text _("Hides the user interface.")
-    if persistent.controller_kind == "xbox":
-        hbox:
-            label _("Y")
-            text _("Hides the user interface.")
-
-    null height 25
-
-    imagebutton:
-        alt "calibrate gamepad"
-        auto help_gamepad_calibrate_button_image
-        hover_foreground Text(_("Calibrate"), xalign=0.5, yalign=0.5)
-        idle_foreground Text(_("Calibrate"), xalign=0.5, yalign=0.5)
-        action GamepadCalibrate()
-        tooltip "Change button assignments"
-
-
-
-style help_button is gui_button
-style help_button_text is gui_button_text
-style help_label is gui_label
-style help_label_text is gui_label_text
-
-style help_text:
-    size gui.text_size
-
-style help_button:
-    properties gui.button_properties("help_button")
-    xmargin 8
-
-style help_button_text:
-    properties gui.button_text_properties("help_button")
-
-style help_label:
-    xsize 250
-    right_padding 20
-
-style help_label_text:
-    size gui.text_size
-    xalign 1.0
-    text_align 1.0
-
 
 
 ################################################################################

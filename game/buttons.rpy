@@ -13,7 +13,7 @@ init -1:
 ###   Menu buttons   ###
 
 ## New Game ##
-    define new_game_button_image = "gui/button/new_game_%s.png"
+    define new_game_button_image = "gui/button/settings_%s.png"
     define new_game_button_idle_image = "gui/button/settings_selected_idle.png"
     define new_game_button_hover_image = "gui/button/settings_selected_hover.png"
 
