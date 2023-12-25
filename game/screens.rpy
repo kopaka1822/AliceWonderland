@@ -368,6 +368,8 @@ screen main_menu():
 
     style_prefix "main_menu"
 
+    on "show" action Play("music", "audio/rinne a story to tell you.mp3", loop=True)
+
     add gui.main_menu_background
 
     use mm_content
