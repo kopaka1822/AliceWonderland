@@ -99,7 +99,7 @@ define gui.game_menu_background = "gui/game_menu.png"
 ## time.
 
 ## The height of the textbox containing dialogue.
-define gui.textbox_height = 384
+define gui.textbox_height = 620
 
 ## The placement of the textbox vertically on the screen. 0.0 is the top, 0.5 is
 ## center, and 1.0 is the bottom.
@@ -435,24 +435,24 @@ init python:
 
     ## This changes the size and spacing of various GUI elements to ensure they
     ## are easily visible on phones.
-    if renpy.variant("small"):
+    # if renpy.variant("small"):
 
-        ## Adjust the location of the textbox.
-        gui.textbox_height = 384
-        gui.name_xpos = 0
-        gui.text_xpos = 150
-        gui.text_width = 550
+    #     ## Adjust the location of the textbox.
+    #     gui.textbox_height = 384
+    #     gui.name_xpos = 0
+    #     gui.text_xpos = 150
+    #     gui.text_width = 550
 
-        ## Change the size and spacing of various things.
+    #     ## Change the size and spacing of various things.
 
-        gui.navigation_spacing = 20
-        gui.pref_button_spacing = 10
+    #     gui.navigation_spacing = 20
+    #     gui.pref_button_spacing = 10
 
-        gui.quick_button_text_size = 50
+    #     gui.quick_button_text_size = 50
 
-        ## File button layout.
-        gui.file_slot_cols = 2
-        gui.file_slot_rows = 2
+    #     ## File button layout.
+    #     gui.file_slot_cols = 2
+    #     gui.file_slot_rows = 2
 
 ################################################################################
 ## Experimental functions
