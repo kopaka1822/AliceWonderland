@@ -58,7 +58,7 @@ Delete persistent data before building a distribution.""")
 
 
 screen conf_button():
-
+    
     if config.developer:
         vbox:
             xalign 0.98

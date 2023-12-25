@@ -376,153 +376,65 @@ screen main_menu():
 
 screen mm_content():
 
-    use conf_button
+    #use conf_button
 
-    if persistent.men_style:
-        grid 3 2:
+    vbox:
 
-            xalign 0.5
-            yalign 0.965
-            spacing 20
+        xalign 0.5
+        yalign 0.7
+        spacing 20
+
+        imagebutton:
+            alt "new game"
+            auto new_game_button_image
+            hover_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
+            idle_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
+            action Start()
+            tooltip _("Begin a new game")
+
+        imagebutton:
+            alt "load"
+            auto load_button_image
+            hover_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
+            idle_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
+            action ShowMenu("load")
+            tooltip _("Load a previously saved game")
+
+        imagebutton:
+            alt "Settings"
+            auto settings_button_image
+            hover_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
+            idle_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
+            action ShowMenu("preferences")
+            tooltip _("Adjust game settings")
+
+        imagebutton:
+            alt "extras"
+            auto extras_button_image
+            hover_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
+            idle_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
+            action ShowMenu("extras")
+            tooltip _("Extra content")
+
+        imagebutton:
+            alt "help"
+            auto settings_button_image
+            hover_foreground Text(_("Help"), xalign=0.5, yalign=0.5)
+            idle_foreground Text(_("Help"), xalign=0.5, yalign=0.5)
+            action ShowMenu("help")
+            tooltip _("How to play")
+
+        if not renpy.variant("mobile"):
 
             imagebutton:
-                alt "new game"
-                auto new_game_button_image
-                hover_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
-                action Start()
-                tooltip _("Begin a new game")
-
-            imagebutton:
-                alt "load"
-                auto load_button_image
-                hover_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
-                action ShowMenu("load")
-                tooltip _("Load a previously saved game")
-
-            imagebutton:
-                alt "Settings"
-                auto settings_button_image
-                hover_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
-                action ShowMenu("preferences")
-                tooltip _("Adjust game settings")
-
-            imagebutton:
-                alt "extras"
-                auto extras_button_image
-                hover_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
-                action ShowMenu("extras")
-                tooltip _("Extra content")
-
-            imagebutton:
-                alt "help"
-                auto settings_button_image
-                hover_foreground Text(_("Help"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("Help"), xalign=0.5, yalign=0.5)
-                action ShowMenu("help")
-                tooltip _("How to play")
-
-            if not renpy.variant("mobile"):
-
-                imagebutton:
-                    alt "quit"
-                    auto quit_button_image
-                    hover_foreground Text(_("Quit"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Quit"), xalign=0.5, yalign=0.5)
-                    action Quit(confirm=not main_menu)
-                    tooltip _("Close the game")
-            else:
-                null
-
-
-        if gui.show_name:
-
-            vbox:
-                xalign 0.5
-                ypos 0.5
-                text "[config.name!t]":
-                    style "main_menu_title"
-
-                text "[config.version]":
-                    style "main_menu_version"
-
-## text alignment adjusted in line 289 or gui.rpy
-# define gui.main_menu_text_xalign = 0.5
-
-
-    elif not persistent.men_style:
-
-        frame:
-            grid 1 6:
-                xalign 0.5
-                yalign 0.5
-
-                spacing 30
-
-                imagebutton:
-                    alt "new game"
-                    auto new_game_button_image
-                    hover_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
-                    action Start()
-                    tooltip _("Begin a new game")
-
-                imagebutton:
-                    alt "load"
-                    auto load_button_image
-                    hover_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
-                    action ShowMenu("load")
-                    tooltip _("Load a previously saved game")
-
-                imagebutton:
-                    alt "Settings"
-                    auto settings_button_image
-                    hover_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
-                    action ShowMenu("preferences")
-                    tooltip _("Adjust game settings")
-
-                imagebutton:
-                    alt "extras"
-                    auto extras_button_image
-                    hover_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
-                    action ShowMenu("extras")
-                    tooltip _("Extra content")
-
-                imagebutton:
-                    alt "help"
-                    auto help_button_image
-                    hover_foreground Text(_("Help"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Help"), xalign=0.5, yalign=0.5)
-                    action ShowMenu("help")
-                    tooltip _("How to play")
-
-                if not renpy.variant("mobile"):
-                    imagebutton:
-                        alt "quit"
-                        auto quit_button_image
-                        hover_foreground Text(_("Quit"), xalign=0.5, yalign=0.5)
-                        idle_foreground Text(_("Quit"), xalign=0.5, yalign=0.5)
-                        action Quit(confirm=not main_menu)
-                        tooltip _("Close the game")
-                else:
-                    null
-
-            if gui.show_name:
-
-                vbox:
-                    xalign 1.0
-                    ypos 1.0
-                    text "[config.name!t]":
-                        style "main_menu_title"
-
-                    text "[config.version]":
-                        style "main_menu_version"
+                alt "quit"
+                auto quit_button_image
+                hover_foreground Text(_("Quit"), xalign=0.5, yalign=0.5)
+                idle_foreground Text(_("Quit"), xalign=0.5, yalign=0.5)
+                action Quit(confirm=not main_menu)
+                tooltip _("Close the game")
+        else:
+            null
 
 
 style main_menu_frame is empty
