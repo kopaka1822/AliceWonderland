@@ -111,24 +111,12 @@ screen say(who, what):
         text what id "what"
 
     ## Place a character image on the bottom left of the screen
-    add SideImage() xalign 0.0 yalign 1.0
+    #add SideImage() xalign 0.0 yalign 1.0
 
     ## Select quick menu style to use.
     ## Show the quick menu only when the say screen is shown
 
     use quick_menu
-    if config.developer:
-        vbox:
-            xalign 0.98
-            ypos 0.08
-
-            imagebutton:
-                alt "change quick menu style"
-                auto default_button_image
-                hover_foreground Text(_("Q.menu\nstyle"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("Q.menu\nstyle"), xalign=0.5, yalign=0.5)
-                action ToggleVariable("persistent.quick_menu_style", True, False), Hide('quick_menu_2')
-                tooltip _("Change quick menu style")
 
 
 ## Make the namebox available for styling through the Character object.
@@ -341,24 +329,6 @@ screen navigation():
                     textbutton "≡" action Hide("navigation"), Return()
 
 
-
-    if config.developer:
-
-        vbox:
-            imagebutton:
-                alt "Switch close button style"
-                hover "gui/button/switch.png"
-                idle "gui/button/switch.png"
-                action ToggleVariable("persistent.navigation_return_button_style")
-                tooltip _("Switch between available close button styles")
-            imagebutton:
-                alt "Switch menu style"
-                hover "gui/button/switch.png"
-                idle "gui/button/switch.png"
-                action ToggleVariable("persistent.navigation_menu_content_style")
-                tooltip _("Switch between available menu styles")
-
-
 style navigation_menu_frame:
     xfill True
     ysize 300
@@ -403,14 +373,6 @@ screen main_menu():
     add gui.main_menu_background
 
     use mm_content
-
-    if config.developer:
-        imagebutton:
-            alt "Switch menu style"
-            hover "gui/button/switch.png"
-            idle "gui/button/switch.png"
-            action ToggleVariable("persistent.men_style")
-            tooltip _("Switch between available menu styles")
 
 screen mm_content():
 

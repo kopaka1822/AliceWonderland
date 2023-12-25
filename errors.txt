@@ -2,9 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 107: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    show alice falling at falling
-    ^
+File "game/script.rpy", line 33: end of line expected.
+    alice "And what is the use of a book without pictures or conversations?" voice "voice/alice001.mp3"
+                                                                             ^
+
+File "game/script.rpy", line 77: end of line expected.
+    alice "Well! After such a fall as this, I shall think nothing of tumbling down stairs! "  voice "voice/alice002.mp3"
+                                                                                              ^
+
+File "game/script.rpy", line 78: end of line expected.
+    alice "How brave they'll all think me at home!"  voice "voice/alice003.mp3"
+                                                     ^
+
+File "game/script.rpy", line 79: end of line expected.
+    alice "Why, I wouldn’t say anything about it, even if I fell off the top of the house!"  voice "voice/alice004.mp3"
+                                                                                             ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Sat Dec 23 23:35:21 2023
+Sun Dec 24 15:48:38 2023
