@@ -33,6 +33,10 @@ label start:
     #jump chapter1_after_fall
 label chapter1:
 
+    scene black
+    # start of new chapter
+    "{size=+40}Chapter I: \n{/size}Down the Rabbit-Hole"
+
     scene riverbank at left
     play music "audio/rinne wanderer.mp3"
     show alice sleepy
@@ -221,9 +225,55 @@ label chapter1_after_fall:
     "So she set to work, and very soon finished off the cake."
 
 label chapter2:
+    scene black
+    "{size=+40}Chapter II: \n{/size}The Pool of Tears"
+
+    scene hall at center
+
     show alice excited
     alice "Curiouser and curiouser!"
     "(she was so much surprised, that for the moment she quite forgot how to speak good English)"
     alice "Now I’m opening out like the largest telescope that ever was!"
     alice "Good-bye, feet!"
+
+label chapter3:
+    scene black 
+    "{size=+40}Chapter III: \n{/size}A Caucus-Race and a Long Tale"
+
+label chapter4:
+    scene black
+    "{size=+40}Chapter IV: \n{/size}The Rabbit Sends in a Little Bill"
+
+label chapter5:
+    scene black
+    "{size=+40}Chapter V: \n{/size}Advice from a Caterpillar"
+
+label chapter6:
+    scene black
+    "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
+
+label chapter7:
+    scene black
+    "{size=+40}Chapter VII: \n{/size}A Mad Tea-Party"
+
+label chapter8:
+    scene black
+    "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
+
+label chapter9:
+    scene black
+    "{size=+40}Chapter IX: \n{/size}The Mock Turtle's Story"
+
+label chapter10:
+    scene black
+    "{size=+40}Chapter X: \n{/size}The Lobster Quadrille"
+
+label chapter11:
+    scene black
+    "{size=+40}Chapter XI: \n{/size}Who Stole the Tarts?"
+
+label chapter12:
+    scene black
+    "{size=+40}Chapter XII: \n{/size}Alice's Evidence"
+
     
