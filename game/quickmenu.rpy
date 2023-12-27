@@ -16,10 +16,6 @@ screen quick_menu():
     ## Only show if the quick menu is allowed
     if quick_menu:
 
-        ## The button used to determine textbox or top of screen alignment.
-        if config.developer and persistent.quick_menu_style and not in_nvl:
-            use quick_menu_a
-
         ## Determine quick menu style to use
         if persistent.quick_menu_style and persistent.quick_menu_align:
 
@@ -31,18 +27,6 @@ screen quick_menu():
 
         elif not persistent.quick_menu_style:
             use quick_menu_ham
-
-
-screen quick_menu_a():
-    vbox:
-        xalign 1.0
-        yalign 0.26
-        imagebutton:
-            alt "Toggle quick menu position"
-            hover "gui/button/switch_rotated.png"
-            idle "gui/button/switch_rotated.png"
-            action ToggleVariable("persistent.quick_menu_align", True, False)
-            tooltip _("Quick menu")
 
 
 screen quick_menu_b():
