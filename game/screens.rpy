@@ -401,6 +401,14 @@ screen mm_content():
             tooltip _("Load a previously saved game")
 
         imagebutton:
+            alt "chapter"
+            auto load_button_image
+            hover_foreground Text(_("Chapter"), xalign=0.5, yalign=0.5)
+            idle_foreground Text(_("Chapter"), xalign=0.5, yalign=0.5)
+            action ShowMenu("chapter_select")
+            tooltip _("Load a chapter")
+
+        imagebutton:
             alt "Settings"
             auto settings_button_image
             hover_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
@@ -1882,3 +1890,24 @@ style slider_pref_vbox:
 style slider_pref_slider:
     variant "small"
     xsize 600
+
+screen chapter_select():
+    
+        tag menu
+    
+        use game_menu(_("Chapter Select"), scroll="viewport"):
+    
+            style_prefix "main_menu"
+            
+            grid 2 6:
+                xalign 0.5
+                yalign 0.5
+                spacing 20
+                for i in range(1, 13):
+                    imagebutton:
+                        alt "Chapter {}".format(i)
+                        auto load_button_image
+                        hover_foreground Text("Chapter {}".format(i), xalign=0.5, yalign=0.5, color="#FFFFFF")
+                        idle_foreground Text("Chapter {}".format(i), xalign=0.5, yalign=0.5, color="#FFFFFF")
+                        action Jump("chapter{}".format(i))
+                        size_group "chapters"

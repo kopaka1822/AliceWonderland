@@ -22,6 +22,10 @@ init -1:
     define load_button_idle_image = "gui/button/settings_selected_idle.png"
     define load_button_hover_image = "gui/button/settings_selected_hover.png"
 
+    define chapter_button_image = "gui/button/settings_%s.png"
+    define chapter_button_idle_image = "gui/button/settings_selected_idle.png"
+    define chapter_button_hover_image = "gui/button/settings_selected_hover.png"
+
 ## Save ##
     define save_button_image = "gui/button/settings_%s.png"
     define save_button_idle_image = "gui/button/settings_selected_idle.png"

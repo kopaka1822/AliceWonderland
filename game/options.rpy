@@ -23,14 +23,14 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.1"
+define config.version = "1.31"
 
 
 ## A short name for the game used for executables and directories in the built
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Alice in Wonderland"
+define build.name = "AliceWonderland"
 
 
 ## Gestures ####################################################################
