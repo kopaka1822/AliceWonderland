@@ -1,4 +1,5 @@
 upscaleer: https://www.upscale.media/de/upload
+sounds: freesound.org
 
 alice prompt:
 Create FULL 2D character image for a visual novel. Character: Alice, teenage girl, very long blonde hair, black ribbon on top of head, light blue dress, white apron, light blue with white striped stockings, black shoes, thicc, cutesy. The image should be in unlit modern anime style, 4K resolution, front view only, white background, relaxed standing pose

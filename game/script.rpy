@@ -25,9 +25,36 @@ transform pan_background:
     linear 30.0 xalign 0.0
     repeat
 
+transform breathing_calm(xposition, scale = 1.0):
+    pos (xposition, 0.7)
+    anchor (0.5, 1.0)
+    zoom scale
+    ease 3.0 yzoom 0.99
+    ease 3.0 yzoom 1.0
+    repeat
+
+transform breathing(xposition, scale = 1.0):
+    pos (xposition, 0.7)
+    anchor (0.5, 1.0)
+    zoom scale
+    ease 2.0 yzoom 0.99
+    ease 2.0 yzoom 1.0
+    repeat
+
+transform breathing_crying(xposition, scale = 1.0):
+    pos (xposition, 0.7)
+    anchor (0.5, 1.0)
+    zoom scale
+    ease 1.0 yzoom 0.995
+    ease 1.0 yzoom 0.99
+    ease 2.5 yzoom 1.0
+    repeat
+
 transform pan_background_to_center:
     xalign 0.0
     linear 15.0 xalign 0.5
+
+default alice_scale = 0.5
 
 label start:
     #jump chapter1_after_fall
@@ -39,7 +66,7 @@ label chapter1:
 
     scene riverbank at left
     play music "audio/rinne wanderer.mp3"
-    show alice sleepy
+    show alice sleepy at breathing_calm(0.7, alice_scale)
     "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it."
 
 
@@ -53,15 +80,15 @@ label chapter1:
     scene riverbank at center
     #show alice normal at left as grayscale
     hide alice
-    show rabbit normal
+    show rabbit normal at breathing(0.5)
 
     rabbit "Oh dear! Oh dear! I shall be too late!"
 
     "(when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural)"
     "But when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge."
 
-    hide rabbit
-    show alice happy
+    scene riverbank at left
+    show alice happy at breathing(0.7, alice_scale)
     "In another moment down went Alice after it, never once considering how in the world she was to get out again."
 
     scene black
@@ -163,15 +190,15 @@ label chapter1:
     "There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner"
 
     hide alice
-    show rabbit normal
+    show rabbit normal at breathing(0.5)
     rabbit "Oh my ears and whiskers, how late it's getting!"
     hide rabbit
 
-    show alice happy
+    show alice happy at breathing(0.5, alice_scale)
 
     "She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof."
 
-    show alice pout
+    show alice pout at breathing(0.5, alice_scale)
     "There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again."
 
     hide alice
@@ -187,7 +214,7 @@ label chapter1:
 
     "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway;"
 
-    show alice pout
+    show alice pout at breathing(0.5, alice_scale)
     alice "and even if my head would go through, it would be of very little use without my shoulders."
     alice "Oh, how I wish I could shut up like a telescope! I think I could, if I only knew how to begin."
 
@@ -210,22 +237,22 @@ label chapter1:
 
     "However, this bottle was not marked 'poison,' so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off."
     
-    show alice happy
+    show alice happy at breathing(0.5, alice_scale)
     alice "What a curious feeling! I must be shutting up like a telescope."
 
     "And so it was indeed: she was now only ten inches high, and her face brightened up at the thought that she was now the right size for going through the little door into that lovely garden."
 
     "First, however, she waited for a few minutes to see if she was going to shrink any further: she felt a little nervous about this."
-    show alice surprised
+    show alice surprised at breathing(0.5, alice_scale)
     alice "It might end, you know, in my going out altogether, like a candle. I wonder what I should be like then?"
     "And she tried to fancy what the flame of a candle is like after the candle is blown out, for she could not remember ever having seen such a thing."
 
     "After a while, finding that nothing more happened, she decided on going into the garden at once; but, alas for poor Alice, when she got to the door, she found she had forgotten the little golden key, and when she went back to the table for it, she found she could not possibly reach it: "
-    show alice crying
+    show alice crying at breathing_crying(0.5, alice_scale)
     "she could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
 
     alice "Come, there’s no use in crying like that!"
-    show alice pout
+    show alice pout at breathing(0.5, alice_scale)
     alice "I advise you to leave off this minute!"
     "She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people."
     alice "But it’s no use now, to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!"
@@ -235,11 +262,11 @@ label chapter1:
     "Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words 'EAT ME' were beautifully marked in currants."
 
     hide box_cake
-    show alice normal
+    show alice normal at breathing(0.5, alice_scale)
     alice "Well, I’ll eat it, and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I’ll get into the garden, and I don’t care which happens!"
 
     "She ate a little bit, and said anxiously to herself: "
-    show alice excited
+    show alice excited at breathing(0.5, alice_scale)
     alice "Which way? Which way?"
     "She was holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way."
     "So she set to work, and very soon finished off the cake."
@@ -250,7 +277,7 @@ label chapter2:
 
     scene hall at center
 
-    show alice excited
+    show alice excited at breathing(0.5, alice_scale)
     alice "Curiouser and curiouser!"
     "(she was so much surprised, that for the moment she quite forgot how to speak good English)"
     alice "Now I’m opening out like the largest telescope that ever was!"
