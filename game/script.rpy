@@ -64,19 +64,26 @@ label chapter1:
     show alice happy
     "In another moment down went Alice after it, never once considering how in the world she was to get out again."
 
+    scene black
+
+    "The rabbit-hole went straight on like a tunnel for some way,"
+    
     scene well at center 
     play music "audio/rinne aurelia.mp3" fadeout 1.0 fadein 1.0 
 
     show alice falling at falling
 
-    "The rabbit-hole went straight on like a tunnel for some way,"
     "and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well."
 
     "Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next."
 
     "First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs."
 
+    show orange marmalade at Position(ypos = 0.7)
+
     "She took down a jar from one of the shelves as she passed; it was labelled 'ORANGE MARMALADE', but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody underneath, so managed to put it into one of the cupboards as she fell past it."
+
+    hide orange marmalade
 
     # voice "voice/alice002.mp3"
     alice "Well! After such a fall as this, I shall think nothing of tumbling down stairs! "  
@@ -137,12 +144,14 @@ label chapter1:
     "You see, as she couldn’t answer either question, it didn’t much matter which way she put it."
     "She felt that she was dozing off, and had just begun to dream that she was walking hand in hand with Dinah, and saying to her very earnestly:"
     alice "Now, Dinah, tell me the truth: did you ever eat a bat?"
-    "when suddenly, thump! thump! down she came upon a heap of sticks and dry leaves, and the fall was over."
-
-label chapter1_after_fall:
 
     stop music fadeout 1.0
     scene black
+
+    play sound "sfx/thump2.mp3"
+    "when suddenly, thump! thump! down she came upon a heap of sticks and dry leaves, and the fall was over."
+
+
     
     "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead;"
 
@@ -165,11 +174,15 @@ label chapter1_after_fall:
     show alice pout
     "There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again."
 
+    hide alice
+    show three_legged_table_key at Position(ypos = 0.6)
     "Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key, and Alice’s first thought was that it might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but at any rate it would not open any of them."
+    hide three_legged_table_key
 
     scene small_door at center
     "However, on the second time round, she came upon a low curtain she had not noticed before, and behind it was a little door about fifteen inches high: she tried the little golden key in the lock, and to her great delight it fitted!"
 
+    play sound "sfx/unlock.mp3"
     "Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw."
 
     "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway;"
@@ -181,7 +194,8 @@ label chapter1_after_fall:
     "For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible."
 
     scene hall at center
-    show alice normal
+    hide alice
+    show three_legged_table_bottle at Position(ypos = 0.6)
     "There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it."
     alice "This certainly was not here before"
     "Around the neck of the bottle was a paper label, with the words 'DRINK ME' beautifully printed on it in large letters."
@@ -191,6 +205,8 @@ label chapter1_after_fall:
     
     "she had read several nice little histories about children who had got burnt, and eaten up by wild beasts and other unpleasant things, all because they would not remember the simple rules their friends had taught them: "
     "such as, that a red-hot poker will burn you if you hold it too long; and that if you cut your finger very deeply with a knife, it usually bleeds; and she had never forgotten that, if you drink much from a bottle marked 'poison', it is almost certain to disagree with you, sooner or later."
+    hide three_legged_table_bottle
+    play sound "sfx/cork.mp3"
 
     "However, this bottle was not marked 'poison,' so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off."
     
@@ -214,8 +230,12 @@ label chapter1_after_fall:
     "She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people."
     alice "But it’s no use now, to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!"
 
-    show alice normal
+    hide alice
+    show box_cake at Position(ypos = 0.65)
     "Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words 'EAT ME' were beautifully marked in currants."
+
+    hide box_cake
+    show alice normal
     alice "Well, I’ll eat it, and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I’ll get into the garden, and I don’t care which happens!"
 
     "She ate a little bit, and said anxiously to herself: "
