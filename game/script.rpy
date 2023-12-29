@@ -1,5 +1,6 @@
 ﻿define alice = Character("Alice", color="#ADD8E6")
 define rabbit = Character("Rabbit", color="#ffffff")
+define mouse = Character("Mouse", color="#adadad")
 
 image riverbank = "riverbank.png"
 
@@ -342,6 +343,85 @@ label chapter2:
     alice "It’ll be no use their putting their heads down and saying 'Come up again, dear!' I shall only look up and say 'Who am I then?" 
     alice "Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else' —but, oh dear!"
     alice "I do wish they would put their heads down! I am so very tired of being all alone here!"
+
+    "As she said this she looked down at her hands, and was surprised to see that she had put on one of the Rabbit’s little white kid gloves while she was talking."
+    alice "How can I have done that?"
+    alice "I must be growing small again."
+    "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
+    "she soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
+
+    alice "That was a narrow escape!"
+    "She was a good deal frightened at the sudden change, but very glad to find herself still in existence."
+    alice "And now for the garden!"
+    "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before,"
+    alice  "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
+
+    play sound "sfx/splash.mp3"
+    "As she said these words her foot slipped, and in another moment, splash!"
+    "she was up to her chin in salt water."
+    "Her first idea was that she had somehow fallen into the sea, "
+    alice "and in that case I can go back by railway"
+    "(Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station)"
+    "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high."
+
+    alice "I wish I hadn’t cried so much!"
+    "She swam about, trying to find her way out."
+    alice "I shall be punished for it now, I suppose, by being drowned in my own tears! That will be a queer thing, to be sure! However, everything is queer to-day."
+
+    "Just then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was:"
+    "at first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself."
+
+    alice "Would it be of any use, now, to speak to this mouse?"
+    alice "Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying."
+    "So she began:"
+    alice "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!"
+    "(Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother’s Latin Grammar, 'A mouse—of a mouse—to a mouse—a mouse—O mouse!')"
+    "The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing."
+
+    alice "Perhaps it doesn’t understand English, I daresay it’s a French mouse, come over with William the Conqueror."
+    "(For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened)"
+    "So she began again:"
+    alice "Où est ma chatte?"
+    "which was the first sentence in her French lesson-book."
+    "The mouse gave a sudden leap out of the water, and seemed to quiver all over with fright."
+    alice "Oh, I beg your pardon!"
+    "She was afraid that she had hurt the poor animal’s feelings."
+    alice "I quite forgot you didn’t like cats."
+
+    mouse "Not like cats!"
+    mouse "Would you like cats if you were me?"
+
+    alice "Well, perhaps not, don’t be angry about it."
+    alice "And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her."
+    alice "She is such a dear quiet thing,"
+    "Alice went on, half to herself, as she swam lazily about in the pool,"
+    alice "and she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
+    "This time the Mouse was bristling all over, and she felt certain it must be really offended."
+    alice "We won’t talk about her any more if you’d rather not."
+
+    mouse "We indeed!"
+    "The mouse was trembling down to the end of its tail."
+    mouse "As if I would talk on such a subject! Our family always hated cats: nasty, low, vulgar things! Don’t let me hear the name again!"
+
+    alice "I won’t indeed!"
+    "alice was in a great hurry to change the subject of conversation."
+    alice "Are you—are you fond—of—of dogs?"
+    "The mouse did not answer, so Alice went on eagerly:"
+    alice "There is such a nice little dog near our house I should like to show you!"
+    alice "A little bright-eyed terrier, you know, with oh, such long curly brown hair!"
+    alice "And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things—I can’t remember half of them—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds!"
+    alice "He says it kills all the rats and—oh dear!"
+    "Alice cried in a sorrowful tone"
+    alice "I’m afraid I’ve offended it again!"
+    "For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
+
+    alice "Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!"
+    "When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice,"
+    mouse "Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs."
+
+    "It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures."
+    "Alice led the way, and the whole party swam to the shore."
+
 
 
 label chapter3:
