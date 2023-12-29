@@ -437,6 +437,25 @@ screen mm_content():
             null
 
 
+    vbox:
+        xalign 0.5
+        yalign 1.0
+        spacing 20
+
+        xmaximum 300
+        ymaximum 74
+        frame:
+            background Solid("#000000", alpha=0.5)  # Black semi-transparent background
+            padding(10, 10)  # Add some padding around the content
+            hbox:
+                align (.5, 1.0)  # Center horizontally and align at the bottom
+                textbutton "BGM by Rinne " action OpenURL("https://www.youtube.com/channel/UCo7fO7SwKzRmm9xGxHJVhaA")
+                imagebutton:
+                    idle "gui/yt_logo.png"
+                    hover "gui/yt_logo_hover.png"
+                    action OpenURL("https://www.youtube.com/channel/UCo7fO7SwKzRmm9xGxHJVhaA")
+
+
 style main_menu_frame is empty
 style main_menu_vbox is vbox
 style main_menu_text is gui_text
