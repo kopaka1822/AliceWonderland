@@ -1,6 +1,16 @@
 ﻿define alice = Character("Alice", color="#ADD8E6")
 define rabbit = Character("Rabbit", color="#ffffff")
 define mouse = Character("Mouse", color="#adadad")
+define lory = Character("Lory", color="#8c00ff")
+define duck = Character("Duck", color="#ff8c00")
+define dodo = Character("Dodo", color="#008cff")
+define eaglet = Character("Eaglet", color="#be8200")
+define everyone = Character("Everyone", color="#ffffff")
+define old_crab = Character("Old Crab", color="#ff8c00")
+define young_crab = Character("Young Crab", color="#ff8c00")
+define magpie = Character("Magpie", color="#ffffff")
+define canary = Character("Canary", color="#ffe600")
+define pat = Character("Pat", color="#00ff00")
 
 image riverbank = "riverbank.png"
 
@@ -428,9 +438,236 @@ label chapter3:
     scene black 
     "{size=+40}Chapter III: \n{/size}A Caucus-Race and a Long Tale"
 
+    # TODO new scene for shore?
+
+    "They were indeed a queer-looking party that assembled on the bank—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable."
+
+    "The first question of course was, how to get dry again: they had a consultation about this, and after a few minutes it seemed quite natural to Alice to find herself talking familiarly with them, as if she had known them all her life."
+    "Indeed, she had quite a long argument with the Lory, who at last turned sulky, and would only say"
+    lory "I am older than you, and must know better"
+    "and this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said."
+
+    "At last the Mouse, who seemed to be a person of authority among them, called out:"
+    mouse "Sit down, all of you, and listen to me! I’ll soon make you dry enough!"
+    "They all sat down at once, in a large ring, with the Mouse in the middle."
+    "Alice kept her eyes anxiously fixed on it, for she felt sure she would catch a bad cold if she did not get dry very soon."
+
+    mouse "Ahem!"
+    mouse "Are you all ready? This is the driest thing I know."
+    mouse "Silence all round, if you please!"
+    mouse "'William the Conqueror, whose cause was favoured by the pope, was soon submitted to by the English, who wanted leaders, and had been of late much accustomed to usurpation and conquest." 
+    mouse "Edwin and Morcar, the earls of Mercia and Northumbria—'"
+
+    lory "Ugh!"
+
+    mouse "I beg your pardon!"
+    mouse "Did you speak?"
+
+    lory "Not I!"
+
+    mouse "I thought you did, —I proceed."
+    mouse "'Edwin and Morcar, the earls of Mercia and Northumbria, declared for him: and even Stigand, the patriotic archbishop of Canterbury, found it advisable—'"
+
+    duck "Found what?"
+
+    mouse "Found it, of course you know what 'it' means."
+
+    duck "I know what 'it' means well enough, when I find a thing, it’s generally a frog or a worm. The question is, what did the archbishop find?"
+
+    "The Mouse did not notice this question, but hurriedly went on,"
+
+    mouse "'—found it advisable to go with Edgar Atheling to meet William and offer him the crown. William’s conduct at first was moderate. But the insolence of his Normans—'"
+    "it continued, turning to Alice as it spoke."
+    mouse "How are you getting on now, my dear?"
+
+    alice "As wet as ever, it doesn’t seem to dry me at all."
+
+    dodo "In that case, I move that the meeting adjourn, for the immediate adoption of more energetic remedies—"
+
+    eaglet "Speak English! I don’t know the meaning of half those long words, and, what’s more, I don’t believe you do either!"
+    "And the Eaglet bent down its head to hide a smile: some of the other birds tittered audibly."
+
+    dodo "What I was going to say, was that the best thing to get us dry would be a Caucus-race."
+
+    "..."
+
+    alice "What is a Caucus-race?"
+
+    "not that she wanted much to know, but the Dodo had paused as if it thought that somebody ought to speak, and no one else seemed inclined to say anything."
+
+    dodo "Why, the best way to explain it is to do it."
+
+    "(And, as you might like to try the thing yourself, some winter day, I will tell you how the Dodo managed it)"
+
+    "First it marked out a race-course, in a sort of circle."
+    dodo "The exact shape doesn’t matter"
+    "And then all the party were placed along the course, here and there."
+    "There was no 'One, two, three, and away', but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over."
+    "However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out:"
+    dodo "The race is over!"
+    "and they all crowded round it, panting, and asking, "
+    everyone "But who has won?"
+
+    "This question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence."
+    dodo "Everybody has won, and all must have prizes."
+
+    everyone "But who is to give the prizes?"
+    dodo "Why, she, of course," 
+    "said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way,"
+    everyone "Prizes! Prizes!"
+
+    "Alice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes."
+    "There was exactly one a-piece all round."
+
+    mouse "But she must have a prize herself, you know."
+
+    dodo "Of course. What else have you got in your pocket?"
+    "The dodo truned to Alice"
+
+    alice "Only a thimble."
+    dodo "Hand it over here."
+
+    "Then they all crowded round her once more, while the Dodo solemnly presented the thimble"
+    dodo "We beg your acceptance of this elegant thimble."
+    "And, when it had finished this short speech, they all cheered."
+
+    "Alice thought the whole thing very absurd, but they all looked so grave that she did not dare to laugh; and, as she could not think of anything to say, she simply bowed, and took the thimble, looking as solemn as she could."
+
+    "The next thing was to eat the comfits: this caused some noise and confusion, as the large birds complained that they could not taste theirs, and the small ones choked and had to be patted on the back."
+    "However, it was over at last, and they sat down again in a ring, and begged the Mouse to tell them something more."
+
+    alice "You promised to tell me your history, you know,"
+    alice "and why it is you hate—C and D"
+    "alice added in a whisper, half afraid that it would be offended again."
+
+    mouse "Mine is a long and a sad tale!"
+
+    alice "It is a long tail, certainly, but why do you call it sad?"
+    "She kept on puzzling about it while the Mouse was speaking, so that her idea of the tale was something like this:—"
+
+    "Fury said to a mouse, That he met in the house, 'Let us both go to law: I will prosecute you.—Come, I’ll take no denial; We must have a trial: For really this morning I’ve nothing to do.'"
+    "Said the mouse to the cur, 'Such a trial, dear Sir, With no jury or judge, would be wasting our breath.'"
+    "'I’ll be judge, I’ll be jury,' Said cunning old Fury: 'I’ll try the whole cause, and condemn you to death.'"
+
+    mouse "You are not attending!"
+    mouse "What are you thinking of?"
+
+    alice "I beg your pardon, you had got to the fifth bend, I think?"
+
+    mouse "I had not!" # cried the Mouse, sharply and very angrily.
+
+    alice "A knot!" # said Alice, always ready to make herself useful, and looking anxiously about her. 
+    alice "Oh, do let me help to undo it!"
+
+    mouse "I shall do nothing of the sort."
+    "the mouse gets up and walks away."
+    mouse "You insult me by talking such nonsense!"
+
+    alice "I didn’t mean it! But you’re so easily offended, you know!"
+
+    "The mouse only growled in reply."
+
+    alice "Please come back and finish your story!"
+    "All the others joined in chorus"
+    everyone "Yes, please do!"
+    "but the Mouse only shook its head impatiently, and walked a little quicker."
+
+    lory "What a pity it wouldn’t stay!"
+    "sighed the Lory, as soon as it was quite out of sight; and an old Crab took the opportunity of saying to her daughter"
+    old_crab "Ah, my dear! Let this be a lesson to you never to lose your temper!"
+    young_crab "Hold your tongue, Ma! You’re enough to try the patience of an oyster!"
+
+    alice "I wish I had our Dinah here, I know I do!"
+    alice "She’d soon fetch it back!"
+
+    lory "And who is Dinah, if I might venture to ask the question?"
+
+    alice "Dinah’s our cat. And she’s such a capital one for catching mice you can’t think! And oh, I wish you could see her after the birds! Why, she’ll eat a little bird as soon as look at it!"
+
+    "This speech caused a remarkable sensation among the party. Some of the birds hurried off at once: one old Magpie began wrapping itself up very carefully"
+    magpie "I really must be getting home; the night-air doesn’t suit my throat!"
+    "and a Canary called out in a trembling voice to its children"
+    canary "Come away, my dears! It’s high time you were all in bed!"
+    "On various pretexts they all moved off, and Alice was soon left alone."
+
+    alice "I wish I hadn’t mentioned Dinah!"
+    alice "Nobody seems to like her, down here, and I’m sure she’s the best cat in the world!"
+    alice "Oh, my dear Dinah! I wonder if I shall ever see you any more!"
+    show alice crying at breathing_crying(0.5, alice_scale)
+    "And here poor Alice began to cry again, for she felt very lonely and low-spirited."
+    "In a little while, however, she again heard a little pattering of footsteps in the distance, and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story."
+
 label chapter4:
     scene black
     "{size=+40}Chapter IV: \n{/size}The Rabbit Sends in a Little Bill"
+
+    "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself"
+    rabbot  "The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
+    "Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely."
+
+    "Very soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone"
+    rabbit "Why, Mary Ann, what are you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!"
+    "And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made."
+
+    alice "He took me for his housemaid. How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them."
+    "As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name 'W. RABBIT' engraved upon it."
+    "She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves."
+
+    alice "How queer it seems, to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!"
+    "And she began fancying the sort of thing that would happen:"
+    alice "'Miss Alice! Come here directly, and get ready for your walk!' 'Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.'"
+    alice "Only I don’t think, that they’d let Dinah stop in the house if it began ordering people about like that!"
+
+    "By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves:"
+    alice "she took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass."
+    play sound "sfx/cork.mp3"
+    "There was no label this time with the words 'DRINK ME', but nevertheless she uncorked it and put it to her lips."
+    alice "I know something interesting is sure to happen, whenever I eat or drink anything; so I’ll just see what this bottle does."
+    alice "I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!"
+
+    "It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken."
+    "She hastily put down the bottle."
+    alice "That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!"
+
+    "Alas! it was too late to wish that! She went on growing, and growing, and very soon had to kneel down on the floor:"
+    "In another minute there was not even room for this, and she tried the effect of lying down with one elbow against the door, and the other arm curled round her head."
+    "Still she went on growing, and, as a last resource, she put one arm out of the window, and one foot up the chimney"
+    alice "Now I can do no more, whatever happens. What will become of me?"
+
+    "Luckily for Alice, the little magic bottle had now had its full effect, and she grew no larger:"
+    "Still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy."
+
+    alice "It was much pleasanter at home, when one wasn’t always growing larger and smaller, and being ordered about by mice and rabbits."
+    alice "I almost wish I hadn’t gone down that rabbit-hole—and yet—and yet—it’s rather curious, you know, this sort of life!"
+    alice "I do wonder what can have happened to me! When I used to read fairy-tales, I fancied that kind of thing never happened, and now here I am in the middle of one!"
+    alice "There ought to be a book written about me, that there ought! And when I grow up, I’ll write one—but I’m grown up now, at least there’s no room to grow up any more here."
+
+    alice "But then, shall I never get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like that!"
+
+    alice "Oh, you foolish Alice!"
+    alice "How can you learn lessons in here?"
+    alice "Why, there’s hardly room for you, and no room at all for any lesson-books!"
+
+    "And so she went on, taking first one side and then the other, and making quite a conversation of it altogether; but after a few minutes she heard a voice outside, and stopped to listen."
+
+    rabbit "Mary Ann! Mary Ann!"
+    rabbit "Fetch me my gloves this moment!"
+    "Then came a little pattering of feet on the stairs."
+    "Alice knew it was the Rabbit coming to look for her, and she trembled till she shook the house, quite forgetting that she was now about a thousand times as large as the Rabbit, and had no reason to be afraid of it."
+
+    "Presently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure."
+    rabbit "Then I’ll go round and get in at the window."
+
+    alice "That you won’t!"
+    "thought Alice, and, after waiting till she fancied she heard the Rabbit just under the window, she suddenly spread out her hand, and made a snatch in the air."
+    "She did not get hold of anything, but she heard a little shriek and a fall, and a crash of broken glass, from which she concluded that it was just possible it had fallen into a cucumber-frame, or something of the sort."
+
+    "Next came an angry voice—"
+    rabbit "Pat! Pat! Where are you?"
+    "And then a voice she had never heard before, "
+    pat "Sure then I’m here! Digging for apples, yer honour!"
+
+    
 
 label chapter5:
     scene black
