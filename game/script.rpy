@@ -11,6 +11,10 @@ define young_crab = Character("Young Crab", color="#ff8c00")
 define magpie = Character("Magpie", color="#ffffff")
 define canary = Character("Canary", color="#ffe600")
 define pat = Character("Pat", color="#00ff00")
+define anon = Character("???", color="#ffffff")
+define bill = Character("Bill", color="#0400ff")
+define caterpillar = Character("Caterpillar", color="#ff00ff")
+define pigeon = Character("Pigeon", color="#adadad")
 
 image riverbank = "riverbank.png"
 
@@ -602,7 +606,7 @@ label chapter4:
     "{size=+40}Chapter IV: \n{/size}The Rabbit Sends in a Little Bill"
 
     "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself"
-    rabbot  "The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
+    rabbit  "The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
     "Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely."
 
     "Very soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone"
@@ -666,12 +670,320 @@ label chapter4:
     rabbit "Pat! Pat! Where are you?"
     "And then a voice she had never heard before, "
     pat "Sure then I’m here! Digging for apples, yer honour!"
+    "(Sounds of more broken glass.)"
+    rabbit "Now tell me, Pat, what’s that in the window?"
+    pat "Sure, it’s an arrumm, yer honour!"
+    rabbit "An arm, you goose! Who ever saw one that size? Why, it fills the whole window!"
+    pat "Sure, it does, yer honour: but it’s an arm for all that."
+    rabbit "Well, it’s got no business there, at any rate: go and take it away!"
 
-    
+    "There was a long silence after this, and Alice could only hear whispers now and then; such as,"
+    pat "Sure, I don’t like it, yer honour, at all, at all!"
+    rabbit "Do as I tell you, you coward!"
+    "and at last she spread out her hand again, and made another snatch in the air."
+    "This time there were two little shrieks, and more sounds of broken glass." # todo sfx
+    alice "What a number of cucumber-frames there must be!"
+    alice "I wonder what they’ll do next! As for pulling me out of the window, I only wish they could! I’m sure I don’t want to stay in here any longer!"
+
+    "She waited for some time without hearing anything more: at last came a rumbling of little cartwheels, and the sound of a good many voices all talking together:"
+
+    anon "Where’s the other ladder?"
+    anon "Why, I hadn’t to bring but one; Bill’s got the other"
+    anon "Bill! fetch it here, lad!"
+    anon "Here, put 'em up at this corner"
+    anon "No, tie 'em together first—they don’t reach half high enough yet—Oh! they’ll do well enough; don’t be particular"
+    anon "Here, Bill! catch hold of this rope"
+    anon "Will the roof bear?"
+    anon "Mind that loose slate"
+    anon "Oh, it’s coming down! Heads below!"
+    # TODO a loud crash sfx
+    anon "Now, who did that?"
+    anon "It was Bill, I fancy"
+    anon "Who’s to go down the chimney?"
+    anon "Nay, I shan’t! You do it!"
+    anon "That I won’t, then!"
+    anon "Bill’s to go down"
+    anon "Here, Bill! the master says you’re to go down the chimney!"
+
+    alice "Oh! So Bill’s got to come down the chimney, has he?"
+    alice "Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I think I can kick a little!"
+
+    "She drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her:"
+    alice "This is Bill!"
+    "She gave one sharp kick, and waited to see what would happen next."
+
+    "The first thing she heard was a general chorus of"
+    everyone "There goes Bill!"
+    "Then the Rabbit’s voice along—"
+    rabbit "Catch him, you by the hedge!"
+    "Then silence, and then another confusion of voices—"
+    anon "Hold up his head"
+    anon "Brandy now"
+    anon "Don’t choke him"
+    anon "How was it, old fellow? What happened to you? Tell us all about it!"
+
+    "Last came a little feeble, squeaking voice"
+    bill "Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
+    anon "So you did, old fellow!"
+
+    rabbit "We must burn the house down!"
+    "Alice called out as loud as she could:"
+    alice "If you do, I’ll set Dinah at you!"
+
+    "..."
+    "There was a dead silence instantly, and Alice thought to herself:"
+    alice "I wonder what they will do next! If they had any sense, they’d take the roof off."
+    "After a minute or two, they began moving about again"
+    rabbit "A barrowful will do, to begin with."
+
+    alice "A barrowful of what?"
+    "She had not long to doubt, for the next moment a shower of little pebbles came rattling in at the window, and some of them hit her in the face."
+    alice "I’ll put a stop to this."
+    "she said to herself, and shouted out, "
+    alice "You’d better not do that again!"
+    "which produced another dead silence."
+
+    "Alice noticed with some surprise that the pebbles were all turning into little cakes as they lay on the floor, and a bright idea came into her head."
+    alice "If I eat one of these cakes, it’s sure to make some change in my size; and as it can’t possibly make me larger, it must make me smaller, I suppose."
+
+    "So she swallowed one of the cakes, and was delighted to find that she began shrinking directly."
+    "As soon as she was small enough to get through the door, she ran out of the house, and found quite a crowd of little animals and birds waiting outside."
+    "The poor little Lizard, Bill, was in the middle, being held up by two guinea-pigs, who were giving it something out of a bottle."
+    "They all made a rush at Alice the moment she appeared; but she ran off as hard as she could, and soon found herself safe in a thick wood."
+
+    alice "The first thing I’ve got to do, is to grow to my right size again; and the second thing is, to find my way into that lovely garden."
+    alice "I think that will be the best plan."
+
+    "It sounded an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that she had not the smallest idea how to set about it; and while she was peering about anxiously among the trees, a little sharp bark just over her head made her look up in a great hurry."
+
+    "An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her."
+    alice "Poor little thing!"
+    "She tried hard to whistle to it; but she was terribly frightened all the time at the thought that it might be hungry, in which case it would be very likely to eat her up in spite of all her coaxing."
+
+    "Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it;"
+    "then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it;"
+    "then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every moment to be trampled under its feet, ran round the thistle again;"
+    "then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut."
+
+    "This seemed to Alice a good opportunity for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the puppy’s bark sounded quite faint in the distance."
+
+    alice "And yet what a dear little puppy it was!"
+    "She leant against a buttercup to rest herself, and fanned herself with one of the leaves:"
+    alice "I should have liked teaching it tricks very much, if—if I’d only been the right size to do it!"
+    alice "Oh dear! I’d nearly forgotten that I’ve got to grow up again!"
+    alice "Let me see—how is it to be managed?"
+    alice "I suppose I ought to eat or drink something or other; but the great question is, what?"
+
+    "The great question certainly was, what?"
+    "Alice looked all round her at the flowers and the blades of grass, but she did not see anything that looked like the right thing to eat or drink under the circumstances."
+    "There was a large mushroom growing near her, about the same height as herself; and when she had looked under it, and on both sides of it, and behind it, it occurred to her that she might as well look and see what was on the top of it."
+
+    "She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else."
 
 label chapter5:
     scene black
     "{size=+40}Chapter V: \n{/size}Advice from a Caterpillar"
+
+    "The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice."
+
+    caterpillar "Who are you?"
+
+    "This was not an encouraging opening for a conversation."
+    alice "I—I hardly know, sir, just at present—at least I know who I was when I got up this morning, but I think I must have been changed several times since then."
+
+    caterpillar "What do you mean by that?"
+    caterpillar "Explain yourself!"
+
+    alice "I can’t explain myself, I’m afraid, sir, because I’m not myself, you see."
+
+    caterpillar "I don’t see."
+
+    alice "I’m afraid I can’t put it more clearly, for I can’t understand it myself to begin with; and being so many different sizes in a day is very confusing."
+
+    caterpillar "It isn’t."
+
+    alice "Well, perhaps you haven’t found it so yet, but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll feel it a little queer, won’t you?"
+
+    caterpillar "Not a bit."
+
+    alice "Well, perhaps your feelings may be different. All I know is, it would feel very queer to me."
+
+    caterpillar "You!" # said the Caterpillar contemptuously.
+    caterpillar "Who are you?"
+
+    "Which brought them back again to the beginning of the conversation."
+    "Alice felt a little irritated at the Caterpillar’s making such very short remarks, and she drew herself up and said, very gravely,"
+    alice "I think, you ought to tell me who you are, first."
+
+    caterpillar "Why?"
+
+    "Here was another puzzling question; and as Alice could not think of any good reason, and as the Caterpillar seemed to be in a very unpleasant state of mind, she turned away."
+
+    caterpillar "Come back!"
+    caterpillar "I’ve something important to say!"
+
+    "This sounded promising, certainly: Alice turned and came back again."
+
+    caterpillar "Keep your temper."
+
+    "..."
+
+    alice "Is that all?"
+    "Alice swallowed down her anger as well as she could."
+    caterpillar "No"
+
+    "Alice thought she might as well wait, as she had nothing else to do, and perhaps after all it might tell her something worth hearing."
+    "..."
+    "For some minutes it puffed away without speaking, but at last it unfolded its arms, took the hookah out of its mouth again."
+    caterpillar "So you think you’re changed, do you?"
+
+    alice "I’m afraid I am, sir."
+    alice "I can’t remember things as I used—and I don’t keep the same size for ten minutes together!"
+
+    caterpillar "Can’t remember what things?"
+
+    alice "Well, I’ve tried to say 'How doth the little busy bee', but it all came different!"
+
+    caterpillar "Repeat, 'You are old, Father William.'"
+
+    "Alice folded her hands, and began:"
+
+    alice "'You are old, Father William,' the young man said,\n   And your hair has become very white;\nAnd yet you incessantly stand on your head—\n   Do you think, at your age, it is right?'"
+
+    alice "'In my youth,' Father William replied to his son,\n   'I feared it might injure the brain;\nBut, now that I’m perfectly sure I have none,\n   Why, I do it again and again.'"
+
+    alice "'You are old,' said the youth, 'as I mentioned before,\n   And have grown most uncommonly fat;\nYet you turned a back-somersault in at the door—\n   Pray, what is the reason of that?'"
+
+    alice "'In my youth,' said the sage, as he shook his grey locks,\n   'I kept all my limbs very supple\nBy the use of this ointment—one shilling the box—\n   Allow me to sell you a couple?'"
+
+    alice "'You are old,' said the youth, 'and your jaws are too weak\n   For anything tougher than suet;\nYet you finished the goose, with the bones and the beak—\n   Pray how did you manage to do it?'"
+
+    alice "'In my youth,' said his father, 'I took to the law,\n   And argued each case with my wife;\nAnd the muscular strength, which it gave to my jaw,\n   Has lasted the rest of my life.'"
+
+    alice "'You are old,' said the youth, 'one would hardly suppose\n   That your eye was as steady as ever;\nYet you balanced an eel on the end of your nose—\n   What made you so awfully clever?'"
+
+    alice "'I have answered three questions, and that is enough,'\n   Said his father; 'don’t give yourself airs!\nDo you think I can listen all day to such stuff?\n   Be off, or I’ll kick you down stairs!'"
+
+    caterpillar "That is not said right."
+
+    alice "Not quite right, I’m afraid." # said alice timidly;
+    alice "Some of the words have got altered."
+
+    caterpillar "It is wrong from beginning to end."
+    "..."
+    "And there was silence for some minutes."
+
+    caterpillar "What size do you want to be?"
+
+    alice "Oh, I’m not particular as to size, only one doesn’t like changing so often, you know."
+
+    caterpillar "I don’t know."
+
+    "Alice said nothing: she had never been so much contradicted in all her life before, and she felt that she was losing her temper."
+
+    caterpillar "Are you content now?"
+
+    alice "Well, I should like to be a little larger, sir, if you wouldn’t mind."
+    alice "Three inches is such a wretched height to be."
+
+    caterpillar "It is a very good height indeed!"
+    "said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)."
+
+    alice "But I’m not used to it!"
+    "pleaded poor Alice in a piteous tone. And she thought of herself:"
+
+    alice "I wish the creatures wouldn’t be so easily offended!"
+
+    caterpillar "You’ll get used to it in time."
+    "The caterpillar put the hookah into its mouth and began smoking again."
+
+    "This time Alice waited patiently until it chose to speak again."
+    "In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself."
+    "Then it got down off the mushroom, and crawled away in the grass."
+    caterpillar "One side will make you grow taller, and the other side will make you grow shorter."
+
+    alice "One side of what? The other side of what?"
+    caterpillar "Of the mushroom."
+    "In another moment it was out of sight."
+
+    "Alice remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it; and as it was perfectly round, she found this a very difficult question."
+    "However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand."
+
+    alice "And now which is which?"
+    "She nibbled a little of the right-hand bit to try the effect:"
+    "The next moment she felt a violent blow underneath her chin: it had struck her foot!"
+
+    "She was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit."
+    "Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit."
+
+    alice "Come, my head’s free at last!"
+    "alice was delighted, which changed into alarm in another moment, when she found that her shoulders were nowhere to be found: all she could see, when she looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her."
+
+    alice "What can all that green stuff be?"
+    alice "And where have my shoulders got to?"
+    alice "And oh, my poor hands, how is it I can’t see you?"
+    "She was moving them about as she spoke, but no result seemed to follow, except a little shaking among the distant green leaves."
+
+    "As there seemed to be no chance of getting her hands up to her head, she tried to get her head down to them, and was delighted to find that her neck would bend about easily in any direction, like a serpent."
+    "She had just succeeded in curving it down into a graceful zigzag, and was going to dive in among the leaves, which she found to be nothing but the tops of the trees under which she had been wandering, when a sharp hiss made her draw back in a hurry: a large pigeon had flown into her face, and was beating her violently with its wings."
+
+    pigeon "Serpent!"
+
+    alice "I’m not a serpent! Let me alone!"
+
+    pigeon "Serpent, I say again!"
+    pigeon "I’ve tried every way, and nothing seems to suit them!"
+
+    alice "I haven’t the least idea what you’re talking about."
+
+    pigeon "I’ve tried the roots of trees, and I’ve tried banks, and I’ve tried hedges, but those serpents! There’s no pleasing them!"
+
+    "Alice was more and more puzzled, but she thought there was no use in saying anything more till the pigeon had finished."
+
+    pigeon "As if it wasn’t trouble enough hatching the eggs, but I must be on the look-out for serpents night and day!"
+    pigeon "Why, I haven’t had a wink of sleep these three weeks!"
+
+    alice "I’m very sorry you’ve been annoyed."
+
+    pigeon "And just as I’d taken the highest tree in the wood, and just as I was thinking I should be free of them at last, they must needs come wriggling down from the sky! Ugh, Serpent!" # ontinued the Pigeon, raising its voice to a shriek
+
+    alice "But I’m not a serpent, I tell you!"
+    alice "I’m a—I’m a—"
+
+    pigeon "Well! What are you?"
+    pigeon "I can see you’re trying to invent something!"
+
+    alice "I—I’m a little girl..."
+    "said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day."
+
+    pigeon "A likely story indeed!"
+    pigeon "I’ve seen a good many little girls in my time, but never one with such a neck as that!"
+    pigeon "No, no! You’re a serpent; and there’s no use denying it."
+    pigeon "I suppose you’ll be telling me next that you never tasted an egg!"
+
+    alice "I have tasted eggs, certainly, but little girls eat eggs quite as much as serpents do, you know."
+
+    pigeon "I don’t believe it, but if they do, why then they’re a kind of serpent, that’s all I can say."
+
+    "This was such a new idea to Alice, that she was quite silent for a minute or two."
+    "..."
+
+    pigeon "You’re looking for eggs, I know _that_ well enough; and what does it matter to me whether you’re a little girl or a serpent?"
+
+    alice "It matters a good deal to me, but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want yours: I don’t like them raw."
+
+    pigeon "Well, be off, then!"
+    "Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it."
+    "After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height."
+
+    "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
+    alice "Come, there’s half my plan done now!"
+    alice "How puzzling all these changes are!" 
+    alice "I’m never sure what I’m going to be, from one minute to another!"
+    alice "However, I’ve got back to my right size: the next thing is, to get into that beautiful garden—how is that to be done, I wonder?"
+    "She came suddenly upon an open place, with a little house in it about four feet high."
+    alice "Whoever lives there, it’ll never do to come upon them this size: why, I should frighten them out of their wits!"
+    "So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high."
 
 label chapter6:
     scene black
