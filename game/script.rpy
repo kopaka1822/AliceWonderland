@@ -50,6 +50,12 @@ transform breathing_crying(xposition, scale = 1.0):
     ease 2.5 yzoom 1.0
     repeat
 
+transform alice_growing_large:
+    pos (0.5, 0.7)
+    anchor (0.5, 1.0)
+    zoom 0.5
+    easeout 60.0 zoom 10.0
+
 transform pan_background_to_center:
     xalign 0.0
     linear 15.0 xalign 0.5
@@ -276,12 +282,67 @@ label chapter2:
     "{size=+40}Chapter II: \n{/size}The Pool of Tears"
 
     scene hall at center
+    play music "audio/rinne memories of clockwise tower.mp3"
 
-    show alice excited at breathing(0.5, alice_scale)
+    show alice excited at alice_growing_large
     alice "Curiouser and curiouser!"
     "(she was so much surprised, that for the moment she quite forgot how to speak good English)"
     alice "Now I’m opening out like the largest telescope that ever was!"
     alice "Good-bye, feet!"
+    "(For when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off)"
+    alice "Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure I shan’t be able! "
+    alice "I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; —but I must be kind to them, or perhaps they won’t walk the way I want to go!" 
+    alice "Let me see: I’ll give them a new pair of boots every Christmas."
+    "And she went on planning to herself how she would manage it."
+    alice "They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!"
+    "Alice’s Right Foot, Esq. \nHearthrug, \nNear the Fender, \n(with Alice’s love)."
+    alice "Oh dear, what nonsense I’m talking!"
+    "Just then, her head struck against the roof of the hall: in fact she was now rather more than nine feet high, and she at once took up the little golden key and hurried off to the garden door."
+    "Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again."
+    show alice crying at breathing_crying(0.5, alice_scale)
+
+    alice "You ought to be ashamed of yourself, a great girl like you, to go on crying in this way! Stop this moment, I tell you!"
+    "But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall."
+
+    show alice pout at breathing(0.5, alice_scale)
+    "After a time she heard a little pattering of feet in the distance, and she hastily dried her eyes to see what was coming."
+    "It was the White Rabbit returning, splendidly dressed, with a pair of white kid gloves in one hand and a large fan in the other:"
+    "he came trotting along in a great hurry, muttering to himself as he came,"
+    hide alice
+    show rabbit normal at breathing(0.5)
+    rabbit "Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!"
+    "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice,"
+    hide rabbit
+    show alice pout at breathing(0.5, alice_scale)
+    alice "If you please, sir—"
+    "The Rabbit started violently, dropped the white kid gloves and the fan, and skurried away into the darkness as hard as he could go."
+
+    "Alice took up the fan and gloves, and, as the hall was very hot, she kept fanning herself all the time she went on talking:"
+
+    alice "Dear, dear! How queer everything is to-day! And yesterday things went on just as usual."
+    alice "I wonder if I’ve been changed in the night? Let me think:"
+    alice "was I the same when I got up this morning? I almost think I can remember feeling a little different."
+    alice "But if I’m not the same, the next question is, Who in the world am I? Ah, that’s the great puzzle!"
+    "And she began thinking over all the children she knew that were of the same age as herself, to see if she could have been changed for any of them."
+
+    alice "I’m sure I’m not Ada, for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, she’s she, and I’m I, and—oh dear, how puzzling it all is!"
+    alice "I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is—oh dear! I shall never get to twenty at that rate!"
+    alice "However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, that’s all wrong, I’m certain!"
+    alice "I must have been changed for Mabel! I’ll try and say 'How doth the little—'"
+    "and she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:"
+
+    alice "How doth the little crocodile \n    Improve his shining tail, \nAnd pour the waters of the Nile \n    On every golden scale!"
+
+    alice "How cheerfully he seems to grin, \n    How neatly spread his claws, \nAnd welcome little fishes in \n    With gently smiling jaws!"
+
+    show alice crying at breathing_crying(0.5, alice_scale)
+    alice "I’m sure those are not the right words"
+    alice "I must be Mabel after all, and I shall have to go and live in that poky little house, and have next to no toys to play with, and oh!"
+    alice "Ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here!" 
+    alice "It’ll be no use their putting their heads down and saying 'Come up again, dear!' I shall only look up and say 'Who am I then?" 
+    alice "Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else' —but, oh dear!"
+    alice "I do wish they would put their heads down! I am so very tired of being all alone here!"
+
 
 label chapter3:
     scene black 
