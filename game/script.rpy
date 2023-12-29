@@ -1,5 +1,5 @@
-﻿define alice = Character("Alice", color="#c8ffc8")
-define rabbit = Character("Rabbit", color="#c8ffc8")
+﻿define alice = Character("Alice", color="#ADD8E6")
+define rabbit = Character("Rabbit", color="#ffffff")
 
 image riverbank = "riverbank.png"
 
