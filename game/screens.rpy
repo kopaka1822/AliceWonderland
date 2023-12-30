@@ -1928,5 +1928,6 @@ screen chapter_select():
                         auto load_button_image
                         hover_foreground Text("Chapter {}".format(i), xalign=0.5, yalign=0.5, color="#FFFFFF")
                         idle_foreground Text("Chapter {}".format(i), xalign=0.5, yalign=0.5, color="#FFFFFF")
-                        action Jump("chapter{}".format(i))
+                        #action Jump("chapter{}".format(i))
+                        action Start(label="chapter{}".format(i))
                         size_group "chapters"

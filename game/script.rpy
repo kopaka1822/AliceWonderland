@@ -18,6 +18,10 @@ define pigeon = Character("Pigeon", color="#adadad")
 
 image riverbank = "riverbank.png"
 
+default alice_scale = 0.5
+default alice_scale_large = 0.7
+define mouse_scale = 0.5
+
 transform falling:
     xpos -0.5 ypos 0.0
     linear 1.0 xoffset -20 yoffset -20 rotate 5
@@ -65,17 +69,51 @@ transform breathing_crying(xposition, scale = 1.0):
     ease 2.5 yzoom 1.0
     repeat
 
+transform swimming(xposition, scale = 1.0):
+    pos (xposition, 0.5)
+    anchor (0.5, 0.0)
+    zoom scale
+    ease 2.0 yoffset -10
+    ease 2.0 yoffset 10
+    repeat
+
+transform mouse_swims_away:
+    pos (0.7, 0.5)
+    anchor (0.5, 0.0)
+    zoom mouse_scale
+    linear 10.0 xoffset 1000
+
+transform mouse_swims_back:
+    pos (1.2, 0.5)
+    anchor (0.5, 0.0)
+    zoom mouse_scale
+    linear 10.0 xoffset -500
+    
+
+transform wave_animation():
+    pos (0.5, 1.0)
+    anchor (0.5, 1.0)
+    linear 1.0 yoffset 20
+    linear 1.0 yoffset 10
+    repeat
+
 transform alice_growing_large:
     pos (0.5, 0.7)
     anchor (0.5, 1.0)
     zoom 0.5
     easeout 60.0 zoom 10.0
 
+transform alice_shrinking:
+    pos (0.5, 0.7)
+    anchor (0.5, 1.0)
+    zoom alice_scale_large
+    easein 20.0 zoom alice_scale
+
 transform pan_background_to_center:
     xalign 0.0
     linear 15.0 xalign 0.5
 
-default alice_scale = 0.5
+
 
 label start:
     #jump chapter1_after_fall
@@ -312,14 +350,15 @@ label chapter2:
     alice "They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!"
     "Alice’s Right Foot, Esq. \nHearthrug, \nNear the Fender, \n(with Alice’s love)."
     alice "Oh dear, what nonsense I’m talking!"
+    play sound "sfx/bump.mp3"
     "Just then, her head struck against the roof of the hall: in fact she was now rather more than nine feet high, and she at once took up the little golden key and hurried off to the garden door."
     "Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again."
-    show alice crying at breathing_crying(0.5, alice_scale)
+    show alice crying at breathing_crying(0.5, alice_scale_large)
 
     alice "You ought to be ashamed of yourself, a great girl like you, to go on crying in this way! Stop this moment, I tell you!"
     "But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall."
 
-    show alice pout at breathing(0.5, alice_scale)
+    show alice pout at breathing(0.5, alice_scale_large)
     "After a time she heard a little pattering of feet in the distance, and she hastily dried her eyes to see what was coming."
     "It was the White Rabbit returning, splendidly dressed, with a pair of white kid gloves in one hand and a large fan in the other:"
     "he came trotting along in a great hurry, muttering to himself as he came,"
@@ -328,12 +367,17 @@ label chapter2:
     rabbit "Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!"
     "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice,"
     hide rabbit
-    show alice pout at breathing(0.5, alice_scale)
+    show alice pout at breathing(0.5, alice_scale_large)
     alice "If you please, sir—"
+    hide alice
+
+    show fan gloves at Position(ypos = 0.65)
     "The Rabbit started violently, dropped the white kid gloves and the fan, and skurried away into the darkness as hard as he could go."
 
     "Alice took up the fan and gloves, and, as the hall was very hot, she kept fanning herself all the time she went on talking:"
+    hide fan gloves
 
+    show alice pout at breathing(0.5, alice_scale_large)
     alice "Dear, dear! How queer everything is to-day! And yesterday things went on just as usual."
     alice "I wonder if I’ve been changed in the night? Let me think:"
     alice "was I the same when I got up this morning? I almost think I can remember feeling a little different."
@@ -350,54 +394,74 @@ label chapter2:
 
     alice "How cheerfully he seems to grin, \n    How neatly spread his claws, \nAnd welcome little fishes in \n    With gently smiling jaws!"
 
-    show alice crying at breathing_crying(0.5, alice_scale)
+    show alice crying at breathing_crying(0.5, alice_scale_large)
     alice "I’m sure those are not the right words"
     alice "I must be Mabel after all, and I shall have to go and live in that poky little house, and have next to no toys to play with, and oh!"
     alice "Ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here!" 
-    alice "It’ll be no use their putting their heads down and saying 'Come up again, dear!' I shall only look up and say 'Who am I then?" 
-    alice "Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else' —but, oh dear!"
+    alice "It’ll be no use their putting their heads down and saying 'Come up again, dear!' I shall only look up and say 'Who am I then?'" 
+    alice "'Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else' —but, oh dear!"
     alice "I do wish they would put their heads down! I am so very tired of being all alone here!"
 
+    show alice thinking at alice_shrinking
     "As she said this she looked down at her hands, and was surprised to see that she had put on one of the Rabbit’s little white kid gloves while she was talking."
     alice "How can I have done that?"
     alice "I must be growing small again."
     "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
     "she soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
 
+    show alice happy at breathing(0.5, alice_scale)
     alice "That was a narrow escape!"
     "She was a good deal frightened at the sudden change, but very glad to find herself still in existence."
     alice "And now for the garden!"
     "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before,"
+    show alice pout at breathing(0.5, alice_scale)
     alice  "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
 
     play sound "sfx/splash.mp3"
     "As she said these words her foot slipped, and in another moment, splash!"
+
+    show waves zorder 0 at wave_animation
+    show wavestop zorder 99 at wave_animation
+
+    show alice pout zorder 1 at swimming(0.5, alice_scale)
     "she was up to her chin in salt water."
+
+    show alice thinking zorder 1 at swimming(0.5, alice_scale)
     "Her first idea was that she had somehow fallen into the sea, "
+
     alice "and in that case I can go back by railway"
     "(Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station)"
     "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high."
 
+    show alice pout zorder 1 at swimming(0.5, alice_scale)
     alice "I wish I hadn’t cried so much!"
     "She swam about, trying to find her way out."
     alice "I shall be punished for it now, I suppose, by being drowned in my own tears! That will be a queer thing, to be sure! However, everything is queer to-day."
 
+    show alice thinking zorder 1 at swimming(0.5, alice_scale)
+    play sound "sfx/splash.mp3"
     "Just then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was:"
+    show alice thinking zorder 1 at swimming(0.3, alice_scale)
+    show mouse zorder 1 at swimming(0.7, mouse_scale)
     "at first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself."
 
     alice "Would it be of any use, now, to speak to this mouse?"
     alice "Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying."
     "So she began:"
+    show alice normal zorder 1 at swimming(0.3, alice_scale)
     alice "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!"
     "(Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother’s Latin Grammar, 'A mouse—of a mouse—to a mouse—a mouse—O mouse!')"
     "The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing."
 
+    show alice thinking zorder 1 at swimming(0.3, alice_scale)
     alice "Perhaps it doesn’t understand English, I daresay it’s a French mouse, come over with William the Conqueror."
     "(For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened)"
     "So she began again:"
+    show alice normal zorder 1 at swimming(0.3, alice_scale)
     alice "Où est ma chatte?"
     "which was the first sentence in her French lesson-book."
     "The mouse gave a sudden leap out of the water, and seemed to quiver all over with fright."
+    show alice thinking zorder 1 at swimming(0.3, alice_scale)
     alice "Oh, I beg your pardon!"
     "She was afraid that she had hurt the poor animal’s feelings."
     alice "I quite forgot you didn’t like cats."
@@ -406,17 +470,20 @@ label chapter2:
     mouse "Would you like cats if you were me?"
 
     alice "Well, perhaps not, don’t be angry about it."
+    show alice happy zorder 1 at swimming(0.3, alice_scale)
     alice "And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her."
     alice "She is such a dear quiet thing,"
     "Alice went on, half to herself, as she swam lazily about in the pool,"
     alice "and she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
     "This time the Mouse was bristling all over, and she felt certain it must be really offended."
+    show alice thinking zorder 1 at swimming(0.3, alice_scale)
     alice "We won’t talk about her any more if you’d rather not."
 
     mouse "We indeed!"
     "The mouse was trembling down to the end of its tail."
     mouse "As if I would talk on such a subject! Our family always hated cats: nasty, low, vulgar things! Don’t let me hear the name again!"
 
+    show alice normal zorder 1 at swimming(0.3, alice_scale)
     alice "I won’t indeed!"
     "alice was in a great hurry to change the subject of conversation."
     alice "Are you—are you fond—of—of dogs?"
@@ -425,11 +492,16 @@ label chapter2:
     alice "A little bright-eyed terrier, you know, with oh, such long curly brown hair!"
     alice "And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things—I can’t remember half of them—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds!"
     alice "He says it kills all the rats and—oh dear!"
+    show alice crying zorder 1 at swimming(0.3, alice_scale)
     "Alice cried in a sorrowful tone"
     alice "I’m afraid I’ve offended it again!"
+    show mouse zorder 1 at mouse_swims_away
     "For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
 
     alice "Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!"
+    show alice normal zorder 1 at swimming(0.3, alice_scale)
+    hide mouse
+    show mouse zorder 1 at mouse_swims_back
     "When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice,"
     mouse "Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs."
 
