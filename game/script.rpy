@@ -21,6 +21,14 @@ image riverbank = "riverbank.png"
 default alice_scale = 0.5
 default alice_scale_large = 0.7
 define mouse_scale = 0.5
+define lory_scale = 0.5
+define duck_scale = 0.5
+define dodo_scale = 0.5
+define eaglet_scale = 0.5
+define old_crab_scale = 0.5
+define young_crab_scale = 0.5
+define magpie_scale = 0.5
+define canary_scale = 0.5
 
 transform falling:
     xpos -0.5 ypos 0.0
@@ -417,13 +425,14 @@ label chapter2:
     show alice pout at breathing(0.5, alice_scale)
     alice  "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
 
+    stop music fadeout 1.0
     play sound "sfx/splash.mp3"
     "As she said these words her foot slipped, and in another moment, splash!"
 
     show waves zorder 0 at wave_animation
     show wavestop zorder 99 at wave_animation
-
     show alice pout zorder 1 at swimming(0.5, alice_scale)
+    play music "audio/rinne beyond the sea.mp3"
     "she was up to her chin in salt water."
 
     show alice thinking zorder 1 at swimming(0.5, alice_scale)
@@ -506,6 +515,7 @@ label chapter2:
     mouse "Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs."
 
     "It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures."
+    stop music fadeout 1.0
     "Alice led the way, and the whole party swam to the shore."
 
 
@@ -514,16 +524,26 @@ label chapter3:
     scene black 
     "{size=+40}Chapter III: \n{/size}A Caucus-Race and a Long Tale"
 
-    # TODO new scene for shore?
+    scene muddy:
+        xalign 0.0
+        linear 40.0 xalign 1.0
+
+    play music "audio/rinne aqua.mp3"
 
     "They were indeed a queer-looking party that assembled on the bank—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable."
 
     "The first question of course was, how to get dry again: they had a consultation about this, and after a few minutes it seemed quite natural to Alice to find herself talking familiarly with them, as if she had known them all her life."
     "Indeed, she had quite a long argument with the Lory, who at last turned sulky, and would only say"
+
+    scene muddy at Position(xalign = 0.1)
+    show lory at breathing(0.5, lory_scale)
     lory "I am older than you, and must know better"
     "and this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said."
 
     "At last the Mouse, who seemed to be a person of authority among them, called out:"
+
+    scene muddy at Position(xalign = 0.5)
+    show mouse at breathing(0.5, mouse_scale)
     mouse "Sit down, all of you, and listen to me! I’ll soon make you dry enough!"
     "They all sat down at once, in a large ring, with the Mouse in the middle."
     "Alice kept her eyes anxiously fixed on it, for she felt sure she would catch a bad cold if she did not get dry very soon."
@@ -534,43 +554,71 @@ label chapter3:
     mouse "'William the Conqueror, whose cause was favoured by the pope, was soon submitted to by the English, who wanted leaders, and had been of late much accustomed to usurpation and conquest." 
     mouse "Edwin and Morcar, the earls of Mercia and Northumbria—'"
 
+    scene muddy at Position(xalign = 0.1)
+    show lory at breathing(0.5, lory_scale)
     lory "Ugh!"
 
+    scene muddy at Position(xalign = 0.5)
+    show mouse at breathing(0.5, mouse_scale)
     mouse "I beg your pardon!"
     mouse "Did you speak?"
 
+    scene muddy at Position(xalign = 0.1)
+    show lory at breathing(0.5, lory_scale)
     lory "Not I!"
 
+    scene muddy at Position(xalign = 0.5)
+    show mouse at breathing(0.5, mouse_scale)
     mouse "I thought you did, —I proceed."
     mouse "'Edwin and Morcar, the earls of Mercia and Northumbria, declared for him: and even Stigand, the patriotic archbishop of Canterbury, found it advisable—'"
 
+    scene muddy at Position(xalign = 0.2)
+    show duck at breathing(0.5, duck_scale)
     duck "Found what?"
 
+    scene muddy at Position(xalign = 0.5)
+    show mouse at breathing(0.5, mouse_scale)
     mouse "Found it, of course you know what 'it' means."
 
+    scene muddy at Position(xalign = 0.2)
+    show duck at breathing(0.5, duck_scale)
     duck "I know what 'it' means well enough, when I find a thing, it’s generally a frog or a worm. The question is, what did the archbishop find?"
 
+    scene muddy at Position(xalign = 0.5)
+    show mouse at breathing(0.5, mouse_scale)
     "The Mouse did not notice this question, but hurriedly went on,"
 
     mouse "'—found it advisable to go with Edgar Atheling to meet William and offer him the crown. William’s conduct at first was moderate. But the insolence of his Normans—'"
     "it continued, turning to Alice as it spoke."
     mouse "How are you getting on now, my dear?"
 
+    scene muddy at Position(xalign = 0.4)
+    show alice pout at breathing(0.5, alice_scale)
     alice "As wet as ever, it doesn’t seem to dry me at all."
 
+    scene muddy at Position(xalign = 0.3)
+    show dodo at breathing(0.5, dodo_scale)
     dodo "In that case, I move that the meeting adjourn, for the immediate adoption of more energetic remedies—"
 
+    scene muddy at Position(xalign = 0.5)
+    show eaglet at breathing(0.6, eaglet_scale)
     eaglet "Speak English! I don’t know the meaning of half those long words, and, what’s more, I don’t believe you do either!"
     "And the Eaglet bent down its head to hide a smile: some of the other birds tittered audibly."
 
+    scene muddy at Position(xalign = 0.3)
+    show dodo at breathing(0.5, dodo_scale)
     dodo "What I was going to say, was that the best thing to get us dry would be a Caucus-race."
 
     "..."
 
+    scene muddy at Position(xalign = 0.4)
+    show alice thinking at breathing(0.5, alice_scale)
     alice "What is a Caucus-race?"
 
     "not that she wanted much to know, but the Dodo had paused as if it thought that somebody ought to speak, and no one else seemed inclined to say anything."
 
+    scene muddy at Position(xalign = 0.3)
+    show dodo at breathing(0.5, dodo_scale)
     dodo "Why, the best way to explain it is to do it."
 
     "(And, as you might like to try the thing yourself, some winter day, I will tell you how the Dodo managed it)"
@@ -595,12 +643,21 @@ label chapter3:
     "Alice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes."
     "There was exactly one a-piece all round."
 
+    scene muddy at Position(xalign = 0.5)
+    show mouse at breathing(0.5, mouse_scale)
     mouse "But she must have a prize herself, you know."
 
+    scene muddy at Position(xalign = 0.3)
+    show dodo at breathing(0.5, dodo_scale)
     dodo "Of course. What else have you got in your pocket?"
     "The dodo truned to Alice"
 
+    scene muddy at Position(xalign = 0.4)
+    show alice normal at breathing(0.5, alice_scale)
     alice "Only a thimble."
+
+    scene muddy at Position(xalign = 0.3)
+    show dodo at breathing(0.5, dodo_scale)
     dodo "Hand it over here."
 
     "Then they all crowded round her once more, while the Dodo solemnly presented the thimble"
@@ -610,12 +667,17 @@ label chapter3:
     "Alice thought the whole thing very absurd, but they all looked so grave that she did not dare to laugh; and, as she could not think of anything to say, she simply bowed, and took the thimble, looking as solemn as she could."
 
     "The next thing was to eat the comfits: this caused some noise and confusion, as the large birds complained that they could not taste theirs, and the small ones choked and had to be patted on the back."
+
+    scene muddy at Position(xalign = 0.5)
+    show alice normal at breathing(0.3, alice_scale)
+    show mouse at breathing(0.7, mouse_scale)
     "However, it was over at last, and they sat down again in a ring, and begged the Mouse to tell them something more."
 
+    
     alice "You promised to tell me your history, you know,"
     alice "and why it is you hate—C and D"
     "alice added in a whisper, half afraid that it would be offended again."
-
+ 
     mouse "Mine is a long and a sad tale!"
 
     alice "It is a long tail, certainly, but why do you call it sad?"
@@ -636,34 +698,62 @@ label chapter3:
     alice "Oh, do let me help to undo it!"
 
     mouse "I shall do nothing of the sort."
+    show mouse at breathing(0.8, mouse_scale)
     "the mouse gets up and walks away."
     mouse "You insult me by talking such nonsense!"
 
     alice "I didn’t mean it! But you’re so easily offended, you know!"
-
+    show mouse at breathing(0.9, mouse_scale)
     "The mouse only growled in reply."
 
     alice "Please come back and finish your story!"
     "All the others joined in chorus"
+    show mouse at breathing(1.0, mouse_scale)
     everyone "Yes, please do!"
     "but the Mouse only shook its head impatiently, and walked a little quicker."
 
+    scene muddy at Position(xalign = 0.1)
+    show lory at breathing(0.5, lory_scale)
     lory "What a pity it wouldn’t stay!"
     "sighed the Lory, as soon as it was quite out of sight; and an old Crab took the opportunity of saying to her daughter"
+
+    scene muddy at Position(xalign = 0.7)
+    show old_crab at breathing(0.5, old_crab_scale)
     old_crab "Ah, my dear! Let this be a lesson to you never to lose your temper!"
+    
+    scene muddy at Position(xalign = 0.8)
+    show young_crab at breathing(0.5, young_crab_scale)
     young_crab "Hold your tongue, Ma! You’re enough to try the patience of an oyster!"
 
+    scene muddy at Position(xalign = 0.5)
+    show alice normal at breathing(0.5, alice_scale)
     alice "I wish I had our Dinah here, I know I do!"
     alice "She’d soon fetch it back!"
 
+    scene muddy at Position(xalign = 0.1)
+    show lory at breathing(0.5, lory_scale)
     lory "And who is Dinah, if I might venture to ask the question?"
 
+    scene muddy at Position(xalign = 0.5)
+    show alice normal at breathing(0.5, alice_scale)
     alice "Dinah’s our cat. And she’s such a capital one for catching mice you can’t think! And oh, I wish you could see her after the birds! Why, she’ll eat a little bird as soon as look at it!"
 
+    scene muddy at Position(xalign = 0.9)
+    show magpie at breathing(0.5, magpie_scale)
     "This speech caused a remarkable sensation among the party. Some of the birds hurried off at once: one old Magpie began wrapping itself up very carefully"
+    show magpie:
+        linear 1.0 xalign 2.0
     magpie "I really must be getting home; the night-air doesn’t suit my throat!"
+
+    scene muddy at Position(xalign = 0.95)
+    show canary at breathing(0.5, alice_scale)
     "and a Canary called out in a trembling voice to its children"
+    show canary:
+        linear 1.0 xalign 2.0
     canary "Come away, my dears! It’s high time you were all in bed!"
+    
+    scene muddy at Position(xalign = 0.5)
+    show alice pout at breathing(0.5, alice_scale)
     "On various pretexts they all moved off, and Alice was soon left alone."
 
     alice "I wish I hadn’t mentioned Dinah!"

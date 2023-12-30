@@ -1,0 +1,13 @@
+locations:
+lory 0.1
+duck 0.2
+dodo 0.3
+alice 0.4
+
+mouse 0.5
+
+eaglet 0.6
+old crab 0.7
+young crab 0.8
+magpie 0.9
+canary 0.95
