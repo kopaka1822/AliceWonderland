@@ -19,6 +19,7 @@ style input:
 
 style hyperlink_text:
     properties gui.text_properties("hyperlink", accent=True)
+    color "#33FFFF"
     hover_underline True
 
 style gui_text:
@@ -32,9 +33,9 @@ style button_text is gui_text:
     properties gui.text_properties("button")
     yalign 0.5
 
-
 style label_text is gui_text:
     properties gui.text_properties("label", accent=True)
+    color "#fff"
 
 style prompt_text is gui_text:
     properties gui.text_properties("prompt")
@@ -762,7 +763,8 @@ style game_menu_label:
 
 style game_menu_label_text:
     size gui.title_text_size
-    color gui.accent_color
+    ##color gui.accent_color  -> Currently Black
+    color "#fff"
     yalign 0.5
 
 style return_button:
@@ -1931,3 +1933,4 @@ screen chapter_select():
                         #action Jump("chapter{}".format(i))
                         action Start(label="chapter{}".format(i))
                         size_group "chapters"
+                        
