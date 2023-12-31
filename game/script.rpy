@@ -669,11 +669,15 @@ label chapter3:
 
     everyone "But who is to give the prizes?"
     dodo "Why, she, of course," 
+    camera:
+        ease cam_transition xpos muddy_alice_pos
     "said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way,"
     everyone "Prizes! Prizes!"
 
+    show comfits at Position(ypos = 0.65, xpos = muddy_alice_pos)
     "Alice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes."
     "There was exactly one a-piece all round."
+    hide comfits
 
     camera: 
         ease cam_transition xpos muddy_mouse_pos
@@ -685,20 +689,29 @@ label chapter3:
     "The dodo truned to Alice"
 
     camera: 
-        ease cam_transition xpos muddy_alice_pos
+        xpos muddy_alice_pos
     show alice normal at breathing(muddy_alice_pos, alice_scale_muddy)
+
+    show thimble at Position(ypos = 0.65, xpos = muddy_alice_pos)
     alice "Only a thimble."
+    hide thimble
 
     camera: 
         ease cam_transition xpos muddy_dodo_pos
     dodo "Hand it over here."
 
     "Then they all crowded round her once more, while the Dodo solemnly presented the thimble"
+    camera: 
+        xpos muddy_dodo_pos
+    show thimble at Position(ypos = 0.65, xpos = muddy_dodo_pos)
     dodo "We beg your acceptance of this elegant thimble."
     "And, when it had finished this short speech, they all cheered."
 
     "Alice thought the whole thing very absurd, but they all looked so grave that she did not dare to laugh; and, as she could not think of anything to say, she simply bowed, and took the thimble, looking as solemn as she could."
+    hide thimble 
 
+    camera: 
+        ease cam_transition xpos muddy_alice_pos
     "The next thing was to eat the comfits: this caused some noise and confusion, as the large birds complained that they could not taste theirs, and the small ones choked and had to be patted on the back."
 
     camera: 
