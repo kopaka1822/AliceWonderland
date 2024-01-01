@@ -655,12 +655,96 @@ label chapter3:
 
     "(And, as you might like to try the thing yourself, some winter day, I will tell you how the Dodo managed it)"
 
+    show racetrack at Position(ypos = 0.65, xpos = muddy_dodo_pos)
     "First it marked out a race-course, in a sort of circle."
     dodo "The exact shape doesn’t matter"
+    hide racetrack
+
+    # place party members randomly
+    show alice normal:
+        ease cam_transition xpos 2000
+    show mouse:
+        ease cam_transition xpos 1900
+    show duck:
+        ease cam_transition xpos 2200
+    show old_crab:
+        ease cam_transition xpos 2100
+    show young_crab:
+        ease cam_transition xpos 2150
+
     "And then all the party were placed along the course, here and there."
+
+    show alice happy:
+        ease 2.0 xoffset -1000
+        ease 2.0 xoffset 0
+        repeat
+    show mouse:
+        ease 1.6 xoffset -900
+        ease 1.6 xoffset 0
+        repeat
+    show duck:
+        xzoom -1.0
+        ease 1.7 xoffset -1300 
+        xzoom 1.0
+        ease 1.7 xoffset 0
+        repeat
+    show old_crab:
+        ease 2.2 xoffset -1200
+        ease 2.2 xoffset 0
+        repeat
+    show young_crab:
+        ease 1.5 xoffset -1200
+        ease 1.5 xoffset 0
+        repeat
+    show dodo:
+        xzoom 1.0
+        ease 2.5 xoffset -800
+        xzoom -1.0
+        ease 2.5 xoffset 0
+        repeat
+    show eaglet:
+        ease 2.0 xoffset 1000
+        ease 2.0 xoffset 0
+        repeat
+    show lory:
+        ease 1.8 xoffset 1200
+        ease 1.8 xoffset 0
+        repeat
+    camera:
+        ease 2.0 xpos muddy_eaglet_pos
+        ease 2.0 xpos muddy_dodo_pos
+        repeat
+
+
     "There was no 'One, two, three, and away', but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over."
+    "..."
     "However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out:"
+
+    scene black:
+        xpos 0.0
+    camera:
+        xalign 0.0
     dodo "The race is over!"
+
+    scene muddy:
+        xalign 0.0
+    camera:
+        perspective True
+        xpos 0
+        linear 20.0 xpos 2280
+
+    # restore original positions
+    show eaglet at breathing(muddy_eaglet_pos, eaglet_scale)
+    show lory at breathing(muddy_lory_pos, lory_scale)
+    show duck at breathing(muddy_duck_pos, duck_scale)
+    show dodo at breathing(muddy_dodo_pos, dodo_scale)
+    show alice normal at breathing(muddy_alice_pos, alice_scale_muddy)
+    show mouse at breathing(muddy_mouse_pos, mouse_muddy_scale)
+    show old_crab at breathing(muddy_old_crab_pos, old_crab_scale)
+    show young_crab at breathing(muddy_young_crab_pos, young_crab_scale)
+    show magpie at breathing(muddy_magpie_pos, magpie_scale)
+    show canary at breathing(muddy_canary_pos, canary_scale)
+
     "and they all crowded round it, panting, and asking, "
     everyone "But who has won?"
 
@@ -670,7 +754,7 @@ label chapter3:
     everyone "But who is to give the prizes?"
     dodo "Why, she, of course," 
     camera:
-        ease cam_transition xpos muddy_alice_pos
+        ease cam_transition xpos muddy_alice_pos xoffset -540
     "said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way,"
     everyone "Prizes! Prizes!"
 
