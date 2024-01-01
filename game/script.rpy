@@ -559,7 +559,7 @@ label chapter3:
         linear 20.0 xpos 2280
 
 
-    play music "audio/rinne aqua.mp3"
+    play music "audio/rinne oak general store.mp3"
 
     "They were indeed a queer-looking party that assembled on the bank—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable."
 
