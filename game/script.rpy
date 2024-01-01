@@ -812,9 +812,11 @@ label chapter3:
     alice "It is a long tail, certainly, but why do you call it sad?"
     "She kept on puzzling about it while the Mouse was speaking, so that her idea of the tale was something like this:—"
 
-    "Fury said to a mouse, That he met in the house, 'Let us both go to law: I will prosecute you.—Come, I’ll take no denial; We must have a trial: For really this morning I’ve nothing to do.'"
-    "Said the mouse to the cur, 'Such a trial, dear Sir, With no jury or judge, would be wasting our breath.'"
-    "'I’ll be judge, I’ll be jury,' Said cunning old Fury: 'I’ll try the whole cause, and condemn you to death.'"
+    mouse "{space=80}Fury said to a\n{space=60}mouse. That he\n{space=40}met in the\n{space=20}house.\n'Let us\n{space=20}both go to\n{space=40}law: I will\n{space=60}prosecute\n{space=80}YOU.—Come,\n{space=100}I’ll take no"
+    mouse "{space=120}denial; We\n{space=100}must have a\n{space=80}trial: For\n{space=60}really this\n{space=40}morning I’ve\n{space=20}nothing\nto do.'\n{space=20}Said the\n{space=40}mouse to the\n{space=60}cur, 'Such"
+    mouse "{space=80}a trial,\n{space=100}dear Sir,\n{space=120}With\n{space=100}no jury\n{space=80}or judge,\n{space=60}would be\n{space=40}wasting\n{space=20}our\n{space=40}breath.'\n{space=60}'I’ll be"
+    mouse "{space=80}judge, I’ll\n{space=100}be jury'\n{space=120}Said\n{space=100}cunning\n{space=120}old Fury:\n{space=140}'I’ll\n{space=120}try the\n{space=140}whole\n{space=160}cause,\n{space=180}and"
+    mouse "{space=160}condemn\n{space=140}you\n{space=120}to\n{space=140}death.'"
 
     mouse "You are not attending!"
     mouse "What are you thinking of?"
