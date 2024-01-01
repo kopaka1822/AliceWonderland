@@ -33,6 +33,7 @@ define magpie_scale = 0.35
 define canary_scale = 0.2
 
 define cam_transition = 0.5
+define center_offset = 540 # half of 1080
 
 transform falling:
     xpos -0.5 ypos 0.0
@@ -529,7 +530,7 @@ label chapter3:
     "{size=+40}Chapter III: \n{/size}A Caucus-Race and a Long Tale"
 
     scene muddy:
-        xalign 0.0
+        xpos 0
     # show all characters
     define muddy_eaglet_pos = 1104
     define muddy_lory_pos = 540
@@ -554,7 +555,7 @@ label chapter3:
 
     camera:
         perspective True
-        xpos 0
+        xpos center_offset xoffset -center_offset
         linear 20.0 xpos 2280
 
 
@@ -566,7 +567,7 @@ label chapter3:
     "Indeed, she had quite a long argument with the Lory, who at last turned sulky, and would only say"
 
     camera: 
-        ease cam_transition xalign muddy_lory_pos
+        ease cam_transition xpos muddy_lory_pos
     lory "I am older than you, and must know better"
     "and this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said."
 
@@ -721,16 +722,16 @@ label chapter3:
     "However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out:"
 
     scene black:
-        xpos 0.0
+        xpos 0
     camera:
-        xalign 0.0
+        xpos center_offset xoffset -center_offset
     dodo "The race is over!"
 
     scene muddy:
-        xalign 0.0
+        xpos 0
     camera:
         perspective True
-        xpos 0
+        xpos center_offset xoffset -center_offset
         linear 20.0 xpos 2280
 
     # restore original positions
@@ -754,7 +755,7 @@ label chapter3:
     everyone "But who is to give the prizes?"
     dodo "Why, she, of course," 
     camera:
-        ease cam_transition xpos muddy_alice_pos xoffset -540
+        ease cam_transition xpos muddy_alice_pos
     "said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way,"
     everyone "Prizes! Prizes!"
 
@@ -807,16 +808,16 @@ label chapter3:
     alice "and why it is you hate—C and D"
     "alice added in a whisper, half afraid that it would be offended again."
  
-    mouse "Mine is a long and a sad tale!"
+    mouse "Mine is a long and a sad {b}tale{/b}!"
 
-    alice "It is a long tail, certainly, but why do you call it sad?"
+    alice "It is a long {b}tail{/b}, certainly, but why do you call it sad?"
     "She kept on puzzling about it while the Mouse was speaking, so that her idea of the tale was something like this:—"
 
-    mouse "{space=80}Fury said to a\n{space=60}mouse. That he\n{space=40}met in the\n{space=20}house.\n'Let us\n{space=20}both go to\n{space=40}law: I will\n{space=60}prosecute\n{space=80}YOU.—Come,\n{space=100}I’ll take no"
-    mouse "{space=120}denial; We\n{space=100}must have a\n{space=80}trial: For\n{space=60}really this\n{space=40}morning I’ve\n{space=20}nothing\nto do.'\n{space=20}Said the\n{space=40}mouse to the\n{space=60}cur, 'Such"
-    mouse "{space=80}a trial,\n{space=100}dear Sir,\n{space=120}With\n{space=100}no jury\n{space=80}or judge,\n{space=60}would be\n{space=40}wasting\n{space=20}our\n{space=40}breath.'\n{space=60}'I’ll be"
-    mouse "{space=80}judge, I’ll\n{space=100}be jury'\n{space=120}Said\n{space=100}cunning\n{space=120}old Fury:\n{space=140}'I’ll\n{space=120}try the\n{space=140}whole\n{space=160}cause,\n{space=180}and"
-    mouse "{space=160}condemn\n{space=140}you\n{space=120}to\n{space=140}death.'"
+    mouse " {space=80} Fury said to a\n {space=60} mouse. That he\n {space=40} met in the\n {space=20} house.\n'Let us\n {space=20} both go to\n {space=40} law: I will\n {space=60} prosecute\n {space=80} YOU.—Come,\n {space=100} I’ll take no"
+    mouse " {space=120} denial; We\n {space=100} must have a\n {space=80} trial: For\n {space=60} really this\n {space=40} morning I’ve\n {space=20} nothing\nto do.'\n {space=20} Said the\n {space=40} mouse to the\n {space=60} cur, 'Such"
+    mouse " {space=80} a trial,\n {space=100} dear Sir,\n {space=120} With\n {space=100} no jury\n {space=80} or judge,\n {space=60} would be\n {space=40} wasting\n {space=20} our\n {space=40} breath.'\n {space=60} 'I’ll be"
+    mouse " {space=80} judge, I’ll\n {space=100} be jury'\n {space=120} Said\n {space=100} cunning\n {space=120} old Fury:\n {space=140} 'I’ll\n {space=120} try the\n {space=140} whole\n {space=160} cause,\n {space=180} and"
+    mouse " {space=160} condemn\n {space=140} you\n {space=120} to\n {space=140} death.'"
 
     mouse "You are not attending!"
     mouse "What are you thinking of?"
