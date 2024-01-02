@@ -1377,13 +1377,33 @@ label chapter5:
         linear 0.5 xpos 800 ypos 815 zpos -1500
     alice "And now which is which?"
     "She nibbled a little of the right-hand bit to try the effect:"
+
+    show alice normal at breathing(800, 0.2, 1.0):
+        zpos -1000
+        easein_expo 10.0 yzoom 0.1
+
     "The next moment she felt a violent blow underneath her chin: it had struck her foot!"
+
+
 
     "She was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit."
     "Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit."
 
     alice "Come, my head’s free at last!"
+    show alice normal:
+        zoom 0.2
+        zpos -1000
+        yzoom 0.1
+        easeout_expo 10.0 yzoom 5.0
     "alice was delighted, which changed into alarm in another moment, when she found that her shoulders were nowhere to be found: all she could see, when she looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her."
+
+    # switch scene to sky
+    scene sky:
+        zoom 2.0
+        xalign 0.0
+    camera:
+        perspective False
+        zpos 0
 
     alice "What can all that green stuff be?"
     alice "And where have my shoulders got to?"
