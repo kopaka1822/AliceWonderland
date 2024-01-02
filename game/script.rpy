@@ -920,6 +920,8 @@ label chapter4:
     scene muddy
     play music "audio/rinne oak general store.mp3"
     
+    jump ch4_grass
+
     show alice pout at breathing(0.7, alice_scale)
 
     show rabbit normal:
@@ -946,7 +948,7 @@ label chapter4:
     alice "He took me for his housemaid. How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them."
 
     scene rabbit_house:
-        xalign 0.0 zoom 2.0 yalign 1.0
+        xalign 0.0
         linear 10.0 xalign 1.0
     "As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name 'W. RABBIT' engraved upon it."
     "She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves."
@@ -1129,39 +1131,93 @@ label chapter4:
     "So she swallowed one of the cakes, and was delighted to find that she began shrinking directly."
 
     scene rabbit_house:
-        xalign 0.5 zoom 2.0 yalign 1.0
+        xalign 0.2 zoom 1.3 yalign 1.0
 
+    show bill guinea at breathing(0.25, 0.8, 0.92)
+    show alice surprised at breathing(0.85, alice_scale, 0.79)
     "As soon as she was small enough to get through the door, she ran out of the house, and found quite a crowd of little animals and birds waiting outside."
     "The poor little Lizard, Bill, was in the middle, being held up by two guinea-pigs, who were giving it something out of a bottle."
+
+    show alice:
+        linear 1.0 xpos 2.0
     "They all made a rush at Alice the moment she appeared; but she ran off as hard as she could, and soon found herself safe in a thick wood."
 
+    scene forest
+    show alice thinking at breathing(0.5, alice_scale, 0.8)
     alice "The first thing I’ve got to do, is to grow to my right size again; and the second thing is, to find my way into that lovely garden."
     alice "I think that will be the best plan."
 
     "It sounded an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that she had not the smallest idea how to set about it; and while she was peering about anxiously among the trees, a little sharp bark just over her head made her look up in a great hurry."
 
+    scene huge_dog # todo replace with normal sized dog
+    play sound "sfx/bark.mp3"
     "An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her."
     alice "Poor little thing!"
     "She tried hard to whistle to it; but she was terribly frightened all the time at the thought that it might be hungry, in which case it would be very likely to eat her up in spite of all her coaxing."
 
+    play sound "sfx/bark.mp3"
     "Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it;"
     "then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it;"
     "then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every moment to be trampled under its feet, ran round the thistle again;"
     "then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut."
 
     "This seemed to Alice a good opportunity for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the puppy’s bark sounded quite faint in the distance."
+label ch4_grass:
+
+    # new scene prepare for caterpillar
+    #scene grass:
+    #    xpos 0.0
+    scene sky:
+        xpos 0.0
+    camera:
+        perspective True
+        xpos 0 xoffset -center_offset
+        gl_depth True
+
+    show soil:
+        anchor (0.0, 0.0)
+        #ypos 1024
+        matrixtransform RotateMatrix(90, 0, 0)
+
+        #zpos -200
+        #linear 20.0 xpos 2280
+    #show alice normal at breathing(1600, 0.4, 0.8)
+    #show buttercup at Position(xpos = 1400, ypos = 1600):
+    #    anchor (0.5, 1.0)
+    #    zoom 0.6
+    #    zpos 200
+    #show caterpillar at Position(xpos = 2500, ypos = 900):
+    #    anchor (0.5, 1.0)
+    #    zpos 180
+    #show mushroom at Position(xpos = 2500, ypos = 1600):
+    #    anchor (0.5, 1.0)
+    #    zpos 200
+
+    #show buttercup:
+        #zzoom True
+    #    linear 4.0 zpos -200
 
     alice "And yet what a dear little puppy it was!"
     "She leant against a buttercup to rest herself, and fanned herself with one of the leaves:"
+
     alice "I should have liked teaching it tricks very much, if—if I’d only been the right size to do it!"
     alice "Oh dear! I’d nearly forgotten that I’ve got to grow up again!"
     alice "Let me see—how is it to be managed?"
     alice "I suppose I ought to eat or drink something or other; but the great question is, what?"
 
     "The great question certainly was, what?"
+
+    camera:
+        linear 4.0 xpos 2200
+
     "Alice looked all round her at the flowers and the blades of grass, but she did not see anything that looked like the right thing to eat or drink under the circumstances."
+
+
+
     "There was a large mushroom growing near her, about the same height as herself; and when she had looked under it, and on both sides of it, and behind it, it occurred to her that she might as well look and see what was on the top of it."
 
+    camera:
+        linear 4.0 xpos 2200 zpos 0 ypos 0
     "She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else."
 
 label chapter5:
