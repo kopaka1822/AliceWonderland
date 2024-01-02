@@ -13,7 +13,7 @@ define canary = Character("Canary", color="#ffe600")
 define pat = Character("Pat", color="#00ff00")
 define anon = Character("???", color="#ffffff")
 define bill = Character("Bill", color="#0400ff")
-define caterpillar = Character("Caterpillar", color="#ff00ff")
+define caterpillar = Character("Caterpillar", color="#5cffc9")
 define pigeon = Character("Pigeon", color="#adadad")
 
 image riverbank = "riverbank.png"
@@ -920,7 +920,7 @@ label chapter4:
     scene muddy
     play music "audio/rinne oak general store.mp3"
     
-    jump ch4_grass
+    #jump ch4_grass
 
     show alice pout at breathing(0.7, alice_scale)
 
@@ -1164,38 +1164,44 @@ label chapter4:
     "This seemed to Alice a good opportunity for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the puppy’s bark sounded quite faint in the distance."
 label ch4_grass:
 
-    # new scene prepare for caterpillar
-    #scene grass:
-    #    xpos 0.0
+    # hacky way to save setup for next chapter
+    call setup_caterpillar
+    jump ch4_caterpillar
+
+label setup_caterpillar:
     scene sky:
-        xpos 0.0
-    camera:
-        perspective True
-        xpos 0 xoffset -center_offset
-        gl_depth True
+        xpos 0.0 zpos -1500 zzoom True
+
 
     show soil:
         anchor (0.0, 0.0)
-        #ypos 1024
-        matrixtransform RotateMatrix(90, 0, 0)
+        xrotate 90 yoffset -512 zpos -1100 ypos 1.0 
 
-        #zpos -200
-        #linear 20.0 xpos 2280
-    #show alice normal at breathing(1600, 0.4, 0.8)
-    #show buttercup at Position(xpos = 1400, ypos = 1600):
-    #    anchor (0.5, 1.0)
-    #    zoom 0.6
-    #    zpos 200
-    #show caterpillar at Position(xpos = 2500, ypos = 900):
-    #    anchor (0.5, 1.0)
-    #    zpos 180
-    #show mushroom at Position(xpos = 2500, ypos = 1600):
-    #    anchor (0.5, 1.0)
-    #    zpos 200
+    show blades at Position(xpos = 800, ypos = 1.0):
+        anchor (0.5, 1.0)
+        zpos -1100
 
-    #show buttercup:
-        #zzoom True
-    #    linear 4.0 zpos -200
+    show alice normal at breathing(800, 0.2, 1.0):
+        zpos -1000 
+
+    show buttercup at Position(xpos = 650, ypos = 1.0):
+        anchor (0.5, 1.0)
+        zoom 0.3
+        zpos -950
+
+    show caterpillar at breathing(1090, 0.3, 0.85):
+        zpos -900
+
+    show mushroom at Position(xpos = 1090, ypos = 1.0):
+        anchor (0.5, 1.0)
+        zoom 0.38
+        zpos -880
+    return
+label ch4_caterpillar:
+
+    camera:
+        perspective True
+        xpos 730 ypos 815 zpos -1460 xoffset -center_offset
 
     alice "And yet what a dear little puppy it was!"
     "She leant against a buttercup to rest herself, and fanned herself with one of the leaves:"
@@ -1208,7 +1214,7 @@ label ch4_grass:
     "The great question certainly was, what?"
 
     camera:
-        linear 4.0 xpos 2200
+        linear 4.0 xpos 1000 
 
     "Alice looked all round her at the flowers and the blades of grass, but she did not see anything that looked like the right thing to eat or drink under the circumstances."
 
@@ -1217,12 +1223,23 @@ label ch4_grass:
     "There was a large mushroom growing near her, about the same height as herself; and when she had looked under it, and on both sides of it, and behind it, it occurred to her that she might as well look and see what was on the top of it."
 
     camera:
-        linear 4.0 xpos 2200 zpos 0 ypos 0
+        linear 4.0 xpos 1000 ypos 635 zpos -1275
+
     "She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else."
 
 label chapter5:
     scene black
+    camera: # revert camera
+        perspective False
+        zpos 0
     "{size=+40}Chapter V: \n{/size}Advice from a Caterpillar"
+
+
+    call setup_caterpillar
+
+    camera:
+        perspective True
+        xpos 1000 ypos 635 zpos -1275 xoffset -center_offset
 
     "The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice."
 
@@ -1339,6 +1356,11 @@ label chapter5:
 
     "This time Alice waited patiently until it chose to speak again."
     "In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself."
+
+    show caterpillar at breathing(1090, 0.3, 0.85):
+        zpos -900
+        linear 2.0 ypos 1.0
+        linear 20.0 zpos -1200
     "Then it got down off the mushroom, and crawled away in the grass."
     caterpillar "One side will make you grow taller, and the other side will make you grow shorter."
 
@@ -1346,9 +1368,13 @@ label chapter5:
     caterpillar "Of the mushroom."
     "In another moment it was out of sight."
 
+    hide caterpillar
+
     "Alice remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it; and as it was perfectly round, she found this a very difficult question."
     "However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand."
 
+    camera:
+        linear 0.5 xpos 800 ypos 815 zpos -1500
     alice "And now which is which?"
     "She nibbled a little of the right-hand bit to try the effect:"
     "The next moment she felt a violent blow underneath her chin: it had struck her foot!"
