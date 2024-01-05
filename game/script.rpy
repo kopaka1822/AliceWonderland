@@ -918,8 +918,8 @@ label chapter4:
         perspective False
     "{size=+40}Chapter IV: \n{/size}The Rabbit Sends in a Little Bill"
     scene muddy
-    play music "audio/rinne oak general store.mp3"
-    
+    play music "audio/rinne oak general store.mp3" if_changed
+    #jump ch4_forest
     #jump ch4_grass
 
     show alice pout at breathing(0.7, alice_scale)
@@ -1142,23 +1142,70 @@ label chapter4:
         linear 1.0 xpos 2.0
     "They all made a rush at Alice the moment she appeared; but she ran off as hard as she could, and soon found herself safe in a thick wood."
 
+label ch4_forest:
     scene forest
-    show alice thinking at breathing(0.5, alice_scale, 0.8)
+    camera:
+        perspective True
+        xpos -215 ypos 490 zpos -500
+
+    show alice thinking at breathing(0.3, 0.14, 0.85)
+    show thistle:
+        pos (0.10, 0.85)
+        anchor (0.5, 1.0)
+        zoom 0.3
+        zpos 60
+    show puppy:
+        pos (0.89, 0.85)
+        anchor (0.5, 1.0)
+        zoom 1.0
+
     alice "The first thing I’ve got to do, is to grow to my right size again; and the second thing is, to find my way into that lovely garden."
     alice "I think that will be the best plan."
 
     "It sounded an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that she had not the smallest idea how to set about it; and while she was peering about anxiously among the trees, a little sharp bark just over her head made her look up in a great hurry."
 
-    scene huge_dog # todo replace with normal sized dog
+    camera:
+        linear 2.0 xpos 0 ypos 425 zpos -335
+    #scene huge_dog # todo replace with normal sized dog
     play sound "sfx/bark.mp3"
     "An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her."
     alice "Poor little thing!"
     "She tried hard to whistle to it; but she was terribly frightened all the time at the thought that it might be hungry, in which case it would be very likely to eat her up in spite of all her coaxing."
 
     play sound "sfx/bark.mp3"
+    show puppy:
+        easein 1.0 yoffset -200
+        easeout 1.0 yoffset 0
+
     "Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it;"
+    camera:
+        linear 2.0 xpos -275 ypos 425 zpos -335
+    show alice:
+        linear 0.5 xpos 0.05
+    show puppy:
+        linear 0.7 xpos 0.7
+        linear 0.7 xpos 0.38 ypos 0.75 zrotate -40
+        linear 0.7 xpos 0.0 ypos 0.75 zrotate -80
+        linear 0.7 xpos -0.42 ypos 0.75 zrotate -120
+        linear 0.7 xpos -0.71 ypos 0.75 zrotate -160
+        linear 0.2 xpos -0.71 ypos 0.75 zrotate 0 xzoom -1.0
+
     "then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it;"
+    show alice:
+        linear 0.5 xpos 0.17
     "then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every moment to be trampled under its feet, ran round the thistle again;"
+    camera:
+        linear 2.0 xpos -560 ypos 425 zpos -335
+    show puppy:
+        ypos 0.85 xpos -0.66 xzoom -1.0
+        ease 1.0 xpos -0.56
+        ease 1.0 xpos -0.46
+        ease 1.0 xpos -0.36
+        easeout 1.0 xpos -0.66
+        repeat 3
+    play sound "sfx/bark.mp3"
+    #queue sound "sfx/bark.mp3"
+    #queue sound "sfx/bark.mp3"
     "then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut."
 
     "This seemed to Alice a good opportunity for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the puppy’s bark sounded quite faint in the distance."
@@ -1234,6 +1281,7 @@ label chapter5:
         zpos 0
     "{size=+40}Chapter V: \n{/size}Advice from a Caterpillar"
 
+    play music "audio/rinne oak general store.mp3" if_changed
 
     call setup_caterpillar
 
