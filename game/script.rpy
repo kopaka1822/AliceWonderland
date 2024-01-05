@@ -1227,6 +1227,7 @@ label setup_caterpillar:
     show blades at Position(xpos = 800, ypos = 1.0):
         anchor (0.5, 1.0)
         zpos -1100
+        zoom 0.5
 
     show alice normal at breathing(800, 0.2, 1.0):
         zpos -1000 
@@ -1243,6 +1244,10 @@ label setup_caterpillar:
         anchor (0.5, 1.0)
         zoom 0.38
         zpos -880
+    show blades as blades2 at Position(xpos = 800, ypos = 1.14):
+        anchor (0.5, 1.0)
+        zpos -860
+        zoom 0.5
     return
 label ch4_caterpillar:
 
