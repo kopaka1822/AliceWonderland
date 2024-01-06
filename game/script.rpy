@@ -1214,7 +1214,7 @@ label ch4_forest:
     camera:
         linear 2.0 xpos -560 ypos 425 zpos -335
     show puppy:
-        ypos 0.85 xpos -0.66 xzoom -1.0
+        ypos 0.85 xpos -0.66 xzoom -1.0 zrotate 0
         ease 1.0 xpos -0.56
         ease 1.0 xpos -0.46
         ease 1.0 xpos -0.36
