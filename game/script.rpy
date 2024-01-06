@@ -1305,6 +1305,8 @@ label chapter5:
 
     play music "audio/rinne oak general store.mp3" if_changed
 
+    jump ch5_sky
+
     call setup_caterpillar
 
     camera:
@@ -1468,12 +1470,33 @@ label chapter5:
     "alice was delighted, which changed into alarm in another moment, when she found that her shoulders were nowhere to be found: all she could see, when she looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her."
 
     # switch scene to sky
+label ch5_sky:
+
     scene sky:
-        zoom 2.0
-        xalign 0.0
+        # center sky
+        anchor (0.5, 0.5)
+        xpos 0.5 ypos 0.5
+        zoom 2.2
     camera:
-        perspective False
+        perspective True
         zpos 0
+        easein 3.0 zrotate -5.0 xpos -30 ypos 30
+        easeout 3.0 zrotate 0.0 xpos 0 ypos 0
+        easein 3.0 zrotate 5.0 xpos 30 ypos 30
+        easeout 3.0 zrotate 0.0 ypos 0 ypos 0
+        repeat
+
+    show cloud as cloud1:
+        anchor (0.5, 0.5)
+        xpos 0.0 ypos 0.2 zpos -1200
+
+    show cloud as cloud2:
+        anchor (0.5, 0.5)
+        xpos 1.0 ypos 0.0 zpos -800
+
+    show cloud as cloud3:
+        anchor (0.5, 0.5)
+        xpos 1.2 ypos 0.7 zpos -600
 
     alice "What can all that green stuff be?"
     alice "And where have my shoulders got to?"
@@ -1481,6 +1504,10 @@ label chapter5:
     "She was moving them about as she spoke, but no result seemed to follow, except a little shaking among the distant green leaves."
 
     "As there seemed to be no chance of getting her hands up to her head, she tried to get her head down to them, and was delighted to find that her neck would bend about easily in any direction, like a serpent."
+
+    show pigeon:
+        zpos -1400 xpos 2.0
+        easein 8.0 zpos 0.0 xpos 0.0
     "She had just succeeded in curving it down into a graceful zigzag, and was going to dive in among the leaves, which she found to be nothing but the tops of the trees under which she had been wandering, when a sharp hiss made her draw back in a hurry: a large pigeon had flown into her face, and was beating her violently with its wings."
 
     pigeon "Serpent!"
@@ -1524,7 +1551,7 @@ label chapter5:
     "This was such a new idea to Alice, that she was quite silent for a minute or two."
     "..."
 
-    pigeon "You’re looking for eggs, I know _that_ well enough; and what does it matter to me whether you’re a little girl or a serpent?"
+    pigeon "You’re looking for eggs, I know that well enough; and what does it matter to me whether you’re a little girl or a serpent?"
 
     alice "It matters a good deal to me, but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want yours: I don’t like them raw."
 
@@ -1532,13 +1559,25 @@ label chapter5:
     "Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it."
     "After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height."
 
+    scene forest
+    camera:
+        perspective False
+        xpos 0 ypos 0 zpos 0 zrotate 0
+
     "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
+
+    show alice happy at breathing(0.5, 0.6, 0.9)
     alice "Come, there’s half my plan done now!"
     alice "How puzzling all these changes are!" 
     alice "I’m never sure what I’m going to be, from one minute to another!"
     alice "However, I’ve got back to my right size: the next thing is, to get into that beautiful garden—how is that to be done, I wonder?"
+    
+    scene forest_house
+    show alice happy at breathing(0.8, 0.7, 0.9)
     "She came suddenly upon an open place, with a little house in it about four feet high."
     alice "Whoever lives there, it’ll never do to come upon them this size: why, I should frighten them out of their wits!"
+    show alice:
+        linear 5.0 zoom 0.1
     "So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high."
 
 label chapter6:
