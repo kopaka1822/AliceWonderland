@@ -1,4 +1,18 @@
-﻿define alice = Character("Alice", color="#ADD8E6")
+﻿init python:
+    renpy.register_shader("game.breathing", variables="""
+        uniform float u_time;
+        uniform vec2 res0;
+    """, fragment_300="""
+        float rng = dot(texture2D(tex0, vec2(0.5), 10.0).xyz, vec3(0.33)); // random offset for each texture
+        float scale = 0.5 + 0.5 * sin(u_time + rng * 2.0 * 3.141);
+        vec2 texC = v_tex_coord.xy;
+        texC.y = 1.0 - (1.0 - texC.y) * (1.0 + 0.01 * scale);
+        if(texC.y < 0.0 || texC.y > 1.0) discard;
+
+        gl_FragColor = texture2D(tex0, texC, -0.55);
+    """)
+
+define alice = Character("Alice", color="#ADD8E6")
 define rabbit = Character("Rabbit", color="#ffffff")
 define mouse = Character("Mouse", color="#adadad")
 define lory = Character("Lory", color="#8c00ff")
@@ -36,6 +50,8 @@ define canary_scale = 0.2
 define cam_transition = 0.5
 define center_offset = 540 # half of 1080
 
+define repeat_rate = 1.0 / 30.0
+
 transform falling:
     xpos -0.5 ypos 0.0
     linear 1.0 xoffset -20 yoffset -20 rotate 5
@@ -62,25 +78,26 @@ transform breathing_calm(xposition, scale = 1.0):
     pos (xposition, 0.7)
     anchor (0.5, 1.0)
     zoom scale
-    ease 3.0 yzoom 0.99
-    ease 3.0 yzoom 1.0
+    # todo slower speed
+    shader "game.breathing"
+    pause repeat_rate
     repeat
 
 transform breathing(xposition, scale = 1.0, yposition = 0.7):
     pos (xposition, yposition)
     anchor (0.5, 1.0)
     zoom scale
-    ease 2.0 yzoom 0.99
-    ease 2.0 yzoom 1.0
+    shader "game.breathing"
+    pause repeat_rate
     repeat
 
 transform breathing_crying(xposition, scale = 1.0):
     pos (xposition, 0.7)
     anchor (0.5, 1.0)
     zoom scale
-    ease 1.0 yzoom 0.995
-    ease 1.0 yzoom 0.99
-    ease 2.5 yzoom 1.0
+    # todo custom breathing?
+    shader "game.breathing"
+    pause repeat_rate
     repeat
 
 transform swimming(xposition, scale = 1.0):
