@@ -29,8 +29,8 @@ define anon = Character("???", color="#ffffff")
 define bill = Character("Bill", color="#0400ff")
 define caterpillar = Character("Caterpillar", color="#5cffc9")
 define pigeon = Character("Pigeon", color="#adadad")
-define fishfoot = Character("Footmen (Fish)", color="#9694ff")
-define frogfoot = Character("Footmen (Frog)", color="#b5ff9e")
+define fishfoot = Character("Fish-Footmen", color="#9694ff")
+define frogfoot = Character("Frog-Footmen", color="#b5ff9e")
 define duchess = Character("Duchess", color="#ff8c00")
 define cat = Character("Cheshire Cat", color="#49003f")
 
@@ -1588,7 +1588,15 @@ label chapter6:
     scene black
     "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
 
+    scene forest_house
+    show footmen_fish at breathing(-0.5, 0.5, 0.9):
+        linear 4.0 xpos 0.3
+
     "For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood—(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)—and rapped loudly at the door with his knuckles."
+
+    play sound "sfx/knockknockknock.mp3"
+    show footmen_frog at breathing(0.7, 0.5, 0.9)
+
     "It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads."
     "She felt very curious to know what it was all about, and crept a little way out of the wood to listen."
 
@@ -1597,10 +1605,32 @@ label chapter6:
     "The Frog-Footman repeated, in the same solemn tone, only changing the order of the words a little"
     frogfoot "From the Queen. An invitation for the Duchess to play croquet."
     
+    # remove animations
+    hide footmen_fish
+    hide footmen_frog
+    show footmen_fish:
+        anchor (0.5, 1.0)
+        xpos 0.3 ypos 0.9 zoom 0.5
+        zrotate 20
+
+    show footmen_frog:
+        anchor (0.5, 1.0)
+        xpos 0.7 ypos 0.9 zoom 0.5
+        zrotate -20
+
     "Then they both bowed low, and their curls got entangled together."
 
-    "Alice laughed so much at this, that she had to run back into the wood for fear of their hearing her; and when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky."
 
+
+    "Alice laughed so much at this, that she had to run back into the wood for fear of their hearing her; "
+    
+    hide footmen_fish
+    hide footmen_frog
+    show footmen_frog at breathing(0.7, 0.5, 0.9)
+    "and when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky."
+
+    show alice normal at breathing(0.3, 0.5, 0.9)
+    play sound "sfx/knockknockknock.mp3"
     "Alice went timidly up to the door, and knocked."
 
     fishfoot "There’s no sort of use in knocking, and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you."
@@ -1614,13 +1644,21 @@ label chapter6:
 
     "He was looking up into the sky all the time he was speaking, and this Alice thought decidedly uncivil."
 
-    alice "But perhaps he can’t help it, his eyes are so _very_ nearly at the top of his head. But at any rate he might answer questions."
+    alice "But perhaps he can’t help it, his eyes are so very nearly at the top of his head. But at any rate he might answer questions."
 
     alice "How am I to get in?"
 
     fishfoot "I shall sit here, till tomorrow—"
 
+    play sound "<silence 2.0>"
+    queue sound "sfx/shatter.mp3"
+    show plate: # at center
+        anchor(0.5, 0.5)
+        xpos 1.5 ypos 0.4 zoom 0.5
+        linear 2.0 xpos -0.5
+
     "At this moment the door of the house opened, and a large plate came skimming out, straight at the Footman’s head: it just grazed his nose, and broke to pieces against one of the trees behind him."
+
 
     fishfoot "—or next day, maybe,"
 
