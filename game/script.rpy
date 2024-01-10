@@ -32,7 +32,7 @@ define pigeon = Character("Pigeon", color="#adadad")
 define fishfoot = Character("Fish-Footmen", color="#9694ff")
 define frogfoot = Character("Frog-Footmen", color="#b5ff9e")
 define duchess = Character("Duchess", color="#ff8c00")
-define cat = Character("Cheshire Cat", color="#49003f")
+define cat = Character("Cheshire Cat", color="#fa6400")
 
 image riverbank = "riverbank.png"
 
@@ -1588,6 +1588,8 @@ label chapter6:
     scene black
     "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
 
+    jump ch6_cat
+
     scene forest_house
     show footmen_fish at breathing(-0.5, 0.5, 0.9):
         linear 4.0 xpos 0.3
@@ -1635,7 +1637,7 @@ label chapter6:
 
     fishfoot "There’s no sort of use in knocking, and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you."
 
-    play sound "sfx/shatter.mp3"
+    #play sound "sfx/shatter.mp3"
     "And certainly there was a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces."
 
     alice "Please, then, how am I to get in?"
@@ -1682,84 +1684,204 @@ label chapter6:
 
     alice "Oh, there’s no use in talking to him, he’s perfectly idiotic!"
 
+    play sound "sfx/door_open.mp3"
     "And she opened the door and went in."
 
+label ch6_kitchen:
+    scene kitchen
+    camera:
+        perspective True
+
+        xpos 0 ypos 0 zpos 0 xoffset -center_offset
+        linear 30.0 xpos 1480
+
+    define alice_kitchen_pos = 0
+    define duchess_kitchen_pos = 540
+    define cook_kitchen_pos = 1115
+    define cat_kitchen_pos = 1735
+    define cat_cam_z_zom = -300
+    define alice_duchess_kitchen_pos = 270
+    show alice normal at breathing(alice_kitchen_pos, 0.5, 0.9)
+    show cook at breathing(cook_kitchen_pos, 0.6, 0.9)
+    show cat:
+        align (0.5, 1.0)
+        xpos cat_kitchen_pos ypos 0.59 zoom 0.63
+    show duchess at breathing(duchess_kitchen_pos, 0.6, 0.9)
+    show baby normal:
+        anchor (0.5, 1.0)
+        xpos duchess_kitchen_pos ypos 0.75 zoom 0.7 zpos 30
+        linear 1.0 xoffset -10 yoffset -10 rotate 2
+        linear 1.0 xoffset 10 yoffset 10 rotate -2
+        linear 1.0 xoffset -10 yoffset 10 rotate 2
+        linear 1.0 xoffset 10 yoffset -10 rotate -2
+        repeat
+    
     "The door led right into a large kitchen, which was full of smoke from one end to the other: the Duchess was sitting on a three-legged stool in the middle, nursing a baby; the cook was leaning over the fire, stirring a large cauldron which seemed to be full of soup."
 
-    alice "There’s certainly too much pepper in that soup!" # Alice said to herself, as well as she could for sneezing.
+    alice "(There’s certainly too much pepper in that soup!)" # Alice said to herself, as well as she could for sneezing.
 
     "There was certainly too much of it in the air. Even the Duchess sneezed occasionally; and as for the baby, it was sneezing and howling alternately without a moment’s pause."
 
     "The only things in the kitchen that did not sneeze, were the cook, and a large cat which was sitting on the hearth and grinning from ear to ear."
 
+    camera:
+        ease cam_transition xpos cat_kitchen_pos zpos cat_cam_z_zom
     alice "Please would you tell me, why your cat grins like that?" # said Alice, a little timidly, for she was not quite sure whether it was good manners for her to speak first
 
+    camera:
+        ease cam_transition xpos duchess_kitchen_pos zpos 0
     duchess "It’s a Cheshire cat, and that’s why. Pig!"
 
+    camera:
+        ease cam_transition xpos alice_duchess_kitchen_pos zpos 0
+    show alice:
+        ease 0.3 yoffset -100
+        ease 0.3 yoffset 0
     "She said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:"
 
+    show alice surprised
     alice "I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats could grin."
 
     duchess "They all can, and most of ’em do."
 
     alice "I don’t know of any that do."
 
+    show alice normal
     "Alice said very politely, feeling quite pleased to have got into a conversation."
 
     duchess "You don’t know much, and that’s a fact."
 
     "Alice did not at all like the tone of this remark, and thought it would be as well to introduce some other subject of conversation."
+    
+    show plate as plate1:
+        anchor(0.5, 0.5)
+        xpos cook_kitchen_pos ypos 0.4 zoom 0.5 zrotate 20
+        linear 2.0 xpos duchess_kitchen_pos
+
+    show plate as plate2:
+        anchor(0.5, 0.5)
+        xpos cook_kitchen_pos ypos 0.5 zoom 0.5 zrotate -20
+        pause 0.5
+        linear 2.0 xpos duchess_kitchen_pos
+
+    show plate as plate3:
+        anchor(0.5, 0.5)
+        xpos cook_kitchen_pos ypos 0.6 zoom 0.5
+        pause 1
+        linear 2.0 xpos duchess_kitchen_pos
+
     "While she was trying to fix on one, the cook took the cauldron of soup off the fire, and at once set to work throwing everything within her reach at the Duchess and the baby—the fire-irons came first; then followed a shower of saucepans, plates, and dishes."
+
+    hide plate1
+    hide plate2
+    hide plate3
     "The Duchess took no notice of them even when they hit her; and the baby was howling so much already, that it was quite impossible to say whether the blows hurt it or not."
     
+    show alice pout
     alice "Oh, please mind what you’re doing!"
     "cried Alice, jumping up and down in an agony of terror."#
     alice "Oh, there goes his precious nose"
+
+    show saucepan:
+        anchor(0.5, 0.5)
+        xpos cook_kitchen_pos ypos 0.7 zoom 1.0
+        linear 4.0 xpos -600
     "An unusually large saucepan flew close by it, and very nearly carried it off."
 
     duchess "If everybody minded their own business, the world would go round a deal faster than it does." # the Duchess said in a hoarse growl, "
+    hide saucepan
 
+    show alice normal
     alice "Which would not be an advantage. Just think what work it would make with the day and night! You see the earth takes twenty-four hours to turn round on its axis—"
 
     duchess "Talking of axes, chop off her head!"
 
+    show alice pout
+
+    camera:
+        ease cam_transition xpos cook_kitchen_pos zpos 0
     "Alice glanced rather anxiously at the cook, to see if she meant to take the hint; but the cook was busily stirring the soup, and seemed not to be listening, so she went on again:"
+
+    show alice normal
+    camera:
+        ease cam_transition xpos alice_kitchen_pos zpos 0
 
     alice "Twenty-four hours, I think; or is it twelve? I—"
 
     duchess "Oh, don’t bother me, I never could abide figures!" 
     "And with that she began nursing her child again, singing a sort of lullaby to it as she did so, and giving it a violent shake at the end of every line:"
 
+    camera:
+        ease cam_transition xpos duchess_kitchen_pos zpos 0
     duchess "Speak roughly to your little boy,\n{space=30}And beat him when he sneezes:\nHe only does it to annoy,\n{space=30}Because he knows it teases."
 
-    "CHORUS.\n(In which the cook and the baby joined):"
+    camera:
+        ease cam_transition xpos cook_kitchen_pos zpos 0
+
+    #"CHORUS.\n(In which the cook and the baby joined):"
 
     everyone "Wow! wow! wow!"
 
+    camera:
+        ease cam_transition xpos duchess_kitchen_pos zpos 0
     "While the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:"
 
     duchess "I speak severely to my boy,\n{space=30}I beat him when he sneezes;\nFor he can thoroughly enjoy\n{space=30}The pepper when he pleases!"
 
+    camera:
+        ease cam_transition xpos cook_kitchen_pos zpos 0    
     everyone "Wow! wow! wow!"
 
+    camera:
+        ease cam_transition xpos duchess_kitchen_pos zpos 0
     duchess "Here! you may nurse it a bit, if you like!" 
+    
+    show baby normal:
+        ease 1.0 xpos alice_kitchen_pos ypos 0.8
     "The Duchess said to Alice, flinging the baby at her as she spoke."
     duchess "I must go and get ready to play croquet with the Queen."
     "The duchess hurried out of the room."
+    show duchess:
+        linear 3.0 xpos 3000
+
+    camera:
+        ease cam_transition xpos cook_kitchen_pos zpos 0
     "The cook threw a frying-pan after her as she went out, but it just missed her."
 
+    camera:
+        ease cam_transition xpos alice_kitchen_pos zpos 0
+    
     "Alice caught the baby with some difficulty, as it was a queer-shaped little creature, and held out its arms and legs in all directions."
+    show alice surprised
     alice "Just like a star-fish."
     "The poor little thing was snorting like a steam-engine when she caught it, and kept doubling itself up and straightening itself out again, so that altogether, for the first minute or two, it was as much as she could do to hold it."
 
+    scene black
+    camera:
+        perspective False
+        xpos 0 zpos 0 xoffset 0
     "As soon as she had made out the proper way of nursing it, (which was to twist it up into a sort of knot, and then keep tight hold of its right ear and left foot, so as to prevent its undoing itself,) she carried it out into the open air."
 
-    alice "If I don’t take this child away with me, they’re sure to kill it in a day or two:"
+label ch6_cat:
+    scene forest
+
+    show alice pout at breathing(0.5, 0.5, 0.9)
+    show baby normal:
+        anchor (0.5, 1.0)
+        xpos 0.5 ypos 0.8 zoom 0.7
+        linear 1.0 xoffset -10 yoffset -10 rotate 2
+        linear 1.0 xoffset 10 yoffset 10 rotate -2
+        linear 1.0 xoffset -10 yoffset 10 rotate 2
+        linear 1.0 xoffset 10 yoffset -10 rotate -2
+        repeat
+
+    alice "(If I don’t take this child away with me, they’re sure to kill it in a day or two:)"
     alice "wouldn’t it be murder to leave it behind?"
     "The little thing grunted in reply (it had left off sneezing by this time)."
-    "Don’t grunt, that’s not at all a proper way of expressing yourself."
+    alice "Don’t grunt, that’s not at all a proper way of expressing yourself."
 
     "The baby grunted again, and Alice looked very anxiously into its face to see what was the matter with it."
+    show baby half
     "There could be no doubt that it had a very turn-up nose, much more like a snout than a real nose; also not like the look of the thing at all."
     alice "But perhaps it was only sobbing"
     "She looked into its eyes again, to see if there were any tears."
@@ -1771,8 +1893,10 @@ label chapter6:
     alice "Now, what am I to do with this creature when I get it home?"
     "Then it grunted again, so violently, that she looked down into its face in some alarm."
 
+    show baby pig
     "This time there could be no mistake about it: it was neither more nor less than a pig, and she felt that it would be quite absurd for her to carry it further."
 
+    hide baby
     "So she set the little creature down, and felt quite relieved to see it trot away quietly into the wood."
 
     alice "If it had grown up, it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think."
@@ -1782,6 +1906,10 @@ label chapter6:
     alice "If one only knew the right way to change them—"
 
     "She got a little startled by seeing the Cheshire Cat sitting on a bough of a tree a few yards off."
+
+    show cat:
+        anchor (0.5, 1.0)
+        xpos 0.79 ypos 0.25 zoom 0.5
 
     "The Cat only grinned when it saw Alice."
     "It looked good-natured, she thought: still it had very long claws and a great many teeth, so she felt that it ought to be treated with respect."
@@ -1834,12 +1962,16 @@ label chapter6:
 
     cat "You’ll see me there."
 
+    hide cat
     "The Cat vanished."
 
     "Alice was not much surprised at this, she was getting so used to queer things happening."
 
     "While she was looking at the place where it had been, it suddenly appeared  again." # the cat appeared again
 
+    show cat:
+        anchor (0.5, 1.0)
+        xpos 0.79 ypos 0.25 zoom 0.5
     cat "By the by, what became of the baby?"
     cat "I’d nearly forgotten to ask."
 
@@ -1847,12 +1979,16 @@ label chapter6:
 
     cat "I thought it would." # said the cat and VANISHED again
 
+    hide cat
     "The Cat vanished again."
 
     "Alice waited a little, half expecting to see it again, but it did not appear, and after a minute or two she walked on in the direction in which the March Hare was said to live."
 
     alice "I’ve seen hatters before, the  March Hare will be much the most interesting, and perhaps as this is May it won’t be raving mad—at least not so mad as it was in March."
 
+    show cat:
+        anchor (0.5, 1.0)
+        xpos 0.79 ypos 0.25 zoom 0.5
     "As she said this, she looked up, and there was the Cat again, sitting on a branch of a tree."
 
     cat "Did you say pig, or fig?"
