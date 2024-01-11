@@ -11,16 +11,16 @@
 
         gl_FragColor = texture2D(tex0, texC, -0.55);
     """)
-    renpy.register_shader("game.cat", variables="""
-        uniform float u_time;
-        uniform sampler2D tex1;
-        uniform float u_dissolve;
-    """, fragment_400="""
-        vec2 d = texture(tex1, v_tex_coord, -0.5).xy;
-        float alpha = 1.0 - clamp((u_dissolve - d.x) / max(d.y - d.x, 0.001), 0.0, 1.0);
-        gl_FragColor = texture2D(tex0, v_tex_coord, -0.5);
-        gl_FragColor.a *= alpha;
-    """)
+    #renpy.register_shader("game.cat", variables="""
+    #    uniform float u_time;
+    #    uniform sampler2D tex1;
+    #    uniform float u_dissolve;
+    #""", fragment_400="""
+    #    vec2 d = texture(tex1, v_tex_coord, -0.5).xy;
+    #    float alpha = 1.0 - clamp((u_dissolve - d.x) / max(d.y - d.x, 0.001), 0.#0, 1.0);
+    #    gl_FragColor = texture2D(tex0, v_tex_coord, -0.5);
+    #    gl_FragColor.a *= alpha;
+    #""")
 
 define alice = Character("Alice", color="#ADD8E6")
 define rabbit = Character("Rabbit", color="#ffffff")
@@ -2008,19 +2008,19 @@ label ch6_cat:
     cat "All right."
 
     hide cat
-
-    image cat_animated:
-        "cat.png" with Dissolve(1.0, alpha=True)
-        pause 2.0
-        "cat2.png" with Dissolve(1.0, alpha=True)
-        pause 2.0
-        #"cat3.png" with Dissolve(2.0, alpha=True)
-        #pause 2.0
-        "cat4.png" with Dissolve(1.0, alpha=True)
-        pause 2.0
-        "cat5.png" with Dissolve(1.0, alpha=True)
-        pause 2.0
-        "cat6.png" with Dissolve(1.0, alpha=True)
+    define cat_t = 1.5
+    image cat_animated: 
+        "cat.png" with Dissolve(cat_t, alpha=True)
+        pause cat_t
+        "cat2.png" with Dissolve(cat_t, alpha=True)
+        #pause cat_t
+        #"cat3.png" with Dissolve(cat_t, alpha=True)
+        pause cat_t
+        "cat4.png" with Dissolve(cat_t, alpha=True)
+        pause cat_t
+        "cat5.png" with Dissolve(cat_t, alpha=True)
+        pause cat_t
+        "cat6.png" with Dissolve(cat_t, alpha=True)
 
     show cat_animated:
         anchor (0.5, 1.0)
