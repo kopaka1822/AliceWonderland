@@ -43,6 +43,9 @@ define fishfoot = Character("Fish-Footmen", color="#9694ff")
 define frogfoot = Character("Frog-Footmen", color="#b5ff9e")
 define duchess = Character("Duchess", color="#ff8c00")
 define cat = Character("Cheshire Cat", color="#fa6400")
+define hare = Character("March Hare", color="#fa6400")
+define hatter = Character("Mad Hatter", color="#00ff00")
+define dormouse = Character("Dormouse", color="#ff8c00")
 
 image riverbank = "riverbank.png"
 
@@ -2043,6 +2046,290 @@ label chapter7:
 
     scene hare_house
 
+    "There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head."
+
+    alice "(Very uncomfortable for the Dormouse, only, as it’s asleep, I suppose it doesn’t mind.)"
+
+    "The table was a large one, but the three were all crowded together at one corner of it"
+
+    everyone "No room! No room!" 
+
+    alice "There’s plenty of room!"
+
+    "She sat down in a large arm-chair at one end of the table."
+
+    hare "Have some wine."
+
+    "Alice looked all round the table, but there was nothing on it but tea."
+
+    alice "I don’t see any wine."
+
+    hare "There isn’t any."
+
+    alice "Then it wasn’t very civil of you to offer it." # said Alice angrily
+
+    hare "It wasn’t very civil of you to sit down without being invited."
+
+    alice "I didn’t know it was your table, it’s laid for a great many more than three."
+
+    hatter "Your hair wants cutting."
+
+    "He had been looking at Alice for some time with great curiosity, and this was his first speech."
+
+    alice "You should learn not to make personal remarks, it’s very rude."
+
+    "The Hatter opened his eyes very wide on hearing this; but all he said was"
+
+    hatter "Why is a raven like a writing-desk?"
+
+    alice "Come, we shall have some fun now! I’m glad they’ve begun asking riddles—I believe I can guess that."
+
+    hare "Do you mean that you think you can find out the answer to it?"
+
+    alice "Exactly so."
+
+    hare "Then you should say what you mean."
+
+    alice "I do, at least—at least I mean what I say—that’s the same thing, you know."
+
+    hatter "Not the same thing a bit! Why, you might just as well say that ‘I see what I eat’ is the same thing as ‘I eat what I see’!"
+
+    hare "You might just as well say, that ‘I like what I get’ is the same thing as ‘I get what I like’!"
+
+    dormouse "You might just as well say, that ‘I breathe when I sleep’ is the same thing as ‘I sleep when I breathe’!"
+
+    hatter "It is the same thing with you."
+
+    "And here the conversation dropped, and the party sat silent for a minute, while Alice thought over all she could remember about ravens and writing-desks, which wasn’t much."
+
+    "The hatter was the first to break the silence."
+    hatter "What day of month is it?"
+
+    "he said, turning to Alice: he had taken his watch out of his pocket, and was looking at it uneasily, shaking it every now and then, and holding it to his ear."
+
+    "Alice considered it a little..."
+
+    alice "The fourth."
+
+    hatter "Two days wrong!"
+    "He looked angrily at the March Hare."
+    hatter "I told you butter wouldn’t suit the works!"
+    
+    hare "It was the best butter."
+
+    hatter "Yes, but some crumbs must hav got in as well, you shoudn’t have put it in with the bread-knife."
+
+    "The March Hare took the watch and looked at it gloomily: then he dipped it into his cup of tea, and looked at it again: but he could think of nothing better to say than his first remark"
+
+    hare "It was the best butter, you know."
+
+    "Alice had been looking over his shoulder with some curiosity."
+
+    alice "What a funny watch!"
+    alice "It tells the day of the month, and doesn’t tell what o’clock it is!"
+
+    hatter "Why should it?" # muttered the Hatter.
+    hatter "Does your watch tell you what year it is?"
+
+    alice "Of course not, but that’s because it stays the same year for such a long time together."
+
+    hatter "Which is just the case with mine."
+
+    "Alice felt dreadfully puzzled."
+    "The Hatter’s remark seemed to have no sort of meaning in it, and yet it was certainly English."
+    alice "I don’t quite understand you."
+
+    hatter "The Dormouse is asleep again."
+    "He poured a little hot tea upon its nose."
+    "The Door-mouse shook its head impatiently, and said, without opening its eyes:"
+    dormouse "Of course, of course; just what I was going to remark myself."
+
+    "The hatter turned to Alice again."
+    hatter "Have you guessed the riddle yet?"
+
+    alice "No, I give it up. What’s the answer?"
+
+    hatter "I haven’t the slightest idea."
+
+    hare "Nor I."
+
+    alice "I think you might do something better with the time, than waste it in asking riddles that have no answers."
+
+    hatter "If you knew Time as well as I do, you wouldn’t talk about wasting it. It’s him."
+
+    alice "I don’t know what you mean."
+
+    hatter "Of course you don’t! I dare say you never even spoke to Time!"
+
+    alice "Perhaps not, but I know I have to beat time when I learn music."
+
+    hatter "Ah! That accounts for it. He won’t stand beating. Now, if you only kept on good terms with him, he’d do almost anything you liked with the clock."
+    hatter "For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!"
+
+    hare "(I only with it was...)"
+
+    alice "That would be grand, certainly, but then—I shouldn’t be hungry for it, you know."
+
+    hatter "Not at first, perhaps, but you could keep it to half-past one as long as you liked."
+
+    alice "Is that the way you manage?"
+
+    "The Hatter shook his head mournfully."
+    hatter "Not I! We quarrelled last March—just before he went mad, you know—"
+
+    "The Hatter pointed with his tea spoon at the March Hare."
+
+    hatter "it was at the great concert given by the Queen of Hearts, and I had to sing\n‘Twinkle, twinkle, little bat!\nHow I wonder what you’re at!’"
+    hatter "You know the song, perhaps?"
+
+    alice "I’ve heard something like it."
+
+    hatter "It goes on, you know, in this way:"
+    hatter "Up above the world you fly,\nLike a tea-tray in the sky.\nTwinkle, twinkle—"
+
+    "Here the Dormouse shook itself, and began singing in its sleep:"
+
+    dormouse "Twinkle, twinkle, twinkle, twinkle—"
+
+    "and went on so long that they had to pinch it to make it stop."
+
+    hatter "Well, I’d hardly finished the first verse, when the Queen jumped up and bawled out, ‘He’s murdering the time! Off with his head!’"
+
+    alice "How dreadfully savage!"
+
+    hatter "And ever since that, he won’t do a thing I ask! It’s always six o’clock now."
+
+    "A bright idea came into Alice’s head."
+    alice "Is that the reason so many tea-things are put out here?"
+
+    hatter "Yes, that’s it, t’s always tea-time, and we’ve no time to wash the things between whiles."
+
+    alice "Then you keep moving round, I suppose?"
+
+    hatter "Exactly so, s the things get used up."
+
+    alice "But what happens when you come to the beginning again?"
+
+    hare "Suppose we change the subject. I’m getting tired of this. I vote the young lady tells us a story."
+
+    alice "I’m afraid I don’t know one."
+
+    everyone "Then the Dormouse shall! Wake up, Dormouse!"
+
+    "And they pinched it on both sides at once."
+
+    "The Dormouse slowly opened his eyes."
+
+    dormouse "I wasn’t asleep, I heard every word you fellows were saying."
+
+    hare "Tell us a story!"
+
+    alice "Yes, please do!"
+
+    hatter "And be quick about it, or you’ll be asleep again before it’s done."
+
+    dormouse "Once upon a time there were three little sisters, and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—"
+
+    alice "What did they live on?"
+
+    "Alice always took a great interest in questions of eating and drinking."
+
+    dormouse "They lived on treacle, "
+
+    "..."
+
+    alice "They couldn’t have done that, you know, they’d have been ill."
+
+    dormouse "So they were, very ill"
+
+    "Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on:"
+
+    alice "But why did they live at the bottom of a well?"
+
+    hare "Take some more tea."
+
+    alice "I’ve had nothing yet, so I can’t take more."
+
+    "Alice replied in an offended tone."
+
+    hatter "You mean you can’t take less. It’s very easy to take more than nothing."
+
+    alice "Nobody asked your opinion."
+
+    hatter "Who’s making personal remarks now?" # the Hatter asked triumphantly.
+
+    "Alice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question."
+
+    "The Dormouse again took a minute or two to think about it"
+
+    dormouse "It was a treacle-well."
+
+    alice "There’s no such thing!"
+
+    "Alice was beginning very angrily, but the Hatter and the March Hare went"
+
+    everyone "Sh! sh!"
+
+    dormouse "“If you can’t be civil, you’d better finish the story for yourself."
+
+    alice "No, please go on! I won’t interrupt again. I dare say there may be one."
+
+    dormouse "One, indeed!"
+    dormouse "And so these three little sisters—they were learning to draw, you know—"
+
+    alice "What did they draw?"
+
+    dormouse "Treacle."
+
+    hatter "I want a clean cup, let’s all move one place on."
+
+    # TODO move anim: Order Alice -> Hare, Mouse, Hatter -> new 
+    "He moved on as he spoke, and the Dormouse followed him: the March Hare moved into the Dormouse’s place, and Alice rather unwillingly took the place of the March Hare. The Hatter was the only one who got any advantage from the change: and Alice was a good deal worse off than before, as the March Hare had just upset the milk-jug into his plate."
+
+    "Alice did not wish to offend the Dormouse again, so she began very cautiously:"
+    alice "But I don’t understand. Where did they draw the treacle from?"
+
+    hatter "You can draw water out of a water-well, so I should think you could draw treacle out of a treacle-well—eh, stupid?"
+
+    alice "But they were in the well."
+
+    dormouse "Of course they were, well in."
+
+    "This answer so confused poor Alice, that she let the Dormouse go on for some time without interrupting it."
+
+    dormouse "They were learning to draw, "
+    "the Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy"
+    # todo close eyes
+    dormouse "and they drew all manner of things—everything that begins with an M———"
+    "..."
+    alice "Why with an M?"
+    hare "Why not?"
+    "Alice was silent"
+
+    "The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on:"
+    # wake up
+    dormouse "“—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?”"
+
+    alice "Really, now you ask me, I don’t think—"
+
+    hatter "Then you shouldn’t talk,"
+
+    "This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot."
+
+    scene forest
+    alice "At any rate I’ll never go there again!"
+    alice "It’s the stupidest tea-party I ever was at in all my life!"
+
+    "Just as she said this, she noticed that one of the trees had a door leading right into it."
+    alice "(That’s very curious!)"
+    alice "(But everything’s curious today. I think I may as well go in at once.)"
+    "And she went in"
+
+    scene hall
+    "Once more she found herself in the long hall, and close to the little glass table."
+    alice "Now, I’ll manage better this time"
+    "She began by taking the little golden key, and unlocking the door that led into the garden."
+    "Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and then—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains."
 
 label chapter8:
     scene black
