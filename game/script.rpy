@@ -11,6 +11,16 @@
 
         gl_FragColor = texture2D(tex0, texC, -0.55);
     """)
+    renpy.register_shader("game.cat", variables="""
+        uniform float u_time;
+        uniform sampler2D tex1;
+        uniform float u_dissolve;
+    """, fragment_400="""
+        vec2 d = texture(tex1, v_tex_coord, -0.5).xy;
+        float alpha = 1.0 - clamp((u_dissolve - d.x) / max(d.y - d.x, 0.001), 0.0, 1.0);
+        gl_FragColor = texture2D(tex0, v_tex_coord, -0.5);
+        gl_FragColor.a *= alpha;
+    """)
 
 define alice = Character("Alice", color="#ADD8E6")
 define rabbit = Character("Rabbit", color="#ffffff")
@@ -1588,8 +1598,6 @@ label chapter6:
     scene black
     "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
 
-    jump ch6_cat
-
     scene forest_house
     show footmen_fish at breathing(-0.5, 0.5, 0.9):
         linear 4.0 xpos 0.3
@@ -1862,7 +1870,7 @@ label ch6_kitchen:
         xpos 0 zpos 0 xoffset 0
     "As soon as she had made out the proper way of nursing it, (which was to twist it up into a sort of knot, and then keep tight hold of its right ear and left foot, so as to prevent its undoing itself,) she carried it out into the open air."
 
-label ch6_cat:
+
     scene forest
 
     show alice pout at breathing(0.5, 0.5, 0.9)
@@ -1986,9 +1994,11 @@ label ch6_cat:
 
     alice "I’ve seen hatters before, the  March Hare will be much the most interesting, and perhaps as this is May it won’t be raving mad—at least not so mad as it was in March."
 
+label ch6_cat:
     show cat:
         anchor (0.5, 1.0)
         xpos 0.79 ypos 0.25 zoom 0.5
+        
     "As she said this, she looked up, and there was the Cat again, sitting on a branch of a tree."
 
     cat "Did you say pig, or fig?"
@@ -1997,10 +2007,30 @@ label ch6_cat:
 
     cat "All right."
 
+    hide cat
+
+    image cat_animated:
+        "cat.png" with Dissolve(1.0, alpha=True)
+        pause 2.0
+        "cat2.png" with Dissolve(1.0, alpha=True)
+        pause 2.0
+        #"cat3.png" with Dissolve(2.0, alpha=True)
+        #pause 2.0
+        "cat4.png" with Dissolve(1.0, alpha=True)
+        pause 2.0
+        "cat5.png" with Dissolve(1.0, alpha=True)
+        pause 2.0
+        "cat6.png" with Dissolve(1.0, alpha=True)
+
+    show cat_animated:
+        anchor (0.5, 1.0)
+        xpos 0.79 ypos 0.25 zoom 0.5
+
     "This time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone."
 
     alice "Well! I’ve often seen a cat without a grin, but a grin without a cat! It’s the most curious thing I ever saw in my life!"
 
+    scene hare_house
     "She had not gone much farther before she came in sight of the house of the March Hare: she thought it must be the right house, because the chimneys were shaped like ears and the roof was thatched with fur."
 
     "It was so large a house, that she did not like to go nearer till she had nibbled some more of the lefthand bit of mushroom, and raised herself to about two feet high: even then she walked up towards it rather timidly"    
@@ -2010,6 +2040,9 @@ label ch6_cat:
 label chapter7:
     scene black
     "{size=+40}Chapter VII: \n{/size}A Mad Tea-Party"
+
+    scene hare_house
+
 
 label chapter8:
     scene black
