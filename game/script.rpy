@@ -46,6 +46,9 @@ define cat = Character("Cheshire Cat", color="#fa6400")
 define hare = Character("March Hare", color="#fa6400")
 define hatter = Character("Mad Hatter", color="#00ff00")
 define dormouse = Character("Dormouse", color="#ff8c00")
+define two = Character("Two", color="#ff0000")
+define five = Character("Five", color="#ff0000")
+define seven = Character("Seven", color="#ff0000")
 
 image riverbank = "riverbank.png"
 
@@ -200,7 +203,7 @@ label chapter1:
 
     scene black
 
-    "The rabbit-hole went straight on like a tunnel for some way,"
+    "The rabbit-hole went straight on like a tunnel for some way."
     
     scene well at center 
     play music "audio/rinne aurelia.mp3" fadeout 1.0 fadein 1.0 
@@ -409,11 +412,11 @@ label chapter2:
     show alice pout at breathing(0.5, alice_scale_large)
     "After a time she heard a little pattering of feet in the distance, and she hastily dried her eyes to see what was coming."
     "It was the White Rabbit returning, splendidly dressed, with a pair of white kid gloves in one hand and a large fan in the other:"
-    "he came trotting along in a great hurry, muttering to himself as he came,"
+    "he came trotting along in a great hurry, muttering to himself as he came:"
     hide alice
     show rabbit normal at breathing(0.5)
     rabbit "Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!"
-    "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice,"
+    "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice:"
     hide rabbit
     show alice pout at breathing(0.5, alice_scale_large)
     alice "If you please, sir—"
@@ -461,7 +464,7 @@ label chapter2:
     alice "That was a narrow escape!"
     "She was a good deal frightened at the sudden change, but very glad to find herself still in existence."
     alice "And now for the garden!"
-    "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before,"
+    "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
     show alice pout at breathing(0.5, alice_scale)
     alice  "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
 
@@ -521,8 +524,8 @@ label chapter2:
     alice "Well, perhaps not, don’t be angry about it."
     show alice happy zorder 1 at swimming(0.3, alice_scale)
     alice "And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her."
-    alice "She is such a dear quiet thing,"
-    "Alice went on, half to herself, as she swam lazily about in the pool,"
+    alice "She is such a dear quiet thing."
+    "Alice went on, half to herself, as she swam lazily about in the pool."
     alice "and she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
     "This time the Mouse was bristling all over, and she felt certain it must be really offended."
     show alice thinking zorder 1 at swimming(0.3, alice_scale)
@@ -551,7 +554,7 @@ label chapter2:
     show alice normal zorder 1 at swimming(0.3, alice_scale)
     hide mouse
     show mouse zorder 1 at mouse_swims_back
-    "When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice,"
+    "When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice:"
     mouse "Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs."
 
     "It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures."
@@ -650,7 +653,7 @@ label chapter3:
 
     camera: 
         ease cam_transition xpos muddy_mouse_pos
-    "The Mouse did not notice this question, but hurriedly went on,"
+    "The Mouse did not notice this question, but hurriedly went on."
 
     mouse "'—found it advisable to go with Edgar Atheling to meet William and offer him the crown. William’s conduct at first was moderate. But the insolence of his Normans—'"
     "it continued, turning to Alice as it spoke."
@@ -786,10 +789,10 @@ label chapter3:
     dodo "Everybody has won, and all must have prizes."
 
     everyone "But who is to give the prizes?"
-    dodo "Why, she, of course," 
+    dodo "Why, she, of course." 
     camera:
         ease cam_transition xpos muddy_alice_pos
-    "said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way,"
+    "said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way:"
     everyone "Prizes! Prizes!"
 
     show comfits at Position(ypos = 0.65, xpos = muddy_alice_pos)
@@ -837,7 +840,7 @@ label chapter3:
     "However, it was over at last, and they sat down again in a ring, and begged the Mouse to tell them something more."
 
     
-    alice "You promised to tell me your history, you know,"
+    alice "You promised to tell me your history, you know."
     alice "and why it is you hate—C and D"
     "alice added in a whisper, half afraid that it would be offended again."
  
@@ -1061,7 +1064,7 @@ label chapter4:
     rabbit "Then I’ll go round and get in at the window."
 
     alice "That you won’t!"
-    "thought Alice, and, after waiting till she fancied she heard the Rabbit just under the window,"
+    "thought Alice, and, after waiting till she fancied she heard the Rabbit just under the window."
     play sound "sfx/snatch.mp3"
     "she suddenly spread out her hand, and made a snatch in the air."
     play sound "sfx/shatter.mp3"
@@ -1082,7 +1085,7 @@ label chapter4:
     pat "Sure, it does, yer honour: but it’s an arm for all that."
     rabbit "Well, it’s got no business there, at any rate: go and take it away!"
 
-    "There was a long silence after this, and Alice could only hear whispers now and then; such as,"
+    "There was a long silence after this, and Alice could only hear whispers now and then; such as:"
     pat "Sure, I don’t like it, yer honour, at all, at all!"
     rabbit "Do as I tell you, you coward!"
     play sound "sfx/snatch.mp3"
@@ -1358,7 +1361,7 @@ label chapter5:
     caterpillar "Who are you?"
 
     "Which brought them back again to the beginning of the conversation."
-    "Alice felt a little irritated at the Caterpillar’s making such very short remarks, and she drew herself up and said, very gravely,"
+    "Alice felt a little irritated at the Caterpillar’s making such very short remarks, and she drew herself up and said, very gravely:"
     alice "I think, you ought to tell me who you are, first."
 
     caterpillar "Why?"
@@ -1673,7 +1676,7 @@ label chapter6:
     "At this moment the door of the house opened, and a large plate came skimming out, straight at the Footman’s head: it just grazed his nose, and broke to pieces against one of the trees behind him."
 
 
-    fishfoot "—or next day, maybe,"
+    fishfoot "—or next day, maybe."
 
     #"The Footman continued in the same tone, exactly as if nothing had happened."
 
@@ -1925,7 +1928,7 @@ label ch6_kitchen:
     "The Cat only grinned when it saw Alice."
     "It looked good-natured, she thought: still it had very long claws and a great many teeth, so she felt that it ought to be treated with respect."
 
-    alice "Cheshire Puss," 
+    alice "Cheshire Puss." 
     "she began, rather timidly, as she did not at all know whether it would like the name: however, it only grinned a little wider."
     alice "Come, it’s pleased so far."
     alice "Would you tell me, please, which way I ought to go from here?"
@@ -1960,11 +1963,11 @@ label ch6_kitchen:
 
     cat "To begin with, a dog’s not mad. You grant that?"
 
-    alice "I suppose so,"
+    alice "I suppose so."
 
     cat "Well, then, you see, a dog growls when it’s angry, and wags its tail when it’s pleased. Now I growl when I’m pleased, and wag my tail when I’m angry. Therefore I’m mad."
 
-    alice "I call it purring, not growling,"
+    alice "I call it purring, not growling."
 
     cat "Call it what you like."
     cat "Do you play croquet with the Queen today?"
@@ -2045,6 +2048,25 @@ label chapter7:
     "{size=+40}Chapter VII: \n{/size}A Mad Tea-Party"
 
     scene hare_house
+    camera:
+        perspective True
+        xpos 10 ypos 0 zpos 0 xoffset -center_offset
+        linear 10.0 xpos 800
+
+    define alice_tea_pos = 10
+    define hare_tea_pos = 500
+    define dormouse_tea_pos = 800
+    define hatter_tea_pos = 1000
+    define hare_scale = 0.9
+    define hatter_scale = 0.5
+    define dormouse_scale = 0.44
+    show alice normal at breathing(-285, 0.5, 0.9) zorder 100
+
+    show hare at breathing(hare_tea_pos, hare_scale, 0.79)
+    show dormouse sleep at breathing(dormouse_tea_pos, dormouse_scale, 0.71)
+    show hatter at breathing(hatter_tea_pos, hatter_scale, 1.02)
+
+    show hare_house_front zorder 50
 
     "There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head."
 
@@ -2054,126 +2076,238 @@ label chapter7:
 
     everyone "No room! No room!" 
 
+    camera:
+        linear cam_transition xpos 10
     alice "There’s plenty of room!"
 
+    camera:
+        linear cam_transition xpos alice_tea_pos
+    hide alice
+    show alice normal at breathing(alice_tea_pos, 0.5, 0.9) zorder 0
+        
     "She sat down in a large arm-chair at one end of the table."
 
+    camera:
+        linear cam_transition xpos hare_tea_pos
     hare "Have some wine."
+
 
     "Alice looked all round the table, but there was nothing on it but tea."
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "I don’t see any wine."
 
+    camera: 
+        linear cam_transition xpos hare_tea_pos
     hare "There isn’t any."
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "Then it wasn’t very civil of you to offer it." # said Alice angrily
 
+    camera: 
+        linear cam_transition xpos hare_tea_pos
     hare "It wasn’t very civil of you to sit down without being invited."
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "I didn’t know it was your table, it’s laid for a great many more than three."
 
+
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Your hair wants cutting."
 
     "He had been looking at Alice for some time with great curiosity, and this was his first speech."
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "You should learn not to make personal remarks, it’s very rude."
 
     "The Hatter opened his eyes very wide on hearing this; but all he said was"
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Why is a raven like a writing-desk?"
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "Come, we shall have some fun now! I’m glad they’ve begun asking riddles—I believe I can guess that."
 
+    camera: 
+        linear cam_transition xpos hare_tea_pos
     hare "Do you mean that you think you can find out the answer to it?"
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "Exactly so."
 
+    camera: 
+        linear cam_transition xpos hare_tea_pos
     hare "Then you should say what you mean."
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "I do, at least—at least I mean what I say—that’s the same thing, you know."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Not the same thing a bit! Why, you might just as well say that ‘I see what I eat’ is the same thing as ‘I eat what I see’!"
 
+    camera: 
+        linear cam_transition xpos hare_tea_pos
     hare "You might just as well say, that ‘I like what I get’ is the same thing as ‘I get what I like’!"
 
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos
     dormouse "You might just as well say, that ‘I breathe when I sleep’ is the same thing as ‘I sleep when I breathe’!"
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "It is the same thing with you."
 
     "And here the conversation dropped, and the party sat silent for a minute, while Alice thought over all she could remember about ravens and writing-desks, which wasn’t much."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     "The hatter was the first to break the silence."
     hatter "What day of month is it?"
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     "he said, turning to Alice: he had taken his watch out of his pocket, and was looking at it uneasily, shaking it every now and then, and holding it to his ear."
 
     "Alice considered it a little..."
 
     alice "The fourth."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Two days wrong!"
     "He looked angrily at the March Hare."
     hatter "I told you butter wouldn’t suit the works!"
     
+    camera: 
+        linear cam_transition xpos hare_tea_pos
     hare "It was the best butter."
 
-    hatter "Yes, but some crumbs must hav got in as well, you shoudn’t have put it in with the bread-knife."
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
+    hatter "Yes, but some crumbs must have got in as well, you shoudn’t have put it in with the bread-knife."
 
+    camera: 
+        linear cam_transition xpos hare_tea_pos
     "The March Hare took the watch and looked at it gloomily: then he dipped it into his cup of tea, and looked at it again: but he could think of nothing better to say than his first remark"
 
+    
     hare "It was the best butter, you know."
 
     "Alice had been looking over his shoulder with some curiosity."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "What a funny watch!"
     alice "It tells the day of the month, and doesn’t tell what o’clock it is!"
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Why should it?" # muttered the Hatter.
     hatter "Does your watch tell you what year it is?"
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "Of course not, but that’s because it stays the same year for such a long time together."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Which is just the case with mine."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     "Alice felt dreadfully puzzled."
     "The Hatter’s remark seemed to have no sort of meaning in it, and yet it was certainly English."
     alice "I don’t quite understand you."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "The Dormouse is asleep again."
     "He poured a little hot tea upon its nose."
     "The Door-mouse shook its head impatiently, and said, without opening its eyes:"
+    
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos
     dormouse "Of course, of course; just what I was going to remark myself."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     "The hatter turned to Alice again."
     hatter "Have you guessed the riddle yet?"
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "No, I give it up. What’s the answer?"
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "I haven’t the slightest idea."
 
+    camera: 
+        linear cam_transition xpos hare_tea_pos
     hare "Nor I."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "I think you might do something better with the time, than waste it in asking riddles that have no answers."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "If you knew Time as well as I do, you wouldn’t talk about wasting it. It’s him."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "I don’t know what you mean."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Of course you don’t! I dare say you never even spoke to Time!"
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "Perhaps not, but I know I have to beat time when I learn music."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Ah! That accounts for it. He won’t stand beating. Now, if you only kept on good terms with him, he’d do almost anything you liked with the clock."
     hatter "For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!"
 
-    hare "(I only with it was...)"
+    camera: 
+        linear cam_transition xpos hare_tea_pos
+    hare "(I only with wish it was...)"
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "That would be grand, certainly, but then—I shouldn’t be hungry for it, you know."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Not at first, perhaps, but you could keep it to half-past one as long as you liked."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "Is that the way you manage?"
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     "The Hatter shook his head mournfully."
     hatter "Not I! We quarrelled last March—just before he went mad, you know—"
 
@@ -2182,117 +2316,236 @@ label chapter7:
     hatter "it was at the great concert given by the Queen of Hearts, and I had to sing\n‘Twinkle, twinkle, little bat!\nHow I wonder what you’re at!’"
     hatter "You know the song, perhaps?"
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "I’ve heard something like it."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "It goes on, you know, in this way:"
     hatter "Up above the world you fly,\nLike a tea-tray in the sky.\nTwinkle, twinkle—"
 
     "Here the Dormouse shook itself, and began singing in its sleep:"
 
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos
     dormouse "Twinkle, twinkle, twinkle, twinkle—"
 
     "and went on so long that they had to pinch it to make it stop."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Well, I’d hardly finished the first verse, when the Queen jumped up and bawled out, ‘He’s murdering the time! Off with his head!’"
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "How dreadfully savage!"
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "And ever since that, he won’t do a thing I ask! It’s always six o’clock now."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     "A bright idea came into Alice’s head."
     alice "Is that the reason so many tea-things are put out here?"
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Yes, that’s it, t’s always tea-time, and we’ve no time to wash the things between whiles."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "Then you keep moving round, I suppose?"
 
-    hatter "Exactly so, s the things get used up."
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
+    hatter "Exactly so, as the things get used up."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "But what happens when you come to the beginning again?"
 
+    camera: 
+        linear cam_transition xpos hare_tea_pos
     hare "Suppose we change the subject. I’m getting tired of this. I vote the young lady tells us a story."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "I’m afraid I don’t know one."
 
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos
     everyone "Then the Dormouse shall! Wake up, Dormouse!"
 
     "And they pinched it on both sides at once."
 
+    show dormouse tired
     "The Dormouse slowly opened his eyes."
+
 
     dormouse "I wasn’t asleep, I heard every word you fellows were saying."
 
+    camera: 
+        linear cam_transition xpos hare_tea_pos
     hare "Tell us a story!"
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "Yes, please do!"
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "And be quick about it, or you’ll be asleep again before it’s done."
 
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos
     dormouse "Once upon a time there were three little sisters, and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—"
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "What did they live on?"
 
     "Alice always took a great interest in questions of eating and drinking."
 
+    camera: 
+        xpos dormouse_tea_pos
+    show treacle at Position(xpos = dormouse_tea_pos, ypos = 0.6) zorder 200
     dormouse "They lived on treacle, "
 
     "..."
+    hide treacle
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos
+    show alice pout
     alice "They couldn’t have done that, you know, they’d have been ill."
 
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos
     dormouse "So they were, very ill"
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     "Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on:"
 
     alice "But why did they live at the bottom of a well?"
 
+    camera: 
+        linear cam_transition xpos hare_tea_pos
     hare "Take some more tea."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
+    show alice pout
     alice "I’ve had nothing yet, so I can’t take more."
 
     "Alice replied in an offended tone."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "You mean you can’t take less. It’s very easy to take more than nothing."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "Nobody asked your opinion."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "Who’s making personal remarks now?" # the Hatter asked triumphantly.
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
+    show alice normal
     "Alice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question."
 
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos
     "The Dormouse again took a minute or two to think about it"
 
     dormouse "It was a treacle-well."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
+    show alice pout
     alice "There’s no such thing!"
 
     "Alice was beginning very angrily, but the Hatter and the March Hare went"
 
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos
     everyone "Sh! sh!"
 
     dormouse "“If you can’t be civil, you’d better finish the story for yourself."
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "No, please go on! I won’t interrupt again. I dare say there may be one."
 
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos
     dormouse "One, indeed!"
     dormouse "And so these three little sisters—they were learning to draw, you know—"
 
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos
     alice "What did they draw?"
 
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos
     dormouse "Treacle."
 
+    camera: 
+        linear cam_transition xpos hatter_tea_pos
     hatter "I want a clean cup, let’s all move one place on."
 
-    # TODO move anim: Order Alice -> Hare, Mouse, Hatter -> new 
+label ch7_reorder:
+
+    define hatter_tea_pos2 = 1210
+    define hatter_cam_pos2 = 1060
+    define alice_tea_pos2 = hare_tea_pos
+    define hare_tea_pos2 = dormouse_tea_pos
+    define dormouse_tea_pos2 = hatter_tea_pos
+    show hatter zorder 100:
+        xpos hatter_tea_pos2
+    show alice zorder 0:
+        xpos alice_tea_pos2
+    show hare zorder 1:
+        xpos hare_tea_pos2
+    show dormouse zorder 2:
+        xpos dormouse_tea_pos2 ypos 0.74
+
     "He moved on as he spoke, and the Dormouse followed him: the March Hare moved into the Dormouse’s place, and Alice rather unwillingly took the place of the March Hare. The Hatter was the only one who got any advantage from the change: and Alice was a good deal worse off than before, as the March Hare had just upset the milk-jug into his plate."
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos2
     "Alice did not wish to offend the Dormouse again, so she began very cautiously:"
     alice "But I don’t understand. Where did they draw the treacle from?"
 
+    camera: 
+        linear cam_transition xpos hatter_cam_pos2
     hatter "You can draw water out of a water-well, so I should think you could draw treacle out of a treacle-well—eh, stupid?"
 
+    camera: 
+        linear cam_transition xpos alice_tea_pos2
     alice "But they were in the well."
 
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos2
     dormouse "Of course they were, well in."
 
     "This answer so confused poor Alice, that she let the Dormouse go on for some time without interrupting it."
@@ -2301,32 +2554,57 @@ label chapter7:
     "the Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy"
     # todo close eyes
     dormouse "and they drew all manner of things—everything that begins with an M———"
+
+    show dormouse sleep
     "..."
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos2
     alice "Why with an M?"
+
+    camera: 
+        linear cam_transition xpos hare_tea_pos2
     hare "Why not?"
     "Alice was silent"
 
+    camera: 
+        linear cam_transition xpos dormouse_tea_pos2
     "The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on:"
     # wake up
+    show dormouse tired
     dormouse "“—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?”"
-
+    
+    camera: 
+        linear cam_transition xpos alice_tea_pos2
     alice "Really, now you ask me, I don’t think—"
 
-    hatter "Then you shouldn’t talk,"
+    camera: 
+        linear cam_transition xpos hatter_cam_pos2
+    hatter "Then you shouldn’t talk."
 
+    hide alice
     "This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot."
 
     scene forest
+    camera:
+        perspective False
+        xpos 0 ypos 0 xoffset 0
+
+    show alice pout at breathing(0.5, alice_scale, 0.9)
     alice "At any rate I’ll never go there again!"
     alice "It’s the stupidest tea-party I ever was at in all my life!"
 
     "Just as she said this, she noticed that one of the trees had a door leading right into it."
+
+    show alice surprised
     alice "(That’s very curious!)"
     alice "(But everything’s curious today. I think I may as well go in at once.)"
     "And she went in"
 
     scene hall
     "Once more she found herself in the long hall, and close to the little glass table."
+
+    show alice normal at breathing(0.5, alice_scale, 0.9)
     alice "Now, I’ll manage better this time"
     "She began by taking the little golden key, and unlocking the door that led into the garden."
     "Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and then—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains."
@@ -2334,6 +2612,31 @@ label chapter7:
 label chapter8:
     scene black
     "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
+
+    "A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red."
+    "Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them..."
+
+    two "Look out now, Five! Don’t go splashing paint over me like that!"
+    five "I couldn’t help it, “Seven jogged my elbow."
+    # On which seven looked up and said
+    seven "That’s right, Five! Always lay the blame on others!"
+
+    five "You’d better not talk!" 
+    five "I heard the Queen say only yesterday you deserved to be beheaded!"
+
+    two "What for?"
+    seven "That’s none of your business, Two!"
+
+    five "Yes, it is his business! And I’ll tell him—it was for bringing the cook tulip-roots instead of onions."
+
+    "Seven flung down his brush..."
+    seven "Well, of all the unjust things—"
+    "His eye chanced to fall upon Alice, as she stood watching them, and he checked himself suddenly: the others looked round also, and all of them bowed low."
+    
+    alice "Would you tell me, why you are painting those roses?"
+
+    "Five and Seven said nothing, but looked at Two."
+
 
 label chapter9:
     scene black
