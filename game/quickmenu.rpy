@@ -21,10 +21,6 @@ screen quick_menu():
 
             use quick_menu_b
 
-        elif persistent.quick_menu_style and not persistent.quick_menu_align:
-
-            use quick_menu_c
-
         elif not persistent.quick_menu_style:
             use quick_menu_ham
 
@@ -36,27 +32,6 @@ screen quick_menu_b():
         xfill True
         ## Align the quick menu to the top of the screen
         ypos 0
-        has hbox
-        style_prefix "touch_quick"
-
-        xalign 0.5
-        yalign 0.8
-        spacing 35
-
-        textbutton _("Back") action Rollback()
-        textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-        textbutton _("Auto") action Preference("auto-forward", "toggle")
-        textbutton _("Q.Save") action QuickSave()
-        textbutton _("Menu") action ShowMenu('navigation')
-
-
-screen quick_menu_c():
-    ## Create a container for the quick menu content
-    frame:
-
-        xfill True
-        ## Number not yet accurate
-        ypos 1466
         has hbox
         style_prefix "touch_quick"
 
