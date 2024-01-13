@@ -1,10 +1,10 @@
 ﻿init python:
     renpy.register_shader("game.breathing", variables="""
-        uniform float u_time;
+        uniform float u_breath_cycle;
         uniform vec2 res0;
     """, fragment_300="""
-        float rng = dot(texture2D(tex0, vec2(0.5), 10.0).xyz, vec3(0.33)); // random offset for each texture
-        float scale = 0.5 + 0.5 * sin(u_time + rng * 2.0 * 3.141);
+        float rng = dot(texture2D(tex0, vec2(0.5), 7.0).xyz, vec3(0.33)); // random offset for each texture
+        float scale = 0.5 + 0.5 * sin((rng + u_breath_cycle) * 2.0 * 3.141);
         vec2 texC = v_tex_coord.xy;
         texC.y = 1.0 - (1.0 - texC.y) * (1.0 + 0.01 * scale);
         if(texC.y < 0.0 || texC.y > 1.0) discard;
@@ -105,7 +105,8 @@ transform breathing_calm(xposition, scale = 1.0):
     zoom scale
     # todo slower speed
     shader "game.breathing"
-    pause repeat_rate
+    u_breath_cycle 0.0
+    linear 6.0 u_breath_cycle 1.0
     repeat
 
 transform breathing(xposition, scale = 1.0, yposition = 0.7):
@@ -113,16 +114,18 @@ transform breathing(xposition, scale = 1.0, yposition = 0.7):
     anchor (0.5, 1.0)
     zoom scale
     shader "game.breathing"
-    pause repeat_rate
+    u_breath_cycle 0.0
+    linear 5.0 u_breath_cycle 1.0
     repeat
 
 transform breathing_crying(xposition, scale = 1.0):
     pos (xposition, 0.7)
     anchor (0.5, 1.0)
     zoom scale
-    # todo custom breathing?
+
     shader "game.breathing"
-    pause repeat_rate
+    u_breath_cycle 0.0
+    linear 3.5 u_breath_cycle 1.0
     repeat
 
 transform swimming(xposition, scale = 1.0):
