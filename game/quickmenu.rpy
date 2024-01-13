@@ -18,11 +18,7 @@ screen quick_menu():
 
         ## Determine quick menu style to use
         if persistent.quick_menu_style and persistent.quick_menu_align:
-
             use quick_menu_b
-
-        elif not persistent.quick_menu_style:
-            use quick_menu_ham
 
 
 screen quick_menu_b():
@@ -44,48 +40,6 @@ screen quick_menu_b():
         textbutton _("Auto") action Preference("auto-forward", "toggle")
         textbutton _("Q.Save") action QuickSave()
         textbutton _("Menu") action ShowMenu('navigation')
-
-
-screen quick_menu_2():
-
-    zorder 100
-
-    frame:
-        style_prefix "quick_menu"
-        xalign 0.5
-        yalign 0
-
-        grid 4 2:
-            xalign 0.5
-            yalign 0.5
-            spacing 5
-
-            textbutton _("Back") action Rollback()
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Menu") action ShowMenu ("navigation")
-            textbutton _("History") action ShowMenu("history")
-            textbutton _("Q.save") action QuickSave()
-            textbutton _("Q.load") action QuickLoad()
-            textbutton _("Settings") action ShowMenu("preferences")
-    use quick_menu_ham
-
-
-## Used in multiple places
-screen quick_menu_ham():
-
-    ## Ensure the quick menu button stays on top of the quick menu so it can be closed
-    zorder 101
-
-    vbox:
-        xalign 1.0
-        yalign 0.0
-        imagebutton:
-            alt "Open the quick menu"
-            hover "gui/button/hamburger.png"
-            idle "gui/button/hamburger.png"
-            action ToggleScreen('quick_menu_2')
-            tooltip _("Quick menu")
 
 
 style quick_menu_frame:
