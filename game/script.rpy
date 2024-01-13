@@ -1010,7 +1010,7 @@ label chapter4:
     show fan gloves at Position(ypos = 0.65, xpos = 0.5)
     "By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves:"
     hide fan gloves
-    show alice excited at breathing(0.5, alice_scale, 1.0)
+    show alice excited at breathing(0.5, alice_scale, 0.9)
     alice "she took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass."
     play sound "sfx/cork.mp3"
     "There was no label this time with the words 'DRINK ME', but nevertheless she uncorked it and put it to her lips."
@@ -1018,7 +1018,7 @@ label chapter4:
     alice "I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!"
 
     show alice excited:
-        pos (0.5, 1.0)
+        pos (0.5, 0.9)
         anchor (0.5, 1.0)
         zoom alice_scale
         easeout 60.0 zoom 10.0
@@ -1027,12 +1027,7 @@ label chapter4:
     "She hastily put down the bottle."
     alice "That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!"
 
-    show alice belly:
-        xalign 0.7
-        yalign 1.0
-        anchor (0.5, 1.0)
-        zoom 1.0
-        easeout 10.0 zoom 2.0
+    show alice belly at breathing(0.7, 2.0, 1.0)
 
     "Alas! it was too late to wish that! She went on growing, and growing, and very soon had to kneel down on the floor:"
     "In another minute there was not even room for this, and she tried the effect of lying down with one elbow against the door, and the other arm curled round her head."
@@ -1042,7 +1037,7 @@ label chapter4:
     alice "Now I can do no more, whatever happens. What will become of me?"
 
     # stop growing, show at max w/ breathing
-    show alice belly at breathing(0.7, 2.0, 1.0)
+    
     "Luckily for Alice, the little magic bottle had now had its full effect, and she grew no larger:"
 
     "Still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy."
@@ -1374,11 +1369,17 @@ label chapter5:
 
     caterpillar "Why?"
 
+    show alice at breathing(800, 0.2, 1.0):
+        zpos -1000
+        linear 2.0 xoffset -400
     "Here was another puzzling question; and as Alice could not think of any good reason, and as the Caterpillar seemed to be in a very unpleasant state of mind, she turned away."
 
     caterpillar "Come back!"
     caterpillar "I’ve something important to say!"
 
+    show alice at breathing(800, 0.2, 1.0):
+        zpos -1000
+        linear 2.0 xoffset 0
     "This sounded promising, certainly: Alice turned and came back again."
 
     caterpillar "Keep your temper."
@@ -2203,7 +2204,7 @@ label chapter7:
 
     camera: 
         linear cam_transition xpos alice_tea_pos
-    "he said, turning to Alice: he had taken his watch out of his pocket, and was looking at it uneasily, shaking it every now and then, and holding it to his ear."
+    "He had taken his watch out of his pocket, and was looking at it uneasily, shaking it every now and then, and holding it to his ear." # turning to alice
 
     "Alice considered it a little..."
 
@@ -2221,7 +2222,7 @@ label chapter7:
 
     camera: 
         linear cam_transition xpos hatter_tea_pos
-    hatter "Yes, but some crumbs must have got in as well, you shoudn’t have put it in with the bread-knife."
+    hatter "Yes, but some crumbs must have got in as well, you shouldn’t have put it in with the bread-knife."
 
     camera: 
         linear cam_transition xpos hare_tea_pos
@@ -2381,7 +2382,7 @@ label chapter7:
 
     camera: 
         linear cam_transition xpos hatter_tea_pos
-    hatter "Yes, that’s it, t’s always tea-time, and we’ve no time to wash the things between whiles."
+    hatter "Yes, that’s it, it’s always tea-time, and we’ve no time to wash the things between whiles."
 
 
     camera: 
@@ -2514,7 +2515,7 @@ label chapter7:
         linear cam_transition xpos dormouse_tea_pos
     everyone "Sh! sh!"
 
-    dormouse "“If you can’t be civil, you’d better finish the story for yourself."
+    dormouse "If you can’t be civil, you’d better finish the story for yourself."
 
 
     camera: 
@@ -2598,7 +2599,7 @@ label ch7_reorder:
     "The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on:"
     # wake up
     show dormouse tired
-    dormouse "“—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?”"
+    dormouse "—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?"
     
     camera: 
         linear cam_transition xpos alice_tea_pos2
@@ -2647,7 +2648,7 @@ label chapter8:
     "Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them..."
 
     two "Look out now, Five! Don’t go splashing paint over me like that!"
-    five "I couldn’t help it, “Seven jogged my elbow."
+    five "I couldn’t help it, Seven jogged my elbow."
     # On which seven looked up and said
     seven "That’s right, Five! Always lay the blame on others!"
 
@@ -2679,8 +2680,8 @@ label chapter8:
     "Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her."
     "Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion; and, last of all this grand procession, came THE KING AND QUEEN OF HEARTS."
 
-    "Alice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions.
-    alice “(What would be the use of a procession, if people had all to lie down upon their faces, so that they couldn’t see it?)"
+    "Alice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions."
+    alice "(What would be the use of a procession, if people had all to lie down upon their faces, so that they couldn’t see it?)"
     "So she stood still where she was, and waited."
 
     "When the procession came opposite to Alice, they all stopped and looked at her."
@@ -2885,7 +2886,7 @@ label chapter9:
     alice "(I only wish people knew that: then they wouldn’t be so stingy about it, you know—)"
 
     "She had quite forgotten the Duchess by this time, and was a little startled when she heard her voice close to her ear."
-    duchess "You’re thinking about something, my dear, and that makes you forget to talk. I can’t tell you just now what the moral of that is, but I shall remember it in a bit.”"
+    duchess "You’re thinking about something, my dear, and that makes you forget to talk. I can’t tell you just now what the moral of that is, but I shall remember it in a bit."
 
     alice "Perhaps it hasn’t one."
 
@@ -3001,7 +3002,7 @@ label chapter9:
     "She pitied him deeply."
     alice "What is his sorrow?"
     "she asked the Gryphon, and the Gryphon answered, very nearly in the same words as before"
-    gryphon "It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!”"
+    gryphon "It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!"
 
     "So they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing."
 
