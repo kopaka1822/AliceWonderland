@@ -75,7 +75,7 @@ define canary_scale = 0.2
 define cam_transition = 0.5
 define center_offset = 540 # half of 1080
 
-define repeat_rate = 1.0 / 30.0
+define repeat_rate = 0.01
 
 transform falling:
     xpos -0.5 ypos 0.0
@@ -1328,7 +1328,7 @@ label chapter5:
         zpos 0
     "{size=+40}Chapter V: \n{/size}Advice from a Caterpillar"
 
-    play music "audio/rinne oak general store.mp3" if_changed
+    play music "audio/rinne sad.mp3" fadein 1.0 fadeout 1.0
 
     #jump ch5_sky
 
@@ -1497,6 +1497,8 @@ label chapter5:
     # switch scene to sky
 label ch5_sky:
 
+    play music "audio/rinne alice.mp3" fadein 1.0 fadeout 1.0
+
     scene sky:
         # center sky
         anchor (0.5, 0.5)
@@ -1504,12 +1506,8 @@ label ch5_sky:
         zoom 2.2
     camera:
         perspective True
-        zpos 0
-        easein 3.0 zrotate -5.0 xpos -30 ypos 30
-        easeout 3.0 zrotate 0.0 xpos 0 ypos 0
-        easein 3.0 zrotate 5.0 xpos 30 ypos 30
-        easeout 3.0 zrotate 0.0 ypos 0 ypos 0
-        repeat
+        xpos 0 ypos 0 zpos 0 xoffset 0
+
 
     show cloud as cloud1:
         anchor (0.5, 0.5)
@@ -1524,6 +1522,14 @@ label ch5_sky:
         xpos 1.2 ypos 0.7 zpos -600
 
     alice "What can all that green stuff be?"
+    
+    camera:
+        easein 3.0 zrotate -5.0 xpos -30 ypos 30
+        easeout 3.0 zrotate 0.0 xpos 0 ypos 0
+        easein 3.0 zrotate 5.0 xpos 30 ypos 30
+        easeout 3.0 zrotate 0.0 ypos 0 ypos 0
+        repeat
+
     alice "And where have my shoulders got to?"
     alice "And oh, my poor hands, how is it I can’t see you?"
     "She was moving them about as she spoke, but no result seemed to follow, except a little shaking among the distant green leaves."
@@ -1589,6 +1595,9 @@ label ch5_sky:
         perspective False
         xpos 0 ypos 0 zpos 0 zrotate 0
 
+    #stop music fadeout 1.0
+    play music "audio/rinne song of little birds.mp3" fadein 1.0 fadeout 1.0
+
     "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
 
     show alice happy at breathing(0.5, 0.6, 0.9)
@@ -1608,6 +1617,8 @@ label ch5_sky:
 label chapter6:
     scene black
     "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
+
+    play music "audio/rinne song of little birds.mp3" if_changed
 
     scene forest_house
     show footmen_fish at breathing(-0.5, 0.5, 0.9):
@@ -1708,6 +1719,9 @@ label chapter6:
 
 label ch6_kitchen:
     scene kitchen
+
+    play music "audio/rinne oak general store.mp3" fadein 1.0 fadeout 1.0
+
     camera:
         perspective True
 
@@ -1918,6 +1932,8 @@ label ch6_kitchen:
     hide baby
     "So she set the little creature down, and felt quite relieved to see it trot away quietly into the wood."
 
+    play music "audio/rinne lilly.mp3" fadein 1.0 fadeout 1.0
+
     alice "If it had grown up, it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think."
 
     "And she began thinking over other children she knew, who might do very well as pigs."
@@ -2051,6 +2067,8 @@ label ch6_cat:
 label chapter7:
     scene black
     "{size=+40}Chapter VII: \n{/size}A Mad Tea-Party"
+
+    play music "audio/rinne lilly.mp3" if_changed
 
     scene hare_house
     camera:
@@ -2612,11 +2630,15 @@ label ch7_reorder:
     show alice normal at breathing(0.5, alice_scale, 0.9)
     alice "Now, I’ll manage better this time"
     "She began by taking the little golden key, and unlocking the door that led into the garden."
+    
+    stop music fadeout 1.0
     "Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and then—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains."
 
 label chapter8:
     scene black
     "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
+
+    play music "audio/rinne rosalia garden.mp3"
 
     "A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red."
     "Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them..."
@@ -2847,6 +2869,8 @@ label chapter8:
 label chapter9:
     scene black
     "{size=+40}Chapter IX: \n{/size}The Mock Turtle's Story"
+
+    play music "audio/rinne rosalia garden.mp3" if_changed
 
     duchess "You can’t think how glad I am to see you again, you dear old thing!"
     "the Duchess tucked her arm affectionately into Alice’s, and they walked off together."
