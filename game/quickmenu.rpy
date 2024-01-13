@@ -138,3 +138,4 @@ style touch_quick_button:
 
 style touch_quick_button_text:
     properties gui.button_text_properties("touch_quick_button")
+    selected_color "#5fb9ff"
