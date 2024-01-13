@@ -1184,13 +1184,12 @@ screen audio_settings():
         box_wrap True
 
         vbox:
-
+            spacing 8
             if config.has_music:
                 label _("Music Volume")
 
                 vbox:
                     bar value Preference("music volume") tooltip _("Change the music volume")
-                    text _( "{:.0f}%".format(music_vol * 100) )
 
             if config.has_sound:
 
@@ -1198,14 +1197,12 @@ screen audio_settings():
 
                 vbox:
                     bar value Preference("sound volume") tooltip _("Change the SFX volume")
-                    text _( "{:.0f}%".format(sound_vol * 100) )
 
             if config.has_voice:
                 label _("Voice Volume")
 
                 vbox:
                     bar value Preference("voice volume") tooltip _("Change the volume of speech in the game")
-                    text _( "{:.0f}%".format(voice_vol * 100) )
 
             if config.has_music or config.has_sound or config.has_voice:
                 null height gui.pref_spacing
