@@ -55,49 +55,13 @@ define king = Character("King", color="#ff0000")
 define gryphon = Character("Gryphon", color="#ff8c00")
 define mock = Character("Mock Turtle", color="#00ff00")
 
-image riverbank = "riverbank.png"
-
-default alice_scale = 0.5
-default alice_scale_large = 0.7
-default alice_scale_muddy = 0.4
-default rabbit_scale = 0.7
+define alice_scale = 0.5
+define alice_scale_large = 0.7
+define rabbit_scale = 0.7
 define mouse_scale = 0.5
-define mouse_muddy_scale = 0.3
-define lory_scale = 0.3
-define duck_scale = 0.4
-define dodo_scale = 0.7
-define eaglet_scale = 0.45
-define old_crab_scale = 0.3
-define young_crab_scale = 0.2
-define magpie_scale = 0.35
-define canary_scale = 0.2
 
 define cam_transition = 0.5
 define center_offset = 540 # half of 1080
-
-define repeat_rate = 0.01
-
-transform falling:
-    xpos -0.5 ypos 0.0
-    linear 1.0 xoffset -20 yoffset -20 rotate 5
-    linear 1.0 xoffset 20 yoffset 20 rotate -5
-    linear 1.0 xoffset -20 yoffset 20 rotate 5
-    linear 1.0 xoffset 20 yoffset -20 rotate -5
-    repeat
-
-transform falling2:
-    xpos -0.2 ypos 0.1
-    linear 1.0 xoffset -10 yoffset -10 rotate 2
-    linear 1.0 xoffset 10 yoffset 10 rotate -2
-    linear 1.0 xoffset -10 yoffset 10 rotate 2
-    linear 1.0 xoffset 10 yoffset -10 rotate -2
-    repeat
-
-transform pan_background:
-    xalign 0.0
-    linear 30.0 xalign 1.0
-    linear 30.0 xalign 0.0
-    repeat
 
 transform breathing_calm(xposition, scale = 1.0):
     pos (xposition, 0.7)
@@ -135,44 +99,6 @@ transform swimming(xposition, scale = 1.0):
     ease 2.0 yoffset -10
     ease 2.0 yoffset 10
     repeat
-
-transform mouse_swims_away:
-    pos (0.7, 0.5)
-    anchor (0.5, 0.0)
-    zoom mouse_scale
-    linear 10.0 xoffset 1000
-
-transform mouse_swims_back:
-    pos (1.2, 0.5)
-    anchor (0.5, 0.0)
-    zoom mouse_scale
-    linear 10.0 xoffset -500
-    
-
-transform wave_animation():
-    pos (0.5, 1.0)
-    anchor (0.5, 1.0)
-    linear 1.0 yoffset 20
-    linear 1.0 yoffset 10
-    repeat
-
-transform alice_growing_large:
-    pos (0.5, 0.7)
-    anchor (0.5, 1.0)
-    zoom 0.5
-    easeout 60.0 zoom 10.0
-
-transform alice_shrinking:
-    pos (0.5, 0.7)
-    anchor (0.5, 1.0)
-    zoom alice_scale_large
-    easein 20.0 zoom alice_scale
-
-transform pan_background_to_center:
-    xalign 0.0
-    linear 15.0 xalign 0.5
-
-
 
 label start:
     #jump chapter1_after_fall
@@ -216,7 +142,13 @@ label chapter1:
     scene well at center 
     play music "audio/rinne aurelia.mp3" fadeout 1.0 fadein 1.0 
 
-    show alice falling at falling
+    show alice falling:
+        xpos -0.5 ypos 0.0
+        linear 1.0 xoffset -20 yoffset -20 rotate 5
+        linear 1.0 xoffset 20 yoffset 20 rotate -5
+        linear 1.0 xoffset -20 yoffset 20 rotate 5
+        linear 1.0 xoffset 20 yoffset -20 rotate -5
+        repeat
 
     "and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well."
 
@@ -263,13 +195,13 @@ label chapter1:
 
     "(she was rather glad there was no one listening, this time, as it didn’t sound at all the right word) "
 
-    #show alice curtsy air2 at falling2
+
     alice "—but I shall have to ask them what the name of the country is, you know. Please, Ma’am, is this New Zealand or Australia?"
 
     "(and she tried to curtsey as she spoke—fancy curtseying as you’re falling through the air! Do you think you could manage it?)"
 
     alice "And what an ignorant little girl she’ll think me for asking! No, it’ll never do to ask: perhaps I shall see it written up somewhere."
-    show alice falling at falling
+
     "Down, down, down."
 
     "There was nothing else to do, so Alice soon began talking again."
@@ -300,7 +232,9 @@ label chapter1:
     
     "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead;"
 
-    scene hall at pan_background_to_center
+    scene hall:
+        xalign 0.0
+        linear 15.0 xalign 0.5
     play music "audio/rinne memories of clockwise tower.mp3" fadein 1.0
 
     "before her was another long passage, and the White Rabbit was still in sight, hurrying down it."
@@ -396,7 +330,11 @@ label chapter2:
     scene hall at center
     play music "audio/rinne memories of clockwise tower.mp3"
 
-    show alice excited at alice_growing_large
+    show alice excited:
+        pos (0.5, 0.7)
+        anchor (0.5, 1.0)
+        zoom 0.5
+        easeout 60.0 zoom 10.0
     alice "Curiouser and curiouser!"
     "(she was so much surprised, that for the moment she quite forgot how to speak good English)"
     alice "Now I’m opening out like the largest telescope that ever was!"
@@ -461,7 +399,11 @@ label chapter2:
     alice "'Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else' —but, oh dear!"
     alice "I do wish they would put their heads down! I am so very tired of being all alone here!"
 
-    show alice thinking at alice_shrinking
+    show alice thinking:
+        pos (0.5, 0.7)
+        anchor (0.5, 1.0)
+        zoom alice_scale_large
+        easein 20.0 zoom alice_scale
     "As she said this she looked down at her hands, and was surprised to see that she had put on one of the Rabbit’s little white kid gloves while she was talking."
     alice "How can I have done that?"
     alice "I must be growing small again."
@@ -480,8 +422,18 @@ label chapter2:
     play sound "sfx/splash.mp3"
     "As she said these words her foot slipped, and in another moment, splash!"
 
-    show waves zorder 0 at wave_animation
-    show wavestop zorder 99 at wave_animation
+    show waves zorder 0:
+        pos (0.5, 1.0)
+        anchor (0.5, 1.0)
+        linear 1.0 yoffset 20
+        linear 1.0 yoffset 10
+        repeat
+    show wavestop zorder 99:
+        pos (0.5, 1.0)
+        anchor (0.5, 1.0)
+        linear 1.0 yoffset 20
+        linear 1.0 yoffset 10
+        repeat
     show alice pout zorder 1 at swimming(0.5, alice_scale)
     play music "audio/rinne beyond the sea.mp3"
     "she was up to her chin in salt water."
@@ -555,13 +507,21 @@ label chapter2:
     show alice crying zorder 1 at swimming(0.3, alice_scale)
     "Alice cried in a sorrowful tone"
     alice "I’m afraid I’ve offended it again!"
-    show mouse zorder 1 at mouse_swims_away
+    show mouse zorder 1:
+        pos (0.7, 0.5)
+        anchor (0.5, 0.0)
+        zoom mouse_scale
+        linear 10.0 xoffset 1000
     "For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
 
     alice "Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!"
     show alice normal zorder 1 at swimming(0.3, alice_scale)
     hide mouse
-    show mouse zorder 1 at mouse_swims_back
+    show mouse zorder 1:
+        pos (1.2, 0.5)
+        anchor (0.5, 0.0)
+        zoom mouse_scale
+        linear 10.0 xoffset -500
     "When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice:"
     mouse "Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs."
 
@@ -586,6 +546,18 @@ label chapter3:
     define muddy_young_crab_pos = 2514
     define muddy_magpie_pos = 2796
     define muddy_canary_pos = 3078
+
+    define alice_scale_muddy = 0.4
+    define mouse_muddy_scale = 0.3
+    define lory_scale = 0.3
+    define duck_scale = 0.4
+    define dodo_scale = 0.7
+    define eaglet_scale = 0.45
+    define old_crab_scale = 0.3
+    define young_crab_scale = 0.2
+    define magpie_scale = 0.35
+    define canary_scale = 0.2
+
     show eaglet at breathing(muddy_eaglet_pos, eaglet_scale)
     show lory at breathing(muddy_lory_pos, lory_scale)
     show duck at breathing(muddy_duck_pos, duck_scale)
