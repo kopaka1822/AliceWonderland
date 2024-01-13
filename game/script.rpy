@@ -52,6 +52,8 @@ define seven = Character("Seven", color="#ff0000")
 define queen = Character("Queen", color="#ff0000")
 define soldiers =  Character("Soldiers", color="#ffffff")
 define king = Character("King", color="#ff0000")
+define gryphon = Character("Gryphon", color="#ff8c00")
+define mock = Character("Mock Turtle", color="#00ff00")
 
 image riverbank = "riverbank.png"
 
@@ -2845,6 +2847,232 @@ label chapter8:
 label chapter9:
     scene black
     "{size=+40}Chapter IX: \n{/size}The Mock Turtle's Story"
+
+    duchess "You can’t think how glad I am to see you again, you dear old thing!"
+    "the Duchess tucked her arm affectionately into Alice’s, and they walked off together."
+
+    "Alice was very glad to find her in such a pleasant temper, and thought to herself that perhaps it was only the pepper that had made her so savage when they met in the kitchen."
+
+    alice "(When I’m a Duchess, I won’t have any pepper in my kitchen at all.)"
+    alice "(Soup does very well without—Maybe it’s always pepper that makes people hot-tempered, and vinegar that makes them sour—and camomile that makes them bitter—and—and barley-sugar and such things that make children sweet-tempered.)"
+    alice "(I only wish people knew that: then they wouldn’t be so stingy about it, you know—)"
+
+    "She had quite forgotten the Duchess by this time, and was a little startled when she heard her voice close to her ear."
+    duchess "You’re thinking about something, my dear, and that makes you forget to talk. I can’t tell you just now what the moral of that is, but I shall remember it in a bit.”"
+
+    alice "Perhaps it hasn’t one."
+
+    duchess "Tut, tut, child!"
+    duchess "Everything’s got a moral, if only you can find it."
+
+    "And she squeezed herself up closer to Alice’s side as she spoke."
+
+    "Alice did not much like keeping so close to her: first, because the Duchess was very ugly; and secondly, because she was exactly the right height to rest her chin upon Alice’s shoulder, and it was an uncomfortably sharp chin."
+
+    alice "The game’s going on rather better now."
+
+    duchess "’Tis so, and the moral of that is—‘Oh, ’tis love, ’tis love, that makes the world go round!’"
+
+    alice "Somebody said, that it’s done by everybody minding their own business!"
+
+    duchess "Ah, well! It means much the same thing, and the moral of that is—‘Take care of the sense, and the sounds will take care of themselves.’"
+    "said the Duchess, digging her sharp little chin into Alice’s shoulder."
+
+    alice "(How fond she is of finding morals in things!)"
+    "..."
+    duchess "I dare say you’re wondering why I don’t put my arm round your waist,the reason is, that I’m doubtful about the temper of your flamingo. Shall I try the experiment?"
+
+    alice "He might bite." # Alice cautiously replied, not feeling at all anxious to have the experiment tried.
+    duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together.’"
+
+    alice "Only mustard isn’t a bird."
+
+    duchess "Right, as usual, what a clear way you have of putting things!"
+    alice "It’s a mineral, I think."
+    duchess "Of course it is, there’s a large mustard-mine near here."
+    "The Duchess seemed ready to agree to everything that Alice said."
+    duchess "And the moral of that is—‘The more there is of mine, the less there is of yours.’"
+
+    alice "Oh, I know!"
+    alice "It’s a vegetable. It doesn’t look like one, but it is."
+
+    duchess "I quite agree with you, and the moral of that is—‘Be what you would seem to be’"
+    duchess "—or if you’d like it put more simply—‘Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise.’"
+
+    alice "I think I should understand that better, if I had it written down: but I can’t quite follow it as you say it"
+
+    duchess "That’s nothing to what I could say if I chose."
+    alice "Pray don’t trouble yourself to say it any longer than that."
+
+    duchess "Oh, don’t talk about trouble!"
+    duchess "I make you a present of everything I’ve said as yet."
+
+    alice "(A cheap sort of present!)"
+    alice "(I’m glad they don’t give birthday presents like that!)"
+    "She did not venture to say it out loud."
+
+    duchess "Thinking again?"
+    "the Duchess asked, with another dig of her sharp little chin."
+
+    alice "I’ve a right to think."
+    "she was beginning to feel a little worried."
+    duchess "Just about as much right, as pigs have to fly; and the m—"
+    
+    "But here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral,’ and the arm that was linked into hers began to tremble."
+    "Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm."
+
+    duchess "A fine day, your Majesty!" # the Duchess began in a low, weak voice.
+
+    queen "Now, I give you fair warning, either you or your head must be off, and that in about half no time! Take your choice!"
+    "shouted the Queen, stamping on the ground as she spoke."
+
+    "The Duchess took her choice, and was gone in a moment."
+
+    queen "Let’s go on with the game."
+    "the Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground."
+
+    "The other guests had taken advantage of the Queen’s absence, and were resting in the shade: however, the moment they saw her, they hurried back to the game, the Queen merely remarking that a moment’s delay would cost them their lives."
+
+    "All the time they were playing the Queen never left off quarrelling with the other players, and shouting “Off with his head!” or “Off with her head!”."
+    "Those whom she sentenced were taken into custody by the soldiers, who of course had to leave off being arches to do this, so that by the end of half an hour or so there were no arches left, and all the players, except the King, the Queen, and Alice, were in custody and under sentence of execution."
+
+    "Then the Queen left off, quite out of breath, and said to Alice:"
+
+    queen "Have you seen the Mock Turtle yet?"
+
+    alice "No, I don’t even know what a Mock Turtle is."
+
+    queen "It’s the thing Mock Turtle Soup is made from."
+
+    alice "I never saw one, or heard of one."
+
+    queen "Come on, then, and he shall tell you his history."
+
+    "As they walked off together, Alice heard the King say in a low voice, to the company generally:"
+    king "You are all pardoned."
+    alice "(Come, that’s a good thing!)"
+    "Alice had felt quite unhappy at the number of executions the Queen had ordered."
+
+    "They very soon came upon a Gryphon, lying fast asleep in the sun."
+    # "(If you don’t know what a Gryphon is, look at the picture.)"
+    queen "Up, lazy thing!"
+    queen "and take this young lady to see the Mock Turtle, and to hear his history."
+    queen "I must go back and see after some executions I have ordered."
+    "she walked off, leaving Alice alone with the Gryphon."
+    "Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited."
+
+    "The Gryphon sat up and rubbed its eyes: then it watched the Queen till she was out of sight: then it chuckled."
+    gryphon "What fun!"
+
+    alice "What is the fun?"
+
+    gryphon "Why, she. It’s all her fancy, that: they never executes nobody, you know. Come on!"
+
+    alice "(Everybody says ‘come on!’ here. I never was so ordered about in all my life, never!)"
+
+    "They had not gone far before they saw the Mock Turtle in the distance, sitting sad and lonely on a little ledge of rock, and, as they came nearer, Alice could hear him sighing as if his heart would break."
+    "She pitied him deeply."
+    alice "What is his sorrow?"
+    "she asked the Gryphon, and the Gryphon answered, very nearly in the same words as before"
+    gryphon "It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!”"
+
+    "So they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing."
+
+    gryphon "This here young lady, she wants for to know your history, she do."
+
+    mock "I’ll tell it her, sit down, both of you, and don’t speak a word till I’ve finished."
+
+    "So they sat down, and nobody spoke for some minutes."
+    "..."
+    alice "I don’t see how he can ever finish, if he doesn’t begin."
+    "But she waited patiently."
+
+    mock "Once, "
+    "said the Mock Turtle at last, with a deep sigh."
+    "I was a real Turtle."
+
+    "These words were followed by a very long silence, broken only by an occasional exclamation of:"
+    gryphon "Hjckrrh!" 
+    "and the constant heavy sobbing of the Mock Turtle." 
+    "Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story,” but she could not help thinking there must be more to come, so she sat still and said nothing."
+
+    mock "When we were little, we went to school in the sea."
+    mock "The master was an old Turtle—we used to call him Tortoise—"
+    
+    alice "Why did you call him Tortoise, if he wasn’t one?"
+
+    mock "We called him Tortoise because he taught us, really you are very dull!" # angrily
+
+    gryphon "You ought to be ashamed of yourself for asking such a simple question."
+
+    "They both sat silent and looked at poor Alice, who felt ready to sink into the earth."
+    "At last the Gryphon said to the Mock Turtle:"
+    gryphon "Drive on, old fellow! Don’t be all day about it!"
+    mock "Yes, we went to school in the sea, though you mayn’t believe it—"
+    alice "I never said I didn’t!"
+    mock "You did."
+    gryphon "Hold your tongue!"
+    "..."
+    mock "We had the best of educations—in fact, we went to school every day—"
+
+    alice "I’ve been to a day-school, too, you needn’t be so proud as all that."
+    mock "With extras?"
+
+    alice "Yes, we learned French and music."
+    mock "And washing?"
+    alice "Certainly not!"
+    mock "Ah! then yours wasn’t a really good school."
+    # said the Mock Turtle in a tone of great relief.
+    mock "Now at ours they had at the end of the bill, ‘French, music, and washing—extra.’"
+    alice "You couldn’t have wanted it much, living at the bottom of the sea."
+    mock "I couldn’t afford to learn it. I only took the regular course."
+    alice "What was that?"
+
+    mock "Reeling and Writhing, of course, to begin with, and then the different branches of Arithmetic—Ambition, Distraction, Uglification, and Derision."
+    alice "I never heard of ‘Uglification. What is it?"
+
+    "The Gryphon lifted up both its paws in surprise."
+    gryphon "What! Never heard of uglifying!"
+    gryphon "You know what to beautify is, I suppose?"
+
+    alice "Yes, it means to make anything prettier." # doubtfully
+
+    gryphon "Well, then, if you don’t know what to uglify is, you are a simpleton."
+
+    "Alice did not feel encouraged to ask any more questions about it, so she turned to the Mock Turtle:"
+    alice "What else had you to learn?"
+
+    mock "Well, there was Mystery, ancient and modern, with Seaography: then Drawling—the Drawling-master was an old conger-eel, that used to come once a week: he taught us Drawling, Stretching, and Fainting in Coils."
+
+    alice "What was that like?"
+
+    mock "Well, I can’t show it you myself."
+    mock "I’m too stiff. And the Gryphon never learnt it."
+
+    gryphon "Hadn’t time, I went to the Classics master, though. He was an old crab, he was."
+
+    mock "I never went to him, he taught Laughing and Grief, they used to say." # with a sigh
+
+    gryphon "So he did, so he did."
+    "They both sighed and hid their faces in their paws."
+
+    alice "And how many hours a day did you do lessons?"
+
+    mock "Ten hours the first day, nine the next, and so on."
+
+    alice "What a curious plan!"
+
+    gryphon "That’s the reason they’re called lessons, because they lessen from day to day."
+
+    "This was quite a new idea to Alice, and she thought it over a little before she made her next remark."
+    alice "Then the eleventh day must have been a holiday?"
+
+    mock "Of course it was."
+
+    alice "And how did you manage on the twelfth?" # eagerly
+
+    gryphon "That’s enough about lessons, tell her something about the games now."
+
 
 label chapter10:
     scene black
