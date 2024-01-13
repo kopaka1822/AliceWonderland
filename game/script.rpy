@@ -49,6 +49,9 @@ define dormouse = Character("Dormouse", color="#ff8c00")
 define two = Character("Two", color="#ff0000")
 define five = Character("Five", color="#ff0000")
 define seven = Character("Seven", color="#ff0000")
+define queen = Character("Queen", color="#ff0000")
+define soldiers =  Character("Soldiers", color="#ffffff")
+define king = Character("King", color="#ff0000")
 
 image riverbank = "riverbank.png"
 
@@ -2637,6 +2640,207 @@ label chapter8:
 
     "Five and Seven said nothing, but looked at Two."
 
+    two "Why the fact is, you see, Miss, this here ought to have been a red rose-tree, and we put a white one in by mistake; and if the Queen was to find it out, we should all have our heads cut off, you know."
+    two "So you see, Miss, we’re doing our best, afore she comes, to—" # "Two began in a low voice,
+    "At this moment Five, who had been anxiously looking across the garden, called out:"
+    five "The Queen! The Queen!"
+    "and the three gardeners instantly threw themselves flat upon their faces."
+    "There was a sound of many footsteps, and Alice looked round, eager to see the Queen."
+
+    "First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did."
+    "After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts."
+    "Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her."
+    "Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion; and, last of all this grand procession, came THE KING AND QUEEN OF HEARTS."
+
+    "Alice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions.
+    alice “(What would be the use of a procession, if people had all to lie down upon their faces, so that they couldn’t see it?)"
+    "So she stood still where she was, and waited."
+
+    "When the procession came opposite to Alice, they all stopped and looked at her."
+    # the Queen said severely
+    queen "Who is this?"
+    "She said it to the Knave of Hearts, who only bowed and smiled in reply."
+
+    queen "Idiot!"
+    "The Queen tossed her head impatiently and turned to Alice."
+    queen "What’s your name, child?"
+
+    alice "My name is Alice, so please your Majesty." # saif alice politely
+    alice "(Why, they’re only a pack of cards, after all. I needn’t be afraid of them!)"
+
+    queen "And whi are these?"
+    "The Queen pointed to the three gardeners who were lying round the rose-tree; for, you see, as they were lying on their faces, and the pattern on their backs was the same as the rest of the pack, she could not tell whether they were gardeners, or soldiers, or courtiers, or three of her own children."
+
+    alice "How should I know? It’s no business of mine."
+
+    "The Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed:"
+    queen "Off with her head! Off—"
+
+    alice "Nonsense!" #  said Alice, very loudly and decidedly, and the Queen was silent.
+    "..."
+    "The King laid his hand upon her arm, and timidly said:"
+    king "Consider, my dear: she is only a child!"
+
+    "The Queen turned angrily away from him, and said to the Knave:"
+    queen "Turn them over!"
+
+    "The Knave did so, very carefully, with one foot."
+
+    queen "Get up!" # said the Queen, in a shrill, loud voice,
+    "The three gardeners instantly jumped up, and began bowing to the King, the Queen, the royal children, and everybody else."
+
+    queen "Leave off that!" # screamed the Queen.
+    queen "You make me giddy."
+
+    "And then, turning to the rose-tree, she went on:"
+    queen "What have you been doing here?"
+
+    two "May it please your Majesty, we were trying—" # said Two, in a very humble tone, going down on one knee as he spoke
+
+    queen "I see!"
+    "The queen had meanwhile been examining the roses."
+    queen "Off with their heads!"
+    "and the procession moved on, three of the soldiers remaining behind to execute the unfortunate gardeners, who ran to Alice for protection."
+
+    alice "You shan’t be beheaded!"
+    "Alice put them into a large flower-pot that stood near. "
+
+    "The three soldiers wandered about for a minute or two, looking for them, and then quietly marched off after the others."
+
+    queen "Are their heads off?"
+
+    soldiers "Their heads are gone, if it please your Majesty!" # shouted in reply
+
+    queen "That’s right!" # shouted
+    queen "Can you play croquet?"
+
+    "The soldiers were silent, and looked at Alice, as the question was evidently meant for her."
+
+    alice "Yes!"
+
+    queen "Come on, then!" #  roared the Queen
+
+    "Alice joined the procession, wondering very much what would happen next."
+
+    rabbit "It’s—it’s a very fine day!" # timid voice
+
+    "She was walking by the White Rabbit, who was peeping anxiously into her face."
+
+    alice "Very, —where’s the Duchess?"
+
+    rabbit "Hush! Hush!" # low and hurried tone
+    "The rabbit looked anxiously over his shoulder as he spoke, and then raised himself upon tiptoe, put his mouth close to her ear, and whispered:"
+    rabbit "She’s under sentence of execution."
+
+    alice "What for?"
+
+    rabbit "Did you say ‘What a pity!’?"
+
+    alice "No, I didn’t, I don’t think it’s at all a pity. I said ‘What for?"
+
+    rabbit "She boxed the Queen’s ears—"
+
+    "Alice gave a little scream of laughter."
+
+    rabbit "Oh, hush! The Queen will hear you! You see, she came rather late, and the Queen said—"
+
+    queen "Get to your places!"
+    "shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began."
+
+    "Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches."
+
+    "The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it would twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing."
+    "And when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog had unrolled itself, and was in the act of crawling away."
+    "Besides all this, there was generally a ridge or furrow in the way wherever she wanted to send the hedgehog to, and, as the doubled-up soldiers were always getting up and walking off to other parts of the ground, Alice soon came to the conclusion that it was a very difficult game indeed."
+
+    "The players all played at once without waiting for turns, quarrelling all the while, and fighting for the hedgehogs; and in a very short time the Queen was in a furious passion, and went stamping about:"
+    queen "Off with his head!"
+    "or"
+    queen "Off with her head!" 
+    "about once in a minute."
+
+    "Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute."
+    alice "(And then, what would become of me? They’re dreadfully fond of beheading people here; the great wonder is, that there’s any one left alive!)"
+
+    # cat appear slowly
+    "She was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin."
+    alice "(It’s the Cheshire Cat: now I shall have somebody to talk to.)"
+
+    cat "How are you getting on?" # said the Cat, as soon as there was mouth enough for it to speak with.
+
+    "Alice waited till the eyes appeared, and then nodded."
+    alice "(It’s no use speaking to it, till its ears have come, or at least one of them.)"
+
+    "In another minute the whole head appeared, and then Alice put down her flamingo, and began an account of the game, feeling very glad she had someone to listen to her."
+    
+    "The Cat seemed to think that there was enough of it now in sight, and no more of it appeared."
+
+    alice "I don’t think they play at all fairly, and they all quarrel so dreadfully one can’t hear oneself speak—and they don’t seem to have any rules in particular; at least, if there are, nobody attends to them—"
+    alice "and you’ve no idea how confusing it is all the things being alive; for instance, there’s the arch I’ve got to go through next walking about at the other end of the ground—and I should have croqueted the Queen’s hedgehog just now, only it ran away when it saw mine coming!"
+
+    cat "How do you like the Queen?"
+
+    alice "Not at all, she’s so extremely—"
+    "Just then she noticed that the Queen was close behind her, listening: so she went on:"
+    alice "—likely to win, that it’s hardly worth while finishing the game."
+
+    "The Queen smiled and passed on."
+
+    king "Who are you talking to?" # said the King, going up to Alice
+    "The king was looking at the Cat’s head with great curiosity."
+
+    alice "It’s a friend of mine—a Cheshire Cat, allow me to introduce it."
+
+    king "I don’t like the look of it at all, however, it may kiss my hand if it likes."
+
+    cat "I’d rather not."
+
+    king "Don’t be impertinent, and don’t look at me like that!"
+
+    "He got behind Alice as he spoke."
+
+    alice "A cat may look at a king, I’ve read that in some book, but I don’t remember where."
+
+    king "Well, it must be removed."
+    "The King called the Queen, who was passing at the moment:"
+    king "My dear! I wish you would have this cat removed!"
+
+    "The Queen had only one way of settling all difficulties, great or small."
+
+    queen "Off with his head!"
+    "she said, without even looking round."
+
+    king "I’ll fetch the executioner myself." # said the King eagerly, and he hurried off.
+
+    "Alice thought she might as well go back, and see how the game was going on, as she heard the Queen’s voice in the distance, screaming with passion."
+    "She had already heard her sentence three of the players to be executed for having missed their turns, and she did not like the look of things at all, as the game was in such confusion that she never knew whether it was her turn or not."
+    "So she went in search of her hedgehog."
+
+    "The hedgehog was engaged in a fight with another hedgehog, which seemed to Alice an excellent opportunity for croqueting one of them with the other:" 
+    "The only difficulty was, that her flamingo was gone across to the other side of the garden, where Alice could see it trying in a helpless sort of way to fly up into a tree."
+
+    "By the time she had caught the flamingo and brought it back, the fight was over, and both the hedgehogs were out of sight."
+    alice "(But it doesn’t matter much, as all the arches are gone from this side of the ground.)"
+    "So she tucked it away under her arm, that it might not escape again, and went back for a little more conversation with her friend."
+
+    "When she got back to the Cheshire Cat, she was surprised to find quite a large crowd collected round it: there was a dispute going on between the executioner, the King, and the Queen, who were all talking at once, while all the rest were quite silent, and looked very uncomfortable."
+
+    "The moment Alice appeared, she was appealed to by all three to settle the question, and they repeated their arguments to her, though, as they all spoke at once, she found it very hard indeed to make out exactly what they said."
+
+    "The executioner’s argument was, that you couldn’t cut off a head unless there was a body to cut it off from: that he had never had to do such a thing before, and he wasn’t going to begin at his time of life."
+
+    "The King’s argument was, that anything that had a head could be beheaded, and that you weren’t to talk nonsense."
+
+    "The Queen’s argument was, that if something wasn’t done about it in less than no time she’d have everybody executed, all round."
+    "(It was this last remark that had made the whole party look so grave and anxious.)"
+
+    # Alice could think of nothing else to say but
+    alice "It belongs to the Duchess: you’d better ask her about it."
+
+    queen "She’s in prison, fetch her here."
+    "And the executioner went off like an arrow."
+
+    "The Cat’s head began fading away the moment he was gone, and, by the time he had come back with the Duchess, it had entirely disappeared; so the King and the executioner ran wildly up and down looking for it, while the rest of the party went back to the game."
 
 label chapter9:
     scene black
