@@ -77,7 +77,6 @@ style frame:
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
 
-
 ################################################################################
 ## In-game screens
 ################################################################################
@@ -1053,6 +1052,7 @@ screen system_settings():
                         auto display_toggle_button_image
                         hover_foreground Text(_("{u}Window{/u}"), xalign=0.5, yalign=0.5)
                         idle_foreground Text(_("Window"), xalign=0.5, yalign=0.5)
+                        selected_background "#5f9bff"
                         action Preference("display", "any window")
                         tooltip _("Display the game in a window")
 
@@ -1061,6 +1061,7 @@ screen system_settings():
                         auto display_toggle_button_image
                         hover_foreground Text(_("{u}Fullscreen{/u}"), xalign=0.5, yalign=0.5)
                         idle_foreground Text(_("Fullscreen"), xalign=0.5, yalign=0.5)
+                        selected_background "#5f9bff"
                         action Preference("display", "fullscreen")
                         tooltip _("Display the game in fullscreen")
 
@@ -1097,6 +1098,7 @@ screen system_settings():
                         auto rollback_side_disabled_button_image
                         hover_foreground Text(_("{u}Disabled{/u}"), xalign=0.5, yalign=0.5)
                         idle_foreground Text(_("Disabled"), xalign=0.5, yalign=0.5)
+                        selected_background "#5f9bff"
                         action Preference("rollback side", "disable")
                         tooltip _("Rollback is only accessible through the scroll wheel and back button")
                 else:
@@ -1105,6 +1107,7 @@ screen system_settings():
                         auto rollback_side_disabled_button_image
                         hover_foreground Text(_("{u}Disabled{/u}"), xalign=0.5, yalign=0.5)
                         idle_foreground Text(_("Disabled"), xalign=0.5, yalign=0.5)
+                        selected_background "#5f9bff"
                         action Preference("rollback side", "disable")
                         tooltip _("Rollback is only accessible via the back button and gestures")
 
@@ -1113,6 +1116,7 @@ screen system_settings():
                     auto rollback_side_left_button_image
                     hover_foreground Text(_("{u}Left{/u}"), xalign=0.5, yalign=0.5)
                     idle_foreground Text(_("Left"), xalign=0.5, yalign=0.5)
+                    selected_background "#5f9bff"
                     action Preference("rollback side", "left")
                     tooltip _("Touch the left side of the screen to rollback")
 
@@ -1121,6 +1125,7 @@ screen system_settings():
                     auto rollback_side_right_button_image
                     hover_foreground Text(_("{u}Right{/u}"), xalign=0.5, yalign=0.5)
                     idle_foreground Text(_("Right"), xalign=0.5, yalign=0.5)
+                    selected_background "#5f9bff"
                     action Preference("rollback side", "right")
                     tooltip _("Touch the right side of the screen to rollback")
 
@@ -1133,6 +1138,7 @@ screen system_settings():
                     auto skip_all_button_image
                     hover_foreground Text(_("{u}All text{/u}"), xalign=0.5, yalign=0.5)
                     idle_foreground Text(_("All text"), xalign=0.5, yalign=0.5)
+                    selected_background "#5f9bff"
                     action Preference("skip", "all")
                     tooltip _("Skip all text")
 
@@ -1141,6 +1147,7 @@ screen system_settings():
                     auto skip_read_button_image
                     hover_foreground Text(_("{u}Seen text{/u}"), xalign=0.5, yalign=0.5)
                     idle_foreground Text(_("Seen text"), xalign=0.5, yalign=0.5)
+                    selected_background "#5f9bff"
                     action Preference("skip", "seen")
                     tooltip _("Skip only previously read text")
 
@@ -1153,6 +1160,7 @@ screen system_settings():
                     auto after_choices_continue_button_image
                     hover_foreground Text(_("{u}Keep skipping{/u}"), xalign=0.5, yalign=0.5)
                     idle_foreground Text(_("Keep skipping"), xalign=0.5, yalign=0.5)
+                    selected_background "#5f9bff"
                     action Preference("after choices", "skip")
                     tooltip _("Continue skipping after making choices")
 
@@ -1161,6 +1169,7 @@ screen system_settings():
                     auto after_choices_stop_button_image
                     hover_foreground Text(_("{u}Stop skipping{/u}"), xalign=0.5, yalign=0.5)
                     idle_foreground Text(_("Stop skipping"), xalign=0.5, yalign=0.5)
+                    selected_background "#5f9bff"
                     action Preference("after choices", "stop")
                     tooltip _("Stop skipping after making choices")
 
@@ -1169,6 +1178,7 @@ screen system_settings():
                     auto skip_transitions_button_image
                     hover_foreground Text(_("{u}Transitions{/u}"), xalign=0.5, yalign=0.5)
                     idle_foreground Text(_("Transitions"), xalign=0.5, yalign=0.5)
+                    selected_background "#5f9bff"
                     action InvertSelected(Preference("transitions", "toggle"))
                     tooltip _("Skip through scene transitions")
 
