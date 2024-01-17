@@ -2608,6 +2608,7 @@ label ch7_reorder:
     "She began by taking the little golden key, and unlocking the door that led into the garden."
     
     stop music fadeout 1.0
+    scene garden at Position(xpos = 1500)
     "Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and then—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains."
 
 label chapter8:
@@ -2615,36 +2616,125 @@ label chapter8:
     "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
 
     play music "audio/rinne rosalia garden.mp3"
+    scene garden
+
+    define alice_garden = -0.5
+    define card_zoom = 0.75
+    define card2_garden = 0.2
+    define card5_garden = 0.38
+    define card7_garden = 0.53
+
+    define card2_garden_y = 0.83
+    define card5_garden_y = 0.77
+    define card7_garden_y = 0.8
+
+    define card2_garden_z = 0
+    define card5_garden_z = -50
+    define card7_garden_z = -20
+
+    camera:
+        perspective True
+        xpos alice_garden xoffset -center_offset
+        ease 10.0 xpos 0.33
+    
+    show alice normal at breathing(alice_garden, alice_scale, 0.8)
+    show card5 at breathing(card5_garden, card_zoom, card5_garden_y):
+        zpos card5_garden_z
+    show card7 at breathing(card7_garden, card_zoom, card7_garden_y):
+        zpos card7_garden_z
+    show card2 at breathing(card2_garden, card_zoom, card2_garden_y):
+        zpos card2_garden_z
+
+    show garden_front zorder 1000
 
     "A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red."
     "Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them..."
 
+    camera:
+        ease cam_transition xpos card2_garden zoom 2.0 ypos 700
     two "Look out now, Five! Don’t go splashing paint over me like that!"
+    camera:
+        ease cam_transition xpos card5_garden zoom 2.0 ypos 700
     five "I couldn’t help it, Seven jogged my elbow."
     # On which seven looked up and said
+    camera:
+        ease cam_transition xpos card7_garden zoom 2.0 ypos 700
     seven "That’s right, Five! Always lay the blame on others!"
 
+    camera:
+        ease cam_transition xpos card5_garden zoom 2.0 ypos 700
     five "You’d better not talk!" 
     five "I heard the Queen say only yesterday you deserved to be beheaded!"
 
+    camera:
+        ease cam_transition xpos card2_garden zoom 2.0 ypos 700
     two "What for?"
+
+    camera:
+        ease cam_transition xpos card7_garden zoom 2.0 ypos 700
     seven "That’s none of your business, Two!"
 
+    camera:
+        ease cam_transition xpos card5_garden zoom 2.0 ypos 700
     five "Yes, it is his business! And I’ll tell him—it was for bringing the cook tulip-roots instead of onions."
 
+    camera:
+        ease cam_transition xpos card7_garden zoom 2.0 ypos 700
     "Seven flung down his brush..."
     seven "Well, of all the unjust things—"
+
+    camera:
+        ease cam_transition xpos alice_garden zoom 2.0 ypos 700
     "His eye chanced to fall upon Alice, as she stood watching them, and he checked himself suddenly: the others looked round also, and all of them bowed low."
     
     alice "Would you tell me, why you are painting those roses?"
 
+    camera:
+        ease cam_transition xpos card2_garden zoom 2.0 ypos 700
     "Five and Seven said nothing, but looked at Two."
 
     two "Why the fact is, you see, Miss, this here ought to have been a red rose-tree, and we put a white one in by mistake; and if the Queen was to find it out, we should all have our heads cut off, you know."
     two "So you see, Miss, we’re doing our best, afore she comes, to—" # "Two began in a low voice,
+    camera:
+        ease cam_transition xpos card5_garden zoom 2.0 ypos 700
     "At this moment Five, who had been anxiously looking across the garden, called out:"
     five "The Queen! The Queen!"
+
+    # flip cards:
+    show card5:
+        xpos card5_garden ypos card5_garden_y zpos card5_garden_z zoom card_zoom
+        linear 1.0 xrotate -100
+    show card2:
+        xpos card2_garden ypos card2_garden_y zpos card2_garden_z zoom card_zoom
+        linear 1.0 xrotate -100
+    show card7:
+        xpos card7_garden ypos card7_garden_y zpos card7_garden_z zoom card_zoom
+        linear 1.0 xrotate -100
+    pause 1.0
+    hide card5
+    hide card2
+    hide card7
+
+    show card_back as cardback5:
+        anchor (0.5, 1.0)
+        xpos card5_garden ypos card5_garden_y zpos card5_garden_z zoom card_zoom
+        xrotate -100
+        linear 1.0 xrotate -180
+    show card_back as cardback2:
+        anchor (0.5, 1.0)
+        xpos card2_garden ypos card2_garden_y zpos card2_garden_z zoom card_zoom
+        xrotate -100
+        linear 1.0 xrotate -180
+    show card_back as cardback7:
+        anchor (0.5, 1.0)
+        xpos card7_garden ypos card7_garden_y zpos card7_garden_z zoom card_zoom
+        xrotate -100
+        linear 1.0 xrotate -180
+
     "and the three gardeners instantly threw themselves flat upon their faces."
+
+    camera:
+        ease cam_transition zoom 1.0 ypos 0 xpos 1.4
     "There was a sound of many footsteps, and Alice looked round, eager to see the Queen."
 
     "First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did."
