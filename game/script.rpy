@@ -2737,10 +2737,92 @@ label chapter8:
         ease cam_transition zoom 1.0 ypos 0 xpos 1.4
     "There was a sound of many footsteps, and Alice looked round, eager to see the Queen."
 
-    "First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did."
-    "After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts."
+    define garden_p1_start = 3.0
+    define garden_p2_start = 2.5
+    define garden_p1_mid = 1.61
+    define garden_p2_mid = 1.14
+    define garden_p1_end = 0.3
+    define garden_p2_end = -0.2
+
+    show soldier9 as soldier2:
+        anchor (0.5, 1.0)
+        xpos garden_p2_start ypos 0.8 zpos -50
+        ease 1.0 xpos garden_p2_mid
+    show soldier9 as soldier1:
+        anchor (0.5, 1.0)
+        xpos garden_p1_start ypos 0.8
+        ease 1.0 xpos garden_p1_mid
+    "First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners." # 9
+    show soldier9 as soldier2:
+        ease 1.0 xpos garden_p2_end
+    show soldier9 as soldier1:
+        ease 1.0 xpos garden_p1_end
+    
+    show ace as court2:
+        anchor (0.5, 1.0)
+        xpos garden_p2_start ypos 0.8 zpos -50
+        ease 1.0 xpos garden_p2_mid
+    show ace as court1:
+        anchor (0.5, 1.0)
+        xpos garden_p1_start ypos 0.8
+        ease 1.0 xpos garden_p1_mid
+    "Next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did." # ace?
+    
+    hide soldier2
+    hide soldier1
+    show ace as court2:
+        ease 1.0 xpos garden_p2_end
+    show ace as court1:
+        ease 1.0 xpos garden_p1_end
+    show child10 as child2:
+        anchor (0.5, 1.0)
+        xpos garden_p2_start ypos 0.8 zpos -50
+        ease 1.0 xpos garden_p2_mid
+    show child10 as child1:
+        anchor (0.5, 1.0)
+        xpos garden_p1_start ypos 0.8
+        ease 1.0 xpos 1.45 # move child a bit closer
+
+    "After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts." # 10 ?
+    
+    hide court2
+    hide court1
+    show child10 as child2:
+        ease 1.0 xpos garden_p2_end
+    show child10 as child1:
+        ease 1.0 xpos garden_p1_end
+
+    show normalqueen:
+        anchor (0.5, 1.0)
+        xpos garden_p2_start ypos 0.8 zpos -50
+        ease 1.0 xpos garden_p2_mid
+    show normalking:
+        anchor (0.5, 1.0)
+        xpos garden_p1_start ypos 0.8
+        ease 1.0 xpos garden_p1_mid
+    show rabbit normal:
+        anchor (0.5, 1.0)
+        xpos garden_p1_start ypos 0.8 zoom rabbit_scale
+        ease 1.0 xpos 1.3
+
     "Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her."
-    "Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion; and, last of all this grand procession, came THE KING AND QUEEN OF HEARTS."
+    
+    hide child2
+    hide child1
+    show normalqueen:
+        ease 1.0 xpos garden_p2_end
+    show normalking:
+        ease 1.0 xpos garden_p1_end
+    show rabbit normal:
+        ease 1.0 xpos garden_p1_end
+    
+    "Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion."
+
+    hide normalqueen
+    hide normalking
+    hide rabbit
+
+    "And, last of all this grand procession, came THE KING AND QUEEN OF HEARTS."
 
     "Alice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions."
     alice "(What would be the use of a procession, if people had all to lie down upon their faces, so that they couldn’t see it?)"
@@ -2758,7 +2840,7 @@ label chapter8:
     alice "My name is Alice, so please your Majesty." # saif alice politely
     alice "(Why, they’re only a pack of cards, after all. I needn’t be afraid of them!)"
 
-    queen "And whi are these?"
+    queen "And who are these?"
     "The Queen pointed to the three gardeners who were lying round the rose-tree; for, you see, as they were lying on their faces, and the pattern on their backs was the same as the rest of the pack, she could not tell whether they were gardeners, or soldiers, or courtiers, or three of her own children."
 
     alice "How should I know? It’s no business of mine."
