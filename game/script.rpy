@@ -59,6 +59,7 @@ define alice_scale = 0.5
 define alice_scale_large = 0.7
 define rabbit_scale = 0.7
 define mouse_scale = 0.5
+define queen_scale = 0.65
 
 define cam_transition = 0.5
 define center_offset = 540 # half of 1080
@@ -2637,13 +2638,14 @@ label chapter8:
         xpos alice_garden xoffset -center_offset
         ease 10.0 xpos 0.33
     
-    show alice normal at breathing(alice_garden, alice_scale, 0.8)
     show card5 at breathing(card5_garden, card_zoom, card5_garden_y):
         zpos card5_garden_z
     show card7 at breathing(card7_garden, card_zoom, card7_garden_y):
         zpos card7_garden_z
     show card2 at breathing(card2_garden, card_zoom, card2_garden_y):
         zpos card2_garden_z
+
+    show alice normal at breathing(alice_garden, alice_scale, 0.8)
 
     show garden_front zorder 1000
 
@@ -2715,17 +2717,17 @@ label chapter8:
     hide card2
     hide card7
 
-    show card_back as cardback5:
+    show card_back as cardback5 zorder 6:
         anchor (0.5, 1.0)
         xpos card5_garden ypos card5_garden_y zpos card5_garden_z zoom card_zoom
         xrotate -100
         linear 1.0 xrotate -180
-    show card_back as cardback2:
+    show card_back as cardback2 zorder 8:
         anchor (0.5, 1.0)
         xpos card2_garden ypos card2_garden_y zpos card2_garden_z zoom card_zoom
         xrotate -100
         linear 1.0 xrotate -180
-    show card_back as cardback7:
+    show card_back as cardback7 zorder 7:
         anchor (0.5, 1.0)
         xpos card7_garden ypos card7_garden_y zpos card7_garden_z zoom card_zoom
         xrotate -100
@@ -2815,47 +2817,167 @@ label chapter8:
         ease 1.0 xpos garden_p1_end
     show rabbit normal:
         ease 1.0 xpos garden_p1_end
-    
+    show knave:
+        anchor (0.5, 1.0)
+        xpos garden_p1_start ypos 0.8
+        ease 1.0 xpos 1.3
+
     "Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion."
 
     hide normalqueen
     hide normalking
     hide rabbit
+    show knave:
+        ease 1.0 xpos garden_p1_end
+    show queen normal:
+        anchor (0.5, 1.0)
+        xpos garden_p2_start ypos 0.8 zpos -50 zoom queen_scale
+        ease 1.0 xpos garden_p2_mid
+    show king:
+        anchor (0.5, 1.0)
+        xpos garden_p1_start ypos 0.8
+        ease 1.0 xpos garden_p1_mid
 
     "And, last of all this grand procession, came THE KING AND QUEEN OF HEARTS."
 
+    # hide all
+    hide knave
+    hide queen
+    hide king
+    # move camera to alice instant
+    define alice_garden2 = 0.04
+    show alice normal at breathing(alice_garden2, alice_scale, 0.8) zorder 100
+    camera:
+        xpos alice_garden2
     "Alice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions."
     alice "(What would be the use of a procession, if people had all to lie down upon their faces, so that they couldn’t see it?)"
     "So she stood still where she was, and waited."
 
     "When the procession came opposite to Alice, they all stopped and looked at her."
+
+    define queen_garden = 0.6
+    define king_garden = 1.1
+    define knave_garden = 0.8
+
+    # show queen near the gardeners
+    show knave at breathing(knave_garden, 1.0, 0.8):
+        zpos -100
+    show queen normal at breathing(queen_garden, queen_scale, 0.8) zorder 10:
+        zpos -20
+    show king at breathing(king_garden, 1.0, 0.8)
+
+
+    camera:
+        ease cam_transition xpos queen_garden
+
     # the Queen said severely
     queen "Who is this?"
+
+    camera:
+        ease cam_transition xpos knave_garden zoom 2.0 ypos 700
     "She said it to the Knave of Hearts, who only bowed and smiled in reply."
 
+    camera:
+        ease cam_transition xpos queen_garden zoom 2.0 ypos 700
     queen "Idiot!"
+
     "The Queen tossed her head impatiently and turned to Alice."
+    camera:
+        ease cam_transition xpos queen_garden zoom 1.0 ypos 0
     queen "What’s your name, child?"
 
+    camera:
+        ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
     alice "My name is Alice, so please your Majesty." # saif alice politely
     alice "(Why, they’re only a pack of cards, after all. I needn’t be afraid of them!)"
 
+    camera:
+        ease cam_transition xpos queen_garden zoom 1.0 ypos 0
     queen "And who are these?"
+
+    camera:
+        ease cam_transition xpos card5_garden zoom 2.0 ypos 1400
     "The Queen pointed to the three gardeners who were lying round the rose-tree; for, you see, as they were lying on their faces, and the pattern on their backs was the same as the rest of the pack, she could not tell whether they were gardeners, or soldiers, or courtiers, or three of her own children."
 
+    camera:
+        ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
     alice "How should I know? It’s no business of mine."
 
+    camera:
+        ease cam_transition xpos queen_garden zoom 1.0 ypos 0
     "The Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed:"
     queen "Off with her head! Off—"
 
+    camera:
+        ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
     alice "Nonsense!" #  said Alice, very loudly and decidedly, and the Queen was silent.
     "..."
+
+    camera:
+        ease cam_transition xpos king_garden zoom 1.0 ypos 0
     "The King laid his hand upon her arm, and timidly said:"
     king "Consider, my dear: she is only a child!"
 
+    camera:
+        ease cam_transition xpos queen_garden zoom 1.0 ypos 0
     "The Queen turned angrily away from him, and said to the Knave:"
     queen "Turn them over!"
 
+    # move knave
+    show knave:
+        ease 0.5 xpos card5_garden
+        ease 1.0 xpos card2_garden
+        ease 1.0 xpos card7_garden
+        ease 1.0 xpos knave_garden
+    
+    pause 0.5
+    # flip cards back
+    show card_back as cardback5 zorder 6:
+        anchor (0.5, 1.0)
+        xpos card5_garden ypos card5_garden_y zpos card5_garden_z zoom card_zoom
+        xrotate -180
+        linear 1.0 xrotate -72
+    show card_back as cardback2 zorder 8:
+        anchor (0.5, 1.0)
+        xpos card2_garden ypos card2_garden_y zpos card2_garden_z zoom card_zoom
+        xrotate -180
+        pause 1.0
+        linear 1.0 xrotate -72
+    show card_back as cardback7 zorder 7:
+        anchor (0.5, 1.0)
+        xpos card7_garden ypos card7_garden_y zpos card7_garden_z zoom card_zoom
+        xrotate -180
+        pause 2.0
+        linear 1.0 xrotate -72
+
+    pause 1.0
+
+    hide cardback5
+    show card5 zorder 6:
+        anchor (0.5, 1.0)
+        xpos card5_garden ypos card5_garden_y zpos card5_garden_z zoom card_zoom
+        xrotate -72
+        linear 1.0 xrotate 0
+    pause 1.0
+
+    hide cardback2
+    show card2 zorder 8:
+        anchor (0.5, 1.0)
+        xpos card2_garden ypos card2_garden_y zpos card2_garden_z zoom card_zoom
+        xrotate -72
+        linear 1.0 xrotate 0
+
+    pause 1.0
+
+    hide cardback7
+    show card7 zorder 7:
+        anchor (0.5, 1.0)
+        xpos card7_garden ypos card7_garden_y zpos card7_garden_z zoom card_zoom
+        xrotate -72
+        linear 1.0 xrotate 0
+    
+    camera:
+        ease cam_transition xpos card5_garden zoom 1.0 ypos 0
     "The Knave did so, very carefully, with one foot."
 
     queen "Get up!" # said the Queen, in a shrill, loud voice,
@@ -2872,12 +2994,46 @@ label chapter8:
     queen "I see!"
     "The queen had meanwhile been examining the roses."
     queen "Off with their heads!"
+    # queen disappear
+    show queen normal:
+        zoom queen_scale
+        linear 1.0 xpos 2.0
+    show king:
+        linear 1.0 xpos 2.0
+    show knave:
+        linear 1.0 xpos 2.0
+    
+    show card5:
+        ease 0.5 xpos -0.15
+    show card7:
+        ease 0.5 xpos -0.04
+    show card2:
+        ease 0.5 xpos -0.26
+
     "and the procession moved on, three of the soldiers remaining behind to execute the unfortunate gardeners, who ran to Alice for protection."
+    hide queen
+    hide king
+    hide knave
 
     alice "You shan’t be beheaded!"
+
+    show alice normal:
+        ease 0.5 xpos -0.37
+    hide card5
+    hide card7
+    hide card2
     "Alice put them into a large flower-pot that stood near. "
 
+    show soldier9:
+        anchor (0.5, 1.0)
+        xpos 1.0 ypos 0.8
+        ease 1.0 xpos 0.4
+        pause 1.0
+        ease 1.0 xpos 1.0
     "The three soldiers wandered about for a minute or two, looking for them, and then quietly marched off after the others."
+
+label ch8_procession:
+    # change scene
 
     queen "Are their heads off?"
 
