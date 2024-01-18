@@ -60,6 +60,7 @@ define alice_scale_large = 0.7
 define rabbit_scale = 0.7
 define mouse_scale = 0.5
 define queen_scale = 0.65
+define cat_scale = 0.5
 
 define cam_transition = 0.5
 define center_offset = 540 # half of 1080
@@ -2001,7 +2002,7 @@ label ch6_kitchen:
 label ch6_cat:
     show cat:
         anchor (0.5, 1.0)
-        xpos 0.79 ypos 0.25 zoom 0.5
+        xpos 0.79 ypos 0.25 zoom cat_scale
         
     "As she said this, she looked up, and there was the Cat again, sitting on a branch of a tree."
 
@@ -2028,7 +2029,7 @@ label ch6_cat:
 
     show cat_animated:
         anchor (0.5, 1.0)
-        xpos 0.79 ypos 0.25 zoom 0.5
+        xpos 0.79 ypos 0.25 zoom cat_scale
 
     "This time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone."
 
@@ -2617,6 +2618,8 @@ label chapter8:
     "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
 
     play music "audio/rinne rosalia garden.mp3"
+
+    jump ch8_croquet
     scene garden
 
     define alice_garden = -0.5
@@ -3010,12 +3013,16 @@ label chapter8:
     show card2:
         ease 0.5 xpos -0.26
 
+    camera:
+        ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
     "and the procession moved on, three of the soldiers remaining behind to execute the unfortunate gardeners, who ran to Alice for protection."
     hide queen
     hide king
     hide knave
 
     alice "You shan’t be beheaded!"
+
+    define alice_garden3 = -0.37
 
     show alice normal:
         ease 0.5 xpos -0.37
@@ -3027,29 +3034,53 @@ label chapter8:
     show soldier9:
         anchor (0.5, 1.0)
         xpos 1.0 ypos 0.8
-        ease 1.0 xpos 0.4
+        ease 1.0 xpos 0.3
         pause 1.0
-        ease 1.0 xpos 1.0
+        ease 1.0 xpos 0.5
     "The three soldiers wandered about for a minute or two, looking for them, and then quietly marched off after the others."
 
-label ch8_procession:
-    # change scene
+    define queen_garden2 = 1.0
+
+    camera:
+        ease cam_transition xpos queen_garden2
+    show queen normal at breathing(queen_garden2, queen_scale, 0.8)
 
     queen "Are their heads off?"
 
+    camera:
+        ease cam_transition xpos 0.5
     soldiers "Their heads are gone, if it please your Majesty!" # shouted in reply
 
+    camera:
+        ease cam_transition xpos queen_garden2
+    show queen happy
     queen "That’s right!" # shouted
     queen "Can you play croquet?"
 
+    camera:
+        ease cam_transition xpos alice_garden3
     "The soldiers were silent, and looked at Alice, as the question was evidently meant for her."
 
     alice "Yes!"
 
+    camera:
+        ease cam_transition xpos queen_garden2
     queen "Come on, then!" #  roared the Queen
+
+    # move queen away
+    define alice_garden4 = 0.3
+    show queen:
+        linear 1.0 xpos 3.0
+    show soldier9:
+        linear 1.0 xpos 2.5
+    show alice at breathing(alice_garden4, alice_scale, 0.8)
+
+    camera:
+        ease cam_transition xpos alice_garden4
 
     "Alice joined the procession, wondering very much what would happen next."
 
+    show rabbit normal at breathing(0.57, rabbit_scale, 0.85) zorder 200
     rabbit "It’s—it’s a very fine day!" # timid voice
 
     "She was walking by the White Rabbit, who was peeping anxiously into her face."
@@ -3068,36 +3099,95 @@ label ch8_procession:
 
     rabbit "She boxed the Queen’s ears—"
 
+    show alice happy
     "Alice gave a little scream of laughter."
 
     rabbit "Oh, hush! The Queen will hear you! You see, she came rather late, and the Queen said—"
 
+label ch8_croquet:
+    scene croquet
+    show croquet_front zorder 1000
+
+    # setup character
+    define queen_croquet = 0.0
+    define alice_croquet = 1.3
+    define cat_croquet = 1.55
+    show queen normal at breathing(queen_croquet, queen_scale, 0.9)
+    show alice normal at breathing(alice_croquet, alice_scale, 0.9)
+
+    camera:
+        perspective True
+        xpos 0 ypos 0 zpos 0 xoffset -center_offset
+
+
     queen "Get to your places!"
     "shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began."
 
+    camera:
+        ease cam_transition xpos alice_croquet
     "Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches."
 
+    show alice happy
     "The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it would twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing."
     "And when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog had unrolled itself, and was in the act of crawling away."
     "Besides all this, there was generally a ridge or furrow in the way wherever she wanted to send the hedgehog to, and, as the doubled-up soldiers were always getting up and walking off to other parts of the ground, Alice soon came to the conclusion that it was a very difficult game indeed."
 
+    camera:
+        ease cam_transition xpos queen_croquet
     "The players all played at once without waiting for turns, quarrelling all the while, and fighting for the hedgehogs; and in a very short time the Queen was in a furious passion, and went stamping about:"
+    camera:
+        ease cam_transition xpos queen_croquet zoom 2.0 ypos 700
     queen "Off with his head!"
+    camera:
+        ease cam_transition xpos queen_croquet zoom 1.0 ypos 0
+    show queen happy
     "or"
+    camera:
+        ease cam_transition xpos queen_croquet zoom 2.0 ypos 700
+    show queen normal
     queen "Off with her head!" 
+    camera:
+        ease cam_transition xpos queen_croquet zoom 1.0 ypos 0
+    show queen happy
     "about once in a minute."
 
+    camera:
+        zoom 1.0 ypos 0
+        ease cam_transition xpos alice_croquet
+    show alice pout
     "Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute."
     alice "(And then, what would become of me? They’re dreadfully fond of beheading people here; the great wonder is, that there’s any one left alive!)"
 
     # cat appear slowly
+    camera:
+        ease 10.0 xpos cat_croquet
+
+    show cat6:
+        anchor (0.5, 1.0)
+        xpos cat_croquet ypos 0.4 zoom cat_scale xoffset 120 # offset to center head
+        alpha 0.0
+        linear 10.0 alpha 1.0
+
     "She was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin."
+    show alice happy
     alice "(It’s the Cheshire Cat: now I shall have somebody to talk to.)"
 
     cat "How are you getting on?" # said the Cat, as soon as there was mouth enough for it to speak with.
 
+    show cat5:
+        anchor (0.5, 1.0)
+        xpos cat_croquet ypos 0.4 zoom cat_scale xoffset 120 # offset to center head
+        alpha 0.0
+        linear 10.0 alpha 1.0
+
     "Alice waited till the eyes appeared, and then nodded."
     alice "(It’s no use speaking to it, till its ears have come, or at least one of them.)"
+
+    show cat4:
+        anchor (0.5, 1.0)
+        xpos cat_croquet ypos 0.4 zoom cat_scale xoffset 120 # offset to center head
+        alpha 0.0
+        linear 10.0 alpha 1.0
 
     "In another minute the whole head appeared, and then Alice put down her flamingo, and began an account of the game, feeling very glad she had someone to listen to her."
     
@@ -3106,14 +3196,33 @@ label ch8_procession:
     alice "I don’t think they play at all fairly, and they all quarrel so dreadfully one can’t hear oneself speak—and they don’t seem to have any rules in particular; at least, if there are, nobody attends to them—"
     alice "and you’ve no idea how confusing it is all the things being alive; for instance, there’s the arch I’ve got to go through next walking about at the other end of the ground—and I should have croqueted the Queen’s hedgehog just now, only it ran away when it saw mine coming!"
 
+    # let it appear full
+    hide cat6
+    hide cat5
+    show cat4 at breathing(cat_croquet, cat_scale, 0.4):
+        zoom 1.0
+        xoffset 120
+        alpha 1.0
     cat "How do you like the Queen?"
 
+    define queen_croquet2 = 1.03
+    show queen normal:
+        ease 1.0 xpos queen_croquet2
+
     alice "Not at all, she’s so extremely—"
+    camera:
+        ease cam_transition zoom 2.0 ypos 820 xpos 1.16 
+    show alice normal
     "Just then she noticed that the Queen was close behind her, listening: so she went on:"
     alice "—likely to win, that it’s hardly worth while finishing the game."
 
+    show queen happy:
+        pause 1.0
+        ease 1.0 xpos queen_croquet
     "The Queen smiled and passed on."
 
+    camera:
+        ease cam_transition xpos cat_croquet ypos 0 zoom 1.0
     king "Who are you talking to?" # said the King, going up to Alice
     "The king was looking at the Cat’s head with great curiosity."
 
