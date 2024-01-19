@@ -60,7 +60,9 @@ define alice_scale_large = 0.7
 define rabbit_scale = 0.7
 define mouse_scale = 0.5
 define queen_scale = 0.65
+define king_scale = 0.7
 define cat_scale = 0.5
+define duchess_scale = 0.52
 
 define cam_transition = 0.5
 define center_offset = 540 # half of 1080
@@ -1717,10 +1719,10 @@ label ch6_kitchen:
     show cat:
         align (0.5, 1.0)
         xpos cat_kitchen_pos ypos 0.59 zoom 0.63
-    show duchess at breathing(duchess_kitchen_pos, 0.6, 0.9)
+    show duchess at breathing(duchess_kitchen_pos, duchess_scale, 0.9)
     show baby normal:
         anchor (0.5, 1.0)
-        xpos duchess_kitchen_pos ypos 0.75 zoom 0.7 zpos 30
+        xpos duchess_kitchen_pos ypos 0.8 zoom 0.7 zpos 30
         linear 1.0 xoffset -10 yoffset -10 rotate 2
         linear 1.0 xoffset 10 yoffset 10 rotate -2
         linear 1.0 xoffset -10 yoffset 10 rotate 2
@@ -2619,7 +2621,6 @@ label chapter8:
 
     play music "audio/rinne rosalia garden.mp3"
 
-    jump ch8_croquet
     scene garden
 
     define alice_garden = -0.5
@@ -2838,7 +2839,7 @@ label chapter8:
         ease 1.0 xpos garden_p2_mid
     show king:
         anchor (0.5, 1.0)
-        xpos garden_p1_start ypos 0.8
+        xpos garden_p1_start ypos 0.8 zoom king_scale
         ease 1.0 xpos garden_p1_mid
 
     "And, last of all this grand procession, came THE KING AND QUEEN OF HEARTS."
@@ -2867,7 +2868,7 @@ label chapter8:
         zpos -100
     show queen normal at breathing(queen_garden, queen_scale, 0.8) zorder 10:
         zpos -20
-    show king at breathing(king_garden, 1.0, 0.8)
+    show king at breathing(king_garden, king_scale, 0.8)
 
 
     camera:
@@ -3002,6 +3003,7 @@ label chapter8:
         zoom queen_scale
         linear 1.0 xpos 2.0
     show king:
+        zoom king_scale
         linear 1.0 xpos 2.0
     show knave:
         linear 1.0 xpos 2.0
@@ -3095,7 +3097,7 @@ label chapter8:
 
     rabbit "Did you say ‘What a pity!’?"
 
-    alice "No, I didn’t, I don’t think it’s at all a pity. I said ‘What for?"
+    alice "No, I didn’t, I don’t think it’s at all a pity. I said ‘What for?’"
 
     rabbit "She boxed the Queen’s ears—"
 
@@ -3214,6 +3216,7 @@ label ch8_croquet:
         ease cam_transition zoom 2.0 ypos 820 xpos 1.16 
     show alice normal
     "Just then she noticed that the Queen was close behind her, listening: so she went on:"
+    show alice happy
     alice "—likely to win, that it’s hardly worth while finishing the game."
 
     show queen happy:
@@ -3221,6 +3224,9 @@ label ch8_croquet:
         ease 1.0 xpos queen_croquet
     "The Queen smiled and passed on."
 
+    define king_croquet = 1.8
+    define king_croquet2 = 1.06
+    show king behind alice at breathing(king_croquet, king_scale, 0.9)
     camera:
         ease cam_transition xpos cat_croquet ypos 0 zoom 1.0
     king "Who are you talking to?" # said the King, going up to Alice
@@ -3232,34 +3238,92 @@ label ch8_croquet:
 
     cat "I’d rather not."
 
+    show king scared at breathing(king_croquet, king_scale, 0.9):
+        zoom 1.0
+        linear 1.0 xpos king_croquet2
     king "Don’t be impertinent, and don’t look at me like that!"
 
+    camera:
+        ease cam_transition xpos alice_croquet ypos 0 zoom 1.0
     "He got behind Alice as he spoke."
 
     alice "A cat may look at a king, I’ve read that in some book, but I don’t remember where."
 
     king "Well, it must be removed."
+
+    show queen normal:
+        xpos 0.57
+    camera:
+        ease cam_transition xpos 0.84 ypos 0 zoom 1.0
     "The King called the Queen, who was passing at the moment:"
     king "My dear! I wish you would have this cat removed!"
 
+    camera:
+        ease cam_transition xpos 0.57 ypos 700 zoom 2.0
     "The Queen had only one way of settling all difficulties, great or small."
 
     queen "Off with his head!"
     "she said, without even looking round."
 
+    camera:
+        ease cam_transition xpos king_croquet2 ypos 700 zoom 2.0
+    show king at breathing(king_croquet2, king_scale, 0.9):
+        zoom 1.0
+        pause 1.5
+        linear 1.0 xpos 0.0
     king "I’ll fetch the executioner myself." # said the King eagerly, and he hurried off.
 
+    camera:
+        ease cam_transition xpos cat_croquet ypos 0 zoom 1.0
     "Alice thought she might as well go back, and see how the game was going on, as she heard the Queen’s voice in the distance, screaming with passion."
+    show alice normal
     "She had already heard her sentence three of the players to be executed for having missed their turns, and she did not like the look of things at all, as the game was in such confusion that she never knew whether it was her turn or not."
+
+    hide queen
+    hide king
+
+    show alice:
+        ease 1.0 xpos 0.84
+    camera:
+        ease 1.5 xpos 0.84 ypos 0 zoom 1.0
     "So she went in search of her hedgehog."
 
     "The hedgehog was engaged in a fight with another hedgehog, which seemed to Alice an excellent opportunity for croqueting one of them with the other:" 
+
+    show alice:
+        ease 1.0 xpos -0.42
+    camera:
+        ease 1.5 xpos -0.42 ypos 0 zoom 1.0
     "The only difficulty was, that her flamingo was gone across to the other side of the garden, where Alice could see it trying in a helpless sort of way to fly up into a tree."
 
+    # setup king and queen when returning
+    define king_croquet3 = 1.98
+    define queen_croquet3 = 1.73
+    show soldier9 behind alice at breathing(1.46, 1.0, 0.9)
+    show king scared at breathing(king_croquet3, king_scale, 0.9)
+    show queen normal at breathing(queen_croquet3, queen_scale, 0.9)
+
+    show alice:
+        ease 1.0 xpos 0.84
+    camera:
+        ease 1.5 xpos 0.84 ypos 0 zoom 1.0
     "By the time she had caught the flamingo and brought it back, the fight was over, and both the hedgehogs were out of sight."
     alice "(But it doesn’t matter much, as all the arches are gone from this side of the ground.)"
+
+    show alice at breathing(0.84, alice_scale, 0.9):
+        zoom 1.0
+        ease 1.0 xpos alice_croquet
+
+    
+    camera:
+        ease 1.5 xpos alice_croquet ypos 0 zoom 1.0
     "So she tucked it away under her arm, that it might not escape again, and went back for a little more conversation with her friend."
 
+    camera:
+        ease 1.5 xpos cat_croquet ypos 0 zoom 1.0
+
+
+    
     "When she got back to the Cheshire Cat, she was surprised to find quite a large crowd collected round it: there was a dispute going on between the executioner, the King, and the Queen, who were all talking at once, while all the rest were quite silent, and looked very uncomfortable."
 
     "The moment Alice appeared, she was appealed to by all three to settle the question, and they repeated their arguments to her, though, as they all spoke at once, she found it very hard indeed to make out exactly what they said."
@@ -3275,15 +3339,25 @@ label ch8_croquet:
     alice "It belongs to the Duchess: you’d better ask her about it."
 
     queen "She’s in prison, fetch her here."
+
+    show soldier9:
+        linear 1.0 xpos 3.0
     "And the executioner went off like an arrow."
 
+    show cat4:
+        xpos cat_croquet zoom cat_scale
+        xoffset 120
+        linear 3.0 alpha 0.0
     "The Cat’s head began fading away the moment he was gone, and, by the time he had come back with the Duchess, it had entirely disappeared; so the King and the executioner ran wildly up and down looking for it, while the rest of the party went back to the game."
 
 label chapter9:
     scene black
+    camera:
+        perspective False
+        xpos 0 ypos 0 zpos 0 xoffset 0
     "{size=+40}Chapter IX: \n{/size}The Mock Turtle's Story"
 
-    play music "audio/rinne rosalia garden.mp3" if_changed
+    play music "audio/rinne oak general store.mp3" fadein 1.0 fadeout 1.0
 
     duchess "You can’t think how glad I am to see you again, you dear old thing!"
     "the Duchess tucked her arm affectionately into Alice’s, and they walked off together."
