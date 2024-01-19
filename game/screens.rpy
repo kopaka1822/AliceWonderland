@@ -327,6 +327,7 @@ screen navigation():
                     textbutton "≡" action Hide("navigation"), Return()
 
 
+# Is the overlay menu on the left side when clicking on menu while ingame
 style navigation_menu_frame:
     xfill True
     ysize 300
@@ -1260,7 +1261,7 @@ screen text_settings():
             text _("{:.0f}".format(afmtm) )
 
             textbutton _("Reset to default"):
-                action Preference("text speed", 60), Preference("auto-forward time", 15)
+                action Preference("text speed", 50), Preference("auto-forward time", 4)
                 tooltip _("Reset text settings to default")
 
 ## Experimental
