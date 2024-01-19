@@ -67,42 +67,36 @@ define duchess_scale = 0.52
 define cam_transition = 0.5
 define center_offset = 540 # half of 1080
 
-transform breathing_calm(xposition, scale = 1.0):
-    pos (xposition, 0.7)
+transform breathing_calm:
     anchor (0.5, 1.0)
-    zoom scale
     # todo slower speed
     shader "game.breathing"
     u_breath_cycle 0.0
     linear 6.0 u_breath_cycle 1.0
     repeat
 
-transform breathing(xposition, scale = 1.0, yposition = 0.7):
-    pos (xposition, yposition)
+transform breathing:
     anchor (0.5, 1.0)
-    zoom scale
     shader "game.breathing"
     u_breath_cycle 0.0
     linear 5.0 u_breath_cycle 1.0
     repeat
 
-transform breathing_crying(xposition, scale = 1.0):
-    pos (xposition, 0.7)
+transform breathing_crying:
     anchor (0.5, 1.0)
-    zoom scale
-
     shader "game.breathing"
     u_breath_cycle 0.0
     linear 3.5 u_breath_cycle 1.0
     repeat
 
-transform swimming(xposition, scale = 1.0):
-    pos (xposition, 0.5)
-    anchor (0.5, 0.0)
-    zoom scale
+transform swimming:
+    anchor (0.5, 1.0)
     ease 2.0 yoffset -10
     ease 2.0 yoffset 10
     repeat
+
+transform anchor:
+    anchor (0.5, 1.0)
 
 label start:
     #jump chapter1_after_fall
@@ -114,7 +108,8 @@ label chapter1:
 
     scene riverbank at left
     play music "audio/rinne wanderer.mp3"
-    show alice sleepy at breathing_calm(0.7, alice_scale)
+    show alice sleepy at breathing_calm:
+        xpos 0.7 ypos 0.7 zoom alice_scale
     "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it."
 
 
@@ -128,7 +123,8 @@ label chapter1:
     scene riverbank at center
     #show alice normal at left as grayscale
     hide alice
-    show rabbit normal at breathing(0.5)
+    show rabbit normal at breathing:
+        xpos 0.5 ypos 0.7 zoom rabbit_scale
 
     rabbit "Oh dear! Oh dear! I shall be too late!"
 
@@ -136,7 +132,8 @@ label chapter1:
     "But when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge."
 
     scene riverbank at left
-    show alice happy at breathing(0.7, alice_scale)
+    show alice happy at breathing:
+        xpos 0.7 ypos 0.7 zoom alice_scale
     "In another moment down went Alice after it, never once considering how in the world she was to get out again."
 
     scene black
@@ -246,15 +243,17 @@ label chapter1:
     "There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner"
 
     hide alice
-    show rabbit normal at breathing(0.5)
+    show rabbit normal at breathing:
+        xpos 0.5 ypos 0.7 zoom rabbit_scale
     rabbit "Oh my ears and whiskers, how late it's getting!"
     hide rabbit
 
-    show alice happy at breathing(0.5, alice_scale)
+    show alice happy at breathing:
+        xpos 0.5 ypos 0.7 zoom alice_scale
 
     "She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof."
 
-    show alice pout at breathing(0.5, alice_scale)
+    show alice pout
     "There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again."
 
     hide alice
@@ -270,7 +269,8 @@ label chapter1:
 
     "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway;"
 
-    show alice pout at breathing(0.5, alice_scale)
+    show alice pout at breathing:
+        xpos 0.5 ypos 0.7 zoom alice_scale
     alice "and even if my head would go through, it would be of very little use without my shoulders."
     alice "Oh, how I wish I could shut up like a telescope! I think I could, if I only knew how to begin."
 
@@ -293,36 +293,37 @@ label chapter1:
 
     "However, this bottle was not marked 'poison,' so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off."
     
-    show alice happy at breathing(0.5, alice_scale)
+    show alice happy at breathing:
+        xpos 0.5 ypos 0.7 zoom alice_scale
     alice "What a curious feeling! I must be shutting up like a telescope."
 
     "And so it was indeed: she was now only ten inches high, and her face brightened up at the thought that she was now the right size for going through the little door into that lovely garden."
 
     "First, however, she waited for a few minutes to see if she was going to shrink any further: she felt a little nervous about this."
-    show alice surprised at breathing(0.5, alice_scale)
+    show alice surprised
     alice "It might end, you know, in my going out altogether, like a candle. I wonder what I should be like then?"
     "And she tried to fancy what the flame of a candle is like after the candle is blown out, for she could not remember ever having seen such a thing."
 
     "After a while, finding that nothing more happened, she decided on going into the garden at once; but, alas for poor Alice, when she got to the door, she found she had forgotten the little golden key, and when she went back to the table for it, she found she could not possibly reach it: "
-    show alice crying at breathing_crying(0.5, alice_scale)
+    show alice crying at breathing_crying
     "she could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
 
     alice "Come, there’s no use in crying like that!"
-    show alice pout at breathing(0.5, alice_scale)
+    show alice pout at breathing
     alice "I advise you to leave off this minute!"
     "She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people."
     alice "But it’s no use now, to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!"
 
-    hide alice
+    #hide alice
     show box_cake at Position(ypos = 0.65)
     "Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words 'EAT ME' were beautifully marked in currants."
 
     hide box_cake
-    show alice normal at breathing(0.5, alice_scale)
+    show alice normal
     alice "Well, I’ll eat it, and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I’ll get into the garden, and I don’t care which happens!"
 
     "She ate a little bit, and said anxiously to herself: "
-    show alice excited at breathing(0.5, alice_scale)
+    show alice excited
     alice "Which way? Which way?"
     "She was holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way."
     "So she set to work, and very soon finished off the cake."
@@ -354,23 +355,26 @@ label chapter2:
     play sound "sfx/bump.mp3"
     "Just then, her head struck against the roof of the hall: in fact she was now rather more than nine feet high, and she at once took up the little golden key and hurried off to the garden door."
     "Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again."
-    show alice crying at breathing_crying(0.5, alice_scale_large)
+    show alice crying at breathing_crying:
+        xpos 0.5 ypos 0.7 zoom alice_scale_large
 
     alice "You ought to be ashamed of yourself, a great girl like you, to go on crying in this way! Stop this moment, I tell you!"
     "But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall."
 
-    show alice pout at breathing(0.5, alice_scale_large)
+    show alice pout at breathing
     "After a time she heard a little pattering of feet in the distance, and she hastily dried her eyes to see what was coming."
     "It was the White Rabbit returning, splendidly dressed, with a pair of white kid gloves in one hand and a large fan in the other:"
     "he came trotting along in a great hurry, muttering to himself as he came:"
     hide alice
-    show rabbit normal at breathing(0.5)
+    show rabbit normal at breathing:
+        xpos 0.5 ypos 0.7 zoom rabbit_scale
     rabbit "Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!"
     "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice:"
     hide rabbit
-    show alice pout at breathing(0.5, alice_scale_large)
+    show alice pout at breathing:
+        xpos 0.5 ypos 0.7 zoom alice_scale_large
     alice "If you please, sir—"
-    hide alice
+    # hide alice
 
     show fan gloves at Position(ypos = 0.65)
     "The Rabbit started violently, dropped the white kid gloves and the fan, and skurried away into the darkness as hard as he could go."
@@ -378,7 +382,7 @@ label chapter2:
     "Alice took up the fan and gloves, and, as the hall was very hot, she kept fanning herself all the time she went on talking:"
     hide fan gloves
 
-    show alice pout at breathing(0.5, alice_scale_large)
+    show alice pout
     alice "Dear, dear! How queer everything is to-day! And yesterday things went on just as usual."
     alice "I wonder if I’ve been changed in the night? Let me think:"
     alice "was I the same when I got up this morning? I almost think I can remember feeling a little different."
@@ -395,7 +399,7 @@ label chapter2:
 
     alice "How cheerfully he seems to grin, \n    How neatly spread his claws, \nAnd welcome little fishes in \n    With gently smiling jaws!"
 
-    show alice crying at breathing_crying(0.5, alice_scale_large)
+    show alice crying at breathing_crying
     alice "I’m sure those are not the right words"
     alice "I must be Mabel after all, and I shall have to go and live in that poky little house, and have next to no toys to play with, and oh!"
     alice "Ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here!" 
@@ -414,12 +418,12 @@ label chapter2:
     "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
     "she soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
 
-    show alice happy at breathing(0.5, alice_scale)
+    show alice happy at breathing
     alice "That was a narrow escape!"
     "She was a good deal frightened at the sudden change, but very glad to find herself still in existence."
     alice "And now for the garden!"
     "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
-    show alice pout at breathing(0.5, alice_scale)
+    show alice pout at breathing
     alice  "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
 
     stop music fadeout 1.0
@@ -438,46 +442,49 @@ label chapter2:
         linear 1.0 yoffset 20
         linear 1.0 yoffset 10
         repeat
-    show alice pout zorder 1 at swimming(0.5, alice_scale)
+    show alice pout zorder 1 at swimming:
+        xpos 0.5 ypos 1.0 zoom alice_scale
     play music "audio/rinne beyond the sea.mp3"
     "she was up to her chin in salt water."
 
-    show alice thinking zorder 1 at swimming(0.5, alice_scale)
+    show alice thinking
     "Her first idea was that she had somehow fallen into the sea, "
 
     alice "and in that case I can go back by railway"
     "(Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station)"
     "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high."
 
-    show alice pout zorder 1 at swimming(0.5, alice_scale)
+    show alice pout
     alice "I wish I hadn’t cried so much!"
     "She swam about, trying to find her way out."
     alice "I shall be punished for it now, I suppose, by being drowned in my own tears! That will be a queer thing, to be sure! However, everything is queer to-day."
 
-    show alice thinking zorder 1 at swimming(0.5, alice_scale)
+    show alice thinking
     play sound "sfx/splash.mp3"
     "Just then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was:"
-    show alice thinking zorder 1 at swimming(0.3, alice_scale)
-    show mouse zorder 1 at swimming(0.7, mouse_scale)
+    show alice thinking:
+        xpos 0.3
+    show mouse zorder 1 at swimming:
+        xpos 0.7 ypos 0.8 zoom mouse_scale
     "at first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself."
 
     alice "Would it be of any use, now, to speak to this mouse?"
     alice "Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying."
     "So she began:"
-    show alice normal zorder 1 at swimming(0.3, alice_scale)
+    show alice normal
     alice "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!"
     "(Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother’s Latin Grammar, 'A mouse—of a mouse—to a mouse—a mouse—O mouse!')"
     "The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing."
 
-    show alice thinking zorder 1 at swimming(0.3, alice_scale)
+    show alice thinking
     alice "Perhaps it doesn’t understand English, I daresay it’s a French mouse, come over with William the Conqueror."
     "(For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened)"
     "So she began again:"
-    show alice normal zorder 1 at swimming(0.3, alice_scale)
+    show alice normal
     alice "Où est ma chatte?"
     "which was the first sentence in her French lesson-book."
     "The mouse gave a sudden leap out of the water, and seemed to quiver all over with fright."
-    show alice thinking zorder 1 at swimming(0.3, alice_scale)
+    show alice thinking
     alice "Oh, I beg your pardon!"
     "She was afraid that she had hurt the poor animal’s feelings."
     alice "I quite forgot you didn’t like cats."
@@ -486,20 +493,20 @@ label chapter2:
     mouse "Would you like cats if you were me?"
 
     alice "Well, perhaps not, don’t be angry about it."
-    show alice happy zorder 1 at swimming(0.3, alice_scale)
+    show alice happy
     alice "And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her."
     alice "She is such a dear quiet thing."
     "Alice went on, half to herself, as she swam lazily about in the pool."
     alice "and she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
     "This time the Mouse was bristling all over, and she felt certain it must be really offended."
-    show alice thinking zorder 1 at swimming(0.3, alice_scale)
+    show alice thinking
     alice "We won’t talk about her any more if you’d rather not."
 
     mouse "We indeed!"
     "The mouse was trembling down to the end of its tail."
     mouse "As if I would talk on such a subject! Our family always hated cats: nasty, low, vulgar things! Don’t let me hear the name again!"
 
-    show alice normal zorder 1 at swimming(0.3, alice_scale)
+    show alice normal
     alice "I won’t indeed!"
     "alice was in a great hurry to change the subject of conversation."
     alice "Are you—are you fond—of—of dogs?"
@@ -508,24 +515,17 @@ label chapter2:
     alice "A little bright-eyed terrier, you know, with oh, such long curly brown hair!"
     alice "And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things—I can’t remember half of them—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds!"
     alice "He says it kills all the rats and—oh dear!"
-    show alice crying zorder 1 at swimming(0.3, alice_scale)
+    show alice crying
     "Alice cried in a sorrowful tone"
     alice "I’m afraid I’ve offended it again!"
-    show mouse zorder 1:
-        pos (0.7, 0.5)
-        anchor (0.5, 0.0)
-        zoom mouse_scale
+    show mouse at swimming:
         linear 10.0 xoffset 1000
     "For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
 
     alice "Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!"
-    show alice normal zorder 1 at swimming(0.3, alice_scale)
-    hide mouse
-    show mouse zorder 1:
-        pos (1.2, 0.5)
-        anchor (0.5, 0.0)
-        zoom mouse_scale
-        linear 10.0 xoffset -500
+    show alice normal
+    show mouse at swimming:
+        linear 10.0 xoffset 0
     "When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice:"
     mouse "Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs."
 
@@ -562,17 +562,31 @@ label chapter3:
     define magpie_scale = 0.35
     define canary_scale = 0.2
 
-    show eaglet at breathing(muddy_eaglet_pos, eaglet_scale)
-    show lory at breathing(muddy_lory_pos, lory_scale)
-    show duck at breathing(muddy_duck_pos, duck_scale)
-    show dodo at breathing(muddy_dodo_pos, dodo_scale)
-    show alice normal at breathing(muddy_alice_pos, alice_scale_muddy)
-    show mouse at breathing(muddy_mouse_pos, mouse_muddy_scale)
-    show old_crab at breathing(muddy_old_crab_pos, old_crab_scale)
-    show young_crab at breathing(muddy_young_crab_pos, young_crab_scale)
-    show magpie at breathing(muddy_magpie_pos, magpie_scale)
-    show canary at breathing(muddy_canary_pos, canary_scale)
-
+    jump ch3_start
+label ch3_setup:
+    show eaglet at breathing:
+        xpos muddy_eaglet_pos ypos 0.7 zoom eaglet_scale
+    show lory at breathing:
+        xpos muddy_lory_pos ypos 0.7 zoom lory_scale
+    show duck at breathing:
+        xpos muddy_duck_pos ypos 0.7 zoom duck_scale
+    show dodo at breathing:
+        xpos muddy_dodo_pos ypos 0.7 zoom dodo_scale
+    show alice normal at breathing:
+        xpos muddy_alice_pos ypos 0.7 zoom alice_scale_muddy
+    show mouse at breathing:
+        xpos muddy_mouse_pos ypos 0.7 zoom mouse_muddy_scale
+    show old_crab at breathing:
+        xpos muddy_old_crab_pos ypos 0.7 zoom old_crab_scale
+    show young_crab at breathing:
+        xpos muddy_young_crab_pos ypos 0.7 zoom young_crab_scale
+    show magpie at breathing:
+        xpos muddy_magpie_pos ypos 0.7 zoom magpie_scale
+    show canary at breathing:
+        xpos muddy_canary_pos ypos 0.7 zoom canary_scale
+    return
+label ch3_start:
+    call ch3_setup
     camera:
         perspective True
         xpos center_offset xoffset -center_offset
@@ -645,7 +659,7 @@ label chapter3:
 
     camera: 
         ease cam_transition xpos muddy_alice_pos
-    show alice pout at breathing(muddy_alice_pos, alice_scale_muddy)
+    show alice pout
     alice "As wet as ever, it doesn’t seem to dry me at all."
 
     camera: 
@@ -665,7 +679,7 @@ label chapter3:
 
     camera: 
         ease cam_transition xpos muddy_alice_pos
-    show alice thinking at breathing(muddy_alice_pos, alice_scale_muddy)
+    show alice thinking
     alice "What is a Caucus-race?"
 
     "not that she wanted much to know, but the Dodo had paused as if it thought that somebody ought to speak, and no one else seemed inclined to say anything."
@@ -755,16 +769,7 @@ label chapter3:
         linear 20.0 xpos 2280
 
     # restore original positions
-    show eaglet at breathing(muddy_eaglet_pos, eaglet_scale)
-    show lory at breathing(muddy_lory_pos, lory_scale)
-    show duck at breathing(muddy_duck_pos, duck_scale)
-    show dodo at breathing(muddy_dodo_pos, dodo_scale)
-    show alice normal at breathing(muddy_alice_pos, alice_scale_muddy)
-    show mouse at breathing(muddy_mouse_pos, mouse_muddy_scale)
-    show old_crab at breathing(muddy_old_crab_pos, old_crab_scale)
-    show young_crab at breathing(muddy_young_crab_pos, young_crab_scale)
-    show magpie at breathing(muddy_magpie_pos, magpie_scale)
-    show canary at breathing(muddy_canary_pos, canary_scale)
+    call ch3_setup
 
     "and they all crowded round it, panting, and asking, "
     everyone "But who has won?"
@@ -795,7 +800,7 @@ label chapter3:
 
     camera: 
         xpos muddy_alice_pos
-    show alice normal at breathing(muddy_alice_pos, alice_scale_muddy)
+    show alice normal
 
     show thimble at Position(ypos = 0.65, xpos = muddy_alice_pos)
     alice "Only a thimble."
@@ -884,7 +889,7 @@ label chapter3:
 
     camera: 
         ease cam_transition xpos muddy_alice_pos
-    show alice normal at breathing(muddy_alice_pos, alice_scale_muddy)
+    show alice normal
     alice "I wish I had our Dinah here, I know I do!"
     alice "She’d soon fetch it back!"
 
@@ -925,11 +930,11 @@ label chapter3:
         ease 2.0 xpos muddy_alice_pos
     "On various pretexts they all moved off, and Alice was soon left alone."
 
-    show alice pout at breathing(muddy_alice_pos, alice_scale_muddy)
+    show alice pout
     alice "I wish I hadn’t mentioned Dinah!"
     alice "Nobody seems to like her, down here, and I’m sure she’s the best cat in the world!"
     alice "Oh, my dear Dinah! I wonder if I shall ever see you any more!"
-    show alice crying at breathing_crying(muddy_alice_pos, alice_scale_muddy)
+    show alice crying at breathing_crying
     "And here poor Alice began to cry again, for she felt very lonely and low-spirited."
     "In a little while, however, she again heard a little pattering of footsteps in the distance, and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story."
 
@@ -943,7 +948,8 @@ label chapter4:
     #jump ch4_forest
     #jump ch4_grass
 
-    show alice pout at breathing(0.7, alice_scale)
+    show alice pout at breathing:
+        xpos 0.7 ypos 0.7 zoom alice_scale
 
     show rabbit normal:
         anchor (0.5, 1.0)
@@ -986,7 +992,8 @@ label chapter4:
     show fan gloves at Position(ypos = 0.65, xpos = 0.5)
     "By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves:"
     hide fan gloves
-    show alice excited at breathing(0.5, alice_scale, 0.9)
+    show alice excited at breathing:
+        xpos 0.5 ypos 0.9 zoom alice_scale
     alice "she took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass."
     play sound "sfx/cork.mp3"
     "There was no label this time with the words 'DRINK ME', but nevertheless she uncorked it and put it to her lips."
@@ -1003,7 +1010,8 @@ label chapter4:
     "She hastily put down the bottle."
     alice "That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!"
 
-    show alice belly at breathing(0.7, 2.0, 1.0)
+    show alice belly at breathing:
+        xpos 0.7 ypos 1.0 zoom 2.0
 
     "Alas! it was too late to wish that! She went on growing, and growing, and very soon had to kneel down on the floor:"
     "In another minute there was not even room for this, and she tried the effect of lying down with one elbow against the door, and the other arm curled round her head."
@@ -1149,8 +1157,10 @@ label chapter4:
     scene rabbit_house:
         xalign 0.2 zoom 1.3 yalign 1.0
 
-    show bill guinea at breathing(0.25, 0.8, 0.92)
-    show alice surprised at breathing(0.85, alice_scale, 0.79)
+    show bill guinea at breathing:
+        pos (0.25, 0.92) zoom 0.8
+    show alice surprised at breathing:
+        pos (0.85, 0.79) zoom alice_scale
     "As soon as she was small enough to get through the door, she ran out of the house, and found quite a crowd of little animals and birds waiting outside."
     "The poor little Lizard, Bill, was in the middle, being held up by two guinea-pigs, who were giving it something out of a bottle."
 
@@ -1162,9 +1172,10 @@ label ch4_forest:
     scene forest
     camera:
         perspective True
-        xpos -215 ypos 490 zpos -500
+        xpos -215 ypos 490 zpos -500 xoffset 0
 
-    show alice thinking at breathing(0.3, 0.14, 0.85)
+    show alice thinking at breathing:
+        pos (0.3, 0.85) zoom 0.14
     show thistle:
         pos (0.10, 0.85)
         anchor (0.5, 1.0)
@@ -1245,16 +1256,16 @@ label setup_caterpillar:
         zpos -1100
         zoom 0.5
 
-    show alice normal at breathing(800, 0.2, 1.0):
-        zpos -1000 
+    show alice normal at breathing:
+        pos (800, 1.0) zoom 0.2 zpos -1000 
 
     show buttercup at Position(xpos = 650, ypos = 1.0):
         anchor (0.5, 1.0)
         zoom 0.3
         zpos -950
 
-    show caterpillar at breathing(1090, 0.3, 0.85):
-        zpos -900
+    show caterpillar at breathing:
+        pos (1090, 0.85) zoom 0.3 zpos -900
 
     show mushroom at Position(xpos = 1090, ypos = 1.0):
         anchor (0.5, 1.0)
@@ -1345,7 +1356,7 @@ label chapter5:
 
     caterpillar "Why?"
 
-    show alice at breathing(800, 0.2, 1.0):
+    show alice at breathing:
         zpos -1000
         linear 2.0 xoffset -400
     "Here was another puzzling question; and as Alice could not think of any good reason, and as the Caterpillar seemed to be in a very unpleasant state of mind, she turned away."
@@ -1353,7 +1364,7 @@ label chapter5:
     caterpillar "Come back!"
     caterpillar "I’ve something important to say!"
 
-    show alice at breathing(800, 0.2, 1.0):
+    show alice at breathing:
         zpos -1000
         linear 2.0 xoffset 0
     "This sounded promising, certainly: Alice turned and came back again."
@@ -1434,7 +1445,7 @@ label chapter5:
     "This time Alice waited patiently until it chose to speak again."
     "In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself."
 
-    show caterpillar at breathing(1090, 0.3, 0.85):
+    show caterpillar at breathing:
         zpos -900
         linear 2.0 ypos 1.0
         linear 20.0 zpos -1200
@@ -1455,7 +1466,7 @@ label chapter5:
     alice "And now which is which?"
     "She nibbled a little of the right-hand bit to try the effect:"
 
-    show alice normal at breathing(800, 0.2, 1.0):
+    show alice normal:
         zpos -1000
         easein_expo 10.0 yzoom 0.1
 
@@ -1580,14 +1591,16 @@ label ch5_sky:
 
     "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
 
-    show alice happy at breathing(0.5, 0.6, 0.9)
+    show alice happy at breathing:
+        pos (0.5, 0.9) zoom 0.6
     alice "Come, there’s half my plan done now!"
     alice "How puzzling all these changes are!" 
     alice "I’m never sure what I’m going to be, from one minute to another!"
     alice "However, I’ve got back to my right size: the next thing is, to get into that beautiful garden—how is that to be done, I wonder?"
     
     scene forest_house
-    show alice happy at breathing(0.8, 0.7, 0.9)
+    show alice happy at breathing:
+        pos (0.8, 0.9) zoom 0.7
     "She came suddenly upon an open place, with a little house in it about four feet high."
     alice "Whoever lives there, it’ll never do to come upon them this size: why, I should frighten them out of their wits!"
     show alice:
@@ -1601,13 +1614,15 @@ label chapter6:
     play music "audio/rinne song of little birds.mp3" if_changed
 
     scene forest_house
-    show footmen_fish at breathing(-0.5, 0.5, 0.9):
+    show footmen_fish at breathing:
+        pos (-0.5, 0.9) zoom 0.5
         linear 4.0 xpos 0.3
 
     "For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood—(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)—and rapped loudly at the door with his knuckles."
 
     play sound "sfx/knockknockknock.mp3"
-    show footmen_frog at breathing(0.7, 0.5, 0.9)
+    show footmen_frog at breathing:
+        pos (0.7, 0.9) zoom 0.5
 
     "It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads."
     "She felt very curious to know what it was all about, and crept a little way out of the wood to listen."
@@ -1638,10 +1653,12 @@ label chapter6:
     
     hide footmen_fish
     hide footmen_frog
-    show footmen_frog at breathing(0.7, 0.5, 0.9)
+    show footmen_frog at breathing:
+        pos (0.7, 0.9) zoom 0.5
     "and when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky."
 
-    show alice normal at breathing(0.3, 0.5, 0.9)
+    show alice normal at breathing:
+        pos (0.3, 0.9) zoom alice_scale
     play sound "sfx/knockknockknock.mp3"
     "Alice went timidly up to the door, and knocked."
 
@@ -1714,12 +1731,15 @@ label ch6_kitchen:
     define cat_kitchen_pos = 1735
     define cat_cam_z_zom = -300
     define alice_duchess_kitchen_pos = 270
-    show alice normal at breathing(alice_kitchen_pos, 0.5, 0.9)
-    show cook at breathing(cook_kitchen_pos, 0.6, 0.9)
+    show alice normal at breathing:
+        pos (alice_kitchen_pos, 0.9) zoom alice_scale
+    show cook at breathing:
+        pos (cook_kitchen_pos, 0.9) zoom 0.6
     show cat:
         align (0.5, 1.0)
         xpos cat_kitchen_pos ypos 0.59 zoom 0.63
-    show duchess at breathing(duchess_kitchen_pos, duchess_scale, 0.9)
+    show duchess at breathing:
+        pos (duchess_kitchen_pos, 0.9) zoom duchess_scale
     show baby normal:
         anchor (0.5, 1.0)
         xpos duchess_kitchen_pos ypos 0.8 zoom 0.7 zpos 30
@@ -1878,7 +1898,8 @@ label ch6_kitchen:
 
     scene forest
 
-    show alice pout at breathing(0.5, 0.5, 0.9)
+    show alice pout at breathing:
+        pos (0.5, 0.9) zoom alice_scale
     show baby normal:
         anchor (0.5, 1.0)
         xpos 0.5 ypos 0.8 zoom 0.7
@@ -2063,11 +2084,15 @@ label chapter7:
     define hare_scale = 0.9
     define hatter_scale = 0.5
     define dormouse_scale = 0.44
-    show alice normal at breathing(-285, 0.5, 0.9) zorder 100
+    show alice normal zorder 100 at breathing:
+        pos (-285, 0.9) zoom alice_scale
 
-    show hare at breathing(hare_tea_pos, hare_scale, 0.79)
-    show dormouse sleep at breathing(dormouse_tea_pos, dormouse_scale, 0.71)
-    show hatter at breathing(hatter_tea_pos, hatter_scale, 1.02)
+    show hare at breathing:
+        pos (hare_tea_pos, 0.79) zoom hare_scale
+    show dormouse sleep at breathing:
+        pos (dormouse_tea_pos, 0.71) zoom dormouse_scale
+    show hatter at breathing:
+        pos (hatter_tea_pos, 1.02) zoom hatter_scale
 
     show hare_house_front zorder 50
 
@@ -2085,8 +2110,9 @@ label chapter7:
 
     camera:
         linear cam_transition xpos alice_tea_pos
-    hide alice
-    show alice normal at breathing(alice_tea_pos, 0.5, 0.9) zorder 0
+    
+    show alice normal zorder 0 at breathing:
+        pos (alice_tea_pos, 0.9)
         
     "She sat down in a large arm-chair at one end of the table."
 
@@ -2593,7 +2619,8 @@ label ch7_reorder:
         perspective False
         xpos 0 ypos 0 xoffset 0
 
-    show alice pout at breathing(0.5, alice_scale, 0.9)
+    show alice pout at breathing:
+        pos (0.5, 0.9) zoom alice_scale
     alice "At any rate I’ll never go there again!"
     alice "It’s the stupidest tea-party I ever was at in all my life!"
 
@@ -2607,7 +2634,8 @@ label ch7_reorder:
     scene hall
     "Once more she found herself in the long hall, and close to the little glass table."
 
-    show alice normal at breathing(0.5, alice_scale, 0.9)
+    show alice normal at breathing:
+        pos (0.5, 0.9) zoom alice_scale
     alice "Now, I’ll manage better this time"
     "She began by taking the little golden key, and unlocking the door that led into the garden."
     
@@ -2642,14 +2670,18 @@ label chapter8:
         xpos alice_garden xoffset -center_offset
         ease 10.0 xpos 0.33
     
-    show card5 at breathing(card5_garden, card_zoom, card5_garden_y):
+    show card5 at breathing:
+        pos (card5_garden, card5_garden_y) zoom card_zoom
         zpos card5_garden_z
-    show card7 at breathing(card7_garden, card_zoom, card7_garden_y):
+    show card7 at breathing:
+        pos (card7_garden, card7_garden_y) zoom card_zoom
         zpos card7_garden_z
-    show card2 at breathing(card2_garden, card_zoom, card2_garden_y):
+    show card2 at breathing:
+        pos (card2_garden, card2_garden_y) zoom card_zoom
         zpos card2_garden_z
 
-    show alice normal at breathing(alice_garden, alice_scale, 0.8)
+    show alice normal at breathing:
+        pos (alice_garden, 0.8) zoom alice_scale
 
     show garden_front zorder 1000
 
@@ -2850,7 +2882,8 @@ label chapter8:
     hide king
     # move camera to alice instant
     define alice_garden2 = 0.04
-    show alice normal at breathing(alice_garden2, alice_scale, 0.8) zorder 100
+    show alice normal zorder 100 at breathing:
+        xpos alice_garden2
     camera:
         xpos alice_garden2
     "Alice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions."
@@ -2864,11 +2897,14 @@ label chapter8:
     define knave_garden = 0.8
 
     # show queen near the gardeners
-    show knave at breathing(knave_garden, 1.0, 0.8):
+    show knave at breathing:
+        pos (knave_garden, 0.8)
         zpos -100
-    show queen normal at breathing(queen_garden, queen_scale, 0.8) zorder 10:
+    show queen normal zorder 10 at breathing:
+        pos (queen_garden, 0.8) zoom queen_scale
         zpos -20
-    show king at breathing(king_garden, king_scale, 0.8)
+    show king at breathing:
+        pos (king_garden, 0.8) zoom king_scale
 
 
     camera:
@@ -3045,7 +3081,8 @@ label chapter8:
 
     camera:
         ease cam_transition xpos queen_garden2
-    show queen normal at breathing(queen_garden2, queen_scale, 0.8)
+    show queen normal at breathing:
+        pos (queen_garden2, 0.8) zoom queen_scale
 
     queen "Are their heads off?"
 
@@ -3075,14 +3112,16 @@ label chapter8:
         linear 1.0 xpos 3.0
     show soldier9:
         linear 1.0 xpos 2.5
-    show alice at breathing(alice_garden4, alice_scale, 0.8)
+    show alice at breathing:
+        pos (alice_garden4, 0.8) zoom alice_scale
 
     camera:
         ease cam_transition xpos alice_garden4
 
     "Alice joined the procession, wondering very much what would happen next."
 
-    show rabbit normal at breathing(0.57, rabbit_scale, 0.85) zorder 200
+    show rabbit normal zorder 200 at breathing:
+        pos (0.57, 0.85) zoom rabbit_scale
     rabbit "It’s—it’s a very fine day!" # timid voice
 
     "She was walking by the White Rabbit, who was peeping anxiously into her face."
@@ -3114,8 +3153,10 @@ label ch8_croquet:
     define queen_croquet = 0.0
     define alice_croquet = 1.3
     define cat_croquet = 1.55
-    show queen normal at breathing(queen_croquet, queen_scale, 0.9)
-    show alice normal at breathing(alice_croquet, alice_scale, 0.9)
+    show queen normal at breathing:
+        pos (queen_croquet, 0.9) zoom queen_scale
+    show alice normal at breathing:
+        pos (alice_croquet, 0.9) zoom alice_scale
 
     camera:
         perspective True
@@ -3201,8 +3242,8 @@ label ch8_croquet:
     # let it appear full
     hide cat6
     hide cat5
-    show cat4 at breathing(cat_croquet, cat_scale, 0.4):
-        zoom 1.0
+    show cat4 at breathing:
+        pos (cat_croquet, 0.4) zoom cat_scale
         xoffset 120
         alpha 1.0
     cat "How do you like the Queen?"
@@ -3226,7 +3267,8 @@ label ch8_croquet:
 
     define king_croquet = 1.8
     define king_croquet2 = 1.06
-    show king behind alice at breathing(king_croquet, king_scale, 0.9)
+    show king behind alice at breathing:
+        pos (king_croquet, 0.9) zoom king_scale
     camera:
         ease cam_transition xpos cat_croquet ypos 0 zoom 1.0
     king "Who are you talking to?" # said the King, going up to Alice
@@ -3238,8 +3280,7 @@ label ch8_croquet:
 
     cat "I’d rather not."
 
-    show king scared at breathing(king_croquet, king_scale, 0.9):
-        zoom 1.0
+    show king scared at breathing:
         linear 1.0 xpos king_croquet2
     king "Don’t be impertinent, and don’t look at me like that!"
 
@@ -3267,8 +3308,7 @@ label ch8_croquet:
 
     camera:
         ease cam_transition xpos king_croquet2 ypos 700 zoom 2.0
-    show king at breathing(king_croquet2, king_scale, 0.9):
-        zoom 1.0
+    show king at breathing:
         pause 1.5
         linear 1.0 xpos 0.0
     king "I’ll fetch the executioner myself." # said the King eagerly, and he hurried off.
@@ -3299,19 +3339,22 @@ label ch8_croquet:
     # setup king and queen when returning
     define king_croquet3 = 1.98
     define queen_croquet3 = 1.73
-    show soldier9 behind alice at breathing(1.46, 1.0, 0.9)
-    show king scared at breathing(king_croquet3, king_scale, 0.9)
-    show queen normal at breathing(queen_croquet3, queen_scale, 0.9)
+    show soldier9 behind alice at breathing:
+        pos (1.46, 0.9)
+    show king scared at breathing:
+        pos (king_croquet3, 0.9) zoom king_scale
+    show queen normal at breathing:
+        pos (queen_croquet3, 0.9) zoom queen_scale
 
     show alice:
         ease 1.0 xpos 0.84
     camera:
         ease 1.5 xpos 0.84 ypos 0 zoom 1.0
+
     "By the time she had caught the flamingo and brought it back, the fight was over, and both the hedgehogs were out of sight."
     alice "(But it doesn’t matter much, as all the arches are gone from this side of the ground.)"
 
-    show alice at breathing(0.84, alice_scale, 0.9):
-        zoom 1.0
+    show alice normal at breathing:
         ease 1.0 xpos alice_croquet
 
     
