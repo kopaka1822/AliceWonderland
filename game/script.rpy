@@ -3589,10 +3589,14 @@ label ch9_gryphon:
 
     alice "(Everybody says ‘come on!’ here. I never was so ordered about in all my life, never!)"
 
+    define turtle_pos = -0.63
+    define gyphon_pos = 0.49
+    define alice_turtle = 0.26
+
     show gryphon behind alice:
         xzoom 1.0 xpos 1.34
     show turtle at breathing:
-        pos (-0.63, 0.89)
+        pos (turtle_pos, 0.89)
     camera:
         linear 10.0 xpos -425
     stop music fadeout 10.0
@@ -3603,9 +3607,9 @@ label ch9_gryphon:
     gryphon "It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!"
 
     show gryphon at breathing:
-        linear 1.0 xpos 0.49
+        linear 1.0 xpos gyphon_pos
     show alice normal at breathing:
-        linear 1.0 xpos 0.26
+        linear 1.0 xpos alice_turtle
     camera:
         linear 1.0 xpos -120
     "So they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing."
@@ -3714,6 +3718,214 @@ label chapter10:
         perspective False
         xpos 0 ypos 0 zpos 0 zoom 1.0 xoffset 0
     "{size=+40}Chapter X: \n{/size}The Lobster Quadrille"
+
+    play music "audio/rinne sad.mp3" if_changed
+
+    "The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes."
+    "He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice."
+    gryphon "Same as if he had a bone in his throat."
+    "The gryphon started shaking him and punching him in the back."
+    "At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:"
+    mock "You may not have lived much under the sea—"
+    alice "I haven’t."
+    mock "and perhaps you were never even introduced to a lobster—"
+    alice "I once tasted—" #  but checked herself hastily, and said
+    alice "No, never"
+    mock "—so you can have no idea what a delightful thing a Lobster Quadrille is!"
+
+    alice "No, indeed. What sort of a dance is it?"
+    gryphon "Why, you first form into a line along the sea-shore—"
+    mock "Two lines!" # cried the mock turtle
+    mock "Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—"
+
+    gryphon "That generally takes some time."
+    mock "—you advance twice—"
+    gryphon "Each with a lobster as a partner!"
+    mock "Of course, advance twice, set to partners—"
+    gryphon "—change lobsters, and retire in same order."
+    mock "Then, you know, you throw the—"
+    
+    # TODO leap into air
+    gryphon "The lobsters!"
+    mock "—as far out to sea as you can—"
+    gryphon "Swim after them!"
+    mock "Turn a somersault in the sea!"
+    gryphon "Change lobsters again!"
+    mock "Back to land again, and that’s all the first figure."
+    "The two creatures, who had been jumping about like mad things all this time, sat down again very sadly and quietly, and looked at Alice."
+
+    alice "It must be a very pretty dance." # timidly
+    mock "Would you like to see a little of it?"
+    alice "Very much indeed."
+    "The mock turtle turned to the gryphon:" # added
+    mock "Come, let’s try the first figure!"
+    # "said the Mock Turtle to the Gryphon."
+    mock "We can do without lobsters, you know. Which shall sing?"
+
+    gryphon "Oh, you sing. I’ve forgotten the words."
+
+    # dance?
+    "So they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—"
+
+    mock "“Will you walk a little faster?” said a whiting to a snail.\n
+“There’s a porpoise close behind us, and he’s treading on my tail."
+    mock "See how eagerly the lobsters and the turtles all advance!\n
+They are waiting on the shingle—will you come and join the dance?"
+    mock "Will you, won’t you, will you, won’t you, will you join the dance?\n
+Will you, won’t you, will you, won’t you, won’t you join the dance?"
+    
+    mock "“You can really have no notion how delightful it will be\n
+When they take us up and throw us, with the lobsters, out to sea!”"
+    mock "But the snail replied “Too far, too far!” and gave a look askance—\n
+Said he thanked the whiting kindly, but he would not join the dance."
+    mock "Would not, could not, would not, could not, would not join the dance.\n
+Would not, could not, would not, could not, could not join the dance."
+
+    mock "“What matters it how far we go?” his scaly friend replied.\n
+“There is another shore, you know, upon the other side."
+    mock "The further off from England the nearer is to France—\n
+Then turn not pale, beloved snail, but come and join the dance."
+    mock "Will you, won’t you, will you, won’t you, will you join the dance?\n
+Will you, won’t you, will you, won’t you, won’t you join the dance?”"
+
+    alice "Thank you, it’s a very interesting dance to watch."
+    "Alice was feeling very glad that it was over at last."
+    alice "and I do so like that curious song about the whiting!"
+
+    mock "Oh, as to the whiting, they—you’ve seen them, of course?"
+    alice "Yes, I’ve often seen them at dinn—"
+    "She checked herself hastily."
+
+    mock "I don’t know where Dinn may be, but if you’ve seen them so often, of course you know what they’re like."
+
+    alice "I believe so."
+    alice "They have their tails in their mouths—and they’re all over crumbs."
+
+    mock "You’re wrong about the crumbs, crumbs would all wash off in the sea."
+    mock "But they _have_ their tails in their mouths; and the reason is— *yawn* —Tell her about the reason and all that."
+    gryphon "The reason is, that they would go with the lobsters to the dance."
+    gryphon "So they got thrown out to sea."
+    gryphon "So they had to fall a long way."
+    gryphon "So they got their tails fast in their mouths."
+    gryphon "So they couldn’t get them out again."
+    gryphon "That’s all."
+
+    alice "Thank you, it’s very interesting. I never knew so much about a whiting before."
+    gryphon "I can tell you more than that, if you like. Do you know why it’s called a whiting?"
+    alice "I never thought about it. Why?"
+    gryphon "It does the boots and shoes." # solemnly
+    "Alice was thoroughly puzzled."
+    alice "Does the boots and shoes!?" # wondering
+
+    gryphon "Why, what are your shoes done with? I mean, what makes them so shiny?"
+
+    "Alice looked down at them, and considered a little before she gave her answer."
+    alice "They’re done with blacking, I believe."
+    gryphon "Boots and shoes under the sea, are done with a whiting. Now you know." # deep voice
+
+    alice "And what are they made of?" # asked with great curiosity
+    gryphon "Soles and eels, of course, any shrimp could have told you that."
+    alice "If I’d been the whiting, I’d have said to the porpoise, ‘Keep back, please: we don’t want you with us!’" # still in thoughts
+    mock "They were obliged to have him with them, no wise fish would go anywhere without a porpoise."
+    alice "Wouldn’t it really?" # surprised
+    mock "Of course not, why, if a fish came to me, and told me he was going a journey, I should say ‘With what porpoise?’"
+    alice "Don’t you mean ‘purpose’?"
+    mock "*offended* I mean what I say."
+    gryphon "Come, let’s hear some of your adventures." 
+
+    alice "I could tell you my adventures—beginning from this morning, but it’s no use going back to yesterday, because I was a different person then."
+
+    mock "Explain all that."
+    gryphon "No, no! The adventures first, explanations take such a dreadful time." # impatient
+
+    "So Alice began telling them her adventures from the time when she first saw the White Rabbit."
+    # get close
+    "She was a little nervous about it just at first, the two creatures got so close to her, one on each side, and opened their eyes and mouths so very wide, but she gained courage as she went on."
+    "Her listeners were perfectly quiet till she got to the part about her repeating “You are old, Father William” to the Caterpillar, and the words all coming different, and then the Mock Turtle drew a long breath, and said:"
+    mock "That’s very curious."
+
+    gryphon "It’s all about as curious as it can be."
+    mock "It all came different!"
+    mock "I should like to hear her try and repeat something now. Tell her to begin."
+    "He looked at the Gryphon as if he thought it had some kind of authority over Alice."
+    gryphon "Stand up and repeat ‘Tis the voice of the sluggard’"
+    alice "(How the creatures order one about, and make one repeat lessons!)"
+    alice "(I might as well be at school at once.)"
+    "However, she got up, and began to repeat it, but her head was so full of the Lobster Quadrille, that she hardly knew what she was saying, and the words came very queer indeed:—"
+
+    alice "’Tis the voice of the Lobster; I heard him declare,\n
+    “You have baked me too brown, I must sugar my hair.”"
+    alice "As a duck with its eyelids, so he with his nose\n
+    Trims his belt and his buttons, and turns out his toes."
+
+    # later editions continue with
+    #alice "When the sands are all dry, he is gay as a lark,\n
+    #And will talk in contemptuous tones of the Shark,"
+    #alice "But, when the tide rises and sharks are around,\n
+    #His voice has a timid and tremulous sound."
+
+    gryphon "That’s different from what I used to say when I was a child."
+    mock "Well, I never heard it before, but it sounds uncommon nonsense."
+    "Alice said nothing; she had sat down with her face in her hands, wondering if anything would ever happen in a natural way again."
+    mock "I should like to have it explained."
+    gryphon "She can’t explain it. Go on with the next verse."
+    mock "But about his toes?" # persistet
+    mock "How could he turn them out with his nose, you know?"
+    alice "It’s the first position in dancing."
+    "She was dreadfully puzzled by the whole thing, and longed to change the subject."
+    gryphon "Go on with the next verse, it begins ‘I passed by his garden’."
+
+    "Alice did not dare to disobey, though she felt sure it would all come wrong, and she went on in a trembling voice:—"
+
+    alice "I passed by his garden, and marked, with one eye,\n
+    How the Owl and the Panther were sharing a pie—"
+
+    # later editions continue with
+    alice "The Panther took pie-crust, and gravy, and meat,\n
+    While the Owl had the dish as its share of the treat."
+    alice "When the pie was all finished, the Owl, as a boon,\n
+    Was kindly permitted to pocket the spoon:"
+    alice "While the Panther received knife and fork with a growl,\n
+    And concluded the banquet—"
+
+    mock "What is the use of repeating all that stuff, if you don’t explain it as you go on? It’s by far the most confusing thing I ever heard!"
+
+    gryphon "Yes, I think you’d better leave off."
+    "Alice was only too glad to do so"
+    gryphon "Shall we try another figure of the Lobster Quadrille?"
+    gryphon "Or would you like the Mock Turtle to sing you a song?"
+
+    alice "Oh, a song, please, if the Mock Turtle would be so kind." # alice replied eagerly
+    gryphon "Hm! No accounting for tastes! Sing her ‘Turtle Soup’, will you, old fellow?"
+    "The Mock Turtle sighed deeply, and began, in a voice sometimes choked with sobs, to sing this:—"
+    mock "Beautiful Soup, so rich and green,\nWaiting in a hot tureen!"
+    mock "Who for such dainties would not stoop?\nSoup of the evening, beautiful Soup!"
+    mock "Soup of the evening, beautiful Soup!\n
+    {space=30}Beau—ootiful Soo—oop!\n
+    {space=30}Beau—ootiful Soo—oop!"
+    mock "Soo—oop of the e—e—evening,\n
+    {space=30}Beautiful, beautiful Soup!"
+
+    mock "Beautiful Soup! Who cares for fish,\n
+    Game, or any other dish?"
+    mock "Who would not give all else for two p\n
+    ennyworth only of beautiful Soup?"
+    mock "Pennyworth only of beautiful Soup?\n
+    {space=30}Beau—ootiful Soo—oop!\n
+    {space=30}Beau—ootiful Soo—oop!"
+    mock "Soo—oop of the e—e—evening,\n
+    Beautiful, beauti—FUL SOUP!"
+
+    gryphon "Chorus again!" # cried
+    "the Mock Turtle had just begun to repeat it, when a cry of “The trial’s beginning!” was heard in the distance."
+    gryphon "Come on!" # cried
+    "The Gryphon took Alice by the hand, and hurried off, without waiting for the end of the song."
+    alice "What trial is it?"
+    "Alice panted as she ran."
+    gryphon "Come on!"
+    "He ran faster, while more and more faintly came, carried on the breeze that followed them, the melancholy words:—"
+    mock "Soo—oop of the e—e—evening,\n
+    {space=30}Beautiful, beautiful Soup!"
 
 label chapter11:
     scene black
