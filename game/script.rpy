@@ -54,6 +54,7 @@ define soldiers =  Character("Soldiers", color="#ffffff")
 define king = Character("King", color="#ff0000")
 define gryphon = Character("Gryphon", color="#ff8c00")
 define mock = Character("Mock Turtle", color="#6cb30f")
+define cook = Character("Cook", color="#ffffff")
 
 define alice_scale = 0.5
 define alice_scale_large = 0.7
@@ -3930,6 +3931,161 @@ Will you, won’t you, will you, won’t you, won’t you join the dance?”"
 label chapter11:
     scene black
     "{size=+40}Chapter XI: \n{/size}Who Stole the Tarts?"
+
+    "The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards:"
+    "The Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other."
+    "In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—"
+    alice "(I wish they’d get the trial done and hand round the refreshments!)"
+    "But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time."
+
+    "Alice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there."
+    alice "(That’s the judge, because of his great wig."
+    "The judge, by the way, was the King; and as he wore his crown over the wig, he did not look at all comfortable, and it was certainly not becoming." # (look at the frontispiece if you want to see how he did it,)
+
+    alice "(And that’s the jury-box and those twelve creatures—"
+    "(she was obliged to say “creatures,” you see, because some of them were animals, and some were birds)"
+    alice "(I suppose they are the jurors)"
+    "She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all."
+    "However, “jury-men” would have done just as well."
+
+    "The twelve jurors were all writing very busily on slates."
+    alice "*whispering* What are they doing? They can’t have anything to put down yet, before the trial’s begun." # Alice whispered to the Gryphon. “”
+
+    gryphon "*whispering* They’re putting down their names, for fear they should forget them before the end of the trial."
+
+    alice "Stupid things!" # Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, 
+    rabbit "Silence in the court!"
+    "The King put on his spectacles and looked anxiously round, to make out who was talking."
+
+    "Alice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid,” and that he had to ask his neighbour to tell him."
+    alice "(A nice muddle their slates’ll be in before the trial’s over!)"
+    
+    "One of the jurors had a pencil that squeaked."
+    "This of course, Alice could not stand, and she went round the court and got behind him, and very soon found an opportunity of taking it away."
+    "She did it so quickly that the poor little juror (it was Bill, the Lizard) could not make out at all what had become of it; so, after hunting all about for it, he was obliged to write with one finger for the rest of the day; and this was of very little use, as it left no mark on the slate."
+
+    king "Herald, read the accusation!"
+    "On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—"
+
+    rabbit "The Queen of Hearts, she made some tarts,\n
+    {space=30}All on a summer day:\n
+    The Knave of Hearts, he stole those tarts,\n
+    {space=30}And took them quite away!"
+
+    king "Consider your verdict."
+    #"the King said to the jury."
+    rabbit "Not yet, not yet! There’s a great deal to come before that!"
+
+    king "Call the first witness."
+    "The White Rabbit blew three blasts on the trumpet."
+    rabbit "First witnes!"
+
+    "The first witness was the Hatter."
+    "He came in with a teacup in one hand and a piece of bread-and-butter in the other."
+    hatter "I beg pardon, your Majesty, for bringing these in: but I hadn’t quite finished my tea when I was sent for."
+
+    king "You ought to have finished. When did you begin?"
+    "The Hatter looked at the March Hare, who had followed him into the court, arm-in-arm with the Dormouse."
+    hatter "Fourteenth of March, I think it was."
+
+    hare "“Fifteenth."
+    doormouse "Sixteenth."
+    king "Write that down."
+    "The jury eagerly wrote down all three dates on their slates, and then added them up, and reduced the answer to shillings and pence."
+    king "It isn’t mine."
+    king "Stolen!"
+    "The king turned to the jury, who instantly made a memorandum of the fact."
+    hatter "I keep them to sell. I’ve none of my own. I’m a hatter."
+    "Here the Queen put on her spectacles, and began staring at the Hatter, who turned pale and fidgeted."
+    king "Give your evidence and don’t be nervous, or I’ll have you executed on the spot."
+
+    "This did not seem to encourage the witness at all: he kept shifting from one foot to the other, looking uneasily at the Queen, and in his confusion he bit a large piece out of his teacup instead of the bread-and-butter."
+
+    "Just at this moment Alice felt a very curious sensation, which puzzled her a good deal until she made out what it was: she was beginning to grow larger again, and she thought at first she would get up and leave the court; but on second thoughts she decided to remain where she was as long as there was room for her."
+
+    doormouse "I wish you wouldn’t squeeze so. I can hardly breathe." # doormouse whi is sitting next to her
+
+    alice "I can’t help it, I’m growing." # meekly
+    doormouse "You’ve no right to grow here..."
+    alice "Don’t talk nonsense, you know you’re growing too."
+    doormouse "“Yes, but I grow at a reasonable pace, not in that ridiculous fashion."
+    "He got up very sulkily and crossed over to the other side of the court."
+
+    "All this time the Queen had never left off staring at the Hatter, and, just as the Dormouse crossed the court, she said to one of the officers of the court:"
+    queen "Bring me the list of the singers in the last concert!"
+    "On which the wretched Hatter trembled so, that he shook both his shoes off."
+
+    king "*angry* Give your evidence, or I’ll have you executed, whether you’re nervous or not."
+
+    hatter "*trembling* I’m a poor man, your Majesty, —and I hadn’t begun my tea—not above a week or so—and what with the bread-and-butter getting so thin—and the twinkling of the tea—"
+    king "The twinkling of the what?"
+    hatter "It began with the tea."
+    king "Of course twinkling begins with a T!"
+    king "Do you take me for a dunce? Go on!"
+    hatter "I’m a poor man, and most things twinkled after that—only the March Hare said—"
+    hare "I didn’t!" # interrupted in great hurry
+    hatter "You did!"
+    hare "I deny it!"
+    king "He denies it, —leave out that part."
+    hatter "Well, at any rate, the Dormouse said—"
+    # todo mouse asleep
+    "The Hatter went on, looking anxiously round to see if he would deny it too: but the Dormouse denied nothing, being fast asleep."
+    hatter "After that, I cut some more bread-and-butter—"
+    bill "But what did the Dormouse say?" # one of the jurors
+    hatter "That I can’t remember."
+    king "You must remember, or I’ll have you executed."
+    "The miserable Hatter dropped his teacup and bread-and-butter, and went down on one knee."
+    hatter "I’m a poor man, your Majesty."
+    king "You’re a very poor speaker."
+
+    "Here one of the guinea-pigs cheered, and was immediately suppressed by the officers of the court."
+    "(As that is rather a hard word, I will just explain to you how it was done. They had a large canvas bag, which tied up at the mouth with strings: into this they slipped the guinea-pig, head first, and then sat upon it.)"
+
+    alice "(I’m glad I’ve seen that done. I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now.)"
+    
+    king "If that’s all you know about it, you may stand down."
+    hatter "I can’t go no lower, I’m on the floor, as it is."
+    king "Then you may sit down."
+    "Here the other guinea-pig cheered, and was suppressed."
+
+    alice "Come, that finished the guinea-pigs! Now we shall get on better."
+
+    hatter "I’d rather finish my tea."
+    "The hatter looked anxiously at the Queen, who was reading the list of singers."
+    king "You may go."
+    "The Hatter hurriedly left the court, without even waiting to put his shoes on."
+
+    queen "—and just take his head off outside!" # the Queen added to one of the officers:
+    "But the Hatter was out of sight before the officers could get to the door."
+    "..."
+    king "Call the next witness!"
+
+    "The next witness was the Duchess’s cook."
+    "She carried the pepper-box in her hand, and Alice guessed who it was, even before she got into the court, by the way the people near the door began sneezing all at once."
+
+    king "Give your evidence."
+    cook "Shan’t."
+
+    "The King looked anxiously at the White Rabbit:"
+    rabbit "*whispering* Your Majesty must cross-examine this witness."
+
+    king "Well, if I must, I must."
+    "After folding his arms and frowning at the cook till his eyes were nearly out of sight, he said in a deep voice:"
+    king "What are tarts made of?"
+    cook "Pepper, mostly."
+    doormouse "Treacle." # sleepy voice
+    queen "*shriek* Collar that Dormouse! Behead that Dormouse! Turn that Dormouse out of court! Suppress him! Pinch him! Off with his whiskers!"
+
+    "For some minutes the whole court was in confusion, getting the Dormouse turned out, and, by the time they had settled down again, the cook had disappeared."
+    king "Never mind!" # said the King, with an air of great relief. 
+    king "Call the next witness."
+    "And he added in an undertone to the Queen:"
+    king "Really, my dear, you must cross-examine the next witness. It quite makes my forehead ache!"
+
+    "Alice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like."
+    alice "(They haven’t got much evidence yet)"
+    "Imagine her surprise, when the White Rabbit read out, at the top of his shrill little voice, the name:"
+    rabbit "Alice!"
 
 label chapter12:
     scene black
