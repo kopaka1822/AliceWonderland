@@ -1,3 +1,5 @@
+define config.autosave_on_quit = True
+
 default persistent.men_style = True
 default persistent.navigation_return_button_style = True
 default persistent.navigation_menu_content_style = True
