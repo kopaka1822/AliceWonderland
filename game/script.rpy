@@ -53,7 +53,7 @@ define queen = Character("Queen", color="#ff0000")
 define soldiers =  Character("Soldiers", color="#ffffff")
 define king = Character("King", color="#ff0000")
 define gryphon = Character("Gryphon", color="#ff8c00")
-define mock = Character("Mock Turtle", color="#00ff00")
+define mock = Character("Mock Turtle", color="#6cb30f")
 
 define alice_scale = 0.5
 define alice_scale_large = 0.7
@@ -3402,23 +3402,50 @@ label chapter9:
 
     play music "audio/rinne oak general store.mp3" fadein 1.0 fadeout 1.0
 
+    #jump ch9_gryphon
+
+    scene croquet
+    show croquet_front zorder 1000
+
+    # setup character
+    define alice_nine = 1.3
+    define duchess_nine = 1.5
+    show alice normal at breathing:
+        pos (alice_nine, 0.9) zoom alice_scale
+    show duchess happy at breathing behind alice:
+        pos (duchess_nine, 0.9) zoom duchess_scale zpos -40.0
+
+    camera:
+        perspective True
+        xpos 1.4 ypos 0 zpos 0 xoffset -center_offset
+
     duchess "You can’t think how glad I am to see you again, you dear old thing!"
     "the Duchess tucked her arm affectionately into Alice’s, and they walked off together."
 
     "Alice was very glad to find her in such a pleasant temper, and thought to herself that perhaps it was only the pepper that had made her so savage when they met in the kitchen."
 
+    show alice thinking
+    camera:
+        ease cam_transition xpos alice_nine ypos 1000 zoom 2.0
     alice "(When I’m a Duchess, I won’t have any pepper in my kitchen at all.)"
     alice "(Soup does very well without—Maybe it’s always pepper that makes people hot-tempered, and vinegar that makes them sour—and camomile that makes them bitter—and—and barley-sugar and such things that make children sweet-tempered.)"
     alice "(I only wish people knew that: then they wouldn’t be so stingy about it, you know—)"
 
+    show alice pout
     "She had quite forgotten the Duchess by this time, and was a little startled when she heard her voice close to her ear."
+    camera:
+        ease cam_transition xpos 1.4 ypos 1000 zoom 2.0
     duchess "You’re thinking about something, my dear, and that makes you forget to talk. I can’t tell you just now what the moral of that is, but I shall remember it in a bit."
 
+    show alice normal
     alice "Perhaps it hasn’t one."
 
     duchess "Tut, tut, child!"
     duchess "Everything’s got a moral, if only you can find it."
 
+    show alice pout
+    show duchess happy at breathing:
+        ease 0.5 xpos 1.45 zpos -20.0
     "And she squeezed herself up closer to Alice’s side as she spoke."
 
     "Alice did not much like keeping so close to her: first, because the Duchess was very ugly; and secondly, because she was exactly the right height to rest her chin upon Alice’s shoulder, and it was an uncomfortably sharp chin."
@@ -3430,13 +3457,17 @@ label chapter9:
     alice "Somebody said, that it’s done by everybody minding their own business!"
 
     duchess "Ah, well! It means much the same thing, and the moral of that is—‘Take care of the sense, and the sounds will take care of themselves.’"
+    
+    show duchess happy at breathing:
+        ease 0.5 xpos 1.42 zpos -20.0
     "said the Duchess, digging her sharp little chin into Alice’s shoulder."
 
     alice "(How fond she is of finding morals in things!)"
     "..."
-    duchess "I dare say you’re wondering why I don’t put my arm round your waist,the reason is, that I’m doubtful about the temper of your flamingo. Shall I try the experiment?"
+    duchess "I dare say you’re wondering why I don’t put my arm round your waist, the reason is, that I’m doubtful about the temper of your flamingo. Shall I try the experiment?"
 
     alice "He might bite." # Alice cautiously replied, not feeling at all anxious to have the experiment tried.
+    "Alice did not feel at all anxious to have the experiment tried."
     duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together.’"
 
     alice "Only mustard isn’t a bird."
@@ -3473,6 +3504,11 @@ label chapter9:
     duchess "Just about as much right, as pigs have to fly; and the m—"
     
     "But here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral,’ and the arm that was linked into hers began to tremble."
+    
+    show queen normal at breathing:
+        pos (0.8, 0.9) zoom queen_scale
+    camera:
+        ease cam_transition xpos 1.05 ypos 0 zoom 1.0
     "Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm."
 
     duchess "A fine day, your Majesty!" # the Duchess began in a low, weak voice.
@@ -3480,6 +3516,8 @@ label chapter9:
     queen "Now, I give you fair warning, either you or your head must be off, and that in about half no time! Take your choice!"
     "shouted the Queen, stamping on the ground as she spoke."
 
+    show duchess:
+        linear 1.0 xpos 2.0
     "The Duchess took her choice, and was gone in a moment."
 
     queen "Let’s go on with the game."
@@ -3492,6 +3530,7 @@ label chapter9:
 
     "Then the Queen left off, quite out of breath, and said to Alice:"
 
+    hide duchess
     queen "Have you seen the Mock Turtle yet?"
 
     alice "No, I don’t even know what a Mock Turtle is."
@@ -3502,16 +3541,42 @@ label chapter9:
 
     queen "Come on, then, and he shall tell you his history."
 
+    # start walk
+    show alice pout at breathing:
+        linear 10.0 xpos 0.0 # start from 1.3
+    show queen happy at breathing:
+        linear 10.0 xpos -0.5 # start from 0.8
+    camera:
+        linear 10.0 xpos -0.25 ypos 0 zoom 1.0
     "As they walked off together, Alice heard the King say in a low voice, to the company generally:"
     king "You are all pardoned."
     alice "(Come, that’s a good thing!)"
     "Alice had felt quite unhappy at the number of executions the Queen had ordered."
 
+label ch9_gryphon:
+    scene cliff
+
+    show gryphon at breathing:
+        pos (0.11, 1.2) xzoom -1.0 zoom 2.0
+    show queen normal at breathing:
+        pos (1.23, 0.9) zoom queen_scale
+    show alice normal at breathing:
+        pos (1.7, 0.9) zoom alice_scale
+
+    
+    camera:
+        perspective True
+        xpos 1535 ypos 0 zpos 0 zoom 1.0 xoffset -center_offset
+        ease 5.0 xpos 935
     "They very soon came upon a Gryphon, lying fast asleep in the sun."
     # "(If you don’t know what a Gryphon is, look at the picture.)"
     queen "Up, lazy thing!"
     queen "and take this young lady to see the Mock Turtle, and to hear his history."
     queen "I must go back and see after some executions I have ordered."
+    show queen normal:
+        linear 1.0 xpos 2.0
+    show alice normal at breathing:
+        ease 3.0 xpos 1.2
     "she walked off, leaving Alice alone with the Gryphon."
     "Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited."
 
@@ -3524,12 +3589,25 @@ label chapter9:
 
     alice "(Everybody says ‘come on!’ here. I never was so ordered about in all my life, never!)"
 
+    show gryphon behind alice:
+        xzoom 1.0 xpos 1.34
+    show turtle at breathing:
+        pos (-0.63, 0.89)
+    camera:
+        linear 10.0 xpos -425
+    stop music fadeout 10.0
     "They had not gone far before they saw the Mock Turtle in the distance, sitting sad and lonely on a little ledge of rock, and, as they came nearer, Alice could hear him sighing as if his heart would break."
     "She pitied him deeply."
     alice "What is his sorrow?"
     "she asked the Gryphon, and the Gryphon answered, very nearly in the same words as before"
     gryphon "It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!"
 
+    show gryphon at breathing:
+        linear 1.0 xpos 0.49
+    show alice normal at breathing:
+        linear 1.0 xpos 0.26
+    camera:
+        linear 1.0 xpos -120
     "So they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing."
 
     gryphon "This here young lady, she wants for to know your history, she do."
@@ -3541,14 +3619,15 @@ label chapter9:
     alice "I don’t see how he can ever finish, if he doesn’t begin."
     "But she waited patiently."
 
-    mock "Once, "
-    "said the Mock Turtle at last, with a deep sigh."
+    play music "audio/rinne sad.mp3" fadein 1.0
+    mock "Once, *deep sigh*"
+    #"said the Mock Turtle at last, with a deep sigh."
     "I was a real Turtle."
 
     "These words were followed by a very long silence, broken only by an occasional exclamation of:"
     gryphon "Hjckrrh!" 
     "and the constant heavy sobbing of the Mock Turtle." 
-    "Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story,” but she could not help thinking there must be more to come, so she sat still and said nothing."
+    "Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story”, but she could not help thinking there must be more to come, so she sat still and said nothing."
 
     mock "When we were little, we went to school in the sea."
     mock "The master was an old Turtle—we used to call him Tortoise—"
@@ -3559,6 +3638,7 @@ label chapter9:
 
     gryphon "You ought to be ashamed of yourself for asking such a simple question."
 
+    show alice pout
     "They both sat silent and looked at poor Alice, who felt ready to sink into the earth."
     "At last the Gryphon said to the Mock Turtle:"
     gryphon "Drive on, old fellow! Don’t be all day about it!"
@@ -3630,6 +3710,9 @@ label chapter9:
 
 label chapter10:
     scene black
+    camera:
+        perspective False
+        xpos 0 ypos 0 zpos 0 zoom 1.0 xoffset 0
     "{size=+40}Chapter X: \n{/size}The Lobster Quadrille"
 
 label chapter11:
