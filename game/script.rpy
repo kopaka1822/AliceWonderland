@@ -55,6 +55,8 @@ define king = Character("King", color="#ff0000")
 define gryphon = Character("Gryphon", color="#ff8c00")
 define mock = Character("Mock Turtle", color="#6cb30f")
 define cook = Character("Cook", color="#ffffff")
+define knave = Character("Knave", color="#ff0000")
+define sister = Character("Sister", color="00ff00")
 
 define alice_scale = 0.5
 define alice_scale_large = 0.7
@@ -3988,8 +3990,8 @@ label chapter11:
     "The Hatter looked at the March Hare, who had followed him into the court, arm-in-arm with the Dormouse."
     hatter "Fourteenth of March, I think it was."
 
-    hare "“Fifteenth."
-    doormouse "Sixteenth."
+    hare "Fifteenth."
+    dormouse "Sixteenth."
     king "Write that down."
     "The jury eagerly wrote down all three dates on their slates, and then added them up, and reduced the answer to shillings and pence."
     king "It isn’t mine."
@@ -4003,12 +4005,12 @@ label chapter11:
 
     "Just at this moment Alice felt a very curious sensation, which puzzled her a good deal until she made out what it was: she was beginning to grow larger again, and she thought at first she would get up and leave the court; but on second thoughts she decided to remain where she was as long as there was room for her."
 
-    doormouse "I wish you wouldn’t squeeze so. I can hardly breathe." # doormouse whi is sitting next to her
+    dormouse "I wish you wouldn’t squeeze so. I can hardly breathe." # dormouse whi is sitting next to her
 
     alice "I can’t help it, I’m growing." # meekly
-    doormouse "You’ve no right to grow here..."
+    dormouse "You’ve no right to grow here..."
     alice "Don’t talk nonsense, you know you’re growing too."
-    doormouse "“Yes, but I grow at a reasonable pace, not in that ridiculous fashion."
+    dormouse "Yes, but I grow at a reasonable pace, not in that ridiculous fashion."
     "He got up very sulkily and crossed over to the other side of the court."
 
     "All this time the Queen had never left off staring at the Hatter, and, just as the Dormouse crossed the court, she said to one of the officers of the court:"
@@ -4073,7 +4075,7 @@ label chapter11:
     "After folding his arms and frowning at the cook till his eyes were nearly out of sight, he said in a deep voice:"
     king "What are tarts made of?"
     cook "Pepper, mostly."
-    doormouse "Treacle." # sleepy voice
+    dormouse "Treacle." # sleepy voice
     queen "*shriek* Collar that Dormouse! Behead that Dormouse! Turn that Dormouse out of court! Suppress him! Pinch him! Off with his whiskers!"
 
     "For some minutes the whole court was in confusion, getting the Dormouse turned out, and, by the time they had settled down again, the cook had disappeared."
@@ -4091,4 +4093,187 @@ label chapter12:
     scene black
     "{size=+40}Chapter XII: \n{/size}Alice's Evidence"
 
+    alice "Here!"
+    "cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
+
+    alice "Oh, I beg your pardon!"
+    "She began picking them up again as quickly as she could, for the accident of the goldfish kept running in her head, and she had a vague sort of idea that they must be collected at once and put back into the jury-box, or they would die."
+
+    king "The trial cannot proceed, until all the jurymen are back in their proper places — all" # tone of great dismay
+    "He repeated the last word with great emphasis, looking hard at Alice as he said so."
     
+    "Alice looked at the jury-box, and saw that, in her haste, she had put the Lizard in head downwards, and the poor little thing was waving its tail about in a melancholy way, being quite unable to move."
+    "She soon got it out again, and put it right."
+    alice "(not that it signifies much)" 
+    alice "(I should think it would be quite as much use in the trial one way up as the other)"
+
+    "As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court."
+
+    king "What do you know about this business?"
+    alice "Nothing"
+    king "Nothing whatever?" # persisted the King.
+    alice "Nothing whatever"
+    king "That’s very important"
+    "The king turned to the jury."
+    "They were just beginning to write this down on their slates, when the White Rabbit interrupted:"
+    rabbit  "Unimportant, your Majesty means, of course."
+    "He said in a very respectful tone, but frowning and making faces at him as he spoke."
+    king "Unimportant, of course, I meant"
+    "The King  went on to himself in an undertone:"
+    king "(important—unimportant—unimportant—important—)"
+    "as if he were trying which word sounded best."
+
+    "Some of the jury wrote it down “important,” and some “unimportant.”"
+    "Alice could see this, as she was near enough to look over their slates."
+    alice "But it doesn’t matter a bit..."
+
+    "At this moment the King, who had been for some time busily writing in his note-book, cackled out:"
+    king "Silence!"
+    "and he read out from his book:"
+    king "Rule Forty-two. All persons more than a mile high have to leave the court."
+    "Everybody looked at Alice."
+    alice "I’m not a mile high"
+
+    king "You are."
+    queen "Nearly two miles high"
+    alice "Well, I shan’t go, at any rate, besides, that’s not a regular rule: you invented it just now."
+    king "It’s the oldest rule in the book."
+    alice "Then it ought to be Number One."
+
+    "The King turned pale, and shut his note-book hastily."
+    king "Consider your verdict"
+    "he said to the jury, in a low, trembling voice."
+
+    rabbit "There’s more evidence to come yet, please your Majesty"
+    "The White Rabbit was jumping up in a great hurry."
+    rabbit "This paper has just been picked up."
+
+    queen "What’s in it?"
+    rabbit "I haven’t opened it yet, but it seems to be a letter, written by the prisoner to—to somebody."
+    king "It must have been that, unless it was written to nobody, which isn’t usual, you know."
+    bill "Who is it directed to?" # said one of the jurymen.
+    rabbit "It isn’t directed at all, in fact, there’s nothing written on the outside."
+    "He unfolded the paper as he spoke."
+    rabbit "It isn’t a letter, after all: it’s a set of verses."
+    bill "Are they in the prisoner’s handwriting?" # asked another of the jurymen.
+    rabbit "No, they’re not, and that’s the queerest thing about it."
+    "(The jury all looked puzzled.)"
+    king "He must have imitated somebody else’s hand."
+    "(The jury all brightened up again)"
+    knave "Please your Majesty, I didn’t write it, and they can’t prove I did: there’s no name signed at the end."
+    king "If you didn’t sign it, that only makes the matter worse. You must have meant some mischief, or else you’d have signed your name like an honest man."
+    "There was a general clapping of hands at this: it was the first really clever thing the King had said that day."
+    queen "That proves his guilt."
+    alice "It proves nothing of the sort!"
+    alice "Why, you don’t even know what they’re about!"
+    king "Read them."
+    "The White Rabbit put on his spectacles."
+    rabbit "Where shall I begin, please your Majesty?"
+    king "Begin at the beginning, and go on till you come to the end: then stop."
+    #"These were the verses the White Rabbit read:—"
+    
+    rabbit "They told me you had been to her,\n
+    {space=30}And mentioned me to him:\n
+    She gave me a good character,\n
+    {space=30}But said I could not swim."
+
+    rabbit "He sent them word I had not gone\n
+    {space=30}(We know it to be true):\n
+    If she should push the matter on,\n
+    {space=30}What would become of you?"
+
+    rabbit "I gave her one, they gave him two,\n
+    {space=30}You gave us three or more;\n
+    They all returned from him to you,\n
+    {space=30}Though they were mine before."
+
+    rabbit "If I or she should chance to be\n
+    {space=30}Involved in this affair,\n
+    He trusts to you to set them free,\n
+    {space=30}Exactly as we were."
+
+    rabbit "My notion was that you had been\n
+    {space=30}(Before she had this fit)\n
+    An obstacle that came between\n
+    {space=30}Him, and ourselves, and it."
+
+    rabbit "Don’t let him know she liked them best,\n
+    {space=30}For this must ever be\n
+    A secret, kept from all the rest,\n
+    {space=30}Between yourself and me."
+
+    king "That’s the most important piece of evidence we’ve heard yet" #,” said the King, rubbing his hands; 
+    king "so now let the jury—"
+    alice "If any one of them can explain it I’ll give him sixpence. I don’t believe there’s an atom of meaning in it."
+    "(she had grown so large in the last few minutes that she wasn’t a bit afraid of interrupting him)"
+
+    "The jury all wrote down on their slates: “She doesn’t believe there’s an atom of meaning in it”, but none of them attempted to explain the paper."
+    king "If there’s no meaning in it, that saves a world of trouble, you know, as we needn’t try to find any."
+    king "And yet I don’t know..."
+    "he went on, spreading out the verses on his knee, and looking at them with one eye."
+    king "I seem to see some meaning in them, after all. “—_said I could not swim_—” you can’t swim, can you?"
+    "He turned to the Knave."
+
+    "The Knave shook his head sadly."
+    knave "Do I look like it?"
+    "(He certainly did not, being made entirely of cardboard)"
+    king "All right, so far"
+    "The King went on muttering over the verses to himself:"
+    king "(‘_We know it to be true_—’ that’s the jury, of course—‘_I gave her one, they gave him two_—’ why, that must be what he did with the tarts, you know—”)"
+    alice "But, it goes on ‘_they all returned from him to you_,’"
+    king "Why, there they are!"
+    "The King triumphantly pointed to the tarts on the table."
+    king "Nothing can be clearer than that. Then again—‘before she had this fit—’ you never had fits, my dear, I think?"
+    queen "Never!"
+    "said the Queen furiously, throwing an inkstand at the Lizard as she spoke."
+    "(The unfortunate little Bill had left off writing on his slate with one finger, as he found it made no mark; but he now hastily began again, using the ink, that was trickling down his face, as long as it lasted.)"
+
+    king "Then the words don’t fit you."
+    "The King was looking round the court with a smile."
+    "..."
+    "There was a dead silence."
+
+    king "*offended* It’s a pun!" 
+    "Everybody laughed."
+    king "Let the jury consider their verdict"
+    queen "No, no! Sentence first—verdict afterwards."
+    
+    alice "Stuff and nonsense!"
+    alice "The idea of having the sentence first!"
+
+    queen "Hold your tongue!"
+    "The queen turned purple"
+
+    alice "I won’t!"
+    queen "Off with her head!"
+    "The Queen shouted at the top of her voice."
+    "Nobody moved."
+
+    alice "Who cares for you?"
+    "(Alice had grown to her full size by this time)"
+    alice "You’re nothing but a pack of cards!"
+
+    "At this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face."
+
+    sister "Wake up, Alice dear!"
+    sister "Why, what a long sleep you’ve had!"
+
+    alice "Oh, I’ve had such a curious dream!" 
+    "She told her sister, as well as she could remember them, all these strange Adventures of hers that you have just been reading about; and when she had finished, her sister kissed her."
+    sister "It was a curious dream, dear, certainly: but now run in to your tea; it’s getting late."
+    "So Alice got up and ran off, thinking while she ran, as well she might, what a wonderful dream it had been."
+
+    "But her sister sat still just as she left her, leaning her head on her hand, watching the setting sun, and thinking of little Alice and all her wonderful Adventures, till she too began dreaming after a fashion, and this was her dream:—"
+
+    "First, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers—she could hear the very tones of her voice, and see that queer little toss of her head to keep back the wandering hair that would always get into her eyes—and still as she listened, or seemed to listen, the whole place around her became alive with the strange creatures of her little sister’s dream."
+
+    "The long grass rustled at her feet as the White Rabbit hurried by—the frightened Mouse splashed his way through the neighbouring pool—she could hear the rattle of the teacups as the March Hare and his friends shared their never-ending meal, and the shrill voice of the Queen ordering off her unfortunate guests to execution—once more the pig-baby was sneezing on the Duchess’s knee, while plates and dishes crashed around it—once more the shriek of the Gryphon, the squeaking of the Lizard’s slate-pencil, and the choking of the suppressed guinea-pigs, filled the air, mixed up with the distant sobs of the miserable Mock Turtle."
+
+    "So she sat on, with closed eyes, and half believed herself in Wonderland, though she knew she had but to open them again, and all would change to dull reality—the grass would be only rustling in the wind, and the pool rippling to the waving of the reeds—the rattling teacups would change to tinkling sheep-bells, and the Queen’s shrill cries to the voice of the shepherd boy—and the sneeze of the baby, the shriek of the Gryphon, and all the other queer noises, would change (she knew) to the confused clamour of the busy farm-yard—while the lowing of the cattle in the distance would take the place of the Mock Turtle’s heavy sobs."
+
+    "Lastly, she pictured to herself how this same little sister of hers would, in the after-time, be herself a grown woman; and how she would keep, through all her riper years, the simple and loving heart of her childhood:"
+    "and how she would gather about her other little children, and make their eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer days."
+
+    "The End"
+    
+#label ch_credits: # TODO
