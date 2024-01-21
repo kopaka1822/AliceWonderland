@@ -101,6 +101,12 @@ transform swimming:
 transform anchor:
     anchor (0.5, 1.0)
 
+label reset_camera:
+    camera:
+        perspective False
+        xpos 0 ypos 0 zpos 0 zoom 1.0 xoffset 0
+    return
+
 label start:
     #jump chapter1_after_fall
 label chapter1:
@@ -3833,88 +3839,222 @@ label chapter10:
 
     play music "audio/rinne sad.mp3" if_changed
 
+    # scene setup
+    scene cliff
+    show alice normal at breathing:
+        pos (alice_turtle, 0.9) zoom alice_scale
+    show gryphon behind alice at breathing:
+        pos (gyphon_pos, 1.2) zoom 2.0
+    show turtle at breathing:
+        pos (turtle_pos, 0.89)
+
+    camera:
+        perspective True
+        xpos -120 ypos 0 zoom 1.0 xoffset -center_offset
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     "The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes."
     "He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice."
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Same as if he had a bone in his throat."
     "The gryphon started shaking him and punching him in the back."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     "At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:"
     mock "You may not have lived much under the sea—"
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "I haven’t."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "and perhaps you were never even introduced to a lobster—"
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "I once tasted—" #  but checked herself hastily, and said
     alice "No, never"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "—so you can have no idea what a delightful thing a Lobster Quadrille is!"
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "No, indeed. What sort of a dance is it?"
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Why, you first form into a line along the sea-shore—"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Two lines!" # cried the mock turtle
     mock "Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—"
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "That generally takes some time."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "—you advance twice—"
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Each with a lobster as a partner!"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Of course, advance twice, set to partners—"
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "—change lobsters, and retire in same order."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Then, you know, you throw the—"
     
-    # TODO leap into air
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    # leap into air
+    show gryphon at breathing:
+        ease 0.5 yoffset -200
+        ease 0.5 yoffset 0
     gryphon "The lobsters!"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "—as far out to sea as you can—"
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Swim after them!"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+
+    # capering wildly about
+    show turtle at breathing:
+        pause 0.5
+        ease 0.2 xoffset -50
+        ease 0.4 xoffset 50
+        ease 0.2 xoffset 0
     mock "Turn a somersault in the sea!"
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Change lobsters again!"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Back to land again, and that’s all the first figure."
+
+    camera:
+        ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
     "The two creatures, who had been jumping about like mad things all this time, sat down again very sadly and quietly, and looked at Alice."
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "It must be a very pretty dance." # timidly
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Would you like to see a little of it?"
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "Very much indeed."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     "The mock turtle turned to the gryphon:" # added
     mock "Come, let’s try the first figure!"
     # "said the Mock Turtle to the Gryphon."
     mock "We can do without lobsters, you know. Which shall sing?"
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Oh, you sing. I’ve forgotten the words."
 
-    # dance?
+    camera:
+        ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
+
+    show turtle at breathing:
+        linear 2.0 xoffset 1000 yoffset 100
+        xzoom -1.0
+        linear 2.0 xoffset 200
+        xzoom 1.0
+        repeat
+    show gryphon at breathing:
+        linear 2.0 xoffset -430
+        xzoom -1.0 xoffset -1400
+        linear 2.0 xoffset -970
+        xzoom 1.0 xoffset 0
+        repeat
     "So they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—"
 
-    mock "“Will you walk a little faster?” said a whiting to a snail.\n
-“There’s a porpoise close behind us, and he’s treading on my tail."
-    mock "See how eagerly the lobsters and the turtles all advance!\n
+    mock " “Will you walk a little faster?” said a whiting to a snail.\n
+“There’s a porpoise close behind us, and he’s treading on my tail.”"
+    mock " See how eagerly the lobsters and the turtles all advance!\n
 They are waiting on the shingle—will you come and join the dance?"
-    mock "Will you, won’t you, will you, won’t you, will you join the dance?\n
+    mock " Will you, won’t you, will you, won’t you, will you join the dance?\n
 Will you, won’t you, will you, won’t you, won’t you join the dance?"
     
-    mock "“You can really have no notion how delightful it will be\n
+    mock " “You can really have no notion how delightful it will be\n
 When they take us up and throw us, with the lobsters, out to sea!”"
-    mock "But the snail replied “Too far, too far!” and gave a look askance—\n
+    mock " But the snail replied “Too far, too far!” and gave a look askance—\n
 Said he thanked the whiting kindly, but he would not join the dance."
-    mock "Would not, could not, would not, could not, would not join the dance.\n
+    mock " Would not, could not, would not, could not, would not join the dance.\n
 Would not, could not, would not, could not, could not join the dance."
 
-    mock "“What matters it how far we go?” his scaly friend replied.\n
+    mock " “What matters it how far we go?” his scaly friend replied.\n
 “There is another shore, you know, upon the other side."
-    mock "The further off from England the nearer is to France—\n
+    mock " The further off from England the nearer is to France—\n
 Then turn not pale, beloved snail, but come and join the dance."
-    mock "Will you, won’t you, will you, won’t you, will you join the dance?\n
+    mock " Will you, won’t you, will you, won’t you, will you join the dance?\n
 Will you, won’t you, will you, won’t you, won’t you join the dance?”"
 
+    show turtle at breathing:
+        xzoom 1.0
+        ease 1.0 xoffset 0 yoffset 0
+    show gryphon at breathing:
+        xzoom 1.0
+        ease 1.0 xoffset 0 yoffset 0
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "Thank you, it’s a very interesting dance to watch."
     "Alice was feeling very glad that it was over at last."
     alice "and I do so like that curious song about the whiting!"
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Oh, as to the whiting, they—you’ve seen them, of course?"
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "Yes, I’ve often seen them at dinn—"
     "She checked herself hastily."
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "I don’t know where Dinn may be, but if you’ve seen them so often, of course you know what they’re like."
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "I believe so."
     alice "They have their tails in their mouths—and they’re all over crumbs."
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "You’re wrong about the crumbs, crumbs would all wash off in the sea."
-    mock "But they _have_ their tails in their mouths; and the reason is— *yawn* —Tell her about the reason and all that."
+    mock "But they have their tails in their mouths; and the reason is— *yawn* —Tell her about the reason and all that."
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "The reason is, that they would go with the lobsters to the dance."
     gryphon "So they got thrown out to sea."
     gryphon "So they had to fall a long way."
@@ -3922,45 +4062,126 @@ Will you, won’t you, will you, won’t you, won’t you join the dance?”"
     gryphon "So they couldn’t get them out again."
     gryphon "That’s all."
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "Thank you, it’s very interesting. I never knew so much about a whiting before."
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "I can tell you more than that, if you like. Do you know why it’s called a whiting?"
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "I never thought about it. Why?"
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "It does the boots and shoes." # solemnly
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    
+    show alice thinking
     "Alice was thoroughly puzzled."
     alice "Does the boots and shoes!?" # wondering
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Why, what are your shoes done with? I mean, what makes them so shiny?"
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     "Alice looked down at them, and considered a little before she gave her answer."
     alice "They’re done with blacking, I believe."
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Boots and shoes under the sea, are done with a whiting. Now you know." # deep voice
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "And what are they made of?" # asked with great curiosity
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Soles and eels, of course, any shrimp could have told you that."
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "If I’d been the whiting, I’d have said to the porpoise, ‘Keep back, please: we don’t want you with us!’" # still in thoughts
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "They were obliged to have him with them, no wise fish would go anywhere without a porpoise."
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "Wouldn’t it really?" # surprised
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Of course not, why, if a fish came to me, and told me he was going a journey, I should say ‘With what porpoise?’"
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "Don’t you mean ‘purpose’?"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "*offended* I mean what I say."
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Come, let’s hear some of your adventures." 
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice pout
     alice "I could tell you my adventures—beginning from this morning, but it’s no use going back to yesterday, because I was a different person then."
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Explain all that."
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "No, no! The adventures first, explanations take such a dreadful time." # impatient
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice normal
     "So Alice began telling them her adventures from the time when she first saw the White Rabbit."
     # get close
+    show turtle at breathing:
+        ease 1.0 xoffset 555 yoffset 0
+    show gryphon at breathing:
+        ease 1.0 xoffset 180 yoffset 0
     "She was a little nervous about it just at first, the two creatures got so close to her, one on each side, and opened their eyes and mouths so very wide, but she gained courage as she went on."
     "Her listeners were perfectly quiet till she got to the part about her repeating “You are old, Father William” to the Caterpillar, and the words all coming different, and then the Mock Turtle drew a long breath, and said:"
+    show turtle at breathing:
+        ease 0.5 xoffset 0 yoffset 0
+    show gryphon at breathing:
+        ease 0.5 xoffset 0 yoffset 0
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "That’s very curious."
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "It’s all about as curious as it can be."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "It all came different!"
     mock "I should like to hear her try and repeat something now. Tell her to begin."
     "He looked at the Gryphon as if he thought it had some kind of authority over Alice."
+    
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Stand up and repeat ‘Tis the voice of the sluggard’"
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "(How the creatures order one about, and make one repeat lessons!)"
     alice "(I might as well be at school at once.)"
     "However, she got up, and began to repeat it, but her head was so full of the Lobster Quadrille, that she hardly knew what she was saying, and the words came very queer indeed:—"
@@ -3976,17 +4197,43 @@ Will you, won’t you, will you, won’t you, won’t you join the dance?”"
     #alice "But, when the tide rises and sharks are around,\n
     #His voice has a timid and tremulous sound."
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "That’s different from what I used to say when I was a child."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Well, I never heard it before, but it sounds uncommon nonsense."
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice crying
     "Alice said nothing; she had sat down with her face in her hands, wondering if anything would ever happen in a natural way again."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "I should like to have it explained."
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "She can’t explain it. Go on with the next verse."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "But about his toes?" # persistet
     mock "How could he turn them out with his nose, you know?"
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice pout
     alice "It’s the first position in dancing."
     "She was dreadfully puzzled by the whole thing, and longed to change the subject."
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Go on with the next verse, it begins ‘I passed by his garden’."
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     "Alice did not dare to disobey, though she felt sure it would all come wrong, and she went on in a trembling voice:—"
 
     alice "I passed by his garden, and marked, with one eye,\n
@@ -4000,15 +4247,35 @@ Will you, won’t you, will you, won’t you, won’t you join the dance?”"
     alice "While the Panther received knife and fork with a growl,\n
     And concluded the banquet—"
 
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "What is the use of repeating all that stuff, if you don’t explain it as you go on? It’s by far the most confusing thing I ever heard!"
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Yes, I think you’d better leave off."
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice normal
     "Alice was only too glad to do so"
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Shall we try another figure of the Lobster Quadrille?"
     gryphon "Or would you like the Mock Turtle to sing you a song?"
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice happy
     alice "Oh, a song, please, if the Mock Turtle would be so kind." # alice replied eagerly
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Hm! No accounting for tastes! Sing her ‘Turtle Soup’, will you, old fellow?"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     "The Mock Turtle sighed deeply, and began, in a voice sometimes choked with sobs, to sing this:—"
     mock "Beautiful Soup, so rich and green,\nWaiting in a hot tureen!"
     mock "Who for such dainties would not stoop?\nSoup of the evening, beautiful Soup!"
@@ -4028,19 +4295,43 @@ Will you, won’t you, will you, won’t you, won’t you join the dance?”"
     mock "Soo—oop of the e—e—evening,\n
     Beautiful, beauti—FUL SOUP!"
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Chorus again!" # cried
+
+    camera:
+        ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
     "the Mock Turtle had just begun to repeat it, when a cry of “The trial’s beginning!” was heard in the distance."
+
+    #camera:
+    #    ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    show gryphon at breathing:
+        xzoom -1.0 xpos -0.5
     gryphon "Come on!" # cried
+
+    # TODO run away
+    show alice pout:
+        pause 2.5
+        linear 7.5 xpos 1.54
+    show gryphon:
+        linear 10.0 xpos 1.21
+    camera:
+        zoom 1.0 ypos 0
+        linear 10.0 xpos 1530
     "The Gryphon took Alice by the hand, and hurried off, without waiting for the end of the song."
     alice "What trial is it?"
     "Alice panted as she ran."
     gryphon "Come on!"
     "He ran faster, while more and more faintly came, carried on the breeze that followed them, the melancholy words:—"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Soo—oop of the e—e—evening,\n
     {space=30}Beautiful, beautiful Soup!"
 
 label chapter11:
     scene black
+    call reset_camera
     "{size=+40}Chapter XI: \n{/size}Who Stole the Tarts?"
 
     "The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards:"
