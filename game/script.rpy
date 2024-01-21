@@ -3998,25 +3998,25 @@ label chapter10:
     "So they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—"
 
     mock " “Will you walk a little faster?” said a whiting to a snail.\n
-“There’s a porpoise close behind us, and he’s treading on my tail.”"
+    “There’s a porpoise close behind us, and he’s treading on my tail.”"
     mock " See how eagerly the lobsters and the turtles all advance!\n
-They are waiting on the shingle—will you come and join the dance?"
+    They are waiting on the shingle—will you come and join the dance?"
     mock " Will you, won’t you, will you, won’t you, will you join the dance?\n
-Will you, won’t you, will you, won’t you, won’t you join the dance?"
+    Will you, won’t you, will you, won’t you, won’t you join the dance?"
     
     mock " “You can really have no notion how delightful it will be\n
-When they take us up and throw us, with the lobsters, out to sea!”"
+    When they take us up and throw us, with the lobsters, out to sea!”"
     mock " But the snail replied “Too far, too far!” and gave a look askance—\n
-Said he thanked the whiting kindly, but he would not join the dance."
+    Said he thanked the whiting kindly, but he would not join the dance."
     mock " Would not, could not, would not, could not, would not join the dance.\n
-Would not, could not, would not, could not, could not join the dance."
+    Would not, could not, would not, could not, could not join the dance."
 
     mock " “What matters it how far we go?” his scaly friend replied.\n
-“There is another shore, you know, upon the other side."
+    “There is another shore, you know, upon the other side."
     mock " The further off from England the nearer is to France—\n
-Then turn not pale, beloved snail, but come and join the dance."
+    Then turn not pale, beloved snail, but come and join the dance."
     mock " Will you, won’t you, will you, won’t you, will you join the dance?\n
-Will you, won’t you, will you, won’t you, won’t you join the dance?”"
+    Will you, won’t you, will you, won’t you, won’t you join the dance?”"
 
     show turtle at breathing:
         xzoom 1.0
@@ -4303,13 +4303,10 @@ Will you, won’t you, will you, won’t you, won’t you join the dance?”"
         ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
     "the Mock Turtle had just begun to repeat it, when a cry of “The trial’s beginning!” was heard in the distance."
 
-    #camera:
-    #    ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     show gryphon at breathing:
         xzoom -1.0 xpos -0.5
     gryphon "Come on!" # cried
 
-    # TODO run away
     show alice pout:
         pause 2.5
         linear 7.5 xpos 1.54
@@ -4334,16 +4331,116 @@ label chapter11:
     call reset_camera
     "{size=+40}Chapter XI: \n{/size}Who Stole the Tarts?"
 
+    jump ch11_court
+
+label setup_court:
+    # geometry
+    show court_wall as wall1:
+        align (0.0, 1.0) zpos -1000 zoom 5.0
+
+    show court_floor as floor1:
+        align (0.5, 0.5) pos(1024, 1.0) xrotate 90.0 zoom 2.0
+    show court_floor as floor2:
+        align (0.5, 0.5) pos(3072, 1.0) xrotate 90.0 zoom 2.0
+    show court_floor as floor3:
+        align (0.5, 0.5) pos(5120, 1.0) xrotate 90.0 zoom 2.0
+
+    show court_wall as wallLeft:
+        align (1.0, 1.0) pos (2.72, 1.0) zpos 1915.0 zoom 5.0 yrotate 90
+    show court_wall as wallRight:
+        align (1.0, 1.0) pos (8.13, 1.0) zpos 1915.0 zoom 5.0 yrotate 90
+
+
+    show jurybox at anchor zorder 10:
+        ypos 1.0 xpos court_jury zpos -800 zoom 1.6
+
+    show tarts at anchor zorder 100:
+        ypos 1.0 xpos 2585 zpos -65 zoom 0.67
+
+    #show throne as throne1 at anchor:
+    #    ypos 1.0 xpos 4185 zpos -920
+
+    #show throne as throne2 at anchor:
+    #    ypos 1.0 xpos 3625 zpos -920
+    
+    # people
+    define court_king = 4185
+    define court_queen = 3625
+    define court_jury = 2285
+    define court_bill = 2470
+    define court_lory = 2025
+    define court_alice = 875
+    define court_rabbit = 4635
+
+    show king at breathing:
+        ypos 1.0 xpos court_king zpos -900
+        zoom king_scale
+
+    show queen normal at breathing:
+        ypos 1.0 xpos court_queen zpos -900
+        zoom queen_scale
+
+    show desc at anchor:
+        ypos 1.0 xpos 3905 zpos -850 zoom 1.4
+
+    show rabbit normal at breathing:
+        ypos 1.0 xpos court_rabbit zpos -800
+        zoom rabbit_scale
+
+    show soldier9 as soldier1 at anchor:
+        ypos 1.0 xpos 5095 zpos -520
+        zoom 1.0
+
+    show knave at anchor:
+        ypos 1.0 xpos 5195 zpos -400
+        zoom 1.0
+
+    show soldier9 as soldier2 at anchor:
+        ypos 1.0 xpos 5480 zpos -365
+        zoom 1.0
+
+    # jurors
+    show bill at breathing zorder 5:
+        ypos 1.0 xpos court_bill zpos -850 zoom 1.0
+
+    show lory at breathing zorder 5:
+        ypos 0.75 xpos court_lory zpos -850 zoom 0.4
+
+    # observers
+    show gryphon at breathing zorder 5:
+        ypos 1.22 xpos 500 zpos -800 zoom 2.0 xzoom -1.0
+
+    show alice normal at breathing zorder 10:
+        ypos 1.0 xpos 875 zpos -700 zoom alice_scale
+
+    return
+
+label ch11_court:
+    call setup_court
+
+    camera:
+        perspective True
+        xpos 3905 xoffset -center_offset
     "The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards:"
+    camera:
+        ease cam_transition xpos 4730
     "The Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other."
+    camera:
+        ease cam_transition xpos 2560 ypos 300
     "In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—"
     alice "(I wish they’d get the trial done and hand round the refreshments!)"
     "But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time."
 
     "Alice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000
+        
     alice "(That’s the judge, because of his great wig."
     "The judge, by the way, was the King; and as he wore his crown over the wig, he did not look at all comfortable, and it was certainly not becoming." # (look at the frontispiece if you want to see how he did it,)
 
+    camera:
+        ease cam_transition xpos court_jury ypos 0 zpos -500
     alice "(And that’s the jury-box and those twelve creatures—"
     "(she was obliged to say “creatures,” you see, because some of them were animals, and some were birds)"
     alice "(I suppose they are the jurors)"
@@ -4351,22 +4448,46 @@ label chapter11:
     "However, “jury-men” would have done just as well."
 
     "The twelve jurors were all writing very busily on slates."
+
+    camera:
+        ease cam_transition xpos court_alice ypos 0 zpos -500
     alice "*whispering* What are they doing? They can’t have anything to put down yet, before the trial’s begun." # Alice whispered to the Gryphon. “”
 
     gryphon "*whispering* They’re putting down their names, for fear they should forget them before the end of the trial."
 
     alice "Stupid things!" # Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, 
+    camera:
+        ease cam_transition xpos court_rabbit ypos 0 zpos -500
     rabbit "Silence in the court!"
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -500
     "The King put on his spectacles and looked anxiously round, to make out who was talking."
 
-    "Alice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid,” and that he had to ask his neighbour to tell him."
+    camera:
+        ease cam_transition xpos court_jury ypos 0 zpos -500
+    "Alice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid” and that he had to ask his neighbour to tell him."
     alice "(A nice muddle their slates’ll be in before the trial’s over!)"
     
+    show alice normal at breathing zorder 1:
+        ease 1.0 zpos -900 xpos 1525
     "One of the jurors had a pencil that squeaked."
+
+    show alice normal at breathing zorder 1:
+        ease 1.0 zpos -900 xpos court_bill
     "This of course, Alice could not stand, and she went round the court and got behind him, and very soon found an opportunity of taking it away."
+
+    show alice normal at breathing zorder 1:
+        ease 1.0 zpos -900 xpos court_alice
     "She did it so quickly that the poor little juror (it was Bill, the Lizard) could not make out at all what had become of it; so, after hunting all about for it, he was obliged to write with one finger for the rest of the day; and this was of very little use, as it left no mark on the slate."
 
+    # reset alice pos
+    show alice normal at breathing zorder 10:
+        ypos 1.0 xpos 875 zpos -700 zoom alice_scale
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000
     king "Herald, read the accusation!"
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000
     "On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—"
 
     rabbit "The Queen of Hearts, she made some tarts,\n
@@ -4374,14 +4495,24 @@ label chapter11:
     The Knave of Hearts, he stole those tarts,\n
     {space=30}And took them quite away!"
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000
     king "Consider your verdict."
     #"the King said to the jury."
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000
     rabbit "Not yet, not yet! There’s a great deal to come before that!"
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000
     king "Call the first witness."
+
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000
     "The White Rabbit blew three blasts on the trumpet."
     rabbit "First witnes!"
 
+    # TODO reset camera and show hatter
     "The first witness was the Hatter."
     "He came in with a teacup in one hand and a piece of bread-and-butter in the other."
     hatter "I beg pardon, your Majesty, for bringing these in: but I hadn’t quite finished my tea when I was sent for."
@@ -4491,7 +4622,14 @@ label chapter11:
 
 label chapter12:
     scene black
+    call reset_camera
     "{size=+40}Chapter XII: \n{/size}Alice's Evidence"
+
+    call setup_court
+
+    camera:
+        perspective True
+        xpos 3905 xoffset -center_offset
 
     alice "Here!"
     "cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
