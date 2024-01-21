@@ -3606,7 +3606,7 @@ label ch9_gryphon:
     "They had not gone far before they saw the Mock Turtle in the distance, sitting sad and lonely on a little ledge of rock, and, as they came nearer, Alice could hear him sighing as if his heart would break."
     "She pitied him deeply."
     alice "What is his sorrow?"
-    "she asked the Gryphon, and the Gryphon answered, very nearly in the same words as before"
+    #"she asked the Gryphon, and the Gryphon answered, very nearly in the same words as before"
     gryphon "It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!"
 
     show gryphon at breathing:
@@ -3627,91 +3627,200 @@ label ch9_gryphon:
     "But she waited patiently."
 
     play music "audio/rinne sad.mp3" fadein 1.0
-    mock "Once, *deep sigh*"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+    mock "Once, *deep sigh* I was a real Turtle."
     #"said the Mock Turtle at last, with a deep sigh."
-    "I was a real Turtle."
 
     "These words were followed by a very long silence, broken only by an occasional exclamation of:"
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Hjckrrh!" 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     "and the constant heavy sobbing of the Mock Turtle." 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     "Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story”, but she could not help thinking there must be more to come, so she sat still and said nothing."
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "When we were little, we went to school in the sea."
     mock "The master was an old Turtle—we used to call him Tortoise—"
     
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "Why did you call him Tortoise, if he wasn’t one?"
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "We called him Tortoise because he taught us, really you are very dull!" # angrily
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "You ought to be ashamed of yourself for asking such a simple question."
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice pout
     "They both sat silent and looked at poor Alice, who felt ready to sink into the earth."
     "At last the Gryphon said to the Mock Turtle:"
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Drive on, old fellow! Don’t be all day about it!"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Yes, we went to school in the sea, though you mayn’t believe it—"
+    
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "I never said I didn’t!"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "You did."
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Hold your tongue!"
+
+    camera:
+        ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
     "..."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "We had the best of educations—in fact, we went to school every day—"
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "I’ve been to a day-school, too, you needn’t be so proud as all that."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "With extras?"
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "Yes, we learned French and music."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "And washing?"
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "Certainly not!"
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Ah! then yours wasn’t a really good school."
     # said the Mock Turtle in a tone of great relief.
     mock "Now at ours they had at the end of the bill, ‘French, music, and washing—extra.’"
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "You couldn’t have wanted it much, living at the bottom of the sea."
+
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "I couldn’t afford to learn it. I only took the regular course."
+
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "What was that?"
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Reeling and Writhing, of course, to begin with, and then the different branches of Arithmetic—Ambition, Distraction, Uglification, and Derision."
-    alice "I never heard of ‘Uglification. What is it?"
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    alice "I never heard of ‘Uglification’. What is it?"
+
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     "The Gryphon lifted up both its paws in surprise."
     gryphon "What! Never heard of uglifying!"
     gryphon "You know what to beautify is, I suppose?"
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "Yes, it means to make anything prettier." # doubtfully
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Well, then, if you don’t know what to uglify is, you are a simpleton."
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     "Alice did not feel encouraged to ask any more questions about it, so she turned to the Mock Turtle:"
     alice "What else had you to learn?"
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Well, there was Mystery, ancient and modern, with Seaography: then Drawling—the Drawling-master was an old conger-eel, that used to come once a week: he taught us Drawling, Stretching, and Fainting in Coils."
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "What was that like?"
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Well, I can’t show it you myself."
     mock "I’m too stiff. And the Gryphon never learnt it."
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Hadn’t time, I went to the Classics master, though. He was an old crab, he was."
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "I never went to him, he taught Laughing and Grief, they used to say." # with a sigh
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "So he did, so he did."
+    camera:
+        ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
     "They both sighed and hid their faces in their paws."
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "And how many hours a day did you do lessons?"
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Ten hours the first day, nine the next, and so on."
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "What a curious plan!"
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "That’s the reason they’re called lessons, because they lessen from day to day."
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice thinking
     "This was quite a new idea to Alice, and she thought it over a little before she made her next remark."
     alice "Then the eleventh day must have been a holiday?"
 
+    camera:
+        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Of course it was."
 
+    camera:
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice happy
     alice "And how did you manage on the twelfth?" # eagerly
 
+    camera:
+        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "That’s enough about lessons, tell her something about the games now."
 
 
