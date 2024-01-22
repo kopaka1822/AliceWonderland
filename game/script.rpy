@@ -3981,6 +3981,8 @@ label chapter10:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     gryphon "Oh, you sing. I’ve forgotten the words."
 
+    play music "audio/rinne oak general store.mp3" fadein 1.0 fadeout 1.0
+
     camera:
         ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
 
@@ -4277,7 +4279,9 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+    stop music fadeout 1.0
     "The Mock Turtle sighed deeply, and began, in a voice sometimes choked with sobs, to sing this:—"
+    play music "audio/rinne sad.mp3" fadein 1.0 fadeout 1.0
     mock "Beautiful Soup, so rich and green,\nWaiting in a hot tureen!"
     mock "Who for such dainties would not stoop?\nSoup of the evening, beautiful Soup!"
     mock "Soup of the evening, beautiful Soup!\n
@@ -4423,7 +4427,7 @@ label setup_court:
 
 label ch11_court:
     call setup_court
-
+    play music "audio/rinne lilly.mp3" fadein 1.0 fadeout 1.0
     camera:
         perspective True
         xpos 3905 xoffset -center_offset
@@ -4838,7 +4842,7 @@ label chapter12:
     "{size=+40}Chapter XII: \n{/size}Alice's Evidence"
 
     call setup_court
-
+    play music "audio/rinne lilly.mp3" if_changed
     camera:
         perspective True
         xpos 3905 xoffset -center_offset
