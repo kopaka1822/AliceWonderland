@@ -36,7 +36,7 @@ define magpie = Character("Magpie", color="#ffffff")
 define canary = Character("Canary", color="#ffe600")
 define pat = Character("Pat", color="#00ff00")
 define anon = Character("???", color="#ffffff")
-define bill = Character("Bill", color="#0400ff")
+define bill = Character("Bill", color="#b5ff9e")
 define caterpillar = Character("Caterpillar", color="#5cffc9")
 define pigeon = Character("Pigeon", color="#adadad")
 define fishfoot = Character("Fish-Footmen", color="#9694ff")
@@ -1740,10 +1740,11 @@ label ch6_kitchen:
     define cat_kitchen_pos = 1735
     define cat_cam_z_zom = -300
     define alice_duchess_kitchen_pos = 270
+    define cook_scale = 0.6
     show alice normal at breathing:
         pos (alice_kitchen_pos, 0.9) zoom alice_scale
     show cook at breathing:
-        pos (cook_kitchen_pos, 0.9) zoom 0.6
+        pos (cook_kitchen_pos, 0.9) zoom cook_scale
     show cat:
         align (0.5, 1.0)
         xpos cat_kitchen_pos ypos 0.59 zoom 0.63
@@ -4371,6 +4372,11 @@ label setup_court:
     define court_lory = 2025
     define court_alice = 875
     define court_rabbit = 4635
+    define court_witness = 3905
+    define court_dormouse = 875
+    define court_dormouse2 = 5255
+    define court_hare = 600
+    define court_knave = 5195
 
     show king at breathing:
         ypos 1.0 xpos court_king zpos -900
@@ -4392,7 +4398,7 @@ label setup_court:
         zoom 1.0
 
     show knave at anchor:
-        ypos 1.0 xpos 5195 zpos -400
+        ypos 1.0 xpos court_knave zpos -400
         zoom 1.0
 
     show soldier9 as soldier2 at anchor:
@@ -4411,7 +4417,7 @@ label setup_court:
         ypos 1.22 xpos 500 zpos -800 zoom 2.0 xzoom -1.0
 
     show alice normal at breathing zorder 10:
-        ypos 1.0 xpos 875 zpos -700 zoom alice_scale
+        ypos 1.0 xpos court_alice zpos -700 zoom alice_scale
 
     return
 
@@ -4426,7 +4432,7 @@ label ch11_court:
         ease cam_transition xpos 4730
     "The Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other."
     camera:
-        ease cam_transition xpos 2560 ypos 300
+        ease cam_transition xpos 2560 ypos 300 # tarts
     "In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—"
     alice "(I wish they’d get the trial done and hand round the refreshments!)"
     "But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time."
@@ -4457,7 +4463,7 @@ label ch11_court:
 
     alice "Stupid things!" # Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, 
     camera:
-        ease cam_transition xpos court_rabbit ypos 0 zpos -500
+        ease cam_transition xpos court_rabbit ypos 500 zpos -500
     rabbit "Silence in the court!"
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -500
@@ -4487,7 +4493,9 @@ label ch11_court:
         ease cam_transition xpos court_king ypos 0 zpos -1000
     king "Herald, read the accusation!"
     camera:
-        ease cam_transition xpos court_rabbit ypos 500 zpos -1000
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
+    
+    play sound "sfx/fanfare.mp3"
     "On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—"
 
     rabbit "The Queen of Hearts, she made some tarts,\n
@@ -4509,115 +4517,319 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000
+    play sound "sfx/fanfare.mp3"
     "The White Rabbit blew three blasts on the trumpet."
     rabbit "First witnes!"
 
-    # TODO reset camera and show hatter
+    show hatter at breathing:
+        ypos 1.0 xpos court_witness zoom hatter_scale zpos -350
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos 0
+
     "The first witness was the Hatter."
     "He came in with a teacup in one hand and a piece of bread-and-butter in the other."
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "I beg pardon, your Majesty, for bringing these in: but I hadn’t quite finished my tea when I was sent for."
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "You ought to have finished. When did you begin?"
+
+    # dormouse and march hare
+    show dormouse tired at breathing zorder 15:
+        ypos 1.0 xpos court_dormouse zoom dormouse_scale zpos -600 xzoom -1.0
+    show hare at breathing zorder 20:
+        ypos 1.0 xpos court_hare zoom hare_scale zpos -500
+    
+    camera:
+        ease cam_transition xpos court_hare ypos 365 zpos -500 # hare
     "The Hatter looked at the March Hare, who had followed him into the court, arm-in-arm with the Dormouse."
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "Fourteenth of March, I think it was."
 
+    camera:
+        ease cam_transition xpos court_hare ypos 365 zpos -500 # hare
     hare "Fifteenth."
+    
+    camera:
+        ease cam_transition xpos court_dormouse ypos 700 zpos -880 # dormouse
     dormouse "Sixteenth."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Write that down."
+
+    camera:
+        ease cam_transition xpos court_jury ypos 0 zpos -500 # jury
     "The jury eagerly wrote down all three dates on their slates, and then added them up, and reduced the answer to shillings and pence."
-    king "It isn’t mine."
+    
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    king "Take off your hat."
+    
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    hatter "It isn’t mine."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Stolen!"
+
+    camera:
+        ease cam_transition xpos court_jury ypos 0 zpos -500 # jury
     "The king turned to the jury, who instantly made a memorandum of the fact."
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "I keep them to sell. I’ve none of my own. I’m a hatter."
+    camera:
+        ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     "Here the Queen put on her spectacles, and began staring at the Hatter, who turned pale and fidgeted."
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Give your evidence and don’t be nervous, or I’ll have you executed on the spot."
 
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     "This did not seem to encourage the witness at all: he kept shifting from one foot to the other, looking uneasily at the Queen, and in his confusion he bit a large piece out of his teacup instead of the bread-and-butter."
 
+    camera:
+        ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
+    show alice thinking at breathing:
+        easeout 30.0 zoom 0.7
     "Just at this moment Alice felt a very curious sensation, which puzzled her a good deal until she made out what it was: she was beginning to grow larger again, and she thought at first she would get up and leave the court; but on second thoughts she decided to remain where she was as long as there was room for her."
 
+    camera:
+        ease cam_transition xpos court_dormouse ypos 700 zpos -880 # dormouse
     dormouse "I wish you wouldn’t squeeze so. I can hardly breathe." # dormouse whi is sitting next to her
 
+    camera:
+        ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     alice "I can’t help it, I’m growing." # meekly
+
+    camera:
+        ease cam_transition xpos court_dormouse ypos 700 zpos -880 # dormouse
     dormouse "You’ve no right to grow here..."
+    
+    camera:
+        ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     alice "Don’t talk nonsense, you know you’re growing too."
+    
+    camera:
+        ease cam_transition xpos court_dormouse ypos 700 zpos -880 # dormouse
     dormouse "Yes, but I grow at a reasonable pace, not in that ridiculous fashion."
+    
+    show dormouse sleep at breathing:
+        ypos 1.0 xpos court_dormouse2 zpos -260 zoom dormouse_scale xzoom 1.0
+
     "He got up very sulkily and crossed over to the other side of the court."
 
+    camera:
+        ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     "All this time the Queen had never left off staring at the Hatter, and, just as the Dormouse crossed the court, she said to one of the officers of the court:"
     queen "Bring me the list of the singers in the last concert!"
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     "On which the wretched Hatter trembled so, that he shook both his shoes off."
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "*angry* Give your evidence, or I’ll have you executed, whether you’re nervous or not."
 
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "*trembling* I’m a poor man, your Majesty, —and I hadn’t begun my tea—not above a week or so—and what with the bread-and-butter getting so thin—and the twinkling of the tea—"
+    
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "The twinkling of the what?"
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "It began with the tea."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Of course twinkling begins with a T!"
     king "Do you take me for a dunce? Go on!"
+    
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "I’m a poor man, and most things twinkled after that—only the March Hare said—"
+
+    camera:
+        ease cam_transition xpos court_hare ypos 365 zpos -500 # hare
     hare "I didn’t!" # interrupted in great hurry
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "You did!"
+
+    camera:
+        ease cam_transition xpos court_hare ypos 365 zpos -500 # hare
     hare "I deny it!"
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "He denies it, —leave out that part."
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "Well, at any rate, the Dormouse said—"
-    # todo mouse asleep
+    
+    camera:
+        ease cam_transition xpos court_dormouse2 ypos 700 zpos -580 # dormouse2
     "The Hatter went on, looking anxiously round to see if he would deny it too: but the Dormouse denied nothing, being fast asleep."
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "After that, I cut some more bread-and-butter—"
-    bill "But what did the Dormouse say?" # one of the jurors
+
+    camera:
+        ease cam_transition xpos court_lory ypos 0 zpos -1000
+    lory "But what did the Dormouse say?" # one of the jurors
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "That I can’t remember."
+    
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "You must remember, or I’ll have you executed."
     "The miserable Hatter dropped his teacup and bread-and-butter, and went down on one knee."
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "I’m a poor man, your Majesty."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "You’re a very poor speaker."
 
     "Here one of the guinea-pigs cheered, and was immediately suppressed by the officers of the court."
     "(As that is rather a hard word, I will just explain to you how it was done. They had a large canvas bag, which tied up at the mouth with strings: into this they slipped the guinea-pig, head first, and then sat upon it.)"
 
+    camera:
+        ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
+    show alice happy
     alice "(I’m glad I’ve seen that done. I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now.)"
     
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "If that’s all you know about it, you may stand down."
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "I can’t go no lower, I’m on the floor, as it is."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Then you may sit down."
     "Here the other guinea-pig cheered, and was suppressed."
 
-    alice "Come, that finished the guinea-pigs! Now we shall get on better."
+    camera:
+        ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
+    alice "(Come, that finished the guinea-pigs! Now we shall get on better.)"
 
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     hatter "I’d rather finish my tea."
     "The hatter looked anxiously at the Queen, who was reading the list of singers."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "You may go."
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    show hatter:
+        linear 3.0 xpos 500
     "The Hatter hurriedly left the court, without even waiting to put his shoes on."
 
+    camera:
+        ease cam_transition xpos court_queen ypos 0 zpos -1000 # king
     queen "—and just take his head off outside!" # the Queen added to one of the officers:
+    hide hatter
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # neutral
     "But the Hatter was out of sight before the officers could get to the door."
     "..."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Call the next witness!"
 
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # neutral
+    show cook at breathing:
+        ypos 1.0 xpos court_witness zoom cook_scale zpos -350
     "The next witness was the Duchess’s cook."
     "She carried the pepper-box in her hand, and Alice guessed who it was, even before she got into the court, by the way the people near the door began sneezing all at once."
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Give your evidence."
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # cook
     cook "Shan’t."
 
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     "The King looked anxiously at the White Rabbit:"
     rabbit "*whispering* Your Majesty must cross-examine this witness."
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Well, if I must, I must."
     "After folding his arms and frowning at the cook till his eyes were nearly out of sight, he said in a deep voice:"
+    
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "What are tarts made of?"
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # cook
     cook "Pepper, mostly."
+
+    camera:
+        ease cam_transition xpos court_dormouse2 ypos 700 zpos -580 # dormouse2
     dormouse "Treacle." # sleepy voice
+    
+    camera:
+        ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     queen "*shriek* Collar that Dormouse! Behead that Dormouse! Turn that Dormouse out of court! Suppress him! Pinch him! Off with his whiskers!"
 
+    hide dormouse
+    hide cook
+
+    camera:
+        ease cam_transition xpos court_witness ypos 0 zpos -500 # neutral
     "For some minutes the whole court was in confusion, getting the Dormouse turned out, and, by the time they had settled down again, the cook had disappeared."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Never mind!" # said the King, with an air of great relief. 
     king "Call the next witness."
+    camera:
+        ease cam_transition xpos 3905 ypos 0 zpos -1000
     "And he added in an undertone to the Queen:"
     king "Really, my dear, you must cross-examine the next witness. It quite makes my forehead ache!"
 
+    show alice thinking
+    camera:
+        ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     "Alice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like."
     alice "(They haven’t got much evidence yet)"
     "Imagine her surprise, when the White Rabbit read out, at the top of his shrill little voice, the name:"
+
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     rabbit "Alice!"
 
 label chapter12:
@@ -4630,169 +4842,356 @@ label chapter12:
     camera:
         perspective True
         xpos 3905 xoffset -center_offset
-
+        ease cam_transition xpos 1475 ypos 0 zpos 0 # alice
+    
+    show alice normal at breathing:
+        zoom 1.0
     alice "Here!"
-    "cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
 
+    show alice normal at breathing:
+        pause 1.0
+        linear 2.0 xpos court_witness
+
+    show jurybox at anchor:
+        pause 1.5
+        ease 1.0 zrotate 180
+
+    show lory at anchor:
+        pause 1.5
+        ease 1.0 zrotate 90
+
+    show bill at anchor:
+        pause 1.5
+        ease 1.0 zrotate 90
+
+
+    #"cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
+    "Alice forgot in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
+
+    show alice normal at breathing:
+        ease 1.0 xpos 2030
+    camera:
+        ease cam_transition xpos court_jury # jury
     alice "Oh, I beg your pardon!"
+    show lory at breathing:
+        ease 1.0 zrotate 0
+
+    show bill at breathing:
+        pause 0.5
+        ease 1.0 zrotate 180
     "She began picking them up again as quickly as she could, for the accident of the goldfish kept running in her head, and she had a vague sort of idea that they must be collected at once and put back into the jury-box, or they would die."
 
-    king "The trial cannot proceed, until all the jurymen are back in their proper places — all" # tone of great dismay
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    king "The trial cannot proceed, until all the jurymen are back in their proper places." # tone of great dismay
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1200 # king zoom
+    king "All!"
     "He repeated the last word with great emphasis, looking hard at Alice as he said so."
     
+    camera:
+        ease cam_transition xpos court_bill zpos -1000 ypos 300 # jury bill
     "Alice looked at the jury-box, and saw that, in her haste, she had put the Lizard in head downwards, and the poor little thing was waving its tail about in a melancholy way, being quite unable to move."
+    show bill at breathing:
+        ease 1.0 zrotate 0
     "She soon got it out again, and put it right."
     alice "(not that it signifies much)" 
     alice "(I should think it would be quite as much use in the trial one way up as the other)"
 
+    show alice normal at breathing:
+        ease 1.0 xpos court_witness zpos -350
     "As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court."
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "What do you know about this business?"
+
+    camera:
+        ease cam_transition xpos court_witness ypos -315 zpos -500 # alice witness
     alice "Nothing"
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Nothing whatever?" # persisted the King.
+
+    camera:
+        ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
     alice "Nothing whatever"
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "That’s very important"
+
+    camera:
+        ease cam_transition xpos court_jury ypos 0 zpos -500 # queen
     "The king turned to the jury."
     "They were just beginning to write this down on their slates, when the White Rabbit interrupted:"
+
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     rabbit  "Unimportant, your Majesty means, of course."
     "He said in a very respectful tone, but frowning and making faces at him as he spoke."
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Unimportant, of course, I meant"
     "The King  went on to himself in an undertone:"
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1200 # king zoom
     king "(important—unimportant—unimportant—important—)"
     "as if he were trying which word sounded best."
 
     "Some of the jury wrote it down “important,” and some “unimportant.”"
+    
+    camera:
+        ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
     "Alice could see this, as she was near enough to look over their slates."
-    alice "But it doesn’t matter a bit..."
+    alice "(But it doesn’t matter a bit...)"
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     "At this moment the King, who had been for some time busily writing in his note-book, cackled out:"
     king "Silence!"
     "and he read out from his book:"
     king "Rule Forty-two. All persons more than a mile high have to leave the court."
+    camera:
+        ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
     "Everybody looked at Alice."
+
+    show alice pout
     alice "I’m not a mile high"
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "You are."
+    camera:
+        ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     queen "Nearly two miles high"
+
+    camera:
+        ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
+    show alice normal
     alice "Well, I shan’t go, at any rate, besides, that’s not a regular rule: you invented it just now."
+    
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "It’s the oldest rule in the book."
+
+    camera:
+        ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
     alice "Then it ought to be Number One."
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    show king scared
     "The King turned pale, and shut his note-book hastily."
     king "Consider your verdict"
     "he said to the jury, in a low, trembling voice."
 
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     rabbit "There’s more evidence to come yet, please your Majesty"
     "The White Rabbit was jumping up in a great hurry."
     rabbit "This paper has just been picked up."
 
+    camera:
+        ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     queen "What’s in it?"
+
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     rabbit "I haven’t opened it yet, but it seems to be a letter, written by the prisoner to—to somebody."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    show king
     king "It must have been that, unless it was written to nobody, which isn’t usual, you know."
+
+    camera:
+        ease cam_transition xpos court_bill zpos -1000 ypos 300 # jury bill
     bill "Who is it directed to?" # said one of the jurymen.
+
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     rabbit "It isn’t directed at all, in fact, there’s nothing written on the outside."
     "He unfolded the paper as he spoke."
     rabbit "It isn’t a letter, after all: it’s a set of verses."
-    bill "Are they in the prisoner’s handwriting?" # asked another of the jurymen.
+
+    camera:
+        ease cam_transition xpos court_lory zpos -1000 ypos 300 # jury lory
+    lory "Are they in the prisoner’s handwriting?" # asked another of the jurymen.
+
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     rabbit "No, they’re not, and that’s the queerest thing about it."
+
+    camera:
+        ease cam_transition xpos court_jury zpos -500 ypos 0 # jury
     "(The jury all looked puzzled.)"
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "He must have imitated somebody else’s hand."
     "(The jury all brightened up again)"
+
+    camera:
+        ease cam_transition xpos court_knave ypos 0 zpos -500 # knave
     knave "Please your Majesty, I didn’t write it, and they can’t prove I did: there’s no name signed at the end."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "If you didn’t sign it, that only makes the matter worse. You must have meant some mischief, or else you’d have signed your name like an honest man."
     "There was a general clapping of hands at this: it was the first really clever thing the King had said that day."
+    
+    camera:
+        ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     queen "That proves his guilt."
+
+    camera:
+        ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
     alice "It proves nothing of the sort!"
     alice "Why, you don’t even know what they’re about!"
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Read them."
+
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     "The White Rabbit put on his spectacles."
     rabbit "Where shall I begin, please your Majesty?"
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Begin at the beginning, and go on till you come to the end: then stop."
     #"These were the verses the White Rabbit read:—"
     
-    rabbit "They told me you had been to her,\n
-    {space=30}And mentioned me to him:\n
-    She gave me a good character,\n
-    {space=30}But said I could not swim."
+    camera:
+        ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
+    rabbit "They told me you had been to her,\n{space=30}And mentioned me to him:\nShe gave me a good character,\n{space=30}But said I could not swim."
 
-    rabbit "He sent them word I had not gone\n
-    {space=30}(We know it to be true):\n
-    If she should push the matter on,\n
-    {space=30}What would become of you?"
+    rabbit "He sent them word I had not gone\n{space=30}(We know it to be true):\nIf she should push the matter on,\n{space=30}What would become of you?"
 
-    rabbit "I gave her one, they gave him two,\n
-    {space=30}You gave us three or more;\n
-    They all returned from him to you,\n
-    {space=30}Though they were mine before."
+    rabbit "I gave her one, they gave him two,\n{space=30}You gave us three or more;\nThey all returned from him to you,\n{space=30}Though they were mine before."
 
-    rabbit "If I or she should chance to be\n
-    {space=30}Involved in this affair,\n
-    He trusts to you to set them free,\n
-    {space=30}Exactly as we were."
+    rabbit "If I or she should chance to be\n{space=30}Involved in this affair,\n
+    He trusts to you to set them free,\n{space=30}Exactly as we were."
 
-    rabbit "My notion was that you had been\n
-    {space=30}(Before she had this fit)\n
-    An obstacle that came between\n
-    {space=30}Him, and ourselves, and it."
+    rabbit "My notion was that you had been\n{space=30}(Before she had this fit)\nAn obstacle that came between\n{space=30}Him, and ourselves, and it."
 
-    rabbit "Don’t let him know she liked them best,\n
-    {space=30}For this must ever be\n
-    A secret, kept from all the rest,\n
-    {space=30}Between yourself and me."
+    rabbit "Don’t let him know she liked them best,\n{space=30}For this must ever be\nA secret, kept from all the rest,\n{space=30}Between yourself and me."
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "That’s the most important piece of evidence we’ve heard yet" #,” said the King, rubbing his hands; 
     king "so now let the jury—"
+
+    camera:
+        ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
+    show alice normal:
+        zoom 1.3
     alice "If any one of them can explain it I’ll give him sixpence. I don’t believe there’s an atom of meaning in it."
     "(she had grown so large in the last few minutes that she wasn’t a bit afraid of interrupting him)"
 
+    camera:
+        ease cam_transition xpos court_jury zpos -500 ypos 0 # jury
     "The jury all wrote down on their slates: “She doesn’t believe there’s an atom of meaning in it”, but none of them attempted to explain the paper."
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "If there’s no meaning in it, that saves a world of trouble, you know, as we needn’t try to find any."
     king "And yet I don’t know..."
     "he went on, spreading out the verses on his knee, and looking at them with one eye."
-    king "I seem to see some meaning in them, after all. “—_said I could not swim_—” you can’t swim, can you?"
+    king "I seem to see some meaning in them, after all. “—said I could not swim—” you can’t swim, can you?"
+
+    camera:
+        ease cam_transition xpos court_knave ypos 0 zpos -500 # knave
     "He turned to the Knave."
 
     "The Knave shook his head sadly."
     knave "Do I look like it?"
     "(He certainly did not, being made entirely of cardboard)"
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "All right, so far"
     "The King went on muttering over the verses to himself:"
-    king "(‘_We know it to be true_—’ that’s the jury, of course—‘_I gave her one, they gave him two_—’ why, that must be what he did with the tarts, you know—”)"
-    alice "But, it goes on ‘_they all returned from him to you_,’"
+    king "‘We know it to be true—’ that’s the jury, of course—‘I gave her one, they gave him two—’ why, that must be what he did with the tarts, you know—” "
+
+    camera:
+        ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
+    alice "But, it goes on ‘they all returned from him to you’"
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Why, there they are!"
+
+    camera:
+        ease cam_transition xpos 2560 ypos 300 zpos 0 # tarts
     "The King triumphantly pointed to the tarts on the table."
+
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Nothing can be clearer than that. Then again—‘before she had this fit—’ you never had fits, my dear, I think?"
+    camera:
+        ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     queen "Never!"
+
+    camera:
+        ease cam_transition xpos court_bill zpos -1000 ypos 300 # jury bill
     "said the Queen furiously, throwing an inkstand at the Lizard as she spoke."
     "(The unfortunate little Bill had left off writing on his slate with one finger, as he found it made no mark; but he now hastily began again, using the ink, that was trickling down his face, as long as it lasted.)"
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Then the words don’t fit you."
     "The King was looking round the court with a smile."
     "..."
     "There was a dead silence."
 
+    camera:
+        ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "*offended* It’s a pun!" 
     "Everybody laughed."
     king "Let the jury consider their verdict"
+    camera:
+        ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     queen "No, no! Sentence first—verdict afterwards."
     
+    camera:
+        ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
     alice "Stuff and nonsense!"
     alice "The idea of having the sentence first!"
 
+    camera:
+        ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     queen "Hold your tongue!"
     "The queen turned purple"
 
+    camera:
+        ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
     alice "I won’t!"
+
+    camera:
+        ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     queen "Off with her head!"
     "The Queen shouted at the top of her voice."
     "Nobody moved."
 
+    camera:
+        ease cam_transition xpos court_witness ypos -900 zpos -500 # alice 
+    show alice normal at breathing:
+        zoom 1.5
     alice "Who cares for you?"
     "(Alice had grown to her full size by this time)"
     alice "You’re nothing but a pack of cards!"
 
+    camera:
+        ease 0.5 zrotate -0.1
+        ease 0.5 zrotate 0.1
+        repeat
     "At this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face."
 
+    call reset_camera
+    scene black
     sister "Wake up, Alice dear!"
     sister "Why, what a long sleep you’ve had!"
 
