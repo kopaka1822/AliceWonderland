@@ -112,41 +112,55 @@ label start:
 label chapter1:
 
     scene black
-    # start of new chapter
+    call reset_camera
     "{size=+40}Chapter I: \n{/size}Down the Rabbit-Hole"
 
-    scene riverbank at left
+    scene riverbank
     play music "audio/rinne wanderer.mp3"
+
+    define alice_riverbank = -0.22
+    define rabbit_riverbank = 0.5
     show alice sleepy at breathing_calm:
-        xpos 0.7 ypos 0.7 zoom alice_scale
+        xpos -0.22 ypos 0.9 zoom alice_scale
+
+    camera:
+        perspective True
+        xpos alice_riverbank xoffset -center_offset
+
     "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it."
 
 
     # voice "voice/alice001.mp3"
-    alice "And what is the use of a book without pictures or conversations?" 
+    alice "(And what is the use of a book without pictures or conversations?)" 
 
     "So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her."
 
     "There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself:"
 
-    scene riverbank at center
-    #show alice normal at left as grayscale
-    hide alice
     show rabbit normal at breathing:
-        xpos 0.5 ypos 0.7 zoom rabbit_scale
+        xpos rabbit_riverbank ypos 0.9 zoom rabbit_scale
+    camera:
+        ease cam_transition xpos rabbit_riverbank zoom 2.0 ypos 1900
 
     rabbit "Oh dear! Oh dear! I shall be too late!"
 
     "(when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural)"
-    "But when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge."
-
-    scene riverbank at left
+    "But when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it."
+    
+    show rabbit normal at breathing:
+        ease 1.0 xpos 1.0 ypos 2.0
     show alice happy at breathing:
-        xpos 0.7 ypos 0.7 zoom alice_scale
+        ease 1.0 xpos rabbit_riverbank
+    camera:
+        ease cam_transition xpos rabbit_riverbank zoom 1.0 ypos 0
+    "Burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge."
+
+    show alice happy at breathing:
+        ease 1.0 xpos 1.0 ypos 2.0
     "In another moment down went Alice after it, never once considering how in the world she was to get out again."
 
     scene black
-
+    stop music fadeout 1.0
     "The rabbit-hole went straight on like a tunnel for some way."
     
     scene well at center 
@@ -160,7 +174,7 @@ label chapter1:
         linear 1.0 xoffset 20 yoffset -20 rotate -5
         repeat
 
-    "and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well."
+    "And then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well."
 
     "Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next."
 
@@ -173,13 +187,13 @@ label chapter1:
     hide orange marmalade
 
     # voice "voice/alice002.mp3"
-    alice "Well! After such a fall as this, I shall think nothing of tumbling down stairs! "  
+    alice "(Well! After such a fall as this, I shall think nothing of tumbling down stairs!)"  
     
     # voice "voice/alice003.mp3"
-    alice "How brave they'll all think me at home!" 
+    alice "(How brave they'll all think me at home!)" 
     
     # voice "voice/alice004.mp3"
-    alice "Why, I wouldn’t say anything about it, even if I fell off the top of the house!"  
+    alice "(Why, I wouldn’t say anything about it, even if I fell off the top of the house!)"  
     "(Which was very likely true.)"
 
 
