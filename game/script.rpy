@@ -104,7 +104,7 @@ transform anchor:
 label reset_camera:
     camera:
         perspective False
-        xpos 0 ypos 0 zpos 0 zoom 1.0 xoffset 0
+        xpos 0 ypos 0 zpos 0 zoom 1.0 xoffset 0 zrotate 0
     return
 
 label start:
@@ -5194,9 +5194,18 @@ label chapter12:
         repeat
     "At this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face."
 
-    call reset_camera
     scene black
+    call reset_camera
+    stop music fadeout 1.0
+
     sister "Wake up, Alice dear!"
+
+    scene sister_cg with dissolve
+    play music "audio/rinne wanderer.mp3"
+    camera:
+        ease 3.0 zrotate -0.1
+        ease 3.0 zrotate 0.1
+        repeat
     sister "Why, what a long sleep you’ve had!"
 
     alice "Oh, I’ve had such a curious dream!" 
@@ -5206,15 +5215,27 @@ label chapter12:
 
     "But her sister sat still just as she left her, leaning her head on her hand, watching the setting sun, and thinking of little Alice and all her wonderful Adventures, till she too began dreaming after a fashion, and this was her dream:—"
 
-    "First, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers—she could hear the very tones of her voice, and see that queer little toss of her head to keep back the wandering hair that would always get into her eyes—and still as she listened, or seemed to listen, the whole place around her became alive with the strange creatures of her little sister’s dream."
+    "First, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers"
+    "She could hear the very tones of her voice, and see that queer little toss of her head to keep back the wandering hair that would always get into her eyes"
+    "And still as she listened, or seemed to listen, the whole place around her became alive with the strange creatures of her little sister’s dream."
 
-    "The long grass rustled at her feet as the White Rabbit hurried by—the frightened Mouse splashed his way through the neighbouring pool—she could hear the rattle of the teacups as the March Hare and his friends shared their never-ending meal, and the shrill voice of the Queen ordering off her unfortunate guests to execution—once more the pig-baby was sneezing on the Duchess’s knee, while plates and dishes crashed around it—once more the shriek of the Gryphon, the squeaking of the Lizard’s slate-pencil, and the choking of the suppressed guinea-pigs, filled the air, mixed up with the distant sobs of the miserable Mock Turtle."
+    "The long grass rustled at her feet as the White Rabbit hurried by"
+    "The frightened Mouse splashed his way through the neighbouring pool"
+    "She could hear the rattle of the teacups as the March Hare and his friends shared their never-ending meal, and the shrill voice of the Queen ordering off her unfortunate guests to execution"
+    "Once more the pig-baby was sneezing on the Duchess’s knee, while plates and dishes crashed around it"
+    "Once more the shriek of the Gryphon, the squeaking of the Lizard’s slate-pencil, and the choking of the suppressed guinea-pigs, filled the air, mixed up with the distant sobs of the miserable Mock Turtle."
 
-    "So she sat on, with closed eyes, and half believed herself in Wonderland, though she knew she had but to open them again, and all would change to dull reality—the grass would be only rustling in the wind, and the pool rippling to the waving of the reeds—the rattling teacups would change to tinkling sheep-bells, and the Queen’s shrill cries to the voice of the shepherd boy—and the sneeze of the baby, the shriek of the Gryphon, and all the other queer noises, would change (she knew) to the confused clamour of the busy farm-yard—while the lowing of the cattle in the distance would take the place of the Mock Turtle’s heavy sobs."
+    "So she sat on, with closed eyes, and half believed herself in Wonderland, though she knew she had but to open them again, and all would change to dull reality"
+    "The grass would be only rustling in the wind, and the pool rippling to the waving of the reeds"
+    "The rattling teacups would change to tinkling sheep-bells, and the Queen’s shrill cries to the voice of the shepherd boy"
+    "And the sneeze of the baby, the shriek of the Gryphon, and all the other queer noises, would change (she knew) to the confused clamour of the busy farm-yard"
+    "While the lowing of the cattle in the distance would take the place of the Mock Turtle’s heavy sobs."
 
     "Lastly, she pictured to herself how this same little sister of hers would, in the after-time, be herself a grown woman; and how she would keep, through all her riper years, the simple and loving heart of her childhood:"
     "and how she would gather about her other little children, and make their eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer days."
 
-    "The End"
+    scene black
+    call reset_camera
+    "The End."
     
 #label ch_credits: # TODO
