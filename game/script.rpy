@@ -251,32 +251,49 @@ label chapter1:
 
     play sound "sfx/thump2.mp3"
     "when suddenly, thump! thump! down she came upon a heap of sticks and dry leaves, and the fall was over."
+    
+    "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead."
 
+    scene passage
+    show passage_front zorder 10
+    call reset_camera
+    camera:
+        perspective True
+
+    show rabbit normal at breathing zorder 5:
+        xpos 0.54 ypos 0.58 zoom 0.25
+
+    show alice happy at breathing zorder 20:
+        xpos 0.82 ypos 0.9 zoom alice_scale
+
+    "Before her was another long passage, and the White Rabbit was still in sight, hurrying down it."
+
+    show rabbit normal at breathing zorder 5:
+        ease 1.0 xpos 0.38 ypos 0.54 zoom 0.2
+    "There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner"
 
     
-    "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead;"
+    camera:
+        perspective True
+        ease cam_transition xpos 0.38 ypos 955 zoom 2.09
+    rabbit "Oh my ears and whiskers, how late it's getting!"
+    
+    show rabbit normal zorder 5:
+        ease 1.0 xpos 0.14
+    show alice happy at breathing zorder 20:
+        ease 1.0 xpos 0.52 ypos 0.58 zoom 0.2
+    "She was close behind it when she turned the corner, but the Rabbit was no longer to be seen."
 
+    play music "audio/rinne memories of clockwise tower.mp3" fadein 1.0
     scene hall:
         xalign 0.0
         linear 15.0 xalign 0.5
-    play music "audio/rinne memories of clockwise tower.mp3" fadein 1.0
+    call reset_camera
+    
+    "She found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof."
 
-    "before her was another long passage, and the White Rabbit was still in sight, hurrying down it."
-
-    "There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner"
-
-    hide alice
-    show rabbit normal at breathing:
-        xpos 0.5 ypos 0.7 zoom rabbit_scale
-    rabbit "Oh my ears and whiskers, how late it's getting!"
-    hide rabbit
-
-    show alice happy at breathing:
-        xpos 0.5 ypos 0.7 zoom alice_scale
-
-    "She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof."
-
-    show alice pout
+    show alice pout at breathing:
+        pos (0.5, 0.9) zoom alice_scale
     "There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again."
 
     hide alice
