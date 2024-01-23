@@ -144,7 +144,7 @@ label chapter1:
 
     rabbit "Oh dear! Oh dear! I shall be too late!"
 
-    "(when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural)"
+    "(When she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural)"
     "But when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it."
     
     show rabbit normal at breathing:
@@ -238,7 +238,7 @@ label chapter1:
     alice "There are no mice in the air, I’m afraid, but you might catch a bat, and that’s very like a mouse, you know." 
     alice "But do cats eat bats, I wonder?"
 
-    "And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way"
+    "And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way:"
     alice "Do cats eat bats? Do cats eat bats?"
     "and sometimes"
     alice "Do bats eat cats?" 
@@ -294,8 +294,8 @@ label chapter1:
 
     show alice pout at breathing:
         xpos 0.5 ypos 0.7 zoom alice_scale
-    alice "and even if my head would go through, it would be of very little use without my shoulders."
-    alice "Oh, how I wish I could shut up like a telescope! I think I could, if I only knew how to begin."
+    alice "(And even if my head would go through, it would be of very little use without my shoulders)"
+    alice "(Oh, how I wish I could shut up like a telescope! I think I could, if I only knew how to begin)"
 
     "For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible."
 
@@ -331,11 +331,11 @@ label chapter1:
     show alice crying at breathing_crying
     "she could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
 
-    alice "Come, there’s no use in crying like that!"
+    alice "(Come, there’s no use in crying like that!)"
     show alice pout at breathing
-    alice "I advise you to leave off this minute!"
+    alice "(I advise you to leave off this minute!)"
     "She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people."
-    alice "But it’s no use now, to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!"
+    alice "(But it’s no use now, to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!)"
 
     #hide alice
     show box_cake at Position(ypos = 0.65)
@@ -345,9 +345,9 @@ label chapter1:
     show alice normal
     alice "Well, I’ll eat it, and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I’ll get into the garden, and I don’t care which happens!"
 
-    "She ate a little bit, and said anxiously to herself: "
+    "She ate a little bit." #, and said anxiously to herself: "
     show alice excited
-    alice "Which way? Which way?"
+    alice "(Which way? Which way?)" # anxiously
     "She was holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way."
     "So she set to work, and very soon finished off the cake."
 
@@ -368,13 +368,13 @@ label chapter2:
     alice "Now I’m opening out like the largest telescope that ever was!"
     alice "Good-bye, feet!"
     "(For when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off)"
-    alice "Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure I shan’t be able! "
-    alice "I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; —but I must be kind to them, or perhaps they won’t walk the way I want to go!" 
-    alice "Let me see: I’ll give them a new pair of boots every Christmas."
+    alice "(Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure I shan’t be able!)"
+    alice "(I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; —but I must be kind to them, or perhaps they won’t walk the way I want to go!)" 
+    alice "(Let me see: I’ll give them a new pair of boots every Christmas.)"
     "And she went on planning to herself how she would manage it."
-    alice "They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!"
-    "Alice’s Right Foot, Esq. \nHearthrug, \nNear the Fender, \n(with Alice’s love)."
-    alice "Oh dear, what nonsense I’m talking!"
+    alice "(They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!"
+    "Alice’s Right Foot, Esq. \nHearthrug, \nNear the Fender, \n(with Alice’s love)\n)"
+    alice "(Oh dear, what nonsense I’m talking!)"
     play sound "sfx/bump.mp3"
     "Just then, her head struck against the roof of the hall: in fact she was now rather more than nine feet high, and she at once took up the little golden key and hurried off to the garden door."
     "Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again."
@@ -473,7 +473,7 @@ label chapter2:
     show alice thinking
     "Her first idea was that she had somehow fallen into the sea, "
 
-    alice "and in that case I can go back by railway"
+    alice "(And in that case I can go back by railway)"
     "(Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station)"
     "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high."
 
@@ -489,7 +489,7 @@ label chapter2:
         xpos 0.3
     show mouse zorder 1 at swimming:
         xpos 0.7 ypos 0.8 zoom mouse_scale
-    "at first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself."
+    "At first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself."
 
     alice "Would it be of any use, now, to speak to this mouse?"
     alice "Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying."
@@ -954,9 +954,9 @@ label ch3_start:
     "On various pretexts they all moved off, and Alice was soon left alone."
 
     show alice pout
-    alice "I wish I hadn’t mentioned Dinah!"
-    alice "Nobody seems to like her, down here, and I’m sure she’s the best cat in the world!"
-    alice "Oh, my dear Dinah! I wonder if I shall ever see you any more!"
+    alice "(I wish I hadn’t mentioned Dinah!)"
+    alice "(Nobody seems to like her, down here, and I’m sure she’s the best cat in the world!)"
+    alice "(Oh, my dear Dinah! I wonder if I shall ever see you any more!)"
     show alice crying at breathing_crying
     "And here poor Alice began to cry again, for she felt very lonely and low-spirited."
     "In a little while, however, she again heard a little pattering of footsteps in the distance, and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story."
@@ -995,7 +995,7 @@ label chapter4:
         linear 1.0 xpos 2.0
     "And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made."
     scene black
-    alice "He took me for his housemaid. How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them."
+    alice "(He took me for his housemaid. How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them)"
 
     scene rabbit_house:
         xalign 0.0
@@ -1007,21 +1007,21 @@ label chapter4:
         xalign 0.0
         linear 10.0 xalign 1.0
 
-    alice "How queer it seems, to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!"
+    alice "(How queer it seems, to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!)"
     "And she began fancying the sort of thing that would happen:"
-    alice "'Miss Alice! Come here directly, and get ready for your walk!' 'Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.'"
-    alice "Only I don’t think, that they’d let Dinah stop in the house if it began ordering people about like that!"
+    alice "()'Miss Alice! Come here directly, and get ready for your walk!' 'Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.')"
+    alice "(Only I don’t think, that they’d let Dinah stop in the house if it began ordering people about like that!)"
 
     show fan gloves at Position(ypos = 0.65, xpos = 0.5)
     "By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves:"
     hide fan gloves
     show alice excited at breathing:
         xpos 0.5 ypos 0.9 zoom alice_scale
-    alice "she took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass."
+    "She took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass."
     play sound "sfx/cork.mp3"
     "There was no label this time with the words 'DRINK ME', but nevertheless she uncorked it and put it to her lips."
-    alice "I know something interesting is sure to happen, whenever I eat or drink anything; so I’ll just see what this bottle does."
-    alice "I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!"
+    alice "(I know something interesting is sure to happen, whenever I eat or drink anything; so I’ll just see what this bottle does)"
+    alice "(I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!)"
 
     show alice excited:
         pos (0.5, 0.9)
@@ -1031,7 +1031,7 @@ label chapter4:
 
     "It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken."
     "She hastily put down the bottle."
-    alice "That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!"
+    alice "(That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!)"
 
     show alice belly at breathing:
         xpos 0.7 ypos 1.0 zoom 2.0
@@ -1041,7 +1041,7 @@ label chapter4:
     "Still she went on growing, and, as a last resource, she put one arm out of the window, and one foot up the chimney"
 
 
-    alice "Now I can do no more, whatever happens. What will become of me?"
+    alice "(Now I can do no more, whatever happens. What will become of me?)"
 
     # stop growing, show at max w/ breathing
     
@@ -1049,16 +1049,16 @@ label chapter4:
 
     "Still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy."
 
-    alice "It was much pleasanter at home, when one wasn’t always growing larger and smaller, and being ordered about by mice and rabbits."
-    alice "I almost wish I hadn’t gone down that rabbit-hole—and yet—and yet—it’s rather curious, you know, this sort of life!"
-    alice "I do wonder what can have happened to me! When I used to read fairy-tales, I fancied that kind of thing never happened, and now here I am in the middle of one!"
-    alice "There ought to be a book written about me, that there ought! And when I grow up, I’ll write one—but I’m grown up now, at least there’s no room to grow up any more here."
+    alice "(It was much pleasanter at home, when one wasn’t always growing larger and smaller, and being ordered about by mice and rabbits)"
+    alice "(I almost wish I hadn’t gone down that rabbit-hole—and yet—and yet—it’s rather curious, you know, this sort of life!)"
+    alice "(I do wonder what can have happened to me! When I used to read fairy-tales, I fancied that kind of thing never happened, and now here I am in the middle of one!)"
+    alice "(There ought to be a book written about me, that there ought! And when I grow up, I’ll write one—but I’m grown up now, at least there’s no room to grow up any more here)"
 
-    alice "But then, shall I never get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like that!"
+    alice "(But then, shall I never get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like that!)"
 
-    alice "Oh, you foolish Alice!"
-    alice "How can you learn lessons in here?"
-    alice "Why, there’s hardly room for you, and no room at all for any lesson-books!"
+    alice "(Oh, you foolish Alice!)"
+    alice "(How can you learn lessons in here?)"
+    alice "(Why, there’s hardly room for you, and no room at all for any lesson-books!)"
 
     "And so she went on, taking first one side and then the other, and making quite a conversation of it altogether; but after a few minutes she heard a voice outside, and stopped to listen."
 
@@ -1073,10 +1073,10 @@ label chapter4:
     "Presently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure."
     rabbit "Then I’ll go round and get in at the window."
 
-    alice "That you won’t!"
-    "thought Alice, and, after waiting till she fancied she heard the Rabbit just under the window."
+    alice "(That you won’t!)"
+    "After waiting till she fancied she heard the Rabbit just under the window."
     play sound "sfx/snatch.mp3"
-    "she suddenly spread out her hand, and made a snatch in the air."
+    "She suddenly spread out her hand, and made a snatch in the air."
     play sound "sfx/shatter.mp3"
     "She did not get hold of anything, but she heard a little shriek and a fall, and a crash of broken glass, from which she concluded that it was just possible it had fallen into a cucumber-frame, or something of the sort."
 
@@ -1103,8 +1103,8 @@ label chapter4:
 
     play sound "sfx/shatter.mp3"
     "This time there were two little shrieks, and more sounds of broken glass."
-    alice "What a number of cucumber-frames there must be!"
-    alice "I wonder what they’ll do next! As for pulling me out of the window, I only wish they could! I’m sure I don’t want to stay in here any longer!"
+    alice "(What a number of cucumber-frames there must be!)"
+    alice "(I wonder what they’ll do next! As for pulling me out of the window, I only wish they could! I’m sure I don’t want to stay in here any longer!)"
 
     "She waited for some time without hearing anything more: at last came a rumbling of little cartwheels, and the sound of a good many voices all talking together:"
 
@@ -1127,11 +1127,11 @@ label chapter4:
     anon "Bill’s to go down"
     anon "Here, Bill! the master says you’re to go down the chimney!"
 
-    alice "Oh! So Bill’s got to come down the chimney, has he?"
-    alice "Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I think I can kick a little!"
+    alice "(Oh! So Bill’s got to come down the chimney, has he?)"
+    alice "(Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I think I can kick a little!)"
 
     "She drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her:"
-    alice "This is Bill!"
+    alice "(This is Bill!)"
     play sound "sfx/snatch.mp3"
     "She gave one sharp kick, and waited to see what would happen next."
 
@@ -1156,21 +1156,21 @@ label chapter4:
     alice "If you do, I’ll set Dinah at you!"
 
     "..."
-    "There was a dead silence instantly, and Alice thought to herself:"
-    alice "I wonder what they will do next! If they had any sense, they’d take the roof off."
+    "There was a dead silence instantly."
+    alice "(I wonder what they will do next! If they had any sense, they’d take the roof off)"
     "After a minute or two, they began moving about again"
     rabbit "A barrowful will do, to begin with."
 
-    alice "A barrowful of what?"
+    alice "(A barrowful of what?)"
     "She had not long to doubt, for the next moment a shower of little pebbles came rattling in at the window, and some of them hit her in the face."
-    alice "I’ll put a stop to this."
-    "she said to herself, and shouted out, "
+    alice "(I’ll put a stop to this)"
+    #"she said to herself, and shouted out, "
     alice "You’d better not do that again!"
-    "which produced another dead silence."
+    "Which produced another dead silence."
 
     show pebble_cake at Position(ypos = 0.65, xpos = 0.5)
     "Alice noticed with some surprise that the pebbles were all turning into little cakes as they lay on the floor, and a bright idea came into her head."
-    alice "If I eat one of these cakes, it’s sure to make some change in my size; and as it can’t possibly make me larger, it must make me smaller, I suppose."
+    alice "(If I eat one of these cakes, it’s sure to make some change in my size; and as it can’t possibly make me larger, it must make me smaller, I suppose)"
     hide pebble_cake
 
     show alice:
