@@ -291,7 +291,7 @@ screen navigation():
                 ## We use renpy.full_restart to avoid any potential issues with gestures.
                 textbutton _("Main Menu") action [renpy.force_autosave, renpy.full_restart]
                 if not renpy.variant("mobile"):
-                    textbutton _("Quit") action Quit(confirm = True)
+                    textbutton _("Quit") action [renpy.force_autosave, Quit(confirm = True)]
                 else:
                     null
                 null
