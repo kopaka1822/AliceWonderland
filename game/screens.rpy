@@ -4,6 +4,28 @@
 
 init offset = -1
 
+init +1 python:
+    class LoadMostRecent(Action):
+
+        def __init__(self):
+            self.slot = renpy.newest_slot()
+
+        def __call__(self):
+            renpy.load(self.slot)
+
+        def get_sensitive(self):
+            return self.slot is not None
+
+screen load_most_recent_screen():
+    tag menu
+    $recent_save = renpy.newest_slot(r"\d+")
+    vbox:
+        if recent_save:
+            $ recent_save_page, recent_save_name = recent_save.split("-")
+            #text _("Recent save page: [recent_save]")
+            #text _("Recent save page: [recent_save_name]")
+            #text _("Recent save page: [recent_save_page]")
+            textbutton _("Continue") action FileLoad(recent_save_page, confirm=False)
 
 ################################################################################
 ## Styles
@@ -246,7 +268,6 @@ style choice_button_text is default:
 ##
 ## Used as the pause/game menu
 
-
 screen navigation():
 
     tag menu
@@ -270,7 +291,7 @@ screen navigation():
                 ## We use renpy.full_restart to avoid any potential issues with gestures.
                 textbutton _("Main Menu") action [renpy.force_autosave, renpy.full_restart]
                 if not renpy.variant("mobile"):
-                    textbutton _("Quit") action Quit(confirm = True)
+                    textbutton _("Quit") action [renpy.force_autosave, Quit(confirm = True)]
                 else:
                     null
                 null
@@ -392,6 +413,14 @@ screen mm_content():
             idle_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
             action Start()
             tooltip _("Begin a new game")
+
+        imagebutton:
+            alt "continue"
+            auto new_game_button_image
+            hover_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
+            idle_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
+            action ShowMenu("load_most_recent_screen")
+            tooltip _("Continue the game")
 
         imagebutton:
             alt "load"
