@@ -16,17 +16,6 @@ init +1 python:
         def get_sensitive(self):
             return self.slot is not None
 
-screen load_most_recent_screen():
-    tag menu
-    $recent_save = renpy.newest_slot(r"\d+")
-    vbox:
-        if recent_save:
-            $ recent_save_page, recent_save_name = recent_save.split("-")
-            #text _("Recent save page: [recent_save]")
-            #text _("Recent save page: [recent_save_name]")
-            #text _("Recent save page: [recent_save_page]")
-            textbutton _("Continue") action FileLoad(recent_save_page, confirm=False)
-
 ################################################################################
 ## Styles
 ################################################################################
@@ -398,13 +387,19 @@ screen main_menu():
 
 screen mm_content():
 
-    #use conf_button
-
     vbox:
 
         xalign 0.5
         yalign 0.7
         spacing 20
+
+        imagebutton:
+            alt "continue"
+            auto load_button_image
+            hover_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
+            idle_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
+            action Start(label="autoload")
+            tooltip _("Continue the game")
 
         imagebutton:
             alt "new game"
@@ -413,14 +408,6 @@ screen mm_content():
             idle_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
             action Start()
             tooltip _("Begin a new game")
-
-        imagebutton:
-            alt "continue"
-            auto new_game_button_image
-            hover_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
-            idle_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
-            action ShowMenu("load_most_recent_screen")
-            tooltip _("Continue the game")
 
         imagebutton:
             alt "load"

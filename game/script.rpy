@@ -5304,3 +5304,6 @@ label credits:
     Quality Assurance: You <3"
     nvl clear
     return
+
+label autoload:
+    $ renpy.load("auto-1")
