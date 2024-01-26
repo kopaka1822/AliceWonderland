@@ -439,6 +439,14 @@ screen mm_content():
             tooltip _("Load a chapter")
 
         imagebutton:
+            alt "credits"
+            auto load_button_image
+            hover_foreground Text(_("Credits"), xalign=0.5, yalign=0.5)
+            idle_foreground Text(_("Credits"), xalign=0.5, yalign=0.5)
+            action Start(label="credits")
+            tooltip _("Show Credits")
+
+        imagebutton:
             alt "Settings"
             auto settings_button_image
             hover_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)

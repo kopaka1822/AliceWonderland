@@ -49,7 +49,7 @@ define config.dispatch_gesture = None
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 ## The default volume of the music mixer, which is used for the music and
 ## movie audio channels. This should be a number between 0.0 and 1.0

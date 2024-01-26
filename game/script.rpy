@@ -5290,4 +5290,17 @@ label chapter12:
     call reset_camera
     "The End."
     
-#label ch_credits: # TODO
+label credits:
+    # Set the background image for the credit screen.
+    scene black # Replace "black" with your background image filename.
+
+    # Director
+    nvl_narrator " {size=+20}Credits\n\n
+    {size=-20}Director: Kopaka\n\n
+    Original Script: Lewis Carroll\n\n
+    Art: Created with DALL·E 2, edited by Kopaka\n\n
+    Music: Rinne Music\n\n
+    Programmers: Nomander and Kopaka\n\n
+    Quality Assurance: You <3"
+    nvl clear
+    return
