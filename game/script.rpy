@@ -5295,15 +5295,18 @@ label credits:
     scene black # Replace "black" with your background image filename.
 
     # Director
-    nvl_narrator " {size=+20}Credits\n\n
-    {size=-20}Director: Kopaka\n\n
-    Original Script: Lewis Carroll\n\n
-    Art: Created with DALL·E 2, edited by Kopaka\n\n
-    Music: Rinne Music\n\n
-    Programmers: Nomander and Kopaka\n\n
-    Quality Assurance: You <3"
+    nvl_narrator "{size=+20}Credits
+    \n\n{size=-20}Director: Kopaka
+    \n\nOriginal Script: Lewis Carroll
+    \n\nArt: Created with DALL·E 2, edited by Kopaka
+    \n\nMusic: Rinne Music
+    \n\nProgrammers: Nomander and Kopaka
+    \n\nQuality Assurance: You <3"
     nvl clear
     return
 
 label autoload:
-    $ renpy.load("auto-1")
+    if renpy.can_load("auto-1"):
+        $ renpy.load("auto-1")
+    jump start
+    return
