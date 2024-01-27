@@ -8,6 +8,11 @@ default in_nvl = False
 default quick_menu = True
 
 
+init python:
+    def force_autosave_blocking_and_restart():
+        renpy.force_autosave(False, True)
+        renpy.full_restart()
+
 screen quick_menu():
 
     ## Ensure the quick menu appears above other screens
@@ -38,8 +43,7 @@ screen quick_menu_b():
         textbutton _("Back") action Rollback()
         textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
         textbutton _("Auto") action Preference("auto-forward", "toggle")
-        textbutton _("Q.Save") action QuickSave()
-        textbutton _("Menu") action ShowMenu('navigation')
+        textbutton _("Menu") action [force_autosave_blocking_and_restart]
 
 
 style quick_menu_frame:

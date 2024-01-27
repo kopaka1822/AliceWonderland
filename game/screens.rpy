@@ -253,88 +253,6 @@ style choice_button_text is default:
 ################################################################################
 
 
-## Navigation screen ############################################################
-##
-## Used as the pause/game menu
-
-screen navigation():
-
-    tag menu
-
-    if persistent.navigation_menu_content_style:
-
-        frame:
-            style_prefix "main_menu"
-
-            at menu_appear_side
-
-
-            grid 1 8:
-                xalign 0.5
-                yalign 0.5
-
-                textbutton _("History") action ShowMenu("history")
-                textbutton _("Save") action ShowMenu("save")
-                textbutton _("Load") action ShowMenu("load")
-                textbutton _("Settings") action ShowMenu("preferences")
-                ## We use renpy.full_restart to avoid any potential issues with gestures.
-                textbutton _("Main Menu") action [renpy.force_autosave, renpy.full_restart]
-                if not renpy.variant("mobile"):
-                    textbutton _("Quit") action [renpy.force_autosave, Quit(confirm = True)]
-                else:
-                    null
-                null
-
-            if persistent.navigation_return_button_style:
-                textbutton _("Close") action Hide("navigation"), Return():
-                    xalign 0.5
-                    yalign 1.0
-
-            else:
-                fixed:
-                    xmaximum 60
-                    xalign 0.99
-                    yalign 0.1
-                    textbutton "≡" action Hide("navigation"), Return()
-
-
-    else:
-
-        frame:
-            ypos 980
-            style_prefix "navigation_menu"
-
-            at menu_appear_bottom
-
-            grid 2 4:
-                xalign 0.5
-                yalign 0.5
-                spacing 5
-
-                textbutton _("History") action ShowMenu("history")
-                ## We use renpy.full_restart to avoid any potential issues with gestures.
-                textbutton _("Main Menu") action renpy.full_restart
-                textbutton _("Save") action ShowMenu("save")
-                textbutton _("Load") action ShowMenu("load")
-                textbutton _("Settings") action ShowMenu("preferences")
-                null
-                if not renpy.variant("mobile"):
-                    textbutton _("Quit") action Quit(confirm = True)
-                else:
-                    null
-
-
-            if persistent.navigation_return_button_style:
-                textbutton _("Close") action Hide("navigation"), Return():
-                    xalign 0.99
-                    yalign 1.0
-
-            else:
-                fixed:
-                    xmaximum 60
-                    xalign 0.99
-                    yalign 0.1
-                    textbutton "≡" action Hide("navigation"), Return()
 
 
 # Is the overlay menu on the left side when clicking on menu while ingame
@@ -390,7 +308,7 @@ screen mm_content():
     vbox:
 
         xalign 0.5
-        yalign 0.7
+        yalign 0.5
         spacing 20
 
         imagebutton:
@@ -401,21 +319,13 @@ screen mm_content():
             action Start(label="autoload")
             tooltip _("Continue the game")
 
-        imagebutton:
-            alt "new game"
-            auto new_game_button_image
-            hover_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
-            idle_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
-            action Start()
-            tooltip _("Begin a new game")
-
-        imagebutton:
-            alt "load"
-            auto load_button_image
-            hover_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
-            idle_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
-            action ShowMenu("load")
-            tooltip _("Load a previously saved game")
+        # imagebutton:
+        #     alt "load"
+        #     auto load_button_image
+        #     hover_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
+        #     idle_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
+        #     action ShowMenu("load")
+        #     tooltip _("Load a previously saved game")
 
         imagebutton:
             alt "chapter"
@@ -440,27 +350,6 @@ screen mm_content():
             idle_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
             action ShowMenu("preferences")
             tooltip _("Adjust game settings")
-
-        imagebutton:
-            alt "extras"
-            auto extras_button_image
-            hover_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
-            idle_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
-            action ShowMenu("extras")
-            tooltip _("Extra content")
-
-        if not renpy.variant("mobile"):
-
-            imagebutton:
-                alt "quit"
-                auto quit_button_image
-                hover_foreground Text(_("Quit"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("Quit"), xalign=0.5, yalign=0.5)
-                action Quit(confirm=not main_menu)
-                tooltip _("Close the game")
-        else:
-            null
-
 
     vbox:
         xalign 0.5
@@ -511,146 +400,17 @@ style main_menu_version:
     properties gui.text_properties("version")
 
 
-screen extras():
-
-    $ tooltip = GetTooltip()
-
-    tag menu
-
-    use game_menu(_("Extras"), scroll="viewport"):
-
-        vbox:
-            ysize 120
-
-            if tooltip:
-                text "[tooltip]"
-            else:
-
-                vbox:
-                    if renpy.mobile:
-                        text _("Press and hold an option for a short description of its function")
-                    else:
-                        text _("Hover over an option for a short description of its function")
-
-        ## Used as a content divider
-        null height 10
-        bar ysize 10 xsize 1000
-        null height 10
-
-        hbox:
-
-            spacing 25
-            ## Add 10 pixels padding
-            null
-
-            if persistent.gal_screen:
-                imagebutton:
-                    alt "image gallery"
-                    auto gallery_button_image
-                    hover_foreground Text(_("Image Gallery"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Image Gallery"), xalign=0.5, yalign=0.5)
-                    action ShowMenu("gallery")
-                    tooltip _("View unlocked images")
-            else:
-                imagebutton:
-                    alt "image gallery"
-                    auto gallery_button_image
-                    hover_foreground Text(_("Image Gallery"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Image Gallery"), xalign=0.5, yalign=0.5)
-                    action ShowMenu("underconstruction")
-                    tooltip _("View unlocked images")
-
-            imagebutton:
-                alt "about"
-                auto about_button_image
-                hover_foreground Text(_("About"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("About"), xalign=0.5, yalign=0.5)
-                action ShowMenu("about")
-                tooltip _("About this game")
-
-            imagebutton:
-                alt "changelog"
-                auto changelog_button_image
-                hover_foreground Text(_("Changelog"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("Changelog"), xalign=0.5, yalign=0.5)
-                action ShowMenu("changelog")
-                tooltip _("View the changelog")
-
-
-        ## Used as a content divider
-        null height 10
-        bar ysize 10 xsize 1000
-        null height 10
-
-
-
 
 screen nav_content():
 
-    grid 3 2:
-
-        xalign 0.5
-        yalign 0.965
-        spacing 20
-
-        if main_menu:
-            imagebutton:
-                alt "new game"
-                auto new_game_button_image
-                hover_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("New Game"), xalign=0.5, yalign=0.5)
-                action Start()
-                tooltip _("Begin a new game")
-        else:
-            imagebutton:
-                alt "history"
-                auto history_button_image
-                hover_foreground Text(_("History"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("History"), xalign=0.5, yalign=0.5)
-                action ShowMenu("history")
-                tooltip _("Show the text history")
-
-        if not main_menu:
-            imagebutton:
-                alt "save"
-                auto save_button_image
-                hover_foreground Text(_("Save"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("Save"), xalign=0.5, yalign=0.5)
-                action ShowMenu("save")
-                tooltip _("Save your game")
-
-        imagebutton:
-            alt "load"
-            auto load_button_image
-            hover_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
-            idle_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
-            action ShowMenu("load")
-            tooltip _("Load a previously saved game")
-
-        imagebutton:
-            alt "Settings"
-            auto settings_button_image
-            hover_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
-            idle_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
-            action ShowMenu("preferences")
-            tooltip _("Adjust game settings")
-
-        if main_menu:
-            imagebutton:
-                alt "extras"
-                auto extras_button_image
-                hover_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("Extras"), xalign=0.5, yalign=0.5)
-                action ShowMenu("extras")
-                tooltip _("Extra content")
-
-        imagebutton:
-            alt "return"
-            auto return_button_image
-            hover_foreground Text(_("Return"), xalign=0.5, yalign=0.5)
-            idle_foreground Text(_("Return"), xalign=0.5, yalign=0.5)
-            action Return()
-            tooltip _("Return to the main menu")
+    imagebutton:
+        yalign 1.0 xalign 1.0
+        alt "return"
+        auto return_button_image
+        hover_foreground Text(_("Return"), xalign=0.5, yalign=0.5)
+        idle_foreground Text(_("Return"), xalign=0.5, yalign=0.5)
+        action Return()
+        tooltip _("Return to the main menu")
 
 ## text alignment adjusted in line 289 or gui.rpy
 # define gui.main_menu_text_xalign = 0.5
@@ -795,52 +555,6 @@ style return_button:
     xpos gui.navigation_xpos
     yalign 1.0
     yoffset -30
-
-
-## About screen ################################################################
-##
-## This screen gives credit and copyright information about the game and Ren'Py.
-##
-## There's nothing special about this screen, and hence it also serves as an
-## example of how to make a custom screen.
-
-screen about():
-
-    tag menu
-
-    ## This use statement includes the game_menu screen inside this one. The
-    ## vbox child is then included inside the viewport inside the game_menu
-    ## screen.
-    use game_menu(_("About"), scroll="viewport"):
-
-        style_prefix "about"
-
-        vbox:
-
-            label "[config.name!t]"
-            text _("Version [config.version!t]\n")
-
-            if gui.about:
-                text "[gui.about!t]\n"
-
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]\n\n")
-
-            text _("Edgy-tan used with permission. Copyright {a=http://studiomugenjohncel.wordpress.com/}mugenjohncel{/a}\n")
-
-            text _("The Raven by {a=https://en.wikipedia.org/wiki/Edgar_Allan_Poe}Edgar Allen Poe{/a} is in the Public Domain.")
-
-            text _("'Danse Macabre - Big Hit 1' Kevin MacLeod {a=incompetech.com}incompetech.com{/a}")
-
-            text _("Licensed under Creative Commons: By Attribution 4.0 License {a=http://creativecommons.org/licenses/by/4.0/}http://creativecommons.org/licenses/by/4.0/{/a}")
-
-            text _("'Danse Macabre - Big Change' Kevin MacLeod {a=incompetech.com}incompetech.com{/a}")
-
-            text _("Licensed under Creative Commons: By Attribution 4.0 License {a=http://creativecommons.org/licenses/by/4.0/}http://creativecommons.org/licenses/by/4.0/{/a}")
-
-
-
-## This is used to add text to the about screen.
-define gui.about = ""
 
 
 style about_label is gui_label
@@ -1953,6 +1667,8 @@ screen chapter_select():
             style_prefix "main_menu"
             
             grid 2 6:
+                xoffset 200
+                yoffset 400 
                 xalign 0.5
                 yalign 0.5
                 spacing 20

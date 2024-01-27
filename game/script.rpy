@@ -5301,7 +5301,8 @@ label credits:
     \n\nArt: Created with DALL·E 2, edited by Kopaka
     \n\nMusic: Rinne Music
     \n\nProgrammers: Nomander and Kopaka
-    \n\nQuality Assurance: You <3"
+    \n\nQuality Assurance: You <3
+    \n\nMade with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
     nvl clear
     return
 
