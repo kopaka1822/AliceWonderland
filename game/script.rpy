@@ -219,7 +219,7 @@ label chapter1:
     # voice "voice/alice009.mp3"
     alice "I wonder if I shall fall right through the earth! How funny it’ll seem to come out among the people that walk with their heads downward! The Antipathies, I think—"
 
-    "(she was rather glad there was no one listening, this time, as it didn’t sound at all the right word) "
+    "(she was rather glad there was no one listening, this time, as it didn’t sound at all the right word)"
 
 
     alice "—but I shall have to ask them what the name of the country is, you know. Please, Ma’am, is this New Zealand or Australia?"
@@ -1493,7 +1493,7 @@ label chapter5:
     alice "Three inches is such a wretched height to be."
 
     caterpillar "It is a very good height indeed!"
-    "Said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)."
+    "Said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)"
 
     alice "But I’m not used to it!"
     "Pleaded poor Alice in a piteous tone. And she thought of herself:"
@@ -1914,7 +1914,7 @@ label ch6_kitchen:
     camera:
         ease cam_transition xpos cook_kitchen_pos zpos 0
 
-    #"CHORUS.\n(In which the cook and the baby joined):"
+    #"CHORUS.\n(In which the cook and the baby joined)"
 
     everyone "Wow! wow! wow!"
 
@@ -1974,7 +1974,7 @@ label ch6_kitchen:
 
     alice "(If I don’t take this child away with me, they’re sure to kill it in a day or two)"
     alice "Wouldn’t it be murder to leave it behind?"
-    "The little thing grunted in reply (it had left off sneezing by this time)."
+    "The little thing grunted in reply (it had left off sneezing by this time)"
     alice "Don’t grunt, that’s not at all a proper way of expressing yourself."
 
     "The baby grunted again, and Alice looked very anxiously into its face to see what was the matter with it."
@@ -3520,7 +3520,7 @@ label chapter9:
 
     alice "Somebody said, that it’s done by everybody minding their own business!"
 
-    duchess "Ah, well! It means much the same thing, and the moral of that is—‘Take care of the sense, and the sounds will take care of themselves.’"
+    duchess "Ah, well! It means much the same thing, and the moral of that is—‘Take care of the sense, and the sounds will take care of themselves’."
     
     show duchess happy at breathing:
         ease 0.5 xpos 1.42 zpos -20.0
@@ -3533,7 +3533,7 @@ label chapter9:
 
     alice "He might bite." # Alice cautiously replied, not feeling at all anxious to have the experiment tried.
     "Alice did not feel at all anxious to have the experiment tried."
-    duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together.’"
+    duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together’."
 
     alice "Only mustard isn’t a bird."
 
@@ -3541,13 +3541,13 @@ label chapter9:
     alice "It’s a mineral, I think."
     duchess "Of course it is, there’s a large mustard-mine near here."
     "The Duchess seemed ready to agree to everything that Alice said."
-    duchess "And the moral of that is—‘The more there is of mine, the less there is of yours.’"
+    duchess "And the moral of that is—‘The more there is of mine, the less there is of yours’."
 
     alice "Oh, I know!"
     alice "It’s a vegetable. It doesn’t look like one, but it is."
 
     duchess "I quite agree with you, and the moral of that is—‘Be what you would seem to be’"
-    duchess "—or if you’d like it put more simply—‘Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise.’"
+    duchess "—or if you’d like it put more simply—‘Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise’."
 
     alice "I think I should understand that better, if I had it written down: but I can’t quite follow it as you say it."
 
@@ -3568,7 +3568,7 @@ label chapter9:
     "She was beginning to feel a little worried."
     duchess "Just about as much right, as pigs have to fly; and the m—"
     
-    "But here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral,’ and the arm that was linked into hers began to tremble."
+    "But here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral’ and the arm that was linked into hers began to tremble."
     
     show queen normal at breathing:
         pos (0.8, 0.9) zoom queen_scale
@@ -3782,7 +3782,7 @@ label ch9_gryphon:
         ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Ah! then yours wasn’t a really good school."
     # said the Mock Turtle in a tone of great relief.
-    mock "Now at ours they had at the end of the bill, ‘French, music, and washing—extra.’"
+    mock "Now at ours they had at the end of the bill, ‘French, music, and washing—extra’."
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
