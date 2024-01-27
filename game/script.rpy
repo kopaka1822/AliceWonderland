@@ -196,7 +196,7 @@ label chapter1:
     
     # voice "voice/alice004.mp3"
     alice "(Why, I wouldn’t say anything about it, even if I fell off the top of the house!)"  
-    "(Which was very likely true.)"
+    "(Which was very likely true)"
 
 
     "Down, down, down. Would the fall never come to an end?"
@@ -212,7 +212,7 @@ label chapter1:
     # voice "voice/alice008.mp3"
     alice "—yes, that’s about the right distance—but then I wonder what Latitude or Longitude I’ve got to?"
 
-    "(Alice had no idea what Latitude was, or Longitude either, but thought they were nice grand words to say.)"
+    "(Alice had no idea what Latitude was, or Longitude either, but thought they were nice grand words to say)"
 
     "Presently she began again."
 
@@ -234,7 +234,7 @@ label chapter1:
 
     alice "Dinah’ll miss me very much to-night, I should think!"
 
-    "(Dinah was the cat.)"
+    "(Dinah was the cat)"
 
     alice "I hope they’ll remember her saucer of milk at tea-time. Dinah my dear! I wish you were down here with me!"
     alice "There are no mice in the air, I’m afraid, but you might catch a bat, and that’s very like a mouse, you know." 
@@ -306,7 +306,7 @@ label chapter1:
     play sound "sfx/unlock.mp3"
     "Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw."
 
-    "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway;"
+    "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway."
 
     #show alice pout at breathing:
     #    xpos 0.5 ypos 0.9 zoom alice_scale
@@ -400,7 +400,7 @@ label chapter2:
     "(For when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off)"
     alice "(Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure I shan’t be able!)"
     alice "(I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; —but I must be kind to them, or perhaps they won’t walk the way I want to go!)" 
-    alice "(Let me see: I’ll give them a new pair of boots every Christmas.)"
+    alice "(Let me see: I’ll give them a new pair of boots every Christmas)"
     "And she went on planning to herself how she would manage it."
     alice "(They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!)"
     "Alice’s Right Foot, Esq. \nHearthrug, \nNear the Fender, \n(with Alice’s love)\n"
@@ -1265,7 +1265,7 @@ label ch4_forest:
         easein 1.0 yoffset -200
         easeout 1.0 yoffset 0
 
-    "Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it;"
+    "Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it."
     camera:
         linear 2.0 xpos -275 ypos 425 zpos -335
     show alice:
@@ -1278,10 +1278,10 @@ label ch4_forest:
         linear 0.7 xpos -0.71 ypos 0.75 zrotate -160
         linear 0.2 xpos -0.71 ypos 0.75 zrotate 0 xzoom -1.0
 
-    "then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it;"
+    "Then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it."
     show alice:
         linear 0.5 xpos 0.17
-    "then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every moment to be trampled under its feet, ran round the thistle again;"
+    "Then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every moment to be trampled under its feet, ran round the thistle again."
     camera:
         linear 2.0 xpos -560 ypos 425 zpos -335
     show puppy:
@@ -1294,7 +1294,7 @@ label ch4_forest:
     play sound "sfx/bark.mp3"
     #queue sound "sfx/bark.mp3"
     #queue sound "sfx/bark.mp3"
-    "then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut."
+    "Then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut."
 
     "This seemed to Alice a good opportunity for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the puppy’s bark sounded quite faint in the distance."
 label ch4_grass:
@@ -1493,10 +1493,10 @@ label chapter5:
     alice "Three inches is such a wretched height to be."
 
     caterpillar "It is a very good height indeed!"
-    "said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)."
+    "Said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)."
 
     alice "But I’m not used to it!"
-    "pleaded poor Alice in a piteous tone. And she thought of herself:"
+    "Pleaded poor Alice in a piteous tone. And she thought of herself:"
 
     alice "I wish the creatures wouldn’t be so easily offended!"
 
@@ -1544,7 +1544,7 @@ label chapter5:
         zpos -1000
         yzoom 0.1
         easeout_expo 10.0 yzoom 5.0
-    "alice was delighted, which changed into alarm in another moment, when she found that her shoulders were nowhere to be found: all she could see, when she looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her."
+    "Alice was delighted, which changed into alarm in another moment, when she found that her shoulders were nowhere to be found: all she could see, when she looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her."
 
     # switch scene to sky
 label ch5_sky:
@@ -1620,7 +1620,7 @@ label ch5_sky:
     pigeon "I can see you’re trying to invent something!"
 
     alice "I—I’m a little girl..."
-    "said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day."
+    "Said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day."
 
     pigeon "A likely story indeed!"
     pigeon "I’ve seen a good many little girls in my time, but never one with such a neck as that!"
@@ -1710,13 +1710,13 @@ label chapter6:
 
 
 
-    "Alice laughed so much at this, that she had to run back into the wood for fear of their hearing her; "
+    "Alice laughed so much at this, that she had to run back into the wood for fear of their hearing her."
     
     hide footmen_fish
     hide footmen_frog
     show footmen_frog at breathing:
         pos (0.7, 0.9) zoom 0.5
-    "and when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky."
+    "And when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky."
 
     show alice normal at breathing:
         pos (0.3, 0.9) zoom alice_scale
@@ -1874,7 +1874,8 @@ label ch6_kitchen:
     
     show alice pout
     alice "Oh, please mind what you’re doing!"
-    "cried Alice, jumping up and down in an agony of terror."#
+    #"Cried Alice, jumping up and down in an agony of terror."#
+    "Alice was jumping up and down in an agony of terror."#
     alice "Oh, there goes his precious nose..."
 
     show saucepan:
@@ -1971,8 +1972,8 @@ label ch6_kitchen:
         linear 1.0 xoffset 10 yoffset -10 rotate -2
         repeat
 
-    alice "(If I don’t take this child away with me, they’re sure to kill it in a day or two:)"
-    alice "wouldn’t it be murder to leave it behind?"
+    alice "(If I don’t take this child away with me, they’re sure to kill it in a day or two)"
+    alice "Wouldn’t it be murder to leave it behind?"
     "The little thing grunted in reply (it had left off sneezing by this time)."
     alice "Don’t grunt, that’s not at all a proper way of expressing yourself."
 
@@ -2012,8 +2013,9 @@ label ch6_kitchen:
     "The Cat only grinned when it saw Alice."
     "It looked good-natured, she thought: still it had very long claws and a great many teeth, so she felt that it ought to be treated with respect."
 
-    alice "Cheshire Puss." 
-    "she began, rather timidly, as she did not at all know whether it would like the name: however, it only grinned a little wider."
+    alice "*timidly* Cheshire Puss..." 
+    #"She began, rather timidly, as 
+    "She did not at all know whether it would like the name: however, it only grinned a little wider."
     alice "Come, it’s pleased so far."
     alice "Would you tell me, please, which way I ought to go from here?"
 
@@ -2160,7 +2162,7 @@ label chapter7:
 
     "There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head."
 
-    alice "(Very uncomfortable for the Dormouse, only, as it’s asleep, I suppose it doesn’t mind.)"
+    alice "(Very uncomfortable for the Dormouse, only, as it’s asleep, I suppose it doesn’t mind)"
 
     "The table was a large one, but the three were all crowded together at one corner of it."
 
@@ -2404,7 +2406,7 @@ label chapter7:
 
     "The Hatter pointed with his tea spoon at the March Hare."
 
-    hatter "it was at the great concert given by the Queen of Hearts, and I had to sing\n‘Twinkle, twinkle, little bat!\nHow I wonder what you’re at!’"
+    hatter "It was at the great concert given by the Queen of Hearts, and I had to sing\n‘Twinkle, twinkle, little bat!\nHow I wonder what you’re at!’"
     hatter "You know the song, perhaps?"
 
 
@@ -2423,7 +2425,7 @@ label chapter7:
         linear cam_transition xpos dormouse_tea_pos
     dormouse "Twinkle, twinkle, twinkle, twinkle—"
 
-    "and went on so long that they had to pinch it to make it stop."
+    "And went on so long that they had to pinch it to make it stop."
 
     camera: 
         linear cam_transition xpos hatter_tea_pos
@@ -2641,10 +2643,10 @@ label ch7_reorder:
 
     "This answer so confused poor Alice, that she let the Dormouse go on for some time without interrupting it."
 
-    dormouse "They were learning to draw, "
-    "the Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy."
+    dormouse "They were learning to draw..."
+    "The Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy."
     # todo close eyes
-    dormouse "and they drew all manner of things—everything that begins with an M———"
+    dormouse "...and they drew all manner of things—everything that begins with an M———"
 
     show dormouse sleep
     "..."
@@ -2690,7 +2692,7 @@ label ch7_reorder:
 
     show alice surprised
     alice "(That’s very curious!)"
-    alice "(But everything’s curious today. I think I may as well go in at once.)"
+    alice "(But everything’s curious today. I think I may as well go in at once)"
     "And she went in."
 
     scene hall
@@ -2831,7 +2833,7 @@ label chapter8:
         xrotate -100
         linear 1.0 xrotate -180
 
-    "and the three gardeners instantly threw themselves flat upon their faces."
+    "And the three gardeners instantly threw themselves flat upon their faces."
 
     camera:
         ease cam_transition zoom 1.0 ypos 0 xpos 1.4
@@ -3115,7 +3117,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
-    "and the procession moved on, three of the soldiers remaining behind to execute the unfortunate gardeners, who ran to Alice for protection."
+    "And the procession moved on, three of the soldiers remaining behind to execute the unfortunate gardeners, who ran to Alice for protection."
     hide queen
     hide king
     hide knave
@@ -3226,7 +3228,7 @@ label ch8_croquet:
 
 
     queen "Get to your places!"
-    "shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began."
+    "Shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began."
 
     camera:
         ease cam_transition xpos alice_croquet
@@ -3275,7 +3277,7 @@ label ch8_croquet:
 
     "She was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin."
     show alice happy
-    alice "(It’s the Cheshire Cat: now I shall have somebody to talk to.)"
+    alice "(It’s the Cheshire Cat: now I shall have somebody to talk to)"
 
     cat "How are you getting on?" # said the Cat, as soon as there was mouth enough for it to speak with.
 
@@ -3286,7 +3288,7 @@ label ch8_croquet:
         linear 10.0 alpha 1.0
 
     "Alice waited till the eyes appeared, and then nodded."
-    alice "(It’s no use speaking to it, till its ears have come, or at least one of them.)"
+    alice "(It’s no use speaking to it, till its ears have come, or at least one of them)"
 
     show cat4:
         anchor (0.5, 1.0)
@@ -3299,7 +3301,7 @@ label ch8_croquet:
     "The Cat seemed to think that there was enough of it now in sight, and no more of it appeared."
 
     alice "I don’t think they play at all fairly, and they all quarrel so dreadfully one can’t hear oneself speak—and they don’t seem to have any rules in particular; at least, if there are, nobody attends to them—"
-    alice "and you’ve no idea how confusing it is all the things being alive; for instance, there’s the arch I’ve got to go through next walking about at the other end of the ground—and I should have croqueted the Queen’s hedgehog just now, only it ran away when it saw mine coming!"
+    alice "And you’ve no idea how confusing it is all the things being alive; for instance, there’s the arch I’ve got to go through next walking about at the other end of the ground—and I should have croqueted the Queen’s hedgehog just now, only it ran away when it saw mine coming!"
 
     # let it appear full
     hide cat6
@@ -3366,7 +3368,7 @@ label ch8_croquet:
     "The Queen had only one way of settling all difficulties, great or small."
 
     queen "Off with his head!"
-    "she said, without even looking round."
+    "She said, without even looking round."
 
     camera:
         ease cam_transition xpos king_croquet2 ypos 700 zoom 2.0
@@ -3414,7 +3416,7 @@ label ch8_croquet:
         ease 1.5 xpos 0.84 ypos 0 zoom 1.0
 
     "By the time she had caught the flamingo and brought it back, the fight was over, and both the hedgehogs were out of sight."
-    alice "(But it doesn’t matter much, as all the arches are gone from this side of the ground.)"
+    alice "(But it doesn’t matter much, as all the arches are gone from this side of the ground)"
 
     show alice normal at breathing:
         ease 1.0 xpos alice_croquet
@@ -3438,7 +3440,7 @@ label ch8_croquet:
     "The King’s argument was, that anything that had a head could be beheaded, and that you weren’t to talk nonsense."
 
     "The Queen’s argument was, that if something wasn’t done about it in less than no time she’d have everybody executed, all round."
-    "(It was this last remark that had made the whole party look so grave and anxious.)"
+    "(It was this last remark that had made the whole party look so grave and anxious)"
 
     # Alice could think of nothing else to say but
     alice "It belongs to the Duchess: you’d better ask her about it."
@@ -3482,15 +3484,15 @@ label chapter9:
         xpos 1.4 ypos 0 zpos 0 xoffset -center_offset
 
     duchess "You can’t think how glad I am to see you again, you dear old thing!"
-    "the Duchess tucked her arm affectionately into Alice’s, and they walked off together."
+    "The Duchess tucked her arm affectionately into Alice’s, and they walked off together."
 
     "Alice was very glad to find her in such a pleasant temper, and thought to herself that perhaps it was only the pepper that had made her so savage when they met in the kitchen."
 
     show alice thinking
     camera:
         ease cam_transition xpos alice_nine ypos 1000 zoom 2.0
-    alice "(When I’m a Duchess, I won’t have any pepper in my kitchen at all.)"
-    alice "(Soup does very well without—Maybe it’s always pepper that makes people hot-tempered, and vinegar that makes them sour—and camomile that makes them bitter—and—and barley-sugar and such things that make children sweet-tempered.)"
+    alice "(When I’m a Duchess, I won’t have any pepper in my kitchen at all)"
+    alice "(Soup does very well without—Maybe it’s always pepper that makes people hot-tempered, and vinegar that makes them sour—and camomile that makes them bitter—and—and barley-sugar and such things that make children sweet-tempered)"
     alice "(I only wish people knew that: then they wouldn’t be so stingy about it, you know—)"
 
     show alice pout
@@ -3522,7 +3524,8 @@ label chapter9:
     
     show duchess happy at breathing:
         ease 0.5 xpos 1.42 zpos -20.0
-    "said the Duchess, digging her sharp little chin into Alice’s shoulder."
+    #"Said the Duchess, digging her sharp little chin into Alice’s shoulder."
+    "The Duchess started digging her sharp little chin into Alice’s shoulder."
 
     alice "(How fond she is of finding morals in things!)"
     "..."
@@ -3559,10 +3562,10 @@ label chapter9:
     "She did not venture to say it out loud."
 
     duchess "Thinking again?"
-    "the Duchess asked, with another dig of her sharp little chin."
+    "The Duchess asked, with another dig of her sharp little chin."
 
     alice "I’ve a right to think."
-    "she was beginning to feel a little worried."
+    "She was beginning to feel a little worried."
     duchess "Just about as much right, as pigs have to fly; and the m—"
     
     "But here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral,’ and the arm that was linked into hers began to tremble."
@@ -3576,14 +3579,15 @@ label chapter9:
     duchess "A fine day, your Majesty!" # the Duchess began in a low, weak voice.
 
     queen "Now, I give you fair warning, either you or your head must be off, and that in about half no time! Take your choice!"
-    "shouted the Queen, stamping on the ground as she spoke."
+    #"Shouted the Queen, stamping on the ground as she spoke."
+    "The Queen was stamping on the ground as she spoke."
 
     show duchess:
         linear 1.0 xpos 2.0
     "The Duchess took her choice, and was gone in a moment."
 
     queen "Let’s go on with the game."
-    "the Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground."
+    "The Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground."
 
     "The other guests had taken advantage of the Queen’s absence, and were resting in the shade: however, the moment they saw her, they hurried back to the game, the Queen merely remarking that a moment’s delay would cost them their lives."
 
@@ -3631,15 +3635,15 @@ label ch9_gryphon:
         xpos 1535 ypos 0 zpos 0 zoom 1.0 xoffset -center_offset
         ease 5.0 xpos 935
     "They very soon came upon a Gryphon, lying fast asleep in the sun."
-    # "(If you don’t know what a Gryphon is, look at the picture.)"
+    # "(If you don’t know what a Gryphon is, look at the picture)"
     queen "Up, lazy thing!"
-    queen "and take this young lady to see the Mock Turtle, and to hear his history."
+    queen "And take this young lady to see the Mock Turtle, and to hear his history."
     queen "I must go back and see after some executions I have ordered."
     show queen normal:
         linear 1.0 xpos 2.0
     show alice normal at breathing:
         ease 3.0 xpos 1.2
-    "she walked off, leaving Alice alone with the Gryphon."
+    "She walked off, leaving Alice alone with the Gryphon."
     "Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited."
 
     "The Gryphon sat up and rubbed its eyes: then it watched the Queen till she was out of sight: then it chuckled."
@@ -3665,7 +3669,7 @@ label ch9_gryphon:
     "They had not gone far before they saw the Mock Turtle in the distance, sitting sad and lonely on a little ledge of rock, and, as they came nearer, Alice could hear him sighing as if his heart would break."
     "She pitied him deeply."
     alice "What is his sorrow?"
-    #"she asked the Gryphon, and the Gryphon answered, very nearly in the same words as before."
+    #"She asked the Gryphon, and the Gryphon answered, very nearly in the same words as before."
     gryphon "It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!"
 
     show gryphon at breathing:
@@ -3690,7 +3694,7 @@ label ch9_gryphon:
     camera:
         ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     mock "Once, *deep sigh* I was a real Turtle."
-    #"said the Mock Turtle at last, with a deep sigh."
+    #"Said the Mock Turtle at last, with a deep sigh."
 
     "These words were followed by a very long silence, broken only by an occasional exclamation of:"
     camera:
@@ -3923,7 +3927,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
-    mock "and perhaps you were never even introduced to a lobster—"
+    mock "And perhaps you were never even introduced to a lobster—"
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
@@ -4026,7 +4030,7 @@ label chapter10:
         ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
     "The mock turtle turned to the gryphon:" # added
     mock "Come, let’s try the first figure!"
-    # "said the Mock Turtle to the Gryphon."
+    # "Said the Mock Turtle to the Gryphon."
     mock "We can do without lobsters, you know. Which shall sing?"
 
     camera:
@@ -4083,7 +4087,7 @@ label chapter10:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "Thank you, it’s a very interesting dance to watch."
     "Alice was feeling very glad that it was over at last."
-    alice "and I do so like that curious song about the whiting!"
+    alice "And I do so like that curious song about the whiting!"
 
     camera:
         ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
@@ -4238,7 +4242,7 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     alice "(How the creatures order one about, and make one repeat lessons!)"
-    alice "(I might as well be at school at once.)"
+    alice "(I might as well be at school at once)"
     "However, she got up, and began to repeat it, but her head was so full of the Lobster Quadrille, that she hardly knew what she was saying, and the words came very queer indeed:—"
 
     alice "’Tis the voice of the Lobster; I heard him declare,\n
@@ -4358,7 +4362,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
-    "the Mock Turtle had just begun to repeat it, when a cry of “The trial’s beginning!” was heard in the distance."
+    "The Mock Turtle had just begun to repeat it, when a cry of “The trial’s beginning!” was heard in the distance."
 
     show gryphon at breathing:
         xzoom -1.0 xpos -0.5
@@ -4562,7 +4566,7 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000
     king "Consider your verdict."
-    #"the King said to the jury."
+    #"The King said to the jury."
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000
     rabbit "Not yet, not yet! There’s a great deal to come before that!"
@@ -4767,12 +4771,12 @@ label ch11_court:
     king "You’re a very poor speaker."
 
     "Here one of the guinea-pigs cheered, and was immediately suppressed by the officers of the court."
-    "(As that is rather a hard word, I will just explain to you how it was done. They had a large canvas bag, which tied up at the mouth with strings: into this they slipped the guinea-pig, head first, and then sat upon it.)"
+    "(As that is rather a hard word, I will just explain to you how it was done. They had a large canvas bag, which tied up at the mouth with strings: into this they slipped the guinea-pig, head first, and then sat upon it)"
 
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     show alice happy
-    alice "(I’m glad I’ve seen that done. I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now.)"
+    alice "(I’m glad I’ve seen that done. I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now)"
     
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
@@ -4789,7 +4793,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
-    alice "(Come, that finished the guinea-pigs! Now we shall get on better.)"
+    alice "(Come, that finished the guinea-pigs! Now we shall get on better)"
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
@@ -4921,7 +4925,7 @@ label chapter12:
         ease 1.0 zrotate 90
 
 
-    #"cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
+    #"Cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
     "Alice forgot in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
 
     show alice normal at breathing:
@@ -4994,7 +4998,7 @@ label chapter12:
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1200 # king zoom
     king "(important—unimportant—unimportant—important—)"
-    "as if he were trying which word sounded best."
+    "As if he were trying which word sounded best."
 
     "Some of the jury wrote it down “important,” and some “unimportant.”"
     
@@ -5007,7 +5011,7 @@ label chapter12:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     "At this moment the King, who had been for some time busily writing in his note-book, cackled out:"
     king "Silence!"
-    "and he read out from his book:"
+    "And he read out from his book:"
     king "Rule Forty-two. All persons more than a mile high have to leave the court."
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
@@ -5041,7 +5045,7 @@ label chapter12:
     show king scared
     "The King turned pale, and shut his note-book hastily."
     king "Consider your verdict."
-    "he said to the jury, in a low, trembling voice."
+    "He said to the jury, in a low, trembling voice."
 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
@@ -5082,7 +5086,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_jury zpos -500 ypos 0 # jury
-    "(The jury all looked puzzled.)"
+    "(The jury all looked puzzled)"
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
@@ -5139,7 +5143,7 @@ label chapter12:
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "That’s the most important piece of evidence we’ve heard yet." #,” said the King, rubbing his hands; 
-    king "so now let the jury—"
+    king "So now let the jury—"
 
     camera:
         ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
@@ -5155,7 +5159,7 @@ label chapter12:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "If there’s no meaning in it, that saves a world of trouble, you know, as we needn’t try to find any."
     king "And yet I don’t know..."
-    "he went on, spreading out the verses on his knee, and looking at them with one eye."
+    "He went on, spreading out the verses on his knee, and looking at them with one eye."
     king "I seem to see some meaning in them, after all. “—said I could not swim—” you can’t swim, can you?"
 
     camera:
@@ -5193,8 +5197,8 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_bill zpos -1000 ypos 300 # jury bill
-    "said the Queen furiously, throwing an inkstand at the Lizard as she spoke."
-    "(The unfortunate little Bill had left off writing on his slate with one finger, as he found it made no mark; but he now hastily began again, using the ink, that was trickling down his face, as long as it lasted.)"
+    "Said the Queen furiously, throwing an inkstand at the Lizard as she spoke."
+    "(The unfortunate little Bill had left off writing on his slate with one finger, as he found it made no mark; but he now hastily began again, using the ink, that was trickling down his face, as long as it lasted)"
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
@@ -5284,7 +5288,7 @@ label chapter12:
     "While the lowing of the cattle in the distance would take the place of the Mock Turtle’s heavy sobs."
 
     "Lastly, she pictured to herself how this same little sister of hers would, in the after-time, be herself a grown woman; and how she would keep, through all her riper years, the simple and loving heart of her childhood:"
-    "and how she would gather about her other little children, and make their eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer days."
+    "And how she would gather about her other little children, and make their eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer days."
 
     scene black
     call reset_camera
