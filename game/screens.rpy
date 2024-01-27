@@ -713,160 +713,16 @@ screen preferences():
 
         vbox:
             ysize 120
-
-            if tooltip:
-                text "[tooltip]"
-            else:
-
-                vbox:
-                    if renpy.mobile:
-                        text _("Press and hold an option for a short description of its function")
-                    else:
-                        text _("Hover over an option for a short description of its function")
-
-        ## Used as a content divider
-        null height 10
-        bar ysize 10 xsize 1000
-        null height 10
-
-        hbox:
-
-            spacing 25
-            ## Add 10 pixels padding
-            null
-
-            imagebutton:
-                alt "adjust audio settings"
-                auto audio_settings_button_image
-                hover_foreground Text(_("Audio settings"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("Audio settings"), xalign=0.5, yalign=0.5)
-                action SetVariable("settings_menu_selector", "audio_settings")
-                tooltip _("Adjust audio settings")
-
-            imagebutton:
-                alt "adjust text settings"
-                auto text_settings_button_image
-                hover_foreground Text(_("Text\nsettings"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("Text\nsettings"), xalign=0.5, yalign=0.5)
-                action SetVariable("settings_menu_selector", "text_settings")
-                tooltip _("Adjust text settings")
-
-            imagebutton:
-                alt "adjust system settings"
-                auto system_settings_button_image
-                hover_foreground Text(_("System settings"), xalign=0.5, yalign=0.5)
-                idle_foreground Text(_("System settings"), xalign=0.5, yalign=0.5)
-                action SetVariable("settings_menu_selector", "system_settings")
-                tooltip _("Adjust system settings")
-
-
-        ## Used as a content divider
-        null height 10
-        bar ysize 10 xsize 1000
-        null height 10
-
-
-        if settings_menu_selector == "system_settings":
-            use system_settings
-        elif settings_menu_selector == "audio_settings":
-            use audio_settings
-        elif settings_menu_selector == "text_settings":
-            use text_settings
+        use audio_settings
+        use text_settings
+        use system_settings
 
 
 
 screen system_settings():
 
     vbox:
-        xalign 0.5
-
-        if renpy.variant("pc"):
-            vbox:
-                style_prefix "radio"
-                label _("Display")
-                hbox:
-
-                    imagebutton:
-                        alt "window"
-                        auto display_toggle_button_image
-                        hover_foreground Text(_("{u}Window{/u}"), xalign=0.5, yalign=0.5)
-                        idle_foreground Text(_("Window"), xalign=0.5, yalign=0.5)
-                        selected_background "#5f9bff"
-                        action Preference("display", "any window")
-                        tooltip _("Display the game in a window")
-
-                    imagebutton:
-                        alt "fullscreen"
-                        auto display_toggle_button_image
-                        hover_foreground Text(_("{u}Fullscreen{/u}"), xalign=0.5, yalign=0.5)
-                        idle_foreground Text(_("Fullscreen"), xalign=0.5, yalign=0.5)
-                        selected_background "#5f9bff"
-                        action Preference("display", "fullscreen")
-                        tooltip _("Display the game in fullscreen")
-
-        if renpy.variant("mobile"):
-            vbox:
-                style_prefix "radio"
-                label _("Vibration")
-
-                hbox:
-
-                    imagebutton:
-                        alt "on"
-                        auto vibration_button_image
-                        hover_foreground Text(_("{u}ON{/u}"), xalign=0.5, yalign=0.5)
-                        idle_foreground Text(_("ON"), xalign=0.5, yalign=0.5)
-                        action SetField(persistent, "allow_vibration", True)
-                        tooltip _("Enable vibration")
-
-                    imagebutton:
-                        alt "off"
-                        auto vibration_button_image
-                        hover_foreground Text(_("{u}OFF{/u}"), xalign=0.5, yalign=0.5)
-                        idle_foreground Text(_("OFF"), xalign=0.5, yalign=0.5)
-                        action SetField(persistent, "allow_vibration", False)
-                        tooltip _("Disable vibration")
-
-        vbox:
-            style_prefix "radio"
-            label _("Rollback Side")
-            hbox:
-                if renpy.variant("pc"):
-                    imagebutton:
-                        alt "disabled"
-                        auto rollback_side_disabled_button_image
-                        hover_foreground Text(_("{u}Disabled{/u}"), xalign=0.5, yalign=0.5)
-                        idle_foreground Text(_("Disabled"), xalign=0.5, yalign=0.5)
-                        selected_background "#5f9bff"
-                        action Preference("rollback side", "disable")
-                        tooltip _("Rollback is only accessible through the scroll wheel and back button")
-                else:
-                    imagebutton:
-                        alt "disabled"
-                        auto rollback_side_disabled_button_image
-                        hover_foreground Text(_("{u}Disabled{/u}"), xalign=0.5, yalign=0.5)
-                        idle_foreground Text(_("Disabled"), xalign=0.5, yalign=0.5)
-                        selected_background "#5f9bff"
-                        action Preference("rollback side", "disable")
-                        tooltip _("Rollback is only accessible via the back button and gestures")
-
-                imagebutton:
-                    alt "left"
-                    auto rollback_side_left_button_image
-                    hover_foreground Text(_("{u}Left{/u}"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Left"), xalign=0.5, yalign=0.5)
-                    selected_background "#5f9bff"
-                    action Preference("rollback side", "left")
-                    tooltip _("Touch the left side of the screen to rollback")
-
-                imagebutton:
-                    alt "right"
-                    auto rollback_side_right_button_image
-                    hover_foreground Text(_("{u}Right{/u}"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Right"), xalign=0.5, yalign=0.5)
-                    selected_background "#5f9bff"
-                    action Preference("rollback side", "right")
-                    tooltip _("Touch the right side of the screen to rollback")
+        xalign 0.0
 
         vbox:
             style_prefix "check"
@@ -889,37 +745,6 @@ screen system_settings():
                     selected_background "#5f9bff"
                     action Preference("skip", "seen")
                     tooltip _("Skip only previously read text")
-
-
-            label _("After Choices")
-
-            hbox:
-                imagebutton:
-                    alt "continue skipping after making choices"
-                    auto after_choices_continue_button_image
-                    hover_foreground Text(_("{u}Keep skipping{/u}"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Keep skipping"), xalign=0.5, yalign=0.5)
-                    selected_background "#5f9bff"
-                    action Preference("after choices", "skip")
-                    tooltip _("Continue skipping after making choices")
-
-                imagebutton:
-                    alt "stop skipping after making choices"
-                    auto after_choices_stop_button_image
-                    hover_foreground Text(_("{u}Stop skipping{/u}"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Stop skipping"), xalign=0.5, yalign=0.5)
-                    selected_background "#5f9bff"
-                    action Preference("after choices", "stop")
-                    tooltip _("Stop skipping after making choices")
-
-                imagebutton:
-                    alt "skip through scene transitions"
-                    auto skip_transitions_button_image
-                    hover_foreground Text(_("{u}Transitions{/u}"), xalign=0.5, yalign=0.5)
-                    idle_foreground Text(_("Transitions"), xalign=0.5, yalign=0.5)
-                    selected_background "#5f9bff"
-                    action InvertSelected(Preference("transitions", "toggle"))
-                    tooltip _("Skip through scene transitions")
 
 
 screen audio_settings():
@@ -953,25 +778,25 @@ screen audio_settings():
                 vbox:
                     bar value Preference("voice volume") tooltip _("Change the volume of speech in the game")
 
-            if config.has_music or config.has_sound or config.has_voice:
-                null height gui.pref_spacing
+            # if config.has_music or config.has_sound or config.has_voice:
+            #     null height gui.pref_spacing
 
-                vbox:
+            #     vbox:
 
-                    if config.sample_sound:
-                        textbutton _("{size=30}Test Sound volume{/size}") action Play("sound", config.sample_sound) tooltip _("Test SFX volume")
+            #         if config.sample_sound:
+            #             textbutton _("{size=30}Test Sound volume{/size}") action Play("sound", config.sample_sound) tooltip _("Test SFX volume")
 
-                    if config.sample_voice:
-                        textbutton _("{size=30}Test Voice Volume{/size}") action Play("voice", config.sample_voice) tooltip _("Test Voice volume")
+            #         if config.sample_voice:
+            #             textbutton _("{size=30}Test Voice Volume{/size}") action Play("voice", config.sample_voice) tooltip _("Test Voice volume")
 
-                    textbutton _("Reset to default"):
-                        action Preference("voice volume", config.default_music_volume), Preference("sound volume", config.default_music_volume), Preference("music volume", config.default_music_volume)
-                        tooltip _("Reset audio settings to default")
+            #         textbutton _("Reset to default"):
+            #             action Preference("voice volume", config.default_music_volume), Preference("sound volume", config.default_music_volume), Preference("music volume", config.default_music_volume)
+            #             tooltip _("Reset audio settings to default")
 
-                    textbutton _("Mute All"):
-                        action Preference("all mute", "toggle")
-                        style "mute_all_button"
-                        tooltip _("Stop all audio")
+            #         textbutton _("Mute All"):
+            #             action Preference("all mute", "toggle")
+            #             style "mute_all_button"
+            #             tooltip _("Stop all audio")
 
 screen text_settings():
 
@@ -988,101 +813,19 @@ screen text_settings():
             label _("Text Speed")
 
             bar value Preference("text speed") tooltip _("Adjust the speed text appears on screen in characters per second")
-            if txtspd > 0:
-                text _("{:.0f}".format(txtspd) )
-            elif txtspd == 0:
-                text _("Instant")
+            # if txtspd > 0:
+            #     text _("{:.0f}".format(txtspd) )
+            # elif txtspd == 0:
+            #     text _("Instant")
 
             label _("Auto-Forward Time")
 
             bar value Preference("auto-forward time") tooltip _("Adjust wait time before automatically advancing the game")
-            text _("{:.0f}".format(afmtm) )
+            #text _("{:.0f}".format(afmtm) )
 
-            textbutton _("Reset to default"):
-                action Preference("text speed", 50), Preference("auto-forward time", 4)
-                tooltip _("Reset text settings to default")
-
-## Experimental
-#        vbox:
-#            style_prefix "check"
-
-#            label _("Wait for voice")
-#            if not preferences.wait_voice:
-#                add "images/check_inactive.png"
-#            else:
-#                textbutton _("On") action ToggleVariable("preferences.wait_voice", "True", "False")
-
-#    use checkboxes_screen
-
-#            label _("Options")
-#            textbutton _("OpenDyslexic") action gui.TogglePreference("font", "OpenDyslexic-Regular.otf", "DejaVuSans.ttf")
-
-#            label _("Text Size")
-#            textbutton _("Small") action gui.SetPreference("size", 20)
-#            textbutton _("Medium") action gui.SetPreference("size", 25)
-#            textbutton _("Big") action gui.SetPreference("size", 35)
-
-
-#screen checkboxes_screen():
-#    fixed: #keep skipping
-
-#        xpos 0.2156
-#        ypos 0.545
-
-#        if preferences.skip_after_choices:
-#            add "images/check_active.png"
-#        else:
-#            imagebutton:
-#                idle "images/check_inactive.png"
-#                hover "images/check_inactive.png"
-#                action Preference("after choices", "skip")
-#                tooltip "Keep skipping after choices"
-#                alt "keep skipping after choices"
-
-#    fixed: #stop skipping
-
-#        xpos 0.355
-#        ypos 0.545
-
-#        if not preferences.skip_after_choices:
-#            add "images/check_active.png"
-#        else:
-#            imagebutton:
-#                idle "images/check_inactive.png"
-#                hover "images/check_inactive.png"
-#                action Preference("after choices", "stop")
-#                tooltip "Stop skipping after choices"
-#                alt "stop skipping after choices"
-
-#    fixed: #all text
-
-#        xpos 0.2156
-#        ypos 0.711
-
-#        if preferences.skip_unseen:
-#            add "images/check_active.png"
-#        else:
-#            imagebutton:
-#                idle "images/check_inactive.png"
-#                hover "images/check_inactive.png"
-#                action Preference("skip", "all")
-#                tooltip "Skip all text"
-#                alt "skip all text"
-
-#    fixed: #seen text
-
-#        xpos 0.308
-#        ypos 0.711
-
-#        if not preferences.skip_unseen:
-#            add "images/check_active.png"
-#        else:
-#            imagebutton:
-#                idle "images/check_inactive.png"
-#                hover "images/check_inactive.png"
-#                action Preference("skip", "seen")
-#                tooltip "Skip only previously read text"
-#                alt "skip only previously read text"
+            # textbutton _("Reset to default"):
+            #     action Preference("text speed", 50), Preference("auto-forward time", 4)
+            #     tooltip _("Reset text settings to default")
 
 
 style pref_label is gui_label
