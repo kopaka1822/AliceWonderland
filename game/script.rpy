@@ -1047,7 +1047,7 @@ label chapter4:
 
     alice "(How queer it seems, to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!)"
     "And she began fancying the sort of thing that would happen:"
-    alice "()'Miss Alice! Come here directly, and get ready for your walk!' 'Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.')"
+    alice "('Miss Alice! Come here directly, and get ready for your walk!' 'Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.')"
     alice "(Only I don’t think, that they’d let Dinah stop in the house if it began ordering people about like that!)"
 
     show fan gloves at Position(ypos = 0.65, xpos = 0.5)
