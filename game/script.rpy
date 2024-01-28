@@ -277,7 +277,7 @@ label chapter1:
     
     camera:
         perspective True
-        ease cam_transition xpos 0.38 ypos 955 zoom 2.09
+        ease cam_transition xpos 0.14 ypos 955 zoom 2.09
     rabbit "Oh my ears and whiskers, how late it's getting!"
     
     show rabbit normal zorder 5:
