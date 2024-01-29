@@ -10,7 +10,7 @@
     "name": "Alice in Wonderland - Visual Novel",
     "numeric_version": "131",
     "orientation": "portrait",
-    "package": "imp.and.gui",
+    "package": "kopa.alice.wonderland",
     "permissions": [
         "VIBRATE",
         "INTERNET"
@@ -20,5 +20,5 @@
     "update_always": true,
     "update_icons": true,
     "update_keystores": true,
-    "version": "0.1"
+    "version": "0.2"
 }

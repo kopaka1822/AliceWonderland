@@ -257,7 +257,8 @@ label chapter1:
     "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead."
 
     scene passage
-    show passage_front zorder 10
+    image passage_front_mask = AlphaMask("passage", "passage_front")
+    show passage_front_mask zorder 10
     call reset_camera
     camera:
         perspective True
@@ -2158,7 +2159,8 @@ label chapter7:
     show hatter at breathing:
         pos (hatter_tea_pos, 1.02) zoom hatter_scale
 
-    show hare_house_front zorder 50
+    image hare_house_front_mask = AlphaMask("hare_house", "hare_house_front")
+    show hare_house_front_mask zorder 50
 
     "There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head."
 
@@ -2747,7 +2749,8 @@ label chapter8:
     show alice normal at breathing:
         pos (alice_garden, 0.8) zoom alice_scale
 
-    show garden_front zorder 1000
+    image garden_front_mask = AlphaMask("garden", "garden_front")
+    show garden_front_mask zorder 1000
 
     "A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red."
     "Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them..."
@@ -3211,7 +3214,8 @@ label chapter8:
 
 label ch8_croquet:
     scene croquet
-    show croquet_front zorder 1000
+    image croquet_front_mask = AlphaMask("croquet", "croquet_front")
+    show croquet_front_mask zorder 1000
 
     # setup character
     define queen_croquet = 0.0
@@ -3469,7 +3473,7 @@ label chapter9:
     #jump ch9_gryphon
 
     scene croquet
-    show croquet_front zorder 1000
+    show croquet_front_mask zorder 1000
 
     # setup character
     define alice_nine = 1.3
