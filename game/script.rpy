@@ -1305,7 +1305,7 @@ label ch4_grass:
 
 label setup_caterpillar:
     scene sky:
-        xpos 0.0 zpos -1500 zzoom True
+        xpos 0.0 zpos -6000 zzoom True
 
 
     show soil:
@@ -1555,7 +1555,7 @@ label ch5_sky:
         # center sky
         anchor (0.5, 0.5)
         xpos 0.5 ypos 0.5
-        zoom 2.2
+        zoom 1.1
     camera:
         perspective True
         xpos 0 ypos 0 zpos 0 xoffset 0
