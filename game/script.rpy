@@ -242,7 +242,7 @@ label chapter1:
 
     "And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way:"
     alice "Do cats eat bats? Do cats eat bats?"
-    "and sometimes"
+    "And sometimes"
     alice "Do bats eat cats?" 
     "You see, as she couldn’t answer either question, it didn’t much matter which way she put it."
     "She felt that she was dozing off, and had just begun to dream that she was walking hand in hand with Dinah, and saying to her very earnestly:"
@@ -252,7 +252,7 @@ label chapter1:
     scene black
 
     play sound "sfx/thump2.mp3"
-    "when suddenly, thump! thump! down she came upon a heap of sticks and dry leaves, and the fall was over."
+    "When suddenly, thump! thump! down she came upon a heap of sticks and dry leaves, and the fall was over."
     
     "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead."
 
@@ -327,8 +327,8 @@ label chapter1:
     "It was all very well to say 'Drink me', but the wise little Alice was not going to do that in a hurry."
     alice "No, I’ll look first and see whether it’s marked 'poison' or not."
     
-    "she had read several nice little histories about children who had got burnt, and eaten up by wild beasts and other unpleasant things, all because they would not remember the simple rules their friends had taught them: "
-    "such as, that a red-hot poker will burn you if you hold it too long; and that if you cut your finger very deeply with a knife, it usually bleeds; and she had never forgotten that, if you drink much from a bottle marked 'poison', it is almost certain to disagree with you, sooner or later."
+    "She had read several nice little histories about children who had got burnt, and eaten up by wild beasts and other unpleasant things, all because they would not remember the simple rules their friends had taught them: "
+    "Such as, that a red-hot poker will burn you if you hold it too long; and that if you cut your finger very deeply with a knife, it usually bleeds; and she had never forgotten that, if you drink much from a bottle marked 'poison', it is almost certain to disagree with you, sooner or later."
     hide three_legged_table_bottle
     play sound "sfx/cork.mp3"
 
@@ -353,7 +353,7 @@ label chapter1:
     "After a while, finding that nothing more happened, she decided on going into the garden at once; but, alas for poor Alice, when she got to the door, she found she had forgotten the little golden key, and when she went back to the table for it, she found she could not possibly reach it: "
     show alice crying at breathing_crying:
         zoom 0.2
-    "she could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
+    "She could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
 
     alice "(Come, there’s no use in crying like that!)"
     show alice pout at breathing
@@ -417,7 +417,7 @@ label chapter2:
     show alice pout at breathing
     "After a time she heard a little pattering of feet in the distance, and she hastily dried her eyes to see what was coming."
     "It was the White Rabbit returning, splendidly dressed, with a pair of white kid gloves in one hand and a large fan in the other:"
-    "he came trotting along in a great hurry, muttering to himself as he came:"
+    "He came trotting along in a great hurry, muttering to himself as he came:"
 
     show rabbit normal at breathing:
         xpos 1.5 ypos 0.9 zoom 0.5
@@ -445,7 +445,7 @@ label chapter2:
     show alice pout
     alice "Dear, dear! How queer everything is to-day! And yesterday things went on just as usual."
     alice "I wonder if I’ve been changed in the night? Let me think:"
-    alice "was I the same when I got up this morning? I almost think I can remember feeling a little different."
+    alice "Was I the same when I got up this morning? I almost think I can remember feeling a little different."
     alice "But if I’m not the same, the next question is, Who in the world am I? Ah, that’s the great puzzle!"
     "And she began thinking over all the children she knew that were of the same age as herself, to see if she could have been changed for any of them."
 
@@ -453,7 +453,7 @@ label chapter2:
     alice "I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is—oh dear! I shall never get to twenty at that rate!"
     alice "However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, that’s all wrong, I’m certain!"
     alice "I must have been changed for Mabel! I’ll try and say 'How doth the little—'"
-    "and she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:"
+    "And she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:"
 
     alice "How doth the little crocodile \n    Improve his shining tail, \nAnd pour the waters of the Nile \n    On every golden scale!"
 
@@ -504,7 +504,7 @@ label chapter2:
     show alice pout zorder 1 at swimming:
         xpos 0.5 ypos 1.0 zoom alice_scale
     play music "audio/rinne beyond the sea.mp3"
-    "she was up to her chin in salt water."
+    "She was up to her chin in salt water."
 
     show alice thinking
     "Her first idea was that she had somehow fallen into the sea."
@@ -542,7 +542,7 @@ label chapter2:
     "So she began again:"
     show alice normal
     alice "Où est ma chatte?"
-    "which was the first sentence in her French lesson-book."
+    "Which was the first sentence in her French lesson-book."
     "The mouse gave a sudden leap out of the water, and seemed to quiver all over with fright."
     show alice thinking
     alice "Oh, I beg your pardon!"
@@ -557,7 +557,7 @@ label chapter2:
     alice "And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her."
     alice "She is such a dear quiet thing."
     "Alice went on, half to herself, as she swam lazily about in the pool."
-    alice "and she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
+    alice "And she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
     "This time the Mouse was bristling all over, and she felt certain it must be really offended."
     show alice thinking
     alice "We won’t talk about her any more if you’d rather not."
@@ -568,7 +568,7 @@ label chapter2:
 
     show alice normal
     alice "I won’t indeed!"
-    "alice was in a great hurry to change the subject of conversation."
+    "Alice was in a great hurry to change the subject of conversation."
     alice "Are you—are you fond—of—of dogs?"
     "The mouse did not answer, so Alice went on eagerly:"
     alice "There is such a nice little dog near our house I should like to show you!"
@@ -664,7 +664,7 @@ label ch3_start:
     camera: 
         ease cam_transition xpos muddy_lory_pos
     lory "I am older than you, and must know better."
-    "and this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said."
+    "And this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said."
 
     camera: 
         ease cam_transition xpos muddy_mouse_pos
@@ -715,7 +715,7 @@ label ch3_start:
     "The Mouse did not notice this question, but hurriedly went on."
 
     mouse "'—found it advisable to go with Edgar Atheling to meet William and offer him the crown. William’s conduct at first was moderate. But the insolence of his Normans—'"
-    "it continued, turning to Alice as it spoke."
+    "It continued, turning to Alice as it spoke."
     mouse "How are you getting on now, my dear?"
 
     camera: 
@@ -743,7 +743,7 @@ label ch3_start:
     show alice thinking
     alice "What is a Caucus-race?"
 
-    "not that she wanted much to know, but the Dodo had paused as if it thought that somebody ought to speak, and no one else seemed inclined to say anything."
+    "Not that she wanted much to know, but the Dodo had paused as if it thought that somebody ought to speak, and no one else seemed inclined to say anything."
 
     camera: 
         ease cam_transition xpos muddy_dodo_pos
@@ -832,7 +832,7 @@ label ch3_start:
     # restore original positions
     call ch3_setup
 
-    "and they all crowded round it, panting, and asking, "
+    "And they all crowded round it, panting, and asking, "
     everyone "But who has won?"
 
     "This question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence."
@@ -842,7 +842,7 @@ label ch3_start:
     dodo "Why, she, of course." 
     camera:
         ease cam_transition xpos muddy_alice_pos
-    "said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way:"
+    "Said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way:"
     everyone "Prizes! Prizes!"
 
     show comfits at Position(ypos = 0.65, xpos = muddy_alice_pos)
@@ -891,8 +891,8 @@ label ch3_start:
 
     
     alice "You promised to tell me your history, you know."
-    alice "and why it is you hate—C and D."
-    "alice added in a whisper, half afraid that it would be offended again."
+    alice "And why it is you hate—C and D."
+    "Alice added in a whisper, half afraid that it would be offended again."
  
     mouse "Mine is a long and a sad {b}tale{/b}!"
 
@@ -919,26 +919,26 @@ label ch3_start:
     show mouse:
         ease 1.0 xoffset 200
 
-    "the mouse gets up and walks away."
+    "The Mouse got up and walked away."
     mouse "You insult me by talking such nonsense!"
 
     alice "I didn’t mean it! But you’re so easily offended, you know!"
     show mouse:
         ease 1.0 xoffset 400
-    "The mouse only growled in reply."
+    "The Mouse only growled in reply."
 
     alice "Please come back and finish your story!"
     #"All the others joined in chorus:"
     show mouse:
         ease 1.0 xoffset 600
     everyone "Yes, please do!"
-    "but the Mouse only shook its head impatiently, and walked a little quicker."
+    "But the Mouse only shook its head impatiently, and walked a little quicker."
     hide mouse
 
     camera: 
         ease cam_transition xpos muddy_lory_pos
     lory "What a pity it wouldn’t stay!"
-    "sighed the Lory, as soon as it was quite out of sight; and an old Crab took the opportunity of saying to her daughter:"
+    "Sighed the Lory, as soon as it was quite out of sight; and an old Crab took the opportunity of saying to her daughter:"
 
     camera: 
         ease cam_transition xpos muddy_old_crab_pos
@@ -971,7 +971,7 @@ label ch3_start:
     magpie "I really must be getting home; the night-air doesn’t suit my throat!"
     hide magpie
 
-    "and a Canary called out in a trembling voice to its children:"
+    "And a Canary called out in a trembling voice to its children:"
     show canary:
         xzoom -1.0
         linear 1.0 xpos 4000
@@ -1137,7 +1137,7 @@ label chapter4:
     pat "Sure, I don’t like it, yer honour, at all, at all!"
     rabbit "Do as I tell you, you coward!"
     play sound "sfx/snatch.mp3"
-    "and at last she spread out her hand again, and made another snatch in the air."
+    "And at last she spread out her hand again, and made another snatch in the air."
 
     play sound "sfx/shatter.mp3"
     "This time there were two little shrieks, and more sounds of broken glass."
@@ -2512,7 +2512,7 @@ label chapter7:
     camera: 
         xpos dormouse_tea_pos
     show treacle at Position(xpos = dormouse_tea_pos, ypos = 0.6) zorder 200
-    dormouse "They lived on treacle, "
+    dormouse "They lived on treacle."
 
     "..."
     hide treacle
@@ -3248,7 +3248,7 @@ label ch8_croquet:
     camera:
         ease cam_transition xpos queen_croquet zoom 1.0 ypos 0
     show queen happy
-    "or"
+    "Or"
     camera:
         ease cam_transition xpos queen_croquet zoom 2.0 ypos 700
     show queen normal
@@ -3256,7 +3256,7 @@ label ch8_croquet:
     camera:
         ease cam_transition xpos queen_croquet zoom 1.0 ypos 0
     show queen happy
-    "about once in a minute."
+    "About once in a minute."
 
     camera:
         zoom 1.0 ypos 0
@@ -3702,7 +3702,7 @@ label ch9_gryphon:
     gryphon "Hjckrrh!" 
     camera:
         ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
-    "and the constant heavy sobbing of the Mock Turtle." 
+    "And the constant heavy sobbing of the Mock Turtle." 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     "Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story”, but she could not help thinking there must be more to come, so she sat still and said nothing."
