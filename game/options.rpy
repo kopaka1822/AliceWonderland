@@ -38,7 +38,7 @@ define build.name = "AliceWonderland"
 ## This controls how Ren'Py behaves when a player swipes their screen
 ## See https://www.renpy.org/doc/html/gesture.html for more details
 
-define config.gestures = { "e" : "rollback" , "w" : "rollforward", }
+define config.gestures = { }
 define config.dispatch_gesture = None
 
 
