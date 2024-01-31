@@ -4401,7 +4401,7 @@ label chapter11:
 label setup_court:
     # geometry
     show court_wall as wall1:
-        align (0.0, 1.0) zpos -1000 zoom 5.0
+        align (0.0, 1.0) zpos -1000 zoom 1.25
 
     show court_floor as floor1:
         align (0.5, 0.5) pos(1024, 1.0) xrotate 90.0 zoom 2.0
@@ -4411,9 +4411,9 @@ label setup_court:
         align (0.5, 0.5) pos(5120, 1.0) xrotate 90.0 zoom 2.0
 
     show court_wall as wallLeft:
-        align (1.0, 1.0) pos (2.72, 1.0) zpos 1915.0 zoom 5.0 yrotate 90
+        align (1.0, 1.0) pos (2.72, 1.0) zpos 1915.0 zoom 1.25 yrotate 90
     show court_wall as wallRight:
-        align (1.0, 1.0) pos (8.13, 1.0) zpos 1915.0 zoom 5.0 yrotate 90
+        align (1.0, 1.0) pos (8.13, 1.0) zpos 1915.0 zoom 1.25 yrotate 90
 
 
     show jurybox at anchor zorder 10:
