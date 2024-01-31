@@ -11,10 +11,7 @@
     "numeric_version": "131",
     "orientation": "portrait",
     "package": "kopa.alice.wonderland",
-    "permissions": [
-        "VIBRATE",
-        "INTERNET"
-    ],
+    "permissions": [],
     "source": false,
     "store": "none",
     "update_always": true,
