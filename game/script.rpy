@@ -4987,7 +4987,7 @@ label chapter12:
     king "That’s very important."
 
     camera:
-        ease cam_transition xpos court_jury ypos 0 zpos -500 # queen
+        ease cam_transition xpos court_jury ypos 0 zpos -900 # jury
     "The king turned to the jury."
     "They were just beginning to write this down on their slates, when the White Rabbit interrupted:"
 
@@ -5051,6 +5051,8 @@ label chapter12:
     king "Consider your verdict."
     "He said to the jury, in a low, trembling voice."
 
+    # hide alice because of clipping
+    hide alice
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     rabbit "There’s more evidence to come yet, please your Majesty."
@@ -5089,7 +5091,7 @@ label chapter12:
     rabbit "No, they’re not, and that’s the queerest thing about it."
 
     camera:
-        ease cam_transition xpos court_jury zpos -500 ypos 0 # jury
+        ease cam_transition xpos court_jury zpos -900 ypos 0 # jury
     "(The jury all looked puzzled)"
 
     camera:
@@ -5097,6 +5099,7 @@ label chapter12:
     king "He must have imitated somebody else’s hand."
     "(The jury all brightened up again)"
 
+    
     camera:
         ease cam_transition xpos court_knave ypos 0 zpos -500 # knave
     knave "Please your Majesty, I didn’t write it, and they can’t prove I did: there’s no name signed at the end."
@@ -5110,6 +5113,8 @@ label chapter12:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     queen "That proves his guilt."
 
+    show alice normal at breathing:
+        ypos 1.0 xpos court_witness zpos -350
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
     alice "It proves nothing of the sort!"
@@ -5119,6 +5124,7 @@ label chapter12:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     king "Read them."
 
+    hide alice # because of clipping
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     "The White Rabbit put on his spectacles."
@@ -5149,15 +5155,15 @@ label chapter12:
     king "That’s the most important piece of evidence we’ve heard yet." #,” said the King, rubbing his hands; 
     king "So now let the jury—"
 
+    show alice normal at breathing:
+        ypos 1.0 xpos court_witness zpos -350 zoom 1.3
     camera:
         ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
-    show alice normal:
-        zoom 1.3
     alice "If any one of them can explain it I’ll give him sixpence. I don’t believe there’s an atom of meaning in it."
     "(she had grown so large in the last few minutes that she wasn’t a bit afraid of interrupting him)"
 
     camera:
-        ease cam_transition xpos court_jury zpos -500 ypos 0 # jury
+        ease cam_transition xpos court_jury zpos -900 ypos 0 # jury
     "The jury all wrote down on their slates: “She doesn’t believe there’s an atom of meaning in it”, but none of them attempted to explain the paper."
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
@@ -5166,6 +5172,7 @@ label chapter12:
     "He went on, spreading out the verses on his knee, and looking at them with one eye."
     king "I seem to see some meaning in them, after all. “—said I could not swim—” you can’t swim, can you?"
 
+    hide alice
     camera:
         ease cam_transition xpos court_knave ypos 0 zpos -500 # knave
     "He turned to the Knave."
@@ -5180,6 +5187,8 @@ label chapter12:
     "The King went on muttering over the verses to himself:"
     king "‘We know it to be true—’ that’s the jury, of course—‘I gave her one, they gave him two—’ why, that must be what he did with the tarts, you know—” "
 
+    show alice normal at breathing:
+        ypos 1.0 xpos court_witness zpos -350 zoom 1.3
     camera:
         ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
     alice "But, it goes on ‘they all returned from him to you’"
