@@ -68,10 +68,10 @@ screen conf_button():
 
             imagebutton:
                 alt "change configuration settings"
-                auto "gui/button/settings_%s.png"
+                auto default_button_image
                 hover_foreground Text(_("Configure GUI"), xalign=0.5, yalign=0.5)
                 idle_foreground Text(_("Configure GUI"), xalign=0.5, yalign=0.5)
-                selected_idle "gui/button/settings_selected_idle.png"
-                selected_hover "gui/button/settings_selected_hover.png"
+                selected_idle default_button_idle_image
+                selected_hover default_button_hover_image
                 action ShowMenu("configs")
                 tooltip _("Change Configuration settings")

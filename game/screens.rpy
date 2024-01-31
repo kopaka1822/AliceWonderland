@@ -313,7 +313,7 @@ screen mm_content():
 
         imagebutton:
             alt "continue"
-            auto load_button_image
+            auto default_button_image
             hover_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
             idle_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
             action Start(label="autoload")
@@ -321,7 +321,7 @@ screen mm_content():
 
         # imagebutton:
         #     alt "load"
-        #     auto load_button_image
+        #     auto default_button_image
         #     hover_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
         #     idle_foreground Text(_("Load"), xalign=0.5, yalign=0.5)
         #     action ShowMenu("load")
@@ -329,7 +329,7 @@ screen mm_content():
 
         imagebutton:
             alt "chapter"
-            auto load_button_image
+            auto default_button_image
             hover_foreground Text(_("Chapter"), xalign=0.5, yalign=0.5)
             idle_foreground Text(_("Chapter"), xalign=0.5, yalign=0.5)
             action ShowMenu("chapter_select")
@@ -337,7 +337,7 @@ screen mm_content():
 
         imagebutton:
             alt "Settings"
-            auto settings_button_image
+            auto default_button_image
             hover_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
             idle_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
             action ShowMenu("preferences")
@@ -345,7 +345,7 @@ screen mm_content():
 
         imagebutton:
             alt "credits"
-            auto load_button_image
+            auto default_button_image
             hover_foreground Text(_("Credits"), xalign=0.5, yalign=0.5)
             idle_foreground Text(_("Credits"), xalign=0.5, yalign=0.5)
             action Start(label="credits")
@@ -405,8 +405,9 @@ screen nav_content():
 
     imagebutton:
         yalign 1.0 xalign 1.0
+        xoffset -50 yoffset -50
         alt "return"
-        auto return_button_image
+        auto default_button_image
         hover_foreground Text(_("Return"), xalign=0.5, yalign=0.5)
         idle_foreground Text(_("Return"), xalign=0.5, yalign=0.5)
         action Return()
@@ -489,7 +490,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
     #
     #     imagebutton:
     #         alt "return"
-    #         auto return_button_image
+    #         auto default_button_image
     #         hover_foreground Text(_("Return"), xalign=0.5, yalign=0.5)
     #         idle_foreground Text(_("Return"), xalign=0.5, yalign=0.5)
     #         action Return()
@@ -730,7 +731,7 @@ screen system_settings():
             hbox:
                 imagebutton:
                     alt "skip all text"
-                    auto skip_all_button_image
+                    auto default_button_image
                     hover_foreground Text(_("{u}All text{/u}"), xalign=0.5, yalign=0.5)
                     idle_foreground Text(_("All text"), xalign=0.5, yalign=0.5)
                     selected_background "#5f9bff"
@@ -739,7 +740,7 @@ screen system_settings():
 
                 imagebutton:
                     alt "skip only previously read text"
-                    auto skip_read_button_image
+                    auto default_button_image
                     hover_foreground Text(_("{u}Seen text{/u}"), xalign=0.5, yalign=0.5)
                     idle_foreground Text(_("Seen text"), xalign=0.5, yalign=0.5)
                     selected_background "#5f9bff"
@@ -1402,7 +1403,7 @@ style slider_pref_slider:
 screen chapter_select():
     
         tag menu
-    
+        
         use game_menu(_("Chapter Select"), scroll="viewport"):
     
             style_prefix "main_menu"
@@ -1416,7 +1417,7 @@ screen chapter_select():
                 for i in range(1, 13):
                     imagebutton:
                         alt "Chapter {}".format(i)
-                        auto load_button_image
+                        auto default_button_image
                         hover_foreground Text("Chapter {}".format(i), xalign=0.5, yalign=0.5, color="#FFFFFF")
                         idle_foreground Text("Chapter {}".format(i), xalign=0.5, yalign=0.5, color="#FFFFFF")
                         #action Jump("chapter{}".format(i))
