@@ -29,38 +29,23 @@ screen quick_menu():
 screen quick_menu_b():
     ## Create a container for the quick menu content
     frame:
-
+        background "#000C"
+        ysize 115
         xfill True
+        modal True # dont allow click through
         ## Align the quick menu to the top of the screen
         ypos 0
         has hbox
         style_prefix "touch_quick"
 
         xalign 0.5
-        yalign 0.8
-        spacing 35
+        yalign 0.5
+        spacing 64
 
         textbutton _("Back") action Rollback()
         textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
         textbutton _("Auto") action Preference("auto-forward", "toggle")
         textbutton _("Menu") action [force_autosave_blocking_and_restart]
-
-
-style quick_menu_frame:
-    xfill True
-    ysize 150
-
-    background Frame("gui/overlay/menu_top.png", gui.frame_borders, tile=gui.frame_tile)
-    padding gui.frame_borders.padding
-
-style quick_button is default
-style quick_button_text is button_text
-
-style quick_button:
-    properties gui.button_properties("quick_button")
-
-style quick_button_text:
-    properties gui.button_text_properties("quick_button")
 
 
 style touch_quick_button is default
