@@ -3627,7 +3627,7 @@ label ch9_gryphon:
     scene cliff
 
     show gryphon at breathing:
-        pos (0.11, 1.2) xzoom -1.0 zoom 2.0
+        pos (0.11, 1.2) xzoom -1.0 zoom 1.0
     show queen normal at breathing:
         pos (1.23, 0.9) zoom queen_scale
     show alice normal at breathing:
@@ -3905,7 +3905,7 @@ label chapter10:
     show alice normal at breathing:
         pos (alice_turtle, 0.9) zoom alice_scale
     show gryphon behind alice at breathing:
-        pos (gyphon_pos, 1.2) zoom 2.0
+        pos (gyphon_pos, 1.2) zoom 1.0
     show turtle at breathing:
         pos (turtle_pos, 0.89)
 
@@ -4478,7 +4478,7 @@ label setup_court:
 
     # observers
     show gryphon at breathing zorder 5:
-        ypos 1.22 xpos 500 zpos -800 zoom 2.0 xzoom -1.0
+        ypos 1.22 xpos 500 zpos -800 zoom 1.0 xzoom -1.0
 
     show alice normal at breathing zorder 10:
         ypos 1.0 xpos court_alice zpos -700 zoom alice_scale
