@@ -54,13 +54,13 @@ style prompt_text is gui_text:
 
 style bar:
     ysize gui.bar_size
-    left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
-    right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
+    # Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
+    #right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
 
 style vbar:
     xsize gui.bar_size
-    top_bar Frame("gui/bar/top.png", gui.vbar_borders, tile=gui.bar_tile)
-    bottom_bar Frame("gui/bar/bottom.png", gui.vbar_borders, tile=gui.bar_tile)
+    #top_bar Frame("gui/bar/top.png", gui.vbar_borders, tile=gui.bar_tile)
+    #bottom_bar Frame("gui/ bar/bottom.png", gui.vbar_borders, tile=gui.bar_tile)
 
 style scrollbar:
     ysize gui.scrollbar_size
@@ -85,7 +85,7 @@ style vslider:
 
 style frame:
     padding gui.frame_borders.padding
-    background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
+    background "#000"
 
 
 ################################################################################
@@ -260,7 +260,7 @@ style navigation_menu_frame:
     xfill True
     ysize 300
 
-    background Frame("gui/overlay/menu_bottom.png", gui.frame_borders, tile=gui.frame_tile)
+    background Frame("#000", gui.frame_borders, tile=gui.frame_tile)
     padding gui.frame_borders.padding
 style navigation_menu_vbox is main_menu_vbox
 style navigation_menu_text is main_menu_text
@@ -380,7 +380,7 @@ style main_menu_frame:
     xsize 416
     yfill True
 
-    background Frame("gui/overlay/menu_side.png", gui.frame_borders, tile=gui.frame_tile)
+    background Frame("#000", gui.frame_borders, tile=gui.frame_tile)
     padding gui.frame_borders.padding
 
 style main_menu_vbox:
@@ -521,7 +521,7 @@ style game_menu_outer_frame:
     bottom_padding 436
     top_padding 120
 
-    background "gui/overlay/game_menu.png"
+    background "gui/game_menu.png"
 
 style game_menu_navigation_frame:
     xsize 416
@@ -1015,8 +1015,6 @@ screen confirm(message, yes_action, no_action):
 
     style_prefix "confirm"
 
-    add "gui/overlay/confirm.png"
-
     frame:
 
         vbox:
@@ -1046,7 +1044,7 @@ style confirm_button is gui_medium_button
 style confirm_button_text is gui_medium_button_text
 
 style confirm_frame:
-    background Frame([ "gui/confirm_frame.png", "gui/frame.png"], gui.confirm_frame_borders, tile=gui.frame_tile)
+    background Frame("#000", gui.confirm_frame_borders, tile=gui.frame_tile)
     padding gui.confirm_frame_borders.padding
     xalign .5
     yalign .5
@@ -1329,7 +1327,7 @@ style nvl_window:
     xfill True
     yfill True
 
-    background "gui/nvl.png"
+    background "gui/game_menu.png"
     padding gui.nvl_borders.padding
 
 style nvl_entry:
