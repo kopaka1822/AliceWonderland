@@ -111,21 +111,19 @@ screen say(who, what):
 
     window:
         id "window"
+        text what id "what"
 
+        # different background for speaking and not speaking
         if who is not None:
-
+            background Image("gui/textbox2.png", xalign=0.5, yalign=1.0)
             window:
                 id "namebox"
                 style "namebox"
                 text who id "who"
-
-        text what id "what"
-
+        else:
+            background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
     ## Place a character image on the bottom left of the screen
     #add SideImage() xalign 0.0 yalign 1.0
-
-    ## Select quick menu style to use.
-    ## Show the quick menu only when the say screen is shown
 
     use quick_menu
 
@@ -142,24 +140,23 @@ style say_thought is say_dialogue
 style namebox is default
 style namebox_label is say_label
 
+define gui.textbox_height = 630
 
 style window:
     xalign 0.5
     xfill True
-    yalign gui.textbox_yalign
+    yalign 1.0
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
-
 style namebox:
-    xpos gui.name_xpos
-    xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
+    xalign 0
+    xanchor 0
+
+    ypos 0
+    yalign 0.0
     ysize gui.namebox_height
 
-    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
-    padding gui.namebox_borders.padding
+    padding (12, 12, 12, 12)
 
 style say_label:
     properties gui.text_properties("name", accent=True)
@@ -169,9 +166,9 @@ style say_label:
 style say_dialogue:
     properties gui.text_properties("dialogue")
 
-    xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
+    xpos 12
+    xsize 1080-24
+    ypos 90
 
 
 ## Input screen ################################################################
