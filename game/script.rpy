@@ -456,9 +456,9 @@ label chapter2:
     alice "I must have been changed for Mabel! I’ll try and say 'How doth the little—'"
     "And she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:"
 
-    alice "How doth the little crocodile \n    Improve his shining tail, \nAnd pour the waters of the Nile \n    On every golden scale!"
+    alice "How doth the little crocodile\n{space=30}Improve his shining tail,\nAnd pour the waters of the Nile\n{space=30}On every golden scale!"
 
-    alice "How cheerfully he seems to grin, \n    How neatly spread his claws, \nAnd welcome little fishes in \n    With gently smiling jaws!"
+    alice "How cheerfully he seems to grin,\n{space=30}How neatly spread his claws,\nAnd welcome little fishes in\n{space=30}With gently smiling jaws!"
 
     show alice crying at breathing_crying
     alice "I’m sure those are not the right words."
@@ -833,7 +833,7 @@ label ch3_start:
     # restore original positions
     call ch3_setup
 
-    "And they all crowded round it, panting, and asking, "
+    "And they all crowded round it, panting, and asking:"
     everyone "But who has won?"
 
     "This question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence."
@@ -1121,7 +1121,7 @@ label chapter4:
 
     "Next came an angry voice—"
     rabbit "Pat! Pat! Where are you?"
-    "And then a voice she had never heard before, "
+    "And then a voice she had never heard before:"
     pat "Sure then I’m here! Digging for apples, yer honour!"
     rabbit "Digging for apples, indeed!"
     rabbit "Here! Come and help me out of this!"
@@ -1455,21 +1455,21 @@ label chapter5:
 
     "Alice folded her hands, and began:"
 
-    alice "'You are old, Father William,' the young man said,\n   And your hair has become very white;\nAnd yet you incessantly stand on your head—\n   Do you think, at your age, it is right?'"
+    alice "'You are old, Father William',\nthe young man said,\n{space=30}And your hair has become very white;\nAnd yet you incessantly stand on your head—\n{space=30}Do you think, at your age, it is right?'"
 
-    alice "'In my youth,' Father William replied to his son,\n   'I feared it might injure the brain;\nBut, now that I’m perfectly sure I have none,\n   Why, I do it again and again.'"
+    alice "'In my youth',\nFather William replied to his son,\n{space=30}'I feared it might injure the brain;\nBut, now that I’m perfectly sure I have none,\n{space=30}Why, I do it again and again.'"
 
-    alice "'You are old,' said the youth, 'as I mentioned before,\n   And have grown most uncommonly fat;\nYet you turned a back-somersault in at the door—\n   Pray, what is the reason of that?'"
+    alice "'You are old', said the youth,\n'as I mentioned before,\n{space=30}And have grown most uncommonly fat;\nYet you turned a back-somersault\nin at the door—\n{space=30}Pray, what is the reason of that?'"
 
-    alice "'In my youth,' said the sage, as he shook his grey locks,\n   'I kept all my limbs very supple\nBy the use of this ointment—one shilling the box—\n   Allow me to sell you a couple?'"
+    alice "'In my youth', said the sage,\nas he shook his grey locks,\n{space=30}'I kept all my limbs very supple\nBy the use of this ointment—\none shilling the box—\n{space=30}Allow me to sell you a couple?'"
 
-    alice "'You are old,' said the youth, 'and your jaws are too weak\n   For anything tougher than suet;\nYet you finished the goose, with the bones and the beak—\n   Pray how did you manage to do it?'"
+    alice "'You are old', said the youth,\n'and your jaws are too weak\n{space=30}For anything tougher than suet;\nYet you finished the goose,\nRwith the bones and the beak—\n{space=30}Pray how did you manage to do it?'"
 
-    alice "'In my youth,' said his father, 'I took to the law,\n   And argued each case with my wife;\nAnd the muscular strength, which it gave to my jaw,\n   Has lasted the rest of my life.'"
+    alice "'In my youth', said his father, \n'I took to the law,\n{space=30}And argued each case with my wife;\nAnd the muscular strength, \nwhich it gave to my jaw,\n{space=30}Has lasted the rest of my life.'"
 
-    alice "'You are old,' said the youth, 'one would hardly suppose\n   That your eye was as steady as ever;\nYet you balanced an eel on the end of your nose—\n   What made you so awfully clever?'"
+    alice "'You are old', said the youth, \n'one would hardly suppose\n{space=30}That your eye was as steady as ever;\nYet you balanced an eel \non the end of your nose—\n{space=30}What made you so awfully clever?'"
 
-    alice "'I have answered three questions, and that is enough,'\n   Said his father; 'don’t give yourself airs!\nDo you think I can listen all day to such stuff?\n   Be off, or I’ll kick you down stairs!'"
+    alice "'I have answered three questions, \nand that is enough',\n{space=30}Said his father; 'don’t give yourself airs!\nDo you think I can listen all day to such stuff?\n{space=30}Be off, or I’ll kick you down stairs!'"
 
     caterpillar "That is not said right."
 
@@ -4249,10 +4249,10 @@ label chapter10:
     alice "(I might as well be at school at once)"
     "However, she got up, and began to repeat it, but her head was so full of the Lobster Quadrille, that she hardly knew what she was saying, and the words came very queer indeed:—"
 
-    alice "’Tis the voice of the Lobster; I heard him declare,\n
-    “You have baked me too brown, I must sugar my hair.”"
-    alice "As a duck with its eyelids, so he with his nose\n
-    Trims his belt and his buttons, and turns out his toes."
+    alice "’Tis the voice of the Lobster; \n{space=30}I heard him declare,
+    \n“You have baked me too brown, \n{space=30}I must sugar my hair.”
+    \nAs a duck with its eyelids, \n{space=30}so he with his nose
+    \nTrims his belt and his buttons, \n{space=30}and turns out his toes."
 
     # later editions continue with
     #alice "When the sands are all dry, he is gay as a lark,\n
@@ -4299,16 +4299,14 @@ label chapter10:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     "Alice did not dare to disobey, though she felt sure it would all come wrong, and she went on in a trembling voice:—"
 
-    alice "I passed by his garden, and marked, with one eye,\n
-    How the Owl and the Panther were sharing a pie—"
-
-    # later editions continue with
-    alice "The Panther took pie-crust, and gravy, and meat,\n
-    While the Owl had the dish as its share of the treat."
-    alice "When the pie was all finished, the Owl, as a boon,\n
-    Was kindly permitted to pocket the spoon:"
-    alice "While the Panther received knife and fork with a growl,\n
-    And concluded the banquet—"
+    alice "I passed by his garden, \n{space=30}and marked, with one eye,
+    \nHow the Owl and the Panther \n{space=30}were sharing a pie.
+    \nThe Panther took pie-crust, \n{space=30}and gravy, and meat,
+    \nWhile the Owl had the dish \n{space=30}as its share of the treat."
+    alice "When the pie was all finished, \n{space=30}the Owl, as a boon,
+    \nWas kindly permitted \n{space=30}to pocket the spoon:
+    \nWhile the Panther received \n{space=30}knife and fork with a growl,
+    \nAnd concluded the banquet—"
 
 
     camera:
@@ -4562,10 +4560,10 @@ label ch11_court:
     play sound "sfx/fanfare.mp3"
     "On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—"
 
-    rabbit "The Queen of Hearts, she made some tarts,\n
-    {space=30}All on a summer day:\n
-    The Knave of Hearts, he stole those tarts,\n
-    {space=30}And took them quite away!"
+    rabbit "The Queen of Hearts, she made some tarts,
+    \n{space=30}All on a summer day:
+    \nThe Knave of Hearts, he stole those tarts,
+    \n{space=30}And took them quite away!"
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000
