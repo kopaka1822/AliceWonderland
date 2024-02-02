@@ -53,6 +53,7 @@ style touch_quick_button_text is button_text
 
 style touch_quick_button:
     properties gui.button_properties("touch_quick_button")
+    yfill True
 
 style touch_quick_button_text:
     properties gui.button_text_properties("touch_quick_button")
