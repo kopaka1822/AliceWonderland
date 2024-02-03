@@ -5309,19 +5309,10 @@ label chapter12:
     call reset_camera
     "The End."
     
-label credits:
-    scene black 
-
-    # Director
-    nvl_narrator "{size=+20}Credits
-    \n\n{size=-20}Director: Kopaka
-    \n\nOriginal Script: Lewis Carroll
-    \n\nArt: Created with DALL·E 2, edited by Kopaka
-    \n\nMusic: Rinne Music
-    \n\nProgrammers: Nomander and Kopaka
-    \n\nQuality Assurance: You <3
-    \n\nMade with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
-    nvl clear
+    call screen credits
+    # delete autosave slot
+    if renpy.can_load("auto-1"):
+        $ renpy.unlink_save("auto-1")
     return
 
 label autoload:

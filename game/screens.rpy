@@ -347,7 +347,7 @@ screen main_menu():
             auto default_button_image
             hover_foreground Text(_("Credits"), xalign=0.5, yalign=0.5)
             idle_foreground Text(_("Credits"), xalign=0.5, yalign=0.5)
-            action Start(label="credits")
+            action ShowMenu("credits")
             tooltip _("Show Credits")
 
     vbox:
@@ -428,12 +428,10 @@ screen nav_content():
 ## this screen is intended to be used with one or more children, which are
 ## transcluded (placed) inside it.
 
-screen game_menu(title, scroll=None, yinitial=0.0):
+screen game_menu(title, scroll=None, yinitial=0.0, bg=gui.game_menu_background):
 
     style_prefix "game_menu"
-
-    add gui.game_menu_background
-
+    
     frame:
         style "game_menu_outer_frame"
 
@@ -476,25 +474,6 @@ screen game_menu(title, scroll=None, yinitial=0.0):
                     transclude
     use nav_content
 
-    # grid 3 2:
-    #     xalign 0.5
-    #     yalign 0.965
-    #     spacing 20
-    #
-    #     null
-    #     null
-    #     null
-    #     null
-    #     null
-    #
-    #     imagebutton:
-    #         alt "return"
-    #         auto default_button_image
-    #         hover_foreground Text(_("Return"), xalign=0.5, yalign=0.5)
-    #         idle_foreground Text(_("Return"), xalign=0.5, yalign=0.5)
-    #         action Return()
-    #         tooltip _("Return to the main menu")
-
     hbox:
         xalign 0.5
         label title
@@ -517,8 +496,7 @@ style return_button is navigation_button
 style return_button_text is navigation_button_text
 
 style game_menu_outer_frame:
-#    bottom_padding 130
-    bottom_padding 436
+    bottom_padding 200
     top_padding 120
 
     background gui.game_menu_background
@@ -1423,3 +1401,25 @@ screen chapter_select():
                         action Start(label="chapter{}".format(i))
                         size_group "chapters"
                         
+
+
+screen credits():
+
+    tag menu
+
+
+    use game_menu(_("Credits"), scroll="viewport", bg=None):
+
+        style_prefix "credits"
+        text "Director: Kopaka\n"
+        text "Original Script: Lewis Carroll\n"
+        text "Art: Created with DALL·E 2, edited by Kopaka\n"
+        text "Music: Rinne Music\n"
+        text "Programmers: Nomander and Kopaka\n"
+        text "Quality Assurance Testers:"
+        text "Darkwilli"
+        text "SirKero"
+        text "\nMade with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+
+style credits_text:
+    size 50 color "#fff"
