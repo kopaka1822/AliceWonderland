@@ -684,7 +684,7 @@ screen preferences():
     $ tooltip = GetTooltip()
 
     tag menu
-
+    add gui.game_menu_background
 
     use game_menu(_("Settings"), scroll="viewport"):
 
@@ -1379,34 +1379,36 @@ style slider_pref_slider:
 
 screen chapter_select():
     
-        tag menu
+    tag menu
+    add gui.game_menu_background
+
+    use game_menu(_("Chapter Select"), scroll="viewport"):
+
+        style_prefix "main_menu"
         
-        use game_menu(_("Chapter Select"), scroll="viewport"):
-    
-            style_prefix "main_menu"
-            
-            grid 2 6:
-                xoffset 200
-                yoffset 400 
-                xalign 0.5
-                yalign 0.5
-                spacing 20
-                for i in range(1, 13):
-                    imagebutton:
-                        alt "Chapter {}".format(i)
-                        auto default_button_image
-                        hover_foreground Text("Chapter {}".format(i), xalign=0.5, yalign=0.5, color="#FFFFFF")
-                        idle_foreground Text("Chapter {}".format(i), xalign=0.5, yalign=0.5, color="#FFFFFF")
-                        #action Jump("chapter{}".format(i))
-                        action Start(label="chapter{}".format(i))
-                        size_group "chapters"
+        grid 2 6:
+            xoffset 200
+            yoffset 400 
+            xalign 0.5
+            yalign 0.5
+            spacing 20
+            for i in range(1, 13):
+                imagebutton:
+                    alt "Chapter {}".format(i)
+                    auto default_button_image
+                    hover_foreground Text("Chapter {}".format(i), xalign=0.5, yalign=0.5, color="#FFFFFF")
+                    idle_foreground Text("Chapter {}".format(i), xalign=0.5, yalign=0.5, color="#FFFFFF")
+                    #action Jump("chapter{}".format(i))
+                    action Start(label="chapter{}".format(i))
+                    size_group "chapters"
                         
 
 
 screen credits():
 
-    tag menu
+    tag menu 
 
+    add gui.game_menu_background
 
     use game_menu(_("Credits"), scroll="viewport", bg=None):
 
@@ -1414,7 +1416,7 @@ screen credits():
         text "Director: Kopaka\n"
         text "Original Script: Lewis Carroll\n"
         text "Art: Created with DALL·E 2, edited by Kopaka\n"
-        text "Music: Rinne Music\n"
+        text "Music: {a=https://www.youtube.com/@RinneMusic}Rinne Music{/a}\n"
         text "Programmers: Nomander and Kopaka\n"
         text "Quality Assurance Testers:"
         text "Darkwilli"
