@@ -298,9 +298,11 @@ screen main_menu():
 
     add gui.main_menu_background
 
-    use mm_content
-
-screen mm_content():
+    # title
+    vbox:
+        xalign 0.5
+        yalign 0.1
+        text "Alice in Wonderland" size 80 color "#000" font "HennyPenny-Regular.ttf"
 
     vbox:
 
@@ -519,7 +521,7 @@ style game_menu_outer_frame:
     bottom_padding 436
     top_padding 120
 
-    background "gui/game_menu.png"
+    background gui.game_menu_background
 
 style game_menu_navigation_frame:
     xsize 416
@@ -1325,7 +1327,7 @@ style nvl_window:
     xfill True
     yfill True
 
-    background "gui/game_menu.png"
+    background gui.game_menu_background
     padding gui.nvl_borders.padding
 
 style nvl_entry:
