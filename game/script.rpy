@@ -1,26 +1,51 @@
 ﻿init python:
+    import random
+
     renpy.register_shader("game.breathing", variables="""
+        uniform sampler2D tex0;
         uniform float u_breath_cycle;
+        uniform float u_offset; // in 0 1
         uniform vec2 res0;
+        varying vec2 v_tex_coord;
     """, fragment_300="""
-        float rng = dot(texture2D(tex0, vec2(0.5), 7.0).xyz, vec3(0.33)); // random offset for each texture
-        float scale = 0.5 + 0.5 * sin((rng + u_breath_cycle) * 2.0 * 3.141);
+        float scale = 0.5 + 0.5 * sin((u_offset + u_breath_cycle) * 2.0 * 3.141);
+        #ifndef TEXC
         vec2 texC = v_tex_coord.xy;
+        #endif
         texC.y = 1.0 - (1.0 - texC.y) * (1.0 + 0.01 * scale);
         if(texC.y < 0.0 || texC.y > 1.0) discard;
 
         gl_FragColor = texture2D(tex0, texC, -0.55);
     """)
-    #renpy.register_shader("game.cat", variables="""
-    #    uniform float u_time;
-    #    uniform sampler2D tex1;
-    #    uniform float u_dissolve;
-    #""", fragment_400="""
-    #    vec2 d = texture(tex1, v_tex_coord, -0.5).xy;
-    #    float alpha = 1.0 - clamp((u_dissolve - d.x) / max(d.y - d.x, 0.001), 0.#0, 1.0);
-    #    gl_FragColor = texture2D(tex0, v_tex_coord, -0.5);
-    #    gl_FragColor.a *= alpha;
-    #""")
+    renpy.register_shader("game.animation", variables="""
+        uniform sampler2D tex0;
+        uniform sampler2D tex1;
+        uniform float u_breath_cycle;
+        uniform float u_offset; // in 0 1
+        varying vec2 v_tex_coord;
+    """, fragment_250="""
+        float a = texture2D(tex1, v_tex_coord, -0.5).x;
+        #define TEXC
+        vec2 texC = v_tex_coord.xy;
+        float xspread = -(texC.x - 0.5) * (1.0 + sin((u_offset + u_breath_cycle) * 2.0 * 3.141)) * a * 0.04;
+        texC.x += xspread;
+        texC.y += cos((u_offset + u_breath_cycle) * 2.0 * 3.141) * a * 0.006;
+        gl_FragColor = texture2D(tex0, texC, -0.5);
+    """)
+
+    def get_shaders_breathing(child):
+        if isinstance(child.target, renpy.display.im.Image):
+            return ["renpy.texture", "game.breathing"]
+        return ["renpy.texture", "game.animation", "game.breathing"]
+
+    def get_shaders_swimming(child):
+        if isinstance(child.target, renpy.display.im.Image):
+            return ["renpy.texture"]
+        return ["renpy.texture", "game.animation"]
+
+    def get_object_rng(obj):
+        random.seed(hash(obj))
+        return random.random()
 
 define alice = Character("Alice", color="#ADD8E6")
 define rabbit = Character("Rabbit", color="#ffffff")
@@ -70,32 +95,43 @@ define duchess_scale = 0.52
 define cam_transition = 0.5
 define center_offset = 540 # half of 1080
 
-transform breathing_calm:
+transform breathing_calm(child):
+    child
     anchor (0.5, 1.0)
-    # todo slower speed
-    shader "game.breathing"
+    #$ shaders = ["renpy.texture", "game.animation", "game.breathing"]
+    shader get_shaders_breathing(child)
     u_breath_cycle 0.0
+    u_offset get_object_rng(child)
     linear 6.0 u_breath_cycle 1.0
     repeat
 
-transform breathing:
+transform breathing(child):
+    child
     anchor (0.5, 1.0)
-    shader "game.breathing"
+    shader get_shaders_breathing(child)
     u_breath_cycle 0.0
-    linear 5.0 u_breath_cycle 1.0
+    u_offset get_object_rng(child)
+    linear get_object_rng(hash(child)) + 5.0 u_breath_cycle 1.0
     repeat
 
-transform breathing_crying:
+transform breathing_crying(child):
+    child
     anchor (0.5, 1.0)
-    shader "game.breathing"
+    shader get_shaders_breathing(child)
+    u_offset get_object_rng(child)
     u_breath_cycle 0.0
     linear 3.5 u_breath_cycle 1.0
     repeat
 
-transform swimming:
+transform swimming(child):
+    child
     anchor (0.5, 1.0)
-    ease 2.0 yoffset -10
+    shader get_shaders_swimming(child)
+    u_breath_cycle 0.0
+    u_offset get_object_rng(child)
+    ease 2.0 yoffset -10 
     ease 2.0 yoffset 10
+    # TODO maybe add breathing anim.
     repeat
 
 transform anchor:
@@ -106,6 +142,17 @@ label reset_camera:
         perspective False
         xpos 0 ypos 0 zpos 0 zoom 1.0 xoffset 0 zrotate 0
     return
+
+#image alice sleepy = ["alice sleepy.png", "alice_mask.png"]
+# alice pictures
+image alice sleepy = Model().child("alice sleepy.png", fit=True).texture("alice_mask.png")
+image alice crying = Model().child("alice crying.png", fit=True).texture("alice_mask.png")
+image alice excited = Model().child("alice excited.png", fit=True).texture("alice_mask.png")
+image alice happy = Model().child("alice happy.png", fit=True).texture("alice_mask.png")
+image alice normal = Model().child("alice normal.png", fit=True).texture("alice_mask.png")
+image alice pout = Model().child("alice pout.png", fit=True).texture("alice_mask.png")
+image alice surprised = Model().child("alice surprised.png", fit=True).texture("alice_mask.png")
+image alice thinking = Model().child("alice thinking.png", fit=True).texture("alice_mask.png")
 
 label start:
     #jump chapter1_after_fall
@@ -120,12 +167,13 @@ label chapter1:
 
     define alice_riverbank = -0.22
     define rabbit_riverbank = 0.5
-    show alice sleepy at breathing_calm:
-        xpos -0.22 ypos 0.9 zoom alice_scale
 
     camera:
         perspective True
         xpos alice_riverbank xoffset -center_offset
+
+    show alice sleepy at breathing_calm:
+        xpos -0.22 ypos 0.9 zoom alice_scale
 
     "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it."
 
@@ -766,7 +814,7 @@ label ch3_start:
     hide racetrack
 
     # place party members randomly
-    show alice normal:
+    show alice normal at breathing:
         ease cam_transition xpos 2000
     show mouse:
         ease cam_transition xpos 1900
@@ -779,7 +827,7 @@ label ch3_start:
 
     "And then all the party were placed along the course, here and there."
 
-    show alice happy:
+    show alice happy at breathing:
         ease 2.0 xoffset -1000
         ease 2.0 xoffset 0
         repeat
@@ -1043,7 +1091,7 @@ label chapter4:
     "Very soon the Rabbit noticed Alice, as she went hunting about." # , and called out to her in an angry tone"
     show alice surprised
     rabbit "*angry* Why, Mary Ann, what are you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!"
-    show alice surprised:
+    show alice surprised at breathing:
         linear 1.0 xpos 2.0
     "And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made."
     scene black
@@ -1075,7 +1123,7 @@ label chapter4:
     alice "(I know something interesting is sure to happen, whenever I eat or drink anything; so I’ll just see what this bottle does)"
     alice "(I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!)"
 
-    show alice excited:
+    show alice excited at breathing:
         pos (0.5, 0.9)
         anchor (0.5, 1.0)
         zoom alice_scale
@@ -1225,7 +1273,7 @@ label chapter4:
     alice "(If I eat one of these cakes, it’s sure to make some change in my size; and as it can’t possibly make me larger, it must make me smaller, I suppose)"
     hide pebble_cake
 
-    show alice:
+    show alice at breathing:
         easein 10.0 zoom 1.0
     "So she swallowed one of the cakes, and was delighted to find that she began shrinking directly."
 
@@ -1239,7 +1287,7 @@ label chapter4:
     "As soon as she was small enough to get through the door, she ran out of the house, and found quite a crowd of little animals and birds waiting outside."
     "The poor little Lizard, Bill, was in the middle, being held up by two guinea-pigs, who were giving it something out of a bottle."
 
-    show alice:
+    show alice at breathing:
         linear 1.0 xpos 2.0
     "They all made a rush at Alice the moment she appeared; but she ran off as hard as she could, and soon found herself safe in a thick wood."
 
@@ -1282,7 +1330,7 @@ label ch4_forest:
     "Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it."
     camera:
         linear 2.0 xpos -275 ypos 425 zpos -335
-    show alice:
+    show alice at breathing:
         linear 0.5 xpos 0.05
     show puppy:
         linear 0.7 xpos 0.7
@@ -1293,7 +1341,7 @@ label ch4_forest:
         linear 0.2 xpos -0.71 ypos 0.75 zrotate 0 xzoom -1.0
 
     "Then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it."
-    show alice:
+    show alice at breathing:
         linear 0.5 xpos 0.17
     "Then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every moment to be trampled under its feet, ran round the thistle again."
     camera:
@@ -1541,7 +1589,7 @@ label chapter5:
     alice "And now which is which?"
     "She nibbled a little of the right-hand bit to try the effect:"
 
-    show alice normal:
+    show alice normal at breathing:
         zpos -1000
         easein_expo 10.0 yzoom 0.1
 
@@ -1553,7 +1601,7 @@ label chapter5:
     "Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit."
 
     alice "Come, my head’s free at last!"
-    show alice normal:
+    show alice normal at breathing:
         zoom 0.2
         zpos -1000
         yzoom 0.1
@@ -1678,7 +1726,7 @@ label ch5_sky:
         pos (0.8, 0.9) zoom 0.7
     "She came suddenly upon an open place, with a little house in it about four feet high."
     alice "Whoever lives there, it’ll never do to come upon them this size: why, I should frighten them out of their wits!"
-    show alice:
+    show alice at breathing:
         linear 5.0 zoom 0.1
     "So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high."
 
@@ -1843,7 +1891,7 @@ label ch6_kitchen:
 
     camera:
         ease cam_transition xpos alice_duchess_kitchen_pos zpos 0
-    show alice:
+    show alice at breathing:
         ease 0.3 yoffset -100
         ease 0.3 yoffset 0
     "She said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:"
@@ -2628,13 +2676,13 @@ label ch7_reorder:
     define alice_tea_pos2 = hare_tea_pos
     define hare_tea_pos2 = dormouse_tea_pos
     define dormouse_tea_pos2 = hatter_tea_pos
-    show hatter zorder 100:
+    show hatter zorder 100 at breathing:
         xpos hatter_tea_pos2
-    show alice zorder 0:
+    show alice zorder 0 at breathing:
         xpos alice_tea_pos2
-    show hare zorder 1:
+    show hare zorder 1 at breathing:
         xpos hare_tea_pos2
-    show dormouse zorder 2:
+    show dormouse zorder 2 at breathing:
         xpos dormouse_tea_pos2 ypos 0.74
 
     "He moved on as he spoke, and the Dormouse followed him: the March Hare moved into the Dormouse’s place, and Alice rather unwillingly took the place of the March Hare. The Hatter was the only one who got any advantage from the change: and Alice was a good deal worse off than before, as the March Hare had just upset the milk-jug into his plate."
@@ -3142,7 +3190,7 @@ label chapter8:
 
     define alice_garden3 = -0.37
 
-    show alice normal:
+    show alice normal at breathing:
         ease 0.5 xpos -0.37
     hide card5
     hide card7
@@ -3330,7 +3378,7 @@ label ch8_croquet:
     cat "How do you like the Queen?"
 
     define queen_croquet2 = 1.03
-    show queen normal:
+    show queen normal at breathing:
         ease 1.0 xpos queen_croquet2
 
     alice "Not at all, she’s so extremely—"
@@ -3341,7 +3389,7 @@ label ch8_croquet:
     show alice happy
     alice "—likely to win, that it’s hardly worth while finishing the game."
 
-    show queen happy:
+    show queen happy at breathing:
         pause 1.0
         ease 1.0 xpos queen_croquet
     "The Queen smiled and passed on."
@@ -3373,7 +3421,7 @@ label ch8_croquet:
 
     king "Well, it must be removed."
 
-    show queen normal:
+    show queen normal at breathing:
         xpos 0.57
     camera:
         ease cam_transition xpos 0.84 ypos 0 zoom 1.0
@@ -3403,7 +3451,7 @@ label ch8_croquet:
     hide queen
     hide king
 
-    show alice:
+    show alice normal at breathing:
         ease 1.0 xpos 0.84
     camera:
         ease 1.5 xpos 0.84 ypos 0 zoom 1.0
@@ -3411,7 +3459,7 @@ label ch8_croquet:
 
     "The hedgehog was engaged in a fight with another hedgehog, which seemed to Alice an excellent opportunity for croqueting one of them with the other:" 
 
-    show alice:
+    show alice at breathing:
         ease 1.0 xpos -0.42
     camera:
         ease 1.5 xpos -0.42 ypos 0 zoom 1.0
@@ -3427,7 +3475,7 @@ label ch8_croquet:
     show queen normal at breathing:
         pos (queen_croquet3, 0.9) zoom queen_scale
 
-    show alice:
+    show alice at breathing:
         ease 1.0 xpos 0.84
     camera:
         ease 1.5 xpos 0.84 ypos 0 zoom 1.0
@@ -4383,7 +4431,7 @@ label chapter10:
         xzoom -1.0 xpos -0.5
     gryphon "Come on!" # cried
 
-    show alice pout:
+    show alice pout at breathing:
         pause 2.5
         linear 7.5 xpos 1.54
     show gryphon:
