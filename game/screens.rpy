@@ -122,11 +122,27 @@ screen say(who, what):
                 text who id "who"
         else:
             background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+
+        window:
+            style_prefix "touch_quick_hide" # same style as quick menu
+            textbutton "Hide" action HideInterface()    
     ## Place a character image on the bottom left of the screen
     #add SideImage() xalign 0.0 yalign 1.0
 
     use quick_menu
 
+style touch_quick_hide_button is default
+style touch_quick_hide_button_text is button_text
+
+style touch_quick_hide_button:
+    properties gui.button_properties("touch_quick_button")
+    xalign 1.0  
+    padding (12, 12, 12, 12)
+
+style touch_quick_hide_button_text:
+    properties gui.button_text_properties("touch_quick_button")
+    selected_color "#5fb9ff"
+    padding (24, 24, 24, 24)
 
 ## Make the namebox available for styling through the Character object.
 init python:
