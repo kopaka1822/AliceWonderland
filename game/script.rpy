@@ -3,12 +3,13 @@
 
     renpy.register_shader("game.breathing", variables="""
         uniform sampler2D tex0;
+        uniform float u_time;
         uniform float u_breath_cycle;
         uniform float u_offset; // in 0 1
         uniform vec2 res0;
         varying vec2 v_tex_coord;
     """, fragment_300="""
-        float scale = 0.5 + 0.5 * sin((u_offset + u_breath_cycle) * 2.0 * 3.141);
+        float scale = 0.5 + 0.5 * sin((u_offset + u_time / u_breath_cycle) * 2.0 * 3.141);
         #ifndef TEXC
         vec2 texC = v_tex_coord.xy;
         #endif
@@ -20,6 +21,7 @@
     renpy.register_shader("game.animation", variables="""
         uniform sampler2D tex0;
         uniform sampler2D tex1;
+        uniform float u_time;
         uniform float u_breath_cycle;
         uniform float u_offset; // in 0 1
         varying vec2 v_tex_coord;
@@ -27,9 +29,9 @@
         float a = texture2D(tex1, v_tex_coord, -0.5).x;
         #define TEXC
         vec2 texC = v_tex_coord.xy;
-        float xspread = -(texC.x - 0.5) * (1.0 + sin((u_offset + u_breath_cycle) * 2.0 * 3.141)) * a * 0.04;
+        float xspread = -(texC.x - 0.5) * (1.0 + sin((u_offset + u_time / u_breath_cycle) * 2.0 * 3.141)) * a * 0.04;
         texC.x += xspread;
-        texC.y += cos((u_offset + u_breath_cycle) * 2.0 * 3.141) * a * 0.006;
+        texC.y += cos((u_offset + u_time / u_breath_cycle) * 2.0 * 3.141) * a * 0.006;
         gl_FragColor = texture2D(tex0, texC, -0.5);
     """)
 
@@ -44,8 +46,10 @@
         return ["renpy.texture", "game.animation"]
 
     def get_object_rng(obj):
-        random.seed(hash(obj))
-        return random.random()
+        if isinstance(obj, renpy.display.image.ImageReference):
+            return (hash(obj.name[0]) % 7919) / 7919
+        
+        return 0.0
 
 define alice = Character("Alice", color="#ADD8E6")
 define rabbit = Character("Rabbit", color="#ffffff")
@@ -100,18 +104,18 @@ transform breathing_calm(child):
     anchor (0.5, 1.0)
     #$ shaders = ["renpy.texture", "game.animation", "game.breathing"]
     shader get_shaders_breathing(child)
-    u_breath_cycle 0.0
+    u_breath_cycle 6.0
     u_offset get_object_rng(child)
-    linear 6.0 u_breath_cycle 1.0
+    pause 0
     repeat
 
 transform breathing(child):
     child
     anchor (0.5, 1.0)
     shader get_shaders_breathing(child)
-    u_breath_cycle 0.0
+    u_breath_cycle 5.0
     u_offset get_object_rng(child)
-    linear get_object_rng(hash(child)) + 5.0 u_breath_cycle 1.0
+    pause 0
     repeat
 
 transform breathing_crying(child):
@@ -119,15 +123,15 @@ transform breathing_crying(child):
     anchor (0.5, 1.0)
     shader get_shaders_breathing(child)
     u_offset get_object_rng(child)
-    u_breath_cycle 0.0
-    linear 3.5 u_breath_cycle 1.0
+    u_breath_cycle 3.5
+    pause 0
     repeat
 
 transform swimming(child):
     child
     anchor (0.5, 1.0)
     shader get_shaders_swimming(child)
-    u_breath_cycle 0.0
+    u_breath_cycle 5.0
     u_offset get_object_rng(child)
     ease 2.0 yoffset -10 
     ease 2.0 yoffset 10
@@ -143,7 +147,6 @@ label reset_camera:
         xpos 0 ypos 0 zpos 0 zoom 1.0 xoffset 0 zrotate 0
     return
 
-#image alice sleepy = ["alice sleepy.png", "alice_mask.png"]
 # alice pictures
 image alice sleepy = Model().child("alice sleepy.png", fit=True).texture("alice_mask.png")
 image alice crying = Model().child("alice crying.png", fit=True).texture("alice_mask.png")
