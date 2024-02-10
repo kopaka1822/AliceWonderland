@@ -1,5 +1,6 @@
 ﻿init python:
     import random
+    import time
 
     renpy.register_shader("game.breathing", variables="""
         uniform sampler2D tex0;
@@ -35,6 +36,26 @@
         gl_FragColor = texture2D(tex0, texC, -0.5);
     """)
 
+    renpy.register_shader("game.wind", variables="""
+        uniform sampler2D tex0;
+        uniform sampler2D tex1;
+        uniform float u_time;
+        varying vec2 v_tex_coord;
+    """, fragment_300="""
+        float a = texture2D(tex1, v_tex_coord, 0.0).x;
+        vec2 texC = v_tex_coord.xy;
+        if(a > 0.0){
+            // from https://github.com/bitsawer/renpy-shader/blob/master/ShaderDemo/game/shader/shadercode.py
+            const float FLUIDNESS = 0.75;
+            const float WIND_SPEED = 2.0;
+            const float DISTANCE = 0.0005;
+            float modifier = sin(texC.x + u_time) / 2.0 + 1.5;
+            texC.x += sin(texC.x * 20.0 * FLUIDNESS + u_time * WIND_SPEED) * modifier * a * DISTANCE;
+            texC.y += cos(texC.y * 50.0 * FLUIDNESS + u_time * WIND_SPEED) * a * DISTANCE;
+        }
+        gl_FragColor = texture2D(tex0, texC, -0.5);
+    """)
+
     def get_shaders_breathing(child):
         if isinstance(child.target, renpy.display.im.Image):
             return ["renpy.texture", "game.breathing"]
@@ -48,7 +69,6 @@
     def get_object_rng(obj):
         if isinstance(obj, renpy.display.image.ImageReference):
             return (hash(obj.name[0]) % 7919) / 7919
-        
         return 0.0
 
 define alice = Character("Alice", color="#ADD8E6")
@@ -138,6 +158,15 @@ transform swimming(child):
     # TODO maybe add breathing anim.
     repeat
 
+transform windy(child):
+    anchor (0.5,0)
+    pos(0.0,0)
+    xoffset center_offset
+    child
+    shader ["renpy.texture", "game.wind"]
+    pause 0
+    repeat
+
 transform anchor:
     anchor (0.5, 1.0)
 
@@ -157,6 +186,9 @@ image alice pout = Model().child("alice pout.png", fit=True).texture("alice_mask
 image alice surprised = Model().child("alice surprised.png", fit=True).texture("alice_mask.png")
 image alice thinking = Model().child("alice thinking.png", fit=True).texture("alice_mask.png")
 
+# backgrounds
+image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
+
 label start:
     #jump chapter1_after_fall
 label chapter1:
@@ -165,7 +197,7 @@ label chapter1:
     call reset_camera
     "{size=+40}Chapter I: \n{/size}Down the Rabbit-Hole"
 
-    scene riverbank
+    scene riverbank at windy
     play music "audio/rinne wanderer.mp3"
 
     define alice_riverbank = -0.22

@@ -11,3 +11,7 @@ def mobile_save(self):
 
         renpy.persistent.update(True)
         renpy.persistent.save_on_quit_MP()
+
+# renpy/gl2/gl2shadercache.py
+# replace recision mediump float with:
+precision highp float;
