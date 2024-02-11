@@ -210,6 +210,8 @@ image queen happy = Model().child("queen happy.png", fit=True).texture("queen_ma
 image king = Model().child("king.png", fit=True).texture("king_mask.png")
 image king scared = Model().child("king scared.png", fit=True).texture("king_mask.png")
 
+image rabbit normal = Model().child("rabbit normal.png", fit=True).texture("rabbit_mask.png")
+
 # backgrounds
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
 image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
@@ -1177,7 +1179,7 @@ label chapter4:
     show alice pout at breathing:
         xpos 0.7 ypos 0.7 zoom alice_scale
 
-    show rabbit normal:
+    show rabbit normal at breathing:
         anchor (0.5, 1.0)
         zoom rabbit_scale
         ypos 0.8
@@ -1188,7 +1190,7 @@ label chapter4:
     rabbit  "*muttering* The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
     "Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely."
 
-    show rabbit normal:
+    show rabbit normal at breathing:
         xzoom -1.0
         ease 5.0 xpos 0.2 ypos 0.7
     "Very soon the Rabbit noticed Alice, as she went hunting about." # , and called out to her in an angry tone"
@@ -3069,7 +3071,7 @@ label chapter8:
         anchor (0.5, 1.0)
         xpos garden_p1_start ypos 0.8
         ease 1.0 xpos garden_p1_mid
-    show rabbit normal:
+    show rabbit normal at breathing:
         anchor (0.5, 1.0)
         xpos garden_p1_start ypos 0.8 zoom rabbit_scale
         ease 1.0 xpos 1.3
@@ -3082,7 +3084,7 @@ label chapter8:
         ease 1.0 xpos garden_p2_end
     show normalking:
         ease 1.0 xpos garden_p1_end
-    show rabbit normal:
+    show rabbit normal at breathing:
         ease 1.0 xpos garden_p1_end
     show knave:
         anchor (0.5, 1.0)
