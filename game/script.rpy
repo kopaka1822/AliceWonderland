@@ -40,18 +40,20 @@
         uniform sampler2D tex0;
         uniform sampler2D tex1;
         uniform float u_time;
+        uniform vec2 res0;
         varying vec2 v_tex_coord;
     """, fragment_300="""
-        float a = texture2D(tex1, v_tex_coord, 0.0).x;
+        float a = texture2D(tex1, v_tex_coord, 0.5).x;
         vec2 texC = v_tex_coord.xy;
         if(a > 0.0){
-            // from https://github.com/bitsawer/renpy-shader/blob/master/ShaderDemo/game/shader/shadercode.py
+            // original from https://github.com/bitsawer/renpy-shader/blob/master/ShaderDemo/game/shader/shadercode.py
             const float FLUIDNESS = 0.75;
-            const float WIND_SPEED = 2.0;
-            const float DISTANCE = 0.0005;
-            float modifier = sin(texC.x + u_time) / 2.0 + 1.5;
-            texC.x += sin(texC.x * 20.0 * FLUIDNESS + u_time * WIND_SPEED) * modifier * a * DISTANCE;
-            texC.y += cos(texC.y * 50.0 * FLUIDNESS + u_time * WIND_SPEED) * a * DISTANCE;
+            const float WIND_SPEED = 1.0;
+            const float DISTANCE = 2.0;
+            vec2 pixel = texC * res0; // calc in pixel coordinates to be independent for wider images
+            float modifier = sin(pixel.x * 0.006 + u_time) / 2.0 + 1.5;
+            texC.x += sin(pixel.x * 0.006 * FLUIDNESS + u_time * WIND_SPEED) * modifier * a * (DISTANCE / res0.x);
+            texC.y += cos(pixel.y * 0.02 * FLUIDNESS + u_time * WIND_SPEED) * a * (DISTANCE / res0.y);
         }
         gl_FragColor = texture2D(tex0, texC, -0.5);
     """)
@@ -183,6 +185,7 @@ image alice thinking = Model().child("alice thinking.png", fit=True).texture("al
 
 # backgrounds
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
+#image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
 '''
 
 # non-animated transforms (comment in for action editor)
@@ -3341,7 +3344,7 @@ label chapter8:
     rabbit "Oh, hush! The Queen will hear you! You see, she came rather late, and the Queen said—"
 
 label ch8_croquet:
-    scene croquet
+    scene croquet #at windy
     image croquet_front_mask = AlphaMask("croquet", "croquet_front")
     show croquet_front_mask zorder 1000
 
@@ -3600,7 +3603,7 @@ label chapter9:
 
     #jump ch9_gryphon
 
-    scene croquet
+    scene croquet #at windy
     show croquet_front_mask zorder 1000
 
     # setup character
