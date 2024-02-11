@@ -207,6 +207,9 @@ image alice thinking = Model().child("alice thinking.png", fit=True).texture("al
 image queen normal = Model().child("queen normal.png", fit=True).texture("queen_mask.png")
 image queen happy = Model().child("queen happy.png", fit=True).texture("queen_mask.png")
 
+image king = Model().child("king.png", fit=True).texture("king_mask.png")
+image king scared = Model().child("king scared.png", fit=True).texture("king_mask.png")
+
 # backgrounds
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
 image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
@@ -3093,11 +3096,11 @@ label chapter8:
     hide rabbit
     show knave:
         ease 1.0 xpos garden_p1_end
-    show queen normal:
+    show queen normal at breathing:
         anchor (0.5, 1.0)
         xpos garden_p2_start ypos 0.8 zpos -50 zoom queen_scale
         ease 1.0 xpos garden_p2_mid
-    show king:
+    show king at breathing:
         anchor (0.5, 1.0)
         xpos garden_p1_start ypos 0.8 zoom king_scale
         ease 1.0 xpos garden_p1_mid
