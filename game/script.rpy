@@ -119,6 +119,10 @@ define duchess_scale = 0.52
 define cam_transition = 0.5
 define center_offset = 540 # half of 1080
 
+
+## ANIMATED TRANSFORMS ##
+## remove comment below to work with action editor
+#'''
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
@@ -167,15 +171,6 @@ transform windy(child):
     pause 0
     repeat
 
-transform anchor:
-    anchor (0.5, 1.0)
-
-label reset_camera:
-    camera:
-        perspective False
-        xpos 0 ypos 0 zpos 0 zoom 1.0 xoffset 0 zrotate 0
-    return
-
 # alice pictures
 image alice sleepy = Model().child("alice sleepy.png", fit=True).texture("alice_mask.png")
 image alice crying = Model().child("alice crying.png", fit=True).texture("alice_mask.png")
@@ -188,6 +183,43 @@ image alice thinking = Model().child("alice thinking.png", fit=True).texture("al
 
 # backgrounds
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
+'''
+
+# non-animated transforms (comment in for action editor)
+transform breathing_calm:
+    anchor (0.5, 1.0)
+
+transform breathing:
+    anchor (0.5, 1.0)
+
+transform breathing_crying:
+    anchor (0.5, 1.0)
+
+transform swimming:
+    anchor (0.5, 1.0)
+    ease 2.0 yoffset -10 
+    ease 2.0 yoffset 10
+    repeat
+
+transform windy:
+    anchor (0.5,0)
+    pos (0,0)
+    xoffset center_offset
+
+#'''
+# end comment out
+
+
+
+# general transforms / lables
+transform anchor:
+    anchor (0.5, 1.0)
+
+label reset_camera:
+    camera:
+        perspective False
+        xpos 0 ypos 0 zpos 0 zoom 1.0 xoffset 0 zrotate 0
+    return
 
 label start:
     #jump chapter1_after_fall
