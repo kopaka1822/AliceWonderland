@@ -44,6 +44,7 @@
         varying vec2 v_tex_coord;
     """, fragment_300="""
         float a = texture2D(tex1, v_tex_coord, 0.5).x;
+        #define TEXC
         vec2 texC = v_tex_coord.xy;
         if(a > 0.0){
             // original from https://github.com/bitsawer/renpy-shader/blob/master/ShaderDemo/game/shader/shadercode.py
@@ -56,6 +57,17 @@
             texC.y += cos(pixel.y * 0.02 * FLUIDNESS + u_time * WIND_SPEED) * a * (DISTANCE / res0.y);
         }
         gl_FragColor = texture2D(tex0, texC, -0.5);
+    """)
+    renpy.register_shader("game.mask2", variables="""
+        uniform sampler2D tex0;
+        uniform sampler2D tex2;
+        varying vec2 v_tex_coord;
+    """, fragment_500="""
+        #ifndef TEXC
+        vec2 texC = v_tex_coord.xy;
+        #endif
+        float alphaMask = texture2D(tex2, texC, -0.5).a;
+        gl_FragColor = texture2D(tex0, texC, -0.5) * alphaMask;
     """)
 
     def get_shaders_breathing(child):
@@ -173,6 +185,15 @@ transform windy(child):
     pause 0
     repeat
 
+transform windy_mask(child):
+    anchor (0.5,0)
+    pos(0.0,0)
+    xoffset center_offset
+    child
+    shader ["renpy.texture", "game.wind", "game.mask2"]
+    pause 0
+    repeat
+
 # alice pictures
 image alice sleepy = Model().child("alice sleepy.png", fit=True).texture("alice_mask.png")
 image alice crying = Model().child("alice crying.png", fit=True).texture("alice_mask.png")
@@ -185,7 +206,8 @@ image alice thinking = Model().child("alice thinking.png", fit=True).texture("al
 
 # backgrounds
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
-#image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
+image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
+image croquet_front_mask = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png").texture("croquet_front.png")
 '''
 
 # non-animated transforms (comment in for action editor)
@@ -205,6 +227,11 @@ transform swimming:
     repeat
 
 transform windy:
+    anchor (0.5,0)
+    pos (0,0)
+    xoffset center_offset
+
+transform windy_mask:
     anchor (0.5,0)
     pos (0,0)
     xoffset center_offset
@@ -3344,9 +3371,8 @@ label chapter8:
     rabbit "Oh, hush! The Queen will hear you! You see, she came rather late, and the Queen said—"
 
 label ch8_croquet:
-    scene croquet #at windy
-    image croquet_front_mask = AlphaMask("croquet", "croquet_front")
-    show croquet_front_mask zorder 1000
+    scene croquet at windy
+    show croquet_front_mask zorder 1000 at windy_mask
 
     # setup character
     define queen_croquet = 0.0
@@ -3603,8 +3629,8 @@ label chapter9:
 
     #jump ch9_gryphon
 
-    scene croquet #at windy
-    show croquet_front_mask zorder 1000
+    scene croquet at windy
+    show croquet_front_mask zorder 1000 at windy_mask
 
     # setup character
     define alice_nine = 1.3
