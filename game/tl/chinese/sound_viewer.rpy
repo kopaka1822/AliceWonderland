@@ -1,8 +1,8 @@
 ﻿# TODO: Translation updated at 2022-05-04 16:37
 
-translate japanese strings:
+translate chinese strings:
 
     # game/sound_viewer.rpy:13
     old "type filenames(ex: variable, '<silence 2.>' or [[variable, variable])"
-    new "ファイル名を入力してください(例: 変数名 または '<silence 2.>'  [[変数名, 変数名])"
+    new "请输入文件名（如：变量，'<silence 2.>'或[[变量名, 变量名])"
 

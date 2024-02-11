@@ -11,6 +11,7 @@ screen _image_selecter(default=""):
         style_group "image_selecter"
         vbox:
             label _("Type a image name") style "image_selecter_input"
+            label _("Tab: completion") style "image_selecter_input"
             input value ScreenVariableInputValue("filter_string", default=True, returnable=True) copypaste True style "image_selecter_input" id "input_filter_strings"
             $filtered_list = _viewers.filter_image_name(filter_string)
             viewport:
@@ -101,10 +102,22 @@ init -2000 python in _viewers:
                     for e in es.split()[1:]:
                         if e.startswith(completed_string):
                             candidate.append(e)
-            cs = renpy.current_screen()
-            cs.scope["filter_string"] += candidate[0][len(completed_string):] + " "
-            input = renpy.get_displayable("_image_selecter", "input_filter_strings")
-            input.caret_pos = len(cs.scope["filter_string"])
+
+            if candidate:
+                cs = renpy.current_screen()
+                if len(candidate) > 1:
+                    completed_candidate = candidate[0]
+                    for c in candidate[1:]:
+                        for i in range(len(completed_candidate)):
+                            if i < len(c) and completed_candidate[i] != c[i]:
+                                completed_candidate = completed_candidate[0:i]
+                                break
+                    cs.scope["filter_string"] += completed_candidate[len(completed_string):]
+                else:
+                    completed_candidate = candidate[0]
+                    cs.scope["filter_string"] += completed_candidate[len(completed_string):] + " "
+                input = renpy.get_displayable("_image_selecter", "input_filter_strings")
+                input.caret_pos = len(cs.scope["filter_string"])
 
     def _image_viewer_hide():
         renpy.hide("preview", layer="screens")
