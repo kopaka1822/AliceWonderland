@@ -204,6 +204,9 @@ image alice pout = Model().child("alice pout.png", fit=True).texture("alice_mask
 image alice surprised = Model().child("alice surprised.png", fit=True).texture("alice_mask.png")
 image alice thinking = Model().child("alice thinking.png", fit=True).texture("alice_mask.png")
 
+image queen normal = Model().child("queen normal.png", fit=True).texture("queen_mask.png")
+image queen happy = Model().child("queen happy.png", fit=True).texture("queen_mask.png")
+
 # backgrounds
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
 image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
@@ -3260,13 +3263,13 @@ label chapter8:
     "The queen had meanwhile been examining the roses."
     queen "Off with their heads!"
     # queen disappear
-    show queen normal:
+    show queen normal at breathing:
         zoom queen_scale
         linear 1.0 xpos 2.0
-    show king:
+    show king at breathing:
         zoom king_scale
         linear 1.0 xpos 2.0
-    show knave:
+    show knave at breathing:
         linear 1.0 xpos 2.0
     
     show card5:
@@ -3800,7 +3803,7 @@ label ch9_gryphon:
     queen "Up, lazy thing!"
     queen "And take this young lady to see the Mock Turtle, and to hear his history."
     queen "I must go back and see after some executions I have ordered."
-    show queen normal:
+    show queen normal at breathing:
         linear 1.0 xpos 2.0
     show alice normal at breathing:
         ease 3.0 xpos 1.2
