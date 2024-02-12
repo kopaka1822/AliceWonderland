@@ -203,6 +203,7 @@ image alice normal = Model().child("alice normal.png", fit=True).texture("alice_
 image alice pout = Model().child("alice pout.png", fit=True).texture("alice_mask.png")
 image alice surprised = Model().child("alice surprised.png", fit=True).texture("alice_mask.png")
 image alice thinking = Model().child("alice thinking.png", fit=True).texture("alice_mask.png")
+image alice belly = Model().child("alice belly.png", fit=True).texture("alice_belly_mask.png")
 
 image queen normal = Model().child("queen normal.png", fit=True).texture("queen_mask.png")
 image queen happy = Model().child("queen happy.png", fit=True).texture("queen_mask.png")
@@ -442,7 +443,7 @@ label chapter1:
         ease cam_transition xpos 0.14 ypos 955 zoom 2.09
     rabbit "Oh my ears and whiskers, how late it's getting!"
     
-    show rabbit normal zorder 5:
+    show rabbit normal at breathing zorder 5:
         ease 1.0 xpos 0.14
     show alice happy at breathing zorder 20:
         ease 1.0 xpos 0.52 ypos 0.58 zoom 0.2
@@ -1186,7 +1187,7 @@ label chapter4:
         xpos 1.2
         ease 20.0 xpos -1.0
 
-    "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something" #; and she heard it muttering to itself:"
+    "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something." #; and she heard it muttering to itself:"
     rabbit  "*muttering* The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
     "Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely."
 
@@ -1239,7 +1240,7 @@ label chapter4:
     alice "(That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!)"
 
     show alice belly at breathing:
-        xpos 0.7 ypos 1.0 zoom 2.0
+        xpos 0.7 ypos 1.0 zoom 1.9
 
     "Alas! it was too late to wish that! She went on growing, and growing, and very soon had to kneel down on the floor:"
     "In another minute there was not even room for this, and she tried the effect of lying down with one elbow against the door, and the other arm curled round her head."
