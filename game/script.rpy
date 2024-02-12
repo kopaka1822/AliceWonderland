@@ -185,6 +185,12 @@ transform windy(child):
     pause 0
     repeat
 
+transform windy_no_anchor(child):
+    child
+    shader ["renpy.texture", "game.wind"]
+    pause 0
+    repeat
+
 transform windy_mask(child):
     anchor (0.5,0)
     pos(0.0,0)
@@ -217,6 +223,9 @@ image rabbit normal = Model().child("rabbit normal.png", fit=True).texture("rabb
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
 image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
 image croquet_front_mask = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png").texture("croquet_front.png")
+
+image blades = Model().child("blades.png", fit=True).texture("blades_wind.png")
+image buttercup = Model().child("buttercup.png", fit=True).texture("buttercup_wind.png")
 '''
 
 # non-animated transforms (comment in for action editor)
@@ -239,6 +248,9 @@ transform windy:
     anchor (0.5,0)
     pos (0,0)
     xoffset center_offset
+
+transform windy_no_anchor:
+    xoffset 0 # do nothing
 
 transform windy_mask:
     anchor (0.5,0)
@@ -1480,16 +1492,18 @@ label setup_caterpillar:
         anchor (0.0, 0.0)
         xrotate 90 yoffset -512 zpos -1100 ypos 1.0 
 
-    show blades at Position(xpos = 800, ypos = 1.0):
+    show blades at windy_no_anchor:
         anchor (0.5, 1.0)
+        pos (800, 1.0)
         zpos -1100
         zoom 0.5
 
     show alice normal at breathing:
         pos (800, 1.0) zoom 0.2 zpos -1000 
 
-    show buttercup at Position(xpos = 650, ypos = 1.0):
+    show buttercup at windy_no_anchor:
         anchor (0.5, 1.0)
+        pos (650, 1.0)
         zoom 0.3
         zpos -950
 
@@ -1500,8 +1514,9 @@ label setup_caterpillar:
         anchor (0.5, 1.0)
         zoom 0.38
         zpos -880
-    show blades as blades2 at Position(xpos = 800, ypos = 1.14):
+    show blades as blades2 at windy_no_anchor:
         anchor (0.5, 1.0)
+        pos (800, 1.14)
         zpos -860
         zoom 0.5
     return
