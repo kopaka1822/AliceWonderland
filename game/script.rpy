@@ -224,6 +224,8 @@ image dormouse tired = Model().child("dormouse tired.png", fit=True).texture("do
 
 image hatter = Model().child("hatter.png", fit=True).texture("hatter_mask.png")
 
+image hare = Model().child("hare.png", fit=True).texture("hare_mask.png")
+
 # backgrounds
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
 image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
