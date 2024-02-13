@@ -219,6 +219,9 @@ image king scared = Model().child("king scared.png", fit=True).texture("king_mas
 
 image rabbit normal = Model().child("rabbit normal.png", fit=True).texture("rabbit_mask.png")
 
+image dormouse sleep = Model().child("dormouse sleep.png", fit=True).texture("dormouse_mask.png")
+image dormouse tired = Model().child("dormouse tired.png", fit=True).texture("dormouse_mask.png")
+
 # backgrounds
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
 image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
@@ -2663,7 +2666,7 @@ label chapter7:
 
     "And they pinched it on both sides at once."
 
-    show dormouse tired
+    show dormouse tired at breathing
     "The Dormouse slowly opened his eyes."
 
 
@@ -2832,7 +2835,7 @@ label ch7_reorder:
     # todo close eyes
     dormouse "...and they drew all manner of things—everything that begins with an M———"
 
-    show dormouse sleep
+    show dormouse sleep at breathing
     "..."
 
     camera: 
@@ -2848,7 +2851,7 @@ label ch7_reorder:
         linear cam_transition xpos dormouse_tea_pos2
     "The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on:"
     # wake up
-    show dormouse tired
+    show dormouse tired at breathing
     dormouse "—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?"
     
     camera: 
