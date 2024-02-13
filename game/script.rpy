@@ -222,6 +222,8 @@ image rabbit normal = Model().child("rabbit normal.png", fit=True).texture("rabb
 image dormouse sleep = Model().child("dormouse sleep.png", fit=True).texture("dormouse_mask.png")
 image dormouse tired = Model().child("dormouse tired.png", fit=True).texture("dormouse_mask.png")
 
+image hatter = Model().child("hatter.png", fit=True).texture("hatter_mask.png")
+
 # backgrounds
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
 image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
@@ -4992,7 +4994,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
-    show hatter:
+    show hatter at breathing:
         linear 3.0 xpos 500
     "The Hatter hurriedly left the court, without even waiting to put his shoes on."
 
