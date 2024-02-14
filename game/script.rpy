@@ -1924,9 +1924,9 @@ label chapter6:
 
     "He was looking up into the sky all the time he was speaking, and this Alice thought decidedly uncivil."
 
-    alice "But perhaps he can’t help it, his eyes are so very nearly at the top of his head. But at any rate he might answer questions."
+    alice "(But perhaps he can’t help it, his eyes are so very nearly at the top of his head. But at any rate he might answer questions)"
 
-    alice "How am I to get in?"
+    alice "*loud* How am I to get in?"
 
     frogfoot "I shall sit here, till tomorrow—"
 
@@ -1944,13 +1944,13 @@ label chapter6:
 
     #"The Footman continued in the same tone, exactly as if nothing had happened."
 
-    alice "How am I to get in?" # asked Alice again, in a louder tone.
+    alice "*louder* How am I to get in?" # asked Alice again, in a louder tone.
 
     frogfoot "Are you to get in at all? That’s the first question, you know."
 
     "It was, no doubt: only Alice did not like to be told so."
 
-    alice "It’s really dreadful, the way all the creatures argue. It’s enough to drive one crazy!"
+    alice "(It’s really dreadful, the way all the creatures argue. It’s enough to drive one crazy!)"
 
     "The Footman seemed to think this a good opportunity for repeating his remark, with variations."
 
