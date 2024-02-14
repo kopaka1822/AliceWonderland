@@ -1913,14 +1913,14 @@ label chapter6:
     play sound "sfx/knockknockknock.mp3"
     "Alice went timidly up to the door, and knocked."
 
-    fishfoot "There’s no sort of use in knocking, and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you."
+    frogfoot "There’s no sort of use in knocking, and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you."
 
     #play sound "sfx/shatter.mp3"
     "And certainly there was a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces."
 
     alice "Please, then, how am I to get in?"
 
-    fishfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
+    frogfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
 
     "He was looking up into the sky all the time he was speaking, and this Alice thought decidedly uncivil."
 
@@ -1928,7 +1928,7 @@ label chapter6:
 
     alice "How am I to get in?"
 
-    fishfoot "I shall sit here, till tomorrow—"
+    frogfoot "I shall sit here, till tomorrow—"
 
     play sound "<silence 2.0>"
     queue sound "sfx/shatter.mp3"
@@ -1940,13 +1940,13 @@ label chapter6:
     "At this moment the door of the house opened, and a large plate came skimming out, straight at the Footman’s head: it just grazed his nose, and broke to pieces against one of the trees behind him."
 
 
-    fishfoot "—or next day, maybe."
+    frogfoot "—or next day, maybe."
 
     #"The Footman continued in the same tone, exactly as if nothing had happened."
 
     alice "How am I to get in?" # asked Alice again, in a louder tone.
 
-    fishfoot "Are you to get in at all? That’s the first question, you know."
+    frogfoot "Are you to get in at all? That’s the first question, you know."
 
     "It was, no doubt: only Alice did not like to be told so."
 
@@ -1954,11 +1954,11 @@ label chapter6:
 
     "The Footman seemed to think this a good opportunity for repeating his remark, with variations."
 
-    fishfoot "I shall sit here, on and off, for days and days."
+    frogfoot "I shall sit here, on and off, for days and days."
 
     alice "But what am I to do?"
 
-    fishfoot "Anything you like." # said the Footman, and began whistling.
+    frogfoot "Anything you like." # said the Footman, and began whistling.
 
     alice "Oh, there’s no use in talking to him, he’s perfectly idiotic!"
 
