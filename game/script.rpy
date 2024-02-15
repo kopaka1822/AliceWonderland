@@ -548,11 +548,11 @@ label chapter1:
     "Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words 'EAT ME' were beautifully marked in currants."
 
     hide box_cake onlayer screens
-    show alice normal
+    show alice normal at breathing
     alice "Well, I’ll eat it, and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I’ll get into the garden, and I don’t care which happens!"
 
     "She ate a little bit." #, and said anxiously to herself: "
-    show alice excited
+    show alice excited at breathing
     alice "(Which way? Which way?)" # anxiously
     "She was holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way."
     "So she set to work, and very soon finished off the cake."
@@ -610,7 +610,7 @@ label chapter2:
     "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice:"
     camera:
         ease cam_transition xpos 0 ypos 0 zpos 0
-    show alice pout
+    show alice pout at breathing
     alice "If you please, sir—"
     # hide alice
 
@@ -624,7 +624,7 @@ label chapter2:
     hide fan gloves onlayer screens
     hide rabbit
 
-    show alice pout
+    show alice pout at breathing
     alice "Dear, dear! How queer everything is to-day! And yesterday things went on just as usual."
     alice "I wonder if I’ve been changed in the night? Let me think:"
     alice "Was I the same when I got up this morning? I almost think I can remember feeling a little different."
@@ -659,12 +659,12 @@ label chapter2:
     "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
     "She soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
 
-    show alice happy
+    show alice happy at breathing
     alice "That was a narrow escape!"
     "She was a good deal frightened at the sudden change, but very glad to find herself still in existence."
     alice "And now for the garden!"
     "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
-    show alice pout
+    show alice pout at breathing
     alice  "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
 
     stop music fadeout 1.0
@@ -688,19 +688,19 @@ label chapter2:
     play music "audio/rinne beyond the sea.mp3"
     "She was up to her chin in salt water."
 
-    show alice thinking
+    show alice thinking at breathing
     "Her first idea was that she had somehow fallen into the sea."
 
     alice "(And in that case I can go back by railway)"
     "(Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station)"
     "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high."
 
-    show alice pout
+    show alice pout at breathing
     alice "I wish I hadn’t cried so much!"
     "She swam about, trying to find her way out."
     alice "I shall be punished for it now, I suppose, by being drowned in my own tears! That will be a queer thing, to be sure! However, everything is queer to-day."
 
-    show alice thinking
+    show alice thinking at breathing
     play sound "sfx/splash.mp3"
     "Just then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was:"
     show alice thinking at swimming:
@@ -713,20 +713,20 @@ label chapter2:
     alice "Would it be of any use, now, to speak to this mouse?"
     alice "Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying."
     "So she began:"
-    show alice normal
+    show alice normal at breathing
     alice "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!"
     "(Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother’s Latin Grammar, 'A mouse—of a mouse—to a mouse—a mouse—O mouse!')"
     "The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing."
 
-    show alice thinking
+    show alice thinking at breathing
     alice "Perhaps it doesn’t understand English, I daresay it’s a French mouse, come over with William the Conqueror."
     "(For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened)"
     "So she began again:"
-    show alice normal
+    show alice normal at breathing
     alice "Où est ma chatte?"
     "Which was the first sentence in her French lesson-book."
     "The mouse gave a sudden leap out of the water, and seemed to quiver all over with fright."
-    show alice thinking
+    show alice thinking at breathing
     alice "Oh, I beg your pardon!"
     "She was afraid that she had hurt the poor animal’s feelings."
     alice "I quite forgot you didn’t like cats."
@@ -735,20 +735,20 @@ label chapter2:
     mouse "Would you like cats if you were me?"
 
     alice "Well, perhaps not, don’t be angry about it."
-    show alice happy
+    show alice happy at breathing
     alice "And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her."
     alice "She is such a dear quiet thing."
     "Alice went on, half to herself, as she swam lazily about in the pool."
     alice "And she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
     "This time the Mouse was bristling all over, and she felt certain it must be really offended."
-    show alice thinking
+    show alice thinking at breathing
     alice "We won’t talk about her any more if you’d rather not."
 
     mouse "We indeed!"
     "The mouse was trembling down to the end of its tail."
     mouse "As if I would talk on such a subject! Our family always hated cats: nasty, low, vulgar things! Don’t let me hear the name again!"
 
-    show alice normal
+    show alice normal at breathing
     alice "I won’t indeed!"
     "Alice was in a great hurry to change the subject of conversation."
     alice "Are you—are you fond—of—of dogs?"
@@ -757,7 +757,7 @@ label chapter2:
     alice "A little bright-eyed terrier, you know, with oh, such long curly brown hair!"
     alice "And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things—I can’t remember half of them—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds!"
     alice "He says it kills all the rats and—oh dear!"
-    show alice crying
+    show alice crying at breathing
     "Alice cried in a sorrowful tone."
     alice "I’m afraid I’ve offended it again!"
     show mouse at swimming:
@@ -765,7 +765,7 @@ label chapter2:
     "For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
 
     alice "Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!"
-    show alice normal
+    show alice normal at breathing
     show mouse at swimming:
         linear 10.0 xoffset 0
     "When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice:"
@@ -907,7 +907,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
-    show alice pout
+    show alice pout at breathing
     alice "As wet as ever, it doesn’t seem to dry me at all."
 
     camera: 
@@ -927,7 +927,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
-    show alice thinking
+    show alice thinking at breathing
     alice "What is a Caucus-race?"
 
     "Not that she wanted much to know, but the Dodo had paused as if it thought that somebody ought to speak, and no one else seemed inclined to say anything."
@@ -1059,11 +1059,11 @@ label ch3_start:
     camera: 
         ease cam_transition xpos muddy_dodo_cam_pos zpos -450 ypos -130
     dodo "Of course. What else have you got in your pocket?"
-    "The dodo truned to Alice."
+    "The dodo turned to Alice."
 
     camera: 
         ease cam_transition xpos muddy_alice_pos zpos -450 ypos -130
-    show alice normal
+    show alice normal at breathing
 
     show thimble at Position(ypos = 0.65) onlayer screens 
     alice "Only a thimble."
@@ -1187,7 +1187,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
-    show alice normal
+    show alice normal at breathing
     alice "I wish I had our Dinah here, I know I do!"
     alice "She’d soon fetch it back!"
 
@@ -1231,7 +1231,7 @@ label ch3_start:
         ease 2.0 xpos muddy_alice_pos zpos -425 ypos -130
     "On various pretexts they all moved off, and Alice was soon left alone."
 
-    show alice pout
+    show alice pout at breathing
     alice "(I wish I hadn’t mentioned Dinah!)"
     alice "(Nobody seems to like her, down here, and I’m sure she’s the best cat in the world!)"
     alice "(Oh, my dear Dinah! I wonder if I shall ever see you any more!)"
@@ -1267,7 +1267,7 @@ label chapter4:
         xzoom -1.0
         ease 5.0 xpos 0.2 ypos 0.7
     "Very soon the Rabbit noticed Alice, as she went hunting about." # , and called out to her in an angry tone"
-    show alice surprised
+    show alice surprised at breathing
     rabbit "*angry* Why, Mary Ann, what are you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!"
     show alice surprised at breathing:
         linear 1.0 xpos 2.0
@@ -2077,14 +2077,14 @@ label ch6_kitchen:
         ease 0.3 yoffset 0
     "She said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:"
 
-    show alice surprised
+    show alice surprised at breathing
     alice "I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats could grin."
 
     duchess "They all can, and most of ’em do."
 
     alice "I don’t know of any that do."
 
-    show alice normal
+    show alice normal at breathing
     "Alice said very politely, feeling quite pleased to have got into a conversation."
 
     duchess "You don’t know much, and that’s a fact."
@@ -2115,7 +2115,7 @@ label ch6_kitchen:
     hide plate3
     "The Duchess took no notice of them even when they hit her; and the baby was howling so much already, that it was quite impossible to say whether the blows hurt it or not."
     
-    show alice pout
+    show alice pout at breathing
     alice "Oh, please mind what you’re doing!"
     #"Cried Alice, jumping up and down in an agony of terror."#
     "Alice was jumping up and down in an agony of terror."#
@@ -2130,18 +2130,18 @@ label ch6_kitchen:
     duchess "If everybody minded their own business, the world would go round a deal faster than it does." # the Duchess said in a hoarse growl, "
     hide saucepan
 
-    show alice normal
+    show alice normal at breathing
     alice "Which would not be an advantage. Just think what work it would make with the day and night! You see the earth takes twenty-four hours to turn round on its axis—"
 
     duchess "Talking of axes, chop off her head!"
 
-    show alice pout
+    show alice pout at breathing
 
     camera:
         ease cam_transition xpos cook_kitchen_pos zpos 0
     "Alice glanced rather anxiously at the cook, to see if she meant to take the hint; but the cook was busily stirring the soup, and seemed not to be listening, so she went on again:"
 
-    show alice normal
+    show alice normal at breathing
     camera:
         ease cam_transition xpos alice_kitchen_pos zpos 0
 
@@ -2191,7 +2191,7 @@ label ch6_kitchen:
         ease cam_transition xpos alice_kitchen_pos zpos 0
     
     "Alice caught the baby with some difficulty, as it was a queer-shaped little creature, and held out its arms and legs in all directions."
-    show alice surprised
+    show alice surprised at breathing
     alice "Just like a star-fish."
     "The poor little thing was snorting like a steam-engine when she caught it, and kept doubling itself up and straightening itself out again, so that altogether, for the first minute or two, it was as much as she could do to hold it."
 
@@ -2770,7 +2770,7 @@ label chapter7:
 
     camera: 
         linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
-    show alice pout
+    show alice pout at breathing
     alice "They couldn’t have done that, you know, they’d have been ill."
 
     camera: 
@@ -2790,7 +2790,7 @@ label chapter7:
 
     camera: 
         linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
-    show alice pout
+    show alice pout at breathing
     alice "I’ve had nothing yet, so I can’t take more."
 
     "Alice replied in an offended tone."
@@ -2811,7 +2811,7 @@ label chapter7:
 
     camera: 
         linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
-    show alice normal
+    show alice normal at breathing
     "Alice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question."
 
     camera: 
@@ -2823,7 +2823,7 @@ label chapter7:
 
     camera: 
         linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
-    show alice pout
+    show alice pout at breathing
     alice "There’s no such thing!"
 
     "Alice was beginning very angrily, but the Hatter and the March Hare went."
@@ -2951,7 +2951,7 @@ label ch7_reorder:
 
     "Just as she said this, she noticed that one of the trees had a door leading right into it."
 
-    show alice surprised
+    show alice surprised at breathing
     alice "(That’s very curious!)"
     alice "(But everything’s curious today. I think I may as well go in at once)"
     "And she went in."
@@ -3418,7 +3418,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos queen_garden2
-    show queen happy
+    show queen happy at breathing
     queen "That’s right!" # shouted
     queen "Can you play croquet?"
 
@@ -3434,7 +3434,7 @@ label chapter8:
 
     # move queen away
     define alice_garden4 = 0.3
-    show queen:
+    show queen happy at breathing:
         linear 1.0 xpos 3.0
     show soldier9:
         linear 1.0 xpos 2.5
@@ -3466,7 +3466,7 @@ label chapter8:
 
     rabbit "She boxed the Queen’s ears—"
 
-    show alice happy
+    show alice happy at breathing
     "Alice gave a little scream of laughter."
 
     rabbit "Oh, hush! The Queen will hear you! You see, she came rather late, and the Queen said—"
@@ -3496,7 +3496,7 @@ label ch8_croquet:
         ease cam_transition xpos alice_croquet
     "Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches."
 
-    show alice happy
+    show alice happy at breathing
     "The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it would twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing."
     "And when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog had unrolled itself, and was in the act of crawling away."
     "Besides all this, there was generally a ridge or furrow in the way wherever she wanted to send the hedgehog to, and, as the doubled-up soldiers were always getting up and walking off to other parts of the ground, Alice soon came to the conclusion that it was a very difficult game indeed."
@@ -3509,21 +3509,21 @@ label ch8_croquet:
     queen "Off with his head!"
     camera:
         ease cam_transition xpos queen_croquet zoom 1.0 ypos 0
-    show queen happy
+    show queen happy  at breathing
     "Or"
     camera:
         ease cam_transition xpos queen_croquet zoom 2.0 ypos 700
-    show queen normal
+    show queen normal  at breathing
     queen "Off with her head!" 
     camera:
         ease cam_transition xpos queen_croquet zoom 1.0 ypos 0
-    show queen happy
+    show queen happy  at breathing
     "About once in a minute."
 
     camera:
         zoom 1.0 ypos 0
         ease cam_transition xpos alice_croquet
-    show alice pout
+    show alice pout at breathing
     "Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute."
     alice "(And then, what would become of me? They’re dreadfully fond of beheading people here; the great wonder is, that there’s any one left alive!)"
 
@@ -3538,7 +3538,7 @@ label ch8_croquet:
         linear 10.0 alpha 1.0
 
     "She was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin."
-    show alice happy
+    show alice happy at breathing
     alice "(It’s the Cheshire Cat: now I shall have somebody to talk to)"
 
     cat "How are you getting on?" # said the Cat, as soon as there was mouth enough for it to speak with.
@@ -3581,9 +3581,9 @@ label ch8_croquet:
     alice "Not at all, she’s so extremely—"
     camera:
         ease cam_transition zoom 2.0 ypos 820 xpos 1.16 
-    show alice normal
+    show alice normal at breathing
     "Just then she noticed that the Queen was close behind her, listening: so she went on:"
-    show alice happy
+    show alice happy at breathing
     alice "—likely to win, that it’s hardly worth while finishing the game."
 
     show queen happy at breathing:
@@ -3642,7 +3642,7 @@ label ch8_croquet:
     camera:
         ease cam_transition xpos cat_croquet ypos 0 zoom 1.0
     "Alice thought she might as well go back, and see how the game was going on, as she heard the Queen’s voice in the distance, screaming with passion."
-    show alice normal
+    show alice normal at breathing
     "She had already heard her sentence three of the players to be executed for having missed their turns, and she did not like the look of things at all, as the game was in such confusion that she never knew whether it was her turn or not."
 
     hide queen
@@ -3750,26 +3750,26 @@ label chapter9:
 
     "Alice was very glad to find her in such a pleasant temper, and thought to herself that perhaps it was only the pepper that had made her so savage when they met in the kitchen."
 
-    show alice thinking
+    show alice thinking at breathing
     camera:
         ease cam_transition xpos alice_nine ypos 1000 zoom 2.0
     alice "(When I’m a Duchess, I won’t have any pepper in my kitchen at all)"
     alice "(Soup does very well without—Maybe it’s always pepper that makes people hot-tempered, and vinegar that makes them sour—and camomile that makes them bitter—and—and barley-sugar and such things that make children sweet-tempered)"
     alice "(I only wish people knew that: then they wouldn’t be so stingy about it, you know—)"
 
-    show alice pout
+    show alice pout at breathing
     "She had quite forgotten the Duchess by this time, and was a little startled when she heard her voice close to her ear."
     camera:
         ease cam_transition xpos 1.4 ypos 1000 zoom 2.0
     duchess "You’re thinking about something, my dear, and that makes you forget to talk. I can’t tell you just now what the moral of that is, but I shall remember it in a bit."
 
-    show alice normal
+    show alice normal at breathing
     alice "Perhaps it hasn’t one."
 
     duchess "Tut, tut, child!"
     duchess "Everything’s got a moral, if only you can find it."
 
-    show alice pout
+    show alice pout at breathing
     show duchess happy at breathing:
         ease 0.5 xpos 1.45 zpos -20.0
     "And she squeezed herself up closer to Alice’s side as she spoke."
@@ -3988,7 +3988,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice pout
+    show alice pout at breathing
     "They both sat silent and looked at poor Alice, who felt ready to sink into the earth."
     "At last the Gryphon said to the Mock Turtle:"
 
@@ -4131,7 +4131,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice thinking
+    show alice thinking at breathing
     "This was quite a new idea to Alice, and she thought it over a little before she made her next remark."
     alice "Then the eleventh day must have been a holiday?"
 
@@ -4141,7 +4141,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice happy
+    show alice happy at breathing
     alice "And how did you manage on the twelfth?" # eagerly
 
     camera:
@@ -4402,7 +4402,7 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     
-    show alice thinking
+    show alice thinking at breathing
     "Alice was thoroughly puzzled."
     alice "Does the boots and shoes!?" # wondering
 
@@ -4457,7 +4457,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice pout
+    show alice pout at breathing
     alice "I could tell you my adventures—beginning from this morning, but it’s no use going back to yesterday, because I was a different person then."
 
     camera:
@@ -4470,7 +4470,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice normal
+    show alice normal at breathing
     "So Alice began telling them her adventures from the time when she first saw the White Rabbit."
     # get close
     show turtle at breathing:
@@ -4527,7 +4527,7 @@ label chapter10:
     mock "Well, I never heard it before, but it sounds uncommon nonsense."
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice crying
+    show alice crying at breathing
     "Alice said nothing; she had sat down with her face in her hands, wondering if anything would ever happen in a natural way again."
 
     camera:
@@ -4545,7 +4545,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice pout
+    show alice pout at breathing
     alice "It’s the first position in dancing."
     "She was dreadfully puzzled by the whole thing, and longed to change the subject."
 
@@ -4576,7 +4576,7 @@ label chapter10:
     gryphon "Yes, I think you’d better leave off."
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice normal
+    show alice normal at breathing
     "Alice was only too glad to do so."
 
     camera:
@@ -4586,7 +4586,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice happy
+    show alice happy at breathing
     alice "Oh, a song, please, if the Mock Turtle would be so kind." # alice replied eagerly
 
     camera:
@@ -5035,7 +5035,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
-    show alice happy
+    show alice happy at breathing
     alice "(I’m glad I’ve seen that done. I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now)"
     
     camera:
@@ -5141,7 +5141,7 @@ label ch11_court:
     "And he added in an undertone to the Queen:"
     king "Really, my dear, you must cross-examine the next witness. It quite makes my forehead ache!"
 
-    show alice thinking
+    show alice thinking at breathing
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     "Alice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like."
@@ -5277,7 +5277,7 @@ label chapter12:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
     "Everybody looked at Alice."
 
-    show alice pout
+    show alice pout at breathing
     alice "I’m not a mile high."
 
     camera:
@@ -5289,7 +5289,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
-    show alice normal
+    show alice normal at breathing
     alice "Well, I shan’t go, at any rate, besides, that’s not a regular rule: you invented it just now."
     
     camera:
@@ -5302,7 +5302,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
-    show king scared
+    show king scared  at breathing
     "The King turned pale, and shut his note-book hastily."
     king "Consider your verdict."
     "He said to the jury, in a low, trembling voice."
@@ -5325,7 +5325,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
-    show king
+    show king at breathing
     king "It must have been that, unless it was written to nobody, which isn’t usual, you know."
 
     camera:
