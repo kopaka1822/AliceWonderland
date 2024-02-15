@@ -1431,12 +1431,14 @@ screen credits():
         style_prefix "credits"
         text "Director: Kopaka\n"
         text "Original Script: Lewis Carroll\n"
-        text "Art: Created with DALL·E 2, edited by Kopaka\n"
+        text "Art: Created with DALL·E 2"
+        text "Edited by XL3xy, Kopaka\n"
         text "Music: {a=https://www.youtube.com/@RinneMusic}Rinne Music{/a}\n"
         text "Programmers: Nomander and Kopaka\n"
         text "Quality Assurance Testers:"
         text "Darkwilli"
         text "SirKero"
+        text "Ateshi"
         text "\nMade with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
 
 style credits_text:
