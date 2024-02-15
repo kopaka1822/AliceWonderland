@@ -2387,6 +2387,7 @@ label chapter7:
     define alice_tea_pos = 10
     define hare_tea_pos = 500
     define dormouse_tea_pos = 800
+    define dormouse_tea_cam_pos = 760
     define hatter_tea_pos = 1000
     define hare_scale = 0.9
     define hatter_scale = 0.5
@@ -2425,95 +2426,97 @@ label chapter7:
     "She sat down in a large arm-chair at one end of the table."
 
     camera:
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415
     hare "Have some wine."
 
+    camera:
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
 
     "Alice looked all round the table, but there was nothing on it but tea."
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "I don’t see any wine."
 
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415
     hare "There isn’t any."
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "Then it wasn’t very civil of you to offer it." # said Alice angrily
 
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415
     hare "It wasn’t very civil of you to sit down without being invited."
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "I didn’t know it was your table, it’s laid for a great many more than three."
 
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Your hair wants cutting."
 
     "He had been looking at Alice for some time with great curiosity, and this was his first speech."
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "You should learn not to make personal remarks, it’s very rude."
 
     "The Hatter opened his eyes very wide on hearing this." # ; but all he said was"
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Why is a raven like a writing-desk?"
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "Come, we shall have some fun now! I’m glad they’ve begun asking riddles—I believe I can guess that."
 
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415 ypos 5
     hare "Do you mean that you think you can find out the answer to it?"
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "Exactly so."
 
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415 ypos 5
     hare "Then you should say what you mean."
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "I do, at least—at least I mean what I say—that’s the same thing, you know."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Not the same thing a bit! Why, you might just as well say that ‘I see what I eat’ is the same thing as ‘I eat what I see’!"
 
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415 ypos 5
     hare "You might just as well say, that ‘I like what I get’ is the same thing as ‘I get what I like’!"
 
     camera: 
-        linear cam_transition xpos dormouse_tea_pos
+        linear cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     dormouse "You might just as well say, that ‘I breathe when I sleep’ is the same thing as ‘I sleep when I breathe’!"
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "It is the same thing with you."
 
     "And here the conversation dropped, and the party sat silent for a minute, while Alice thought over all she could remember about ravens and writing-desks, which wasn’t much."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     "The hatter was the first to break the silence."
     hatter "What day of month is it?"
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     "He had taken his watch out of his pocket, and was looking at it uneasily, shaking it every now and then, and holding it to his ear." # turning to alice
 
     "Alice considered it a little..."
@@ -2521,21 +2524,21 @@ label chapter7:
     alice "The fourth."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Two days wrong!"
     "He looked angrily at the March Hare."
     hatter "I told you butter wouldn’t suit the works!"
     
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415 ypos 5
     hare "It was the best butter."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Yes, but some crumbs must have got in as well, you shouldn’t have put it in with the bread-knife."
 
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415 ypos 5
     "The March Hare took the watch and looked at it gloomily: then he dipped it into his cup of tea, and looked at it again: but he could think of nothing better to say than his first remark."
 
     
@@ -2545,106 +2548,110 @@ label chapter7:
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "What a funny watch!"
     alice "It tells the day of the month, and doesn’t tell what o’clock it is!"
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Why should it?" # muttered the Hatter.
     hatter "Does your watch tell you what year it is?"
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "Of course not, but that’s because it stays the same year for such a long time together."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Which is just the case with mine."
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     "Alice felt dreadfully puzzled."
     "The Hatter’s remark seemed to have no sort of meaning in it, and yet it was certainly English."
     alice "I don’t quite understand you."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "The Dormouse is asleep again."
+
+    camera:
+        linear cam_transition xpos 840 zpos -415 ypos 5
+
     "He poured a little hot tea upon its nose."
     "The Door-mouse shook its head impatiently, and said, without opening its eyes:"
     
     camera: 
-        linear cam_transition xpos dormouse_tea_pos
+        linear cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     dormouse "Of course, of course; just what I was going to remark myself."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     "The hatter turned to Alice again."
     hatter "Have you guessed the riddle yet?"
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "No, I give it up. What’s the answer?"
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "I haven’t the slightest idea."
 
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415 ypos 5
     hare "Nor I."
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "I think you might do something better with the time, than waste it in asking riddles that have no answers."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "If you knew Time as well as I do, you wouldn’t talk about wasting it. It’s him."
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "I don’t know what you mean."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Of course you don’t! I dare say you never even spoke to Time!"
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "Perhaps not, but I know I have to beat time when I learn music."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Ah! That accounts for it. He won’t stand beating. Now, if you only kept on good terms with him, he’d do almost anything you liked with the clock."
     hatter "For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!"
 
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415 ypos 5
     hare "(I only with wish it was...)"
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "That would be grand, certainly, but then—I shouldn’t be hungry for it, you know."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Not at first, perhaps, but you could keep it to half-past one as long as you liked."
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "Is that the way you manage?"
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     "The Hatter shook his head mournfully."
     hatter "Not I! We quarrelled last March—just before he went mad, you know—"
 
@@ -2655,70 +2662,70 @@ label chapter7:
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "I’ve heard something like it."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "It goes on, you know, in this way:"
     hatter "Up above the world you fly,\nLike a tea-tray in the sky.\nTwinkle, twinkle—"
 
     "Here the Dormouse shook itself, and began singing in its sleep:"
 
     camera: 
-        linear cam_transition xpos dormouse_tea_pos
+        linear cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     dormouse "Twinkle, twinkle, twinkle, twinkle—"
 
     "And went on so long that they had to pinch it to make it stop."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Well, I’d hardly finished the first verse, when the Queen jumped up and bawled out, ‘He’s murdering the time! Off with his head!’"
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "How dreadfully savage!"
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "And ever since that, he won’t do a thing I ask! It’s always six o’clock now."
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     "A bright idea came into Alice’s head."
     alice "Is that the reason so many tea-things are put out here?"
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Yes, that’s it, it’s always tea-time, and we’ve no time to wash the things between whiles."
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "Then you keep moving round, I suppose?"
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Exactly so, as the things get used up."
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "But what happens when you come to the beginning again?"
 
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415 ypos 5
     hare "Suppose we change the subject. I’m getting tired of this. I vote the young lady tells us a story."
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "I’m afraid I don’t know one."
 
     camera: 
-        linear cam_transition xpos dormouse_tea_pos
+        linear cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     everyone "Then the Dormouse shall! Wake up, Dormouse!"
 
     "And they pinched it on both sides at once."
@@ -2730,133 +2737,137 @@ label chapter7:
     dormouse "I wasn’t asleep, I heard every word you fellows were saying."
 
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415 ypos 5
     hare "Tell us a story!"
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "Yes, please do!"
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "And be quick about it, or you’ll be asleep again before it’s done."
 
     camera: 
-        linear cam_transition xpos dormouse_tea_pos
+        linear cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     dormouse "Once upon a time there were three little sisters, and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—"
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "What did they live on?"
 
     "Alice always took a great interest in questions of eating and drinking."
 
     camera: 
-        xpos dormouse_tea_pos
-    show treacle at Position(xpos = dormouse_tea_pos, ypos = 0.6) zorder 200
+        xpos dormouse_tea_cam_pos zpos -505 ypos 130
+    show treacle at Position( ypos = 0.65) onlayer screens
     dormouse "They lived on treacle."
 
     "..."
-    hide treacle
+    hide treacle onlayer screens
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     show alice pout
     alice "They couldn’t have done that, you know, they’d have been ill."
 
     camera: 
-        linear cam_transition xpos dormouse_tea_pos
+        linear cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     dormouse "So they were, very ill..."
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     "Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on:"
 
     alice "But why did they live at the bottom of a well?"
 
     camera: 
-        linear cam_transition xpos hare_tea_pos
+        linear cam_transition xpos hare_tea_pos zpos -415 ypos 5
     hare "Take some more tea."
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     show alice pout
     alice "I’ve had nothing yet, so I can’t take more."
 
     "Alice replied in an offended tone."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "You mean you can’t take less. It’s very easy to take more than nothing."
 
 
-    camera: 
-        linear cam_transition xpos alice_tea_pos
+    camera:  
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "Nobody asked your opinion."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "Who’s making personal remarks now?" # the Hatter asked triumphantly.
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     show alice normal
     "Alice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question."
 
     camera: 
-        linear cam_transition xpos dormouse_tea_pos
+        linear cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     "The Dormouse again took a minute or two to think about it."
 
     dormouse "It was a treacle-well."
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     show alice pout
     alice "There’s no such thing!"
 
     "Alice was beginning very angrily, but the Hatter and the March Hare went."
 
     camera: 
-        linear cam_transition xpos dormouse_tea_pos
+        linear cam_transition xpos 530 zpos -30 ypos 30
     everyone "Sh! sh!"
+
+    camera: 
+        linear cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
 
     dormouse "If you can’t be civil, you’d better finish the story for yourself."
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "No, please go on! I won’t interrupt again. I dare say there may be one."
 
     camera: 
-        linear cam_transition xpos dormouse_tea_pos
+        linear cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     dormouse "One, indeed!"
     dormouse "And so these three little sisters—they were learning to draw, you know—"
 
 
     camera: 
-        linear cam_transition xpos alice_tea_pos
+        linear cam_transition xpos alice_tea_pos zpos -415 ypos 5
     alice "What did they draw?"
 
     camera: 
-        linear cam_transition xpos dormouse_tea_pos
+        linear cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     dormouse "Treacle."
 
     camera: 
-        linear cam_transition xpos hatter_tea_pos
+        linear cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     hatter "I want a clean cup, let’s all move one place on."
 
 label ch7_reorder:
 
     define hatter_tea_pos2 = 1210
-    define hatter_cam_pos2 = 1060
+    define hatter_cam_pos2 = 1215
     define alice_tea_pos2 = hare_tea_pos
     define hare_tea_pos2 = dormouse_tea_pos
     define dormouse_tea_pos2 = hatter_tea_pos
+    define dormouse_tea_cam_pos2 = 945
     show hatter zorder 100 at breathing:
         xpos hatter_tea_pos2
     show alice zorder 0 at breathing:
@@ -2866,23 +2877,31 @@ label ch7_reorder:
     show dormouse zorder 2 at breathing:
         xpos dormouse_tea_pos2 ypos 0.74
 
+
+    camera: 
+        linear cam_transition xpos 855 zpos -130 ypos 30
+
     "He moved on as he spoke, and the Dormouse followed him: the March Hare moved into the Dormouse’s place, and Alice rather unwillingly took the place of the March Hare. The Hatter was the only one who got any advantage from the change: and Alice was a good deal worse off than before, as the March Hare had just upset the milk-jug into his plate."
 
     camera: 
         linear cam_transition xpos alice_tea_pos2
     "Alice did not wish to offend the Dormouse again, so she began very cautiously:"
+
+    camera: 
+        linear cam_transition xpos alice_tea_pos2 zpos -495 ypos 30
+
     alice "But I don’t understand. Where did they draw the treacle from?"
 
     camera: 
-        linear cam_transition xpos hatter_cam_pos2
+        linear cam_transition xpos hatter_cam_pos2 zpos -425 ypos 5
     hatter "You can draw water out of a water-well, so I should think you could draw treacle out of a treacle-well—eh, stupid?"
 
     camera: 
-        linear cam_transition xpos alice_tea_pos2
+        linear cam_transition xpos alice_tea_pos2 zpos -495 ypos 30
     alice "But they were in the well."
 
     camera: 
-        linear cam_transition xpos dormouse_tea_pos2
+        linear cam_transition xpos dormouse_tea_cam_pos2 zpos -495 ypos 215
     dormouse "Of course they were, well in."
 
     "This answer so confused poor Alice, that she let the Dormouse go on for some time without interrupting it."
@@ -2896,36 +2915,34 @@ label ch7_reorder:
     "..."
 
     camera: 
-        linear cam_transition xpos alice_tea_pos2
+        linear cam_transition xpos alice_tea_pos2 zpos -495 ypos 30
     alice "Why with an M?"
 
     camera: 
-        linear cam_transition xpos hare_tea_pos2
+        linear cam_transition xpos hare_tea_pos2 zpos -425 ypos 5
     hare "Why not?"
     "Alice was silent."
 
     camera: 
-        linear cam_transition xpos dormouse_tea_pos2
+        linear cam_transition xpos dormouse_tea_cam_pos2 zpos -495 ypos 215
     "The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on:"
     # wake up
     show dormouse tired at breathing
     dormouse "—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?"
     
     camera: 
-        linear cam_transition xpos alice_tea_pos2
+        linear cam_transition xpos alice_tea_pos2 zpos -495 ypos 30
     alice "Really, now you ask me, I don’t think—"
 
     camera: 
-        linear cam_transition xpos hatter_cam_pos2
+        linear cam_transition xpos hatter_cam_pos2 zpos -425 ypos 5
     hatter "Then you shouldn’t talk."
 
     hide alice
     "This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot."
 
     scene forest
-    camera:
-        perspective False
-        xpos 0 ypos 0 xoffset 0
+    call reset_camera
 
     show alice pout at breathing:
         pos (0.5, 0.9) zoom alice_scale
