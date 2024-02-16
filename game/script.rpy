@@ -302,7 +302,8 @@ label chapter1:
 
     "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it."
 
-
+    camera:
+        ease cam_transition zpos -300
     # voice "voice/alice001.mp3"
     alice "(And what is the use of a book without pictures or conversations?)" 
 
@@ -313,7 +314,7 @@ label chapter1:
     show rabbit normal at breathing:
         xpos rabbit_riverbank ypos 0.9 zoom rabbit_scale
     camera:
-        ease cam_transition xpos rabbit_riverbank zoom 2.0 ypos 1900
+        ease cam_transition xpos rabbit_riverbank ypos 400 zpos -300
 
     rabbit "Oh dear! Oh dear! I shall be too late!"
 
@@ -325,7 +326,7 @@ label chapter1:
     show alice happy at breathing:
         ease 1.0 xpos rabbit_riverbank
     camera:
-        ease cam_transition xpos rabbit_riverbank zoom 1.0 ypos 0
+        ease cam_transition xpos rabbit_riverbank ypos 0 zpos 0
     "Burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge."
 
     show alice happy at breathing:
