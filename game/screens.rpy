@@ -123,9 +123,9 @@ screen say(who, what):
         else:
             background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
-        window:
-            style_prefix "touch_quick_hide" # same style as quick menu
-            textbutton "Hide" action HideInterface()    
+        #window:
+        #    style_prefix "touch_quick_hide" # same style as quick menu
+        #    textbutton "Hide" action HideInterface()    
     ## Place a character image on the bottom left of the screen
     #add SideImage() xalign 0.0 yalign 1.0
 

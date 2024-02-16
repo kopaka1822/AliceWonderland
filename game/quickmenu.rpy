@@ -40,12 +40,13 @@ screen quick_menu_b():
 
         xalign 0.5
         yalign 0.5
-        spacing 64
+        spacing 32
 
         textbutton _("Back") action Rollback()
         textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
         textbutton _("Auto") action Preference("auto-forward", "toggle")
         textbutton _("Menu") action [force_autosave_blocking_and_restart]
+        textbutton _("Hide") action HideInterface()   
 
 
 style touch_quick_button is default
