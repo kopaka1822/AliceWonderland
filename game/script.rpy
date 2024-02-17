@@ -289,9 +289,10 @@ label reset_camera:
     return
 
 label start:
-    #jump chapter1_after_fall
-label chapter1:
+    # select language on first start
+    call screen language
 
+label chapter1:
     scene black
     call reset_camera
     "{size=+40}Chapter I: \n{/size}Down the Rabbit-Hole"

@@ -323,7 +323,7 @@ screen main_menu():
     vbox:
 
         xalign 0.5
-        yalign 0.5
+        yalign 0.6
         spacing 20
 
         imagebutton:
@@ -357,6 +357,14 @@ screen main_menu():
             idle_foreground Text(_("Settings"), xalign=0.5, yalign=0.5)
             action ShowMenu("preferences")
             tooltip _("Adjust game settings")
+
+        imagebutton:
+            alt "Language"
+            auto default_button_image
+            hover_foreground Text(_("Language"), xalign=0.5, yalign=0.5)
+            idle_foreground Text(_("Language"), xalign=0.5, yalign=0.5)
+            action ShowMenu("language")
+            tooltip _("Adjust game language")
 
         imagebutton:
             alt "credits"
@@ -1443,3 +1451,33 @@ screen credits():
 
 style credits_text:
     size 50 color "#fff"
+
+screen language():
+    tag menu
+    add gui.game_menu_background
+
+    use game_menu(_("Language"), scroll="viewport"):
+
+        style_prefix "lang_menu"
+
+        #style_prefix "language"
+        vbox:
+            xalign 0.5
+            yalign 0.5
+            xoffset 250
+            yoffset 400
+            spacing 20
+
+            textbutton _("Old English (Original)") action [Language(None), Return()] style "stretch_button"
+                    
+            textbutton _("Simple English") action [Language("simple_english"), Return()] style "stretch_button"
+
+style stretch_button is button_text:
+        xsize 600
+        xalign 0.5
+        xfill True
+        ysize None  # Keep the original aspect ratio for the 
+        background Solid('#000000B3')
+        hover_background  Solid('#000000F2')
+        #selected_color "#5fb9ff"
+        padding (80,40)
