@@ -2,6 +2,10 @@
     import random
     import time
 
+    # remove mouse wheel from rollback (its annoying in the browser)
+    config.keymap['rollback'] = ['any_K_PAGEUP', 'any_KP_PAGEUP', 'K_AC_BACK']
+    config.keymap['rollforward'] = ['any_K_PAGEDOWN', 'any_KP_PAGEDOWN']
+
     renpy.register_shader("game.breathing", variables="""
         uniform sampler2D tex0;
         uniform float u_time;
@@ -161,7 +165,8 @@ transform breathing_crying(child):
     anchor (0.5, 1.0)
     shader get_shaders_breathing(child)
     u_offset get_object_rng(child)
-    u_breath_cycle 3.5
+    #u_breath_cycle 3.5
+    u_breath_cycle 5.0
     pause 0
     repeat
 
