@@ -2483,7 +2483,8 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
-    alice "Come, we shall have some fun now! I’m glad they’ve begun asking riddles—I believe I can guess that."
+    alice "(Come, we shall have some fun now! I’m glad they’ve begun asking riddles)"
+    alice "I believe I can guess that."
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
