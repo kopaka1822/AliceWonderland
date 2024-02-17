@@ -226,6 +226,8 @@ image hatter = Model().child("hatter.png", fit=True).texture("hatter_mask.png")
 
 image hare = Model().child("hare.png", fit=True).texture("hare_mask.png")
 
+image gryphon = Model().child("gryphon.png", fit=True).texture("gryphon_mask.png")
+
 # backgrounds
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
 image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
@@ -3922,7 +3924,7 @@ label ch9_gryphon:
     define gyphon_pos = 0.49
     define alice_turtle = 0.26
 
-    show gryphon behind alice:
+    show gryphon at breathing behind alice:
         xzoom 1.0 xpos 1.34
     show turtle at breathing:
         pos (turtle_pos, 0.89)
@@ -4163,7 +4165,7 @@ label chapter10:
     scene cliff
     show alice normal at breathing:
         pos (alice_turtle, 0.9) zoom alice_scale
-    show gryphon behind alice at breathing:
+    show gryphon at breathing behind alice:
         pos (gyphon_pos, 1.2) zoom 1.0
     show turtle at breathing:
         pos (turtle_pos, 0.89)
@@ -4632,7 +4634,7 @@ label chapter10:
     show alice pout at breathing:
         pause 2.5
         linear 7.5 xpos 1.54
-    show gryphon:
+    show gryphon at breathing:
         linear 10.0 xpos 1.21
     camera:
         zoom 1.0 ypos 0
