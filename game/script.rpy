@@ -232,6 +232,8 @@ image gryphon = Model().child("gryphon.png", fit=True).texture("gryphon_mask.png
 image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
 image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
 image croquet_front_mask = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png").texture("croquet_front.png")
+image garden = Model().child("garden.jpg", fit=True).texture("garden_wind.png")
+image garden_front_mask = Model().child("garden.jpg", fit=True).texture("garden_wind.png").texture("garden_front.png")
 
 image blades = Model().child("blades.png", fit=True).texture("blades_wind.png")
 image buttercup = Model().child("buttercup.png", fit=True).texture("buttercup_wind.png")
@@ -2968,7 +2970,8 @@ label ch7_reorder:
     "She began by taking the little golden key, and unlocking the door that led into the garden."
     
     stop music fadeout 1.0
-    scene garden at Position(xpos = 1500)
+    scene garden at windy:
+        xpos 1000
     "Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and then—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains."
 
 label chapter8:
@@ -2977,7 +2980,7 @@ label chapter8:
 
     play music "audio/rinne rosalia garden.mp3"
 
-    scene garden
+    scene garden at windy
 
     define alice_garden = -0.5
     define card_zoom = 0.75
@@ -3011,8 +3014,7 @@ label chapter8:
     show alice normal at breathing:
         pos (alice_garden, 0.8) zoom alice_scale
 
-    image garden_front_mask = AlphaMask("garden", "garden_front")
-    show garden_front_mask zorder 1000
+    show garden_front_mask zorder 1000 at windy_mask
 
     "A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red."
     "Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them..."
