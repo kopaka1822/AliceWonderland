@@ -1,53 +1,5 @@
 ﻿# TODO: Translation updated at 2024-02-17 17:36
 
-# game/script.rpy:245
-translate simple_english 49ec12a8:
-
-    # "# non-animated transforms (comment in for action editor) transform breathing_calm: anchor (0.5, 1.0)"
-    "# non-animated transforms (comment in for action editor) transform breathing_calm: anchor (0.5, 1.0)"
-
-# game/script.rpy:245
-translate simple_english 6cac8cd0:
-
-    # "transform breathing: anchor (0.5, 1.0)"
-    "transform breathing: anchor (0.5, 1.0)"
-
-# game/script.rpy:245
-translate simple_english fbceb752:
-
-    # "transform breathing_crying: anchor (0.5, 1.0)"
-    "transform breathing_crying: anchor (0.5, 1.0)"
-
-# game/script.rpy:245
-translate simple_english f9eeca60:
-
-    # "transform swimming: anchor (0.5, 1.0) ease 2.0 yoffset -10 ease 2.0 yoffset 10 repeat"
-    "transform swimming: anchor (0.5, 1.0) ease 2.0 yoffset -10 ease 2.0 yoffset 10 repeat"
-
-# game/script.rpy:245
-translate simple_english 7ffe53c8:
-
-    # "transform windy: anchor (0.5,0) pos (0,0) xoffset center_offset"
-    "transform windy: anchor (0.5,0) pos (0,0) xoffset center_offset"
-
-# game/script.rpy:245
-translate simple_english 85d9f747:
-
-    # "transform windy_no_anchor: xoffset 0 # do nothing"
-    "transform windy_no_anchor: xoffset 0 # do nothing"
-
-# game/script.rpy:245
-translate simple_english 28b69ff9:
-
-    # "transform windy_mask: anchor (0.5,0) pos (0,0) xoffset center_offset"
-    "transform windy_mask: anchor (0.5,0) pos (0,0) xoffset center_offset"
-
-# game/script.rpy:245
-translate simple_english 548c14c4:
-
-    # "#"
-    "#"
-
 # game/script.rpy:297
 translate simple_english chapter1_9ec5967d:
 
@@ -58,103 +10,103 @@ translate simple_english chapter1_9ec5967d:
 translate simple_english chapter1_470d34b5:
 
     # "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it."
-    "(Simple En:) Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it."
+    "Alice was getting bored sitting next to her sister at the riverbank. She looked at her sister's book but found it uninteresting because it had no pictures or conversations."
 
 # game/script.rpy:317
 translate simple_english chapter1_bbddd97e:
 
     # alice "(And what is the use of a book without pictures or conversations?)"
-    alice "(And what is the use of a book without pictures or conversations?)"
+    alice "(What's the point of a book if it doesn't have pictures or conversations?)"
 
 # game/script.rpy:319
 translate simple_english chapter1_f0723177:
 
     # "So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her."
-    "So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her."
+    "So she was thinking (as best as she could, because the hot day made her feel very tired), whether it would be worth it to make a daisy chain considering she had to get up and pick the daisies, when out of the blue, a White Rabbit with pink eyes ran by her."
 
 # game/script.rpy:321
 translate simple_english chapter1_40577482:
 
     # "There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself:"
-    "There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself:"
+    "Alice didn't find it strange when the Rabbit said to itself:"
 
 # game/script.rpy:328
 translate simple_english chapter1_d53f9006:
 
     # rabbit "Oh dear! Oh dear! I shall be too late!"
-    rabbit "Oh dear! Oh dear! I shall be too late!"
+    rabbit "Oh no! Oh no! I will be late!"
 
 # game/script.rpy:330
 translate simple_english chapter1_3d65fd53:
 
     # "(When she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural)"
-    "(When she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural)"
+    "(Later, she realized she should have been surprised by this, but in the moment, everything felt normal)"
 
 # game/script.rpy:331
 translate simple_english chapter1_d8a2816e:
 
     # "But when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it."
-    "But when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it."
+    "But when the Rabbit pulled out a watch from its pocket and looked at it, Alice suddenly stood up. It surprised her because she had never seen a rabbit with a pocket or a watch before."
 
 # game/script.rpy:339
 translate simple_english chapter1_cdbde678:
 
     # "Burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge."
-    "Burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge."
+    "Burning with curiosity, she chased after it. She saw the rabbit disappear into a big rabbit hole under the hedge."
 
 # game/script.rpy:343
 translate simple_english chapter1_4d9fd5bc:
 
     # "In another moment down went Alice after it, never once considering how in the world she was to get out again."
-    "In another moment down went Alice after it, never once considering how in the world she was to get out again."
+    "Alice went down without thinking about how she would get out again."
 
 # game/script.rpy:349
 translate simple_english chapter1_601d0032:
 
     # "The rabbit-hole went straight on like a tunnel for some way."
-    "The rabbit-hole went straight on like a tunnel for some way."
+    "A long, dark hole that looked like a tunnel went straight ahead for quite a while."
 
 # game/script.rpy:362
 translate simple_english chapter1_0ff39e9c:
 
     # "And then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well."
-    "And then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well."
+    "Alice fell into a deep hole in the ground."
 
 # game/script.rpy:364
 translate simple_english chapter1_fecd0831:
 
     # "Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next."
-    "Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next."
+    "The hole was either very deep or she fell very slowly because she had enough time while falling to see around and think about what would happen next."
 
 # game/script.rpy:366
 translate simple_english chapter1_827dde33:
 
     # "First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs."
-    "First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs."
+    "First, she tried to see what was at the bottom of the hole, but it was too dark. Then she looked at the walls and saw they were full of cupboards and bookshelves. She also noticed maps and pictures hung up here and there."
 
 # game/script.rpy:371
 translate simple_english chapter1_91e74c2c:
 
     # "She took down a jar from one of the shelves as she passed; it was labelled 'ORANGE MARMALADE', but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody underneath, so managed to put it into one of the cupboards as she fell past it."
-    "She took down a jar from one of the shelves as she passed; it was labelled 'ORANGE MARMALADE', but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody underneath, so managed to put it into one of the cupboards as she fell past it."
+    "As she fell, she grabbed a jar labeled 'ORANGE MARMALADE' off a shelf. But it was empty, which made her really sad. She didn't want to drop the jar and hurt anyone below, so she carefully placed it in a cupboard as she fell past it."
 
 # game/script.rpy:383
 translate simple_english chapter1_03730b0d:
 
     # alice "(Well! After such a fall as this, I shall think nothing of tumbling down stairs!)"
-    alice "(Well! After such a fall as this, I shall think nothing of tumbling down stairs!)"
+    alice "(Wow! After falling like that, I won't worry about falling down stairs anymore!)"
 
 # game/script.rpy:386
 translate simple_english chapter1_c76c118d:
 
     # alice "(How brave they'll all think me at home!)"
-    alice "(How brave they'll all think me at home!)"
+    alice "(Everyone at home will think I'm very brave!)"
 
 # game/script.rpy:389
 translate simple_english chapter1_e9d9bac0:
 
     # alice "(Why, I wouldn’t say anything about it, even if I fell off the top of the house!)"
-    alice "(Why, I wouldn’t say anything about it, even if I fell off the top of the house!)"
+    alice "(I wouldn't be scared, not even if I fell off the roof!)"
 
 # game/script.rpy:390
 translate simple_english chapter1_67e8b78b:
@@ -172,13 +124,13 @@ translate simple_english chapter1_d3c5a6ee:
 translate simple_english chapter1_73d1e28a:
 
     # alice "I wonder how many miles I've fallen by this time?"
-    alice "I wonder how many miles I've fallen by this time?"
+    alice "I wonder how far I have fallen by now?"
 
 # game/script.rpy:397
 translate simple_english chapter1_d44c5aa5:
 
     # alice "I must be getting somewhere near the centre of the earth."
-    alice "I must be getting somewhere near the centre of the earth."
+    alice "I think I'm close to the middle of the Earth now."
 
 # game/script.rpy:399
 translate simple_english chapter1_89b90f09:
@@ -190,13 +142,13 @@ translate simple_english chapter1_89b90f09:
 translate simple_english chapter1_96b74097:
 
     # "(for, you see, Alice had learnt several things of this sort in her lessons in the schoolroom, and though this was not a very good opportunity for showing off her knowledge, as there was no one to listen to her, still it was good practice to say it over)"
-    "(for, you see, Alice had learnt several things of this sort in her lessons in the schoolroom, and though this was not a very good opportunity for showing off her knowledge, as there was no one to listen to her, still it was good practice to say it over)"
+    "(Alice had learned many things like this in school. Even though no one was around to hear her, she found it helpful to practice saying what she knew)"
 
 # game/script.rpy:404
 translate simple_english chapter1_56db8c28:
 
     # alice "—yes, that’s about the right distance—but then I wonder what Latitude or Longitude I’ve got to?"
-    alice "—yes, that’s about the right distance—but then I wonder what Latitude or Longitude I’ve got to?"
+    alice "Yes, that seems to be the correct distance. But now I'm curious about which Latitude or Longitude I am at."
 
 # game/script.rpy:406
 translate simple_english chapter1_9bf6eb9a:
@@ -208,37 +160,37 @@ translate simple_english chapter1_9bf6eb9a:
 translate simple_english chapter1_3e0af7b4:
 
     # "Presently she began again."
-    "Presently she began again."
+    "She started over once more."
 
 # game/script.rpy:411
 translate simple_english chapter1_b4d2bb8b:
 
     # alice "I wonder if I shall fall right through the earth! How funny it’ll seem to come out among the people that walk with their heads downward! The Antipathies, I think—"
-    alice "I wonder if I shall fall right through the earth! How funny it’ll seem to come out among the people that walk with their heads downward! The Antipathies, I think—"
+    alice "I'm curious if I'll fall through the earth! It would be funny to pop out where people walk upside down! The Antipathies, I think—"
 
 # game/script.rpy:413
 translate simple_english chapter1_b5d27fac:
 
     # "(she was rather glad there was no one listening, this time, as it didn’t sound at all the right word)"
-    "(she was rather glad there was no one listening, this time, as it didn’t sound at all the right word)"
+    "(She felt relieved that no one was listening this time because the word she said didn't sound correct)"
 
 # game/script.rpy:416
 translate simple_english chapter1_718964c4:
 
     # alice "—but I shall have to ask them what the name of the country is, you know. Please, Ma’am, is this New Zealand or Australia?"
-    alice "—but I shall have to ask them what the name of the country is, you know. Please, Ma’am, is this New Zealand or Australia?"
+    alice "—but I need to ask them what the country is called. Please, Ma’am, is this New Zealand or Australia?"
 
 # game/script.rpy:418
 translate simple_english chapter1_f8ef3c91:
 
     # "(and she tried to curtsey as she spoke—fancy curtseying as you’re falling through the air! Do you think you could manage it?)"
-    "(and she tried to curtsey as she spoke—fancy curtseying as you’re falling through the air! Do you think you could manage it?)"
+    "(She tried to do a fancy curtsy while talking. Imagine curtsying while falling through the air! Do you think you could do it?)"
 
 # game/script.rpy:420
 translate simple_english chapter1_dd988509:
 
     # alice "And what an ignorant little girl she’ll think me for asking! No, it’ll never do to ask: perhaps I shall see it written up somewhere."
-    alice "And what an ignorant little girl she’ll think me for asking! No, it’ll never do to ask: perhaps I shall see it written up somewhere."
+    alice "They might think I'm silly if I ask! So I won't ask. Maybe I'll find the answer written somewhere."
 
 # game/script.rpy:422
 translate simple_english chapter1_3c400063:
@@ -250,13 +202,13 @@ translate simple_english chapter1_3c400063:
 translate simple_english chapter1_42dddf31:
 
     # "There was nothing else to do, so Alice soon began talking again."
-    "There was nothing else to do, so Alice soon began talking again."
+    "Alice started talking again because there wasn't anything else she could do."
 
 # game/script.rpy:426
 translate simple_english chapter1_a53da462:
 
     # alice "Dinah’ll miss me very much to-night, I should think!"
-    alice "Dinah’ll miss me very much to-night, I should think!"
+    alice "Dinah will miss me a lot tonight, I believe!"
 
 # game/script.rpy:428
 translate simple_english chapter1_436b7a5c:
@@ -268,13 +220,13 @@ translate simple_english chapter1_436b7a5c:
 translate simple_english chapter1_6a96f151:
 
     # alice "I hope they’ll remember her saucer of milk at tea-time. Dinah my dear! I wish you were down here with me!"
-    alice "I hope they’ll remember her saucer of milk at tea-time. Dinah my dear! I wish you were down here with me!"
+    alice "I hope they remember to give her some milk at tea time. Oh Dinah, I wish you were here with me!"
 
 # game/script.rpy:431
 translate simple_english chapter1_f79f7418:
 
     # alice "There are no mice in the air, I’m afraid, but you might catch a bat, and that’s very like a mouse, you know."
-    alice "There are no mice in the air, I’m afraid, but you might catch a bat, and that’s very like a mouse, you know."
+    alice "You won't find any mice flying around, my dear. However, if you look closely, you may spot a bat which looks quite similar to a mouse."
 
 # game/script.rpy:432
 translate simple_english chapter1_cb52671b:
@@ -286,7 +238,7 @@ translate simple_english chapter1_cb52671b:
 translate simple_english chapter1_51f218d5:
 
     # "And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way:"
-    "And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way:"
+    "Alice started feeling tired and began talking to herself in a sleepy manner:"
 
 # game/script.rpy:435
 translate simple_english chapter1_3781f718:
@@ -310,13 +262,13 @@ translate simple_english chapter1_edea7c61:
 translate simple_english chapter1_c1f0e5b8:
 
     # "You see, as she couldn’t answer either question, it didn’t much matter which way she put it."
-    "You see, as she couldn’t answer either question, it didn’t much matter which way she put it."
+    "Since she couldn't answer either question, it didn't really matter how she said it."
 
 # game/script.rpy:439
 translate simple_english chapter1_cdcdf545:
 
     # "She felt that she was dozing off, and had just begun to dream that she was walking hand in hand with Dinah, and saying to her very earnestly:"
-    "She felt that she was dozing off, and had just begun to dream that she was walking hand in hand with Dinah, and saying to her very earnestly:"
+    "She felt like she was falling asleep. In her dream, she was holding hands with Dinah, talking to her with great seriousness:"
 
 # game/script.rpy:440
 translate simple_english chapter1_a0579137:
@@ -328,217 +280,217 @@ translate simple_english chapter1_a0579137:
 translate simple_english chapter1_13a37771:
 
     # "When suddenly, thump! thump! down she came upon a heap of sticks and dry leaves, and the fall was over."
-    "When suddenly, thump! thump! down she came upon a heap of sticks and dry leaves, and the fall was over."
+    "Suddenly, she fell down onto a pile of sticks and dry leaves and the fall ended there."
 
 # game/script.rpy:448
 translate simple_english chapter1_ec3fda29:
 
     # "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead."
-    "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead."
+    "Alice wasn't hurt at all and quickly stood up. But when she looked around, everything was dark above her."
 
 # game/script.rpy:463
 translate simple_english chapter1_8112de69:
 
     # "Before her was another long passage, and the White Rabbit was still in sight, hurrying down it."
-    "Before her was another long passage, and the White Rabbit was still in sight, hurrying down it."
+    "There was a long hallway ahead, and the White Rabbit could still be seen, rushing down it."
 
 # game/script.rpy:467
 translate simple_english chapter1_62c34cc3:
 
     # "There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner:"
-    "There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner:"
+    "Alice hurried quickly after the rabbit as it disappeared around a corner."
 
 # game/script.rpy:473
 translate simple_english chapter1_4f516453:
 
     # rabbit "Oh my ears and whiskers, how late it's getting!"
-    rabbit "Oh my ears and whiskers, how late it's getting!"
+    rabbit "Oh my ears and whiskers! It's getting late!"
 
 # game/script.rpy:479
 translate simple_english chapter1_a8970176:
 
     # "She was close behind it when she turned the corner, but the Rabbit was no longer to be seen."
-    "She was close behind it when she turned the corner, but the Rabbit was no longer to be seen."
+    "She was right behind it, but when she turned the corner, she couldn't see the Rabbit anymore."
 
 # game/script.rpy:487
 translate simple_english chapter1_941203bf:
 
     # "She found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof."
-    "She found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof."
+    "She was in a long hallway lighted by lamps hanging from above."
 
 # game/script.rpy:489
 translate simple_english chapter1_72cc5852:
 
     # "There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again."
-    "There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again."
+    "There were doors all around the room, but they were all locked. Alice checked each door on one side, then the other side, but they were all locked. Feeling sad, she walked down the middle of the room, wondering how she would be able to leave."
 
 # game/script.rpy:492
 translate simple_english chapter1_8b4d4fc6:
 
     # "Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key, and Alice’s first thought was that it might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but at any rate it would not open any of them."
-    "Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key, and Alice’s first thought was that it might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but at any rate it would not open any of them."
+    "All of a sudden, she found a small table made of solid glass with three legs. On it, there was only a tiny golden key. Alice thought it might open one of the doors in the hall. But sadly, the key was too small for the locks, and it couldn't open any of the doors."
 
 # game/script.rpy:496
 translate simple_english chapter1_251883fe:
 
     # "However, on the second time round, she came upon a low curtain she had not noticed before, and behind it was a little door about fifteen inches high: she tried the little golden key in the lock, and to her great delight it fitted!"
-    "However, on the second time round, she came upon a low curtain she had not noticed before, and behind it was a little door about fifteen inches high: she tried the little golden key in the lock, and to her great delight it fitted!"
+    "But the next time she walked around, she found a small curtain she hadn't seen earlier. Behind it was a tiny door, only about fifteen inches tall. She used the little gold key in the lock, and was very happy to see that it fit perfectly!"
 
 # game/script.rpy:499
 translate simple_english chapter1_a7fecbc7:
 
     # "Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw."
-    "Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw."
+    "Alice opened the door and found a small passage, not much bigger than a rat-hole. She knelt down and peeked into the passage, seeing the most beautiful garden she had ever seen."
 
 # game/script.rpy:501
 translate simple_english chapter1_80feb15d:
 
     # "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway."
-    "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway."
+    "She really wanted to leave the dark hall and explore the beds of colorful flowers and cool fountains, but she couldn't even fit her head through the doorway."
 
 # game/script.rpy:505
 translate simple_english chapter1_42f344cd:
 
     # alice "(And even if my head would go through, it would be of very little use without my shoulders)"
-    alice "(And even if my head would go through, it would be of very little use without my shoulders)"
+    alice "(Even if my head fits, it won't work without my shoulders)"
 
 # game/script.rpy:506
 translate simple_english chapter1_69f5bdc6:
 
     # alice "(Oh, how I wish I could shut up like a telescope! I think I could, if I only knew how to begin)"
-    alice "(Oh, how I wish I could shut up like a telescope! I think I could, if I only knew how to begin)"
+    alice "(I wish I could fold up like a telescope! I think I could do it if I knew how to start)"
 
 # game/script.rpy:508
 translate simple_english chapter1_e6a507db:
 
     # "For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible."
-    "For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible."
+    "Lately, lots of surprising things had happened to Alice, making her believe that only a few things were truly impossible."
 
 # game/script.rpy:515
 translate simple_english chapter1_3764aa6b:
 
     # "There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it."
-    "There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it."
+    "She didn't think waiting by the small door was helpful, so she returned to the table. She wished she could find another key there, or a guidebook on how to fold people up like telescopes. Instead, she found a small bottle on the table."
 
 # game/script.rpy:516
 translate simple_english chapter1_6d9fdf29:
 
     # alice "This certainly was not here before."
-    alice "This certainly was not here before."
+    alice "This was not here before."
 
 # game/script.rpy:517
 translate simple_english chapter1_94d41ba2:
 
     # "Around the neck of the bottle was a paper label, with the words 'DRINK ME' beautifully printed on it in large letters."
-    "Around the neck of the bottle was a paper label, with the words 'DRINK ME' beautifully printed on it in large letters."
+    "A paper tag on the bottle said 'DRINK ME' in big, pretty letters."
 
 # game/script.rpy:519
 translate simple_english chapter1_6c97a18e:
 
     # "It was all very well to say 'Drink me', but the wise little Alice was not going to do that in a hurry."
-    "It was all very well to say 'Drink me', but the wise little Alice was not going to do that in a hurry."
+    "Alice was smart and didn't want to drink something just because it said 'Drink me'."
 
 # game/script.rpy:520
 translate simple_english chapter1_af568bbb:
 
     # alice "No, I’ll look first and see whether it’s marked 'poison' or not."
-    alice "No, I’ll look first and see whether it’s marked 'poison' or not."
+    alice "No, I will check first to see if it says 'poison' on it."
 
 # game/script.rpy:522
 translate simple_english chapter1_ed288ce6:
 
     # "She had read several nice little histories about children who had got burnt, and eaten up by wild beasts and other unpleasant things, all because they would not remember the simple rules their friends had taught them: "
-    "She had read several nice little histories about children who had got burnt, and eaten up by wild beasts and other unpleasant things, all because they would not remember the simple rules their friends had taught them: "
+    "She had read some stories about kids who got hurt because they didn't follow the rules taught by their friends:"
 
 # game/script.rpy:523
 translate simple_english chapter1_6a354582:
 
     # "Such as, that a red-hot poker will burn you if you hold it too long; and that if you cut your finger very deeply with a knife, it usually bleeds; and she had never forgotten that, if you drink much from a bottle marked 'poison', it is almost certain to disagree with you, sooner or later."
-    "Such as, that a red-hot poker will burn you if you hold it too long; and that if you cut your finger very deeply with a knife, it usually bleeds; and she had never forgotten that, if you drink much from a bottle marked 'poison', it is almost certain to disagree with you, sooner or later."
+    "For instance, touching a hot poker will burn you if you hold it for too long. If you cut your finger deeply with a knife, it usually bleeds. And she always remembered that drinking from a bottle labeled 'poison' will likely make you sick eventually."
 
 # game/script.rpy:529
 translate simple_english chapter1_8f0d4c27:
 
     # "However, this bottle was not marked 'poison,' so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off."
-    "However, this bottle was not marked 'poison,' so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off."
+    "But since the bottle didn't say it was 'poison', Alice decided to try it. It tasted really good, like a mix of cherry pie, custard, pineapple, roasted turkey, toffee, and buttered toast. She finished it quickly."
 
 # game/script.rpy:536
 translate simple_english chapter1_4efeb272:
 
     # alice "What a curious feeling! I must be shutting up like a telescope."
-    alice "What a curious feeling! I must be shutting up like a telescope."
+    alice "I feel strange - I think I'm folding like a telescope."
 
 # game/script.rpy:538
 translate simple_english chapter1_31e9c769:
 
     # "And so it was indeed: she was now only ten inches high, and her face brightened up at the thought that she was now the right size for going through the little door into that lovely garden."
-    "And so it was indeed: she was now only ten inches high, and her face brightened up at the thought that she was now the right size for going through the little door into that lovely garden."
+    "She was now only ten inches tall, and she felt happy because she was now the correct size to enter the small door and go into the beautiful garden."
 
 # game/script.rpy:540
 translate simple_english chapter1_14657276:
 
     # "First, however, she waited for a few minutes to see if she was going to shrink any further: she felt a little nervous about this."
-    "First, however, she waited for a few minutes to see if she was going to shrink any further: she felt a little nervous about this."
+    "First, she waited for a few minutes to check if she would get smaller. She was a bit worried about it."
 
 # game/script.rpy:542
 translate simple_english chapter1_28e11c64:
 
     # alice "It might end, you know, in my going out altogether, like a candle. I wonder what I should be like then?"
-    alice "It might end, you know, in my going out altogether, like a candle. I wonder what I should be like then?"
+    alice "I might just disappear one day, like a candle going out. I wonder what I would be like then?"
 
 # game/script.rpy:543
 translate simple_english chapter1_5591e0fa:
 
     # "And she tried to fancy what the flame of a candle is like after the candle is blown out, for she could not remember ever having seen such a thing."
-    "And she tried to fancy what the flame of a candle is like after the candle is blown out, for she could not remember ever having seen such a thing."
+    "She tried to imagine what a candle looks like after it is blown out, because she couldn't recall seeing such a thing."
 
 # game/script.rpy:545
 translate simple_english chapter1_4211981a:
 
     # "After a while, finding that nothing more happened, she decided on going into the garden at once; but, alas for poor Alice, when she got to the door, she found she had forgotten the little golden key, and when she went back to the table for it, she found she could not possibly reach it: "
-    "After a while, finding that nothing more happened, she decided on going into the garden at once; but, alas for poor Alice, when she got to the door, she found she had forgotten the little golden key, and when she went back to the table for it, she found she could not possibly reach it: "
+    "After waiting for a bit and seeing nothing happen, she thought of heading to the garden. Unfortunately, Alice realized she had forgotten the small golden key when she got to the door. When she tried to go back to the table to get it, she found she couldn't reach it."
 
 # game/script.rpy:548
 translate simple_english chapter1_d5865354:
 
     # "She could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
-    "She could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
+    "She could see it easily through the glass. She tried hard to climb up the table leg, but it was too slippery. After many tries, the tired little girl sat down and started to cry."
 
 # game/script.rpy:550
 translate simple_english chapter1_df7d944c:
 
     # alice "(Come, there’s no use in crying like that!)"
-    alice "(Come, there’s no use in crying like that!)"
+    alice "(Stop crying, it won't help!)"
 
 # game/script.rpy:552
 translate simple_english chapter1_b3c89eb7:
 
     # alice "(I advise you to leave off this minute!)"
-    alice "(I advise you to leave off this minute!)"
+    alice "(I suggest you stop right now!)"
 
 # game/script.rpy:553
 translate simple_english chapter1_90f3db04:
 
     # "She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people."
-    "She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people."
+    "She usually gave herself good advice, but hardly ever listened to it. Sometimes, she scolded herself too harshly, making herself cry. Once, she even tried to scold herself by pretending to hit her own ears for cheating in a game of croquet against herself. This strange child liked to pretend to be two people."
 
 # game/script.rpy:554
 translate simple_english chapter1_9780a769:
 
     # alice "(But it’s no use now, to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!)"
-    alice "(But it’s no use now, to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!)"
+    alice "(It's no good trying to act like two people now! I hardly have enough left of myself to be even one good person!)"
 
 # game/script.rpy:558
 translate simple_english chapter1_043456c5:
 
     # "Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words 'EAT ME' were beautifully marked in currants."
-    "Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words 'EAT ME' were beautifully marked in currants."
+    "She saw a small glass box under the table. Inside was a tiny cake with 'EAT ME' written on it in currants."
 
 # game/script.rpy:562
 translate simple_english chapter1_6f2a4226:
 
     # alice "Well, I’ll eat it, and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I’ll get into the garden, and I don’t care which happens!"
-    alice "Well, I’ll eat it, and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I’ll get into the garden, and I don’t care which happens!"
+    alice "I will eat it. If I get bigger, I can reach the key. If I get smaller, I can go under the door. Either way, I will get into the garden. I am okay with whatever happens!"
 
 # game/script.rpy:564
 translate simple_english chapter1_6c4af8df:
@@ -556,13 +508,13 @@ translate simple_english chapter1_fb1d2183:
 translate simple_english chapter1_dbfd357c:
 
     # "She was holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way."
-    "She was holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way."
+    "Alice put her hand on her head to check if she was growing. She was surprised to see she was staying the same size. Usually, eating cake does not make you grow, but Alice was used to strange things happening lately. Life seemed boring when things were normal."
 
 # game/script.rpy:568
 translate simple_english chapter1_86314618:
 
     # "So she set to work, and very soon finished off the cake."
-    "So she set to work, and very soon finished off the cake."
+    "She started eating and quickly finished the cake."
 
 # game/script.rpy:573
 translate simple_english chapter2_f08cdbbc:
@@ -580,13 +532,13 @@ translate simple_english chapter2_5c35a040:
 translate simple_english chapter2_bab81b6c:
 
     # "(she was so much surprised, that for the moment she quite forgot how to speak good English)"
-    "(she was so much surprised, that for the moment she quite forgot how to speak good English)"
+    "(She was very surprised and couldn't remember how to speak English well for a moment)"
 
 # game/script.rpy:590
 translate simple_english chapter2_fb560911:
 
     # alice "Now I’m opening out like the largest telescope that ever was!"
-    alice "Now I’m opening out like the largest telescope that ever was!"
+    alice "Now I'm expanding like the biggest telescope ever!"
 
 # game/script.rpy:591
 translate simple_english chapter2_5122136f:
@@ -598,19 +550,19 @@ translate simple_english chapter2_5122136f:
 translate simple_english chapter2_e6c0ee39:
 
     # "(For when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off)"
-    "(For when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off)"
+    "(When she looked at her feet, they seemed very far away because they were almost out of sight)"
 
 # game/script.rpy:593
 translate simple_english chapter2_293a4b3a:
 
     # alice "(Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure I shan’t be able!)"
-    alice "(Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure I shan’t be able!)"
+    alice "(Oh, my little feet, who will help you wear your shoes and socks now? I don't think I can do it anymore!)"
 
 # game/script.rpy:594
 translate simple_english chapter2_1770374e:
 
     # alice "(I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; —but I must be kind to them, or perhaps they won’t walk the way I want to go!)"
-    alice "(I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; —but I must be kind to them, or perhaps they won’t walk the way I want to go!)"
+    alice "(I will be too far away to worry about you. You will need to figure things out on your own. But I should be nice to them, or they might not go the way I want them to)"
 
 # game/script.rpy:595
 translate simple_english chapter2_25af9922:
@@ -622,13 +574,13 @@ translate simple_english chapter2_25af9922:
 translate simple_english chapter2_7e0c1b36:
 
     # "And she went on planning to herself how she would manage it."
-    "And she went on planning to herself how she would manage it."
+    "She continued thinking about how she would handle it."
 
 # game/script.rpy:597
 translate simple_english chapter2_f05f21c3:
 
     # alice "(They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!)"
-    alice "(They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!)"
+    alice "(They need to be sent by mail, it will be funny to send gifts to one's own feet! And how odd the directions will look!)"
 
 # game/script.rpy:598
 translate simple_english chapter2_8b4e6b71:
@@ -640,139 +592,139 @@ translate simple_english chapter2_8b4e6b71:
 translate simple_english chapter2_1cfa834c:
 
     # alice "(Oh dear, what nonsense I’m talking!)"
-    alice "(Oh dear, what nonsense I’m talking!)"
+    alice "(Oh no, I'm talking nonesense!)"
 
 # game/script.rpy:601
 translate simple_english chapter2_8eca5d9e:
 
     # "Just then, her head struck against the roof of the hall: in fact she was now rather more than nine feet high, and she at once took up the little golden key and hurried off to the garden door."
-    "Just then, her head struck against the roof of the hall: in fact she was now rather more than nine feet high, and she at once took up the little golden key and hurried off to the garden door."
+    "Suddenly, her head hit the ceiling of the hall because she had grown over nine feet tall. She quickly grabbed the small golden key and rushed to the garden door."
 
 # game/script.rpy:602
 translate simple_english chapter2_d211fbc6:
 
     # "Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again."
-    "Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again."
+    "Alice was sad. She tried hard to see the garden with one eye while lying down, but getting through the door seemed impossible. She sat down and started crying."
 
 # game/script.rpy:606
 translate simple_english chapter2_1fc0f591:
 
     # alice "You ought to be ashamed of yourself, a great girl like you, to go on crying in this way! Stop this moment, I tell you!"
-    alice "You ought to be ashamed of yourself, a great girl like you, to go on crying in this way! Stop this moment, I tell you!"
+    alice "You should be embarrassed, crying like this! Stop crying right now, I'm telling you!"
 
 # game/script.rpy:607
 translate simple_english chapter2_a2acc2fe:
 
     # "But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall."
-    "But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall."
+    "But she kept crying a lot, and the tears formed a big puddle around her, about four inches deep and extending halfway into the hallway."
 
 # game/script.rpy:610
 translate simple_english chapter2_af7dc682:
 
     # "After a time she heard a little pattering of feet in the distance, and she hastily dried her eyes to see what was coming."
-    "After a time she heard a little pattering of feet in the distance, and she hastily dried her eyes to see what was coming."
+    "After a while, she heard some little footsteps in the distance. She quickly wiped her eyes to see what was coming."
 
 # game/script.rpy:611
 translate simple_english chapter2_bd43b1de:
 
     # "It was the White Rabbit returning, splendidly dressed, with a pair of white kid gloves in one hand and a large fan in the other:"
-    "It was the White Rabbit returning, splendidly dressed, with a pair of white kid gloves in one hand and a large fan in the other:"
+    "The White Rabbit came back, carrying white gloves in one hand and a big fan in the other."
 
 # game/script.rpy:612
 translate simple_english chapter2_a25db69c:
 
     # "He came trotting along in a great hurry, muttering to himself as he came:"
-    "He came trotting along in a great hurry, muttering to himself as he came:"
+    "He hurried along, talking to himself as he went:"
 
 # game/script.rpy:619
 translate simple_english chapter2_9f71555e:
 
     # rabbit "Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!"
-    rabbit "Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!"
+    rabbit "Oh no! The Duchess will be angry if I make her wait!"
 
 # game/script.rpy:620
 translate simple_english chapter2_7c71fdb2:
 
     # "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice:"
-    "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice:"
+    "Alice was willing to ask anyone for help. When the Rabbit approached her, she started to speak in a quiet and nervous voice."
 
 # game/script.rpy:624
 translate simple_english chapter2_8aa2860e:
 
     # alice "If you please, sir—"
-    alice "If you please, sir—"
+    alice "If you would, sir—"
 
 # game/script.rpy:631
 translate simple_english chapter2_648410d7:
 
     # "The Rabbit started violently, dropped the white kid gloves and the fan, and skurried away into the darkness as hard as he could go."
-    "The Rabbit started violently, dropped the white kid gloves and the fan, and skurried away into the darkness as hard as he could go."
+    "The rabbit got scared, dropped the white gloves and the fan, and quickly ran into the dark as fast as it could."
 
 # game/script.rpy:633
 translate simple_english chapter2_1fd8a1d8:
 
     # "Alice took up the fan and gloves, and, as the hall was very hot, she kept fanning herself all the time she went on talking:"
-    "Alice took up the fan and gloves, and, as the hall was very hot, she kept fanning herself all the time she went on talking:"
+    "Alice picked up the fan and gloves. Since the hall was very hot, she fanned herself while she continued talking:"
 
 # game/script.rpy:638
 translate simple_english chapter2_1baa91a8:
 
     # alice "Dear, dear! How queer everything is to-day! And yesterday things went on just as usual."
-    alice "Dear, dear! How queer everything is to-day! And yesterday things went on just as usual."
+    alice "Wow, everything seems strange today!"
 
 # game/script.rpy:639
 translate simple_english chapter2_c071a803:
 
     # alice "I wonder if I’ve been changed in the night? Let me think:"
-    alice "I wonder if I’ve been changed in the night? Let me think:"
+    alice "I wonder if I changed overnight. Let me think:"
 
 # game/script.rpy:640
 translate simple_english chapter2_5d373bda:
 
     # alice "Was I the same when I got up this morning? I almost think I can remember feeling a little different."
-    alice "Was I the same when I got up this morning? I almost think I can remember feeling a little different."
+    alice "Was I the same when I woke up this morning? I feel like I might have been a bit different then."
 
 # game/script.rpy:641
 translate simple_english chapter2_ed2248fa:
 
     # alice "But if I’m not the same, the next question is, Who in the world am I? Ah, that’s the great puzzle!"
-    alice "But if I’m not the same, the next question is, Who in the world am I? Ah, that’s the great puzzle!"
+    alice "If I'm not who I was before, then who am I now? That's the big mystery!"
 
 # game/script.rpy:642
 translate simple_english chapter2_8da21df9:
 
     # "And she began thinking over all the children she knew that were of the same age as herself, to see if she could have been changed for any of them."
-    "And she began thinking over all the children she knew that were of the same age as herself, to see if she could have been changed for any of them."
+    "She started thinking about other kids her age to see if she might have been switched with one of them."
 
 # game/script.rpy:644
 translate simple_english chapter2_0acfff12:
 
     # alice "I’m sure I’m not Ada, for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, she’s she, and I’m I, and—oh dear, how puzzling it all is!"
-    alice "I’m sure I’m not Ada, for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, she’s she, and I’m I, and—oh dear, how puzzling it all is!"
+    alice "I know I'm not Ada because her hair is curly and mine isn't. I also know I'm not Mabel because I know many things, unlike her who knows very little. They are who they are, and I am who I am. It's all very confusing!"
 
 # game/script.rpy:645
 translate simple_english chapter2_058600ff:
 
     # alice "I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is—oh dear! I shall never get to twenty at that rate!"
-    alice "I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is—oh dear! I shall never get to twenty at that rate!"
+    alice "I will see if I remember everything I used to know. Let me think: four times five is twelve, and four times six is thirteen, and four times seven is—oh no! I will never get to twenty like this!"
 
 # game/script.rpy:646
 translate simple_english chapter2_151bb418:
 
     # alice "However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, that’s all wrong, I’m certain!"
-    alice "However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, that’s all wrong, I’m certain!"
+    alice "The Multiplication Table is not helpful. Let's talk about Geography instead. London is the capital of Paris. Paris is the capital of Rome. Something is mixed up here, for sure!"
 
 # game/script.rpy:647
 translate simple_english chapter2_3bdd3742:
 
     # alice "I must have been changed for Mabel! I’ll try and say 'How doth the little—'"
-    alice "I must have been changed for Mabel! I’ll try and say 'How doth the little—'"
+    alice "I must have turned into Mabel! I will try to say 'How does the little—'"
 
 # game/script.rpy:648
 translate simple_english chapter2_06b28985:
 
     # "And she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:"
-    "And she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:"
+    "She put her hands together on her lap like she was about to recite something, but her voice sounded rough and different, and the words didn't sound right like they used to:"
 
 # game/script.rpy:650
 translate simple_english chapter2_24cbc637:
@@ -790,37 +742,37 @@ translate simple_english chapter2_3e5c9215:
 translate simple_english chapter2_86782c98:
 
     # alice "I’m sure those are not the right words."
-    alice "I’m sure those are not the right words."
+    alice "I don't think those are the correct words."
 
 # game/script.rpy:656
 translate simple_english chapter2_de721e8e:
 
     # alice "I must be Mabel after all, and I shall have to go and live in that poky little house, and have next to no toys to play with, and oh!"
-    alice "I must be Mabel after all, and I shall have to go and live in that poky little house, and have next to no toys to play with, and oh!"
+    alice "I guess I must be Mabel. I'll have to move to that small house and won't have many toys to play with. Oh no!"
 
 # game/script.rpy:657
 translate simple_english chapter2_c23c7ff7:
 
     # alice "Ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here!"
-    alice "Ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here!"
+    alice "I have many lessons to learn! No, if I am Mabel, I will stay down here!"
 
 # game/script.rpy:658
 translate simple_english chapter2_c749754a:
 
     # alice "It’ll be no use their putting their heads down and saying 'Come up again, dear!' I shall only look up and say 'Who am I then?'"
-    alice "It’ll be no use their putting their heads down and saying 'Come up again, dear!' I shall only look up and say 'Who am I then?'"
+    alice "Even if they say: 'Come back, darling!'. I will just lift my head and ask 'Who am I then?'"
 
 # game/script.rpy:659
 translate simple_english chapter2_f64d853c:
 
     # alice "'Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else' —but, oh dear!"
-    alice "'Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else' —but, oh dear!"
+    alice "'Tell me who I am first. If I want to be that person, I'll come up. If not, I'll stay down here until I'm someone else!'"
 
 # game/script.rpy:660
 translate simple_english chapter2_6dafe816:
 
     # alice "I do wish they would put their heads down! I am so very tired of being all alone here!"
-    alice "I do wish they would put their heads down! I am so very tired of being all alone here!"
+    alice "I wish someone could get me out of here. I am so tired of being all alone here!"
 
 # game/script.rpy:666
 translate simple_english chapter2_b42925b0:
@@ -844,13 +796,13 @@ translate simple_english chapter2_2853265e:
 translate simple_english chapter2_0db0bbb8:
 
     # "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
-    "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
+    "She stood up and walked to the table to see how tall she was. She realized she was getting smaller quickly and was now about two feet tall."
 
 # game/script.rpy:670
 translate simple_english chapter2_2a7d56c8:
 
     # "She soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
-    "She soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
+    "She quickly realized that the reason for this was the fan she was holding. She quickly dropped it so she wouldn't shrink completely."
 
 # game/script.rpy:673
 translate simple_english chapter2_c4837882:
@@ -862,31 +814,31 @@ translate simple_english chapter2_c4837882:
 translate simple_english chapter2_27d2b3a1:
 
     # "She was a good deal frightened at the sudden change, but very glad to find herself still in existence."
-    "She was a good deal frightened at the sudden change, but very glad to find herself still in existence."
+    "She was scared by the sudden change, but very happy to realize that she was still alive."
 
 # game/script.rpy:675
 translate simple_english chapter2_c26fa7e0:
 
     # alice "And now for the garden!"
-    alice "And now for the garden!"
+    alice "Now let's go to the garden!"
 
 # game/script.rpy:676
 translate simple_english chapter2_8a68c8c6:
 
     # "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
-    "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
+    "She quickly ran back to the small door, but sadly, it was closed again, and the golden key was on the table just like before."
 
 # game/script.rpy:678
 translate simple_english chapter2_c08ab1a3:
 
     # alice "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
-    alice "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
+    alice "And things are worse than ever because I've never been this tiny before, ever! It's just too unfair!"
 
 # game/script.rpy:682
 translate simple_english chapter2_06f32c52:
 
     # "As she said these words her foot slipped, and in another moment, splash!"
-    "As she said these words her foot slipped, and in another moment, splash!"
+    "Just as she spoke, her foot slipped and then, splash!"
 
 # game/script.rpy:699
 translate simple_english chapter2_7c48ddd2:
@@ -898,67 +850,67 @@ translate simple_english chapter2_7c48ddd2:
 translate simple_english chapter2_81992037:
 
     # "Her first idea was that she had somehow fallen into the sea."
-    "Her first idea was that she had somehow fallen into the sea."
+    "At first, she thought she had fallen into the sea."
 
 # game/script.rpy:704
 translate simple_english chapter2_fdb3e936:
 
     # alice "(And in that case I can go back by railway)"
-    alice "(And in that case I can go back by railway)"
+    alice "(And in that case, I can return by train)"
 
 # game/script.rpy:705
 translate simple_english chapter2_fecfaf52:
 
     # "(Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station)"
-    "(Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station)"
+    "(Alice had visited the seaside before and noticed that along the English coast, you'll always find a train station nearby)"
 
 # game/script.rpy:706
 translate simple_english chapter2_cbb6fbb7:
 
     # "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high."
-    "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high."
+    "She realized that she was in the pool of tears she cried when she was nine feet tall."
 
 # game/script.rpy:709
 translate simple_english chapter2_75e72bc1:
 
     # alice "I wish I hadn’t cried so much!"
-    alice "I wish I hadn’t cried so much!"
+    alice "I wish I hadn't cried so much!"
 
 # game/script.rpy:710
 translate simple_english chapter2_4673487e:
 
     # "She swam about, trying to find her way out."
-    "She swam about, trying to find her way out."
+    "She swam around, trying to find a way out."
 
 # game/script.rpy:711
 translate simple_english chapter2_b7b0866d:
 
     # alice "I shall be punished for it now, I suppose, by being drowned in my own tears! That will be a queer thing, to be sure! However, everything is queer to-day."
-    alice "I shall be punished for it now, I suppose, by being drowned in my own tears! That will be a queer thing, to be sure! However, everything is queer to-day."
+    alice "I hope I don't drown in my own tears! That would be strange for sure! But everything seems strange today."
 
 # game/script.rpy:715
 translate simple_english chapter2_a31df9d9:
 
     # "Just then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was:"
-    "Just then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was:"
+    "Right then, she heard something splashing in the pool nearby. She swam closer to see what it was."
 
 # game/script.rpy:721
 translate simple_english chapter2_b4340f76:
 
     # "At first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself."
-    "At first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself."
+    "At first, she thought it was a big animal like a walrus or hippopotamus. But then she remembered how small she had become. She realized it was just a little mouse that fell in just like her."
 
 # game/script.rpy:723
 translate simple_english chapter2_9c95b670:
 
     # alice "Would it be of any use, now, to speak to this mouse?"
-    alice "Would it be of any use, now, to speak to this mouse?"
+    alice "Should I talk to this mouse now?"
 
 # game/script.rpy:724
 translate simple_english chapter2_b95aa7b9:
 
     # alice "Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying."
-    alice "Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying."
+    alice "Everything is so strange here, that I believe it might be able to talk. There's no harm in trying."
 
 # game/script.rpy:725
 translate simple_english chapter2_62f26b13:
@@ -970,31 +922,31 @@ translate simple_english chapter2_62f26b13:
 translate simple_english chapter2_7d92de1a:
 
     # alice "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!"
-    alice "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!"
+    alice "O Mouse, do you know how to get out of this pool? I'm tired of swimming around here, O Mouse!"
 
 # game/script.rpy:728
 translate simple_english chapter2_a634dfe6:
 
     # "(Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother’s Latin Grammar, 'A mouse—of a mouse—to a mouse—a mouse—O mouse!')"
-    "(Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother’s Latin Grammar, 'A mouse—of a mouse—to a mouse—a mouse—O mouse!')"
+    "(Alice felt that talking to a mouse like this must be the right way because she had read it in her brother's Latin Grammar. She had never talked to a mouse in this way before, but the book said, 'A mouse — of a mouse — to a mouse — a mouse — O mouse!')"
 
 # game/script.rpy:729
 translate simple_english chapter2_ae3d8c94:
 
     # "The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing."
-    "The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing."
+    "The Mouse looked at her curiously, but it didn't say anything."
 
 # game/script.rpy:732
 translate simple_english chapter2_c1421b87:
 
     # alice "Perhaps it doesn’t understand English, I daresay it’s a French mouse, come over with William the Conqueror."
-    alice "Perhaps it doesn’t understand English, I daresay it’s a French mouse, come over with William the Conqueror."
+    alice "It might not know English, I think it’s a mouse from France, who came with William the Conqueror."
 
 # game/script.rpy:733
 translate simple_english chapter2_38ed8172:
 
     # "(For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened)"
-    "(For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened)"
+    "(Alice was not sure how long ago things in history happened)"
 
 # game/script.rpy:734
 translate simple_english chapter2_7b05d260:
@@ -1018,25 +970,25 @@ translate simple_english chapter2_9389285f:
 translate simple_english chapter2_960ab481:
 
     # "The mouse gave a sudden leap out of the water, and seemed to quiver all over with fright."
-    "The mouse gave a sudden leap out of the water, and seemed to quiver all over with fright."
+    "The mouse jumped out of the water suddenly and looked very scared."
 
 # game/script.rpy:740
 translate simple_english chapter2_4947535b:
 
     # alice "Oh, I beg your pardon!"
-    alice "Oh, I beg your pardon!"
+    alice "I'm sorry!"
 
 # game/script.rpy:741
 translate simple_english chapter2_d4de787b:
 
     # "She was afraid that she had hurt the poor animal’s feelings."
-    "She was afraid that she had hurt the poor animal’s feelings."
+    "She was afraid that she had hurt the poor animal's feelings."
 
 # game/script.rpy:742
 translate simple_english chapter2_e13d466a:
 
     # alice "I quite forgot you didn’t like cats."
-    alice "I quite forgot you didn’t like cats."
+    alice "I totally forgot that you don't like cats."
 
 # game/script.rpy:744
 translate simple_english chapter2_d0006b3c:
@@ -1054,157 +1006,157 @@ translate simple_english chapter2_e7a2e1e3:
 translate simple_english chapter2_f697c628:
 
     # alice "Well, perhaps not, don’t be angry about it."
-    alice "Well, perhaps not, don’t be angry about it."
+    alice "Maybe not, don't get mad."
 
 # game/script.rpy:749
 translate simple_english chapter2_cafe2f8d:
 
     # alice "And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her."
-    alice "And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her."
+    alice "Still, I wish I could show you our cat Dinah. I think you would like cats if you could see her."
 
 # game/script.rpy:750
 translate simple_english chapter2_67816743:
 
     # alice "She is such a dear quiet thing."
-    alice "She is such a dear quiet thing."
+    alice "She is a very sweet and quiet thing."
 
 # game/script.rpy:751
 translate simple_english chapter2_7bbe8e8f:
 
     # "Alice went on, half to herself, as she swam lazily about in the pool."
-    "Alice went on, half to herself, as she swam lazily about in the pool."
+    "Alice continued talking to herself while she swam in the pool."
 
 # game/script.rpy:752
 translate simple_english chapter2_6435f6d9:
 
     # alice "And she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
-    alice "And she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
+    alice "And she always sits happily by the fire, cleaning herself and purring. She's so lovely and very good at catching mice. Oh, sorry!"
 
 # game/script.rpy:753
 translate simple_english chapter2_9d399eb8:
 
     # "This time the Mouse was bristling all over, and she felt certain it must be really offended."
-    "This time the Mouse was bristling all over, and she felt certain it must be really offended."
+    "This time, the Mouse got really offended."
 
 # game/script.rpy:755
 translate simple_english chapter2_e8f844c0:
 
     # alice "We won’t talk about her any more if you’d rather not."
-    alice "We won’t talk about her any more if you’d rather not."
+    alice "We can stop talking about her if you want to."
 
 # game/script.rpy:757
 translate simple_english chapter2_7fdd7a6f:
 
     # mouse "We indeed!"
-    mouse "We indeed!"
+    mouse "Yes, we do!"
 
 # game/script.rpy:758
 translate simple_english chapter2_e1f6ae31:
 
     # "The mouse was trembling down to the end of its tail."
-    "The mouse was trembling down to the end of its tail."
+    "The mouse was shaking all over."
 
 # game/script.rpy:759
 translate simple_english chapter2_17c9bc17:
 
     # mouse "As if I would talk on such a subject! Our family always hated cats: nasty, low, vulgar things! Don’t let me hear the name again!"
-    mouse "As if I would talk on such a subject! Our family always hated cats: nasty, low, vulgar things! Don’t let me hear the name again!"
+    mouse "I would never talk about that! Our family has always disliked cats. They are mean and dirty. I don't want to hear about them again!"
 
 # game/script.rpy:762
 translate simple_english chapter2_65ab947d:
 
     # alice "I won’t indeed!"
-    alice "I won’t indeed!"
+    alice "I won't talk about her again!"
 
 # game/script.rpy:763
 translate simple_english chapter2_0cc18dd6:
 
     # "Alice was in a great hurry to change the subject of conversation."
-    "Alice was in a great hurry to change the subject of conversation."
+    "Alice urgently wanted to talk about something else."
 
 # game/script.rpy:764
 translate simple_english chapter2_7b6030df:
 
     # alice "Are you—are you fond—of—of dogs?"
-    alice "Are you—are you fond—of—of dogs?"
+    alice "Do you like dogs?"
 
 # game/script.rpy:765
 translate simple_english chapter2_8ee2eac9:
 
     # "The mouse did not answer, so Alice went on eagerly:"
-    "The mouse did not answer, so Alice went on eagerly:"
+    "The mouse didn't reply, so Alice continued:"
 
 # game/script.rpy:766
 translate simple_english chapter2_1dde0fda:
 
     # alice "There is such a nice little dog near our house I should like to show you!"
-    alice "There is such a nice little dog near our house I should like to show you!"
+    alice "There's a very cute dog near our house that I want to show you!"
 
 # game/script.rpy:767
 translate simple_english chapter2_333a45bf:
 
     # alice "A little bright-eyed terrier, you know, with oh, such long curly brown hair!"
-    alice "A little bright-eyed terrier, you know, with oh, such long curly brown hair!"
+    alice "A small, lively terrier with long curly brown hair!"
 
 # game/script.rpy:768
 translate simple_english chapter2_f8cbb9e7:
 
     # alice "And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things—I can’t remember half of them—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds!"
-    alice "And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things—I can’t remember half of them—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds!"
+    alice "This animal can fetch things back when you throw them. It belongs to a farmer who finds it very helpful."
 
 # game/script.rpy:769
 translate simple_english chapter2_cefb5d2c:
 
     # alice "He says it kills all the rats and—oh dear!"
-    alice "He says it kills all the rats and—oh dear!"
+    alice "He said it will kill all the rats and-Oh no!"
 
 # game/script.rpy:771
 translate simple_english chapter2_df0a880f:
 
     # "Alice cried in a sorrowful tone."
-    "Alice cried in a sorrowful tone."
+    "Alice started crying."
 
 # game/script.rpy:772
 translate simple_english chapter2_bd9a8f0c:
 
     # alice "I’m afraid I’ve offended it again!"
-    alice "I’m afraid I’ve offended it again!"
+    alice "I think I made it upset again!"
 
 # game/script.rpy:775
 translate simple_english chapter2_ed1ee610:
 
     # "For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
-    "For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
+    "The mouse was swimming away quickly and causing a lot of splashing in the water."
 
 # game/script.rpy:777
 translate simple_english chapter2_2cac83db:
 
     # alice "Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!"
-    alice "Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!"
+    alice "Dear mouse, please come back again. We won't talk about cats or dogs if you don't like them!"
 
 # game/script.rpy:781
 translate simple_english chapter2_466fb943:
 
     # "When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice:"
-    "When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice:"
+    "When the Mouse heard this, it turned around and swam back to her slowly. Its face looked pale, and it spoke in a shaky voice."
 
 # game/script.rpy:782
 translate simple_english chapter2_affb1312:
 
     # mouse "Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs."
-    mouse "Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs."
+    mouse "Let's go to the shore, and then I'll tell you why I don't like cats and dogs."
 
 # game/script.rpy:784
 translate simple_english chapter2_03de8938:
 
     # "It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures."
-    "It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures."
+    "The pool was full of birds and animals that had fallen into it. There was a Duck, a Dodo, a Lory, an Eaglet, and many other interesting creatures."
 
 # game/script.rpy:786
 translate simple_english chapter2_1a540cf3:
 
     # "Alice led the way, and the whole party swam to the shore."
-    "Alice led the way, and the whole party swam to the shore."
+    "Alice went first, and everyone followed her as they swam to the shore."
 
 # game/script.rpy:791
 translate simple_english chapter3_24276f65:
@@ -1216,55 +1168,55 @@ translate simple_english chapter3_24276f65:
 translate simple_english ch3_start_d810c5a2:
 
     # "They were indeed a queer-looking party that assembled on the bank—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable."
-    "They were indeed a queer-looking party that assembled on the bank—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable."
+    "A strange group gathered on the riverbank. The birds had messy feathers, the animals had wet fur, and they all looked grumpy and uncomfortable."
 
 # game/script.rpy:857
 translate simple_english ch3_start_95a68f9a:
 
     # "The first question of course was, how to get dry again: they had a consultation about this, and after a few minutes it seemed quite natural to Alice to find herself talking familiarly with them, as if she had known them all her life."
-    "The first question of course was, how to get dry again: they had a consultation about this, and after a few minutes it seemed quite natural to Alice to find herself talking familiarly with them, as if she had known them all her life."
+    "The first thing they thought about was how to get dry again. They talked about it and after a while, Alice felt very comfortable talking to them as if she had known them forever."
 
 # game/script.rpy:858
 translate simple_english ch3_start_f6b7b1de:
 
     # "Indeed, she had quite a long argument with the Lory, who at last turned sulky, and would only say:"
-    "Indeed, she had quite a long argument with the Lory, who at last turned sulky, and would only say:"
+    "She had a long argument with the Lory, who got grumpy would only say:"
 
 # game/script.rpy:863
 translate simple_english ch3_start_48bb96ec:
 
     # lory "I am older than you, and must know better."
-    lory "I am older than you, and must know better."
+    lory "I am older than you, so I know more."
 
 # game/script.rpy:864
 translate simple_english ch3_start_6d11b6d2:
 
     # "And this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said."
-    "And this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said."
+    "Alice wanted to know how old the Lory was, but the bird wouldn't say. So, there was nothing more to talk about."
 
 # game/script.rpy:868
 translate simple_english ch3_start_8dd580fe:
 
     # "At last the Mouse, who seemed to be a person of authority among them, called out:"
-    "At last the Mouse, who seemed to be a person of authority among them, called out:"
+    "Finally, the Mouse, who seemed to be in charge, spoke up."
 
 # game/script.rpy:870
 translate simple_english ch3_start_f3ede48b:
 
     # mouse "Sit down, all of you, and listen to me! I’ll soon make you dry enough!"
-    mouse "Sit down, all of you, and listen to me! I’ll soon make you dry enough!"
+    mouse "Everyone, please sit down and listen to me! I will make you dry!"
 
 # game/script.rpy:871
 translate simple_english ch3_start_0e6dd4d7:
 
     # "They all sat down at once, in a large ring, with the Mouse in the middle."
-    "They all sat down at once, in a large ring, with the Mouse in the middle."
+    "They all sat down together in a big circle, with the Mouse sitting in the middle."
 
 # game/script.rpy:872
 translate simple_english ch3_start_e3961f27:
 
     # "Alice kept her eyes anxiously fixed on it, for she felt sure she would catch a bad cold if she did not get dry very soon."
-    "Alice kept her eyes anxiously fixed on it, for she felt sure she would catch a bad cold if she did not get dry very soon."
+    "Alice watched the mouse closely because she was afraid she would get sick if she didn't dry off quickly."
 
 # game/script.rpy:874
 translate simple_english ch3_start_422d3e3e:
@@ -1282,7 +1234,7 @@ translate simple_english ch3_start_2540403d:
 translate simple_english ch3_start_a51fa460:
 
     # mouse "Silence all round, if you please!"
-    mouse "Silence all round, if you please!"
+    mouse "Everyone be quiet!"
 
 # game/script.rpy:877
 translate simple_english ch3_start_d1e62d68:
@@ -1318,7 +1270,7 @@ translate simple_english ch3_start_4a84afca:
 translate simple_english ch3_start_3d53e124:
 
     # lory "Not I!"
-    lory "Not I!"
+    lory "No!"
 
 # game/script.rpy:895
 translate simple_english ch3_start_b9c4d0c7:
@@ -1348,13 +1300,13 @@ translate simple_english ch3_start_b9bc5cca:
 translate simple_english ch3_start_5d04593b:
 
     # duck "I know what 'it' means well enough, when I find a thing, it’s generally a frog or a worm. The question is, what did the archbishop find?"
-    duck "I know what 'it' means well enough, when I find a thing, it’s generally a frog or a worm. The question is, what did the archbishop find?"
+    duck "I understand 'it' very well. When I find something, it's usually a frog or a worm. So, what did the archbishop find?"
 
 # game/script.rpy:912
 translate simple_english ch3_start_fcb36ac1:
 
     # "The Mouse did not notice this question, but hurriedly went on."
-    "The Mouse did not notice this question, but hurriedly went on."
+    "The mouse didn't notice the question and quickly continued."
 
 # game/script.rpy:914
 translate simple_english ch3_start_cf7b82e5:
@@ -1366,19 +1318,19 @@ translate simple_english ch3_start_cf7b82e5:
 translate simple_english ch3_start_dfda6237:
 
     # "It continued, turning to Alice as it spoke."
-    "It continued, turning to Alice as it spoke."
+    "It turned to Alice."
 
 # game/script.rpy:916
 translate simple_english ch3_start_7d567b49:
 
     # mouse "How are you getting on now, my dear?"
-    mouse "How are you getting on now, my dear?"
+    mouse "How are you doing, my dear?"
 
 # game/script.rpy:921
 translate simple_english ch3_start_24b48d9e:
 
     # alice "As wet as ever, it doesn’t seem to dry me at all."
-    alice "As wet as ever, it doesn’t seem to dry me at all."
+    alice "I'm still wet, and this doesn't seem to be drying me."
 
 # game/script.rpy:925
 translate simple_english ch3_start_ced08b12:
@@ -1390,19 +1342,19 @@ translate simple_english ch3_start_ced08b12:
 translate simple_english ch3_start_3405bef4:
 
     # eaglet "Speak English! I don’t know the meaning of half those long words, and, what’s more, I don’t believe you do either!"
-    eaglet "Speak English! I don’t know the meaning of half those long words, and, what’s more, I don’t believe you do either!"
+    eaglet "Speak English! I don’t understand the meaning of those words, and I don't think you do either!"
 
 # game/script.rpy:930
 translate simple_english ch3_start_e7a70394:
 
     # "And the Eaglet bent down its head to hide a smile: some of the other birds tittered audibly."
-    "And the Eaglet bent down its head to hide a smile: some of the other birds tittered audibly."
+    "The Eaglet lowered its head to cover a smile, while some other birds chuckled loudly."
 
 # game/script.rpy:934
 translate simple_english ch3_start_7b212452:
 
     # dodo "What I was going to say, was that the best thing to get us dry would be a Caucus-race."
-    dodo "What I was going to say, was that the best thing to get us dry would be a Caucus-race."
+    dodo "What I meant was, we can get dry by having a Caucus-race."
 
 # game/script.rpy:936
 translate simple_english ch3_start_a20cefa7:
@@ -1420,25 +1372,25 @@ translate simple_english ch3_start_3057377f:
 translate simple_english ch3_start_899063de:
 
     # "Not that she wanted much to know, but the Dodo had paused as if it thought that somebody ought to speak, and no one else seemed inclined to say anything."
-    "Not that she wanted much to know, but the Dodo had paused as if it thought that somebody ought to speak, and no one else seemed inclined to say anything."
+    "She didn't really want to know, but the Dodo stopped, looking like it thought someone should say something, and no one else seemed willing to speak."
 
 # game/script.rpy:947
 translate simple_english ch3_start_9d1dfaf7:
 
     # dodo "Why, the best way to explain it is to do it."
-    dodo "Why, the best way to explain it is to do it."
+    dodo "The best way to understand something is to try it."
 
 # game/script.rpy:949
 translate simple_english ch3_start_65f2ee5b:
 
     # "(And, as you might like to try the thing yourself, some winter day, I will tell you how the Dodo managed it)"
-    "(And, as you might like to try the thing yourself, some winter day, I will tell you how the Dodo managed it)"
+    "(And if you want to try it yourself someday, I will explain to you how the Dodo did it)"
 
 # game/script.rpy:952
 translate simple_english ch3_start_e32b0033:
 
     # "First it marked out a race-course, in a sort of circle."
-    "First it marked out a race-course, in a sort of circle."
+    "First, it made a race track in a circle shape."
 
 # game/script.rpy:953
 translate simple_english ch3_start_f83cb682:
@@ -1450,13 +1402,13 @@ translate simple_english ch3_start_f83cb682:
 translate simple_english ch3_start_e2fb94cc:
 
     # "And then all the party were placed along the course, here and there."
-    "And then all the party were placed along the course, here and there."
+    "And then everyone in the group was positioned around the path, in different spots."
 
 # game/script.rpy:1015
 translate simple_english ch3_start_3ecd4dfa:
 
     # "There was no 'One, two, three, and away', but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over."
-    "There was no 'One, two, three, and away', but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over."
+    "In the race, there were no rules like 'One, two, three, go!' They could start running and stop whenever they wanted. This made it hard to tell when the race ended."
 
 # game/script.rpy:1016
 translate simple_english ch3_start_a20cefa7_1:
@@ -1468,7 +1420,7 @@ translate simple_english ch3_start_a20cefa7_1:
 translate simple_english ch3_start_711c65cd:
 
     # "However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out:"
-    "However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out:"
+    "After running for about 30 minutes, they were all dry again and the Dodo suddenly shouted:"
 
 # game/script.rpy:1027
 translate simple_english ch3_start_87e15a18:
@@ -1480,7 +1432,7 @@ translate simple_english ch3_start_87e15a18:
 translate simple_english ch3_start_3e1b795e:
 
     # "And they all crowded round it, panting, and asking:"
-    "And they all crowded round it, panting, and asking:"
+    "They all gathered around the dodo, breathing heavily, and asking:"
 
 # game/script.rpy:1033
 translate simple_english ch3_start_12bb56cf:
@@ -1492,31 +1444,31 @@ translate simple_english ch3_start_12bb56cf:
 translate simple_english ch3_start_b535935a:
 
     # "This question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence."
-    "This question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence."
+    "The Dodo couldn't answer the question right away. It thought about it a lot, sitting with a finger on its forehead. Everyone else remained quiet while waiting."
 
 # game/script.rpy:1040
 translate simple_english ch3_start_2dc4e799:
 
     # dodo "Everybody has won, and all must have prizes."
-    dodo "Everybody has won, and all must have prizes."
+    dodo "Everyone is a winner, so everyone gets a prize."
 
 # game/script.rpy:1045
 translate simple_english ch3_start_01737d8d:
 
     # everyone "But who is to give the prizes?"
-    everyone "But who is to give the prizes?"
+    everyone "Who will give out the prizes?"
 
 # game/script.rpy:1050
 translate simple_english ch3_start_0dbcc33c:
 
     # dodo "Why, she, of course."
-    dodo "Why, she, of course."
+    dodo "She, of course."
 
 # game/script.rpy:1053
 translate simple_english ch3_start_7f8840ac:
 
     # "Said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way:"
-    "Said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way:"
+    "The Dodo pointed at Alice with a finger and everyone quickly gathered around her, talking all at once in a confused manner."
 
 # game/script.rpy:1058
 translate simple_english ch3_start_52d37f6d:
@@ -1528,31 +1480,31 @@ translate simple_english ch3_start_52d37f6d:
 translate simple_english ch3_start_733c6d3d:
 
     # "Alice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes."
-    "Alice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes."
+    "Alice didn’t know what to do. She found a box of candies in her pocket, which hadn’t gotten wet. She gave them to everyone as prizes."
 
 # game/script.rpy:1062
 translate simple_english ch3_start_8bed4759:
 
     # "There was exactly one a-piece all round."
-    "There was exactly one a-piece all round."
+    "There was one for each person."
 
 # game/script.rpy:1067
 translate simple_english ch3_start_c230fb5d:
 
     # mouse "But she must have a prize herself, you know."
-    mouse "But she must have a prize herself, you know."
+    mouse "But she needs a reward too, you know."
 
 # game/script.rpy:1071
 translate simple_english ch3_start_cd04a293:
 
     # dodo "Of course. What else have you got in your pocket?"
-    dodo "Of course. What else have you got in your pocket?"
+    dodo "Sure. Do you have anything else in your pocket?"
 
 # game/script.rpy:1072
 translate simple_english ch3_start_1449a53e:
 
     # "The dodo turned to Alice."
-    "The dodo turned to Alice."
+    "The dodo looked at Alice."
 
 # game/script.rpy:1079
 translate simple_english ch3_start_f8be2fa9:
@@ -1564,61 +1516,61 @@ translate simple_english ch3_start_f8be2fa9:
 translate simple_english ch3_start_c1ffdf93:
 
     # dodo "Hand it over here."
-    dodo "Hand it over here."
+    dodo "Give it to me."
 
 # game/script.rpy:1086
 translate simple_english ch3_start_04725d94:
 
     # "Then they all crowded round her once more, while the Dodo solemnly presented the thimble."
-    "Then they all crowded round her once more, while the Dodo solemnly presented the thimble."
+    "Then everyone gathered around her again, while the Dodo formally gave her the thimble."
 
 # game/script.rpy:1090
 translate simple_english ch3_start_0ab04a9c:
 
     # dodo "We beg your acceptance of this elegant thimble."
-    dodo "We beg your acceptance of this elegant thimble."
+    dodo "Please take this beautiful thimble as a gift from us."
 
 # game/script.rpy:1091
 translate simple_english ch3_start_bb797765:
 
     # "And, when it had finished this short speech, they all cheered."
-    "And, when it had finished this short speech, they all cheered."
+    "After it finished talking, they all cheered."
 
 # game/script.rpy:1093
 translate simple_english ch3_start_d040c754:
 
     # "Alice thought the whole thing very absurd, but they all looked so grave that she did not dare to laugh; and, as she could not think of anything to say, she simply bowed, and took the thimble, looking as solemn as she could."
-    "Alice thought the whole thing very absurd, but they all looked so grave that she did not dare to laugh; and, as she could not think of anything to say, she simply bowed, and took the thimble, looking as solemn as she could."
+    "Alice found the situation silly but everyone seemed serious, so she didn't want to laugh. Since she couldn't think of what to say, she just nodded politely, took the thimble, and tried to look serious."
 
 # game/script.rpy:1098
 translate simple_english ch3_start_92c9d3da:
 
     # "The next thing was to eat the comfits: this caused some noise and confusion, as the large birds complained that they could not taste theirs, and the small ones choked and had to be patted on the back."
-    "The next thing was to eat the comfits: this caused some noise and confusion, as the large birds complained that they could not taste theirs, and the small ones choked and had to be patted on the back."
+    "Next, everyone started eating the candies. But there was a little chaos because the big birds said they couldn't taste theirs and the small ones needed help when they choked on them."
 
 # game/script.rpy:1102
 translate simple_english ch3_start_9c54ac19:
 
     # "However, it was over at last, and they sat down again in a ring, and begged the Mouse to tell them something more."
-    "However, it was over at last, and they sat down again in a ring, and begged the Mouse to tell them something more."
+    "After they finished, they all sat back in a circle and asked the Mouse to tell them another story."
 
 # game/script.rpy:1107
 translate simple_english ch3_start_a74ef9ef:
 
     # alice "You promised to tell me your history, you know."
-    alice "You promised to tell me your history, you know."
+    alice "You said you would tell me about your history."
 
 # game/script.rpy:1108
 translate simple_english ch3_start_bf1ce7bf:
 
     # alice "And why it is you hate—C and D."
-    alice "And why it is you hate—C and D."
+    alice "And why do you hate C and D?"
 
 # game/script.rpy:1109
 translate simple_english ch3_start_97c0898e:
 
     # "Alice added in a whisper, half afraid that it would be offended again."
-    "Alice added in a whisper, half afraid that it would be offended again."
+    "Alice whispered because she was a little scared it might get angry again."
 
 # game/script.rpy:1114
 translate simple_english ch3_start_afefab47:
@@ -1636,7 +1588,7 @@ translate simple_english ch3_start_57a58567:
 translate simple_english ch3_start_6176b3bb:
 
     # "She kept on puzzling about it while the Mouse was speaking, so that her idea of the tale was something like this:—"
-    "She kept on puzzling about it while the Mouse was speaking, so that her idea of the tale was something like this:—"
+    "She continued to think about it while the Mouse talked, so she imagined the story as something like this:—"
 
 # game/script.rpy:1125
 translate simple_english ch3_start_dd93ccdc:
@@ -1654,7 +1606,7 @@ translate simple_english ch3_start_8d9fa90f:
 translate simple_english ch3_start_8ff97f55:
 
     # mouse "You are not attending!"
-    mouse "You are not attending!"
+    mouse "You are not paying attention!"
 
 # game/script.rpy:1137
 translate simple_english ch3_start_ee312569:
@@ -1666,7 +1618,7 @@ translate simple_english ch3_start_ee312569:
 translate simple_english ch3_start_33b58bf6:
 
     # alice "I beg your pardon, you had got to the fifth bend, I think?"
-    alice "I beg your pardon, you had got to the fifth bend, I think?"
+    alice "Excuse me, I think you had got to the fifth bend?"
 
 # game/script.rpy:1147
 translate simple_english ch3_start_a75749fa:
@@ -1690,7 +1642,7 @@ translate simple_english ch3_start_97407da9:
 translate simple_english ch3_start_36982066:
 
     # mouse "I shall do nothing of the sort."
-    mouse "I shall do nothing of the sort."
+    mouse "I won't let you do that!"
 
 # game/script.rpy:1162
 translate simple_english ch3_start_b7b2ee3b:
@@ -1708,7 +1660,7 @@ translate simple_english ch3_start_57cedca5:
 translate simple_english ch3_start_90b97de3:
 
     # alice "I didn’t mean it! But you’re so easily offended, you know!"
-    alice "I didn’t mean it! But you’re so easily offended, you know!"
+    alice "I didn’t try to upset you! But you get upset very easily!"
 
 # game/script.rpy:1171
 translate simple_english ch3_start_50016c1f:
@@ -1732,115 +1684,115 @@ translate simple_english ch3_start_77f4cd4c:
 translate simple_english ch3_start_6feff011:
 
     # "But the Mouse only shook its head impatiently, and walked a little quicker."
-    "But the Mouse only shook its head impatiently, and walked a little quicker."
+    "But the Mouse just shook its head and walked a little faster."
 
 # game/script.rpy:1187
 translate simple_english ch3_start_8ad9ad67:
 
     # lory "What a pity it wouldn’t stay!"
-    lory "What a pity it wouldn’t stay!"
+    lory "What a shame it wouldn't stay!"
 
 # game/script.rpy:1188
 translate simple_english ch3_start_27a33397:
 
     # "Sighed the Lory, as soon as it was quite out of sight; and an old Crab took the opportunity of saying to her daughter:"
-    "Sighed the Lory, as soon as it was quite out of sight; and an old Crab took the opportunity of saying to her daughter:"
+    "The Lory sighed, and an old Crab took the chance to speak to her daughter:"
 
 # game/script.rpy:1192
 translate simple_english ch3_start_8d938c66:
 
     # old_crab "Ah, my dear! Let this be a lesson to you never to lose your temper!"
-    old_crab "Ah, my dear! Let this be a lesson to you never to lose your temper!"
+    old_crab "Remember this, my dear! Never get angry!"
 
 # game/script.rpy:1196
 translate simple_english ch3_start_34e2b4f7:
 
     # young_crab "Hold your tongue, Ma! You’re enough to try the patience of an oyster!"
-    young_crab "Hold your tongue, Ma! You’re enough to try the patience of an oyster!"
+    young_crab "Hold your tongue, Ma! You’re enough to test the patience of an oyster!"
 
 # game/script.rpy:1201
 translate simple_english ch3_start_febb18ea:
 
     # alice "I wish I had our Dinah here, I know I do!"
-    alice "I wish I had our Dinah here, I know I do!"
+    alice "I miss our cat Dinah, I really wish she was here with me!"
 
 # game/script.rpy:1202
 translate simple_english ch3_start_578feac2:
 
     # alice "She’d soon fetch it back!"
-    alice "She’d soon fetch it back!"
+    alice "She would quickly get it back!"
 
 # game/script.rpy:1206
 translate simple_english ch3_start_fdd11910:
 
     # lory "And who is Dinah, if I might venture to ask the question?"
-    lory "And who is Dinah, if I might venture to ask the question?"
+    lory "Who is Dinah, if I may ask?"
 
 # game/script.rpy:1210
 translate simple_english ch3_start_ce50c797:
 
     # alice "Dinah’s our cat. And she’s such a capital one for catching mice you can’t think! And oh, I wish you could see her after the birds! Why, she’ll eat a little bird as soon as look at it!"
-    alice "Dinah’s our cat. And she’s such a capital one for catching mice you can’t think! And oh, I wish you could see her after the birds! Why, she’ll eat a little bird as soon as look at it!"
+    alice "Dinah is our cat, and she's really good at catching mice. She's amazing at catching birds too, she'll eat one without hesitation!"
 
 # game/script.rpy:1214
 translate simple_english ch3_start_04a7b36f:
 
     # "This speech caused a remarkable sensation among the party. Some of the birds hurried off at once: one old Magpie began wrapping itself up very carefully"
-    "This speech caused a remarkable sensation among the party. Some of the birds hurried off at once: one old Magpie began wrapping itself up very carefully"
+    "The speech made a big impression on the group. Some birds left quickly, and an old Magpie started wrapping itself up."
 
 # game/script.rpy:1218
 translate simple_english ch3_start_44a331e9:
 
     # magpie "I really must be getting home; the night-air doesn’t suit my throat!"
-    magpie "I really must be getting home; the night-air doesn’t suit my throat!"
+    magpie "I need to go home now because the cold air is making my throat feel uncomfortable."
 
 # game/script.rpy:1224
 translate simple_english ch3_start_1d7152d1:
 
     # "And a Canary called out in a trembling voice to its children:"
-    "And a Canary called out in a trembling voice to its children:"
+    "A canary called out nervously to its children:"
 
 # game/script.rpy:1228
 translate simple_english ch3_start_604eee0b:
 
     # canary "Come away, my dears! It’s high time you were all in bed!"
-    canary "Come away, my dears! It’s high time you were all in bed!"
+    canary "Come here, my dear ones! It's time for you all to go to bed!"
 
 # game/script.rpy:1242
 translate simple_english ch3_start_c9f28f1b:
 
     # "On various pretexts they all moved off, and Alice was soon left alone."
-    "On various pretexts they all moved off, and Alice was soon left alone."
+    "They all left for different reasons, and Alice was soon by herself."
 
 # game/script.rpy:1245
 translate simple_english ch3_start_37481035:
 
     # alice "(I wish I hadn’t mentioned Dinah!)"
-    alice "(I wish I hadn’t mentioned Dinah!)"
+    alice "(I regret talking about Dinah!)"
 
 # game/script.rpy:1246
 translate simple_english ch3_start_eece8315:
 
     # alice "(Nobody seems to like her, down here, and I’m sure she’s the best cat in the world!)"
-    alice "(Nobody seems to like her, down here, and I’m sure she’s the best cat in the world!)"
+    alice "(No one here seems to like her, but I think she is the best cat in the world!)"
 
 # game/script.rpy:1247
 translate simple_english ch3_start_63e38ed7:
 
     # alice "(Oh, my dear Dinah! I wonder if I shall ever see you any more!)"
-    alice "(Oh, my dear Dinah! I wonder if I shall ever see you any more!)"
+    alice "(Oh, my dear cat Dinah! I'm wondering if I will see you again!)"
 
 # game/script.rpy:1249
 translate simple_english ch3_start_a3e31f04:
 
     # "And here poor Alice began to cry again, for she felt very lonely and low-spirited."
-    "And here poor Alice began to cry again, for she felt very lonely and low-spirited."
+    "Poor Alice started crying again because she felt very sad and alone."
 
 # game/script.rpy:1250
 translate simple_english ch3_start_7ebb23fc:
 
     # "In a little while, however, she again heard a little pattering of footsteps in the distance, and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story."
-    "In a little while, however, she again heard a little pattering of footsteps in the distance, and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story."
+    "After a short time, she heard some footsteps in the distance. She looked up, hoping the Mouse had returned to continue the story."
 
 # game/script.rpy:1256
 translate simple_english chapter4_120d1357:
@@ -1852,217 +1804,217 @@ translate simple_english chapter4_120d1357:
 translate simple_english chapter4_e586a594:
 
     # "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something."
-    "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something."
+    "It was the White Rabbit, looking around as if it had lost something."
 
 # game/script.rpy:1273
 translate simple_english chapter4_23ee3af4:
 
     # rabbit "*muttering* The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
-    rabbit "*muttering* The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
+    rabbit "*muttering* The Duchess! The Duchess! Oh no! My paws! My fur and whiskers! She'll have me executed, I just know it! Where did I drop them, I wonder?"
 
 # game/script.rpy:1274
 translate simple_english chapter4_667452e7:
 
     # "Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely."
-    "Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely."
+    "Alice quickly realized that the mouse was searching for the fan and gloves. She kindly looked for them, but couldn't find them. Everything looked different from when she had been in the pool. The big hall with the glass table and little door had disappeared completely."
 
 # game/script.rpy:1279
 translate simple_english chapter4_d3f3eb02:
 
     # "Very soon the Rabbit noticed Alice, as she went hunting about."
-    "Very soon the Rabbit noticed Alice, as she went hunting about."
+    "Soon the Rabbit saw Alice as she was looking around."
 
 # game/script.rpy:1281
 translate simple_english chapter4_21e0bd6b:
 
     # rabbit "*angry* Why, Mary Ann, what are you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!"
-    rabbit "*angry* Why, Mary Ann, what are you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!"
+    rabbit "*angry* Mary Ann, why are you here? Go home now and bring me gloves and a fan. Hurry!"
 
 # game/script.rpy:1284
 translate simple_english chapter4_c93e16e9:
 
     # "And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made."
-    "And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made."
+    "Alice was very scared and quickly ran in the direction he was pointing without explaining his mix-up."
 
 # game/script.rpy:1286
 translate simple_english chapter4_5ebdca49:
 
     # alice "(He took me for his housemaid. How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them)"
-    alice "(He took me for his housemaid. How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them)"
+    alice "(He mistook me for his maid. He will be surprised when he realizes who I really am. I should bring him his fan and gloves, if I can find them)"
 
 # game/script.rpy:1291
 translate simple_english chapter4_1640f433:
 
     # "As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name 'W. RABBIT' engraved upon it."
-    "As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name 'W. RABBIT' engraved upon it."
+    "While she was speaking, she found a nice little house with a shiny plate on the door. It had the name 'W. RABBIT' written on it."
 
 # game/script.rpy:1292
 translate simple_english chapter4_e9fb0c1f:
 
     # "She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves."
-    "She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves."
+    "She entered without knocking, quickly went upstairs, afraid she might run into the actual Mary Ann, and get kicked out of the house before finding the fan and gloves."
 
 # game/script.rpy:1298
 translate simple_english chapter4_19349dee:
 
     # alice "(How queer it seems, to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!)"
-    alice "(How queer it seems, to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!)"
+    alice "(It feels strange to be running errands for a rabbit! I wonder if Dinah, will send me on errands too!)"
 
 # game/script.rpy:1299
 translate simple_english chapter4_d5b3e5a9:
 
     # "And she began fancying the sort of thing that would happen:"
-    "And she began fancying the sort of thing that would happen:"
+    "And she started imagining what might happen next:"
 
 # game/script.rpy:1300
 translate simple_english chapter4_000fe72c:
 
     # alice "('Miss Alice! Come here directly, and get ready for your walk!' 'Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.')"
-    alice "('Miss Alice! Come here directly, and get ready for your walk!' 'Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.')"
+    alice "('Hey Alice! Come here now, and let's prep for our walk!' 'I'll be there in a minute, dear! Just need to make sure the mouse doesn't escape.')"
 
 # game/script.rpy:1301
 translate simple_english chapter4_250fe8ce:
 
     # alice "(Only I don’t think, that they’d let Dinah stop in the house if it began ordering people about like that!)"
-    alice "(Only I don’t think, that they’d let Dinah stop in the house if it began ordering people about like that!)"
+    alice "(I think Dinah wouldn't be allowed to stay if it kept bossing people around like that!)"
 
 # game/script.rpy:1304
 translate simple_english chapter4_4e6fe760:
 
     # "By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves:"
-    "By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves:"
+    "By now, she had made her way into a neat small room with a table by the window. There, to her delight, were a fan and a few pairs of small white gloves."
 
 # game/script.rpy:1308
 translate simple_english chapter4_49707053:
 
     # "She took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass."
-    "She took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass."
+    "She picked up the fan and gloves, ready to leave the room, but then she saw a small bottle near the mirror."
 
 # game/script.rpy:1310
 translate simple_english chapter4_3553cf44:
 
     # "There was no label this time with the words 'DRINK ME', but nevertheless she uncorked it and put it to her lips."
-    "There was no label this time with the words 'DRINK ME', but nevertheless she uncorked it and put it to her lips."
+    "This time, the bottle didn't have a tag saying 'DRINK ME', but Alice opened it anyway and took a sip."
 
 # game/script.rpy:1311
 translate simple_english chapter4_fce35ab0:
 
     # alice "(I know something interesting is sure to happen, whenever I eat or drink anything; so I’ll just see what this bottle does)"
-    alice "(I know something interesting is sure to happen, whenever I eat or drink anything; so I’ll just see what this bottle does)"
+    alice "(Whenever I eat or drink something here, interesting things usually happen. So, I will just wait and see what this bottle does)"
 
 # game/script.rpy:1312
 translate simple_english chapter4_2c0178e8:
 
     # alice "(I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!)"
-    alice "(I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!)"
+    alice "(I hope it makes me big again, as I'm tired of being so small!)"
 
 # game/script.rpy:1320
 translate simple_english chapter4_9a03d03f:
 
     # "It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken."
-    "It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken."
+    "It happened very quickly. Before she could finish half of the bottle, her head was touching the ceiling. She had to bend down to avoid getting hurt."
 
 # game/script.rpy:1321
 translate simple_english chapter4_96b32cc5:
 
     # "She hastily put down the bottle."
-    "She hastily put down the bottle."
+    "She quickly dropped the bottle."
 
 # game/script.rpy:1322
 translate simple_english chapter4_f348aa05:
 
     # alice "(That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!)"
-    alice "(That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!)"
+    alice "(I'm feeling too big now! I hope I won't get any bigger. I can't fit through the door anymore. I wish I didn't drink so much!)"
 
 # game/script.rpy:1327
 translate simple_english chapter4_ddf79593:
 
     # "Alas! it was too late to wish that! She went on growing, and growing, and very soon had to kneel down on the floor:"
-    "Alas! it was too late to wish that! She went on growing, and growing, and very soon had to kneel down on the floor:"
+    "She kept getting bigger and bigger and soon had to kneel down on the floor."
 
 # game/script.rpy:1328
 translate simple_english chapter4_8ce88be8:
 
     # "In another minute there was not even room for this, and she tried the effect of lying down with one elbow against the door, and the other arm curled round her head."
-    "In another minute there was not even room for this, and she tried the effect of lying down with one elbow against the door, and the other arm curled round her head."
+    "Soon there was no space left, so she laid down with one elbow against the door and her other arm around her head."
 
 # game/script.rpy:1329
 translate simple_english chapter4_97ea532d:
 
     # "Still she went on growing, and, as a last resource, she put one arm out of the window, and one foot up the chimney."
-    "Still she went on growing, and, as a last resource, she put one arm out of the window, and one foot up the chimney."
+    "She kept getting bigger and bigger, and as a final attempt, she put one arm out of the window and one foot up the chimney."
 
 # game/script.rpy:1332
 translate simple_english chapter4_468ebabf:
 
     # alice "(Now I can do no more, whatever happens. What will become of me?)"
-    alice "(Now I can do no more, whatever happens. What will become of me?)"
+    alice "(I can't do anything else now. What will happen to me?)"
 
 # game/script.rpy:1336
 translate simple_english chapter4_ef6e31c6:
 
     # "Luckily for Alice, the little magic bottle had now had its full effect, and she grew no larger:"
-    "Luckily for Alice, the little magic bottle had now had its full effect, and she grew no larger:"
+    "Alice was lucky because the little magic bottle stopped working, and she did not grow any bigger."
 
 # game/script.rpy:1338
 translate simple_english chapter4_2fbf9d41:
 
     # "Still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy."
-    "Still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy."
+    "It was really uncomfortable and she felt sad since there was no way she could leave the room."
 
 # game/script.rpy:1340
 translate simple_english chapter4_38595cb2:
 
     # alice "(It was much pleasanter at home, when one wasn’t always growing larger and smaller, and being ordered about by mice and rabbits)"
-    alice "(It was much pleasanter at home, when one wasn’t always growing larger and smaller, and being ordered about by mice and rabbits)"
+    alice "(It was nicer at home where you didn't keep changing sizes and getting ordered around by mice and rabbits)"
 
 # game/script.rpy:1341
 translate simple_english chapter4_f0d3729c:
 
     # alice "(I almost wish I hadn’t gone down that rabbit-hole—and yet—and yet—it’s rather curious, you know, this sort of life!)"
-    alice "(I almost wish I hadn’t gone down that rabbit-hole—and yet—and yet—it’s rather curious, you know, this sort of life!)"
+    alice "(I kind of wish I hadn't gone into that hole, but at the same time, it's quite interesting, you know, this kind of life!)"
 
 # game/script.rpy:1342
 translate simple_english chapter4_8d2b35ca:
 
     # alice "(I do wonder what can have happened to me! When I used to read fairy-tales, I fancied that kind of thing never happened, and now here I am in the middle of one!)"
-    alice "(I do wonder what can have happened to me! When I used to read fairy-tales, I fancied that kind of thing never happened, and now here I am in the middle of one!)"
+    alice "(I feel curious about what's going on with me! In the past, when I read fairy tales, I thought those things never really happened. But now, it seems like I'm in the middle of one!)"
 
 # game/script.rpy:1343
 translate simple_english chapter4_80e34708:
 
     # alice "(There ought to be a book written about me, that there ought! And when I grow up, I’ll write one—but I’m grown up now, at least there’s no room to grow up any more here)"
-    alice "(There ought to be a book written about me, that there ought! And when I grow up, I’ll write one—but I’m grown up now, at least there’s no room to grow up any more here)"
+    alice "(Someone should write a book about me, they really should! And when I'm grown up, I'll write one too—but I'm grown up now, at least there's no room to grow up any more here)"
 
 # game/script.rpy:1345
 translate simple_english chapter4_63fd7548:
 
     # alice "(But then, shall I never get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like that!)"
-    alice "(But then, shall I never get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like that!)"
+    alice "(So, will I always stay the same age? It might feel nice in some ways, not becoming an old woman. But then, always having lessons to learn? I wouldn't like that!)"
 
 # game/script.rpy:1347
 translate simple_english chapter4_9ccb3f7d:
 
     # alice "(Oh, you foolish Alice!)"
-    alice "(Oh, you foolish Alice!)"
+    alice "(Oh, silly Alice!)"
 
 # game/script.rpy:1348
 translate simple_english chapter4_6e5f2baa:
 
     # alice "(How can you learn lessons in here?)"
-    alice "(How can you learn lessons in here?)"
+    alice "(How can you learn lessons here?)"
 
 # game/script.rpy:1349
 translate simple_english chapter4_22700a5d:
 
     # alice "(Why, there’s hardly room for you, and no room at all for any lesson-books!)"
-    alice "(Why, there’s hardly room for you, and no room at all for any lesson-books!)"
+    alice "(There's hardly enough space for you, and no space at all for any lesson-books!)"
 
 # game/script.rpy:1351
 translate simple_english chapter4_1d612ee1:
 
     # "And so she went on, taking first one side and then the other, and making quite a conversation of it altogether; but after a few minutes she heard a voice outside, and stopped to listen."
-    "And so she went on, taking first one side and then the other, and making quite a conversation of it altogether; but after a few minutes she heard a voice outside, and stopped to listen."
+    "So she continued talking back and forth, having a conversation by herself. But then she heard a voice outside and stopped to listen."
 
 # game/script.rpy:1353
 translate simple_english chapter4_907df608:
@@ -2074,55 +2026,55 @@ translate simple_english chapter4_907df608:
 translate simple_english chapter4_33aa95af:
 
     # rabbit "Fetch me my gloves this moment!"
-    rabbit "Fetch me my gloves this moment!"
+    rabbit "Get me my gloves now!"
 
 # game/script.rpy:1357
 translate simple_english chapter4_3318eb0a:
 
     # "Then came a little pattering of feet on the stairs."
-    "Then came a little pattering of feet on the stairs."
+    "Next, there was a quiet sound of footsteps on the stairs."
 
 # game/script.rpy:1358
 translate simple_english chapter4_53e14fb7:
 
     # "Alice knew it was the Rabbit coming to look for her, and she trembled till she shook the house, quite forgetting that she was now about a thousand times as large as the Rabbit, and had no reason to be afraid of it."
-    "Alice knew it was the Rabbit coming to look for her, and she trembled till she shook the house, quite forgetting that she was now about a thousand times as large as the Rabbit, and had no reason to be afraid of it."
+    "Alice understood that the Rabbit was coming to find her. She was scared and shook so much that she made the house tremble. She forgot she was much bigger than the Rabbit and didn't need to be afraid of it."
 
 # game/script.rpy:1361
 translate simple_english chapter4_95c4ef36:
 
     # "Presently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure."
-    "Presently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure."
+    "Next, the Rabbit reached the door and tried to open it. But since the door opened inward and Alice's elbow was pushing against it, the Rabbit couldn't open it."
 
 # game/script.rpy:1362
 translate simple_english chapter4_a10d4d8e:
 
     # rabbit "Then I’ll go round and get in at the window."
-    rabbit "Then I’ll go round and get in at the window."
+    rabbit "Then I will go around and enter through the window."
 
 # game/script.rpy:1364
 translate simple_english chapter4_1b4ad4b9:
 
     # alice "(That you won’t!)"
-    alice "(That you won’t!)"
+    alice "(You won't!)"
 
 # game/script.rpy:1365
 translate simple_english chapter4_ce100bf7:
 
     # "After waiting till she fancied she heard the Rabbit just under the window."
-    "After waiting till she fancied she heard the Rabbit just under the window."
+    "She waited until she thought she heard the Rabbit right beneath the window."
 
 # game/script.rpy:1367
 translate simple_english chapter4_0041aafc:
 
     # "She suddenly spread out her hand, and made a snatch in the air."
-    "She suddenly spread out her hand, and made a snatch in the air."
+    "Suddenly, she reached out her hand and quickly grabbed at something in the air."
 
 # game/script.rpy:1369
 translate simple_english chapter4_addcb345:
 
     # "She did not get hold of anything, but she heard a little shriek and a fall, and a crash of broken glass, from which she concluded that it was just possible it had fallen into a cucumber-frame, or something of the sort."
-    "She did not get hold of anything, but she heard a little shriek and a fall, and a crash of broken glass, from which she concluded that it was just possible it had fallen into a cucumber-frame, or something of the sort."
+    "She couldn't catch anything, but heard a small scream, a thud, and the sound of breaking glass. She guessed it might have fallen into a cucumber-frame or something similar."
 
 # game/script.rpy:1371
 translate simple_english chapter4_4e9a893b:
@@ -2146,19 +2098,19 @@ translate simple_english chapter4_567629ec:
 translate simple_english chapter4_d53f9435:
 
     # pat "Sure then I’m here! Digging for apples, yer honour!"
-    pat "Sure then I’m here! Digging for apples, yer honour!"
+    pat "Sure, I'm here! Digging for apples, sir!"
 
 # game/script.rpy:1375
 translate simple_english chapter4_78e64dd6:
 
     # rabbit "Digging for apples, indeed!"
-    rabbit "Digging for apples, indeed!"
+    rabbit "Digging for apples, are you serious!?"
 
 # game/script.rpy:1376
 translate simple_english chapter4_1d7f75f1:
 
     # rabbit "Here! Come and help me out of this!"
-    rabbit "Here! Come and help me out of this!"
+    rabbit "Here! Come and help me get out of here!"
 
 # game/script.rpy:1377
 translate simple_english chapter4_a20cefa7:
@@ -2182,49 +2134,49 @@ translate simple_english chapter4_88940096:
 translate simple_english chapter4_2f8a7e14:
 
     # pat "Sure, it’s an arrumm, yer honour!"
-    pat "Sure, it’s an arrumm, yer honour!"
+    pat "Sure, it's and arrum, sir!"
 
 # game/script.rpy:1382
 translate simple_english chapter4_4d00bb46:
 
     # rabbit "An arm, you goose! Who ever saw one that size? Why, it fills the whole window!"
-    rabbit "An arm, you goose! Who ever saw one that size? Why, it fills the whole window!"
+    rabbit "An arm?! It's so large that it fills the entire window!"
 
 # game/script.rpy:1383
 translate simple_english chapter4_6252371b:
 
     # pat "Sure, it does, yer honour: but it’s an arm for all that."
-    pat "Sure, it does, yer honour: but it’s an arm for all that."
+    pat "Yes, indeed, sir, but it's still an arm."
 
 # game/script.rpy:1384
 translate simple_english chapter4_165e9405:
 
     # rabbit "Well, it’s got no business there, at any rate: go and take it away!"
-    rabbit "Well, it’s got no business there, at any rate: go and take it away!"
+    rabbit "Well, it shouldn't be there. Go and remove it."
 
 # game/script.rpy:1386
 translate simple_english chapter4_69d74da6:
 
     # "There was a long silence after this, and Alice could only hear whispers now and then; such as:"
-    "There was a long silence after this, and Alice could only hear whispers now and then; such as:"
+    "After that, there was a long silence. Alice could only hear occasional soft whispers:"
 
 # game/script.rpy:1387
 translate simple_english chapter4_c2ff67ac:
 
     # pat "Sure, I don’t like it, yer honour, at all, at all!"
-    pat "Sure, I don’t like it, yer honour, at all, at all!"
+    pat "Sir, I really don't like it at all!"
 
 # game/script.rpy:1388
 translate simple_english chapter4_9a4bce42:
 
     # rabbit "Do as I tell you, you coward!"
-    rabbit "Do as I tell you, you coward!"
+    rabbit "Do what I say, you scaredy-cat!"
 
 # game/script.rpy:1390
 translate simple_english chapter4_353e21cb:
 
     # "And at last she spread out her hand again, and made another snatch in the air."
-    "And at last she spread out her hand again, and made another snatch in the air."
+    "Finally, she reached out her hand again and tried to grab something in the air again."
 
 # game/script.rpy:1393
 translate simple_english chapter4_855b2fa8:
@@ -2236,133 +2188,133 @@ translate simple_english chapter4_855b2fa8:
 translate simple_english chapter4_8e44720c:
 
     # alice "(What a number of cucumber-frames there must be!)"
-    alice "(What a number of cucumber-frames there must be!)"
+    alice "(There must be a lot of cucumber-frames!)"
 
 # game/script.rpy:1395
 translate simple_english chapter4_7c5e2b9c:
 
     # alice "(I wonder what they’ll do next! As for pulling me out of the window, I only wish they could! I’m sure I don’t want to stay in here any longer!)"
-    alice "(I wonder what they’ll do next! As for pulling me out of the window, I only wish they could! I’m sure I don’t want to stay in here any longer!)"
+    alice "(I'm curious about their next move! I really hope they pull me out of the window soon. I don't want to stay in here any longer!)"
 
 # game/script.rpy:1397
 translate simple_english chapter4_abc5c77e:
 
     # "She waited for some time without hearing anything more: at last came a rumbling of little cartwheels, and the sound of a good many voices all talking together:"
-    "She waited for some time without hearing anything more: at last came a rumbling of little cartwheels, and the sound of a good many voices all talking together:"
+    "She waited for a while, but then heard the noise of small wheels and many voices talking at once."
 
 # game/script.rpy:1399
 translate simple_english chapter4_fee1ddfa:
 
     # anon "Where’s the other ladder?"
-    anon "Where’s the other ladder?"
+    anon "Where is the other ladder?"
 
 # game/script.rpy:1400
 translate simple_english chapter4_3c3b72a1:
 
     # anon "Why, I hadn’t to bring but one; Bill’s got the other."
-    anon "Why, I hadn’t to bring but one; Bill’s got the other."
+    anon "I only brought one, Bill has the other."
 
 # game/script.rpy:1401
 translate simple_english chapter4_f2d14ec9:
 
     # anon "Bill! fetch it here, lad!"
-    anon "Bill! fetch it here, lad!"
+    anon "Bill, come here and bring it!"
 
 # game/script.rpy:1402
 translate simple_english chapter4_a18573e6:
 
     # anon "Here, put 'em up at this corner."
-    anon "Here, put 'em up at this corner."
+    anon "Here, place them in this corner."
 
 # game/script.rpy:1403
 translate simple_english chapter4_e8eabb94:
 
     # anon "No, tie 'em together first—they don’t reach half high enough yet—Oh! they’ll do well enough; don’t be particular."
-    anon "No, tie 'em together first—they don’t reach half high enough yet—Oh! they’ll do well enough; don’t be particular."
+    anon "No, tie them together first - they are not high enough yet - Oh! They will do fine; don't worry about it."
 
 # game/script.rpy:1404
 translate simple_english chapter4_094c6e93:
 
     # anon "Here, Bill! catch hold of this rope."
-    anon "Here, Bill! catch hold of this rope."
+    anon "Bill, grab this rope!"
 
 # game/script.rpy:1405
 translate simple_english chapter4_47a0797f:
 
     # anon "Will the roof bear?"
-    anon "Will the roof bear?"
+    anon "Is the roof strong enough?"
 
 # game/script.rpy:1406
 translate simple_english chapter4_d11a4d35:
 
     # anon "Mind that loose slate."
-    anon "Mind that loose slate."
+    anon "Be careful of that loose slate!"
 
 # game/script.rpy:1407
 translate simple_english chapter4_944dca2d:
 
     # anon "Oh, it’s coming down! Heads below!"
-    anon "Oh, it’s coming down! Heads below!"
+    anon "Watch out! It's falling down!"
 
 # game/script.rpy:1410
 translate simple_english chapter4_62c090ed:
 
     # anon "Now, who did that?"
-    anon "Now, who did that?"
+    anon "Who did that?"
 
 # game/script.rpy:1411
 translate simple_english chapter4_dfada1ac:
 
     # anon "It was Bill, I fancy."
-    anon "It was Bill, I fancy."
+    anon "I think it was Bill."
 
 # game/script.rpy:1412
 translate simple_english chapter4_ed089185:
 
     # anon "Who’s to go down the chimney?"
-    anon "Who’s to go down the chimney?"
+    anon "Who will go down the chimney?"
 
 # game/script.rpy:1413
 translate simple_english chapter4_1970ea5b:
 
     # anon "Nay, I shan’t! You do it!"
-    anon "Nay, I shan’t! You do it!"
+    anon "No, I won't. You do it!"
 
 # game/script.rpy:1414
 translate simple_english chapter4_8a67f6de:
 
     # anon "That I won’t, then!"
-    anon "That I won’t, then!"
+    anon "No, I won't!"
 
 # game/script.rpy:1415
 translate simple_english chapter4_dbb904a9:
 
     # anon "Bill’s to go down."
-    anon "Bill’s to go down."
+    anon "Bill is should go there."
 
 # game/script.rpy:1416
 translate simple_english chapter4_3f7a2b4c:
 
     # anon "Here, Bill! the master says you’re to go down the chimney!"
-    anon "Here, Bill! the master says you’re to go down the chimney!"
+    anon "Here, Bill! The boss wants you to go down the chimney!"
 
 # game/script.rpy:1418
 translate simple_english chapter4_a9505213:
 
     # alice "(Oh! So Bill’s got to come down the chimney, has he?)"
-    alice "(Oh! So Bill’s got to come down the chimney, has he?)"
+    alice "(Oh! So Bill will come down the chimney?)"
 
 # game/script.rpy:1419
 translate simple_english chapter4_e1a5487c:
 
     # alice "(Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I think I can kick a little!)"
-    alice "(Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I think I can kick a little!)"
+    alice "(It looks like they blame Bill a lot! I wouldn't want to be in his shoes. The chimney is small, but I believe I can manage a bit of kicking!)"
 
 # game/script.rpy:1421
 translate simple_english chapter4_91d6b304:
 
     # "She drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her:"
-    "She drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her:"
+    "She put her foot inside the chimney and waited. She listened to a small animal moving around above her, but she couldn't tell what it was."
 
 # game/script.rpy:1422
 translate simple_english chapter4_0890f7ad:
@@ -2374,13 +2326,13 @@ translate simple_english chapter4_0890f7ad:
 translate simple_english chapter4_6e2dc171:
 
     # "She gave one sharp kick, and waited to see what would happen next."
-    "She gave one sharp kick, and waited to see what would happen next."
+    "She gave a quick kick and then waited to see what would happen next."
 
 # game/script.rpy:1426
 translate simple_english chapter4_d6b12f37:
 
     # "The first thing she heard was a general chorus of:"
-    "The first thing she heard was a general chorus of:"
+    "The first thing she heard was:"
 
 # game/script.rpy:1427
 translate simple_english chapter4_c2114c0b:
@@ -2392,7 +2344,7 @@ translate simple_english chapter4_c2114c0b:
 translate simple_english chapter4_219dae45:
 
     # "Then the Rabbit’s voice along—"
-    "Then the Rabbit’s voice along—"
+    "Next, the Rabbit spoke up—"
 
 # game/script.rpy:1429
 translate simple_english chapter4_f72c25cf:
@@ -2416,7 +2368,7 @@ translate simple_english chapter4_d1eb8de9:
 translate simple_english chapter4_faa07844:
 
     # anon "Hold up his head."
-    anon "Hold up his head."
+    anon "Support his head."
 
 # game/script.rpy:1434
 translate simple_english chapter4_04246af9:
@@ -2440,37 +2392,37 @@ translate simple_english chapter4_04803ebc:
 translate simple_english chapter4_620750e1:
 
     # "Last came a little feeble, squeaking voice:"
-    "Last came a little feeble, squeaking voice:"
+    "Finally, a weak, squeaky voice was heard:"
 
 # game/script.rpy:1439
 translate simple_english chapter4_099abc7d:
 
     # bill "Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
-    bill "Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
+    bill "I'm not sure, thank you. I feel better now, but I'm too confused to explain. All I know is, something came at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
 
 # game/script.rpy:1440
 translate simple_english chapter4_fc40dfc1:
 
     # anon "So you did, old fellow!"
-    anon "So you did, old fellow!"
+    anon "Yes, you did, old friend!"
 
 # game/script.rpy:1442
 translate simple_english chapter4_5b20fca1:
 
     # rabbit "We must burn the house down!"
-    rabbit "We must burn the house down!"
+    rabbit "We have to set the house on fire!"
 
 # game/script.rpy:1443
 translate simple_english chapter4_547913d4:
 
     # "Alice called out as loud as she could:"
-    "Alice called out as loud as she could:"
+    "Alice shouted as loudly as she could:"
 
 # game/script.rpy:1444
 translate simple_english chapter4_ad7454f5:
 
     # alice "If you do, I’ll set Dinah at you!"
-    alice "If you do, I’ll set Dinah at you!"
+    alice "If you do, I will send Dinah after you!"
 
 # game/script.rpy:1446
 translate simple_english chapter4_a20cefa7_2:
@@ -2488,91 +2440,91 @@ translate simple_english chapter4_5e7f6da8:
 translate simple_english chapter4_ac5ae5e3:
 
     # alice "(I wonder what they will do next! If they had any sense, they’d take the roof off)"
-    alice "(I wonder what they will do next! If they had any sense, they’d take the roof off)"
+    alice "(I am curious about their next steps! If they were smart, they would remove the roof)"
 
 # game/script.rpy:1449
 translate simple_english chapter4_6a611349:
 
     # "After a minute or two, they began moving about again."
-    "After a minute or two, they began moving about again."
+    "After a minute or two, they started moving again."
 
 # game/script.rpy:1450
 translate simple_english chapter4_6249db76:
 
     # rabbit "A barrowful will do, to begin with."
-    rabbit "A barrowful will do, to begin with."
+    rabbit "'Just start with a small pile of that."
 
 # game/script.rpy:1452
 translate simple_english chapter4_9c57e90f:
 
     # alice "(A barrowful of what?)"
-    alice "(A barrowful of what?)"
+    alice "(A small pile of what?)"
 
 # game/script.rpy:1453
 translate simple_english chapter4_84108e6b:
 
     # "She had not long to doubt, for the next moment a shower of little pebbles came rattling in at the window, and some of them hit her in the face."
-    "She had not long to doubt, for the next moment a shower of little pebbles came rattling in at the window, and some of them hit her in the face."
+    "She didn't have to wait long because soon after, a lot of small stones started hitting the window, and some of them hit her on the face."
 
 # game/script.rpy:1454
 translate simple_english chapter4_5611baab:
 
     # alice "(I’ll put a stop to this)"
-    alice "(I’ll put a stop to this)"
+    alice "(I will put a stop to this)"
 
 # game/script.rpy:1456
 translate simple_english chapter4_23b6aefc:
 
     # alice "You’d better not do that again!"
-    alice "You’d better not do that again!"
+    alice "Don't do that again!"
 
 # game/script.rpy:1457
 translate simple_english chapter4_7753b069:
 
     # "Which produced another dead silence."
-    "Which produced another dead silence."
+    "This made everyone quiet again."
 
 # game/script.rpy:1460
 translate simple_english chapter4_d7b371ac:
 
     # "Alice noticed with some surprise that the pebbles were all turning into little cakes as they lay on the floor, and a bright idea came into her head."
-    "Alice noticed with some surprise that the pebbles were all turning into little cakes as they lay on the floor, and a bright idea came into her head."
+    "Alice was surprised to see the pebbles turning into small cakes on the floor."
 
 # game/script.rpy:1461
 translate simple_english chapter4_ac6e334a:
 
     # alice "(If I eat one of these cakes, it’s sure to make some change in my size; and as it can’t possibly make me larger, it must make me smaller, I suppose)"
-    alice "(If I eat one of these cakes, it’s sure to make some change in my size; and as it can’t possibly make me larger, it must make me smaller, I suppose)"
+    alice "(If I eat one of these cakes, it will surely change my size. Since it can't become bigger, it must make me smaller then)"
 
 # game/script.rpy:1466
 translate simple_english chapter4_21053dec:
 
     # "So she swallowed one of the cakes, and was delighted to find that she began shrinking directly."
-    "So she swallowed one of the cakes, and was delighted to find that she began shrinking directly."
+    "She ate a cake and quickly started getting smaller, which made her very happy."
 
 # game/script.rpy:1475
 translate simple_english chapter4_1bd2cc74:
 
     # "As soon as she was small enough to get through the door, she ran out of the house, and found quite a crowd of little animals and birds waiting outside."
-    "As soon as she was small enough to get through the door, she ran out of the house, and found quite a crowd of little animals and birds waiting outside."
+    "When she was small enough to fit through the door, she ran outside and saw many little animals and birds waiting for her."
 
 # game/script.rpy:1476
 translate simple_english chapter4_e1e2c8c4:
 
     # "The poor little Lizard, Bill, was in the middle, being held up by two guinea-pigs, who were giving it something out of a bottle."
-    "The poor little Lizard, Bill, was in the middle, being held up by two guinea-pigs, who were giving it something out of a bottle."
+    "The small lizard named Bill was in the middle. Two guinea pigs were holding him up and giving him something from a bottle."
 
 # game/script.rpy:1480
 translate simple_english chapter4_e4352a0c:
 
     # "They all made a rush at Alice the moment she appeared; but she ran off as hard as she could, and soon found herself safe in a thick wood."
-    "They all made a rush at Alice the moment she appeared; but she ran off as hard as she could, and soon found herself safe in a thick wood."
+    "They all ran towards Alice when she showed up, but she ran away as fast as she could and quickly reached a forest."
 
 # game/script.rpy:1500
 translate simple_english ch4_forest_14d26aee:
 
     # alice "The first thing I’ve got to do, is to grow to my right size again; and the second thing is, to find my way into that lovely garden."
-    alice "The first thing I’ve got to do, is to grow to my right size again; and the second thing is, to find my way into that lovely garden."
+    alice "The first thing I need to do is grow to my normal size again. Then, I need to find my way into that beautiful garden."
 
 # game/script.rpy:1501
 translate simple_english ch4_forest_e9eb2fc7:
@@ -2584,13 +2536,13 @@ translate simple_english ch4_forest_e9eb2fc7:
 translate simple_english ch4_forest_41b80e77:
 
     # "It sounded an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that she had not the smallest idea how to set about it; and while she was peering about anxiously among the trees, a little sharp bark just over her head made her look up in a great hurry."
-    "It sounded an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that she had not the smallest idea how to set about it; and while she was peering about anxiously among the trees, a little sharp bark just over her head made her look up in a great hurry."
+    "The plan seemed good, but she didn't know how to start. She looked around and heard a small dog above her and quickly looked up."
 
 # game/script.rpy:1509
 translate simple_english ch4_forest_5c1c22d9:
 
     # "An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her."
-    "An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her."
+    "A big puppy with large round eyes was looking at her and reaching out a paw to touch her."
 
 # game/script.rpy:1510
 translate simple_english ch4_forest_3eeba89a:
@@ -2602,97 +2554,97 @@ translate simple_english ch4_forest_3eeba89a:
 translate simple_english ch4_forest_23960b4a:
 
     # "She tried hard to whistle to it; but she was terribly frightened all the time at the thought that it might be hungry, in which case it would be very likely to eat her up in spite of all her coaxing."
-    "She tried hard to whistle to it; but she was terribly frightened all the time at the thought that it might be hungry, in which case it would be very likely to eat her up in spite of all her coaxing."
+    "She tried very hard to whistle at it, but she was also very scared that it might be hungry and could eat her even if she tried to be nice to it."
 
 # game/script.rpy:1518
 translate simple_english ch4_forest_4ee9a449:
 
     # "Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it."
-    "Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it."
+    "She grabbed a small stick and offered it to the puppy. The puppy got very excited, jumped up in the air, and then ran toward the stick, pretending to play with it."
 
 # game/script.rpy:1531
 translate simple_english ch4_forest_3452f3ed:
 
     # "Then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it."
-    "Then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it."
+    "Alice quickly moved behind a large thistle to avoid being run over. As soon as she appeared on the other side, the puppy rushed again at the stick and tumbled in its hurry to grab it."
 
 # game/script.rpy:1534
 translate simple_english ch4_forest_1736bfa7:
 
     # "Then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every moment to be trampled under its feet, ran round the thistle again."
-    "Then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every moment to be trampled under its feet, ran round the thistle again."
+    "Alice thought it was like playing with a big horse, and she was scared of being stepped on. So, she ran around the thistle once more."
 
 # game/script.rpy:1547
 translate simple_english ch4_forest_16394830:
 
     # "Then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut."
-    "Then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut."
+    "The puppy ran back and forth a few times, barking loudly. Finally, it sat down far away, tired and panting, with its tongue out and eyes half closed."
 
 # game/script.rpy:1549
 translate simple_english ch4_forest_09b47312:
 
     # "This seemed to Alice a good opportunity for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the puppy’s bark sounded quite faint in the distance."
-    "This seemed to Alice a good opportunity for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the puppy’s bark sounded quite faint in the distance."
+    "Alice thought this was a good chance to escape, so she started running immediately. She ran until she was very tired and out of breath, and until she could barely hear the puppy barking in the distance."
 
 # game/script.rpy:1599
 translate simple_english ch4_caterpillar_96fbcff7:
 
     # alice "And yet what a dear little puppy it was!"
-    alice "And yet what a dear little puppy it was!"
+    alice "And it was such a cute little puppy!"
 
 # game/script.rpy:1600
 translate simple_english ch4_caterpillar_f5cc48d2:
 
     # "She leant against a buttercup to rest herself, and fanned herself with one of the leaves:"
-    "She leant against a buttercup to rest herself, and fanned herself with one of the leaves:"
+    "She leaned against a yellow flower to take a break and used one of its leaves to cool herself."
 
 # game/script.rpy:1602
 translate simple_english ch4_caterpillar_5c89aafc:
 
     # alice "I should have liked teaching it tricks very much, if—if I’d only been the right size to do it!"
-    alice "I should have liked teaching it tricks very much, if—if I’d only been the right size to do it!"
+    alice "I would have enjoyed teaching the animal tricks a lot if only I were the right size to do it!"
 
 # game/script.rpy:1603
 translate simple_english ch4_caterpillar_4336ebe4:
 
     # alice "Oh dear! I’d nearly forgotten that I’ve got to grow up again!"
-    alice "Oh dear! I’d nearly forgotten that I’ve got to grow up again!"
+    alice "Oh no! I almost forgot that I have to become bigger again!"
 
 # game/script.rpy:1604
 translate simple_english ch4_caterpillar_fcd5b222:
 
     # alice "Let me see—how is it to be managed?"
-    alice "Let me see—how is it to be managed?"
+    alice "Let me think about how to do this."
 
 # game/script.rpy:1605
 translate simple_english ch4_caterpillar_7fa4d670:
 
     # alice "I suppose I ought to eat or drink something or other; but the great question is, what?"
-    alice "I suppose I ought to eat or drink something or other; but the great question is, what?"
+    alice "I think I should have eat or drink something. The big question is, what?"
 
 # game/script.rpy:1607
 translate simple_english ch4_caterpillar_3992e5da:
 
     # "The great question certainly was, what?"
-    "The great question certainly was, what?"
+    "The big question was, what?"
 
 # game/script.rpy:1612
 translate simple_english ch4_caterpillar_3316085e:
 
     # "Alice looked all round her at the flowers and the blades of grass, but she did not see anything that looked like the right thing to eat or drink under the circumstances."
-    "Alice looked all round her at the flowers and the blades of grass, but she did not see anything that looked like the right thing to eat or drink under the circumstances."
+    "Alice searched the flowers and grass but didn't find any food or drink that seemed right for her."
 
 # game/script.rpy:1616
 translate simple_english ch4_caterpillar_f9db4790:
 
     # "There was a large mushroom growing near her, about the same height as herself; and when she had looked under it, and on both sides of it, and behind it, it occurred to her that she might as well look and see what was on the top of it."
-    "There was a large mushroom growing near her, about the same height as herself; and when she had looked under it, and on both sides of it, and behind it, it occurred to her that she might as well look and see what was on the top of it."
+    "There was a big mushroom next to her, almost as tall as she was. She checked all around it and thought she should also look on top of it."
 
 # game/script.rpy:1621
 translate simple_english ch4_caterpillar_916e8939:
 
     # "She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else."
-    "She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else."
+    "She stood on her toes to look over the mushroom and saw a big caterpillar sitting on top, smoking a long pipe. The caterpillar didn't pay any attention to her or anything else."
 
 # game/script.rpy:1628
 translate simple_english chapter5_c977f682:
@@ -2704,7 +2656,7 @@ translate simple_english chapter5_c977f682:
 translate simple_english chapter5_fed83656:
 
     # "The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice."
-    "The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice."
+    "The Caterpillar and Alice stared at each other quietly for a while. Finally, the Caterpillar stopped smoking and spoke to her in a sleepy voice."
 
 # game/script.rpy:1642
 translate simple_english chapter5_bb4b35f1:
@@ -2716,13 +2668,13 @@ translate simple_english chapter5_bb4b35f1:
 translate simple_english chapter5_76a3ccff:
 
     # "This was not an encouraging opening for a conversation."
-    "This was not an encouraging opening for a conversation."
+    "This was not a good way to start a conversation."
 
 # game/script.rpy:1645
 translate simple_english chapter5_5adf31c3:
 
     # alice "I—I hardly know, sir, just at present—at least I know who I was when I got up this morning, but I think I must have been changed several times since then."
-    alice "I—I hardly know, sir, just at present—at least I know who I was when I got up this morning, but I think I must have been changed several times since then."
+    alice "I'm not sure who I am right now, sir. I know who I was when I woke up this morning, but I feel like I have been changed many times since then."
 
 # game/script.rpy:1647
 translate simple_english chapter5_61f52986:
@@ -2740,7 +2692,7 @@ translate simple_english chapter5_566b6e9c:
 translate simple_english chapter5_e7f4c83e:
 
     # alice "I can’t explain myself, I’m afraid, sir, because I’m not myself, you see."
-    alice "I can’t explain myself, I’m afraid, sir, because I’m not myself, you see."
+    alice "I can't explain myself, because I am not myself, you see."
 
 # game/script.rpy:1652
 translate simple_english chapter5_c0a14b7f:
@@ -2752,7 +2704,7 @@ translate simple_english chapter5_c0a14b7f:
 translate simple_english chapter5_d4d61f29:
 
     # alice "I’m afraid I can’t put it more clearly, for I can’t understand it myself to begin with; and being so many different sizes in a day is very confusing."
-    alice "I’m afraid I can’t put it more clearly, for I can’t understand it myself to begin with; and being so many different sizes in a day is very confusing."
+    alice "I'm sorry, but I can't explain it better since I don't understand it myself. It's very confusing to change sizes many times a day."
 
 # game/script.rpy:1656
 translate simple_english chapter5_f9d43491:
@@ -2764,7 +2716,7 @@ translate simple_english chapter5_f9d43491:
 translate simple_english chapter5_16412c3e:
 
     # alice "Well, perhaps you haven’t found it so yet, but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll feel it a little queer, won’t you?"
-    alice "Well, perhaps you haven’t found it so yet, but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll feel it a little queer, won’t you?"
+    alice "Maybe you haven't felt this way before, but one day you will turn into a butterfly. That might feel strange, don't you think?"
 
 # game/script.rpy:1660
 translate simple_english chapter5_bee2752e:
@@ -2776,7 +2728,7 @@ translate simple_english chapter5_bee2752e:
 translate simple_english chapter5_29f99dfa:
 
     # alice "Well, perhaps your feelings may be different. All I know is, it would feel very queer to me."
-    alice "Well, perhaps your feelings may be different. All I know is, it would feel very queer to me."
+    alice "Maybe you feel differently, but to me, it would feel very strange."
 
 # game/script.rpy:1664
 translate simple_english chapter5_8c7fa477:
@@ -2794,19 +2746,19 @@ translate simple_english chapter5_bb4b35f1_1:
 translate simple_english chapter5_f1e83106:
 
     # "Which brought them back again to the beginning of the conversation."
-    "Which brought them back again to the beginning of the conversation."
+    "This brought them back to the start of the conversation."
 
 # game/script.rpy:1668
 translate simple_english chapter5_2f11af4a:
 
     # "Alice felt a little irritated at the Caterpillar’s making such very short remarks, and she drew herself up and said, very gravely:"
-    "Alice felt a little irritated at the Caterpillar’s making such very short remarks, and she drew herself up and said, very gravely:"
+    "Alice felt a little annoyed that the Caterpillar only made very short comments, so she straightened up and said seriously:"
 
 # game/script.rpy:1669
 translate simple_english chapter5_c4c0afa1:
 
     # alice "I think, you ought to tell me who you are, first."
-    alice "I think, you ought to tell me who you are, first."
+    alice "I think you should tell me who you are first."
 
 # game/script.rpy:1671
 translate simple_english chapter5_e4b108a2:
@@ -2818,7 +2770,7 @@ translate simple_english chapter5_e4b108a2:
 translate simple_english chapter5_8d76366a:
 
     # "Here was another puzzling question; and as Alice could not think of any good reason, and as the Caterpillar seemed to be in a very unpleasant state of mind, she turned away."
-    "Here was another puzzling question; and as Alice could not think of any good reason, and as the Caterpillar seemed to be in a very unpleasant state of mind, she turned away."
+    "Alice but couldn't find a good answer, so she decided to walk away."
 
 # game/script.rpy:1678
 translate simple_english chapter5_0d69bf97:
@@ -2830,19 +2782,19 @@ translate simple_english chapter5_0d69bf97:
 translate simple_english chapter5_84893898:
 
     # caterpillar "I’ve something important to say!"
-    caterpillar "I’ve something important to say!"
+    caterpillar "I have something important to tell you!"
 
 # game/script.rpy:1684
 translate simple_english chapter5_3ae96ddb:
 
     # "This sounded promising, certainly: Alice turned and came back again."
-    "This sounded promising, certainly: Alice turned and came back again."
+    "This sounded good: Alice turned around and came back."
 
 # game/script.rpy:1686
 translate simple_english chapter5_672c05d2:
 
     # caterpillar "Keep your temper."
-    caterpillar "Keep your temper."
+    caterpillar "Keep calm."
 
 # game/script.rpy:1688
 translate simple_english chapter5_a20cefa7:
@@ -2854,13 +2806,13 @@ translate simple_english chapter5_a20cefa7:
 translate simple_english chapter5_4149cc0e:
 
     # alice "Is that all?"
-    alice "Is that all?"
+    alice "Is that everything?"
 
 # game/script.rpy:1691
 translate simple_english chapter5_ad7f1bbb:
 
     # "Alice swallowed down her anger as well as she could."
-    "Alice swallowed down her anger as well as she could."
+    "Alice tried hard to control her anger."
 
 # game/script.rpy:1692
 translate simple_english chapter5_a81df4eb:
@@ -2872,7 +2824,7 @@ translate simple_english chapter5_a81df4eb:
 translate simple_english chapter5_a1ab56c2:
 
     # "Alice thought she might as well wait, as she had nothing else to do, and perhaps after all it might tell her something worth hearing."
-    "Alice thought she might as well wait, as she had nothing else to do, and perhaps after all it might tell her something worth hearing."
+    "Alice decided to wait because she had nothing else to do, and maybe it would tell her something interesting."
 
 # game/script.rpy:1695
 translate simple_english chapter5_a20cefa7_1:
@@ -2884,37 +2836,37 @@ translate simple_english chapter5_a20cefa7_1:
 translate simple_english chapter5_2c9d1131:
 
     # "For some minutes it puffed away without speaking, but at last it unfolded its arms, took the hookah out of its mouth again."
-    "For some minutes it puffed away without speaking, but at last it unfolded its arms, took the hookah out of its mouth again."
+    "For a few minutes, it smoked without talking, but eventually it put down the pipe and stopped smoking."
 
 # game/script.rpy:1697
 translate simple_english chapter5_1892ff01:
 
     # caterpillar "So you think you’re changed, do you?"
-    caterpillar "So you think you’re changed, do you?"
+    caterpillar "So, you think you have changed?"
 
 # game/script.rpy:1699
 translate simple_english chapter5_d096ebfd:
 
     # alice "I’m afraid I am, sir."
-    alice "I’m afraid I am, sir."
+    alice "Yes, sir."
 
 # game/script.rpy:1700
 translate simple_english chapter5_045e2494:
 
     # alice "I can’t remember things as I used—and I don’t keep the same size for ten minutes together!"
-    alice "I can’t remember things as I used—and I don’t keep the same size for ten minutes together!"
+    alice "I can't remember things like before, and I don't stay the same size for more than ten minutes!"
 
 # game/script.rpy:1702
 translate simple_english chapter5_e491bce0:
 
     # caterpillar "Can’t remember what things?"
-    caterpillar "Can’t remember what things?"
+    caterpillar "What things can't you remember?"
 
 # game/script.rpy:1704
 translate simple_english chapter5_90fa08c7:
 
     # alice "Well, I’ve tried to say 'How doth the little busy bee', but it all came different!"
-    alice "Well, I’ve tried to say 'How doth the little busy bee', but it all came different!"
+    alice "I tried to say 'How does the little busy bee', but it came out wrong!"
 
 # game/script.rpy:1706
 translate simple_english chapter5_955e8b96:
@@ -2926,7 +2878,7 @@ translate simple_english chapter5_955e8b96:
 translate simple_english chapter5_3276e961:
 
     # "Alice folded her hands, and began:"
-    "Alice folded her hands, and began:"
+    "Alice put her hands together and began:"
 
 # game/script.rpy:1710
 translate simple_english chapter5_8bc69656:
@@ -2980,25 +2932,25 @@ translate simple_english chapter5_d1cad718:
 translate simple_english chapter5_0185ef46:
 
     # caterpillar "That is not said right."
-    caterpillar "That is not said right."
+    caterpillar "That was said incorrectly."
 
 # game/script.rpy:1728
 translate simple_english chapter5_09028bd9:
 
     # alice "Not quite right, I’m afraid."
-    alice "Not quite right, I’m afraid."
+    alice "Sorry."
 
 # game/script.rpy:1729
 translate simple_english chapter5_069b8529:
 
     # alice "Some of the words have got altered."
-    alice "Some of the words have got altered."
+    alice "Some of the words have changed."
 
 # game/script.rpy:1731
 translate simple_english chapter5_0492e66c:
 
     # caterpillar "It is wrong from beginning to end."
-    caterpillar "It is wrong from beginning to end."
+    caterpillar "It is wrong all the way through."
 
 # game/script.rpy:1732
 translate simple_english chapter5_a20cefa7_2:
@@ -3022,7 +2974,7 @@ translate simple_english chapter5_2e3ed960:
 translate simple_english chapter5_e1827e56:
 
     # alice "Oh, I’m not particular as to size, only one doesn’t like changing so often, you know."
-    alice "Oh, I’m not particular as to size, only one doesn’t like changing so often, you know."
+    alice "I'm not picky about size, I just don't want to change so often."
 
 # game/script.rpy:1739
 translate simple_english chapter5_c03f90d9:
@@ -3034,25 +2986,25 @@ translate simple_english chapter5_c03f90d9:
 translate simple_english chapter5_1ce556bb:
 
     # "Alice said nothing: she had never been so much contradicted in all her life before, and she felt that she was losing her temper."
-    "Alice said nothing: she had never been so much contradicted in all her life before, and she felt that she was losing her temper."
+    "Alice didn't say anything. She had never been contradicted so much before and she felt like she was getting angry."
 
 # game/script.rpy:1743
 translate simple_english chapter5_4e16a90d:
 
     # caterpillar "Are you content now?"
-    caterpillar "Are you content now?"
+    caterpillar "Are you happy now?"
 
 # game/script.rpy:1745
 translate simple_english chapter5_609ce715:
 
     # alice "Well, I should like to be a little larger, sir, if you wouldn’t mind."
-    alice "Well, I should like to be a little larger, sir, if you wouldn’t mind."
+    alice "Excuse me, sir, I would like to be a bit bigger."
 
 # game/script.rpy:1746
 translate simple_english chapter5_bf41cfb3:
 
     # alice "Three inches is such a wretched height to be."
-    alice "Three inches is such a wretched height to be."
+    alice "Being three inches tall is not a good height."
 
 # game/script.rpy:1748
 translate simple_english chapter5_9092895b:
@@ -3064,19 +3016,19 @@ translate simple_english chapter5_9092895b:
 translate simple_english chapter5_12f47074:
 
     # "Said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)"
-    "Said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)"
+    "The Caterpillar was angry and stood up straight. (It was exactly three inches tall)"
 
 # game/script.rpy:1751
 translate simple_english chapter5_8bf17540:
 
     # alice "But I’m not used to it!"
-    alice "But I’m not used to it!"
+    alice "But I am not used to it!"
 
 # game/script.rpy:1752
 translate simple_english chapter5_3eb574c8:
 
     # "Pleaded poor Alice in a piteous tone. And she thought of herself:"
-    "Pleaded poor Alice in a piteous tone. And she thought of herself:"
+    "She thought to herself:"
 
 # game/script.rpy:1754
 translate simple_english chapter5_a6d293b7:
@@ -3088,13 +3040,13 @@ translate simple_english chapter5_a6d293b7:
 translate simple_english chapter5_ad68684e:
 
     # caterpillar "You’ll get used to it in time."
-    caterpillar "You’ll get used to it in time."
+    caterpillar "You will become used to it eventually."
 
 # game/script.rpy:1757
 translate simple_english chapter5_e41e5dc8:
 
     # "The caterpillar put the hookah into its mouth and began smoking again."
-    "The caterpillar put the hookah into its mouth and began smoking again."
+    "The caterpillar put the smoking pipe in its mouth and started smoking once more."
 
 # game/script.rpy:1759
 translate simple_english chapter5_cbea4c9b:
@@ -3106,19 +3058,19 @@ translate simple_english chapter5_cbea4c9b:
 translate simple_english chapter5_0812dac7:
 
     # "In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself."
-    "In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself."
+    "In a minute or two the Caterpillar removed the long pipe from its mouth, yawned a couple of times, and shook its body."
 
 # game/script.rpy:1766
 translate simple_english chapter5_fb503ac4:
 
     # "Then it got down off the mushroom, and crawled away in the grass."
-    "Then it got down off the mushroom, and crawled away in the grass."
+    "It climbed down the mushroom and went away in the grass."
 
 # game/script.rpy:1767
 translate simple_english chapter5_897b1657:
 
     # caterpillar "One side will make you grow taller, and the other side will make you grow shorter."
-    caterpillar "One side will make you grow taller, and the other side will make you grow shorter."
+    caterpillar "One side makes you taller, the other side makes you shorter."
 
 # game/script.rpy:1769
 translate simple_english chapter5_f8f85ba6:
@@ -3142,13 +3094,13 @@ translate simple_english chapter5_9a257946:
 translate simple_english chapter5_a9249eb7:
 
     # "Alice remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it; and as it was perfectly round, she found this a very difficult question."
-    "Alice remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it; and as it was perfectly round, she found this a very difficult question."
+    "Alice stared at the mushroom, wondering which side was which. Since it was a perfect circle, figuring it out was quite tricky for her."
 
 # game/script.rpy:1776
 translate simple_english chapter5_7c0546b2:
 
     # "However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand."
-    "However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand."
+    "Finally, she reached her arms around it as far as she could and broke off a piece from each edge with her hands."
 
 # game/script.rpy:1780
 translate simple_english chapter5_a233e5c2:
@@ -3160,151 +3112,151 @@ translate simple_english chapter5_a233e5c2:
 translate simple_english chapter5_288fbba6:
 
     # "She nibbled a little of the right-hand bit to try the effect:"
-    "She nibbled a little of the right-hand bit to try the effect:"
+    "She took a small bite from the right corner to see what would happen."
 
 # game/script.rpy:1787
 translate simple_english chapter5_d1a0d83d:
 
     # "The next moment she felt a violent blow underneath her chin: it had struck her foot!"
-    "The next moment she felt a violent blow underneath her chin: it had struck her foot!"
+    "Suddenly, something hit her foot really hard."
 
 # game/script.rpy:1791
 translate simple_english chapter5_934a1b4a:
 
     # "She was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit."
-    "She was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit."
+    "She was quite scared by the sudden change, but she knew she had to act quickly because she was shrinking fast. So, she immediately started eating a piece of other side."
 
 # game/script.rpy:1792
 translate simple_english chapter5_2262d1d9:
 
     # "Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit."
-    "Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit."
+    "Her chin was very close to her foot, making it hard to open her mouth. Eventually, she managed to swallow a small piece of the bit."
 
 # game/script.rpy:1794
 translate simple_english chapter5_90ce426a:
 
     # alice "Come, my head’s free at last!"
-    alice "Come, my head’s free at last!"
+    alice "Finally, I am free!"
 
 # game/script.rpy:1800
 translate simple_english chapter5_329e1ab3:
 
     # "Alice was delighted, which changed into alarm in another moment, when she found that her shoulders were nowhere to be found: all she could see, when she looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her."
-    "Alice was delighted, which changed into alarm in another moment, when she found that her shoulders were nowhere to be found: all she could see, when she looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her."
+    "Alice was very happy at first, but then got scared when she realized she couldn't see her shoulders. Instead of shoulders, she saw a long neck stretching out from a sea of green leaves far below her when she looked down."
 
 # game/script.rpy:1829
 translate simple_english ch5_sky_dd8d20af:
 
     # alice "What can all that green stuff be?"
-    alice "What can all that green stuff be?"
+    alice "What could all that green stuff be?"
 
 # game/script.rpy:1838
 translate simple_english ch5_sky_368779b9:
 
     # alice "And where have my shoulders got to?"
-    alice "And where have my shoulders got to?"
+    alice "Where are my shoulders?"
 
 # game/script.rpy:1839
 translate simple_english ch5_sky_d666482d:
 
     # alice "And oh, my poor hands, how is it I can’t see you?"
-    alice "And oh, my poor hands, how is it I can’t see you?"
+    alice "And my hands. Why can't I see them?"
 
 # game/script.rpy:1840
 translate simple_english ch5_sky_eac8d185:
 
     # "She was moving them about as she spoke, but no result seemed to follow, except a little shaking among the distant green leaves."
-    "She was moving them about as she spoke, but no result seemed to follow, except a little shaking among the distant green leaves."
+    "She tried moving her hands, but nothing really happened, except for some slight shaking in the leaves far away."
 
 # game/script.rpy:1842
 translate simple_english ch5_sky_07d52f5c:
 
     # "As there seemed to be no chance of getting her hands up to her head, she tried to get her head down to them, and was delighted to find that her neck would bend about easily in any direction, like a serpent."
-    "As there seemed to be no chance of getting her hands up to her head, she tried to get her head down to them, and was delighted to find that her neck would bend about easily in any direction, like a serpent."
+    "Since she couldn't move her hands to her head, she moved her head towards her hands instead. She was happy to see that her neck could bend easily in all directions, like a snake."
 
 # game/script.rpy:1847
 translate simple_english ch5_sky_640a55f6:
 
     # "She had just succeeded in curving it down into a graceful zigzag, and was going to dive in among the leaves, which she found to be nothing but the tops of the trees under which she had been wandering, when a sharp hiss made her draw back in a hurry: a large pigeon had flown into her face, and was beating her violently with its wings."
-    "She had just succeeded in curving it down into a graceful zigzag, and was going to dive in among the leaves, which she found to be nothing but the tops of the trees under which she had been wandering, when a sharp hiss made her draw back in a hurry: a large pigeon had flown into her face, and was beating her violently with its wings."
+    "Suddenly, a loud hiss made her quickly retreat: a pigeon had flown into her face and was hitting her hard with its wings."
 
 # game/script.rpy:1849
 translate simple_english ch5_sky_fc0f58d6:
 
     # pigeon "Serpent!"
-    pigeon "Serpent!"
+    pigeon "Snake!"
 
 # game/script.rpy:1851
 translate simple_english ch5_sky_95bd714d:
 
     # alice "I’m not a serpent! Let me alone!"
-    alice "I’m not a serpent! Let me alone!"
+    alice "I'm not a snake! Leave me alone!"
 
 # game/script.rpy:1853
 translate simple_english ch5_sky_6e20e343:
 
     # pigeon "Serpent, I say again!"
-    pigeon "Serpent, I say again!"
+    pigeon "Snake, I repeat!"
 
 # game/script.rpy:1854
 translate simple_english ch5_sky_41d2216e:
 
     # pigeon "I’ve tried every way, and nothing seems to suit them!"
-    pigeon "I’ve tried every way, and nothing seems to suit them!"
+    pigeon "I've tried everything, but nothing seems to make them happy!"
 
 # game/script.rpy:1856
 translate simple_english ch5_sky_fb219437:
 
     # alice "I haven’t the least idea what you’re talking about."
-    alice "I haven’t the least idea what you’re talking about."
+    alice "I don't understand what you're talking about."
 
 # game/script.rpy:1858
 translate simple_english ch5_sky_5c57de9f:
 
     # pigeon "I’ve tried the roots of trees, and I’ve tried banks, and I’ve tried hedges, but those serpents! There’s no pleasing them!"
-    pigeon "I’ve tried the roots of trees, and I’ve tried banks, and I’ve tried hedges, but those serpents! There’s no pleasing them!"
+    pigeon "I tried to hide under trees, banks, and hedges, but snakes always find me. They are never satisfied!"
 
 # game/script.rpy:1860
 translate simple_english ch5_sky_50f49f5f:
 
     # "Alice was more and more puzzled, but she thought there was no use in saying anything more till the pigeon had finished."
-    "Alice was more and more puzzled, but she thought there was no use in saying anything more till the pigeon had finished."
+    "Alice was getting more confused, but she decided not to say anything until the pigeon was done talking."
 
 # game/script.rpy:1862
 translate simple_english ch5_sky_225a5817:
 
     # pigeon "As if it wasn’t trouble enough hatching the eggs, but I must be on the look-out for serpents night and day!"
-    pigeon "As if it wasn’t trouble enough hatching the eggs, but I must be on the look-out for serpents night and day!"
+    pigeon "It's already hard enough to hatch the eggs, and now I have to watch out for snakes all the time!"
 
 # game/script.rpy:1863
 translate simple_english ch5_sky_fd968b50:
 
     # pigeon "Why, I haven’t had a wink of sleep these three weeks!"
-    pigeon "Why, I haven’t had a wink of sleep these three weeks!"
+    pigeon "I haven't slept at all for three weeks!"
 
 # game/script.rpy:1865
 translate simple_english ch5_sky_a6fafca9:
 
     # alice "I’m very sorry you’ve been annoyed."
-    alice "I’m very sorry you’ve been annoyed."
+    alice "I'm really sorry that you've been annoyed."
 
 # game/script.rpy:1867
 translate simple_english ch5_sky_67256036:
 
     # pigeon "And just as I’d taken the highest tree in the wood, and just as I was thinking I should be free of them at last, they must needs come wriggling down from the sky! Ugh, Serpent!"
-    pigeon "And just as I’d taken the highest tree in the wood, and just as I was thinking I should be free of them at last, they must needs come wriggling down from the sky! Ugh, Serpent!"
+    pigeon "I climbed the tallest tree in the forest, thinking I would finally be safe from them, and now they suddenly come down from the sky! Ugh, snake!"
 
 # game/script.rpy:1869
 translate simple_english ch5_sky_a7c6e86c:
 
     # alice "But I’m not a serpent, I tell you!"
-    alice "But I’m not a serpent, I tell you!"
+    alice "I’m not a snake, I promise!"
 
 # game/script.rpy:1870
 translate simple_english ch5_sky_0569b7b4:
 
     # alice "I’m a—I’m a—"
-    alice "I’m a—I’m a—"
+    alice "I am—I am—"
 
 # game/script.rpy:1872
 translate simple_english ch5_sky_f2f2de06:
@@ -3328,49 +3280,49 @@ translate simple_english ch5_sky_64b6f7e9:
 translate simple_english ch5_sky_e8ead513:
 
     # "Said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day."
-    "Said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day."
+    "Alice said, feeling unsure, as she thought about all the changes she had experienced that day."
 
 # game/script.rpy:1878
 translate simple_english ch5_sky_92e5c999:
 
     # pigeon "A likely story indeed!"
-    pigeon "A likely story indeed!"
+    pigeon "That's hard to believe!"
 
 # game/script.rpy:1879
 translate simple_english ch5_sky_f0be80d9:
 
     # pigeon "I’ve seen a good many little girls in my time, but never one with such a neck as that!"
-    pigeon "I’ve seen a good many little girls in my time, but never one with such a neck as that!"
+    pigeon "I've seen many girls before, but never one with a neck like that!"
 
 # game/script.rpy:1880
 translate simple_english ch5_sky_6ecd0cec:
 
     # pigeon "No, no! You’re a serpent; and there’s no use denying it."
-    pigeon "No, no! You’re a serpent; and there’s no use denying it."
+    pigeon "No, you are a sneaky snake, and you can't hide that fact."
 
 # game/script.rpy:1881
 translate simple_english ch5_sky_41f454ed:
 
     # pigeon "I suppose you’ll be telling me next that you never tasted an egg!"
-    pigeon "I suppose you’ll be telling me next that you never tasted an egg!"
+    pigeon "I am guessing next you're going to say that you've never even tried an egg!"
 
 # game/script.rpy:1883
 translate simple_english ch5_sky_85eb4d6d:
 
     # alice "I have tasted eggs, certainly, but little girls eat eggs quite as much as serpents do, you know."
-    alice "I have tasted eggs, certainly, but little girls eat eggs quite as much as serpents do, you know."
+    alice "I have eaten eggs before, but little girls eat eggs just like snakes do."
 
 # game/script.rpy:1885
 translate simple_english ch5_sky_0069d6cc:
 
     # pigeon "I don’t believe it, but if they do, why then they’re a kind of serpent, that’s all I can say."
-    pigeon "I don’t believe it, but if they do, why then they’re a kind of serpent, that’s all I can say."
+    pigeon "I don't think so, but if they do, they are like a snake, that's all I can say."
 
 # game/script.rpy:1887
 translate simple_english ch5_sky_cc63d83d:
 
     # "This was such a new idea to Alice, that she was quite silent for a minute or two."
-    "This was such a new idea to Alice, that she was quite silent for a minute or two."
+    "Alice never heard of such a thing, so she stayed quiet for a minute or two."
 
 # game/script.rpy:1888
 translate simple_english ch5_sky_a20cefa7:
@@ -3382,79 +3334,79 @@ translate simple_english ch5_sky_a20cefa7:
 translate simple_english ch5_sky_1161e301:
 
     # pigeon "You’re looking for eggs, I know that well enough; and what does it matter to me whether you’re a little girl or a serpent?"
-    pigeon "You’re looking for eggs, I know that well enough; and what does it matter to me whether you’re a little girl or a serpent?"
+    pigeon "You want eggs, I know that. It doesn't matter to me if you're a girl or a snake."
 
 # game/script.rpy:1892
 translate simple_english ch5_sky_9741bbb6:
 
     # alice "It matters a good deal to me, but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want yours: I don’t like them raw."
-    alice "It matters a good deal to me, but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want yours: I don’t like them raw."
+    alice "It's important to me, but I'm not searching for eggs right now. And even if I was, I wouldn't want yours because I don't enjoy eating them raw."
 
 # game/script.rpy:1894
 translate simple_english ch5_sky_c1f73f5a:
 
     # pigeon "Well, be off, then!"
-    pigeon "Well, be off, then!"
+    pigeon "Go away then!"
 
 # game/script.rpy:1895
 translate simple_english ch5_sky_d36c2de1:
 
     # "Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it."
-    "Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it."
+    "Alice crouched down among the trees and tried to move carefully because her neck kept getting caught in the branches."
 
 # game/script.rpy:1896
 translate simple_english ch5_sky_bdc58d1e:
 
     # "After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height."
-    "After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height."
+    "After some time, she remembered she had both pieces of mushroom in her hands. She ate them carefully, taking small bites from one piece and then the other. Sometimes she grew taller, and other times shorter, until she returned to her usual height."
 
 # game/script.rpy:1906
 translate simple_english ch5_sky_17601330:
 
     # "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
-    "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
+    "It had been a really long time since she was the right size. It felt strange at first, but she got used to it quickly and started talking to herself as she always did."
 
 # game/script.rpy:1910
 translate simple_english ch5_sky_64e4b308:
 
     # alice "Come, there’s half my plan done now!"
-    alice "Come, there’s half my plan done now!"
+    alice "Great, half of my plan is completed now!"
 
 # game/script.rpy:1911
 translate simple_english ch5_sky_a585b1f6:
 
     # alice "How puzzling all these changes are!"
-    alice "How puzzling all these changes are!"
+    alice "All these changes are so confusing!"
 
 # game/script.rpy:1912
 translate simple_english ch5_sky_f10d60e8:
 
     # alice "I’m never sure what I’m going to be, from one minute to another!"
-    alice "I’m never sure what I’m going to be, from one minute to another!"
+    alice "I never know what I will become next!"
 
 # game/script.rpy:1913
 translate simple_english ch5_sky_9bd8b79d:
 
     # alice "However, I’ve got back to my right size: the next thing is, to get into that beautiful garden—how is that to be done, I wonder?"
-    alice "However, I’ve got back to my right size: the next thing is, to get into that beautiful garden—how is that to be done, I wonder?"
+    alice "But now I'm the right size again. The next step is figuring out how to get into that lovely garden. I wonder how to do that."
 
 # game/script.rpy:1918
 translate simple_english ch5_sky_ff3f6f52:
 
     # "She came suddenly upon an open place, with a little house in it about four feet high."
-    "She came suddenly upon an open place, with a little house in it about four feet high."
+    "Suddenly, she found a small house about four feet high."
 
 # game/script.rpy:1919
 translate simple_english ch5_sky_6508c091:
 
     # alice "Whoever lives there, it’ll never do to come upon them this size: why, I should frighten them out of their wits!"
-    alice "Whoever lives there, it’ll never do to come upon them this size: why, I should frighten them out of their wits!"
+    alice "If I go there now, I might scare whoever lives there because of my size."
 
 # game/script.rpy:1922
 translate simple_english ch5_sky_3fdb37f1:
 
     # "So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high."
-    "So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high."
+    "She started eating a piece of the mushroom until she became only nine inches tall before she went to the house."
 
 # game/script.rpy:1926
 translate simple_english chapter6_c9d2dcd0:
@@ -3466,25 +3418,25 @@ translate simple_english chapter6_c9d2dcd0:
 translate simple_english chapter6_f46a236d:
 
     # "For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood—(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)—and rapped loudly at the door with his knuckles."
-    "For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood—(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)—and rapped loudly at the door with his knuckles."
+    "For a little while, she gazed at the house, unsure of what to do. Then, a servant in fancy clothing ran out of the forest. She thought he was a footman because of his outfit; otherwise, she might have thought he looked like a fish! He knocked loudly on the door."
 
 # game/script.rpy:1941
 translate simple_english chapter6_86219a33:
 
     # "It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads."
-    "It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads."
+    "Another fancy footman with a round face and big eyes like a frog opened the door. Alice saw that both footmen had curly powdered hair."
 
 # game/script.rpy:1942
 translate simple_english chapter6_0335acef:
 
     # "She felt very curious to know what it was all about, and crept a little way out of the wood to listen."
-    "She felt very curious to know what it was all about, and crept a little way out of the wood to listen."
+    "She was very curious and tiptoed out of the forest to find out what was happening."
 
 # game/script.rpy:1944
 translate simple_english chapter6_fefc3051:
 
     # "The Fish-Footman began by producing from under his arm a great letter, nearly as large as himself, and this he handed over to the other, saying, in a solemn tone:"
-    "The Fish-Footman began by producing from under his arm a great letter, nearly as large as himself, and this he handed over to the other, saying, in a solemn tone:"
+    "The Fish-Footman took out a big letter from under his arm and gave it to the other person."
 
 # game/script.rpy:1945
 translate simple_english chapter6_8f098d70:
@@ -3496,7 +3448,7 @@ translate simple_english chapter6_8f098d70:
 translate simple_english chapter6_c077928d:
 
     # "The Frog-Footman repeated, in the same solemn tone, only changing the order of the words a little:"
-    "The Frog-Footman repeated, in the same solemn tone, only changing the order of the words a little:"
+    "The Frog-Footman said again, in a serious voice, just switching the words around a bit:"
 
 # game/script.rpy:1947
 translate simple_english chapter6_c3b60df2:
@@ -3508,211 +3460,211 @@ translate simple_english chapter6_c3b60df2:
 translate simple_english chapter6_37770789:
 
     # "Then they both bowed low, and their curls got entangled together."
-    "Then they both bowed low, and their curls got entangled together."
+    "They both bent down, and their curly hair got twisted together."
 
 # game/script.rpy:1966
 translate simple_english chapter6_a49e9ddb:
 
     # "Alice laughed so much at this, that she had to run back into the wood for fear of their hearing her."
-    "Alice laughed so much at this, that she had to run back into the wood for fear of their hearing her."
+    "Alice laughed a lot and had to run back into the woods so they wouldn't hear her."
 
 # game/script.rpy:1972
 translate simple_english chapter6_db51a6b0:
 
     # "And when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky."
-    "And when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky."
+    "When she looked again, the Fish-Footman had left and the other one was sitting on the ground by the door, looking up into the sky."
 
 # game/script.rpy:1977
 translate simple_english chapter6_7612c6ad:
 
     # "Alice went timidly up to the door, and knocked."
-    "Alice went timidly up to the door, and knocked."
+    "Alice timidly went up to the door and knocked."
 
 # game/script.rpy:1979
 translate simple_english chapter6_52e8bafa:
 
     # frogfoot "There’s no sort of use in knocking, and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you."
-    frogfoot "There’s no sort of use in knocking, and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you."
+    frogfoot "There's no point in knocking for two reasons. First, I'm on the same side of the door as you. And second, there's a lot of noise inside, so no one will hear you."
 
 # game/script.rpy:1982
 translate simple_english chapter6_32e3969a:
 
     # "And certainly there was a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces."
-    "And certainly there was a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces."
+    "There was a lot of loud noise coming from inside – there was howling, sneezing, and sometimes a loud crash."
 
 # game/script.rpy:1984
 translate simple_english chapter6_2b81fcdf:
 
     # alice "Please, then, how am I to get in?"
-    alice "Please, then, how am I to get in?"
+    alice "How can I get in?"
 
 # game/script.rpy:1986
 translate simple_english chapter6_bae119ab:
 
     # frogfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
-    frogfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
+    frogfoot "It would make more sense if you knocked on the door while you were inside, then I could let you out."
 
 # game/script.rpy:1988
 translate simple_english chapter6_4b9fa03d:
 
     # "He was looking up into the sky all the time he was speaking, and this Alice thought decidedly uncivil."
-    "He was looking up into the sky all the time he was speaking, and this Alice thought decidedly uncivil."
+    "He kept looking at the sky while he talked, and Alice thought this was very rude."
 
 # game/script.rpy:1990
 translate simple_english chapter6_dc9a19c5:
 
     # alice "(But perhaps he can’t help it, his eyes are so very nearly at the top of his head. But at any rate he might answer questions)"
-    alice "(But perhaps he can’t help it, his eyes are so very nearly at the top of his head. But at any rate he might answer questions)"
+    alice "(Maybe he can't help it. His eyes are almost at the top of his head. But at least he could answer my questions)"
 
 # game/script.rpy:1992
 translate simple_english chapter6_702a718c:
 
     # alice "*loud* How am I to get in?"
-    alice "*loud* How am I to get in?"
+    alice "*loud* How can I get in?"
 
 # game/script.rpy:1994
 translate simple_english chapter6_6954584a:
 
     # frogfoot "I shall sit here, till tomorrow—"
-    frogfoot "I shall sit here, till tomorrow—"
+    frogfoot "I will sit here until tomorrow."
 
 # game/script.rpy:2003
 translate simple_english chapter6_6c311902:
 
     # "At this moment the door of the house opened, and a large plate came skimming out, straight at the Footman’s head: it just grazed his nose, and broke to pieces against one of the trees behind him."
-    "At this moment the door of the house opened, and a large plate came skimming out, straight at the Footman’s head: it just grazed his nose, and broke to pieces against one of the trees behind him."
+    "Right then, the door opened and a big plate flew out, almost hitting the Footman’s nose before shattering against a tree."
 
 # game/script.rpy:2006
 translate simple_english chapter6_996a53f4:
 
     # frogfoot "—or next day, maybe."
-    frogfoot "—or next day, maybe."
+    frogfoot "—or the next day."
 
 # game/script.rpy:2010
 translate simple_english chapter6_c3365e78:
 
     # alice "*louder* How am I to get in?"
-    alice "*louder* How am I to get in?"
+    alice "*louder* How can I get in?"
 
 # game/script.rpy:2012
 translate simple_english chapter6_0b4780c0:
 
     # frogfoot "Are you to get in at all? That’s the first question, you know."
-    frogfoot "Are you to get in at all? That’s the first question, you know."
+    frogfoot "Are you even allowed to get in? That's the first question."
 
 # game/script.rpy:2014
 translate simple_english chapter6_08ba345f:
 
     # "It was, no doubt: only Alice did not like to be told so."
-    "It was, no doubt: only Alice did not like to be told so."
+    "It was true, but Alice didn't want to hear it."
 
 # game/script.rpy:2016
 translate simple_english chapter6_6e3dd01e:
 
     # alice "(It’s really dreadful, the way all the creatures argue. It’s enough to drive one crazy!)"
-    alice "(It’s really dreadful, the way all the creatures argue. It’s enough to drive one crazy!)"
+    alice "(It's awful how the animals argue. It can drive you crazy!)"
 
 # game/script.rpy:2018
 translate simple_english chapter6_143c8321:
 
     # "The Footman seemed to think this a good opportunity for repeating his remark, with variations."
-    "The Footman seemed to think this a good opportunity for repeating his remark, with variations."
+    "The footman thought it was a good time to say the same thing again, but in different ways."
 
 # game/script.rpy:2020
 translate simple_english chapter6_a270183d:
 
     # frogfoot "I shall sit here, on and off, for days and days."
-    frogfoot "I shall sit here, on and off, for days and days."
+    frogfoot "I will keep sitting here for days and days."
 
 # game/script.rpy:2022
 translate simple_english chapter6_4510cb6f:
 
     # alice "But what am I to do?"
-    alice "But what am I to do?"
+    alice "But what should I do?"
 
 # game/script.rpy:2024
 translate simple_english chapter6_a2a1b185:
 
     # frogfoot "Anything you like."
-    frogfoot "Anything you like."
+    frogfoot "Whatever you want."
 
 # game/script.rpy:2026
 translate simple_english chapter6_4a598442:
 
     # alice "Oh, there’s no use in talking to him, he’s perfectly idiotic!"
-    alice "Oh, there’s no use in talking to him, he’s perfectly idiotic!"
+    alice "There's no point in talking to him, he's perfectly idiotic!"
 
 # game/script.rpy:2029
 translate simple_english chapter6_9f333002:
 
     # "And she opened the door and went in."
-    "And she opened the door and went in."
+    "She opened the door and went inside."
 
 # game/script.rpy:2067
 translate simple_english ch6_kitchen_6d01104b:
 
     # "The door led right into a large kitchen, which was full of smoke from one end to the other: the Duchess was sitting on a three-legged stool in the middle, nursing a baby; the cook was leaning over the fire, stirring a large cauldron which seemed to be full of soup."
-    "The door led right into a large kitchen, which was full of smoke from one end to the other: the Duchess was sitting on a three-legged stool in the middle, nursing a baby; the cook was leaning over the fire, stirring a large cauldron which seemed to be full of soup."
+    "The door opened into a big kitchen. It was smoky. The Duchess sat in the middle on a stool, holding a baby. The cook was stirring a pot of soup over the fire."
 
 # game/script.rpy:2069
 translate simple_english ch6_kitchen_fe515dd9:
 
     # alice "(There’s certainly too much pepper in that soup!)"
-    alice "(There’s certainly too much pepper in that soup!)"
+    alice "(There's way too much pepper in the soup!)"
 
 # game/script.rpy:2071
 translate simple_english ch6_kitchen_9ee6c068:
 
     # "There was certainly too much of it in the air. Even the Duchess sneezed occasionally; and as for the baby, it was sneezing and howling alternately without a moment’s pause."
-    "There was certainly too much of it in the air. Even the Duchess sneezed occasionally; and as for the baby, it was sneezing and howling alternately without a moment’s pause."
+    "There was a lot of pepper in the air. The Duchess and the baby were both sneezing a lot. The baby was sneezing and crying non-stop."
 
 # game/script.rpy:2073
 translate simple_english ch6_kitchen_79c42fe4:
 
     # "The only things in the kitchen that did not sneeze, were the cook, and a large cat which was sitting on the hearth and grinning from ear to ear."
-    "The only things in the kitchen that did not sneeze, were the cook, and a large cat which was sitting on the hearth and grinning from ear to ear."
+    "In the kitchen, only the cook and a big cat didn't sneeze. The cat was sitting near fireplace, grinning from ear to ear."
 
 # game/script.rpy:2077
 translate simple_english ch6_kitchen_74698daa:
 
     # alice "Please would you tell me, why your cat grins like that?"
-    alice "Please would you tell me, why your cat grins like that?"
+    alice "Can you explain why your cat is grinning like that?"
 
 # game/script.rpy:2081
 translate simple_english ch6_kitchen_e48c86b8:
 
     # duchess "It’s a Cheshire cat, and that’s why. Pig!"
-    duchess "It’s a Cheshire cat, and that’s why. Pig!"
+    duchess "It's a Cheshire cat, that's why. Pig!"
 
 # game/script.rpy:2088
 translate simple_english ch6_kitchen_bbe58d64:
 
     # "She said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:"
-    "She said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:"
+    "She said the last word very strongly, which startled Alice. But she quickly realized it was meant for the baby, not her. This made Alice feel better, so she continued on."
 
 # game/script.rpy:2091
 translate simple_english ch6_kitchen_c5421c70:
 
     # alice "I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats could grin."
-    alice "I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats could grin."
+    alice "I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats could grin at all."
 
 # game/script.rpy:2093
 translate simple_english ch6_kitchen_6b4d3d59:
 
     # duchess "They all can, and most of ’em do."
-    duchess "They all can, and most of ’em do."
+    duchess "They all can, and most of them do."
 
 # game/script.rpy:2095
 translate simple_english ch6_kitchen_b1e2b1c9:
 
     # alice "I don’t know of any that do."
-    alice "I don’t know of any that do."
+    alice "I do not know any that do."
 
 # game/script.rpy:2098
 translate simple_english ch6_kitchen_c38c438a:
 
     # "Alice said very politely, feeling quite pleased to have got into a conversation."
-    "Alice said very politely, feeling quite pleased to have got into a conversation."
+    "Alice politely said as she was happy to be chatting with someone."
 
 # game/script.rpy:2100
 translate simple_english ch6_kitchen_058c3f68:
@@ -3724,31 +3676,31 @@ translate simple_english ch6_kitchen_058c3f68:
 translate simple_english ch6_kitchen_23e0d7b0:
 
     # "Alice did not at all like the tone of this remark, and thought it would be as well to introduce some other subject of conversation."
-    "Alice did not at all like the tone of this remark, and thought it would be as well to introduce some other subject of conversation."
+    "Alice didn't like how that comment sounded. She decided to talk about something else instead."
 
 # game/script.rpy:2121
 translate simple_english ch6_kitchen_9b73789a:
 
     # "While she was trying to fix on one, the cook took the cauldron of soup off the fire, and at once set to work throwing everything within her reach at the Duchess and the baby—the fire-irons came first; then followed a shower of saucepans, plates, and dishes."
-    "While she was trying to fix on one, the cook took the cauldron of soup off the fire, and at once set to work throwing everything within her reach at the Duchess and the baby—the fire-irons came first; then followed a shower of saucepans, plates, and dishes."
+    "As she decided on which topic to pick, the cook grabbed the pot of soup from the fire and started throwing things at the Duchess and the baby. First, she threw saucepans, then a bunch of pots, plates, and dishes."
 
 # game/script.rpy:2126
 translate simple_english ch6_kitchen_2dbdea25:
 
     # "The Duchess took no notice of them even when they hit her; and the baby was howling so much already, that it was quite impossible to say whether the blows hurt it or not."
-    "The Duchess took no notice of them even when they hit her; and the baby was howling so much already, that it was quite impossible to say whether the blows hurt it or not."
+    "The Duchess ignored them, even when they hit her. The baby was crying so loudly that it was hard to tell if the hits were hurting it or not."
 
 # game/script.rpy:2129
 translate simple_english ch6_kitchen_e999b972:
 
     # alice "Oh, please mind what you’re doing!"
-    alice "Oh, please mind what you’re doing!"
+    alice "Oh, please be careful!"
 
 # game/script.rpy:2131
 translate simple_english ch6_kitchen_a50e0f6e:
 
     # "Alice was jumping up and down in an agony of terror."
-    "Alice was jumping up and down in an agony of terror."
+    "Alice was jumping up and down in fear."
 
 # game/script.rpy:2132
 translate simple_english ch6_kitchen_30f162ad:
@@ -3760,13 +3712,13 @@ translate simple_english ch6_kitchen_30f162ad:
 translate simple_english ch6_kitchen_450fc10d:
 
     # "An unusually large saucepan flew close by it, and very nearly carried it off."
-    "An unusually large saucepan flew close by it, and very nearly carried it off."
+    "A very saucepan flew by and almost took it away."
 
 # game/script.rpy:2140
 translate simple_english ch6_kitchen_42b40207:
 
     # duchess "If everybody minded their own business, the world would go round a deal faster than it does."
-    duchess "If everybody minded their own business, the world would go round a deal faster than it does."
+    duchess "If everybody minded their own business, the world would run a lot more smoothly and quickly."
 
 # game/script.rpy:2144
 translate simple_english ch6_kitchen_8ce354b5:
@@ -3784,7 +3736,7 @@ translate simple_english ch6_kitchen_266e0139:
 translate simple_english ch6_kitchen_3a310fa9:
 
     # "Alice glanced rather anxiously at the cook, to see if she meant to take the hint; but the cook was busily stirring the soup, and seemed not to be listening, so she went on again:"
-    "Alice glanced rather anxiously at the cook, to see if she meant to take the hint; but the cook was busily stirring the soup, and seemed not to be listening, so she went on again:"
+    "Alice looked nervously at the cook to see if she understood, but the cook was focused on stirring the soup and appeared to not be paying attention. Alice continued talking:"
 
 # game/script.rpy:2158
 translate simple_english ch6_kitchen_103d874b:
@@ -3796,13 +3748,13 @@ translate simple_english ch6_kitchen_103d874b:
 translate simple_english ch6_kitchen_9dc137d6:
 
     # duchess "Oh, don’t bother me, I never could abide figures!"
-    duchess "Oh, don’t bother me, I never could abide figures!"
+    duchess "Please don't ask me about numbers, I really don't like dealing with them!"
 
 # game/script.rpy:2161
 translate simple_english ch6_kitchen_466ea812:
 
     # "And with that she began nursing her child again, singing a sort of lullaby to it as she did so, and giving it a violent shake at the end of every line:"
-    "And with that she began nursing her child again, singing a sort of lullaby to it as she did so, and giving it a violent shake at the end of every line:"
+    "She started feeding her baby and singing a gentle song to calm it, shaking it violently at the end of each line."
 
 # game/script.rpy:2165
 translate simple_english ch6_kitchen_11575324:
@@ -3820,7 +3772,7 @@ translate simple_english ch6_kitchen_e6eb93ec:
 translate simple_english ch6_kitchen_72077540:
 
     # "While the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:"
-    "While the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:"
+    "The Duchess was singing and bouncing the baby roughly, causing the baby to cry loudly. Alice could barely hear the song's words because of the baby's loud cries."
 
 # game/script.rpy:2178
 translate simple_english ch6_kitchen_e8532e4b:
@@ -3844,13 +3796,13 @@ translate simple_english ch6_kitchen_6cd4f3ad:
 translate simple_english ch6_kitchen_6246b82c:
 
     # "The Duchess said to Alice, flinging the baby at her as she spoke."
-    "The Duchess said to Alice, flinging the baby at her as she spoke."
+    "The Duchess threw the baby to Alice while talking."
 
 # game/script.rpy:2191
 translate simple_english ch6_kitchen_5ba0573d:
 
     # duchess "I must go and get ready to play croquet with the Queen."
-    duchess "I must go and get ready to play croquet with the Queen."
+    duchess "I need to get ready to play croquet with the Queen."
 
 # game/script.rpy:2192
 translate simple_english ch6_kitchen_741339f4:
@@ -3868,7 +3820,7 @@ translate simple_english ch6_kitchen_6851ebe8:
 translate simple_english ch6_kitchen_c0484609:
 
     # "Alice caught the baby with some difficulty, as it was a queer-shaped little creature, and held out its arms and legs in all directions."
-    "Alice caught the baby with some difficulty, as it was a queer-shaped little creature, and held out its arms and legs in all directions."
+    "Alice had a hard time catching the strangely-shaped baby. The baby was moving its arms and legs in all directions."
 
 # game/script.rpy:2205
 translate simple_english ch6_kitchen_74ae563b:
@@ -3880,19 +3832,19 @@ translate simple_english ch6_kitchen_74ae563b:
 translate simple_english ch6_kitchen_10b80dab:
 
     # "The poor little thing was snorting like a steam-engine when she caught it, and kept doubling itself up and straightening itself out again, so that altogether, for the first minute or two, it was as much as she could do to hold it."
-    "The poor little thing was snorting like a steam-engine when she caught it, and kept doubling itself up and straightening itself out again, so that altogether, for the first minute or two, it was as much as she could do to hold it."
+    "The poor little thing was snorting like a steam-engine when she caught it. It was squirming and twisting, making it hard for her to hold onto it at first."
 
 # game/script.rpy:2212
 translate simple_english ch6_kitchen_50b5bb7c:
 
     # "As soon as she had made out the proper way of nursing it, (which was to twist it up into a sort of knot, and then keep tight hold of its right ear and left foot, so as to prevent its undoing itself,) she carried it out into the open air."
-    "As soon as she had made out the proper way of nursing it, (which was to twist it up into a sort of knot, and then keep tight hold of its right ear and left foot, so as to prevent its undoing itself,) she carried it out into the open air."
+    "Once she figured out the right way to hold the baby, by wrapping it up and holding onto its ear and foot tightly, she took it outside."
 
 # game/script.rpy:2228
 translate simple_english ch6_kitchen_d67217de:
 
     # alice "(If I don’t take this child away with me, they’re sure to kill it in a day or two)"
-    alice "(If I don’t take this child away with me, they’re sure to kill it in a day or two)"
+    alice "(If I don't bring this child with me, they will most likely kill it in a day or two)"
 
 # game/script.rpy:2229
 translate simple_english ch6_kitchen_c6c3cb54:
@@ -3904,13 +3856,13 @@ translate simple_english ch6_kitchen_c6c3cb54:
 translate simple_english ch6_kitchen_19b90db9:
 
     # "The little thing grunted in reply (it had left off sneezing by this time)"
-    "The little thing grunted in reply (it had left off sneezing by this time)"
+    "The small creature made a grunting sound in response (it had stopped sneezing by now)."
 
 # game/script.rpy:2231
 translate simple_english ch6_kitchen_3226d2aa:
 
     # alice "Don’t grunt, that’s not at all a proper way of expressing yourself."
-    alice "Don’t grunt, that’s not at all a proper way of expressing yourself."
+    alice "Don't grunt. It's not a good way to express yourself."
 
 # game/script.rpy:2233
 translate simple_english ch6_kitchen_fc3dca46:
@@ -3922,19 +3874,19 @@ translate simple_english ch6_kitchen_fc3dca46:
 translate simple_english ch6_kitchen_c1825079:
 
     # "There could be no doubt that it had a very turn-up nose, much more like a snout than a real nose; also not like the look of the thing at all."
-    "There could be no doubt that it had a very turn-up nose, much more like a snout than a real nose; also not like the look of the thing at all."
+    "It was clear that it had a funny nose that looked more like a snout than a real nose."
 
 # game/script.rpy:2236
 translate simple_english ch6_kitchen_30dc136b:
 
     # alice "But perhaps it was only sobbing."
-    alice "But perhaps it was only sobbing."
+    alice "But maybe it was just crying."
 
 # game/script.rpy:2237
 translate simple_english ch6_kitchen_c8934c35:
 
     # "She looked into its eyes again, to see if there were any tears."
-    "She looked into its eyes again, to see if there were any tears."
+    "She looked into its eyes once more, to check if there were any tears."
 
 # game/script.rpy:2239
 translate simple_english ch6_kitchen_444574ac:
@@ -3946,7 +3898,7 @@ translate simple_english ch6_kitchen_444574ac:
 translate simple_english ch6_kitchen_2be6137d:
 
     # alice "If you’re going to turn into a pig, my dear, I’ll have nothing more to do with you. Mind now!"
-    alice "If you’re going to turn into a pig, my dear, I’ll have nothing more to do with you. Mind now!"
+    alice "If you're going to become a pig, I will not be friends with you anymore. Remember that!"
 
 # game/script.rpy:2241
 translate simple_english ch6_kitchen_a7a58d8e:
@@ -3958,49 +3910,49 @@ translate simple_english ch6_kitchen_a7a58d8e:
 translate simple_english ch6_kitchen_3c4350e6:
 
     # alice "Now, what am I to do with this creature when I get it home?"
-    alice "Now, what am I to do with this creature when I get it home?"
+    alice "What should I do with this creathure when I get home?"
 
 # game/script.rpy:2244
 translate simple_english ch6_kitchen_65f06b78:
 
     # "Then it grunted again, so violently, that she looked down into its face in some alarm."
-    "Then it grunted again, so violently, that she looked down into its face in some alarm."
+    "Then it grunted again, so violently, that she looked down into its face."
 
 # game/script.rpy:2247
 translate simple_english ch6_kitchen_8a66e883:
 
     # "This time there could be no mistake about it: it was neither more nor less than a pig, and she felt that it would be quite absurd for her to carry it further."
-    "This time there could be no mistake about it: it was neither more nor less than a pig, and she felt that it would be quite absurd for her to carry it further."
+    "There was no doubt now, it was definitely a pig. She realized it would be silly to keep going with it."
 
 # game/script.rpy:2250
 translate simple_english ch6_kitchen_21d03e6e:
 
     # "So she set the little creature down, and felt quite relieved to see it trot away quietly into the wood."
-    "So she set the little creature down, and felt quite relieved to see it trot away quietly into the wood."
+    "So she put the small animal down and felt happy to see it walk away quietly into the forest."
 
 # game/script.rpy:2254
 translate simple_english ch6_kitchen_b02d6736:
 
     # alice "If it had grown up, it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think."
-    alice "If it had grown up, it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think."
+    alice "If it had become an adult, it would have been an extremely ugly adult, but I believe it's now a quite good-looking pig."
 
 # game/script.rpy:2256
 translate simple_english ch6_kitchen_df53a4fa:
 
     # "And she began thinking over other children she knew, who might do very well as pigs."
-    "And she began thinking over other children she knew, who might do very well as pigs."
+    "And she started thinking about other children she knew who could be good as pigs."
 
 # game/script.rpy:2258
 translate simple_english ch6_kitchen_c6342338:
 
     # alice "If one only knew the right way to change them—"
-    alice "If one only knew the right way to change them—"
+    alice "If only we knew how to help them change—"
 
 # game/script.rpy:2260
 translate simple_english ch6_kitchen_9b260a2f:
 
     # "She got a little startled by seeing the Cheshire Cat sitting on a bough of a tree a few yards off."
-    "She got a little startled by seeing the Cheshire Cat sitting on a bough of a tree a few yards off."
+    "She was a little surprised when she saw the Cheshire Cat sitting on a branch of a tree nearby."
 
 # game/script.rpy:2266
 translate simple_english ch6_kitchen_05914aef:
@@ -4012,7 +3964,7 @@ translate simple_english ch6_kitchen_05914aef:
 translate simple_english ch6_kitchen_05419e42:
 
     # "It looked good-natured, she thought: still it had very long claws and a great many teeth, so she felt that it ought to be treated with respect."
-    "It looked good-natured, she thought: still it had very long claws and a great many teeth, so she felt that it ought to be treated with respect."
+    "It seemed friendly, but it has long claws and lots of teeth, so she knew she should treat it with respect."
 
 # game/script.rpy:2269
 translate simple_english ch6_kitchen_6a5966bd:
@@ -4024,43 +3976,43 @@ translate simple_english ch6_kitchen_6a5966bd:
 translate simple_english ch6_kitchen_2f94b4c1:
 
     # "She did not at all know whether it would like the name: however, it only grinned a little wider."
-    "She did not at all know whether it would like the name: however, it only grinned a little wider."
+    "She wasn't sure if it would like the name, but it just grinned a bit more."
 
 # game/script.rpy:2272
 translate simple_english ch6_kitchen_b017b77d:
 
     # alice "Come, it’s pleased so far."
-    alice "Come, it’s pleased so far."
+    alice "It seems pleased so far."
 
 # game/script.rpy:2273
 translate simple_english ch6_kitchen_0873dc41:
 
     # alice "Would you tell me, please, which way I ought to go from here?"
-    alice "Would you tell me, please, which way I ought to go from here?"
+    alice "Can you show me which way to go from here?"
 
 # game/script.rpy:2275
 translate simple_english ch6_kitchen_3cb31f10:
 
     # cat "That depends a good deal on where you want to get to."
-    cat "That depends a good deal on where you want to get to."
+    cat "It depends on where you want to go."
 
 # game/script.rpy:2277
 translate simple_english ch6_kitchen_7ceebf2c:
 
     # alice "I don’t much care where—"
-    alice "I don’t much care where—"
+    alice "I don't really mind where—"
 
 # game/script.rpy:2279
 translate simple_english ch6_kitchen_3e26a9cc:
 
     # cat "Then it doesn’t matter which way you go."
-    cat "Then it doesn’t matter which way you go."
+    cat "Then it doesn't matter which way you choose to go."
 
 # game/script.rpy:2281
 translate simple_english ch6_kitchen_0bb2c7ae:
 
     # alice "—so long as I get somewhere."
-    alice "—so long as I get somewhere."
+    alice "—I just want to arrive somewhere."
 
 # game/script.rpy:2283
 translate simple_english ch6_kitchen_accaceee:
@@ -4072,25 +4024,25 @@ translate simple_english ch6_kitchen_accaceee:
 translate simple_english ch6_kitchen_7788fb38:
 
     # "Alice felt that this could not be denied, so she tried another question."
-    "Alice felt that this could not be denied, so she tried another question."
+    "Alice thought this this could not be denied, so she asked another question."
 
 # game/script.rpy:2287
 translate simple_english ch6_kitchen_7d46d7cb:
 
     # alice "What sort of people live about here?"
-    alice "What sort of people live about here?"
+    alice "What kind of people live here?"
 
 # game/script.rpy:2289
 translate simple_english ch6_kitchen_990711a9:
 
     # cat "In that direction, lives a Hatter: and in that direction, lives a March Hare. Visit either you like: they’re both mad."
-    cat "In that direction, lives a Hatter: and in that direction, lives a March Hare. Visit either you like: they’re both mad."
+    cat "Over there lives a Hatter, and over there lives a March Hare. You can visit either one, they are both mad."
 
 # game/script.rpy:2291
 translate simple_english ch6_kitchen_82c0f0fa:
 
     # alice "But I don’t want to go among mad people."
-    alice "But I don’t want to go among mad people."
+    alice "But I don't want to be around mad people."
 
 # game/script.rpy:2293
 translate simple_english ch6_kitchen_01b16c9b:
@@ -4114,7 +4066,7 @@ translate simple_english ch6_kitchen_e9286c75:
 translate simple_english ch6_kitchen_85d53e5b:
 
     # "Alice didn’t think that proved it at all; however, she went on:"
-    "Alice didn’t think that proved it at all; however, she went on:"
+    "Alice did not believe that this proved anything. Nevertheless, she continued:"
 
 # game/script.rpy:2301
 translate simple_english ch6_kitchen_70b6563c:
@@ -4126,19 +4078,19 @@ translate simple_english ch6_kitchen_70b6563c:
 translate simple_english ch6_kitchen_d5b77d1a:
 
     # cat "To begin with, a dog’s not mad. You grant that?"
-    cat "To begin with, a dog’s not mad. You grant that?"
+    cat "First, let's agree that a dog is not mad. Do you agree?"
 
 # game/script.rpy:2305
 translate simple_english ch6_kitchen_27a937d9:
 
     # alice "I suppose so."
-    alice "I suppose so."
+    alice "I agree."
 
 # game/script.rpy:2307
 translate simple_english ch6_kitchen_9dc1bc60:
 
     # cat "Well, then, you see, a dog growls when it’s angry, and wags its tail when it’s pleased. Now I growl when I’m pleased, and wag my tail when I’m angry. Therefore I’m mad."
-    cat "Well, then, you see, a dog growls when it’s angry, and wags its tail when it’s pleased. Now I growl when I’m pleased, and wag my tail when I’m angry. Therefore I’m mad."
+    cat "So, here's the thing: a dog growls when it's angry and wags its tail when it's happy. But I growl when I'm happy and wag my tail when I'm angry. So, I must be mad."
 
 # game/script.rpy:2309
 translate simple_english ch6_kitchen_aa7f38ca:
@@ -4162,7 +4114,7 @@ translate simple_english ch6_kitchen_c18af4ad:
 translate simple_english ch6_kitchen_4325bce6:
 
     # alice "I should like it very much, but I haven’t been invited yet."
-    alice "I should like it very much, but I haven’t been invited yet."
+    alice "I really want to go, but no one has invited me yet."
 
 # game/script.rpy:2316
 translate simple_english ch6_kitchen_d6a969f2:
@@ -4180,13 +4132,13 @@ translate simple_english ch6_kitchen_a9314121:
 translate simple_english ch6_kitchen_57179fda:
 
     # "Alice was not much surprised at this, she was getting so used to queer things happening."
-    "Alice was not much surprised at this, she was getting so used to queer things happening."
+    "Alice was not very surprised by this; she was getting used to strange things happening."
 
 # game/script.rpy:2323
 translate simple_english ch6_kitchen_7bf2ebd5:
 
     # "While she was looking at the place where it had been, it suddenly appeared again."
-    "While she was looking at the place where it had been, it suddenly appeared again."
+    "She was looking at where it used to be, and then it suddenly appeared again."
 
 # game/script.rpy:2328
 translate simple_english ch6_kitchen_298f5504:
@@ -4198,7 +4150,7 @@ translate simple_english ch6_kitchen_298f5504:
 translate simple_english ch6_kitchen_68ad89bd:
 
     # cat "I’d nearly forgotten to ask."
-    cat "I’d nearly forgotten to ask."
+    cat "I almost forgot to ask."
 
 # game/script.rpy:2331
 translate simple_english ch6_kitchen_66c2d43e:
@@ -4222,19 +4174,19 @@ translate simple_english ch6_kitchen_bef49723:
 translate simple_english ch6_kitchen_e641d510:
 
     # "Alice waited a little, half expecting to see it again, but it did not appear, and after a minute or two she walked on in the direction in which the March Hare was said to live."
-    "Alice waited a little, half expecting to see it again, but it did not appear, and after a minute or two she walked on in the direction in which the March Hare was said to live."
+    "Alice waited for a bit, thinking the Cheshire Cat might come back. But it didn't. So, after a minute or two, she continued walking towards where the March Hare was supposed to live."
 
 # game/script.rpy:2340
 translate simple_english ch6_kitchen_dcbca8b3:
 
     # alice "I’ve seen hatters before, the March Hare will be much the most interesting, and perhaps as this is May it won’t be raving mad—at least not so mad as it was in March."
-    alice "I’ve seen hatters before, the March Hare will be much the most interesting, and perhaps as this is May it won’t be raving mad—at least not so mad as it was in March."
+    alice "I've seen hatters before, the March Hare will be the most interesting. Maybe because it's May now, it won't be very mad, at least not as mad as it was in March."
 
 # game/script.rpy:2347
 translate simple_english ch6_cat_e5a1ed14:
 
     # "As she said this, she looked up, and there was the Cat again, sitting on a branch of a tree."
-    "As she said this, she looked up, and there was the Cat again, sitting on a branch of a tree."
+    "As she spoke, she looked up and saw the Cat again sitting on a tree branch."
 
 # game/script.rpy:2349
 translate simple_english ch6_cat_beb65723:
@@ -4246,7 +4198,7 @@ translate simple_english ch6_cat_beb65723:
 translate simple_english ch6_cat_66b6159b:
 
     # alice "I said pig, and I wish you wouldn’t keep appearing and vanishing so suddenly: you make one quite giddy."
-    alice "I said pig, and I wish you wouldn’t keep appearing and vanishing so suddenly: you make one quite giddy."
+    alice "I said pig, and I wish you wouldn’t keep appearing and vanishing so quickly: it makes me dizzy."
 
 # game/script.rpy:2353
 translate simple_english ch6_cat_9893c57f:
@@ -4258,7 +4210,7 @@ translate simple_english ch6_cat_9893c57f:
 translate simple_english ch6_cat_d4111376:
 
     # "This time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone."
-    "This time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone."
+    "This time it disappeared slowly, starting from the end of its tail and ending with its smile, which stayed visible even after the rest had gone."
 
 # game/script.rpy:2376
 translate simple_english ch6_cat_356729f9:
@@ -4276,13 +4228,13 @@ translate simple_english ch6_cat_782e0228:
 translate simple_english ch6_cat_4298ed4d:
 
     # "It was so large a house, that she did not like to go nearer till she had nibbled some more of the lefthand bit of mushroom, and raised herself to about two feet high: even then she walked up towards it rather timidly."
-    "It was so large a house, that she did not like to go nearer till she had nibbled some more of the lefthand bit of mushroom, and raised herself to about two feet high: even then she walked up towards it rather timidly."
+    "The house was very big. Alice didn't want to get any closer until she ate more of the left side of the mushroom. This made her grow taller to about two feet. She walked toward the house nervously."
 
 # game/script.rpy:2383
 translate simple_english ch6_cat_41b34c48:
 
     # alice "Suppose it should be raving mad after all! I almost wish I’d gone to see the Hatter instead!"
-    alice "Suppose it should be raving mad after all! I almost wish I’d gone to see the Hatter instead!"
+    alice "Maybe I should have gone to see the Hatter instead!"
 
 # game/script.rpy:2387
 translate simple_english chapter7_a83b007d:
@@ -4294,19 +4246,19 @@ translate simple_english chapter7_a83b007d:
 translate simple_english chapter7_c36793a5:
 
     # "There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head."
-    "There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head."
+    "A table was set up under a tree in front of the house. The March Hare and the Hatter were having tea at the table. A Dormouse was sleeping between them, and the two friends were using it as a cushion, resting their elbows on it, and chatting above its head."
 
 # game/script.rpy:2420
 translate simple_english chapter7_024c4018:
 
     # alice "(Very uncomfortable for the Dormouse, only, as it’s asleep, I suppose it doesn’t mind)"
-    alice "(Very uncomfortable for the Dormouse, only, as it’s asleep, I suppose it doesn’t mind)"
+    alice "(Very uncomfortable for the Dormouse, but since it's asleep it probably does not mind)"
 
 # game/script.rpy:2422
 translate simple_english chapter7_cf7052bc:
 
     # "The table was a large one, but the three were all crowded together at one corner of it."
-    "The table was a large one, but the three were all crowded together at one corner of it."
+    "The table was big, but the three of them were squeezed together in one corner."
 
 # game/script.rpy:2424
 translate simple_english chapter7_98a795d7:
@@ -4324,7 +4276,7 @@ translate simple_english chapter7_c1c07241:
 translate simple_english chapter7_e16fd9c4:
 
     # "She sat down in a large arm-chair at one end of the table."
-    "She sat down in a large arm-chair at one end of the table."
+    "She sat down in a big chair at the table."
 
 # game/script.rpy:2440
 translate simple_english chapter7_099a2d60:
@@ -4336,7 +4288,7 @@ translate simple_english chapter7_099a2d60:
 translate simple_english chapter7_b7cb2bf7:
 
     # "Alice looked all round the table, but there was nothing on it but tea."
-    "Alice looked all round the table, but there was nothing on it but tea."
+    "Alice looked all over the table, but all she saw was tea."
 
 # game/script.rpy:2449
 translate simple_english chapter7_2e5192ee:
@@ -4354,43 +4306,43 @@ translate simple_english chapter7_867698ff:
 translate simple_english chapter7_42cc716f:
 
     # alice "Then it wasn’t very civil of you to offer it."
-    alice "Then it wasn’t very civil of you to offer it."
+    alice "Then it wasn't very polite of you to offer it."
 
 # game/script.rpy:2461
 translate simple_english chapter7_98119d5f:
 
     # hare "It wasn’t very civil of you to sit down without being invited."
-    hare "It wasn’t very civil of you to sit down without being invited."
+    hare "It wasn't polite to sit down without being asked."
 
 # game/script.rpy:2465
 translate simple_english chapter7_94a671d0:
 
     # alice "I didn’t know it was your table, it’s laid for a great many more than three."
-    alice "I didn’t know it was your table, it’s laid for a great many more than three."
+    alice "I didn't know this table was yours. It's set for more than three people."
 
 # game/script.rpy:2470
 translate simple_english chapter7_93fb1a5e:
 
     # hatter "Your hair wants cutting."
-    hatter "Your hair wants cutting."
+    hatter "Your hair needs to be cut."
 
 # game/script.rpy:2472
 translate simple_english chapter7_2519e6cb:
 
     # "He had been looking at Alice for some time with great curiosity, and this was his first speech."
-    "He had been looking at Alice for some time with great curiosity, and this was his first speech."
+    "He had been watching Alice for a while with great interest, and then he spoke for the first time."
 
 # game/script.rpy:2476
 translate simple_english chapter7_1cfd1cdc:
 
     # alice "You should learn not to make personal remarks, it’s very rude."
-    alice "You should learn not to make personal remarks, it’s very rude."
+    alice "You should not make mean comments about people; it's impolite."
 
 # game/script.rpy:2478
 translate simple_english chapter7_fb62388a:
 
     # "The Hatter opened his eyes very wide on hearing this."
-    "The Hatter opened his eyes very wide on hearing this."
+    "The Hatter was surprised when he heard this and opened his eyes wide."
 
 # game/script.rpy:2482
 translate simple_english chapter7_86342a24:
@@ -4402,13 +4354,13 @@ translate simple_english chapter7_86342a24:
 translate simple_english chapter7_c3c7ca66:
 
     # alice "(Come, we shall have some fun now! I’m glad they’ve begun asking riddles)"
-    alice "(Come, we shall have some fun now! I’m glad they’ve begun asking riddles)"
+    alice "(Let's have fun now! I'm happy they started asking riddles)"
 
 # game/script.rpy:2487
 translate simple_english chapter7_c41fdd10:
 
     # alice "I believe I can guess that."
-    alice "I believe I can guess that."
+    alice "I think I can figure that out."
 
 # game/script.rpy:2491
 translate simple_english chapter7_4b604fbf:
@@ -4420,7 +4372,7 @@ translate simple_english chapter7_4b604fbf:
 translate simple_english chapter7_b57db509:
 
     # alice "Exactly so."
-    alice "Exactly so."
+    alice "Exactly."
 
 # game/script.rpy:2499
 translate simple_english chapter7_4b859c8e:
@@ -4462,7 +4414,7 @@ translate simple_english chapter7_fce7cb84:
 translate simple_english chapter7_c79c1e8f:
 
     # "And here the conversation dropped, and the party sat silent for a minute, while Alice thought over all she could remember about ravens and writing-desks, which wasn’t much."
-    "And here the conversation dropped, and the party sat silent for a minute, while Alice thought over all she could remember about ravens and writing-desks, which wasn’t much."
+    "The conversation stopped, and everyone stayed quiet for a minute. Alice tried to remember what she knew about ravens and writing desks, but she didn't know much."
 
 # game/script.rpy:2525
 translate simple_english chapter7_b82ac6da:
@@ -4480,13 +4432,13 @@ translate simple_english chapter7_806e9346:
 translate simple_english chapter7_488abc92:
 
     # "He had taken his watch out of his pocket, and was looking at it uneasily, shaking it every now and then, and holding it to his ear."
-    "He had taken his watch out of his pocket, and was looking at it uneasily, shaking it every now and then, and holding it to his ear."
+    "He had taken out his watch from his pocket and was looking at it with worry. He was shaking it and listening to it carefully."
 
 # game/script.rpy:2533
 translate simple_english chapter7_454056ef:
 
     # "Alice considered it a little..."
-    "Alice considered it a little..."
+    "Alice thought it over a bit..."
 
 # game/script.rpy:2535
 translate simple_english chapter7_e435bb16:
@@ -4510,7 +4462,7 @@ translate simple_english chapter7_bc3800ab:
 translate simple_english chapter7_30d6f6da:
 
     # hatter "I told you butter wouldn’t suit the works!"
-    hatter "I told you butter wouldn’t suit the works!"
+    hatter "I said butter wouldn't work!"
 
 # game/script.rpy:2545
 translate simple_english chapter7_6c24716c:
@@ -4528,7 +4480,7 @@ translate simple_english chapter7_621cef38:
 translate simple_english chapter7_50dab3dd:
 
     # "The March Hare took the watch and looked at it gloomily: then he dipped it into his cup of tea, and looked at it again: but he could think of nothing better to say than his first remark."
-    "The March Hare took the watch and looked at it gloomily: then he dipped it into his cup of tea, and looked at it again: but he could think of nothing better to say than his first remark."
+    "The March Hare took the watch and looked at it sadly. Then he put it in his cup of tea, looked at it again, but couldn't think of anything else to say except what he had said before."
 
 # game/script.rpy:2556
 translate simple_english chapter7_4ff17dc9:
@@ -4540,7 +4492,7 @@ translate simple_english chapter7_4ff17dc9:
 translate simple_english chapter7_81530615:
 
     # "Alice had been looking over his shoulder with some curiosity."
-    "Alice had been looking over his shoulder with some curiosity."
+    "Alice was watching him closely and with interest."
 
 # game/script.rpy:2563
 translate simple_english chapter7_da959e0d:
@@ -4552,7 +4504,7 @@ translate simple_english chapter7_da959e0d:
 translate simple_english chapter7_c93793c9:
 
     # alice "It tells the day of the month, and doesn’t tell what o’clock it is!"
-    alice "It tells the day of the month, and doesn’t tell what o’clock it is!"
+    alice "It shows the date, but not the time!"
 
 # game/script.rpy:2568
 translate simple_english chapter7_f2239afb:
@@ -4570,7 +4522,7 @@ translate simple_english chapter7_5c5923f4:
 translate simple_english chapter7_8859322a:
 
     # alice "Of course not, but that’s because it stays the same year for such a long time together."
-    alice "Of course not, but that’s because it stays the same year for such a long time together."
+    alice "Of course not, but thats because it stays the same year for such a long time."
 
 # game/script.rpy:2578
 translate simple_english chapter7_93395907:
@@ -4582,7 +4534,7 @@ translate simple_english chapter7_93395907:
 translate simple_english chapter7_afa73b41:
 
     # "Alice felt dreadfully puzzled."
-    "Alice felt dreadfully puzzled."
+    "Alice was very confused."
 
 # game/script.rpy:2584
 translate simple_english chapter7_8886edee:
@@ -4606,19 +4558,19 @@ translate simple_english chapter7_63d9079a:
 translate simple_english chapter7_e0ea96c6:
 
     # "He poured a little hot tea upon its nose."
-    "He poured a little hot tea upon its nose."
+    "He poured some hot tea on its nose."
 
 # game/script.rpy:2595
 translate simple_english chapter7_dbe17320:
 
     # "The Door-mouse shook its head impatiently, and said, without opening its eyes:"
-    "The Door-mouse shook its head impatiently, and said, without opening its eyes:"
+    "The mouse shook its head and said quickly without opening its eyes:"
 
 # game/script.rpy:2599
 translate simple_english chapter7_a1c30eff:
 
     # dormouse "Of course, of course; just what I was going to remark myself."
-    dormouse "Of course, of course; just what I was going to remark myself."
+    dormouse "Yes, yes, that's exactly what I was going to say."
 
 # game/script.rpy:2603
 translate simple_english chapter7_15da9ee1:
@@ -4630,7 +4582,7 @@ translate simple_english chapter7_15da9ee1:
 translate simple_english chapter7_f87ae3de:
 
     # hatter "Have you guessed the riddle yet?"
-    hatter "Have you guessed the riddle yet?"
+    hatter "Have you solved the riddle yet?"
 
 # game/script.rpy:2608
 translate simple_english chapter7_7fb7e514:
@@ -4654,25 +4606,25 @@ translate simple_english chapter7_9ec48c9e:
 translate simple_english chapter7_dde449a1:
 
     # alice "I think you might do something better with the time, than waste it in asking riddles that have no answers."
-    alice "I think you might do something better with the time, than waste it in asking riddles that have no answers."
+    alice "You could use your time better than asking riddles with no answers."
 
 # game/script.rpy:2625
 translate simple_english chapter7_f26ef415:
 
     # hatter "If you knew Time as well as I do, you wouldn’t talk about wasting it. It’s him."
-    hatter "If you knew Time as well as I do, you wouldn’t talk about wasting it. It’s him."
+    hatter "If you understood Time like I do, you wouldn't say you waste it. Time is important."
 
 # game/script.rpy:2630
 translate simple_english chapter7_bf7c23c6:
 
     # alice "I don’t know what you mean."
-    alice "I don’t know what you mean."
+    alice "I don't understand."
 
 # game/script.rpy:2634
 translate simple_english chapter7_5402d271:
 
     # hatter "Of course you don’t! I dare say you never even spoke to Time!"
-    hatter "Of course you don’t! I dare say you never even spoke to Time!"
+    hatter "Of course you don't! I bet you never even talked to Time!"
 
 # game/script.rpy:2639
 translate simple_english chapter7_5eb6d8da:
@@ -4684,13 +4636,13 @@ translate simple_english chapter7_5eb6d8da:
 translate simple_english chapter7_3d220479:
 
     # hatter "Ah! That accounts for it. He won’t stand beating. Now, if you only kept on good terms with him, he’d do almost anything you liked with the clock."
-    hatter "Ah! That accounts for it. He won’t stand beating. Now, if you only kept on good terms with him, he’d do almost anything you liked with the clock."
+    hatter "Oh, I see now. He doesn't like when you beat him. If you are nice to him, he will do almost anything you want with the clock."
 
 # game/script.rpy:2644
 translate simple_english chapter7_688503d1:
 
     # hatter "For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!"
-    hatter "For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!"
+    hatter "Imagine it is nine in the morning, time to start lessons. If you whisper to Time, the clock quickly moves forward. Then suddenly it’s half-past one, time for lunch!"
 
 # game/script.rpy:2648
 translate simple_english chapter7_19dcb579:
@@ -4702,31 +4654,31 @@ translate simple_english chapter7_19dcb579:
 translate simple_english chapter7_ed5a863d:
 
     # alice "That would be grand, certainly, but then—I shouldn’t be hungry for it, you know."
-    alice "That would be grand, certainly, but then—I shouldn’t be hungry for it, you know."
+    alice "That would be nice, of course, but then I wouldn't be hungry, you know."
 
 # game/script.rpy:2657
 translate simple_english chapter7_e0887657:
 
     # hatter "Not at first, perhaps, but you could keep it to half-past one as long as you liked."
-    hatter "Not at first, perhaps, but you could keep it to half-past one as long as you liked."
+    hatter "Not right away, but you can keep it half-past one for as long as you want."
 
 # game/script.rpy:2662
 translate simple_english chapter7_1ef87a12:
 
     # alice "Is that the way you manage?"
-    alice "Is that the way you manage?"
+    alice "Do you do things like that?"
 
 # game/script.rpy:2666
 translate simple_english chapter7_2da1b657:
 
     # "The Hatter shook his head mournfully."
-    "The Hatter shook his head mournfully."
+    "The Hatter sadly shook his head."
 
 # game/script.rpy:2667
 translate simple_english chapter7_99cce707:
 
     # hatter "Not I! We quarrelled last March—just before he went mad, you know—"
-    hatter "Not I! We quarrelled last March—just before he went mad, you know—"
+    hatter "No, not me! We argued with Time last March, right before he lost his mind, you know."
 
 # game/script.rpy:2669
 translate simple_english chapter7_809303d7:
@@ -4756,7 +4708,7 @@ translate simple_english chapter7_c2a4320e:
 translate simple_english chapter7_bc8c4a41:
 
     # hatter "It goes on, you know, in this way:"
-    hatter "It goes on, you know, in this way:"
+    hatter "It continues like this:"
 
 # game/script.rpy:2682
 translate simple_english chapter7_b92475cb:
@@ -4768,7 +4720,7 @@ translate simple_english chapter7_b92475cb:
 translate simple_english chapter7_ef6ef70a:
 
     # "Here the Dormouse shook itself, and began singing in its sleep:"
-    "Here the Dormouse shook itself, and began singing in its sleep:"
+    "The Dormouse shook itself and started singing in its sleep:"
 
 # game/script.rpy:2688
 translate simple_english chapter7_7ab40cf4:
@@ -4780,49 +4732,49 @@ translate simple_english chapter7_7ab40cf4:
 translate simple_english chapter7_11227ebb:
 
     # "And went on so long that they had to pinch it to make it stop."
-    "And went on so long that they had to pinch it to make it stop."
+    "It went on for a long time, so they had to pinch it to make it stop."
 
 # game/script.rpy:2694
 translate simple_english chapter7_e2fa44c5:
 
     # hatter "Well, I’d hardly finished the first verse, when the Queen jumped up and bawled out, ‘He’s murdering the time! Off with his head!’"
-    hatter "Well, I’d hardly finished the first verse, when the Queen jumped up and bawled out, ‘He’s murdering the time! Off with his head!’"
+    hatter "As soon as I started singing the first verse, the Queen stood up and shouted, 'He's killing time! Of with his head!'"
 
 # game/script.rpy:2699
 translate simple_english chapter7_55a7f156:
 
     # alice "How dreadfully savage!"
-    alice "How dreadfully savage!"
+    alice "How terribly brutal!"
 
 # game/script.rpy:2703
 translate simple_english chapter7_74ce6ae1:
 
     # hatter "And ever since that, he won’t do a thing I ask! It’s always six o’clock now."
-    hatter "And ever since that, he won’t do a thing I ask! It’s always six o’clock now."
+    hatter "Since then, he refuses to do anything I ask! It is always six o'clock now."
 
 # game/script.rpy:2708
 translate simple_english chapter7_af05f5d6:
 
     # "A bright idea came into Alice’s head."
-    "A bright idea came into Alice’s head."
+    "Alice had a bright idea."
 
 # game/script.rpy:2709
 translate simple_english chapter7_be108507:
 
     # alice "Is that the reason so many tea-things are put out here?"
-    alice "Is that the reason so many tea-things are put out here?"
+    alice "Is that why there are so many tea sets placed here?"
 
 # game/script.rpy:2713
 translate simple_english chapter7_f1230a81:
 
     # hatter "Yes, that’s it, it’s always tea-time, and we’ve no time to wash the things between whiles."
-    hatter "Yes, that’s it, it’s always tea-time, and we’ve no time to wash the things between whiles."
+    hatter "Yes, that's right, it's always time for tea, and we don't have time to wash the dishes in between."
 
 # game/script.rpy:2718
 translate simple_english chapter7_e56b238e:
 
     # alice "Then you keep moving round, I suppose?"
-    alice "Then you keep moving round, I suppose?"
+    alice "So, you continue moving in a circle, right?"
 
 # game/script.rpy:2722
 translate simple_english chapter7_8b440eaf:
@@ -4840,19 +4792,19 @@ translate simple_english chapter7_32d8e5cc:
 translate simple_english chapter7_5046cf0d:
 
     # hare "Suppose we change the subject. I’m getting tired of this. I vote the young lady tells us a story."
-    hare "Suppose we change the subject. I’m getting tired of this. I vote the young lady tells us a story."
+    hare "Let's talk about something else. I'm bored. I think the young lady should tell us a story."
 
 # game/script.rpy:2736
 translate simple_english chapter7_9e79d860:
 
     # alice "I’m afraid I don’t know one."
-    alice "I’m afraid I don’t know one."
+    alice "I'm sorry, but I don't know one."
 
 # game/script.rpy:2740
 translate simple_english chapter7_fc10c3d8:
 
     # everyone "Then the Dormouse shall! Wake up, Dormouse!"
-    everyone "Then the Dormouse shall! Wake up, Dormouse!"
+    everyone "Then the Dormouse should! Wake up, Dormouse!"
 
 # game/script.rpy:2742
 translate simple_english chapter7_a73668c0:
@@ -4870,7 +4822,7 @@ translate simple_english chapter7_71193301:
 translate simple_english chapter7_ced1f71a:
 
     # dormouse "I wasn’t asleep, I heard every word you fellows were saying."
-    dormouse "I wasn’t asleep, I heard every word you fellows were saying."
+    dormouse "I wasn't asleep. I heard everything you guys said."
 
 # game/script.rpy:2752
 translate simple_english chapter7_6ac3f79c:
@@ -4888,31 +4840,31 @@ translate simple_english chapter7_577f5641:
 translate simple_english chapter7_31a7e4b3:
 
     # hatter "And be quick about it, or you’ll be asleep again before it’s done."
-    hatter "And be quick about it, or you’ll be asleep again before it’s done."
+    hatter "Hurry up, or you'll fall asleep before it's finished."
 
 # game/script.rpy:2765
 translate simple_english chapter7_48a56481:
 
     # dormouse "Once upon a time there were three little sisters, and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—"
-    dormouse "Once upon a time there were three little sisters, and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—"
+    dormouse "Once there were three little sisters named Elsie, Lacie, and Tillie. They lived at the bottom of a well."
 
 # game/script.rpy:2770
 translate simple_english chapter7_942f3f7b:
 
     # alice "What did they live on?"
-    alice "What did they live on?"
+    alice "What did they eat?"
 
 # game/script.rpy:2772
 translate simple_english chapter7_fb1a241e:
 
     # "Alice always took a great interest in questions of eating and drinking."
-    "Alice always took a great interest in questions of eating and drinking."
+    "Alice was always very interested in food and drinks."
 
 # game/script.rpy:2777
 translate simple_english chapter7_bd3a65d4:
 
     # dormouse "They lived on treacle."
-    dormouse "They lived on treacle."
+    dormouse "They lived on syrup."
 
 # game/script.rpy:2779
 translate simple_english chapter7_a20cefa7:
@@ -4924,19 +4876,19 @@ translate simple_english chapter7_a20cefa7:
 translate simple_english chapter7_f1a8385b:
 
     # alice "They couldn’t have done that, you know, they’d have been ill."
-    alice "They couldn’t have done that, you know, they’d have been ill."
+    alice "They couldn't do that because it would have made them sick."
 
 # game/script.rpy:2789
 translate simple_english chapter7_26852f98:
 
     # dormouse "So they were, very ill..."
-    dormouse "So they were, very ill..."
+    dormouse "So they were very sick..."
 
 # game/script.rpy:2793
 translate simple_english chapter7_271970d0:
 
     # "Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on:"
-    "Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on:"
+    "Alice tried to imagine what it would be like to live in such a strange way, but it was too confusing for her, so she went on:"
 
 # game/script.rpy:2795
 translate simple_english chapter7_a68c3875:
@@ -4978,37 +4930,37 @@ translate simple_english chapter7_e8b0b734:
 translate simple_english chapter7_45b32f10:
 
     # hatter "Who’s making personal remarks now?"
-    hatter "Who’s making personal remarks now?"
+    hatter "Who's making mean comments now?"
 
 # game/script.rpy:2826
 translate simple_english chapter7_7160062f:
 
     # "Alice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question."
-    "Alice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question."
+    "Alice wasn't sure what to say, so she had some tea and bread-and-butter. Then she asked the Dormouse the same question again."
 
 # game/script.rpy:2830
 translate simple_english chapter7_19870dda:
 
     # "The Dormouse again took a minute or two to think about it."
-    "The Dormouse again took a minute or two to think about it."
+    "The Dormouse took a moment to think about it again."
 
 # game/script.rpy:2832
 translate simple_english chapter7_c2f46b58:
 
     # dormouse "It was a treacle-well."
-    dormouse "It was a treacle-well."
+    dormouse "It was a syrup-well."
 
 # game/script.rpy:2838
 translate simple_english chapter7_5be1fd3f:
 
     # alice "There’s no such thing!"
-    alice "There’s no such thing!"
+    alice "No, that doesn't exist!"
 
 # game/script.rpy:2840
 translate simple_english chapter7_1f1e39e0:
 
     # "Alice was beginning very angrily, but the Hatter and the March Hare went."
-    "Alice was beginning very angrily, but the Hatter and the March Hare went."
+    "Alice started to get very angry, but the Mad Hatter and the March Hare said:"
 
 # game/script.rpy:2844
 translate simple_english chapter7_4bdf13a8:
@@ -5020,19 +4972,19 @@ translate simple_english chapter7_4bdf13a8:
 translate simple_english chapter7_da1fb0d2:
 
     # dormouse "If you can’t be civil, you’d better finish the story for yourself."
-    dormouse "If you can’t be civil, you’d better finish the story for yourself."
+    dormouse "If you can't be polite, you should finish the story on your own."
 
 # game/script.rpy:2854
 translate simple_english chapter7_56bdf112:
 
     # alice "No, please go on! I won’t interrupt again. I dare say there may be one."
-    alice "No, please go on! I won’t interrupt again. I dare say there may be one."
+    alice "Please continue. I promise not to speak while you're talking."
 
 # game/script.rpy:2858
 translate simple_english chapter7_eabb6a7b:
 
     # dormouse "One, indeed!"
-    dormouse "One, indeed!"
+    dormouse "I hope so!"
 
 # game/script.rpy:2859
 translate simple_english chapter7_2ec8e285:
@@ -5050,7 +5002,7 @@ translate simple_english chapter7_ee15a6eb:
 translate simple_english chapter7_cf110b9a:
 
     # dormouse "Treacle."
-    dormouse "Treacle."
+    dormouse "Syrup"
 
 # game/script.rpy:2872
 translate simple_english chapter7_68402aec:
@@ -5062,25 +5014,25 @@ translate simple_english chapter7_68402aec:
 translate simple_english ch7_reorder_2802cf4e:
 
     # "He moved on as he spoke, and the Dormouse followed him: the March Hare moved into the Dormouse’s place, and Alice rather unwillingly took the place of the March Hare. The Hatter was the only one who got any advantage from the change: and Alice was a good deal worse off than before, as the March Hare had just upset the milk-jug into his plate."
-    "He moved on as he spoke, and the Dormouse followed him: the March Hare moved into the Dormouse’s place, and Alice rather unwillingly took the place of the March Hare. The Hatter was the only one who got any advantage from the change: and Alice was a good deal worse off than before, as the March Hare had just upset the milk-jug into his plate."
+    "As he talked, he moved on, the Dormouse took the Hatter's place, and then the March Hare took the Dormouse's place. Alice ended up sitting where the March Hare was before, not very happy about it. The Hatter was the only one who benefited from the change. Alice was worse of than before, because the March Hare had just spilled milk on his plate."
 
 # game/script.rpy:2899
 translate simple_english ch7_reorder_b6f1368b:
 
     # "Alice did not wish to offend the Dormouse again, so she began very cautiously:"
-    "Alice did not wish to offend the Dormouse again, so she began very cautiously:"
+    "Alice did not want to upset the Dormouse once more, so she spoke very carefully:"
 
 # game/script.rpy:2904
 translate simple_english ch7_reorder_76292422:
 
     # alice "But I don’t understand. Where did they draw the treacle from?"
-    alice "But I don’t understand. Where did they draw the treacle from?"
+    alice "But I don't get it. Where did they draw the syrup from?"
 
 # game/script.rpy:2908
 translate simple_english ch7_reorder_fc39ae92:
 
     # hatter "You can draw water out of a water-well, so I should think you could draw treacle out of a treacle-well—eh, stupid?"
-    hatter "You can draw water out of a water-well, so I should think you could draw treacle out of a treacle-well—eh, stupid?"
+    hatter "If you can draw water from a water-well, then you should also be able to draw syrup from a syrup-well. Isn't that obvious, silly?"
 
 # game/script.rpy:2912
 translate simple_english ch7_reorder_c36640db:
@@ -5098,7 +5050,7 @@ translate simple_english ch7_reorder_829a5e18:
 translate simple_english ch7_reorder_c8764202:
 
     # "This answer so confused poor Alice, that she let the Dormouse go on for some time without interrupting it."
-    "This answer so confused poor Alice, that she let the Dormouse go on for some time without interrupting it."
+    "Alice was so confused by this answer that she didn't interrupt the Dormouse for a while."
 
 # game/script.rpy:2920
 translate simple_english ch7_reorder_3aba6447:
@@ -5110,7 +5062,7 @@ translate simple_english ch7_reorder_3aba6447:
 translate simple_english ch7_reorder_749869d9:
 
     # "The Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy."
-    "The Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy."
+    "The Dormouse kept talking while yawning and rubbing its eyes because it was feeling very tired."
 
 # game/script.rpy:2923
 translate simple_english ch7_reorder_73fd030c:
@@ -5146,7 +5098,7 @@ translate simple_english ch7_reorder_e951f60a:
 translate simple_english ch7_reorder_f3ded51f:
 
     # "The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on:"
-    "The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on:"
+    "The Dormouse had shut its eyes and was falling asleep. The Hatter pinched it, causing the Dormouse to wake up with a small scream and continued talking."
 
 # game/script.rpy:2942
 translate simple_english ch7_reorder_dae368a9:
@@ -5158,7 +5110,7 @@ translate simple_english ch7_reorder_dae368a9:
 translate simple_english ch7_reorder_e455aeaa:
 
     # alice "Really, now you ask me, I don’t think—"
-    alice "Really, now you ask me, I don’t think—"
+    alice "Now that you ask me, I don’t think—"
 
 # game/script.rpy:2950
 translate simple_english ch7_reorder_734c735b:
@@ -5170,37 +5122,37 @@ translate simple_english ch7_reorder_734c735b:
 translate simple_english ch7_reorder_060e0570:
 
     # "This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot."
-    "This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot."
+    "Alice was very upset by the rude behavior. She stood up, left, and the Dormouse fell asleep instantly. The others didn't pay attention to her leaving. The last time she saw them, they were trying to put the Dormouse into the teapot."
 
 # game/script.rpy:2960
 translate simple_english ch7_reorder_09fddebe:
 
     # alice "At any rate I’ll never go there again!"
-    alice "At any rate I’ll never go there again!"
+    alice "I will never go there again!"
 
 # game/script.rpy:2961
 translate simple_english ch7_reorder_4cd41d95:
 
     # alice "It’s the stupidest tea-party I ever was at in all my life!"
-    alice "It’s the stupidest tea-party I ever was at in all my life!"
+    alice "It was the stupidest tea-party I have ever been to in my whole life!"
 
 # game/script.rpy:2963
 translate simple_english ch7_reorder_42702270:
 
     # "Just as she said this, she noticed that one of the trees had a door leading right into it."
-    "Just as she said this, she noticed that one of the trees had a door leading right into it."
+    "As she spoke, she saw a tree with a door in it."
 
 # game/script.rpy:2966
 translate simple_english ch7_reorder_944cade4:
 
     # alice "(That’s very curious!)"
-    alice "(That’s very curious!)"
+    alice "(That's very interesting!)"
 
 # game/script.rpy:2967
 translate simple_english ch7_reorder_8552d0b9:
 
     # alice "(But everything’s curious today. I think I may as well go in at once)"
-    alice "(But everything’s curious today. I think I may as well go in at once)"
+    alice "(Everything is interesting today. I suppose I will go in now)"
 
 # game/script.rpy:2968
 translate simple_english ch7_reorder_57be2e5f:
@@ -5212,25 +5164,25 @@ translate simple_english ch7_reorder_57be2e5f:
 translate simple_english ch7_reorder_3aa83355:
 
     # "Once more she found herself in the long hall, and close to the little glass table."
-    "Once more she found herself in the long hall, and close to the little glass table."
+    "She was back in the long hall, near the small glass table."
 
 # game/script.rpy:2975
 translate simple_english ch7_reorder_6e58ecd1:
 
     # alice "Now, I’ll manage better this time."
-    alice "Now, I’ll manage better this time."
+    alice "I will do better this time."
 
 # game/script.rpy:2976
 translate simple_english ch7_reorder_f7b4dcc6:
 
     # "She began by taking the little golden key, and unlocking the door that led into the garden."
-    "She began by taking the little golden key, and unlocking the door that led into the garden."
+    "She started by using the small golden key to open the door to the garden."
 
 # game/script.rpy:2981
 translate simple_english ch7_reorder_db90c965:
 
     # "Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and then—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains."
-    "Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and then—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains."
+    "Next, she ate some of the mushroom she had saved in her pocket, which made her grow to about a foot tall. After that, she walked through a small hallway and finally arrived in the lovely garden with colorful flowers and cool fountains."
 
 # game/script.rpy:2985
 translate simple_english chapter8_a54d6f0e:
