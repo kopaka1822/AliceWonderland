@@ -22,13 +22,13 @@ translate simple_english chapter1_bbddd97e:
 translate simple_english chapter1_f0723177:
 
     # "So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her."
-    "So she was thinking (as best as she could, because the hot day made her feel very tired), whether it would be worth it to make a daisy chain considering she had to get up and pick the daisies, when out of the blue, a White Rabbit with pink eyes ran by her."
+    "She was thinking about making a daisy chain, when suddenly, a White Rabbit with pink eyes ran by her."
 
 # game/script.rpy:321
 translate simple_english chapter1_40577482:
 
     # "There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself:"
-    "Alice didn't find it strange when the Rabbit said to itself:"
+    pass
 
 # game/script.rpy:328
 translate simple_english chapter1_d53f9006:
@@ -40,19 +40,19 @@ translate simple_english chapter1_d53f9006:
 translate simple_english chapter1_3d65fd53:
 
     # "(When she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural)"
-    "(Later, she realized she should have been surprised by this, but in the moment, everything felt normal)"
+    pass
 
 # game/script.rpy:331
 translate simple_english chapter1_d8a2816e:
 
     # "But when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it."
-    "But when the Rabbit pulled out a watch from its pocket and looked at it, Alice suddenly stood up. It surprised her because she had never seen a rabbit with a pocket or a watch before."
+    "When the Rabbit pulled out a watch from its pocket and looked at it, Alice suddenly stood up. It surprised her because she had never seen a rabbit with a pocket or a watch before."
 
 # game/script.rpy:339
 translate simple_english chapter1_cdbde678:
 
     # "Burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge."
-    "Burning with curiosity, she chased after it. She saw the rabbit disappear into a big rabbit hole under the hedge."
+    "Burning with curiosity, she chased after it. She saw the rabbit disappear into a big rabbit hole."
 
 # game/script.rpy:343
 translate simple_english chapter1_4d9fd5bc:
@@ -70,13 +70,13 @@ translate simple_english chapter1_601d0032:
 translate simple_english chapter1_0ff39e9c:
 
     # "And then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well."
-    "Alice fell into a deep hole in the ground."
+    "Suddenly, Alice fell into a deep hole."
 
 # game/script.rpy:364
 translate simple_english chapter1_fecd0831:
 
     # "Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next."
-    "The hole was either very deep or she fell very slowly because she had enough time while falling to see around and think about what would happen next."
+    "The hole was either very deep or she fell very slowly because she had enough time to look around and think about what would happen next."
 
 # game/script.rpy:366
 translate simple_english chapter1_827dde33:
