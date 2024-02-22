@@ -7516,7 +7516,7 @@ translate simple_english chapter10_fc231641:
 translate simple_english chapter10_6c0aac53:
 
     # alice "’Tis the voice of the Lobster; \n{space=30}I heard him declare, \n“You have baked me too brown, \n{space=30}I must sugar my hair.” \nAs a duck with its eyelids, \n{space=30}so he with his nose \nTrims his belt and his buttons, \n{space=30}and turns out his toes."
-    alice "’Tis the voice of the Lobster; \n{space=30}I heard him declare, \n“You have baked me too brown, \n{space=30}I must sugar my hair.” \nAs a duck with its eyelids, \n{space=30}so he with his nose \nTrims his belt and his buttons, \n{space=30}and turns out his toes."
+    alice "The lobster spoke, I heard him say, \n{space=30}'You woke me too soon, I need to lay.' \nLike a door swings, he turns in bed, \n{space=30}moving his sides, shoulders, and head."
 
 # game/script.rpy:4534
 translate simple_english chapter10_98f61f26:
@@ -7528,7 +7528,7 @@ translate simple_english chapter10_98f61f26:
 translate simple_english chapter10_ea74a218:
 
     # mock "Well, I never heard it before, but it sounds uncommon nonsense."
-    mock "I've never heard it before, but it sounds like nonesense."
+    mock "I've never heard it before, so I can't tell."
 
 # game/script.rpy:4542
 translate simple_english chapter10_642a2331:
@@ -7552,19 +7552,19 @@ translate simple_english chapter10_0c72c653:
 translate simple_english chapter10_191de815:
 
     # mock "But about his toes?"
-    mock "But about his toes?"
+    mock "But what about the door?"
 
 # game/script.rpy:4555
 translate simple_english chapter10_4b3d05e4:
 
     # mock "How could he turn them out with his nose, you know?"
-    mock "How could he turn them out with his nose, you know?"
+    mock "How could he swing like a door?"
 
 # game/script.rpy:4560
 translate simple_english chapter10_78d6f0a5:
 
     # alice "It’s the first position in dancing."
-    alice "It’s the first position in dancing."
+    pass
 
 # game/script.rpy:4561
 translate simple_english chapter10_39a31f0b:
@@ -7588,19 +7588,19 @@ translate simple_english chapter10_eca3da09:
 translate simple_english chapter10_3ea216d3:
 
     # alice "I passed by his garden, \n{space=30}and marked, with one eye, \nHow the Owl and the Panther \n{space=30}were sharing a pie. \nThe Panther took pie-crust, \n{space=30}and gravy, and meat, \nWhile the Owl had the dish \n{space=30}as its share of the treat."
-    alice "I passed by his garden, \n{space=30}and marked, with one eye, \nHow the Owl and the Panther \n{space=30}were sharing a pie. \nThe Panther took pie-crust, \n{space=30}and gravy, and meat, \nWhile the Owl had the dish \n{space=30}as its share of the treat."
+    alice "I passed by his garden, \n{space=30}and saw, with one eye, \nHow the Owl and the Panther \n{space=30}were sharing a pie. \nThe Panther took pie-crust, \n{space=30}and gravy, and meat, \nWhile the Owl had the dish \n{space=30}as its share of the treat."
 
 # game/script.rpy:4575
 translate simple_english chapter10_ea6f6d56:
 
     # alice "When the pie was all finished, \n{space=30}the Owl, as a boon, \nWas kindly permitted \n{space=30}to pocket the spoon: \nWhile the Panther received \n{space=30}knife and fork with a growl, \nAnd concluded the banquet—"
-    alice "When the pie was all finished, \n{space=30}the Owl, as a boon, \nWas kindly permitted \n{space=30}to pocket the spoon: \nWhile the Panther received \n{space=30}knife and fork with a growl, \nAnd concluded the banquet—"
+    pass
 
 # game/script.rpy:4583
 translate simple_english chapter10_e1694bdd:
 
     # mock "What is the use of repeating all that stuff, if you don’t explain it as you go on? It’s by far the most confusing thing I ever heard!"
-    mock "Why keep saying all that if you don't explain it as you go? It's so confusing!"
+    mock "I don't understand it."
 
 # game/script.rpy:4587
 translate simple_english chapter10_29d06467:
