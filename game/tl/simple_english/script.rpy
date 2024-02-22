@@ -208,13 +208,13 @@ translate simple_english chapter1_42dddf31:
 translate simple_english chapter1_a53da462:
 
     # alice "Dinah’ll miss me very much to-night, I should think!"
-    alice "Dinah will miss me a lot tonight, I believe!"
+    alice "Dinah will miss me a lot tonight, I think!"
 
 # game/script.rpy:428
 translate simple_english chapter1_436b7a5c:
 
     # "(Dinah was the cat)"
-    "(Dinah was the cat)"
+    "(Dinah was her cat)"
 
 # game/script.rpy:430
 translate simple_english chapter1_6a96f151:
@@ -718,7 +718,7 @@ translate simple_english chapter2_151bb418:
 translate simple_english chapter2_3bdd3742:
 
     # alice "I must have been changed for Mabel! I’ll try and say 'How doth the little—'"
-    alice "I must have turned into Mabel! I will try to say 'How does the little—'"
+    alice "I must have turned into Mabel! I will try to say 'The little crocodile'"
 
 # game/script.rpy:648
 translate simple_english chapter2_06b28985:
@@ -730,13 +730,13 @@ translate simple_english chapter2_06b28985:
 translate simple_english chapter2_24cbc637:
 
     # alice "How doth the little crocodile\n{space=30}Improve his shining tail,\nAnd pour the waters of the Nile\n{space=30}On every golden scale!"
-    alice "How doth the little crocodile\n{space=30}Improve his shining tail,\nAnd pour the waters of the Nile\n{space=30}On every golden scale!"
+    alice "The little crocodile, you see,\n{space=30}makes his tail shine bright as can be.\nHe splashes in the Nile's flow,\n{space=30}making every scale glow."
 
 # game/script.rpy:652
 translate simple_english chapter2_3e5c9215:
 
     # alice "How cheerfully he seems to grin,\n{space=30}How neatly spread his claws,\nAnd welcome little fishes in\n{space=30}With gently smiling jaws!"
-    alice "How cheerfully he seems to grin,\n{space=30}How neatly spread his claws,\nAnd welcome little fishes in\n{space=30}With gently smiling jaws!"
+    alice "He grins with joy, oh so wide,\n{space=30}spreading his claws with pride.\nHe invites the fishes near,\n{space=30}with a smile, they have nothing to fear."
 
 # game/script.rpy:655
 translate simple_english chapter2_86782c98:
@@ -2866,7 +2866,7 @@ translate simple_english chapter5_e491bce0:
 translate simple_english chapter5_90fa08c7:
 
     # alice "Well, I’ve tried to say 'How doth the little busy bee', but it all came different!"
-    alice "I tried to say 'How does the little busy bee', but it came out wrong!"
+    alice "I tried to say 'The little crocodile', but it came out wrong!"
 
 # game/script.rpy:1706
 translate simple_english chapter5_955e8b96:
