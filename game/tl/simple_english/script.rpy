@@ -2884,49 +2884,49 @@ translate simple_english chapter5_3276e961:
 translate simple_english chapter5_8bc69656:
 
     # alice "'You are old, Father William',\nthe young man said,\n{space=30}And your hair has become very white;\nAnd yet you incessantly stand on your head—\n{space=30}Do you think, at your age, it is right?'"
-    alice "'You are old, Father William',\nthe young man said,\n{space=30}And your hair has become very white;\nAnd yet you incessantly stand on your head—\n{space=30}Do you think, at your age, it is right?'"
+    alice "'You're old,' the young one said,\n{space=30}'And your hair is all white.\nBut you still stand on your head,\n{space=30}is that really alright?'"
 
 # game/script.rpy:1712
 translate simple_english chapter5_9c4ec273:
 
     # alice "'In my youth',\nFather William replied to his son,\n{space=30}'I feared it might injure the brain;\nBut, now that I’m perfectly sure I have none,\n{space=30}Why, I do it again and again.'"
-    alice "'In my youth',\nFather William replied to his son,\n{space=30}'I feared it might injure the brain;\nBut, now that I’m perfectly sure I have none,\n{space=30}Why, I do it again and again.'"
+    alice "'When I was young,' Father William did say,\n{space=10}I worried it would harm my brain in some way.\nBut now that I'm sure my brain's not in play,\n{space=10}I keep doing it, over and over each day.'"
 
 # game/script.rpy:1714
 translate simple_english chapter5_eccd9e04:
 
     # alice "'You are old', said the youth,\n'as I mentioned before,\n{space=30}And have grown most uncommonly fat;\nYet you turned a back-somersault\nin at the door—\n{space=30}Pray, what is the reason of that?'"
-    alice "'You are old', said the youth,\n'as I mentioned before,\n{space=30}And have grown most uncommonly fat;\nYet you turned a back-somersault\nin at the door—\n{space=30}Pray, what is the reason of that?'"
+    alice "'You're old and quite round,'\n{space=30}the young one spoke again,\n'But you did a flip on the ground,\n{space=30}say, how do you train?"
 
 # game/script.rpy:1716
 translate simple_english chapter5_f7d47c6f:
 
     # alice "'In my youth', said the sage,\nas he shook his grey locks,\n{space=30}'I kept all my limbs very supple\nBy the use of this ointment—\none shilling the box—\n{space=30}Allow me to sell you a couple?'"
-    alice "'In my youth', said the sage,\nas he shook his grey locks,\n{space=30}'I kept all my limbs very supple\nBy the use of this ointment—\none shilling the box—\n{space=30}Allow me to sell you a couple?'"
+    alice "'When I was young,' said the old with a nod,\n{space=30}'I kept my body bendy, not stiff or odd.\nWith this cream, just a coin for a small pod,\n{space=30}Would you like to buy some? It's not a fraud.'"
 
 # game/script.rpy:1718
 translate simple_english chapter5_be28c831:
 
     # alice "'You are old', said the youth,\n'and your jaws are too weak\n{space=30}For anything tougher than suet;\nYet you finished the goose,\nRwith the bones and the beak—\n{space=30}Pray how did you manage to do it?'"
-    alice "'You are old', said the youth,\n'and your jaws are too weak\n{space=30}For anything tougher than suet;\nYet you finished the goose,\nRwith the bones and the beak—\n{space=30}Pray how did you manage to do it?'"
+    alice "'You're old and your teeth seem weak,'\n{space=30}said the youth, making fun,\n'Yet you ate a whole goose, including the beak.\n{space=30}Tell me, how was that done?'"
 
 # game/script.rpy:1720
 translate simple_english chapter5_483841f0:
 
     # alice "'In my youth', said his father, \n'I took to the law,\n{space=30}And argued each case with my wife;\nAnd the muscular strength, \nwhich it gave to my jaw,\n{space=30}Has lasted the rest of my life.'"
-    alice "'In my youth', said his father, \n'I took to the law,\n{space=30}And argued each case with my wife;\nAnd the muscular strength, \nwhich it gave to my jaw,\n{space=30}Has lasted the rest of my life.'"
+    alice "'When I was young,' his dad said clear,\n{space=20}'I'd argue with my wife, year after year.\nIt made my jaw strong, from all the chat,\n{space=20}And that strong jaw has stayed, just like that.'"
 
 # game/script.rpy:1722
 translate simple_english chapter5_5f472f63:
 
     # alice "'You are old', said the youth, \n'one would hardly suppose\n{space=30}That your eye was as steady as ever;\nYet you balanced an eel \non the end of your nose—\n{space=30}What made you so awfully clever?'"
-    alice "'You are old', said the youth, \n'one would hardly suppose\n{space=30}That your eye was as steady as ever;\nYet you balanced an eel \non the end of your nose—\n{space=30}What made you so awfully clever?'"
+    alice "'You're old,' said the youth, 'it's surprising to see\n{space=30}Your eyes are still good, as good as can be.\nBut an eel on your nose, you balanced just right,\n{space=30}How did you get so clever and so bright?'"
 
 # game/script.rpy:1724
 translate simple_english chapter5_d1cad718:
 
     # alice "'I have answered three questions, \nand that is enough',\n{space=30}Said his father; 'don’t give yourself airs!\nDo you think I can listen all day to such stuff?\n{space=30}Be off, or I’ll kick you down stairs!'"
-    alice "'I have answered three questions, \nand that is enough',\n{space=30}Said his father; 'don’t give yourself airs!\nDo you think I can listen all day to such stuff?\n{space=30}Be off, or I’ll kick you down stairs!'"
+    alice "'I've answered three questions, that's it for now,'\n{space=30}The old man looked annoyed with a raised \n{space=30}eyebrow.\n'Do you think I've got time to chat all day, somehow?\n{space=30}Off you go, or down the stairs you'll plow!'"
 
 # game/script.rpy:1726
 translate simple_english chapter5_0185ef46:
@@ -2950,7 +2950,7 @@ translate simple_english chapter5_069b8529:
 translate simple_english chapter5_0492e66c:
 
     # caterpillar "It is wrong from beginning to end."
-    caterpillar "It is wrong all the way through."
+    caterpillar "It is wrong from beginning to end."
 
 # game/script.rpy:1732
 translate simple_english chapter5_a20cefa7_2:
