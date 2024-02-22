@@ -8866,37 +8866,37 @@ translate simple_english chapter12_21aada1f:
 translate simple_english chapter12_19b3f3e2:
 
     # rabbit "They told me you had been to her,\n{space=30}And mentioned me to him:\nShe gave me a good character,\n{space=30}But said I could not swim."
-    rabbit "They said you spoke with her,\n{space=30}And talked about me to him:\nShe said good things about me,\n{space=30}But mentioned that I couldn't swim."
+    rabbit "A boy visits a girl, with a cake in his glove,\n{space=30}Claims he made it himself, \n{space=30}as a sign of his love.\nThe girl's joy blooms, the cake she saves,\n{space=30}For a special moment, her craving it craves."
 
 # game/script.rpy:5409
 translate simple_english chapter12_35095ab0:
 
     # rabbit "He sent them word I had not gone\n{space=30}(We know it to be true):\nIf she should push the matter on,\n{space=30}What would become of you?"
-    rabbit "He sent them word I had not gone\n{space=30}(We know it to be true):\nIf she should push the matter on,\n{space=30}What would become of you?"
+    rabbit "Next day she chats, with her friend so dear,\n{space=30}Praises the boy, but with one small fear.\n'He can't swim,' she says, a fact so clear,\n{space=30}Her friend nods, 'We know,' \n{space=30}without any cheer."
 
 # game/script.rpy:5411
 translate simple_english chapter12_27c6adba:
 
     # rabbit "I gave her one, they gave him two,\n{space=30}You gave us three or more;\nThey all returned from him to you,\n{space=30}Though they were mine before."
-    rabbit "I gave her one, they gave him two,\n{space=30}You gave us three or more;\nThey all returned from him to you,\n{space=30}Though they were mine before."
+    rabbit "They decide to eat, the cake so sweet,\n{space=30}But the friend stops, her heart skips a beat.\n'It's from our shop,' she says with a surprise,\n{space=30}'So it returned,' she laughs, as truth unties."
 
 # game/script.rpy:5413
 translate simple_english chapter12_00c018c5:
 
     # rabbit "If I or she should chance to be\n{space=30}Involved in this affair,\nHe trusts to you to set them free,\n{space=30}Exactly as we were."
-    rabbit "If I or she should chance to be\n{space=30}Involved in this affair,\nHe trusts to you to set them free,\n{space=30}Exactly as we were."
+    rabbit "The girl's joy fades, her anger takes its place,\n{space=30}Betrayed by the boy, \n{space=30}a frown crosses her face.\n'He said he baked it,' her voice cold and stiff,\n{space=30}Her trust in pieces, like a shattered cliff."
 
 # game/script.rpy:5415
 translate simple_english chapter12_17c71a22:
 
     # rabbit "My notion was that you had been\n{space=30}(Before she had this fit)\nAn obstacle that came between\n{space=30}Him, and ourselves, and it."
-    rabbit "My notion was that you had been\n{space=30}(Before she had this fit)\nAn obstacle that came between\n{space=30}Him, and ourselves, and it."
+    pass
 
 # game/script.rpy:5417
 translate simple_english chapter12_2ce3842c:
 
     # rabbit "Don’t let him know she liked them best,\n{space=30}For this must ever be\nA secret, kept from all the rest,\n{space=30}Between yourself and me."
-    rabbit "Don’t let him know she liked them best,\n{space=30}For this must ever be\nA secret, kept from all the rest,\n{space=30}Between yourself and me."
+    pass
 
 # game/script.rpy:5421
 translate simple_english chapter12_5a5c9f32:
@@ -8992,13 +8992,13 @@ translate simple_english chapter12_396e35ce:
 translate simple_english chapter12_c6c1d5fe:
 
     # king "‘We know it to be true—’ that’s the jury, of course—‘I gave her one, they gave him two—’ why, that must be what he did with the tarts, you know—” "
-    king "'We know it's true - that's what the jury says. I gave her one, they gave him two - that's probably what happened with the tarts!'"
+    king "'We know,' without any cheer - that's what the jury does. \nWith a cake in his glove - that's probably what happened with the tarts!'"
 
 # game/script.rpy:5460
 translate simple_english chapter12_e1a93529:
 
     # alice "But, it goes on ‘they all returned from him to you’"
-    alice "But, it goes on ‘they all returned from him to you’"
+    alice "But, it goes on 'It's from our shop,' she says with a surprise, 'So it {b}returned{/b}'"
 
 # game/script.rpy:5464
 translate simple_english chapter12_d80f7c6b:
@@ -9016,7 +9016,7 @@ translate simple_english chapter12_bfe5c012:
 translate simple_english chapter12_1a68404e:
 
     # king "Nothing can be clearer than that. Then again—‘before she had this fit—’ you never had fits, my dear, I think?"
-    king "Nothing can be clearer than that. Then again—‘before she had this fit—’ you never had fits, my dear, I think?"
+    king "Nothing can be clearer than that. Then again—'The girl's joy fades, her anger takes its {i}place{/i}' you are never angry, my dear, right?"
 
 # game/script.rpy:5475
 translate simple_english chapter12_f4813a10:
@@ -9028,7 +9028,7 @@ translate simple_english chapter12_f4813a10:
 translate simple_english chapter12_4b4a7e6d:
 
     # "Said the Queen furiously, throwing an inkstand at the Lizard as she spoke."
-    "The Queen was very angry. She angrily threw an ink container at the Lizard while talking."
+    "The Queen was very angry. She threw an ink container at the Lizard while talking."
 
 # game/script.rpy:5480
 translate simple_english chapter12_c73bce50:
@@ -9040,7 +9040,7 @@ translate simple_english chapter12_c73bce50:
 translate simple_english chapter12_285ad1e3:
 
     # king "Then the words don’t fit you."
-    king "Then the words don’t fit you."
+    king "Then 'angry' is not in the right {i}place{/i}."
 
 # game/script.rpy:5485
 translate simple_english chapter12_0ace1bad:
@@ -9064,7 +9064,7 @@ translate simple_english chapter12_1883cb68:
 translate simple_english chapter12_86c7a450:
 
     # king "*offended* It’s a pun!"
-    king "*offended* It’s a pun!"
+    king "*offended* That was a pun!"
 
 # game/script.rpy:5492
 translate simple_english chapter12_6691f14f:
