@@ -1594,13 +1594,13 @@ translate simple_english ch3_start_6176b3bb:
 translate simple_english ch3_start_dd93ccdc:
 
     # mouse "{k=1}Fury said to a mouse, \n{space=260}That he met in the house.\n{space=460}‘Let us both go to law: \n{space=300} I will prosecute YOU. \n{space=100}—Come, I’ll take no denial; \n We must have a trial: \n{space=100}For really this morning \n{space=280}I’ve nothing to do.’ \n {space=320}Said the mouse to the cur, \n{space=260}‘Such a trial,"
-    mouse "{k=1}Fury said to a mouse, \n{space=260}That he met in the house.\n{space=460}‘Let us both go to law: \n{space=300} I will prosecute YOU. \n{space=100}—Come, I’ll take no denial; \n We must have a trial: \n{space=100}For really this morning \n{space=280}I’ve nothing to do.’ \n {space=320}Said the mouse to the cur, \n{space=260}‘Such a trial,"
+    mouse "{k=1}A human told a mouse one day, \n{space=260}in the house where they did stay,\n{space=460}'Let's go to court,\n{space=300}it's only fair,\n{space=100}I'll sue you, so be aware.' \n The mouse then said, \n{space=100}'Dear Sir, you see, \n{space=280}A trial's a waste \n {space=320} for you and me.'"
 
 # game/script.rpy:1127
 translate simple_english ch3_start_8d9fa90f:
 
     # mouse "{space=200}dear Sir,\n {space=20} With no jury or judge, \n {space=60} would be wasting our breath.’\n {space=220} ‘I’ll be judge, I’ll be jury’\n {space=100} Said cunning old Fury:\n ‘I’ll try the whole cause,\n {space=80} and condemn you to death.’"
-    mouse "{space=200}dear Sir,\n {space=20} With no jury or judge, \n {space=60} would be wasting our breath.’\n {space=220} ‘I’ll be judge, I’ll be jury’\n {space=100} Said cunning old Fury:\n ‘I’ll try the whole cause,\n {space=80} and condemn you to death.’"
+    mouse "{space=200}But the human said\n {space=20} with a sly voice, \n {space=60} 'I'll be judge\n {space=220} and jury,\n {space=100} I'll make the choice\n I'll hear the case, decide what's best, \n {space=80} and I'm afraid you'll fail the test.'"
 
 # game/script.rpy:1136
 translate simple_english ch3_start_8ff97f55:
