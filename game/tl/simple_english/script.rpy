@@ -7156,13 +7156,13 @@ translate simple_english chapter10_13f6d2fb:
 translate simple_english chapter10_9ad8f338:
 
     # mock " “Will you walk a little faster?” said a whiting to a snail.\n “There’s a porpoise close behind us, and he’s treading on my tail.”"
-    mock " “Will you walk a little faster?” said a whiting to a snail.\n “There’s a porpoise close behind us, and he’s treading on my tail.”"
+    mock " 'Will you walk a little faster?' said a whiting to a snail.\n  'There’s a porpoise close behind us, and he’s stepping on my tail.'"
 
 # game/script.rpy:4334
 translate simple_english chapter10_032e1f8b:
 
     # mock " See how eagerly the lobsters and the turtles all advance!\n They are waiting on the shingle—will you come and join the dance?"
-    mock " See how eagerly the lobsters and the turtles all advance!\n They are waiting on the shingle—will you come and join the dance?"
+    mock " See how eagerly the lobsters and the turtles all advance!\n They are waiting by the sea—will you come and join the dance?"
 
 # game/script.rpy:4336
 translate simple_english chapter10_aa244cb5:
@@ -7174,13 +7174,13 @@ translate simple_english chapter10_aa244cb5:
 translate simple_english chapter10_010115d8:
 
     # mock " “You can really have no notion how delightful it will be\n When they take us up and throw us, with the lobsters, out to sea!”"
-    mock " “You can really have no notion how delightful it will be\n When they take us up and throw us, with the lobsters, out to sea!”"
+    mock " 'You can really have no notion how delightful it will be\n When they take us up and throw us, with the lobsters, in the sea!'"
 
 # game/script.rpy:4341
 translate simple_english chapter10_09124143:
 
     # mock " But the snail replied “Too far, too far!” and gave a look askance—\n Said he thanked the whiting kindly, but he would not join the dance."
-    mock " But the snail replied “Too far, too far!” and gave a look askance—\n Said he thanked the whiting kindly, but he would not join the dance."
+    mock " But the snail replied 'Too far, too far!' with a wary glance—\n He thanked the whiting kindly, but he would not join the dance."
 
 # game/script.rpy:4343
 translate simple_english chapter10_26fa0683:
@@ -7192,13 +7192,13 @@ translate simple_english chapter10_26fa0683:
 translate simple_english chapter10_405c1cf7:
 
     # mock " “What matters it how far we go?” his scaly friend replied.\n “There is another shore, you know, upon the other side."
-    mock " “What matters it how far we go?” his scaly friend replied.\n “There is another shore, you know, upon the other side."
+    mock " 'Why care how far?' the whiting replied,\n 'There's another shore, just on the other side."
 
 # game/script.rpy:4348
 translate simple_english chapter10_e9e0a0ad:
 
     # mock " The further off from England the nearer is to France—\n Then turn not pale, beloved snail, but come and join the dance."
-    mock " The further off from England the nearer is to France—\n Then turn not pale, beloved snail, but come and join the dance."
+    mock " The further from here, the closer to France we'll be,\n So don't be scared, come dance with me.'"
 
 # game/script.rpy:4350
 translate simple_english chapter10_183fe015:
@@ -7222,13 +7222,13 @@ translate simple_english chapter10_9ed42593:
 translate simple_english chapter10_e0f065de:
 
     # alice "And I do so like that curious song about the whiting!"
-    alice "I really like that interesting song about the whiting fish!"
+    alice "I really like that interesting song about the whiting!"
 
 # game/script.rpy:4367
 translate simple_english chapter10_3dee26c0:
 
     # mock "Oh, as to the whiting, they—you’ve seen them, of course?"
-    mock "Have you seen whiting fish before?"
+    mock "Have you seen whiting before?"
 
 # game/script.rpy:4371
 translate simple_english chapter10_7ce46dfc:
@@ -7270,7 +7270,7 @@ translate simple_english chapter10_ec7915d0:
 translate simple_english chapter10_6a7b7c04:
 
     # mock "But they have their tails in their mouths; and the reason is— *yawn* —Tell her about the reason and all that."
-    mock "h"
+    mock "But they have their tails in their mouths; and the reason is— *yawn* —Tell her about the reason and all that."
 
 # game/script.rpy:4390
 translate simple_english chapter10_93c78c1c:
