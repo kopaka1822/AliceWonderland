@@ -7648,13 +7648,13 @@ translate simple_english chapter10_62554bb6:
 translate simple_english chapter10_14f9016f:
 
     # mock "Beautiful Soup, so rich and green,\nWaiting in a hot tureen!"
-    mock "Beautiful Soup, so rich and green,\nWaiting in a hot tureen!"
+    mock "Beautiful Soup, so thick and green,\nin a hot bowl, it's seen."
 
 # game/script.rpy:4613
 translate simple_english chapter10_d139c91f:
 
     # mock "Who for such dainties would not stoop?\nSoup of the evening, beautiful Soup!"
-    mock "Who for such dainties would not stoop?\nSoup of the evening, beautiful Soup!"
+    mock "Who wouldn't go for such a scoop?\nSoup of the evening, beautiful Soup!"
 
 # game/script.rpy:4614
 translate simple_english chapter10_fe9a668d:
@@ -7672,19 +7672,19 @@ translate simple_english chapter10_6758cc0a:
 translate simple_english chapter10_b509ae81:
 
     # mock "Beautiful Soup! Who cares for fish,\n Game, or any other dish?"
-    mock "Beautiful Soup! Who cares for fish,\n Game, or any other dish?"
+    mock "Who cares for fish or other fare,\nWhen this soup's delight is beyond compare?"
 
 # game/script.rpy:4622
 translate simple_english chapter10_e72c47a1:
 
     # mock "Who would not give all else for two p\n ennyworth only of beautiful Soup?"
-    mock "Who would not give all else for two p\n ennyworth only of beautiful Soup?"
+    mock "Just two pennies for this soup, oh so deep,\nthat's the deal of the evening, oh so cheap!"
 
 # game/script.rpy:4624
 translate simple_english chapter10_cc8f5d2a:
 
     # mock "Pennyworth only of beautiful Soup?\n {space=30}Beau—ootiful Soo—oop!\n {space=30}Beau—ootiful Soo—oop!"
-    mock "Pennyworth only of beautiful Soup?\n {space=30}Beau—ootiful Soo—oop!\n {space=30}Beau—ootiful Soo—oop!"
+    mock "Soup of the evening, beautiful Soup!\n {space=30}Beau—ootiful Soo—oop!\n {space=30}Beau—ootiful Soo—oop!"
 
 # game/script.rpy:4627
 translate simple_english chapter10_deef1b12:
