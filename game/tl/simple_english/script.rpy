@@ -1600,7 +1600,7 @@ translate simple_english ch3_start_dd93ccdc:
 translate simple_english ch3_start_8d9fa90f:
 
     # mouse "{space=200}dear Sir,\n {space=20} With no jury or judge, \n {space=60} would be wasting our breath.’\n {space=220} ‘I’ll be judge, I’ll be jury’\n {space=100} Said cunning old Fury:\n ‘I’ll try the whole cause,\n {space=80} and condemn you to death.’"
-    mouse "{space=200}But the human said\n {space=20} with a sly voice, \n {space=60} 'I'll be judge\n {space=220} and jury,\n {space=100} I'll make the choice\n I'll hear the case, decide what's best, \n {space=80} and I'm afraid you'll fail the test.'"
+    mouse "{space=200}But the human said\n {space=20} with a sly voice, \n {space=60} 'I'll be judge\n {space=220} and jury,\n {space=100} I'll make the choice,\n I'll hear the case, decide what's best, \n {space=80} and I'm afraid you'll fail the test.'"
 
 # game/script.rpy:1136
 translate simple_english ch3_start_8ff97f55:
@@ -8926,7 +8926,7 @@ translate simple_english chapter12_d8a816a6:
 translate simple_english chapter12_395611b0:
 
     # "The jury all wrote down on their slates: “She doesn’t believe there’s an atom of meaning in it”, but none of them attempted to explain the paper."
-    "The jury all wrote on their slates: 'She thinks there's no meaning in it,” but none of them tried to explain the poem."
+    "The jury all wrote on their slates: 'She thinks there's no meaning in it,' but none of them tried to explain the poem."
 
 # game/script.rpy:5436
 translate simple_english chapter12_bbf1c8e9:
