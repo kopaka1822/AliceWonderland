@@ -8,7 +8,7 @@
     "include_sqlite": false,
     "layout": null,
     "name": "Alice in Wonderland - Visual Novel",
-    "numeric_version": "140",
+    "numeric_version": "150",
     "orientation": "portrait",
     "package": "kopa.alice.wonderland",
     "permissions": [],
@@ -17,5 +17,5 @@
     "update_always": true,
     "update_icons": true,
     "update_keystores": true,
-    "version": "1.4"
+    "version": "1.5"
 }
