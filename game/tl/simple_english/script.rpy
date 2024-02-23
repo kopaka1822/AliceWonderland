@@ -8502,7 +8502,7 @@ translate simple_english chapter12_63bdc3e8:
 translate simple_english chapter12_81fc37a2:
 
     # "He repeated the last word with great emphasis, looking hard at Alice as he said so."
-    "He said the last word very strongly and looked at Alice."
+    pass
 
 # game/script.rpy:5225
 translate simple_english chapter12_8a5fef28:
@@ -8532,7 +8532,7 @@ translate simple_english chapter12_69fb5e44:
 translate simple_english chapter12_c371a42e:
 
     # "As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court."
-    "Once the jury calmed down from the shock, they started to write down what happened during the accident. They writing carefully, except for the Lizard. It was too shocked to do anything except sit with its mouth open, looking up at the court's ceiling."
+    "Once the jury calmed down from the shock, they started to write down what happened during the accident. Everyone was writing, except for the Lizard. It was too shocked to do anything except sit with its mouth open."
 
 # game/script.rpy:5238
 translate simple_english chapter12_4cc833b8:
@@ -8610,25 +8610,25 @@ translate simple_english chapter12_5153755f:
 translate simple_english chapter12_565696f9:
 
     # "As if he were trying which word sounded best."
-    "He was trying to determine the better word."
+    pass
 
 # game/script.rpy:5274
 translate simple_english chapter12_84a3dea9:
 
     # "Some of the jury wrote it down “important,” and some “unimportant.”"
-    "Some of the jury wrote it down “important,” and some “unimportant.”"
+    "Some of the jury wrote “important,” and some “unimportant.”"
 
 # game/script.rpy:5278
 translate simple_english chapter12_c372487a:
 
     # "Alice could see this, as she was near enough to look over their slates."
-    "Alice could see because she was close enough to look at their slates."
+    pass
 
 # game/script.rpy:5279
 translate simple_english chapter12_f193792a:
 
     # alice "(But it doesn’t matter a bit...)"
-    alice "(But it doesn't matter at all..)"
+    pass
 
 # game/script.rpy:5283
 translate simple_english chapter12_14a35436:
@@ -8652,7 +8652,7 @@ translate simple_english chapter12_f6421590:
 translate simple_english chapter12_7a76d043:
 
     # king "Rule Forty-two. All persons more than a mile high have to leave the court."
-    king "Rule Forty-two says that everyone taller than one mile must exit the court."
+    king "Rule Forty-two states that everyone taller than one kilometers must leave the court."
 
 # game/script.rpy:5289
 translate simple_english chapter12_a7c862d2:
@@ -8664,7 +8664,7 @@ translate simple_english chapter12_a7c862d2:
 translate simple_english chapter12_8df41646:
 
     # alice "I’m not a mile high."
-    alice "I’m not a mile high."
+    alice "I'm not a kilometer tall."
 
 # game/script.rpy:5296
 translate simple_english chapter12_b3fe30e3:
@@ -8676,7 +8676,7 @@ translate simple_english chapter12_b3fe30e3:
 translate simple_english chapter12_13337312:
 
     # queen "Nearly two miles high."
-    queen "Nearly two miles high."
+    queen "Almost 2 kilometers tall."
 
 # game/script.rpy:5304
 translate simple_english chapter12_dfc0f49a:
@@ -8694,7 +8694,7 @@ translate simple_english chapter12_86a7b589:
 translate simple_english chapter12_11eaf118:
 
     # alice "Then it ought to be Number One."
-    alice "Then it should be the first rule."
+    alice "Then it should be rule one."
 
 # game/script.rpy:5317
 translate simple_english chapter12_c05887b2:
@@ -8712,7 +8712,7 @@ translate simple_english chapter12_b29ec789:
 translate simple_english chapter12_215c9fe9:
 
     # "He said to the jury, in a low, trembling voice."
-    "He said to the jury, in a low, trembling voice."
+    pass
 
 # game/script.rpy:5325
 translate simple_english chapter12_54e1e1a0:
@@ -8838,7 +8838,7 @@ translate simple_english chapter12_2ac01392:
 translate simple_english chapter12_03013256:
 
     # alice "Why, you don’t even know what they’re about!"
-    alice "Why, you don't even know what the poem says!"
+    alice "You don't even know what the poem is about!"
 
 # game/script.rpy:5392
 translate simple_english chapter12_5ea90e8a:
@@ -9156,7 +9156,7 @@ translate simple_english chapter12_f8750a70:
 translate simple_english chapter12_82e555f2:
 
     # "At this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face."
-    "At that moment, all the cards jumped at her. She screamed in fear and anger, tried to push them away. But then she woke up in her sisters lap."
+    "Suddenly, the cards all flew towards her. She screamed in fear and tried to push them away. But then she woke up in her sister's lap."
 
 # game/script.rpy:5536
 translate simple_english chapter12_a3d0b8af:
@@ -9234,7 +9234,7 @@ translate simple_english chapter12_9beafa45:
 translate simple_english chapter12_3679851b:
 
     # "She could hear the rattle of the teacups as the March Hare and his friends shared their never-ending meal, and the shrill voice of the Queen ordering off her unfortunate guests to execution."
-    "She heard the tea cups clinking as the March Hare and his friends were having tea."
+    "She listened to the sound of tea cups clinking during the tea party with the March Hare and his friends. She also heard the loud voice of the Queen telling people to be executed."
 
 # game/script.rpy:5560
 translate simple_english chapter12_5fc5b640:
