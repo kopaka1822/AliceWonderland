@@ -10,19 +10,19 @@ translate simple_english chapter1_9ec5967d:
 translate simple_english chapter1_470d34b5:
 
     # "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it."
-    "Alice was sitting next to her sister by the river and feeling bored. She checked out her sister's book, but didn't like it because it didn't have any pictures or fun conversations."
+    "Alice sat next to her sister by the river and was feeling bored. She peeked at her sister's book, but didn't liked it because it had no pictures."
 
 # game/script.rpy:317
 translate simple_english chapter1_bbddd97e:
 
     # alice "(And what is the use of a book without pictures or conversations?)"
-    alice "(What's the point of a book if it doesn't have pictures or conversations?)"
+    alice "(Why should you read a book without any pictures in it?)"
 
 # game/script.rpy:319
 translate simple_english chapter1_f0723177:
 
     # "So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her."
-    "She was thinking about making a daisy chain when a White Rabbit with pink eyes ran past her out of nowhere."
+    "She was thinking about making a daisy chain when a White Rabbit with pink eyes ran past her."
 
 # game/script.rpy:321
 translate simple_english chapter1_40577482:
@@ -52,13 +52,13 @@ translate simple_english chapter1_d8a2816e:
 translate simple_english chapter1_cdbde678:
 
     # "Burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge."
-    "Filled with excitement, she followed it. The rabbit went into a large hole in the ground."
+    "Excited, she followed the rabbit as it went into a big hole in the ground."
 
 # game/script.rpy:343
 translate simple_english chapter1_4d9fd5bc:
 
     # "In another moment down went Alice after it, never once considering how in the world she was to get out again."
-    "Alice went down without thinking about how she would get out again."
+    pass
 
 # game/script.rpy:349
 translate simple_english chapter1_601d0032:
