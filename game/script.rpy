@@ -2326,7 +2326,7 @@ label ch6_kitchen:
     show cat:
         anchor (0.5, 1.0)
         xpos 0.79 ypos 0.25 zoom 0.5
-    cat "By the by, what became of the baby?"
+    cat "By the way, what became of the baby?"
     cat "I’d nearly forgotten to ask."
 
     alice "It turned into a pig."
