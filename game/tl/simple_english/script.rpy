@@ -10,7 +10,7 @@ translate simple_english chapter1_9ec5967d:
 translate simple_english chapter1_470d34b5:
 
     # "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it."
-    "Alice sat next to her sister by the river and was feeling bored. She peeked at her sister's book, but didn't liked it because it had no pictures."
+    "Alice sat next to her sister by the river and was feeling bored. She peeked at her sister's book, but it had no pictures in it."
 
 # game/script.rpy:317
 translate simple_english chapter1_bbddd97e:
