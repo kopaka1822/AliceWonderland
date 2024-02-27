@@ -1,0 +1,3 @@
+[submodule "game/gui"]
+	path = game/gui
+	url = https://github.com/kopaka1822/AliceGUI.git
