@@ -1816,7 +1816,7 @@ translate simple_english chapter4_23ee3af4:
 translate simple_english chapter4_667452e7:
 
     # "Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely."
-    "Alice quickly noticed that the mouse was looking for the fan and gloves. She tried to help find them but couldn't. Everything looked so different. The large hallway with the glass table and small door had completely vanished."
+    "Alice quickly noticed that the rabbit was looking for the fan and gloves. She tried to help find them but couldn't. Everything looked so different. The large hallway with the glass table and small door had completely vanished."
 
 # game/script.rpy:1279
 translate simple_english chapter4_d3f3eb02:
@@ -2134,7 +2134,7 @@ translate simple_english chapter4_88940096:
 translate simple_english chapter4_2f8a7e14:
 
     # pat "Sure, it’s an arrumm, yer honour!"
-    pat "Sure, it's and arrum, sir!"
+    pat "Sure, it's an arm, sir!"
 
 # game/script.rpy:1382
 translate simple_english chapter4_4d00bb46:
