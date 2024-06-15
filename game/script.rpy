@@ -75,14 +75,40 @@
     """)
 
     def get_shaders_breathing(child):
+        if preferences.graphic_preset == 0:
+            return "renpy.texture"
         if isinstance(child.target, renpy.display.im.Image):
             return ["renpy.texture", "game.breathing"]
         return ["renpy.texture", "game.animation", "game.breathing"]
 
     def get_shaders_swimming(child):
+        if preferences.graphic_preset == 0:
+            return "renpy.texture"
         if isinstance(child.target, renpy.display.im.Image):
             return ["renpy.texture"]
         return ["renpy.texture", "game.animation"]
+
+    def get_shaders_wind(child):
+        if preferences.graphic_preset <= 1:
+            return "renpy.texture"
+        return ["renpy.texture", "game.wind"]
+
+    def get_shaders_wind_mask(child):
+        if preferences.graphic_preset <= 1:
+            return "renpy.texture"
+        return ["renpy.texture", "game.wind", "game.mask2"]
+
+    def get_shader_breathing_pause():
+        if preferences.graphic_preset == 0:
+            return 3600
+        if preferences.graphic_preset == 1:
+            return 0.1
+        return 0
+    
+    def get_shader_wind_pause():
+        if preferences.graphic_preset <= 1:
+            return 3600
+        return 0
 
     def get_object_rng(obj):
         if isinstance(obj, renpy.display.image.ImageReference):
@@ -144,11 +170,10 @@ define center_offset = 540 # half of 1080
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
-    #$ shaders = ["renpy.texture", "game.animation", "game.breathing"]
     shader get_shaders_breathing(child)
     u_breath_cycle 6.0
     u_offset get_object_rng(child)
-    pause 0
+    pause get_shader_breathing_pause()
     repeat
 
 transform breathing(child):
@@ -157,7 +182,7 @@ transform breathing(child):
     shader get_shaders_breathing(child)
     u_breath_cycle 5.0
     u_offset get_object_rng(child)
-    pause 0
+    pause get_shader_breathing_pause()
     repeat
 
 transform breathing_crying(child):
@@ -167,7 +192,7 @@ transform breathing_crying(child):
     u_offset get_object_rng(child)
     #u_breath_cycle 3.5
     u_breath_cycle 5.0
-    pause 0
+    pause get_shader_breathing_pause()
     repeat
 
 transform swimming(child):
@@ -186,14 +211,14 @@ transform windy(child):
     pos(0.0,0)
     xoffset center_offset
     child
-    shader ["renpy.texture", "game.wind"]
-    pause 0
+    shader get_shaders_wind(child)
+    pause get_shader_wind_pause()
     repeat
 
 transform windy_no_anchor(child):
     child
-    shader ["renpy.texture", "game.wind"]
-    pause 0
+    shader get_shaders_wind(child)
+    pause get_shader_wind_pause()
     repeat
 
 transform windy_mask(child):
@@ -201,8 +226,8 @@ transform windy_mask(child):
     pos(0.0,0)
     xoffset center_offset
     child
-    shader ["renpy.texture", "game.wind", "game.mask2"]
-    pause 0
+    shader get_shaders_wind_mask(child)
+    pause get_shader_wind_pause()
     repeat
 
 # alice pictures
