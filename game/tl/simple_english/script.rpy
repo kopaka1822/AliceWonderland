@@ -4142,11 +4142,10 @@ translate simple_english ch6_kitchen_7bf2ebd5:
     # "While she was looking at the place where it had been, it suddenly appeared again."
     "She was looking at where it used to be, and then it suddenly appeared again."
 
-# game/script.rpy:2328
-translate simple_english ch6_kitchen_298f5504:
+translate simple_english ch6_kitchen_2b611bbc:
 
-    # cat "By the by, what became of the baby?"
-    cat "By the way, what became of the baby?"
+    # cat "By the way, what became of the baby?"
+    cat "By the way, what happened to the baby?"
 
 # game/script.rpy:2329
 translate simple_english ch6_kitchen_68ad89bd:
@@ -9295,4 +9294,3 @@ translate simple_english chapter12_241951e0:
 
     # "The End."
     "The End."
-
