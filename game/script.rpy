@@ -1238,7 +1238,7 @@ label ch3_start:
     camera: 
         ease cam_transition xpos muddy_magpie_cam_pos zpos -535 ypos 165
     "This speech caused a remarkable sensation among the party. Some of the birds hurried off at once: one old Magpie began wrapping itself up very carefully"
-    show magpie:
+    show magpie at breathing:
         xzoom -1.0
         linear 1.0 xpos 4000
     magpie "I really must be getting home; the night-air doesn’t suit my throat!"
@@ -1248,11 +1248,7 @@ label ch3_start:
         ease cam_transition xpos muddy_canary_cam_pos zpos -550 ypos 275
 
     "And a Canary called out in a trembling voice to its children:"
-    show canary:
-        xzoom -1.0
-        linear 1.0 xpos 4000
     canary "Come away, my dears! It’s high time you were all in bed!"
-    hide canary
 
     show young_crab:
         linear 2.0 xpos 4000
