@@ -202,3 +202,19 @@ translate german strings:
     old "Chapter Select"
     new "Kapitel auswählen"
 
+# TODO: Translation updated at 2024-06-17 23:09
+
+translate german strings:
+
+    # game/gui/screens.rpy:1506
+    old "Deutsch"
+    new "Deutsch"
+
+    # game/gui/screens.rpy:1508
+    old "Old English (Original)"
+    new "Old English (Original)"
+
+    # game/gui/screens.rpy:1510
+    old "Simple English"
+    new "Simple English"
+

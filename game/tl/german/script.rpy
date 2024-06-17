@@ -9295,3 +9295,179 @@ translate german chapter12_241951e0:
 
     # "The End."
     "The End."
+# TODO: Translation updated at 2024-06-17 23:09
+
+# game/script.rpy:270
+translate german 49ec12a8:
+
+    # "# non-animated transforms (comment in for action editor) transform breathing_calm: anchor (0.5, 1.0)"
+    "# non-animated transforms (comment in for action editor) transform breathing_calm: anchor (0.5, 1.0)"
+
+# game/script.rpy:270
+translate german 6cac8cd0:
+
+    # "transform breathing: anchor (0.5, 1.0)"
+    "transform breathing: anchor (0.5, 1.0)"
+
+# game/script.rpy:270
+translate german fbceb752:
+
+    # "transform breathing_crying: anchor (0.5, 1.0)"
+    "transform breathing_crying: anchor (0.5, 1.0)"
+
+# game/script.rpy:270
+translate german f9eeca60:
+
+    # "transform swimming: anchor (0.5, 1.0) ease 2.0 yoffset -10 ease 2.0 yoffset 10 repeat"
+    "transform swimming: anchor (0.5, 1.0) ease 2.0 yoffset -10 ease 2.0 yoffset 10 repeat"
+
+# game/script.rpy:270
+translate german 7ffe53c8:
+
+    # "transform windy: anchor (0.5,0) pos (0,0) xoffset center_offset"
+    "transform windy: anchor (0.5,0) pos (0,0) xoffset center_offset"
+
+# game/script.rpy:270
+translate german 85d9f747:
+
+    # "transform windy_no_anchor: xoffset 0 # do nothing"
+    "transform windy_no_anchor: xoffset 0 # do nothing"
+
+# game/script.rpy:270
+translate german 28b69ff9:
+
+    # "transform windy_mask: anchor (0.5,0) pos (0,0) xoffset center_offset"
+    "transform windy_mask: anchor (0.5,0) pos (0,0) xoffset center_offset"
+
+# game/script.rpy:270
+translate german 548c14c4:
+
+    # "#"
+    "#"
+
+translate german strings:
+
+    # game/script.rpy:119
+    old "Rabbit"
+    new "Kaninchen"
+
+    # game/script.rpy:120
+    old "Mouse"
+    new "Maus"
+
+    # game/script.rpy:121
+    old "Lory"
+    new "Papagei"
+
+    # game/script.rpy:122
+    old "Duck"
+    new "Ente"
+
+    # game/script.rpy:123
+    old "Dodo"
+    new "Dodo"
+
+    # game/script.rpy:124
+    old "Eaglet"
+    new "Adler"
+
+    # game/script.rpy:125
+    old "Everyone"
+    new "Alle"
+
+    # game/script.rpy:126
+    old "Old Crab"
+    new "Alte Krabbe"
+
+    # game/script.rpy:127
+    old "Young Crab"
+    new "Junge Krabbe"
+
+    # game/script.rpy:128
+    old "Magpie"
+    new "Elster"
+
+    # game/script.rpy:129
+    old "Canary"
+    new "Kanarienvogel"
+
+    # game/script.rpy:133
+    old "Caterpillar"
+    new "Raupe"
+
+    # game/script.rpy:134
+    old "Pigeon"
+    new "Taube"
+
+    # game/script.rpy:135
+    old "Fish-Footmen"
+    new "Fisch-Lakai"
+
+    # game/script.rpy:136
+    old "Frog-Footmen"
+    new "Frosch-Lakai"
+
+    # game/script.rpy:137
+    old "Duchess"
+    new "Gräfin"
+
+    # game/script.rpy:138
+    old "Cheshire Cat"
+    new "Grinsekatze"
+
+    # game/script.rpy:139
+    old "March Hare"
+    new "Märzhase"
+
+    # game/script.rpy:140
+    old "Mad Hatter"
+    new "Verrückter Hutmacher"
+
+    # game/script.rpy:141
+    old "Dormouse"
+    new "Haselmaus"
+
+    # game/script.rpy:142
+    old "Two"
+    new "Zwei"
+
+    # game/script.rpy:143
+    old "Five"
+    new "Fünf"
+
+    # game/script.rpy:144
+    old "Seven"
+    new "Sieben"
+
+    # game/script.rpy:145
+    old "Queen"
+    new "Königin"
+
+    # game/script.rpy:146
+    old "Soldiers"
+    new "Soldaten"
+
+    # game/script.rpy:147
+    old "King"
+    new "König"
+
+    # game/script.rpy:148
+    old "Gryphon"
+    new "Greif"
+
+    # game/script.rpy:149
+    old "Mock Turtle"
+    new "Schmor"
+
+    # game/script.rpy:150
+    old "Cook"
+    new "Koch"
+
+    # game/script.rpy:151
+    old "Knave"
+    new "Bube"
+
+    # game/script.rpy:152
+    old "Sister"
+    new "Schwester"
+
