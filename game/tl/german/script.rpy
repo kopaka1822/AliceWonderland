@@ -1169,193 +1169,193 @@ translate german chapter3_24276f65:
 translate german ch3_start_d810c5a2:
 
     # "They were indeed a queer-looking party that assembled on the bank—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable."
-    "A strange group gathered on the riverbank. The birds had messy feathers, the animals had wet fur, and they all looked grumpy and uncomfortable."
+    "Eine seltsame Gruppe versammelte sich am Flussufer. Die Vögel hatten zerzauste Federn, die anderen Tiere hatten nasses Fell, und sie sahen alle unzufrieden aus."
 
 # game/script.rpy:857
 translate german ch3_start_95a68f9a:
 
     # "The first question of course was, how to get dry again: they had a consultation about this, and after a few minutes it seemed quite natural to Alice to find herself talking familiarly with them, as if she had known them all her life."
-    "The first thing they thought about was how to get dry again. They discussed it and soon Alice felt very at ease chatting with them as if they had been friends for ages."
+    "Als erstes wollten alle wieder trocken werden. Sie diskutierten darüber zusammen mit Alice, so als wären sie schon seit Ewigkeiten miteinander befreundet."
 
 # game/script.rpy:858
 translate german ch3_start_f6b7b1de:
 
     # "Indeed, she had quite a long argument with the Lory, who at last turned sulky, and would only say:"
-    "She had a long argument with the Lory, who got grumpy would only say:"
+    "Alice hatte eine lange Auseinandersetzung mit dem Papagei, der mürrisch wurde und nur noch sagte:"
 
 # game/script.rpy:863
 translate german ch3_start_48bb96ec:
 
     # lory "I am older than you, and must know better."
-    lory "I am older than you, so I have more knowledge."
+    lory "Ich bin älter als du, also weiß ich es besser!"
 
 # game/script.rpy:864
 translate german ch3_start_6d11b6d2:
 
     # "And this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said."
-    "Alice wanted to know how old the Lory was, but the bird wouldn't say. So, there was nothing more to talk about."
+    "Alice wollte wissen, wie alt der Papagei war, aber er wollte es nicht sagen. Also gab es nichts mehr zu diskutieren."
 
 # game/script.rpy:868
 translate german ch3_start_8dd580fe:
 
     # "At last the Mouse, who seemed to be a person of authority among them, called out:"
-    "Finally, the Mouse, who seemed to be in charge, spoke up."
+    "Endlich meldete sich die Maus zu Wort, die anscheinend das Sagen hatte."
 
 # game/script.rpy:870
 translate german ch3_start_f3ede48b:
 
     # mouse "Sit down, all of you, and listen to me! I’ll soon make you dry enough!"
-    mouse "Everyone, please sit down and listen to me! I will make you dry!"
+    mouse "Alle, bitte setzt euch hin und hört mir zu! Ich werde euch trocken machen!"
 
 # game/script.rpy:871
 translate german ch3_start_0e6dd4d7:
 
     # "They all sat down at once, in a large ring, with the Mouse in the middle."
-    "They all sat together in a large circle, and the Mouse sat in the middle."
+    "Sie setzten sich zusammen in einem großen Kreis, und die Maus saß in der Mitte."
 
 # game/script.rpy:872
 translate german ch3_start_e3961f27:
 
     # "Alice kept her eyes anxiously fixed on it, for she felt sure she would catch a bad cold if she did not get dry very soon."
-    "Alice watched the mouse carefully because she was worried she might get sick if she didn't get dry fast enough."
+    "Alice beobachtete die Maus sehr aufmerksam, weil sie so schnell wie möglich trocken werden wollte."
 
 # game/script.rpy:874
 translate german ch3_start_422d3e3e:
 
     # mouse "Ahem!"
-    mouse "Ahem!"
+    mouse "*Räusper*"
 
 # game/script.rpy:875
 translate german ch3_start_2540403d:
 
     # mouse "Are you all ready? This is the driest thing I know."
-    mouse "Are you all ready? This is the driest thing I know."
+    mouse "Seid ihr alle bereit? Das ist das trockenste, was ich kenne."
 
 # game/script.rpy:876
 translate german ch3_start_a51fa460:
 
     # mouse "Silence all round, if you please!"
-    mouse "Everyone be quiet!"
+    mouse "Ruhe bitte!"
 
 # game/script.rpy:877
 translate german ch3_start_d1e62d68:
 
     # mouse "'William the Conqueror, whose cause was favoured by the pope, was soon submitted to by the English, who wanted leaders, and had been of late much accustomed to usurpation and conquest."
-    mouse "'William the Conqueror, whose cause was favoured by the pope, was soon submitted to by the English, who wanted leaders, and had been of late much accustomed to usurpation and conquest."
+    mouse "Wilhelm der Eroberer, dessen Ansprüche vom Papste begünstigt wurden, fand bald Anhang unter den Engländern, die einen Anführer brauchten, und die in jener Zeit sehr an Usurpation und Eroberungen gewöhnt waren. "
 
 # game/script.rpy:878
 translate german ch3_start_f37cc8cf:
 
     # mouse "Edwin and Morcar, the earls of Mercia and Northumbria—'"
-    mouse "Edwin and Morcar, the earls of Mercia and Northumbria—'"
+    mouse "Edwin und Morcar, Grafen von Mercia und Northumbria—"
 
 # game/script.rpy:882
 translate german ch3_start_14f001f4:
 
     # lory "Ugh!"
-    lory "Ugh!"
+    lory "*seufz*"
 
 # game/script.rpy:886
 translate german ch3_start_584de1ac:
 
     # mouse "I beg your pardon!"
-    mouse "Excuse me!"
+    mouse "Entschuldigung!"
 
 # game/script.rpy:887
 translate german ch3_start_4a84afca:
 
     # mouse "Did you speak?"
-    mouse "Did you speak?"
+    mouse "Hast du was gesagt?"
 
 # game/script.rpy:891
 translate german ch3_start_3d53e124:
 
     # lory "Not I!"
-    lory "No!"
+    lory "Nein!"
 
 # game/script.rpy:895
 translate german ch3_start_b9c4d0c7:
 
     # mouse "I thought you did, —I proceed."
-    mouse "I thought you did, —I proceed."
+    mouse "Ich dachte, du hättest - fahre ich fort."
 
 # game/script.rpy:896
 translate german ch3_start_f1d6e3ca:
 
     # mouse "'Edwin and Morcar, the earls of Mercia and Northumbria, declared for him: and even Stigand, the patriotic archbishop of Canterbury, found it advisable—'"
-    mouse "'Edwin and Morcar, the earls of Mercia and Northumbria, declared for him: and even Stigand, the patriotic archbishop of Canterbury, found it advisable—'"
+    mouse "Edwin und Morcar, Grafen von Mercia und Northumbria, erklärten sich für ihn; und selbst Stigand, der patriotische Erzbischof von Canterbury fand es ratsam-"
 
 # game/script.rpy:900
 translate german ch3_start_fadf988a:
 
     # duck "Found what?"
-    duck "Found what?"
+    duck "Fand was?"
 
 # game/script.rpy:904
 translate german ch3_start_b9bc5cca:
 
     # mouse "Found it, of course you know what 'it' means."
-    mouse "Found it, of course you know what 'it' means."
+    mouse "Fand 'es'. Du wirst doch wohl wissen, was 'es' ist?"
 
 # game/script.rpy:908
 translate german ch3_start_5d04593b:
 
     # duck "I know what 'it' means well enough, when I find a thing, it’s generally a frog or a worm. The question is, what did the archbishop find?"
-    duck "I understand 'it' very well. When I find something, it's usually a frog or a worm. So, what did the archbishop find?"
+    duck "Ich kenne 'es' sehr gut. Wenn ich etwas finde, dann ist 'es' meistens ein Frosch oder ein Wurm. Also, was hat der Erzbischof gefunden?"
 
 # game/script.rpy:912
 translate german ch3_start_fcb36ac1:
 
     # "The Mouse did not notice this question, but hurriedly went on."
-    "The mouse ignored the question and continued."
+    "Die Maus ignorierte die Frage und fuhr fort."
 
 # game/script.rpy:914
 translate german ch3_start_cf7b82e5:
 
     # mouse "'—found it advisable to go with Edgar Atheling to meet William and offer him the crown. William’s conduct at first was moderate. But the insolence of his Normans—'"
-    mouse "'—found it advisable to go with Edgar Atheling to meet William and offer him the crown. William’s conduct at first was moderate. But the insolence of his Normans—'"
+    mouse "fand es ratsam, von Edgar Atheling begleitet, Wilhelm entgegen zu gehen und ihm die Krone anzubieten. Wilhelms Benehmen war zuerst gemäßigt, aber die Unverschämtheit der Normannen-"
 
 # game/script.rpy:915
 translate german ch3_start_dfda6237:
 
     # "It continued, turning to Alice as it spoke."
-    "It turned to Alice."
+    "Die Maus drehte sich zu Alice."
 
 # game/script.rpy:916
 translate german ch3_start_7d567b49:
 
     # mouse "How are you getting on now, my dear?"
-    mouse "How are you doing, my dear?"
+    mouse "Wie sieht's aus, meine Liebe?"
 
 # game/script.rpy:921
 translate german ch3_start_24b48d9e:
 
     # alice "As wet as ever, it doesn’t seem to dry me at all."
-    alice "I'm still wet, and this doesn't seem to be drying me."
+    alice "Ich bin immer noch nass und das trocknet mich auch irgendwie nicht."
 
 # game/script.rpy:925
 translate german ch3_start_ced08b12:
 
     # dodo "In that case, I move that the meeting adjourn, for the immediate adoption of more energetic remedies—"
-    dodo "In that case, I move that the meeting adjourn, for the immediate adoption of more energetic remedies—"
+    dodo "In Anbetracht der aktuellen Umstände empfehle ich die temporäre Suspension dieser Sitzung, um unmittelbar proaktivere Interventionsstrategien zu ergreifen—"
 
 # game/script.rpy:929
 translate german ch3_start_3405bef4:
 
     # eaglet "Speak English! I don’t know the meaning of half those long words, and, what’s more, I don’t believe you do either!"
-    eaglet "Speak English! I don’t understand the meaning of those words, and I don't think you do either!"
+    eaglet "Sprich Deutsch! Ich kenne die Hälfte dieser komischen Wörter nicht, und du vermutlich auch nicht!"
 
 # game/script.rpy:930
 translate german ch3_start_e7a70394:
 
     # "And the Eaglet bent down its head to hide a smile: some of the other birds tittered audibly."
-    "The Eaglet smiled and some other birds started to laugh."
+    "Das Adler grinste und andere Vögel begannen zu kichern."
 
 # game/script.rpy:934
 translate german ch3_start_7b212452:
 
     # dodo "What I was going to say, was that the best thing to get us dry would be a Caucus-race."
-    dodo "What I meant was, we can get dry by having a Caucus-race."
+    dodo "Was ich meinte war: Wir können trocken werden, indem wir ein Koalitionsrennen machen."
 
 # game/script.rpy:936
 translate german ch3_start_a20cefa7:
@@ -1367,7 +1367,7 @@ translate german ch3_start_a20cefa7:
 translate german ch3_start_3057377f:
 
     # alice "What is a Caucus-race?"
-    alice "What is a Caucus-race?"
+    alice "Was ist ein Koalitionsrennen?"
 
 # game/script.rpy:943
 translate german ch3_start_899063de:
@@ -1379,7 +1379,7 @@ translate german ch3_start_899063de:
 translate german ch3_start_9d1dfaf7:
 
     # dodo "Why, the best way to explain it is to do it."
-    dodo "The best way to understand how something works is by actually trying it out."
+    dodo "Der beste Weg es zu verstehen ist, wenn wir es einfach machen."
 
 # game/script.rpy:949
 translate german ch3_start_65f2ee5b:
@@ -1391,25 +1391,25 @@ translate german ch3_start_65f2ee5b:
 translate german ch3_start_e32b0033:
 
     # "First it marked out a race-course, in a sort of circle."
-    "The dodo created a racetrack in a circular shape."
+    "Der Dodo malte eine runde Rennstrecke in den Schlamm."
 
 # game/script.rpy:953
 translate german ch3_start_f83cb682:
 
     # dodo "The exact shape doesn’t matter."
-    dodo "The exact shape doesn’t matter."
+    dodo "Die genaue Form ist unwichtig."
 
 # game/script.rpy:971
 translate german ch3_start_e2fb94cc:
 
     # "And then all the party were placed along the course, here and there."
-    "And then everyone in the group spread out around the path."
+    "Danach stellte sich jeder an irgendeine Position auf der Rennstrecke."
 
 # game/script.rpy:1015
 translate german ch3_start_3ecd4dfa:
 
     # "There was no 'One, two, three, and away', but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over."
-    "In the race, there were no rules like 'ready, set, go!' They could start running and stop whenever they wanted. This made it difficult to know when the race was over."
+    "Im Rennen gab es keine Regeln wie 'Auf die Plätze, fertig, los!'. Jeder fing einfach an zu laufen und stoppte wann er Lust hatte. Daher konnte man auch nicht wirklich erkennen, wann das Renne zu Ende war."
 
 # game/script.rpy:1016
 translate german ch3_start_a20cefa7_1:
@@ -1421,151 +1421,151 @@ translate german ch3_start_a20cefa7_1:
 translate german ch3_start_711c65cd:
 
     # "However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out:"
-    "After running for about 30 minutes, they were all dry again and the Dodo suddenly shouted:"
+    "Nach etwa 30 Minuten waren sie alle wieder trocken, und der Dodo rief plötzlich:"
 
 # game/script.rpy:1027
 translate german ch3_start_87e15a18:
 
     # dodo "The race is over!"
-    dodo "The race is over!"
+    dodo "Das Rennen ist vorbei!"
 
 # game/script.rpy:1032
 translate german ch3_start_3e1b795e:
 
     # "And they all crowded round it, panting, and asking:"
-    "They all gathered around the dodo, breathing heavily, and asking:"
+    "Alle versammelten sich um den Dodo, und fragten völlig außer Puste:"
 
 # game/script.rpy:1033
 translate german ch3_start_12bb56cf:
 
     # everyone "But who has won?"
-    everyone "But who has won?"
+    everyone "Aber wer hat gewonnen?"
 
 # game/script.rpy:1035
 translate german ch3_start_b535935a:
 
     # "This question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence."
-    "The Dodo took some time to think before answering the question. Everyone else stayed quiet and waited."
+    "Der Dodo brauchte etwas Zeit, um nachzudenken. Alle anderen blieben ruhig und warteten."
 
 # game/script.rpy:1040
 translate german ch3_start_2dc4e799:
 
     # dodo "Everybody has won, and all must have prizes."
-    dodo "Everyone is a winner, so everyone gets a prize."
+    dodo "Alle haben gewonnen, und alle bekommen einen Preis."
 
 # game/script.rpy:1045
 translate german ch3_start_01737d8d:
 
     # everyone "But who is to give the prizes?"
-    everyone "Who will give us the prizes?"
+    everyone "Und wer wird uns die Preise geben?"
 
 # game/script.rpy:1050
 translate german ch3_start_0dbcc33c:
 
     # dodo "Why, she, of course."
-    dodo "She, of course."
+    dodo "Sie, natürlich."
 
 # game/script.rpy:1053
 translate german ch3_start_7f8840ac:
 
     # "Said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way:"
-    "The Dodo pointed at Alice with a finger and everyone quickly gathered around her, talking all at once in a confused manner."
+    "Der Dodo zeigte mit einem Finger auf Alice und alle versammelten sich schnell um sie."
 
 # game/script.rpy:1058
 translate german ch3_start_52d37f6d:
 
     # everyone "Prizes! Prizes!"
-    everyone "Prizes! Prizes!"
+    everyone "Preise! Preise!"
 
 # game/script.rpy:1061
 translate german ch3_start_733c6d3d:
 
     # "Alice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes."
-    "Alice was unsure what to do. She found a box of candies in her pocket. She decided to give them to everyone as prizes."
+    "Alice war unsicher, was sie tun sollte. Sie fand eine Schachtel Bonbons in ihrer Tasche und beschloss diese als Preise zu verschenken."
 
 # game/script.rpy:1062
 translate german ch3_start_8bed4759:
 
     # "There was exactly one a-piece all round."
-    "There was one for each person."
+    "Es gab eins für jede Person."
 
 # game/script.rpy:1067
 translate german ch3_start_c230fb5d:
 
     # mouse "But she must have a prize herself, you know."
-    mouse "But she needs a reward too, you know."
+    mouse "Aber sie braucht auch eine Belohnung!"
 
 # game/script.rpy:1071
 translate german ch3_start_cd04a293:
 
     # dodo "Of course. What else have you got in your pocket?"
-    dodo "Sure. Do you have anything else in your pocket?"
+    dodo "Natürlich. Hast du noch etwas anderes in deiner Tasche?"
 
 # game/script.rpy:1072
 translate german ch3_start_1449a53e:
 
     # "The dodo turned to Alice."
-    "The dodo looked at Alice."
+    "Der Dodo schaute Alice an."
 
 # game/script.rpy:1079
 translate german ch3_start_f8be2fa9:
 
     # alice "Only a thimble."
-    alice "Only a thimble."
+    alice "Nur einen Fingerhut."
 
 # game/script.rpy:1084
 translate german ch3_start_c1ffdf93:
 
     # dodo "Hand it over here."
-    dodo "Give it to me."
+    dodo "Gib ihn mir bitte."
 
 # game/script.rpy:1086
 translate german ch3_start_04725d94:
 
     # "Then they all crowded round her once more, while the Dodo solemnly presented the thimble."
-    "Then everyone gathered around her again, while the Dodo formally gave her the thimble."
+    "Dann versammelten sich wieder alle um Alice, während der Dodo ihr förmlich den Fingerhut gab."
 
 # game/script.rpy:1090
 translate german ch3_start_0ab04a9c:
 
     # dodo "We beg your acceptance of this elegant thimble."
-    dodo "Please take this beautiful thimble as a gift from us."
+    dodo "Bitte nimm diesen schönen Fingerhut als Geschenk von uns."
 
 # game/script.rpy:1091
 translate german ch3_start_bb797765:
 
     # "And, when it had finished this short speech, they all cheered."
-    "After it finished talking, they all cheered."
+    "Alle fingen an zu klatschen."
 
 # game/script.rpy:1093
 translate german ch3_start_d040c754:
 
     # "Alice thought the whole thing very absurd, but they all looked so grave that she did not dare to laugh; and, as she could not think of anything to say, she simply bowed, and took the thimble, looking as solemn as she could."
-    "Alice found the situation silly but everyone seemed serious, so she didn't want to laugh. Since she couldn't think of what to say, she just nodded politely, took the thimble, and tried to look serious."
+    "Alice fand die Situation albern, aber alle schienen ernst zu sein, also verkniff sie sich das Lachen. Da sie nicht wusste, was sie sagen sollte, nickte sie einfach höflich, nahm den Fingerhut und versuchte ernst zu wirken."
 
 # game/script.rpy:1098
 translate german ch3_start_92c9d3da:
 
     # "The next thing was to eat the comfits: this caused some noise and confusion, as the large birds complained that they could not taste theirs, and the small ones choked and had to be patted on the back."
-    "Next, everyone started eating the candies. But there was a little chaos because the big birds said they couldn't taste theirs and the small ones needed help when they choked on them."
+    "Als nächstes begannen alle, die Bonbons zu essen. Das war aber sehr chaotisch, weil sich die kleinen Vögel daran verschluckten und Hilfe brauchten."
 
 # game/script.rpy:1102
 translate german ch3_start_9c54ac19:
 
     # "However, it was over at last, and they sat down again in a ring, and begged the Mouse to tell them something more."
-    "After they finished, they all sat back in a circle and asked the Mouse to tell them another story."
+    "Danach setzten sie sich alle wieder und baten die Maus, ihnen eine weitere Geschichte zu erzählen."
 
 # game/script.rpy:1107
 translate german ch3_start_a74ef9ef:
 
     # alice "You promised to tell me your history, you know."
-    alice "You said you would tell me about your history."
+    alice "Du hast gesagt, du würdest mir von deiner Vergangenheit erzählen."
 
 # game/script.rpy:1108
 translate german ch3_start_bf1ce7bf:
 
     # alice "And why it is you hate—C and D."
-    alice "*whispering* And why do you hate C and D?"
+    alice "*flüsternd* Und warum du K und H nicht magst."
 
 # game/script.rpy:1109
 translate german ch3_start_97c0898e:
@@ -1577,175 +1577,175 @@ translate german ch3_start_97c0898e:
 translate german ch3_start_afefab47:
 
     # mouse "Mine is a long and a sad {b}tale{/b}!"
-    mouse "Mine is a long and a sad {b}tale{/b}!"
+    mouse "Das ist tatsächlich eine langschwänzige und komplizierte Sache."
 
 # game/script.rpy:1119
 translate german ch3_start_57a58567:
 
     # alice "It is a long {b}tail{/b}, certainly, but why do you call it sad?"
-    alice "It is a long {b}tail{/b}, certainly, but why do you call it sad?"
+    alice "Das mit dem langen Schwanz verstehe ich ja, aber warum ist er kompliziert?"
 
 # game/script.rpy:1120
 translate german ch3_start_6176b3bb:
 
     # "She kept on puzzling about it while the Mouse was speaking, so that her idea of the tale was something like this:—"
-    "She continued to think about it while the Mouse talked, so she imagined the story as something like this:—"
+    "Sie machte sich weiterhin Gedanken über den Schwanz, während die Maus erzählte. Sie stellte sich die Geschichte in etwa so vor:—"
 
 # game/script.rpy:1125
 translate german ch3_start_dd93ccdc:
 
     # mouse "{k=1}Fury said to a mouse, \n{space=260}That he met in the house.\n{space=460}‘Let us both go to law: \n{space=300} I will prosecute YOU. \n{space=100}—Come, I’ll take no denial; \n We must have a trial: \n{space=100}For really this morning \n{space=280}I’ve nothing to do.’ \n {space=320}Said the mouse to the cur, \n{space=260}‘Such a trial,"
-    mouse "{k=1}A human told a mouse one day, \n{space=260}in the house where they did stay,\n{space=460}'Let's go to court,\n{space=300}it's only fair,\n{space=100}I'll sue you, so be aware.' \n The mouse then said, \n{space=100}'Dear Sir, you see, \n{space=280}A trial's a waste \n {space=320} for you and me.'"
+    mouse "{k=1}Ein Mann sagt klar:\n{space=260}‘Ich zeig dich an,\n{space=460}du freche Maus \n{space=300}in meinem Haus.‘\n{space=100}Doch sagt die Maus: \n ‘Oh, bitte, nein, \n{space=100}das muss doch wirklich\n{space=280}nicht so\n {space=320} sein.‘"
 
 # game/script.rpy:1127
 translate german ch3_start_8d9fa90f:
 
     # mouse "{space=200}dear Sir,\n {space=20} With no jury or judge, \n {space=60} would be wasting our breath.’\n {space=220} ‘I’ll be judge, I’ll be jury’\n {space=100} Said cunning old Fury:\n ‘I’ll try the whole cause,\n {space=80} and condemn you to death.’"
-    mouse "{space=200}But the human said\n {space=20} with a sly voice, \n {space=60} 'I'll be judge\n {space=220} and jury,\n {space=100} I'll make the choice,\n I'll hear the case, decide what's best, \n {space=80} and I'm afraid you'll fail the test.'"
+    mouse "{space=200}Er spricht bestimmt: \n {space=20} ‘Ich richt' hier heut',\n {space=60} als Jury\n {space=220} und als Richter auch.\n {space=100} Ich höre alles,\n dann entscheid' \n {space=80} du bist schuldig, jederzeit.‘"
 
 # game/script.rpy:1136
 translate german ch3_start_8ff97f55:
 
     # mouse "You are not attending!"
-    mouse "You are not paying attention!"
+    mouse "Hörst du mir überhaupt zu?"
 
 # game/script.rpy:1137
 translate german ch3_start_ee312569:
 
     # mouse "What are you thinking of?"
-    mouse "What are you thinking of?"
+    mouse "Worüber denkst du nach?"
 
 # game/script.rpy:1142
 translate german ch3_start_33b58bf6:
 
     # alice "I beg your pardon, you had got to the fifth bend, I think?"
-    alice "Excuse me, I think you had got to the fifth bend?"
+    alice "Entschuldigung, ich glaub du bist am fünften Knick angekommen, oder?"
 
 # game/script.rpy:1147
 translate german ch3_start_a75749fa:
 
     # mouse "I had not!"
-    mouse "I had not!"
+    mouse "Mit nichten!"
 
 # game/script.rpy:1152
 translate german ch3_start_69d883a4:
 
     # alice "A knot!"
-    alice "A knot!"
+    alice "Nichten?"
 
 # game/script.rpy:1153
 translate german ch3_start_97407da9:
 
     # alice "Oh, do let me help to undo it!"
-    alice "Oh, do let me help to undo it!"
+    alice "Wo sind deine Nichten? Ich würde gerne mit ihnen reden!"
 
 # game/script.rpy:1158
 translate german ch3_start_36982066:
 
     # mouse "I shall do nothing of the sort."
-    mouse "I won't let you do that!"
+    mouse "Das wirst du schön bleiben lassen!"
 
 # game/script.rpy:1162
 translate german ch3_start_b7b2ee3b:
 
     # "The Mouse got up and walked away."
-    "The Mouse got up and walked away."
+    "Die Maus stand auf und ging wütend weg."
 
 # game/script.rpy:1163
 translate german ch3_start_57cedca5:
 
     # mouse "You insult me by talking such nonsense!"
-    mouse "You insult me by talking such nonsense!"
+    mouse "Deinen Unsinn kann ich mir nicht mehr anhören!"
 
 # game/script.rpy:1168
 translate german ch3_start_90b97de3:
 
     # alice "I didn’t mean it! But you’re so easily offended, you know!"
-    alice "I didn’t try to upset you! But you get upset very easily!"
+    alice "Aber ich hab das nicht böse gemeint! Du bist nur immer so schnell beleidigt..."
 
 # game/script.rpy:1171
 translate german ch3_start_50016c1f:
 
     # "The Mouse only growled in reply."
-    "The Mouse only growled in reply."
+    "Die Maus knurrte nur zur Antwort."
 
 # game/script.rpy:1173
 translate german ch3_start_003043a5:
 
     # alice "Please come back and finish your story!"
-    alice "Please come back and finish your story!"
+    alice "Komm schon, komm zurück und beende deine Geschichte!"
 
 # game/script.rpy:1181
 translate german ch3_start_77f4cd4c:
 
     # everyone "Yes, please do!"
-    everyone "Yes, please do!"
+    everyone "Ja, bitte komm zurück!"
 
 # game/script.rpy:1182
 translate german ch3_start_6feff011:
 
     # "But the Mouse only shook its head impatiently, and walked a little quicker."
-    "But the Mouse just shook its head and walked a little faster."
+    "Aber die Maus schüttelte nur den Kopf und lief etwas schneller."
 
 # game/script.rpy:1187
 translate german ch3_start_8ad9ad67:
 
     # lory "What a pity it wouldn’t stay!"
-    lory "What a shame it wouldn't stay!"
+    lory "Was für ein Jammer, dass sie nicht bleiben wollte!"
 
 # game/script.rpy:1188
 translate german ch3_start_27a33397:
 
     # "Sighed the Lory, as soon as it was quite out of sight; and an old Crab took the opportunity of saying to her daughter:"
-    "The Lory sighed, and an old Crab took the chance to speak to her daughter:"
+    "Der Papagei seufzte, und eine alte Krabbe nutzte die Gelegenheit, um mit ihrer Tochter zu sprechen:"
 
 # game/script.rpy:1192
 translate german ch3_start_8d938c66:
 
     # old_crab "Ah, my dear! Let this be a lesson to you never to lose your temper!"
-    old_crab "Remember this, my dear! Never get angry!"
+    old_crab "Denk daran, mein Lieber! Werde niemals wütend!"
 
 # game/script.rpy:1196
 translate german ch3_start_34e2b4f7:
 
     # young_crab "Hold your tongue, Ma! You’re enough to try the patience of an oyster!"
-    young_crab "Hold your tongue, Ma! You’re enough to test the patience of an oyster!"
+    young_crab "Du solltest nicht so große Töne spucken, wenn du selbst keine Geduld hast!"
 
 # game/script.rpy:1201
 translate german ch3_start_febb18ea:
 
     # alice "I wish I had our Dinah here, I know I do!"
-    alice "I miss our cat Dinah, I really wish she was here with me!"
+    alice "Ich vermisse meine Dinah so sehr, wenn sie jetzt nur hier wäre..."
 
 # game/script.rpy:1202
 translate german ch3_start_578feac2:
 
     # alice "She’d soon fetch it back!"
-    alice "She would quickly fetch it back!"
+    alice "Sie würde die Maus schnell zurückbringen!"
 
 # game/script.rpy:1206
 translate german ch3_start_fdd11910:
 
     # lory "And who is Dinah, if I might venture to ask the question?"
-    lory "Who is Dinah, if I may ask?"
+    lory "Wer ist Dinah, wenn ich fragen darf?"
 
 # game/script.rpy:1210
 translate german ch3_start_ce50c797:
 
     # alice "Dinah’s our cat. And she’s such a capital one for catching mice you can’t think! And oh, I wish you could see her after the birds! Why, she’ll eat a little bird as soon as look at it!"
-    alice "Dinah is our cat, and she's really good at catching mice. She's amazing at catching birds too, she'll eat one without hesitation!"
+    alice "Dinah ist unsere Katze, und sie ist mega gut darin, Mäuse zu fangen. Sie ist die Beste beim Vogel jagen, die schluckt sie an einem Stück runter!"
 
 # game/script.rpy:1214
 translate german ch3_start_04a7b36f:
 
     # "This speech caused a remarkable sensation among the party. Some of the birds hurried off at once: one old Magpie began wrapping itself up very carefully"
-    "The speech made a big impression on the group. Some birds left quickly."
+    "Die Rede hatte die Gruppe sprachlos gemacht. Ein paar der Vögel sind direkt weggeflogen."
 
 # game/script.rpy:1218
 translate german ch3_start_44a331e9:
 
     # magpie "I really must be getting home; the night-air doesn’t suit my throat!"
-    magpie "I have to go home now because the cold air is making my throat uncomfortable."
+    magpie "Ich muss morgen früh raus!"
 
 # game/script.rpy:1224
 translate german ch3_start_1d7152d1:
@@ -1757,43 +1757,43 @@ translate german ch3_start_1d7152d1:
 translate german ch3_start_604eee0b:
 
     # canary "Come away, my dears! It’s high time you were all in bed!"
-    canary "Time to go to sleep!"
+    canary "Ich muss auch leider ganz schnell los, ich habe das Adventskalender-Türchen noch nicht geöffnet."
 
 # game/script.rpy:1242
 translate german ch3_start_c9f28f1b:
 
     # "On various pretexts they all moved off, and Alice was soon left alone."
-    "They all left for different reasons, and Alice was soon alone."
+    "Sie gingen alle aus verschiedenen Gründen, und Alice war wieder alleine."
 
 # game/script.rpy:1245
 translate german ch3_start_37481035:
 
     # alice "(I wish I hadn’t mentioned Dinah!)"
-    alice "(I regret talking about Dinah!)"
+    alice "(Ich hätte Dinah nicht erwähnen sollen!)"
 
 # game/script.rpy:1246
 translate german ch3_start_eece8315:
 
     # alice "(Nobody seems to like her, down here, and I’m sure she’s the best cat in the world!)"
-    alice "(No one here seems to like her, but I think she is the best cat in the world!)"
+    alice "(Niemand hier unten scheint sie zu mögen, aber ich bin mir sicher, dass sie die beste Katze der Welt ist!)"
 
 # game/script.rpy:1247
 translate german ch3_start_63e38ed7:
 
     # alice "(Oh, my dear Dinah! I wonder if I shall ever see you any more!)"
-    alice "(Oh, my dear Dinah! I'm wondering if I will every see you again!)"
+    alice "(Oh, meine süße Dinah! Ich frage mich, ob ich dich je wiedersehen werde!)"
 
 # game/script.rpy:1249
 translate german ch3_start_a3e31f04:
 
     # "And here poor Alice began to cry again, for she felt very lonely and low-spirited."
-    "Poor Alice started crying again because she felt very sad and alone."
+    "Alice fing wieder an zu weinen."
 
 # game/script.rpy:1250
 translate german ch3_start_7ebb23fc:
 
     # "In a little while, however, she again heard a little pattering of footsteps in the distance, and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story."
-    "After a little while, she heard footsteps far away. She looked up, wishing the Mouse would come back to continue the story."
+    "Nach einer Weile hörte sie in der Ferne Schritte. Sie schaute hoch und wünschte sich, dass die Maus zurückkommen würde, um die Geschichte fortzusetzen."
 
 # game/script.rpy:1256
 translate german chapter4_120d1357:
@@ -1805,7 +1805,7 @@ translate german chapter4_120d1357:
 translate german chapter4_e586a594:
 
     # "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something."
-    "It was the White Rabbit, he was looking around as if it had lost something."
+    "Es war das Weiße Kaninchen. Es sah sich suchend um, als hätte es etwas verloren."
 
 # game/script.rpy:1273
 translate german chapter4_23ee3af4:
