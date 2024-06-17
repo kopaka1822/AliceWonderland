@@ -551,7 +551,7 @@ translate german chapter2_5122136f:
 translate german chapter2_e6c0ee39:
 
     # "(For when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off)"
-    "(Als sie ihre Füße blickte, schienen diese bereits sehr weit entfernt zu sein)"
+    "(Als sie auf ihre Füße blickte, schienen diese bereits sehr weit entfernt zu sein)"
 
 # game/script.rpy:593
 translate german chapter2_293a4b3a:
@@ -563,7 +563,7 @@ translate german chapter2_293a4b3a:
 translate german chapter2_1770374e:
 
     # alice "(I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; —but I must be kind to them, or perhaps they won’t walk the way I want to go!)"
-    alice "(Ich bin schon zu weit weg, um mich um dich zu kümmern. Die müssen jetzt selber klarkommen. Aber ich sollte trotzdem weiterin nett zu ihnen sein, sonst gehen die einfach noch wo anders hin als ich will)"
+    alice "(Ich bin schon zu weit weg, um mich um euch zu kümmern. Ihr müsst jetzt selber klarkommen. Aber ich sollte trotzdem weiterin nett zu ihnen sein, sonst gehen die einfach noch wo anders hin als ich will)"
 
 # game/script.rpy:595
 translate german chapter2_25af9922:
@@ -581,7 +581,7 @@ translate german chapter2_7e0c1b36:
 translate german chapter2_f05f21c3:
 
     # alice "(They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!)"
-    alice "(Ich schicke sie per Post geschickt. Das ist schon lustig, Geschenke an seine eigenen Füße zu schicken! Und die Adresse wird komisch aussehen!)"
+    alice "(Ich schicke sie per Post. Das ist schon lustig, Geschenke an seine eigenen Füße zu schicken! Und die Adresse wird komisch aussehen!)"
 
 # game/script.rpy:598
 translate german chapter2_8b4e6b71:
@@ -683,7 +683,7 @@ translate german chapter2_c071a803:
 translate german chapter2_5d373bda:
 
     # alice "Was I the same when I got up this morning? I almost think I can remember feeling a little different."
-    alice "War ich heute Morgen genauso wie jetzt? Ich glaube ich war do schon ein bisschen anders, oder?"
+    alice "War ich heute Morgen genauso wie jetzt? Ich glaube ich war da schon ein bisschen anders, oder?"
 
 # game/script.rpy:641
 translate german chapter2_ed2248fa:
@@ -713,7 +713,7 @@ translate german chapter2_058600ff:
 translate german chapter2_151bb418:
 
     # alice "However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, that’s all wrong, I’m certain!"
-    alice "Die Einmaleins ist echt nutzlos. Lass uns lieber über Erdkunde reden. London ist die Hauptstadt von Paris. Paris ist die Hauptstadt von Rom. Irgendwas stimmt hier nicht!"
+    alice "Das Einmaleins ist echt nutzlos. Lass uns lieber über Erdkunde reden. London ist die Hauptstadt von Paris. Paris ist die Hauptstadt von Rom. Irgendwas stimmt hier nicht!"
 
 # game/script.rpy:647
 translate german chapter2_3bdd3742:
@@ -869,7 +869,7 @@ translate german chapter2_fecfaf52:
 translate german chapter2_cbb6fbb7:
 
     # "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high."
-    "Aber dann bemerkte sie, dass sie im Tränenpool gefallen ist, den sie vorhin geweint hatte."
+    "Aber dann bemerkte sie, dass sie in den Tränenpool gefallen ist, den sie vorhin geweint hatte."
 
 # game/script.rpy:709
 translate german chapter2_75e72bc1:
@@ -923,7 +923,7 @@ translate german chapter2_62f26b13:
 translate german chapter2_7d92de1a:
 
     # alice "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!"
-    alice "O Maus, kannst du mir helfen eine Weg aus dem Pool zu finden? Mir wird das Schwimmen hier langsam zu langweilig, O Maus!"
+    alice "O Maus, kannst du mir helfen eine Weg aus dem Pool zu finden? Ich möchte nicht mehr schwimmen, O Maus!"
 
 # game/script.rpy:728
 translate german chapter2_a634dfe6:
@@ -941,7 +941,7 @@ translate german chapter2_ae3d8c94:
 translate german chapter2_c1421b87:
 
     # alice "Perhaps it doesn’t understand English, I daresay it’s a French mouse, come over with William the Conqueror."
-    alice "Vielleicht versteht sie kein Deutsch. Vielleicht ist es eine französiche Maus die Napoleon gedient hatte."
+    alice "Vielleicht versteht sie kein Deutsch. Vielleicht ist es eine französiche Maus von Napoleon."
 
 # game/script.rpy:733
 translate german chapter2_38ed8172:
@@ -959,7 +959,7 @@ translate german chapter2_7b05d260:
 translate german chapter2_bba38f9c:
 
     # alice "Où est ma chatte?"
-    alice "Où est ma chatte?"
+    alice "Où est ma chatte? {size=-10}(Wo ist meine Katze?)"
 
 # game/script.rpy:737
 translate german chapter2_9389285f:
@@ -1001,7 +1001,7 @@ translate german chapter2_d0006b3c:
 translate german chapter2_e7a2e1e3:
 
     # mouse "Would you like cats if you were me?"
-    mouse "Würdest du Katzen mögen, wenn du in meine Schuhen stecken würdest?"
+    mouse "Würdest du Katzen mögen, wenn du in meinen Schuhen stecken würdest?"
 
 # game/script.rpy:747
 translate german chapter2_f697c628:
@@ -1151,7 +1151,7 @@ translate german chapter2_affb1312:
 translate german chapter2_03de8938:
 
     # "It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures."
-    "Der Pool war voller Vögel und Tiere, die hineingefallen waren. Es gab eine Ente, einen Dodo, einen Lori, einen Adler und viele andere interessante Kreaturen."
+    "Der Pool war voller Vögel und Tiere, die hineingefallen waren. Es gab eine Ente, einen Dodo, einen Papagei, einen Adler und viele andere interessante Kreaturen."
 
 # game/script.rpy:786
 translate german chapter2_1a540cf3:
