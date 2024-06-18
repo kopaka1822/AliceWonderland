@@ -1799,7 +1799,7 @@ translate german ch3_start_7ebb23fc:
 translate german chapter4_120d1357:
 
     # "{size=+40}Chapter IV: \n{/size}The Rabbit Sends in a Little Bill"
-    "{size=+40}Chapter IV: \n{/size}The Rabbit Sends in a Little Bill"
+    "{size=+40}Kapitel IV: \n{/size}Die Wohnung des Kaninchens"
 
 # game/script.rpy:1272
 translate german chapter4_e586a594:
@@ -1811,307 +1811,307 @@ translate german chapter4_e586a594:
 translate german chapter4_23ee3af4:
 
     # rabbit "*muttering* The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
-    rabbit "*muttering* The Queen! The Queen! Oh no! My paws! My fur and whiskers! She'll have me executed, I just know it! Where did I drop them, I wonder?"
+    rabbit "Die Königin! Die Königin! Oh nein! Meine Pfoten! Mein Fell und meine Schnurrhaare! Sie wird mich hinrichten lassen, das weiß ich genau! Wo habe ich sie nur fallen lassen?"
 
 # game/script.rpy:1274
 translate german chapter4_667452e7:
 
     # "Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely."
-    "Alice quickly noticed that the rabbit was looking for the fan and gloves. She tried to help find them but couldn't. Everything looked so different. The large hallway with the glass table and small door had completely vanished."
+    "Alice bemerkte schnell, dass der Hase nach dem Fächer und den Handschuhen suchte. Sie versuchte sie wiederzufinden, aber ohne Erfolg. Alles sah anders aus. Der große Flur mit dem Glastisch war komplett verschwunden."
 
 # game/script.rpy:1279
 translate german chapter4_d3f3eb02:
 
     # "Very soon the Rabbit noticed Alice, as she went hunting about."
-    "The Rabbit noticed Alice."
+    "Das Kaninchen bemerkte Alice."
 
 # game/script.rpy:1281
 translate german chapter4_21e0bd6b:
 
     # rabbit "*angry* Why, Mary Ann, what are you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!"
-    rabbit "*angry* Mary Ann, why are you here? Go home now and bring me gloves and a fan. Hurry!"
+    rabbit "*wütend* Marianne, warum bist du hier? Geh jetzt nach Hause und bring mir ein paar Handschuhe und einen Fächer. Nun aber zack zack!"
 
 # game/script.rpy:1284
 translate german chapter4_c93e16e9:
 
     # "And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made."
-    "Alice was very scared and quickly ran in the direction he was pointing without explaining his mix-up."
+    "Alice erschrak und rannte ohne darüber nachzudenken in die Richtung, in die er zeigte."
 
 # game/script.rpy:1286
 translate german chapter4_5ebdca49:
 
     # alice "(He took me for his housemaid. How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them)"
-    alice "(He thought I was his maid. It will be a big surprise when he figures out who I truly am. I will return his fan and gloves to him, if I can find them)"
+    alice "(Er dachte ich bin seine Frau. Der wird sich wundern, wenn er herausfindet, wer ich wirklich bin. Ich gebe ihm dann seine Sachen zurück, wenn ich sie finden kann)"
 
 # game/script.rpy:1291
 translate german chapter4_1640f433:
 
     # "As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name 'W. RABBIT' engraved upon it."
-    "While she was speaking, she found a nice little house with a shiny plate on the door. It had the name 'W. RABBIT' written on it."
+    "Während sie sprach, fand sie ein schönes kleines Haus mit einem glänzenden Schild an der Tür. Dort stand der Name 'W. KANINCHEN' drauf."
 
 # game/script.rpy:1292
 translate german chapter4_e9fb0c1f:
 
     # "She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves."
-    "She went inside without knocking, rushed upstairs, scared that she might meet the real Mary Ann and be thrown out of the house before finding the fan and gloves."
+    "Sie ging ohne zu klopfen hinein, rannte die Treppe hoch und hatte etwas Angst, dass sie die echte Marianne treffen könnte."
 
 # game/script.rpy:1298
 translate german chapter4_19349dee:
 
     # alice "(How queer it seems, to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!)"
-    alice "(It feels strange to be running errands for a rabbit! I wonder if Dinah, will send me on errands too!)"
+    alice "(Es fühlt sich komisch an, Aufgaben für ein Kaninchen zu machen! Ich frage mich, ob Dinah mir auch bald Aufgaben gibt!)"
 
 # game/script.rpy:1299
 translate german chapter4_d5b3e5a9:
 
     # "And she began fancying the sort of thing that would happen:"
-    "And she started imagining what might happen next:"
+    "Sie begann es sich vorzustellen:"
 
 # game/script.rpy:1300
 translate german chapter4_000fe72c:
 
     # alice "('Miss Alice! Come here directly, and get ready for your walk!' 'Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.')"
-    alice "('Hey Alice! Come here now, and let's prep for our walk!' 'I'll be there in a minute, dear! Just need to make sure the mouse doesn't escape.')"
+    alice "('Hey Alice! Komm mal her, wir müssen uns bereit machen für unseren Spaziergang!' 'Bin gleich da! Muss nur noch gucken, dass die Maus nicht abhaut.')"
 
 # game/script.rpy:1301
 translate german chapter4_250fe8ce:
 
     # alice "(Only I don’t think, that they’d let Dinah stop in the house if it began ordering people about like that!)"
-    alice "(I think Dinah wouldn't be allowed to stay if it kept bossing people around like that!)"
+    alice "(Ich glaube, Dinah dürfte nicht im Haus bleiben, wenn sie die Leute so herumkommandieren würde!)"
 
 # game/script.rpy:1304
 translate german chapter4_4e6fe760:
 
     # "By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves:"
-    "She had entered a tidy little room with a table next to the window. Inside, she found a fan and some pairs of small white gloves, which made her very happy."
+    "Sie betrat ein ordentliches kleines Zimmer mit einem Tisch neben dem Fenster. Drinnen fand sie einen Fächer und kleine weiße Handschuhe."
 
 # game/script.rpy:1308
 translate german chapter4_49707053:
 
     # "She took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass."
-    "She grabbed the fan and gloves, all set to leave the room. But just then, she noticed a little bottle next to the mirror."
+    "Sie schnappte sich den Fächer und die Handschuhe, und wollte das Zimmer verlassen. Doch genau in diesem Moment bemerkte sie eine kleine Flasche neben dem Spiegel."
 
 # game/script.rpy:1310
 translate german chapter4_3553cf44:
 
     # "There was no label this time with the words 'DRINK ME', but nevertheless she uncorked it and put it to her lips."
-    "This time, the bottle didn't have a label that said 'DRINK ME', but Alice opened it anyway and took a sip."
+    "Dieses Mal hatte die Flasche kein Etikett mit der Aufschrift 'TRINK MICH', aber Alice öffnete sie trotzdem und nahm einen Schluck."
 
 # game/script.rpy:1311
 translate german chapter4_fce35ab0:
 
     # alice "(I know something interesting is sure to happen, whenever I eat or drink anything; so I’ll just see what this bottle does)"
-    alice "(Whenever I eat or drink something here, interesting things usually happen. So, I will just wait and see what this bottle does)"
+    alice "(Immer wenn ich hier etwas esse oder trinke, passieren interessante Dinge. Ich werde einfach abwarten und sehen, was diese Flasche macht)"
 
 # game/script.rpy:1312
 translate german chapter4_2c0178e8:
 
     # alice "(I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!)"
-    alice "(I hope it makes me big again, as I'm tired of being so small!)"
+    alice "(Ich hoffe, dass es mich wieder groß macht. Ich hab kein Bock die ganze Zeit so klein zu sein!)"
 
 # game/script.rpy:1320
 translate german chapter4_9a03d03f:
 
     # "It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken."
-    "It happened very quickly. Before she could finish half of the bottle, her head was touching the ceiling. She had to bend down to avoid getting hurt."
+    "Es passierte sehr schnell. Bevor sie die Hälfte der Flasche trinken konnte, stieß ihr Kopf an die Decke. Sie musste sich bücken, um nicht verletzt zu werden."
 
 # game/script.rpy:1321
 translate german chapter4_96b32cc5:
 
     # "She hastily put down the bottle."
-    "She quickly dropped the bottle."
+    "Sie ließ die Flasche schnell fallen."
 
 # game/script.rpy:1322
 translate german chapter4_f348aa05:
 
     # alice "(That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!)"
-    alice "(I'm feeling too big now! I hope I won't get any bigger. I can't fit through the door anymore. I wish I didn't drink so much!)"
+    alice "(Ich fühle mich echt zu groß jetzt! Hoffentlich werde ich nicht noch größer. Ich passe ja nicht mal mehr durch die Tür jetzt. Ich hätte wohl doch nicht so viel trinken sollen!)"
 
 # game/script.rpy:1327
 translate german chapter4_ddf79593:
 
     # "Alas! it was too late to wish that! She went on growing, and growing, and very soon had to kneel down on the floor:"
-    "She kept getting bigger and bigger and soon had to kneel down on the floor."
+    "Sie wurde immer größer und größer und musste bald auf den Boden knien."
 
 # game/script.rpy:1328
 translate german chapter4_8ce88be8:
 
     # "In another minute there was not even room for this, and she tried the effect of lying down with one elbow against the door, and the other arm curled round her head."
-    "Soon there was no space left, so she laid down with one elbow against the door and her other arm around her head."
+    "Bald war kein Platz mehr übrig, also legte sie sich hin, mit einem Ellenbogen gegen die Tür und dem anderen Arm hinter ihrem Kopf."
 
 # game/script.rpy:1329
 translate german chapter4_97ea532d:
 
     # "Still she went on growing, and, as a last resource, she put one arm out of the window, and one foot up the chimney."
-    "She kept getting bigger and bigger, and as a final attempt, she put one arm out of the window and one foot up the chimney."
+    "Sie wurde immer größer und größer, und als letzten Versuch streckte sie einen Arm aus dem Fenster und einen Fuß in den Kamin."
 
 # game/script.rpy:1332
 translate german chapter4_468ebabf:
 
     # alice "(Now I can do no more, whatever happens. What will become of me?)"
-    alice "(I can't do anything else now. What will happen to me?)"
+    alice "(Jetzt kann ich mich kein bisschen mehr bewegen)"
 
 # game/script.rpy:1336
 translate german chapter4_ef6e31c6:
 
     # "Luckily for Alice, the little magic bottle had now had its full effect, and she grew no larger:"
-    "Alice was lucky because the little magic bottle stopped working, and she did not grow any bigger."
+    "Alice hatte Glück, denn die kleine Zauberflasche hörte auf zu wirken und sie wurde nicht größer."
 
 # game/script.rpy:1338
 translate german chapter4_2fbf9d41:
 
     # "Still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy."
-    "It was really uncomfortable and she felt sad since there was no way she could leave the room."
+    "Es war wirklich unbequem und sie fühlte sich traurig, da es keinen Weg gab, den Raum zu verlassen."
 
 # game/script.rpy:1340
 translate german chapter4_38595cb2:
 
     # alice "(It was much pleasanter at home, when one wasn’t always growing larger and smaller, and being ordered about by mice and rabbits)"
-    alice "(It was nicer at home where you didn't keep changing sizes and getting ordered around by mice and rabbits)"
+    alice "(Zu Hause war's besser, da hat man nicht ständig die Größe gewechselt)"
 
 # game/script.rpy:1341
 translate german chapter4_f0d3729c:
 
     # alice "(I almost wish I hadn’t gone down that rabbit-hole—and yet—and yet—it’s rather curious, you know, this sort of life!)"
-    alice "(I kind of wish I hadn't gone into that hole, but at the same time, it's quite interesting, you know, this kind of life!)"
+    alice "(Ich bereue es irgendwie, in dieses Loch gegangen zu sein, aber gleichzeitig ist es auch ziemlich interessant)"
 
 # game/script.rpy:1342
 translate german chapter4_8d2b35ca:
 
     # alice "(I do wonder what can have happened to me! When I used to read fairy-tales, I fancied that kind of thing never happened, and now here I am in the middle of one!)"
-    alice "(I feel curious about what's going on with me! In the past, when I read fairy tales, I thought those things never really happened. But now, it seems like I'm in the middle of one!)"
+    alice "(Ich frag mich, was hier abgeht! Früher dachte ich, dass Märchen nie wirklich passieren. Aber jetzt fühlt es sich an, als wäre ich in einem drin!)"
 
 # game/script.rpy:1343
 translate german chapter4_80e34708:
 
     # alice "(There ought to be a book written about me, that there ought! And when I grow up, I’ll write one—but I’m grown up now, at least there’s no room to grow up any more here)"
-    alice "(Someone should write a book about me, they really should! And when I'm grown up, I'll write one too—but I'm grown up now, at least there's no room to grow up any more here)"
+    alice "(Jemand sollte ein Buch über mich schreiben! Und wenn ich groß bin, schreibe ich auch eins — aber naja, eigentlich bin jetzt ja schon groß. Zumindest kann ich hier nicht wirklich größer werden)"
 
 # game/script.rpy:1345
 translate german chapter4_63fd7548:
 
     # alice "(But then, shall I never get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like that!)"
-    alice "(So, will I always stay the same age? It might feel nice in some ways, not becoming an old woman. But then, always having lessons to learn? I wouldn't like that!)"
+    alice "(Werde ich dann eigentlich noch älter? Das wäre schon cool, nie eine alte Frau zu werden. Aber andererseits habe ich auch kein Bock mein ganzes Leben zur Schule zu gehen)"
 
 # game/script.rpy:1347
 translate german chapter4_9ccb3f7d:
 
     # alice "(Oh, you foolish Alice!)"
-    alice "(Oh, silly Alice!)"
+    alice "(Ach, ich laber nur quatsch!)"
 
 # game/script.rpy:1348
 translate german chapter4_6e5f2baa:
 
     # alice "(How can you learn lessons in here?)"
-    alice "(How can you learn lessons here?)"
+    alice "(Aber wie soll man hier denn was lernen?)"
 
 # game/script.rpy:1349
 translate german chapter4_22700a5d:
 
     # alice "(Why, there’s hardly room for you, and no room at all for any lesson-books!)"
-    alice "(There's hardly enough space for you, and no space at all for any lesson-books!)"
+    alice "(Es gibt kaum genug Platz für mich, und erst recht kein Platz für Schulbücher!)"
 
 # game/script.rpy:1351
 translate german chapter4_1d612ee1:
 
     # "And so she went on, taking first one side and then the other, and making quite a conversation of it altogether; but after a few minutes she heard a voice outside, and stopped to listen."
-    "So she continued talking back and forth, having a conversation by herself. But then she heard a voice outside and stopped to listen."
+    "Sie redete weiter hin und her und führte ein Gespräch mit sich selbst. Doch dann hörte sie eine Stimme von draußen und hielt inne, um zuzuhören."
 
 # game/script.rpy:1353
 translate german chapter4_907df608:
 
     # rabbit "Mary Ann! Mary Ann!"
-    rabbit "Mary Ann! Mary Ann!"
+    rabbit "Marianne! Marianne!"
 
 # game/script.rpy:1354
 translate german chapter4_33aa95af:
 
     # rabbit "Fetch me my gloves this moment!"
-    rabbit "Get me my gloves now!"
+    rabbit "Wo sind meine Handschuhe?"
 
 # game/script.rpy:1357
 translate german chapter4_3318eb0a:
 
     # "Then came a little pattering of feet on the stairs."
-    "Next, there was a sound of footsteps on the stairs."
+    "Als nächstes hörte man das Geräusch von Schritten auf der Treppe."
 
 # game/script.rpy:1358
 translate german chapter4_53e14fb7:
 
     # "Alice knew it was the Rabbit coming to look for her, and she trembled till she shook the house, quite forgetting that she was now about a thousand times as large as the Rabbit, and had no reason to be afraid of it."
-    "Alice understood that the Rabbit was coming to find her. She was scared and shook so much that she made the house tremble. She forgot she was much bigger than the Rabbit and didn't need to be afraid of it."
+    "Alice erkannte, dass das Kaninchen auf dem Weg war. Sie hatte Angst und zitterte so sehr, dass sie das Haus erbeben ließ. Sie vergaß, dass sie viel größer war als das Kaninchen und eigentlich keine Angst vor ihm haben musste."
 
 # game/script.rpy:1361
 translate german chapter4_95c4ef36:
 
     # "Presently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure."
-    "Next, the Rabbit reached the door and tried to open it. But since the door opened inward and Alice's elbow was pushing against it, the Rabbit couldn't open it."
+    "Als nächstes erreichte das Kaninchen die Tür und versuchte, sie zu öffnen. Doch, da die Tür nach innen aufging und Alice's Ellbogen dagegendrückte, konnte das Kaninchen sie nicht öffnen."
 
 # game/script.rpy:1362
 translate german chapter4_a10d4d8e:
 
     # rabbit "Then I’ll go round and get in at the window."
-    rabbit "Then I will go around and enter through the window."
+    rabbit "Dann werde ich herumgehen und durch das Fenster einsteigen."
 
 # game/script.rpy:1364
 translate german chapter4_1b4ad4b9:
 
     # alice "(That you won’t!)"
-    alice "(You won't!)"
+    alice "(Das wirst du schön bleiben lassen!)"
 
 # game/script.rpy:1365
 translate german chapter4_ce100bf7:
 
     # "After waiting till she fancied she heard the Rabbit just under the window."
-    "She waited until she thought she heard the Rabbit right beneath the window."
+    "Sie wartete, bis sie das Kaninchen direkt unter dem Fenster hörte."
 
 # game/script.rpy:1367
 translate german chapter4_0041aafc:
 
     # "She suddenly spread out her hand, and made a snatch in the air."
-    "Suddenly, she reached out her hand and quickly grabbed at something in the air."
+    "Dann streckte sie ihre Hand aus und griff schnell in die Luft."
 
 # game/script.rpy:1369
 translate german chapter4_addcb345:
 
     # "She did not get hold of anything, but she heard a little shriek and a fall, and a crash of broken glass, from which she concluded that it was just possible it had fallen into a cucumber-frame, or something of the sort."
-    "She couldn't catch anything, but heard a small scream, a thud, and the sound of breaking glass. She guessed it might have fallen into a cucumber-frame or something similar."
+    "Sie konnte nichts fangen, hörte aber einen kleinen Schrei, und das Geräusch von brechendem Glas. Sie vermutete, dass das Kaninchen in ein Gurkengestell oder etwas Ähnliches gefallen sein könnte."
 
 # game/script.rpy:1371
 translate german chapter4_4e9a893b:
 
     # "Next came an angry voice—"
-    "Next came an angry voice—"
+    "Als nächstes kam eine wütende Stimme—"
 
 # game/script.rpy:1372
 translate german chapter4_64541ae5:
 
     # rabbit "Pat! Pat! Where are you?"
-    rabbit "Pat! Pat! Where are you?"
+    rabbit "Franz! Franz! Wo bist du?"
 
 # game/script.rpy:1373
 translate german chapter4_567629ec:
 
     # "And then a voice she had never heard before:"
-    "And then a voice she had never heard before:"
+    "Und dann eine Stimme, die sie noch nie gehört hatte:"
 
 # game/script.rpy:1374
 translate german chapter4_d53f9435:
 
     # pat "Sure then I’m here! Digging for apples, yer honour!"
-    pat "Sure, I'm here! Digging for apples, sir!"
+    pat "*bayrisch* Do bin i! I buddl grod noch Äpfe."
 
 # game/script.rpy:1375
 translate german chapter4_78e64dd6:
 
     # rabbit "Digging for apples, indeed!"
-    rabbit "Digging for apples, are you serious!?"
+    rabbit "Du buddelst nach Äpfeln? Dein Ernst?"
 
 # game/script.rpy:1376
 translate german chapter4_1d7f75f1:
 
     # rabbit "Here! Come and help me out of this!"
-    rabbit "Here! Come and help me get out of here!"
+    rabbit "Hier! Komm und hilf mir hier rauszukommen!"
 
 # game/script.rpy:1377
 translate german chapter4_a20cefa7:
@@ -2123,237 +2123,237 @@ translate german chapter4_a20cefa7:
 translate german chapter4_29cae5d1:
 
     # "(Sounds of more broken glass)"
-    "(Sounds of more broken glass)"
+    "*Mehr Geräusche von brechendem Glas*"
 
 # game/script.rpy:1380
 translate german chapter4_88940096:
 
     # rabbit "Now tell me, Pat, what’s that in the window?"
-    rabbit "Now tell me, Pat, what’s that in the window?"
+    rabbit "Sag mal, Pat, was ist das da in dem Fenster?"
 
 # game/script.rpy:1381
 translate german chapter4_2f8a7e14:
 
     # pat "Sure, it’s an arrumm, yer honour!"
-    pat "Sure, it's an arm, sir!"
+    pat "Des is en Arm!"
 
 # game/script.rpy:1382
 translate german chapter4_4d00bb46:
 
     # rabbit "An arm, you goose! Who ever saw one that size? Why, it fills the whole window!"
-    rabbit "An arm?! It's so large that it fills the entire window!"
+    rabbit "Ein Arm?! Er ist so groß, der ist so groß wie das Fenster!"
 
 # game/script.rpy:1383
 translate german chapter4_6252371b:
 
     # pat "Sure, it does, yer honour: but it’s an arm for all that."
-    pat "Yes, indeed, sir, but it's still an arm."
+    pat "Ja, des stimmt scho, aber en Arm is halt trotzdem."
 
 # game/script.rpy:1384
 translate german chapter4_165e9405:
 
     # rabbit "Well, it’s got no business there, at any rate: go and take it away!"
-    rabbit "Well, it shouldn't be there. Go and remove it."
+    rabbit "Nun, jedenfalls sollte der da nicht sein. Geh und entferne ihn."
 
 # game/script.rpy:1386
 translate german chapter4_69d74da6:
 
     # "There was a long silence after this, and Alice could only hear whispers now and then; such as:"
-    "After that, there was a long silence. Alice could only hear occasional soft whispers:"
+    "Danach herrschte eine lange Stille. Alice konnte nur gelegentliche leises Flüstern hören."
 
 # game/script.rpy:1387
 translate german chapter4_c2ff67ac:
 
     # pat "Sure, I don’t like it, yer honour, at all, at all!"
-    pat "Sir, I really don't like it at all!"
+    pat "O mei, des gefallt mir ja gar net."
 
 # game/script.rpy:1388
 translate german chapter4_9a4bce42:
 
     # rabbit "Do as I tell you, you coward!"
-    rabbit "Do what I say, you scaredy-cat!"
+    rabbit "Tu was ich sage, du Angsthase!"
 
 # game/script.rpy:1390
 translate german chapter4_353e21cb:
 
     # "And at last she spread out her hand again, and made another snatch in the air."
-    "Finally, she reached out her hand again and tried to grab something in the air again."
+    "Sie streckte erneut ihre Hand aus und versuchte noch einmal, etwas in der Luft zu greifen."
 
 # game/script.rpy:1393
 translate german chapter4_855b2fa8:
 
     # "This time there were two little shrieks, and more sounds of broken glass."
-    "This time there were two little shrieks, and more sounds of broken glass."
+    "Dieses Mal gab es zwei kleine Schreie und noch mehr Geräusche von brechendem Glas."
 
 # game/script.rpy:1394
 translate german chapter4_8e44720c:
 
     # alice "(What a number of cucumber-frames there must be!)"
-    alice "(There must be a lot of cucumber-frames!)"
+    alice "(Da muss es viele Gurkengestelle geben!)"
 
 # game/script.rpy:1395
 translate german chapter4_7c5e2b9c:
 
     # alice "(I wonder what they’ll do next! As for pulling me out of the window, I only wish they could! I’m sure I don’t want to stay in here any longer!)"
-    alice "(I'm curious about their next move! I really hope they pull me out of the window soon. I don't want to stay in here any longer!)"
+    alice "(Ich frage mich was sie wohl als nächstes machen. Ich hoffe echt, dass sie mich bald hier raus holen)"
 
 # game/script.rpy:1397
 translate german chapter4_abc5c77e:
 
     # "She waited for some time without hearing anything more: at last came a rumbling of little cartwheels, and the sound of a good many voices all talking together:"
-    "She waited for a while, but then heard the noise of small wheels and many voices talking at once."
+    "Sie wartete eine Weile, bis sie das Quietschen kleiner Holzräder und viel Gelaber hören konnte."
 
 # game/script.rpy:1399
 translate german chapter4_fee1ddfa:
 
     # anon "Where’s the other ladder?"
-    anon "Where is the other ladder?"
+    anon "Wo ist die andere Leiter?"
 
 # game/script.rpy:1400
 translate german chapter4_3c3b72a1:
 
     # anon "Why, I hadn’t to bring but one; Bill’s got the other."
-    anon "I only brought one, Bill has the other."
+    anon "Ich habe nur eine mitgebracht, Bill hat die andere."
 
 # game/script.rpy:1401
 translate german chapter4_f2d14ec9:
 
     # anon "Bill! fetch it here, lad!"
-    anon "Bill, come here and bring it!"
+    anon "Bill, komm her und gib sie mir!"
 
 # game/script.rpy:1402
 translate german chapter4_a18573e6:
 
     # anon "Here, put 'em up at this corner."
-    anon "Here, place them in this corner."
+    anon "Hier, stell sie in diese Ecke."
 
 # game/script.rpy:1403
 translate german chapter4_e8eabb94:
 
     # anon "No, tie 'em together first—they don’t reach half high enough yet—Oh! they’ll do well enough; don’t be particular."
-    anon "No, tie them together first"
-    anon "They are not high enough yet"
-    anon "Oh! They will do fine; don't worry about it."
+    anon "Nein, bindet sie zuerst zusammen."
+    anon "Die sind noch nicht hoch genug."
+    anon "Das wird schon passen; mach dir keine Sorgen."
 
 # game/script.rpy:1404
 translate german chapter4_094c6e93:
 
     # anon "Here, Bill! catch hold of this rope."
-    anon "Bill, grab this rope!"
+    anon "Bill, schnapp dir das Seil!"
 
 # game/script.rpy:1405
 translate german chapter4_47a0797f:
 
     # anon "Will the roof bear?"
-    anon "Is the roof strong enough?"
+    anon "Ist das Dach stabil genug?"
 
 # game/script.rpy:1406
 translate german chapter4_d11a4d35:
 
     # anon "Mind that loose slate."
-    anon "Be careful of that loose slate!"
+    anon "Pass auf, hier ist ein loser Dachziegel!"
 
 # game/script.rpy:1407
 translate german chapter4_944dca2d:
 
     # anon "Oh, it’s coming down! Heads below!"
-    anon "Watch out! It's falling down!"
+    anon "Achtung! Er fällt runter!"
 
 # game/script.rpy:1410
 translate german chapter4_62c090ed:
 
     # anon "Now, who did that?"
-    anon "Who did that?"
+    anon "Wer war das?"
 
 # game/script.rpy:1411
 translate german chapter4_dfada1ac:
 
     # anon "It was Bill, I fancy."
-    anon "I think it was Bill."
+    anon "Ich glaube, es war Bill."
 
 # game/script.rpy:1412
 translate german chapter4_ed089185:
 
     # anon "Who’s to go down the chimney?"
-    anon "Who will go down the chimney?"
+    anon "Wer geht durch den Schornstein?"
 
 # game/script.rpy:1413
 translate german chapter4_1970ea5b:
 
     # anon "Nay, I shan’t! You do it!"
-    anon "No, I won't. You do it!"
+    anon "Ich nicht, mach du!"
 
 # game/script.rpy:1414
 translate german chapter4_8a67f6de:
 
     # anon "That I won’t, then!"
-    anon "No, I won't!"
+    anon "Auf gar keine Fall!"
 
 # game/script.rpy:1415
 translate german chapter4_dbb904a9:
 
     # anon "Bill’s to go down."
-    anon "Bill should go down."
+    anon "Bill sollte gehen."
 
 # game/script.rpy:1416
 translate german chapter4_3f7a2b4c:
 
     # anon "Here, Bill! the master says you’re to go down the chimney!"
-    anon "Here, Bill! The boss wants you to go down the chimney!"
+    anon "Hier, Bill! Der Chef will, dass du durch den Schornstein gehst!"
 
 # game/script.rpy:1418
 translate german chapter4_a9505213:
 
     # alice "(Oh! So Bill’s got to come down the chimney, has he?)"
-    alice "(Oh! So Bill will come down the chimney?)"
+    alice "(Oh! Also kommt Bill durch den Schornstein?)"
 
 # game/script.rpy:1419
 translate german chapter4_e1a5487c:
 
     # alice "(Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I think I can kick a little!)"
-    alice "(It looks like they let Bill do everything! I wouldn't want to be in his shoes. The chimney is small, but I believe I can manage a bit of kicking!)"
+    alice "(Bill muss ja echt alles machen! Ich würde nicht gerne in seinen Schuhen stecken. Der Schornstein ist eng, aber ich glaube, ich schaffe ein bisschen zu treten!)"
 
 # game/script.rpy:1421
 translate german chapter4_91d6b304:
 
     # "She drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her:"
-    "She put her foot inside the chimney and waited. She heard a small animal moving around above her, but she couldn't tell what it was."
+    "Sie steckte ihren Fuß weiter in den Kamin und wartete. Etwas später hörte sie ein kleines Tier über sich herumkrabbeln."
 
 # game/script.rpy:1422
 translate german chapter4_0890f7ad:
 
     # alice "(This is Bill!)"
-    alice "(This is Bill!)"
+    alice "(Das ist Bill!)"
 
 # game/script.rpy:1424
 translate german chapter4_6e2dc171:
 
     # "She gave one sharp kick, and waited to see what would happen next."
-    "She gave a quick kick and then waited to see what would happen next."
+    "Sie machte einen schnellen Kick nach oben."
 
 # game/script.rpy:1426
 translate german chapter4_d6b12f37:
 
     # "The first thing she heard was a general chorus of:"
-    "The first thing she heard was:"
+    "Das erste, was sie hörte, war:"
 
 # game/script.rpy:1427
 translate german chapter4_c2114c0b:
 
     # everyone "There goes Bill!"
-    everyone "There goes Bill!"
+    everyone "Da ist Bill!"
 
 # game/script.rpy:1428
 translate german chapter4_219dae45:
 
     # "Then the Rabbit’s voice along—"
-    "Next, the Rabbit spoke up—"
+    "Als nächstes meldete sich das Kaninchen zu Wort—"
 
 # game/script.rpy:1429
 translate german chapter4_f72c25cf:
 
     # rabbit "Catch him, you by the hedge!"
-    rabbit "Catch him, you by the hedge!"
+    rabbit "Fangt ihn auf!"
 
 # game/script.rpy:1431
 translate german chapter4_a20cefa7_1:
@@ -2365,67 +2365,67 @@ translate german chapter4_a20cefa7_1:
 translate german chapter4_d1eb8de9:
 
     # "Then silence, and then another confusion of voices—"
-    "Then silence, and then another confusion of voices—"
+    "Dann Stille, und dann wieder Gelaber—"
 
 # game/script.rpy:1433
 translate german chapter4_faa07844:
 
     # anon "Hold up his head."
-    anon "Support his head."
+    anon "Passt auf seinen Kopf auf!"
 
 # game/script.rpy:1434
 translate german chapter4_04246af9:
 
     # anon "Brandy now."
-    anon "Brandy now."
+    anon "Jetzt Peter."
 
 # game/script.rpy:1435
 translate german chapter4_f6c3dd11:
 
     # anon "Don’t choke him."
-    anon "Don’t choke him."
+    anon "Erstick ihn nicht."
 
 # game/script.rpy:1436
 translate german chapter4_04803ebc:
 
     # anon "How was it, old fellow? What happened to you? Tell us all about it!"
-    anon "How was it, old fellow? What happened to you? Tell us all about it!"
+    anon "Wie war's, alter Freund? Was ist passiert? Erzähl!"
 
 # game/script.rpy:1438
 translate german chapter4_620750e1:
 
     # "Last came a little feeble, squeaking voice:"
-    "Finally, a weak, squeaky voice was heard:"
+    "Als nächstes war eine schwache und quietschende Stimme zu hören:"
 
 # game/script.rpy:1439
 translate german chapter4_099abc7d:
 
     # bill "Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
-    bill "I'm not sure, thank you. I feel better now, but I'm too confused to explain. All I know is, something came at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
+    bill "Ich bin mir nicht sicher, danke. Mir geht es schon besser, aber ich weiß nicht wirklich. Da kam etwas auf mich zu und schon ging ich hoch wie eine Rakete!"
 
 # game/script.rpy:1440
 translate german chapter4_fc40dfc1:
 
     # anon "So you did, old fellow!"
-    anon "Yes, you did, old friend!"
+    anon "Ja, so sah es auch aus, mein Freund!"
 
 # game/script.rpy:1442
 translate german chapter4_5b20fca1:
 
     # rabbit "We must burn the house down!"
-    rabbit "We have to set the house on fire!"
+    rabbit "Wir müssen das Haus anzünden!"
 
 # game/script.rpy:1443
 translate german chapter4_547913d4:
 
     # "Alice called out as loud as she could:"
-    "Alice shouted as loudly as she could:"
+    "Alice schrie so laut wie sie konnte:"
 
 # game/script.rpy:1444
 translate german chapter4_ad7454f5:
 
     # alice "If you do, I’ll set Dinah at you!"
-    alice "If you do, I will send Dinah after you!"
+    alice "Wenn ihr das machst, schicke ich euch Dinah auf den Hals!"
 
 # game/script.rpy:1446
 translate german chapter4_a20cefa7_2:
@@ -2437,223 +2437,223 @@ translate german chapter4_a20cefa7_2:
 translate german chapter4_5e7f6da8:
 
     # "There was a dead silence instantly."
-    "There was a dead silence instantly."
+    "Es wurde sofort still."
 
 # game/script.rpy:1448
 translate german chapter4_ac5ae5e3:
 
     # alice "(I wonder what they will do next! If they had any sense, they’d take the roof off)"
-    alice "(I wonder what they will do next! If they were clever, they would remove the roof)"
+    alice "(Ich frage mich, was sie jetzt machen! Wenn sie schlau wären, würden sie einfach das Dach abnehmen)"
 
 # game/script.rpy:1449
 translate german chapter4_6a611349:
 
     # "After a minute or two, they began moving about again."
-    "After a minute or two, they started moving again."
+    "Nach ein zwei Minuten ging es wieder weiter."
 
 # game/script.rpy:1450
 translate german chapter4_6249db76:
 
     # rabbit "A barrowful will do, to begin with."
-    rabbit "Just start with a small pile of that."
+    rabbit "Fang einfach mit einem kleinen Haufen davon an."
 
 # game/script.rpy:1452
 translate german chapter4_9c57e90f:
 
     # alice "(A barrowful of what?)"
-    alice "(A small pile of what?)"
+    alice "(Ein kleiner Haufen von was?)"
 
 # game/script.rpy:1453
 translate german chapter4_84108e6b:
 
     # "She had not long to doubt, for the next moment a shower of little pebbles came rattling in at the window, and some of them hit her in the face."
-    "She didn't have to wait long because soon after, a lot of small stones flew through the window, and some of them hit her on the face."
+    "Sie musste nicht lange warten, denn kurz danach flogen viele kleine Steine durch das Fenster, und einige trafen sie im Gesicht."
 
 # game/script.rpy:1454
 translate german chapter4_5611baab:
 
     # alice "(I’ll put a stop to this)"
-    alice "(I will put a stop to this)"
+    pass
 
 # game/script.rpy:1456
 translate german chapter4_23b6aefc:
 
     # alice "You’d better not do that again!"
-    alice "Don't do that again!"
+    alice "Hört auf damit!"
 
 # game/script.rpy:1457
 translate german chapter4_7753b069:
 
     # "Which produced another dead silence."
-    "This made everyone quiet again."
+    "Es wurde wieder still."
 
 # game/script.rpy:1460
 translate german chapter4_d7b371ac:
 
     # "Alice noticed with some surprise that the pebbles were all turning into little cakes as they lay on the floor, and a bright idea came into her head."
-    "Alice was very surprised when she saw the small rocks on the ground changing into tiny cakes."
+    "Alice war sehr verwundert, als sich plötzlich die kleinen Steine in kleine Kuchen verwandelten."
 
 # game/script.rpy:1461
 translate german chapter4_ac6e334a:
 
     # alice "(If I eat one of these cakes, it’s sure to make some change in my size; and as it can’t possibly make me larger, it must make me smaller, I suppose)"
-    alice "(If I eat one of these cakes, it will surely change my size. Since it can't become bigger, it must make me smaller then)"
+    alice "(Wenn ich einen von diesen Kuchen esse, ändert sich bestimmt meine Größe. Da der Kuchen mich nicht mehr größer machen kann, muss er mich kleiner machen!)"
 
 # game/script.rpy:1466
 translate german chapter4_21053dec:
 
     # "So she swallowed one of the cakes, and was delighted to find that she began shrinking directly."
-    "She ate a cake and quickly started getting smaller, which made her very happy."
+    "Sie aß einen Kuchen und wurde schnell kleiner, was sie sehr glücklich machte."
 
 # game/script.rpy:1475
 translate german chapter4_1bd2cc74:
 
     # "As soon as she was small enough to get through the door, she ran out of the house, and found quite a crowd of little animals and birds waiting outside."
-    "When she was small enough to fit through the door, she ran outside and saw many little animals and birds waiting for her."
+    "Als sie klein genug war, um durch die Tür zu passen, rannte sie nach draußen und sah viele kleine Tiere und Vögel, die auf sie warteten."
 
 # game/script.rpy:1476
 translate german chapter4_e1e2c8c4:
 
     # "The poor little Lizard, Bill, was in the middle, being held up by two guinea-pigs, who were giving it something out of a bottle."
-    "The small lizard named Bill was in the middle. Two guinea pigs were holding him up and giving him something from a bottle."
+    "Die kleine Eidechse namens Bill war in der Mitte. Zwei Meerschweinchen hielten ihn fest und gaben ihm etwas aus einer Flasche."
 
 # game/script.rpy:1480
 translate german chapter4_e4352a0c:
 
     # "They all made a rush at Alice the moment she appeared; but she ran off as hard as she could, and soon found herself safe in a thick wood."
-    "They all ran towards Alice when she showed up, but she ran away as fast as she could and quickly reached a forest."
+    "Alle rannten auf Alice zu, aber Alice rannte so schnell wie möglich weg und erreichte schnell einen Wald."
 
 # game/script.rpy:1500
 translate german ch4_forest_14d26aee:
 
     # alice "The first thing I’ve got to do, is to grow to my right size again; and the second thing is, to find my way into that lovely garden."
-    alice "The first thing I need to do is grow to my normal size again. Then, I need to find my way into that beautiful garden."
+    alice "Als erstes will ich wieder auf meine normale Größe wachsen. Und danach muss unbedingt ich einen Weg in diesen schönen Garten finden."
 
 # game/script.rpy:1501
 translate german ch4_forest_e9eb2fc7:
 
     # alice "I think that will be the best plan."
-    alice "I think that will be the best plan."
+    alice "Ich glaube, das ist beste Plan."
 
 # game/script.rpy:1503
 translate german ch4_forest_41b80e77:
 
     # "It sounded an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that she had not the smallest idea how to set about it; and while she was peering about anxiously among the trees, a little sharp bark just over her head made her look up in a great hurry."
-    "The plan seemed good, but she didn't know how to start. She looked around and heard a small dog above her and quickly looked up."
+    "Der Plan schien gut zu sein, aber sie wusste nicht, wie sie anfangen sollte. Sie schaute sich um und hörte über sich einen kleinen Hund."
 
 # game/script.rpy:1509
 translate german ch4_forest_5c1c22d9:
 
     # "An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her."
-    "A big puppy with large round eyes was looking at her and reaching out a paw to touch her."
+    "Ein großer Welpe mit großen runden Augen sah sie an und streckte eine Pfote aus."
 
 # game/script.rpy:1510
 translate german ch4_forest_3eeba89a:
 
     # alice "Poor little thing!"
-    alice "Poor little thing!"
+    alice "Armes kleines Ding!"
 
 # game/script.rpy:1511
 translate german ch4_forest_23960b4a:
 
     # "She tried hard to whistle to it; but she was terribly frightened all the time at the thought that it might be hungry, in which case it would be very likely to eat her up in spite of all her coaxing."
-    "She tried to whistle at the animal, but she was also very scared that it might be hungry and would eat her, even if she tried to be friendly to it."
+    "Sie versuchte, dem Tier zuzupfeifen, war aber auch sehr verängstigt, dass es hungrig sein könnte und sie fressen würde."
 
 # game/script.rpy:1518
 translate german ch4_forest_4ee9a449:
 
     # "Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it."
-    "She grabbed a small stick and offered it to the puppy. The puppy got very excited, jumped up in the air, and then ran toward the stick, pretending to play with it."
+    "Sie schnappte sich einen kleinen Stock und bot ihn dem Welpen an. Der Welpe wurde sehr aufgeregt, sprang in die Luft und lief dann auf den Stock zu, als würde er damit spielen wollen."
 
 # game/script.rpy:1531
 translate german ch4_forest_3452f3ed:
 
     # "Then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it."
-    "Alice ran behind a big thistle to avoid getting run over. When she came out on the other side, the puppy ran towards the stick, but slipped and fell while trying to grab it."
+    "Alice versteckte sich hinter einer großen Distel, um nicht überlaufen zu werden. Als sie dort ankam, rannte der Welpe auf den Stock zu, rutschte aber aus und fiel hin."
 
 # game/script.rpy:1534
 translate german ch4_forest_1736bfa7:
 
     # "Then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every moment to be trampled under its feet, ran round the thistle again."
-    "Alice felt like she was playing with a huge horse, and she was scared of getting stepped on. That's why she ran around the thistle one more time."
+    "Alice fühlte sich, als ob sie mit einem riesigen Pferd spielte, und sie hatte Angst, dass sie überrannt werden könnte. Deswegen lief sie noch einmal um die Distel herum."
 
 # game/script.rpy:1547
 translate german ch4_forest_16394830:
 
     # "Then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut."
-    "The puppy ran back and forth a few times, barking loudly. Finally, it sat down far away, tired and panting, with its tongue out and eyes half closed."
+    "Der Welpe lief ein paar Mal hin und her und bellte laut. Schließlich setzte er sich, müde und hechelnd, mit herausgestreckter Zunge und halb geschlossenen Augen."
 
 # game/script.rpy:1549
 translate german ch4_forest_09b47312:
 
     # "This seemed to Alice a good opportunity for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the puppy’s bark sounded quite faint in the distance."
-    "Alice thought this was a good chance to escape, so she started running immediately. She ran until she was very tired and out of breath, and until she could barely hear the puppy barking in the distance."
+    "Alice erkannte ihre Gelegenheit, also fing sie sofort an wegzulaufen. Sie rannte, bis sie außer Atem war, und bis sie das Hundegebell nur noch in der Ferne hören konnte."
 
 # game/script.rpy:1599
 translate german ch4_caterpillar_96fbcff7:
 
     # alice "And yet what a dear little puppy it was!"
-    alice "And it was such a cute little puppy!"
+    alice "Das war so ein süßer kleiner Welpe!"
 
 # game/script.rpy:1600
 translate german ch4_caterpillar_f5cc48d2:
 
     # "She leant against a buttercup to rest herself, and fanned herself with one of the leaves:"
-    "She leaned against a yellow flower to take a break and used one of its leaves to cool herself."
+    "Sie lehnte sich an eine Butterblume, um sich auszuruhen."
 
 # game/script.rpy:1602
 translate german ch4_caterpillar_5c89aafc:
 
     # alice "I should have liked teaching it tricks very much, if—if I’d only been the right size to do it!"
-    alice "I would have enjoyed playing with the puppy if I was a bit bigger."
+    alice "Ich hätte schon gerne mit dem Welpen gespielt, wenn ich doch nur ein wenig größer wäre..."
 
 # game/script.rpy:1603
 translate german ch4_caterpillar_4336ebe4:
 
     # alice "Oh dear! I’d nearly forgotten that I’ve got to grow up again!"
-    alice "Oh no! I almost forgot that I have to become bigger again!"
+    alice "Oh, fast vergessen! Ich muss unbedingt wieder größer werden!"
 
 # game/script.rpy:1604
 translate german ch4_caterpillar_fcd5b222:
 
     # alice "Let me see—how is it to be managed?"
-    alice "Let me think about how to do this."
+    alice "Mhm, aber wie mache ich das nur?"
 
 # game/script.rpy:1605
 translate german ch4_caterpillar_7fa4d670:
 
     # alice "I suppose I ought to eat or drink something or other; but the great question is, what?"
-    alice "I think I should eat or drink something. The big question is, what?"
+    alice "Ich glaub, ich sollte was essen oder trinken. Die große Frage ist nur was..."
 
 # game/script.rpy:1607
 translate german ch4_caterpillar_3992e5da:
 
     # "The great question certainly was, what?"
-    "The big question was, what?"
+    "Die große Frage war, was?"
 
 # game/script.rpy:1612
 translate german ch4_caterpillar_3316085e:
 
     # "Alice looked all round her at the flowers and the blades of grass, but she did not see anything that looked like the right thing to eat or drink under the circumstances."
-    "Alice searched the flowers and grass but didn't find any food or drink that seemed right for her."
+    "Alice suchte in den Blumen und im Gras, fand aber kein Essen oder Trinken, das richtig für sie schien."
 
 # game/script.rpy:1616
 translate german ch4_caterpillar_f9db4790:
 
     # "There was a large mushroom growing near her, about the same height as herself; and when she had looked under it, and on both sides of it, and behind it, it occurred to her that she might as well look and see what was on the top of it."
-    "There was a large mushroom next to Alice, almost as tall as her. She looked all around it and thought she should also check on top of it."
+    "Neben ihr stand ein großer Pilz, fast so groß wie sie selbst. Sie schaute sich zuerst alle Seiten an, und entschied dann, auch oben drauf nachzusehen."
 
 # game/script.rpy:1621
 translate german ch4_caterpillar_916e8939:
 
     # "She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else."
-    "She stood on her toes to look over the mushroom and saw a big caterpillar sitting on top, smoking a long pipe. The caterpillar didn't pay any attention to her or anything else."
+    "Sie stellte sich auf Zehenspitzen und sah eine große Raupe, die auf dem Pilz saß und an einer langen Pfeife rauchte. Die Raupe schenkte ihr keine Beachtung."
 
 # game/script.rpy:1628
 translate german chapter5_c977f682:
 
     # "{size=+40}Chapter V: \n{/size}Advice from a Caterpillar"
-    "{size=+40}Chapter V: \n{/size}Advice from a Caterpillar"
+    "{size=+40}Kapitel V: \n{/size}Guter Rat von einer Raupe"
 
 # game/script.rpy:1640
 translate german chapter5_fed83656:
@@ -3415,7 +3415,7 @@ translate german ch5_sky_3fdb37f1:
 translate german chapter6_c9d2dcd0:
 
     # "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
-    "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
+    "{size=+40}Kapitel VI: \n{/size}Pig and Pepper"
 
 # game/script.rpy:1935
 translate german chapter6_f46a236d:
@@ -4242,7 +4242,7 @@ translate german ch6_cat_41b34c48:
 translate german chapter7_a83b007d:
 
     # "{size=+40}Chapter VII: \n{/size}A Mad Tea-Party"
-    "{size=+40}Chapter VII: \n{/size}A Mad Tea-Party"
+    "{size=+40}Kapitel VII: \n{/size}A Mad Tea-Party"
 
 # game/script.rpy:2418
 translate german chapter7_c36793a5:
@@ -5190,7 +5190,7 @@ translate german ch7_reorder_db90c965:
 translate german chapter8_a54d6f0e:
 
     # "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
-    "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
+    "{size=+40}Kapitel VIII: \n{/size}The Queen's Croquet-Ground"
 
 # game/script.rpy:3025
 translate german chapter8_daef47ab:
@@ -6060,7 +6060,7 @@ translate german ch8_croquet_59453ae9:
 translate german chapter9_9086c185:
 
     # "{size=+40}Chapter IX: \n{/size}The Mock Turtle's Story"
-    "{size=+40}Chapter IX: \n{/size}The Mock Turtle's Story"
+    "{size=+40}Kapitel IX: \n{/size}The Mock Turtle's Story"
 
 # game/script.rpy:3759
 translate german chapter9_ec27667c:
@@ -6936,7 +6936,7 @@ translate german ch9_gryphon_21669018:
 translate german chapter10_ad0e6912:
 
     # "{size=+40}Chapter X: \n{/size}The Lobster Quadrille"
-    "{size=+40}Chapter X: \n{/size}The Lobster Quadrille"
+    "{size=+40}Kapitel X: \n{/size}The Lobster Quadrille"
 
 # game/script.rpy:4185
 translate german chapter10_1e16bf00:
@@ -7752,7 +7752,7 @@ translate german chapter10_6758cc0a_1:
 translate german chapter11_5b5d4f61:
 
     # "{size=+40}Chapter XI: \n{/size}Who Stole the Tarts?"
-    "{size=+40}Chapter XI: \n{/size}Who Stole the Tarts?"
+    "{size=+40}Kapitel XI: \n{/size}Who Stole the Tarts?"
 
 # game/script.rpy:4761
 translate german ch11_court_5511a70c:
@@ -8460,7 +8460,7 @@ translate german ch11_court_30a67d83:
 translate german chapter12_d8740aaa:
 
     # "{size=+40}Chapter XII: \n{/size}Alice's Evidence"
-    "{size=+40}Chapter XII: \n{/size}Alice's Evidence"
+    "{size=+40}Kapitel XII: \n{/size}Alice's Evidence"
 
 # game/script.rpy:5180
 translate german chapter12_72206f30:
@@ -9390,6 +9390,10 @@ translate german strings:
     # game/script.rpy:129
     old "Canary"
     new "Kanarienvogel"
+
+    # game/script.rpy:130
+    old "Pat"
+    new "Fritz"
 
     # game/script.rpy:133
     old "Caterpillar"
