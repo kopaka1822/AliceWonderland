@@ -2659,145 +2659,145 @@ translate german chapter5_c977f682:
 translate german chapter5_fed83656:
 
     # "The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice."
-    "The Caterpillar and Alice stared at each other quietly for a while. Finally, the Caterpillar stopped smoking and spoke to her in a sleepy voice."
+    "Die Raupe und Alice starrten sich eine Weile stillschweigend an. Nach einiger Zeit hörte die Raupe auf zu rauchen und sprach mit ihr in einer verschlafenen Stimme."
 
 # game/script.rpy:1642
 translate german chapter5_bb4b35f1:
 
     # caterpillar "Who are you?"
-    caterpillar "Who are you?"
+    caterpillar "Wer bist du?"
 
 # game/script.rpy:1644
 translate german chapter5_76a3ccff:
 
     # "This was not an encouraging opening for a conversation."
-    "This was not a good way to start a conversation."
+    pass
 
 # game/script.rpy:1645
 translate german chapter5_5adf31c3:
 
     # alice "I—I hardly know, sir, just at present—at least I know who I was when I got up this morning, but I think I must have been changed several times since then."
-    alice "I'm not sure who I am right now, sir. I know who I was when I woke up this morning, but I feel like I have been changed many times since then."
+    alice "Ich weiß nicht so genau, wer ich gerade bin. Ich wusste noch wer ich war, als ich heute morgen aufgewacht bin. Aber ich fühle mich so, als wurde ich mehrmals ausgetauscht seit dem."
 
 # game/script.rpy:1647
 translate german chapter5_61f52986:
 
     # caterpillar "What do you mean by that?"
-    caterpillar "What do you mean by that?"
+    caterpillar "Was meinst du damit?"
 
 # game/script.rpy:1648
 translate german chapter5_566b6e9c:
 
     # caterpillar "Explain yourself!"
-    caterpillar "Explain yourself!"
+    caterpillar "Erkläre dich!"
 
 # game/script.rpy:1650
 translate german chapter5_e7f4c83e:
 
     # alice "I can’t explain myself, I’m afraid, sir, because I’m not myself, you see."
-    alice "I can't explain myself, because I am not myself, you see."
+    alice "Ich kann mich nicht wirklich erklären, weil ich ja gerade nicht ich selbst bin, verstehst du?"
 
 # game/script.rpy:1652
 translate german chapter5_c0a14b7f:
 
     # caterpillar "I don’t see."
-    caterpillar "I don’t see."
+    caterpillar "Ich verstehe nicht."
 
 # game/script.rpy:1654
 translate german chapter5_d4d61f29:
 
     # alice "I’m afraid I can’t put it more clearly, for I can’t understand it myself to begin with; and being so many different sizes in a day is very confusing."
-    alice "I'm sorry, but I can't explain it better since I don't understand it myself. It's very confusing to change sizes many times a day."
+    alice "Sorry, aber ich kann es echt nicht besser erklären, weil ich es selbst nicht verstehe. Es ist mega komisch, ständig die Größe zu wechseln."
 
 # game/script.rpy:1656
 translate german chapter5_f9d43491:
 
     # caterpillar "It isn’t."
-    caterpillar "It isn’t."
+    caterpillar "Das stimmt nicht."
 
 # game/script.rpy:1658
 translate german chapter5_16412c3e:
 
     # alice "Well, perhaps you haven’t found it so yet, but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll feel it a little queer, won’t you?"
-    alice "Maybe you haven't felt this way before, but one day you will turn into a butterfly. That might feel strange, don't you think?"
+    alice "Naja, aber eines Tages wirst du dich ja auch in einen Schmetterling verwandeln. Das wirst du dann doch auch etwas komisch finden, oder?"
 
 # game/script.rpy:1660
 translate german chapter5_bee2752e:
 
     # caterpillar "Not a bit."
-    caterpillar "Not a bit."
+    caterpillar "Überhaupt nicht."
 
 # game/script.rpy:1662
 translate german chapter5_29f99dfa:
 
     # alice "Well, perhaps your feelings may be different. All I know is, it would feel very queer to me."
-    alice "Maybe you feel differently, but to me, it would feel very strange."
+    alice "Vielleicht siehst du das anders, aber für mich wäre das total komisch."
 
 # game/script.rpy:1664
 translate german chapter5_8c7fa477:
 
     # caterpillar "You!"
-    caterpillar "You!"
+    caterpillar "Du!"
 
 # game/script.rpy:1665
 translate german chapter5_bb4b35f1_1:
 
     # caterpillar "Who are you?"
-    caterpillar "Who are you?"
+    caterpillar "Wer bist du?"
 
 # game/script.rpy:1667
 translate german chapter5_f1e83106:
 
     # "Which brought them back again to the beginning of the conversation."
-    "This brought them back to the start of the conversation."
+    "Und damit waren sie wieder am Anfang vom ihrem Gespräch."
 
 # game/script.rpy:1668
 translate german chapter5_2f11af4a:
 
     # "Alice felt a little irritated at the Caterpillar’s making such very short remarks, and she drew herself up and said, very gravely:"
-    "Alice felt a little annoyed that the Caterpillar only made very short comments."
+    "Alice gefiel es gar nicht, dass die Raupe immer nur so kurz antwortete."
 
 # game/script.rpy:1669
 translate german chapter5_c4c0afa1:
 
     # alice "I think, you ought to tell me who you are, first."
-    alice "I think you should tell me who you are first."
+    alice "Ich glaube, du solltest mir zuerst sagen, wer du bist."
 
 # game/script.rpy:1671
 translate german chapter5_e4b108a2:
 
     # caterpillar "Why?"
-    caterpillar "Why?"
+    caterpillar "Warum?"
 
 # game/script.rpy:1676
 translate german chapter5_8d76366a:
 
     # "Here was another puzzling question; and as Alice could not think of any good reason, and as the Caterpillar seemed to be in a very unpleasant state of mind, she turned away."
-    "Alice didn't find a good answer, so she decided to walk away."
+    "Alice fand keine gute Antwort, also beschloss sie einfach wegzugehen."
 
 # game/script.rpy:1678
 translate german chapter5_0d69bf97:
 
     # caterpillar "Come back!"
-    caterpillar "Come back!"
+    caterpillar "Komm zurück!"
 
 # game/script.rpy:1679
 translate german chapter5_84893898:
 
     # caterpillar "I’ve something important to say!"
-    caterpillar "I have something important to tell you!"
+    caterpillar "Ich habe dir etwas Wichtiges mitzuteilen!"
 
 # game/script.rpy:1684
 translate german chapter5_3ae96ddb:
 
     # "This sounded promising, certainly: Alice turned and came back again."
-    "This sounded good: Alice turned around and came back."
+    "Das klang gut: Alice drehte sich um und kam zurück."
 
 # game/script.rpy:1686
 translate german chapter5_672c05d2:
 
     # caterpillar "Keep your temper."
-    caterpillar "Keep calm."
+    caterpillar "Bleib ruhig."
 
 # game/script.rpy:1688
 translate german chapter5_a20cefa7:
@@ -2809,25 +2809,25 @@ translate german chapter5_a20cefa7:
 translate german chapter5_4149cc0e:
 
     # alice "Is that all?"
-    alice "Is that everything?"
+    alice "Ist das alles?"
 
 # game/script.rpy:1691
 translate german chapter5_ad7f1bbb:
 
     # "Alice swallowed down her anger as well as she could."
-    "Alice tried hard to control her anger."
+    "Alice bemühte sich sehr, ihre Wut zu kontrollieren."
 
 # game/script.rpy:1692
 translate german chapter5_a81df4eb:
 
     # caterpillar "No."
-    caterpillar "No."
+    caterpillar "Nein."
 
 # game/script.rpy:1694
 translate german chapter5_a1ab56c2:
 
     # "Alice thought she might as well wait, as she had nothing else to do, and perhaps after all it might tell her something worth hearing."
-    "Alice decided to wait because she had nothing else to do, and maybe it would tell her something interesting."
+    "Alice beschloss zu warten, weil sie nichts Besseres zu tun hatte, und vielleicht würde er ihr etwas Interessantes erzählen."
 
 # game/script.rpy:1695
 translate german chapter5_a20cefa7_1:
@@ -2839,121 +2839,121 @@ translate german chapter5_a20cefa7_1:
 translate german chapter5_2c9d1131:
 
     # "For some minutes it puffed away without speaking, but at last it unfolded its arms, took the hookah out of its mouth again."
-    "For a few minutes, it smoked without talking, but eventually it put down the pipe and stopped smoking."
+    "Ein paar Minuten lang rauchte er, ohne zu sprechen, aber schließlich legte er die Pfeife zur Seite und sprach:"
 
 # game/script.rpy:1697
 translate german chapter5_1892ff01:
 
     # caterpillar "So you think you’re changed, do you?"
-    caterpillar "So, you think you have changed?"
+    caterpillar "Also, du denkst, dass du dich verändert hast?"
 
 # game/script.rpy:1699
 translate german chapter5_d096ebfd:
 
     # alice "I’m afraid I am, sir."
-    alice "Yes, sir."
+    alice "Ja."
 
 # game/script.rpy:1700
 translate german chapter5_045e2494:
 
     # alice "I can’t remember things as I used—and I don’t keep the same size for ten minutes together!"
-    alice "I can't remember things like before, and I don't stay the same size for more than ten minutes!"
+    alice "Ich kann mich an manche Dinge nicht mehr richtig erinnern und ändere meine Größe alle paar Minuten!"
 
 # game/script.rpy:1702
 translate german chapter5_e491bce0:
 
     # caterpillar "Can’t remember what things?"
-    caterpillar "What things can't you remember?"
+    caterpillar "An welche Dinge kannst du dich nicht erinnern?"
 
 # game/script.rpy:1704
 translate german chapter5_90fa08c7:
 
     # alice "Well, I’ve tried to say 'How doth the little busy bee', but it all came different!"
-    alice "I tried to say 'The little crocodile', but it came out wrong!"
+    alice "Ich habe versucht den Erlkönig aufzusagen, aber der hat sich total falsch angehört."
 
 # game/script.rpy:1706
 translate german chapter5_955e8b96:
 
     # caterpillar "Repeat, 'You are old, Father William.'"
-    caterpillar "Repeat, 'You are old, Father William.'"
+    caterpillar "Versuch es mal mit 'Ihr seid alt, Vater Martin.'"
 
 # game/script.rpy:1708
 translate german chapter5_3276e961:
 
     # "Alice folded her hands, and began:"
-    "Alice put her hands together and began:"
+    "Alice faltete ihre Hände und begann:"
 
 # game/script.rpy:1710
 translate german chapter5_8bc69656:
 
     # alice "'You are old, Father William',\nthe young man said,\n{space=30}And your hair has become very white;\nAnd yet you incessantly stand on your head—\n{space=30}Do you think, at your age, it is right?'"
-    alice "'You're old,' the young one said,\n{space=30}'And your hair is all white.\nBut you still stand on your head,\n{space=30}is that really alright?'"
+    alice "'Ihr seid alt, Vater Martin,' sagte Jim Knopf,\n{space=30}'und euer Haar ist schon ganz weiß;\nDoch ihr steht so gerne auf dem Kopf.\n{space=30}Sagt, ist euch das nicht zu heiß?'"
 
 # game/script.rpy:1712
 translate german chapter5_9c4ec273:
 
     # alice "'In my youth',\nFather William replied to his son,\n{space=30}'I feared it might injure the brain;\nBut, now that I’m perfectly sure I have none,\n{space=30}Why, I do it again and again.'"
-    alice "'When I was young,' Father William did say,\n{space=10}I worried it would harm my brain in some way.\nBut now that I'm sure my brain's not in play,\n{space=10}I keep doing it, over and over each day.'"
+    alice "'Als ich jung war,' der Vater zur Antwort gab,\n{space=30}'Da glaubte ich, für’s Hirn sei’s nicht gut;\nDoch seit ich entdeckt, dass ich gar keins hab’\n{space=30}So tue ich's mit fröhlichem Mut.'"
 
 # game/script.rpy:1714
 translate german chapter5_eccd9e04:
 
     # alice "'You are old', said the youth,\n'as I mentioned before,\n{space=30}And have grown most uncommonly fat;\nYet you turned a back-somersault\nin at the door—\n{space=30}Pray, what is the reason of that?'"
-    alice "'You're old and quite round,'\n{space=30}the young one spoke again,\n'But you did a flip on the ground,\n{space=30}say, how do you train?"
+    alice "'Ihr seid alt,' sprach der Sohn, 'wie vorhin schon gesagt,\n{space=30}Und geworden ein gar dicker Mann;\nDrum sprecht, wie ihr rücklings den Purzelbaum schlagt\n{space=30}Potz tausend! Wie fangt ihr’s nur an?'"
 
 # game/script.rpy:1716
 translate german chapter5_f7d47c6f:
 
     # alice "'In my youth', said the sage,\nas he shook his grey locks,\n{space=30}'I kept all my limbs very supple\nBy the use of this ointment—\none shilling the box—\n{space=30}Allow me to sell you a couple?'"
-    alice "'When I was young,' said the old with a nod,\n{space=30}'I kept my body bendy, not stiff or odd.\nWith this cream, just a coin for a small pod,\n{space=30}Would you like to buy some? It's not a fraud.'"
+    alice "'Als ich jung war,' der Alte mit Kopfschütteln sagt’,\n{space=30}'Da rieb ich die Glieder mir ein\nMit der Salbe hier, die sie geschmeidig macht.\n{space=30}Für zwei Euro ist sie dein.'"
 
 # game/script.rpy:1718
 translate german chapter5_be28c831:
 
     # alice "'You are old', said the youth,\n'and your jaws are too weak\n{space=30}For anything tougher than suet;\nYet you finished the goose,\nRwith the bones and the beak—\n{space=30}Pray how did you manage to do it?'"
-    alice "'You're old and your teeth seem weak,'\n{space=30}said the youth, making fun,\n'Yet you ate a whole goose, including the beak.\n{space=30}Tell me, how was that done?'"
+    alice "'Ihr seid alt,' sprach der Bub, 'und könnt nicht gut kau’n,\n{space=30}Und solltet euch nehmen in Acht;\nDoch aßt ihr die Gans mit Schnabel und Klau'n;\n{space=30}Wie habt ihr das nur gemacht?'"
 
 # game/script.rpy:1720
 translate german chapter5_483841f0:
 
     # alice "'In my youth', said his father, \n'I took to the law,\n{space=30}And argued each case with my wife;\nAnd the muscular strength, \nwhich it gave to my jaw,\n{space=30}Has lasted the rest of my life.'"
-    alice "'When I was young,' his dad said clear,\n{space=20}'I'd argue with my wife, year after year.\nIt made my jaw strong, from all the chat,\n{space=20}And that strong jaw has stayed, just like that.'"
+    alice "'Ich war früher Jurist und hab' viel diskutiert,\n{space=30}Besonders mit meiner Frau;\nDas hat so mir den Kiefer exerciert,\n{space=30}dass ich jetzt noch mit Leichtigkeit kau!'"
 
 # game/script.rpy:1722
 translate german chapter5_5f472f63:
 
     # alice "'You are old', said the youth, \n'one would hardly suppose\n{space=30}That your eye was as steady as ever;\nYet you balanced an eel \non the end of your nose—\n{space=30}What made you so awfully clever?'"
-    alice "'You're old,' said the youth, 'it's surprising to see\n{space=30}Your eyes are still good, as good as can be.\nBut an eel on your nose, you balanced just right,\n{space=30}How did you get so clever and so bright?'"
+    alice "'Ihr seid alt,' sagte der Sohn, 'und habt nicht viel Witz,\n{space=30}und doch seid ihr so geschickt;\nIhr balanciert einen Aal auf der Nasenspitz!\n{space=30}Wie ist euch das nur geglückt?'"
 
 # game/script.rpy:1724
 translate german chapter5_d1cad718:
 
     # alice "'I have answered three questions, \nand that is enough',\n{space=30}Said his father; 'don’t give yourself airs!\nDo you think I can listen all day to such stuff?\n{space=30}Be off, or I’ll kick you down stairs!'"
-    alice "'I've answered three questions, that's it for now,'\n{space=30}The old man looked annoyed with a raised \n{space=30}eyebrow.\n'Do you think I've got time to chat all day, somehow?\n{space=30}Off you go, or down the stairs you'll plow!'"
+    alice "'Drei Antworten du hast, und damit genug,\n{space=30}Nun lass mich kein Wort mehr hören; \nGeh fort in die Welt, du tust so überklug,\n{space=30}und hör endlich auf mich zu stören!'"
 
 # game/script.rpy:1726
 translate german chapter5_0185ef46:
 
     # caterpillar "That is not said right."
-    caterpillar "That was said incorrectly."
+    caterpillar "Das ist nicht richtig."
 
 # game/script.rpy:1728
 translate german chapter5_09028bd9:
 
     # alice "Not quite right, I’m afraid."
-    alice "Sorry."
+    alice "Nicht ganz, ein bisschen was war anders."
 
 # game/script.rpy:1729
 translate german chapter5_069b8529:
 
     # alice "Some of the words have got altered."
-    alice "Some of the words have changed."
+    pass
 
 # game/script.rpy:1731
 translate german chapter5_0492e66c:
 
     # caterpillar "It is wrong from beginning to end."
-    caterpillar "It is wrong from beginning to end."
+    caterpillar "Es ist falsch von Anfang bis Ende."
 
 # game/script.rpy:1732
 translate german chapter5_a20cefa7_2:
@@ -2965,367 +2965,367 @@ translate german chapter5_a20cefa7_2:
 translate german chapter5_edce90e1:
 
     # "And there was silence for some minutes."
-    "And there was silence for some minutes."
+    "Es herrschte für einige Minuten Stille."
 
 # game/script.rpy:1735
 translate german chapter5_2e3ed960:
 
     # caterpillar "What size do you want to be?"
-    caterpillar "What size do you want to be?"
+    caterpillar "Welche Größe möchtest du denn sein?"
 
 # game/script.rpy:1737
 translate german chapter5_e1827e56:
 
     # alice "Oh, I’m not particular as to size, only one doesn’t like changing so often, you know."
-    alice "I'm not picky about size, I just don't want to change so often."
+    alice "Mir ist die genaue Größe eigentlich egal, ich will nur nicht so oft wechseln, weißt du?"
 
 # game/script.rpy:1739
 translate german chapter5_c03f90d9:
 
     # caterpillar "I don’t know."
-    caterpillar "I don’t know."
+    caterpillar "Ich weiß nicht."
 
 # game/script.rpy:1741
 translate german chapter5_1ce556bb:
 
     # "Alice said nothing: she had never been so much contradicted in all her life before, and she felt that she was losing her temper."
-    "Alice didn't say anything. She had never been contradicted so much before and she felt like she was getting angry."
+    "Alice fehlten die Worte."
 
 # game/script.rpy:1743
 translate german chapter5_4e16a90d:
 
     # caterpillar "Are you content now?"
-    caterpillar "Are you happy now?"
+    caterpillar "Bist du denn jetzt glücklich?"
 
 # game/script.rpy:1745
 translate german chapter5_609ce715:
 
     # alice "Well, I should like to be a little larger, sir, if you wouldn’t mind."
-    alice "Excuse me, sir, I would like to be a bit bigger."
+    alice "Entschuldigung, aber ich wäre doch gerne ein klein bisschen größer."
 
 # game/script.rpy:1746
 translate german chapter5_bf41cfb3:
 
     # alice "Three inches is such a wretched height to be."
-    alice "Being around 7 centimeters tall is not a good height."
+    alice "7 Zentimeter sind nicht so toll."
 
 # game/script.rpy:1748
 translate german chapter5_9092895b:
 
     # caterpillar "It is a very good height indeed!"
-    caterpillar "It is a very good height indeed!"
+    caterpillar "Doch, das ist ganz toll!"
 
 # game/script.rpy:1749
 translate german chapter5_12f47074:
 
     # "Said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)"
-    "The Caterpillar was angry and stood up straight. (It was exactly 7 centimeters tall)"
+    "Die Raupe war wütend und stellte sich hin. (Sie war genau 7 Zentimeter groß)"
 
 # game/script.rpy:1751
 translate german chapter5_8bf17540:
 
     # alice "But I’m not used to it!"
-    alice "But I am not used to it!"
+    alice "Aber ich bin es nicht gewohnt!"
 
 # game/script.rpy:1752
 translate german chapter5_3eb574c8:
 
     # "Pleaded poor Alice in a piteous tone. And she thought of herself:"
-    "She thought to herself:"
+    pass
 
 # game/script.rpy:1754
 translate german chapter5_a6d293b7:
 
     # alice "I wish the creatures wouldn’t be so easily offended!"
-    alice "I wish the creatures wouldn’t be so easily offended!"
+    pass
 
 # game/script.rpy:1756
 translate german chapter5_ad68684e:
 
     # caterpillar "You’ll get used to it in time."
-    caterpillar "You will become used to it eventually."
+    caterpillar "Du wirst dich schon daran gewöhnen."
 
 # game/script.rpy:1757
 translate german chapter5_e41e5dc8:
 
     # "The caterpillar put the hookah into its mouth and began smoking again."
-    "The caterpillar put the smoking pipe in its mouth and started smoking once more."
+    "Die Raupe steckte sich die Pfeife in den Mund und fing wieder an zu rauchen."
 
 # game/script.rpy:1759
 translate german chapter5_cbea4c9b:
 
     # "This time Alice waited patiently until it chose to speak again."
-    "This time Alice waited patiently until it chose to speak again."
+    "Dieses Mal wartete Alice geduldig, bis er sich wieder entschied zu sprechen."
 
 # game/script.rpy:1760
 translate german chapter5_0812dac7:
 
     # "In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself."
-    "In a minute or two the Caterpillar removed the long pipe from its mouth, yawned a couple of times, and shook its body."
+    "Nach ein paar Minuten nahm die Raupe das lange Rohr aus ihrem Mund, gähnte ein paar Mal und schüttelte ihren Körper."
 
 # game/script.rpy:1766
 translate german chapter5_fb503ac4:
 
     # "Then it got down off the mushroom, and crawled away in the grass."
-    "It climbed down the mushroom and went away in the grass."
+    "Es kletterte vom Pilz herunter und verschwand im Gras."
 
 # game/script.rpy:1767
 translate german chapter5_897b1657:
 
     # caterpillar "One side will make you grow taller, and the other side will make you grow shorter."
-    caterpillar "One side makes you taller, the other side makes you shorter."
+    caterpillar "Die eine Seite macht dich größer, die andere Seite macht dich kleiner."
 
 # game/script.rpy:1769
 translate german chapter5_f8f85ba6:
 
     # alice "One side of what? The other side of what?"
-    alice "One side of what? The other side of what?"
+    alice "Die eine Seite von was? Die andere Seite von was?"
 
 # game/script.rpy:1770
 translate german chapter5_45692869:
 
     # caterpillar "Of the mushroom."
-    caterpillar "Of the mushroom."
+    caterpillar "Vom Pilz."
 
 # game/script.rpy:1771
 translate german chapter5_9a257946:
 
     # "In another moment it was out of sight."
-    "In another moment it was out of sight."
+    "Im nächsten Moment war die Raupe nicht mehr zu sehen."
 
 # game/script.rpy:1775
 translate german chapter5_a9249eb7:
 
     # "Alice remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it; and as it was perfectly round, she found this a very difficult question."
-    "Alice looked at the mushroom, trying to decide which side was which. It was difficult for her to figure out since the mushroom was a perfect circle."
+    "Alice betrachtete den Pilz und versuchte herauszufinden, welche Seite welche war. Es war schwierig für sie herauszufinden, da der Pilz perfekt rund war."
 
 # game/script.rpy:1776
 translate german chapter5_7c0546b2:
 
     # "However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand."
-    "Finally, she reached her arms around it as far as she could and broke off a piece from each edge with her hands."
+    "Schließlich streckte sie ihre Arme so weit wie möglich und brach mit ihren Händen jeweils ein Stück von jeder Seite ab."
 
 # game/script.rpy:1780
 translate german chapter5_a233e5c2:
 
     # alice "And now which is which?"
-    alice "And now which is which?"
+    alice "Und welche ist jetzt welche?"
 
 # game/script.rpy:1781
 translate german chapter5_288fbba6:
 
     # "She nibbled a little of the right-hand bit to try the effect:"
-    "She took a small bite from the right corner to see what would happen."
+    "Sie nahm einen kleinen Bissen aus der rechten Seite, um zu sehen, was passieren würde."
 
 # game/script.rpy:1787
 translate german chapter5_d1a0d83d:
 
     # "The next moment she felt a violent blow underneath her chin: it had struck her foot!"
-    "Suddenly, something hit her foot really hard."
+    "Plötzlich stieß sie mit ihrem Kinn gegen ihren Fuß."
 
 # game/script.rpy:1791
 translate german chapter5_934a1b4a:
 
     # "She was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit."
-    "She was quite scared by the sudden change, but she knew she had to act quickly because she was shrinking fast. So, she immediately started eating a piece of other side."
+    "Sie war ziemlich erschrocken über die plötzliche Veränderung, aber sie wusste, dass sie schnell handeln musste. Also fing sie sofort an, ein Stück von der anderen Seite zu essen."
 
 # game/script.rpy:1792
 translate german chapter5_2262d1d9:
 
     # "Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit."
-    "Her chin was very close to her foot, making it hard to open her mouth. Eventually, she managed to swallow a small piece of the bit."
+    "Ihr Kinn war so nah an ihrem Fuß, dass sie ihren Mind kaum öffnen konnte. Schließlich schaffte sie es, ein kleines Stück zu schlucken."
 
 # game/script.rpy:1794
 translate german chapter5_90ce426a:
 
     # alice "Come, my head’s free at last!"
-    alice "Finally, I am free!"
+    alice "Endlich bin ich frei!"
 
 # game/script.rpy:1800
 translate german chapter5_329e1ab3:
 
     # "Alice was delighted, which changed into alarm in another moment, when she found that her shoulders were nowhere to be found: all she could see, when she looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her."
-    "Alice was very happy at first, but then got scared when she realized she couldn't see her shoulders. Instead of shoulders, she saw a long neck stretching out from a sea of green leaves far below her when she looked down."
+    "Alice war zuerst sehr glücklich, bemerkte dann aber, dass sie ihre Schultern nicht sehen konnte. Anstelle von Schultern sah sie einen langen Hals, der sich aus einem Meer von grünen Blätter weit unter ihr erstreckte."
 
 # game/script.rpy:1829
 translate german ch5_sky_dd8d20af:
 
     # alice "What can all that green stuff be?"
-    alice "What could all that green stuff be?"
+    alice "Was ist dieses ganze grüne Zeug?"
 
 # game/script.rpy:1838
 translate german ch5_sky_368779b9:
 
     # alice "And where have my shoulders got to?"
-    alice "Where are my shoulders?"
+    alice "Wo sind meine Schultern?"
 
 # game/script.rpy:1839
 translate german ch5_sky_d666482d:
 
     # alice "And oh, my poor hands, how is it I can’t see you?"
-    alice "And my hands. Why can't I see them?"
+    alice "Und was ist mit meinen Händen? Warum kann ich die nicht sehen?"
 
 # game/script.rpy:1840
 translate german ch5_sky_eac8d185:
 
     # "She was moving them about as she spoke, but no result seemed to follow, except a little shaking among the distant green leaves."
-    "She tried moving her hands, but nothing really happened, except for some slight shaking in the leaves far away."
+    "Sie versuchte, ihre Hände zu bewegen, aber nichts passierte. Nur ein leichtes wackeln in den weit entfernten Blättern."
 
 # game/script.rpy:1842
 translate german ch5_sky_07d52f5c:
 
     # "As there seemed to be no chance of getting her hands up to her head, she tried to get her head down to them, and was delighted to find that her neck would bend about easily in any direction, like a serpent."
-    "Since she couldn't move her hands to her head, she moved her head towards her hands instead. She was happy to see that her neck could bend easily in all directions, like a snake."
+    "Da sie ihre Hände nicht zu ihrem Kopf bewegen konnte, bewegte sie stattdessen ihren Kopf zu ihren Händen. Sie war froh zu sehen, dass ihr Hals sich leicht in alle Richtungen biegen ließ, wie eine Schlange."
 
 # game/script.rpy:1847
 translate german ch5_sky_640a55f6:
 
     # "She had just succeeded in curving it down into a graceful zigzag, and was going to dive in among the leaves, which she found to be nothing but the tops of the trees under which she had been wandering, when a sharp hiss made her draw back in a hurry: a large pigeon had flown into her face, and was beating her violently with its wings."
-    "Suddenly, a loud hiss made her quickly retreat: a pigeon had flown into her face and was hitting her hard with its wings."
+    "Plötzlich ließ ein lautes Zischen sie schnell zurückweichen: Eine Taube war ihr ins Gesicht geflogen und schlug mit ihren Flügeln heftig zu."
 
 # game/script.rpy:1849
 translate german ch5_sky_fc0f58d6:
 
     # pigeon "Serpent!"
-    pigeon "Snake!"
+    pigeon "Schlange!"
 
 # game/script.rpy:1851
 translate german ch5_sky_95bd714d:
 
     # alice "I’m not a serpent! Let me alone!"
-    alice "I'm not a snake! Leave me alone!"
+    alice "Ich bin keine Schlange! Lass mich in Ruhe!"
 
 # game/script.rpy:1853
 translate german ch5_sky_6e20e343:
 
     # pigeon "Serpent, I say again!"
-    pigeon "Snake, I repeat!"
+    pigeon "Schlange, sage ich!"
 
 # game/script.rpy:1854
 translate german ch5_sky_41d2216e:
 
     # pigeon "I’ve tried every way, and nothing seems to suit them!"
-    pigeon "I've tried everything, but nothing seems to make them happy!"
+    pigeon "Ich habe alles versucht, aber nichts scheint sie glücklich zu machen!"
 
 # game/script.rpy:1856
 translate german ch5_sky_fb219437:
 
     # alice "I haven’t the least idea what you’re talking about."
-    alice "I don't understand what you're talking about."
+    alice "Wovon redest du?"
 
 # game/script.rpy:1858
 translate german ch5_sky_5c57de9f:
 
     # pigeon "I’ve tried the roots of trees, and I’ve tried banks, and I’ve tried hedges, but those serpents! There’s no pleasing them!"
-    pigeon "I tried to hide under trees, banks, and hedges, but snakes always find me. They are never satisfied!"
+    pigeon "Ich habe versucht, mich unter Bäumen, Büschen und Hecken zu verstecken, aber die Schlangen finden mich immer wieder. Sie sind nie zufrieden!"
 
 # game/script.rpy:1860
 translate german ch5_sky_50f49f5f:
 
     # "Alice was more and more puzzled, but she thought there was no use in saying anything more till the pigeon had finished."
-    "Alice was getting more confused, but she decided not to say anything until the pigeon was done talking."
+    "Alice wurde immer verwirrter, aber sie beschloss, nichts zu sagen, bis die Taube mit dem Reden fertig war."
 
 # game/script.rpy:1862
 translate german ch5_sky_225a5817:
 
     # pigeon "As if it wasn’t trouble enough hatching the eggs, but I must be on the look-out for serpents night and day!"
-    pigeon "It's already hard enough to hatch the eggs, and now I have to watch out for snakes all the time!"
+    pigeon "Es ist schon schwer genug, die Eier auszubrüten, und jetzt muss ich auch noch die ganze Zeit auf Schlangen aufpassen!"
 
 # game/script.rpy:1863
 translate german ch5_sky_fd968b50:
 
     # pigeon "Why, I haven’t had a wink of sleep these three weeks!"
-    pigeon "I haven't slept at all for three weeks!"
+    pigeon "Ich habe seit drei Wochen überhaupt nicht geschlafen!"
 
 # game/script.rpy:1865
 translate german ch5_sky_a6fafca9:
 
     # alice "I’m very sorry you’ve been annoyed."
-    alice "I'm really sorry that you've been annoyed."
+    alice "Das tut mir leid."
 
 # game/script.rpy:1867
 translate german ch5_sky_67256036:
 
     # pigeon "And just as I’d taken the highest tree in the wood, and just as I was thinking I should be free of them at last, they must needs come wriggling down from the sky! Ugh, Serpent!"
-    pigeon "I climbed the tallest tree in the forest, thinking I would finally be safe from them, and now they suddenly come down from the sky! Ugh, snake!"
+    pigeon "Ich bin auf den höchsten Baum im Wald geklettert, weil ich dachte, dass ich endlich vor ihnen sicher sein würde, und jetzt kommen sie plötzlich vom Himmel herunter! Ich hasse Schlangen!"
 
 # game/script.rpy:1869
 translate german ch5_sky_a7c6e86c:
 
     # alice "But I’m not a serpent, I tell you!"
-    alice "I’m not a snake, I promise!"
+    alice "Ich bin keine Schlangen, ich schwör!"
 
 # game/script.rpy:1870
 translate german ch5_sky_0569b7b4:
 
     # alice "I’m a—I’m a—"
-    alice "I am—I am—"
+    alice "Ich bin—ich bin—"
 
 # game/script.rpy:1872
 translate german ch5_sky_f2f2de06:
 
     # pigeon "Well! What are you?"
-    pigeon "Well! What are you?"
+    pigeon "Na, was bist du denn?"
 
 # game/script.rpy:1873
 translate german ch5_sky_c6997aa5:
 
     # pigeon "I can see you’re trying to invent something!"
-    pigeon "I can see you’re trying to invent something!"
+    pigeon "Ich sehe, dass du versuchst, etwas zu erfinden!"
 
 # game/script.rpy:1875
 translate german ch5_sky_64b6f7e9:
 
     # alice "I—I’m a little girl..."
-    alice "I—I’m a little girl..."
+    alice "Ich bin ein kleines Mädchen..."
 
 # game/script.rpy:1876
 translate german ch5_sky_e8ead513:
 
     # "Said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day."
-    "Alice said, feeling unsure, as she thought about all the changes she had experienced that day."
+    pass
 
 # game/script.rpy:1878
 translate german ch5_sky_92e5c999:
 
     # pigeon "A likely story indeed!"
-    pigeon "That's hard to believe!"
+    pigeon "Das ist schwer zu glauben!"
 
 # game/script.rpy:1879
 translate german ch5_sky_f0be80d9:
 
     # pigeon "I’ve seen a good many little girls in my time, but never one with such a neck as that!"
-    pigeon "I've seen many girls before, but never one with a neck like that!"
+    pigeon "Ich habe schon viele Mädchen gesehen, aber noch keins mit so einem langen Hals wie bei dir!"
 
 # game/script.rpy:1880
 translate german ch5_sky_6ecd0cec:
 
     # pigeon "No, no! You’re a serpent; and there’s no use denying it."
-    pigeon "No, you are a sneaky snake, and you can't hide that fact."
+    pigeon "Nein, du bist eine hinterhältige Schlange, und du kannst mich nicht verarschen!"
 
 # game/script.rpy:1881
 translate german ch5_sky_41f454ed:
 
     # pigeon "I suppose you’ll be telling me next that you never tasted an egg!"
-    pigeon "I am guessing next you're going to say that you've never even ate an egg!"
+    pigeon "Als nächstes wirst du noch behaupten, dass du noch nie ein Ei gegessen hast!"
 
 # game/script.rpy:1883
 translate german ch5_sky_85eb4d6d:
 
     # alice "I have tasted eggs, certainly, but little girls eat eggs quite as much as serpents do, you know."
-    alice "I have eaten eggs before, but little girls eat eggs just like snakes do."
+    alice "Ich habe schon mal Eier gegessen, aber kleine Mädchen essen Eier genauso wie Schlangen."
 
 # game/script.rpy:1885
 translate german ch5_sky_0069d6cc:
 
     # pigeon "I don’t believe it, but if they do, why then they’re a kind of serpent, that’s all I can say."
-    pigeon "I don't think so, but if they do, they are like a snake, that's all I can say."
+    pigeon "Das glaube ich nicht! Aber wenn sie es tun, dann sind sie genauso schlimm wie Schlangen!"
 
 # game/script.rpy:1887
 translate german ch5_sky_cc63d83d:
 
     # "This was such a new idea to Alice, that she was quite silent for a minute or two."
-    "Alice never heard of such a thing, so she stayed quiet for a minute or two."
+    "So etwas hatte Alice noch nie gehört und es verschlug ihr die Sprache."
 
 # game/script.rpy:1888
 translate german ch5_sky_a20cefa7:
@@ -3337,85 +3337,85 @@ translate german ch5_sky_a20cefa7:
 translate german ch5_sky_1161e301:
 
     # pigeon "You’re looking for eggs, I know that well enough; and what does it matter to me whether you’re a little girl or a serpent?"
-    pigeon "You want eggs, I know that. It doesn't matter to me if you're a girl or a snake."
+    pigeon "Du willst Eier, das weiß ich. Es ist mir egal, ob du ein Mädchen oder eine Schlange bist."
 
 # game/script.rpy:1892
 translate german ch5_sky_9741bbb6:
 
     # alice "It matters a good deal to me, but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want yours: I don’t like them raw."
-    alice "It's important to me, but I'm not searching for eggs right now. And even if I was, I wouldn't want yours because I don't enjoy eating them raw."
+    alice "Mir ist das nicht egal, aber ich suche gerade nicht nach Eiern. Und selbst wenn ich es täte, würde ich deine nicht wollen, weil ich sie nur gekocht esse."
 
 # game/script.rpy:1894
 translate german ch5_sky_c1f73f5a:
 
     # pigeon "Well, be off, then!"
-    pigeon "Go away then!"
+    pigeon "Dann geh weg!"
 
 # game/script.rpy:1895
 translate german ch5_sky_d36c2de1:
 
     # "Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it."
-    "Alice crouched down among the trees and tried to move carefully because her neck kept getting caught in the branches."
+    "Alice hockte sich zwischen den Bäumen hinab und versuchte sich vorsichtig zu bewegen, weil ihr Nacken immer wieder in den Ästen hängen blieb."
 
 # game/script.rpy:1896
 translate german ch5_sky_bdc58d1e:
 
     # "After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height."
-    "After some time, she remembered she had both pieces of mushroom in her hands. She ate them carefully, taking small bites from one piece and then the other. Sometimes she grew taller, and other times shorter, until she returned to her usual height."
+    "Nach einiger Zeit erinnerte sie sich daran, dass sie immer noch beide Pilzstücke in den Händen hatte. Sie aß sie vorsichtig, nahm kleine Bisse von einem Stück und dann vom anderen. Manchmal wurde sie größer, und manchmal kleiner, bis sie wieder ihre normale Größe erreichte."
 
 # game/script.rpy:1906
 translate german ch5_sky_17601330:
 
     # "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
-    "It had been a really long time since she was the right size. It felt strange at first, but she got used to it quickly and started talking to herself as she always did."
+    "Es war schon eine lange Zeit her, seit sie die richtige Größe hatte. Zuerst fühlte es sich komisch an, aber sie gewöhnte sich schnell daran und fing an, mit sich selbst zu reden, wie sie es immer tat."
 
 # game/script.rpy:1910
 translate german ch5_sky_64e4b308:
 
     # alice "Come, there’s half my plan done now!"
-    alice "Great, half of my plan is completed now!"
+    alice "Super, die Hälfte meines Plans ist jetzt abgeschlossen!"
 
 # game/script.rpy:1911
 translate german ch5_sky_a585b1f6:
 
     # alice "How puzzling all these changes are!"
-    alice "All these changes are so confusing!"
+    alice "Alles ist hier so komisch!"
 
 # game/script.rpy:1912
 translate german ch5_sky_f10d60e8:
 
     # alice "I’m never sure what I’m going to be, from one minute to another!"
-    alice "I never know what I will become next!"
+    alice "Ich weiß nie, was als nächstes passieren wird!"
 
 # game/script.rpy:1913
 translate german ch5_sky_9bd8b79d:
 
     # alice "However, I’ve got back to my right size: the next thing is, to get into that beautiful garden—how is that to be done, I wonder?"
-    alice "But now I'm the right size again. The next step is figuring out how to get into that lovely garden. I wonder how to do that."
+    alice "Der nächste Schritt ist rauszufinden, wie ich in diesen schönen Garten komme. Ich frage mich, wie das geht."
 
 # game/script.rpy:1918
 translate german ch5_sky_ff3f6f52:
 
     # "She came suddenly upon an open place, with a little house in it about four feet high."
-    "Suddenly, she found a small house about 1 meter high."
+    "Plötzlich entdeckte sie ein kleines Haus, dass etwa 1 Meter hoch war."
 
 # game/script.rpy:1919
 translate german ch5_sky_6508c091:
 
     # alice "Whoever lives there, it’ll never do to come upon them this size: why, I should frighten them out of their wits!"
-    alice "If I go there now, I might scare whoever lives there because of my size."
+    alice "Wenn ich da jetzt so hingehe, erschecke ich die bestimmt wegen meiner Größe."
 
 # game/script.rpy:1922
 translate german ch5_sky_3fdb37f1:
 
     # "So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high."
-    "She ate a bit of the mushroom and shrank to 20 centimeters before entering the house."
+    "Sie aß ein bisschen von dem Pilz und schrumpfte auf 20 Zentimeter, bevor sie ins Haus ging."
 
 # game/script.rpy:1926
 translate german chapter6_c9d2dcd0:
 
     # "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
-    "{size=+40}Kapitel VI: \n{/size}Pig and Pepper"
+    "{size=+40}Kapitel VI: \n{/size}Ferkel and Pfeffer"
 
 # game/script.rpy:1935
 translate german chapter6_f46a236d:
