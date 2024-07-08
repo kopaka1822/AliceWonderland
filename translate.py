@@ -1,0 +1,123 @@
+import os
+from openai import OpenAI
+from prompt_toolkit import prompt # pip install prompt_toolkit
+import sys
+
+# Load API key from environment variable for security
+api_key = os.getenv('OPENAI_API_KEY')
+if not api_key:
+    print("Error: The OpenAI API key is not set. Please set the OPENAI_API_KEY environment variable.")
+    sys.exit(1)
+
+client = OpenAI(api_key=api_key)
+
+# File path and start line
+file_path = "game/tl/german/script.rpy"
+start_line = 4250
+
+# Translation instructions
+default_instructions = "Translate the following English text into German. Use vocabulary and grammar that is common in today's German language and suitable for a 10 year old native speaker. Split very long sentences into smaller sentences. Only output the translation."
+alice_instructions = "Translate the following English text into German. The text is from a dialogue of a young 10 year old girl. Translate it in a way that would be common for a 10 year old German in 2020 and use German teenage slang without making it cringe. Only output the translation."
+
+def ask_AI(prompt_text, instructions=default_instructions):
+    try:
+        completion = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": instructions},
+                {"role": "user", "content": prompt_text}
+            ]
+        )
+        return completion.choices[0].message.content
+    except Exception as e:
+        print(f"Error communicating with OpenAI API: {e}")
+        return None
+
+def read_lines_from_file():
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            lines = file.readlines()
+        return lines
+    except FileNotFoundError:
+        print(f"Error: File {file_path} not found.")
+        sys.exit(1)
+
+def write_line_to_file(line_number, new_line):
+    with open(file_path, 'r+', encoding='utf-8') as file:
+        lines = file.readlines()
+        lines[line_number] = new_line
+        file.seek(0)
+        file.truncate(0)
+        file.writelines(lines)
+    return lines
+
+def replace_last(s, old, new):
+    s_reversed = s[::-1]
+    s_reversed_replaced = s_reversed.replace(old[::-1], new[::-1], 1)
+    s_replaced = s_reversed_replaced[::-1]
+    return s_replaced
+
+def process_lines():
+    lines = read_lines_from_file()
+    i = max(start_line - 1, 0)
+    last_comment = ""
+
+    while i < len(lines):
+        line = lines[i]
+        i += 1
+        stripped_line = line.strip()
+
+        if stripped_line.startswith('#'):
+            last_comment = stripped_line
+            continue
+        if stripped_line.startswith("translate") or stripped_line.startswith("\"{size=+40}Chapter"):
+            continue
+
+        parts = stripped_line.split('"', 1)
+        if len(parts) < 2:
+            continue
+
+        quote = parts[1][0:-1]
+        brackets = False
+        if quote.startswith("(") and quote.endswith(")"):
+            brackets = True
+            quote = quote[1:-1]
+
+        os.system('cls')
+        console_input = ""
+        print(last_comment)
+        print(f"Original line {i}/{len(lines) + 1} ({round(i / len(lines) * 100.0, 2)}%): {stripped_line}")
+        print("Enter to skip.\ng to generate with OpenAI\na alice dialogue\np to pass line\nb to go back\nAny other text to replace:")
+
+        while True:
+            user_input = prompt("> ", default=console_input).strip()
+
+            if user_input == "g":
+                console_input = ask_AI(quote)
+            elif user_input == "a":
+                console_input = ask_AI(quote, alice_instructions)
+            elif user_input == "c":
+                console_input = quote
+            elif user_input == "p":
+                white_spaces = len(line) - len(line.lstrip())
+                lines = write_line_to_file(i - 1, " " * white_spaces + "pass\n")
+                user_input = None
+                break
+            elif user_input == "b":
+                i -= 8
+                user_input = None
+                break
+            else:
+                break
+
+        if user_input:
+            if brackets and user_input.endswith("."):
+                user_input = user_input[:-1]
+            if brackets and user_input.startswith("(") and user_input.endswith(")"):
+                user_input = user_input[1:-1]
+            user_input = user_input.replace('"', "'")
+            modified_line = replace_last(line, quote, user_input)
+            lines = write_line_to_file(i - 1, modified_line)
+
+if __name__ == "__main__":
+    process_lines()
