@@ -13,21 +13,25 @@ client = OpenAI(api_key=api_key)
 
 # File path and start line
 file_path = "game/tl/german/script.rpy"
-start_line = 4250
+start_line = 5030
 
 # Translation instructions
 default_instructions = "Translate the following English text into German. Use vocabulary and grammar that is common in today's German language and suitable for a 10 year old native speaker. Split very long sentences into smaller sentences. Only output the translation."
 alice_instructions = "Translate the following English text into German. The text is from a dialogue of a young 10 year old girl. Translate it in a way that would be common for a 10 year old German in 2020 and use German teenage slang without making it cringe. Only output the translation."
 
-def ask_AI(prompt_text, instructions=default_instructions):
+history = [
+    {"role": "system", "content": "Translate the following English text from alice in wonderland into German. Use vocabulary and grammar that is common in today's German language and suitable for a 10 year old native speaker. Split very long sentences into smaller sentences. The input format from the user will be <sayer>: <quote>. Only output the translation of the quote. If the sayer is alice, translate it in a way that would be common for a 10 year old German in 2020 and use German teenage slang without making it cringe. If the user input starts with 'instruct:' edit the previous user translation as requested. After the translation the user will supply its accepted translation. Please make sure to stay consistent with the user edits for future translations"}
+]
+
+def ask_AI(prompt):
     try:
+        history.append({"role": "user", "content": prompt})
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": instructions},
-                {"role": "user", "content": prompt_text}
-            ]
+            messages=history
         )
+        respone = completion.choices[0].message.content
+        history.append({"role": "assistant", "content": respone})
         return completion.choices[0].message.content
     except Exception as e:
         print(f"Error communicating with OpenAI API: {e}")
@@ -77,6 +81,11 @@ def process_lines():
         if len(parts) < 2:
             continue
 
+        sayer = parts[0].strip()
+        # if sayer is empty, its the narrator
+        if len(sayer) == 0:
+            sayer = "narrator"
+
         quote = parts[1][0:-1]
         brackets = False
         if quote.startswith("(") and quote.endswith(")"):
@@ -93,9 +102,10 @@ def process_lines():
             user_input = prompt("> ", default=console_input).strip()
 
             if user_input == "g":
-                console_input = ask_AI(quote)
-            elif user_input == "a":
-                console_input = ask_AI(quote, alice_instructions)
+                console_input = ask_AI(f"{sayer}: {quote}")
+            elif user_input == "m":
+                intruction = prompt("> ", default="").strip()
+                console_input = ask_AI(f"instruct: {intruction}")
             elif user_input == "c":
                 console_input = quote
             elif user_input == "p":
@@ -116,6 +126,8 @@ def process_lines():
             if brackets and user_input.startswith("(") and user_input.endswith(")"):
                 user_input = user_input[1:-1]
             user_input = user_input.replace('"', "'")
+
+            history.append({"role": "user", "content": f"{sayer}: {user_input}"})
             modified_line = replace_last(line, quote, user_input)
             lines = write_line_to_file(i - 1, modified_line)
 

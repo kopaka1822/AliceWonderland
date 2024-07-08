@@ -4247,13 +4247,13 @@ translate german chapter7_a83b007d:
 translate german chapter7_c36793a5:
 
     # "There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head."
-    "Vor dem Haus stand ein gedeckter Tisch, an dem der Märzhase und der Hutmacher saßen und Tee tranken. Ein Siebenschläfer schlief zwischen ihnen, und die beiden benutzten ihn wie ein Kissen, legten ihre Ellbogen darauf ab und plauderten über seinem Kopf."
+    "Vor dem Haus stand ein gedeckter Tisch, an dem der Märzhase und der Hutmacher saßen und Tee tranken. Eine Haselmaus schlief zwischen ihnen, und die beiden benutzten ihn wie ein Kissen, legten ihre Ellbogen darauf ab und plauderten über seinem Kopf."
 
 # game/script.rpy:2420
 translate german chapter7_024c4018:
 
     # alice "(Very uncomfortable for the Dormouse, only, as it’s asleep, I suppose it doesn’t mind)"
-    alice "(Ziemlich unbequem für den Siebenschläfer, aber ist wohl egal weil er schläft)"
+    alice "(Ziemlich unbequem für die Haselmaus, aber ist wohl egal weil er schläft)"
 
 # game/script.rpy:2422
 translate german chapter7_cf7052bc:
@@ -4283,7 +4283,7 @@ translate german chapter7_e16fd9c4:
 translate german chapter7_099a2d60:
 
     # hare "Have some wine."
-    hare "Nimm dir etwas Wein"
+    hare "Nimm dir etwas Wein."
 
 # game/script.rpy:2445
 translate german chapter7_b7cb2bf7:
@@ -4313,7 +4313,7 @@ translate german chapter7_42cc716f:
 translate german chapter7_98119d5f:
 
     # hare "It wasn’t very civil of you to sit down without being invited."
-    hare "Es war auch nicht nett sich einfach hinzusetzen, ohne vorher zu fragen"
+    hare "Es war auch nicht nett von dir, sich einfach hinzusetzen, ohne vorher zu fragen"
 
 # game/script.rpy:2465
 translate german chapter7_94a671d0:
@@ -4325,7 +4325,7 @@ translate german chapter7_94a671d0:
 translate german chapter7_93fb1a5e:
 
     # hatter "Your hair wants cutting."
-    hatter "Du solltest mal wieder zum Friseur."
+    hatter "Du solltest mal wieder die Haare schneiden lassen."
 
 # game/script.rpy:2472
 translate german chapter7_2519e6cb:
@@ -4367,7 +4367,7 @@ translate german chapter7_c41fdd10:
 translate german chapter7_4b604fbf:
 
     # hare "Do you mean that you think you can find out the answer to it?"
-    hare "Meinst du, dass du glaubst, dass du die Antwort darauf herausfinden kannst?"
+    hare "Meinst du, du kannst die Antwort darauf herausfinden?"
 
 # game/script.rpy:2495
 translate german chapter7_b57db509:
@@ -4397,13 +4397,13 @@ translate german chapter7_6cb22e6f:
 translate german chapter7_cd0c91de:
 
     # hare "You might just as well say, that ‘I like what I get’ is the same thing as ‘I get what I like’!"
-    hare "Man könnte auch sagen, dass 'Ich mag, was ich bekomme' das Gleiche ist wie 'Ich bekomme, was ich mag'!"
+    hare "Oder 'Ich mag, was ich bekomme' ist das dasselbe wie 'Ich bekomme, was ich mag'!"
 
 # game/script.rpy:2515
 translate german chapter7_a14d85b5:
 
     # dormouse "You might just as well say, that ‘I breathe when I sleep’ is the same thing as ‘I sleep when I breathe’!"
-    dormouse "Man könnte auch sagen, dass 'Ich atme, wenn ich schlafe' dasselbe ist wie 'Ich schlafe, wenn ich atme'!"
+    dormouse "Oder 'Ich atme, wenn ich schlafe' ist das dasselbe wie 'Ich schlafe, wenn ich atme'!"
 
 # game/script.rpy:2519
 translate german chapter7_fce7cb84:
@@ -4427,7 +4427,7 @@ translate german chapter7_b82ac6da:
 translate german chapter7_806e9346:
 
     # hatter "What day of month is it?"
-    hatter "An welchem Tag des Monats haben wir heute?"
+    hatter "Welchen Tag des Monats haben wir heute?"
 
 # game/script.rpy:2531
 translate german chapter7_488abc92:
@@ -4463,7 +4463,7 @@ translate german chapter7_bc3800ab:
 translate german chapter7_30d6f6da:
 
     # hatter "I told you butter wouldn’t suit the works!"
-    hatter "Ich doch gesagt, dass Butter nicht dazu passt!"
+    hatter "Ich hab doch gesagt, dass Butter nicht dazu passt!"
 
 # game/script.rpy:2545
 translate german chapter7_6c24716c:
@@ -4529,7 +4529,7 @@ translate german chapter7_8859322a:
 translate german chapter7_93395907:
 
     # hatter "Which is just the case with mine."
-    hatter "Das ist bei mir auch der Fall"
+    hatter "Das ist bei mir auch der Fall."
 
 # game/script.rpy:2583
 translate german chapter7_afa73b41:
@@ -4547,25 +4547,25 @@ translate german chapter7_8886edee:
 translate german chapter7_88b0fa74:
 
     # alice "I don’t quite understand you."
-    alice "Ich checks nicht ganz, was du meinst."
+    alice "Ich check nicht ganz, was du meinst."
 
 # game/script.rpy:2589
 translate german chapter7_63d9079a:
 
     # hatter "The Dormouse is asleep again."
-    hatter "Der Siebenschläfer ist wieder eingeschlafen."
+    hatter "Die Haselmaus ist wieder eingeschlafen."
 
 # game/script.rpy:2594
 translate german chapter7_e0ea96c6:
 
     # "He poured a little hot tea upon its nose."
-    "Er goss etwas heißen Tee auf seine Nase."
+    "Er goss etwas heißen Tee auf ihre Nase."
 
 # game/script.rpy:2595
 translate german chapter7_dbe17320:
 
     # "The Door-mouse shook its head impatiently, and said, without opening its eyes:"
-    "Der Siebenschläfer schüttelte den Kopf und sagte schnell, ohne ihre Augen zu öffnen:"
+    "Die Haselmaus schüttelte den Kopf und sagte schnell, ohne ihre Augen zu öffnen:"
 
 # game/script.rpy:2599
 translate german chapter7_a1c30eff:
@@ -4613,7 +4613,7 @@ translate german chapter7_dde449a1:
 translate german chapter7_f26ef415:
 
     # hatter "If you knew Time as well as I do, you wouldn’t talk about wasting it. It’s him."
-    hatter "Wenn du die Zeit so gut kennen würdest wie ich, würdest du nicht davon reden, sie zu verschwenden. Sie ist eine wichtige Person."
+    hatter "Wenn du Zeit so gut kennen würdest wie ich, würdest du nicht davon reden, sie zu verschwenden. Sie ist eine wichtige Person."
 
 # game/script.rpy:2630
 translate german chapter7_bf7c23c6:
@@ -4643,7 +4643,7 @@ translate german chapter7_3d220479:
 translate german chapter7_688503d1:
 
     # hatter "For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!"
-    hatter "Stell dir vor, es ist neun Uhr morgens, Zeit für den Unterricht. Wenn du Zeit anflüsterst, bewegt sich die Uhr schnell vorwärts. Plötzlich ist es halb zwei, Zeit für das Mittagessen!"
+    hatter "Stell dir vor, es ist neun Uhr morgens, Zeit für den Unterricht. Wenn du Zeit nett bittest, bewegt sich Zeit schnell vorwärts. Plötzlich ist es halb zwei, Zeit für das Mittagessen!"
 
 # game/script.rpy:2648
 translate german chapter7_19dcb579:
@@ -4679,7 +4679,7 @@ translate german chapter7_2da1b657:
 translate german chapter7_99cce707:
 
     # hatter "Not I! We quarrelled last March—just before he went mad, you know—"
-    hatter "Nein, ich nicht! Wir haben uns letzten März mit Zeit gestritten, kurz bevor er seinen Verstand verloren hat, weißt du."
+    hatter "Nein, leider nicht! Wir haben uns letzten März mit Zeit gestritten, kurz bevor der Hase seinen Verstand verloren hat, weißt du."
 
 # game/script.rpy:2669
 translate german chapter7_809303d7:
@@ -4691,7 +4691,7 @@ translate german chapter7_809303d7:
 translate german chapter7_62463f1c:
 
     # hatter "It was at the great concert given by the Queen of Hearts, and I had to sing\n‘Twinkle, twinkle, little bat!\nHow I wonder what you’re at!’"
-    hatter "Es war bei dem großen Konzert der Herzkönigin, und ich musste singen. 'Funkel, funkel, kleine Maus,\n Schlüpfst du heimlich aus dem Haus.'"
+    hatter "Es war bei dem großen Konzert der Herzkönigin, und ich musste singen: \n'Funkel, funkel, kleine Maus,\n Schlüpfst du heimlich aus dem Haus.'"
 
 # game/script.rpy:2672
 translate german chapter7_1d6544a1:
@@ -4715,13 +4715,13 @@ translate german chapter7_bc8c4a41:
 translate german chapter7_b92475cb:
 
     # hatter "Up above the world you fly,\nLike a tea-tray in the sky.\nTwinkle, twinkle—"
-    hatter "Kauernd an dem Käse fein,\n Kannst du wohl recht glücklich sein.\nFunkel, funkel-"
+    hatter "Kauend an dem Käse fein,\n Kannst du wohl recht glücklich sein.\nFunkel, funkel-"
 
 # game/script.rpy:2684
 translate german chapter7_ef6ef70a:
 
     # "Here the Dormouse shook itself, and began singing in its sleep:"
-    "Der Siebenschläfer schüttelte sich und fing an, im Schlaf zu singen."
+    "Die Haselmaus schüttelte sich und fing an, im Schlaf zu singen."
 
 # game/script.rpy:2688
 translate german chapter7_7ab40cf4:
@@ -4751,7 +4751,7 @@ translate german chapter7_55a7f156:
 translate german chapter7_74ce6ae1:
 
     # hatter "And ever since that, he won’t do a thing I ask! It’s always six o’clock now."
-    hatter "Seitdem weigert er sich, zu tun, was ich frage! Es ist immer 15 Uhr jetzt."
+    hatter "Seitdem weigert er sich, zu tun, was ich bitte! Es ist jetzt permanent 15 Uhr."
 
 # game/script.rpy:2708
 translate german chapter7_af05f5d6:
@@ -4769,103 +4769,103 @@ translate german chapter7_be108507:
 translate german chapter7_f1230a81:
 
     # hatter "Yes, that’s it, it’s always tea-time, and we’ve no time to wash the things between whiles."
-    hatter "Yes, that's right, it's always time for tea, and we don't have time to wash the dishes in between."
+    hatter "Ja, das stimmt, es ist immer Zeit für Tee, und wir haben keine Zeit, zwischendurch das Geschirr zu waschen."
 
 # game/script.rpy:2718
 translate german chapter7_e56b238e:
 
     # alice "Then you keep moving round, I suppose?"
-    alice "So, you continue moving in a circle, right?"
+    alice "Also geht ihr immer im Kreis weiter oder wie?"
 
 # game/script.rpy:2722
 translate german chapter7_8b440eaf:
 
     # hatter "Exactly so, as the things get used up."
-    hatter "That's right, as things get used up."
+    hatter "Genau, wenn Sachen benutzt wurden geht es im Kreis weiter."
 
 # game/script.rpy:2727
 translate german chapter7_32d8e5cc:
 
     # alice "But what happens when you come to the beginning again?"
-    alice "But what happens when you come to the beginning again?"
+    alice "Aber was passiert, wenn du wieder am Anfang ankommst?"
 
 # game/script.rpy:2731
 translate german chapter7_5046cf0d:
 
     # hare "Suppose we change the subject. I’m getting tired of this. I vote the young lady tells us a story."
-    hare "Let's talk about something else. I'm bored. I think the young lady should tell us a story."
+    hare "Lass uns über etwas anderes reden. Mir ist langweilig. Ich glaube, die junge Dame sollte uns eine Geschichte erzählen."
 
 # game/script.rpy:2736
 translate german chapter7_9e79d860:
 
     # alice "I’m afraid I don’t know one."
-    alice "I'm sorry, but I don't know one."
+    alice "Sorry, aber ich kenne keine."
 
 # game/script.rpy:2740
 translate german chapter7_fc10c3d8:
 
     # everyone "Then the Dormouse shall! Wake up, Dormouse!"
-    everyone "Then the Dormouse should! Wake up, Dormouse!"
+    everyone "Dann eben die Haselmaus! Wach auf du Schlafmaus!"
 
 # game/script.rpy:2742
 translate german chapter7_a73668c0:
 
     # "And they pinched it on both sides at once."
-    "And they pinched it on both sides at once."
+    "Und sie drückten sie gleichzeitig von beiden Seiten zusammen."
 
 # game/script.rpy:2745
 translate german chapter7_71193301:
 
     # "The Dormouse slowly opened his eyes."
-    "The Dormouse slowly opened his eyes."
+    "Die Haselmaus öffnete langsam ihre Augen."
 
 # game/script.rpy:2748
 translate german chapter7_ced1f71a:
 
     # dormouse "I wasn’t asleep, I heard every word you fellows were saying."
-    dormouse "I wasn't asleep. I heard everything you guys said."
+    dormouse "Ich hab nicht geschlafen. Ich habe alles gehört, was ihr gesagt habt."
 
 # game/script.rpy:2752
 translate german chapter7_6ac3f79c:
 
     # hare "Tell us a story!"
-    hare "Tell us a story!"
+    hare "Erzähl uns eine Geschichte!"
 
 # game/script.rpy:2757
 translate german chapter7_577f5641:
 
     # alice "Yes, please do!"
-    alice "Yes, please do!"
+    alice "Ja, bitte!"
 
 # game/script.rpy:2761
 translate german chapter7_31a7e4b3:
 
     # hatter "And be quick about it, or you’ll be asleep again before it’s done."
-    hatter "Hurry up, or you'll fall asleep before it's finished."
+    hatter "Beeil dich, sonst schläfst du wieder ein, bevor du fertig bist."
 
 # game/script.rpy:2765
 translate german chapter7_48a56481:
 
     # dormouse "Once upon a time there were three little sisters, and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—"
-    dormouse "Once there were three little sisters named Elsie, Lacie, and Tillie. They lived at the bottom of a well."
+    dormouse "Es waren einmal drei kleine Geschwister namens Sarah, Christian und Felix. Sie lebten am Boden eines Brunnens."
 
 # game/script.rpy:2770
 translate german chapter7_942f3f7b:
 
     # alice "What did they live on?"
-    alice "What did they eat?"
+    alice "Was haben sie gegessen?"
 
 # game/script.rpy:2772
 translate german chapter7_fb1a241e:
 
     # "Alice always took a great interest in questions of eating and drinking."
-    pass
+    "Alice war immer sehr neugierig wenn es um Essen oder Trinken ging."
 
 # game/script.rpy:2777
 translate german chapter7_bd3a65d4:
 
     # dormouse "They lived on treacle."
-    dormouse "They lived on syrup."
+    dormouse "Sie lebten von Sirup."
 
 # game/script.rpy:2779
 translate german chapter7_a20cefa7:
@@ -4877,37 +4877,37 @@ translate german chapter7_a20cefa7:
 translate german chapter7_f1a8385b:
 
     # alice "They couldn’t have done that, you know, they’d have been ill."
-    alice "They couldn't do that because it would have made them sick."
+    alice "Das geht nicht, die wären doch krank geworden."
 
 # game/script.rpy:2789
 translate german chapter7_26852f98:
 
     # dormouse "So they were, very ill..."
-    dormouse "So they were very sick..."
+    dormouse "Und das waren sie, sehr krank..."
 
 # game/script.rpy:2793
 translate german chapter7_271970d0:
 
     # "Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on:"
-    "Alice tried to imagine what it would be like to live in such a strange way, but it was too confusing for her, so she went on:"
+    "Alice versuchte sich vorzustellen, wie es wäre, auf so seltsame Weise zu leben. Doch es war zu verwirrend für sie."
 
 # game/script.rpy:2795
 translate german chapter7_a68c3875:
 
     # alice "But why did they live at the bottom of a well?"
-    alice "But why did they live at the bottom of a well?"
+    alice "Aber warum haben sie am Boden eines Brunnens gelebt?"
 
 # game/script.rpy:2799
 translate german chapter7_219bdfe5:
 
     # hare "Take some more tea."
-    hare "Take some more tea."
+    hare "Nimm ruhig noch etwas Tee."
 
 # game/script.rpy:2805
 translate german chapter7_96b01b51:
 
     # alice "I’ve had nothing yet, so I can’t take more."
-    alice "*offended* I’ve had nothing yet, so I can’t take more."
+    alice "*beleidigt* Ich habe bis jetzt noch keinen gehabt, also kann ich mir auch nicht noch mehr davon nehmen."
 
 # game/script.rpy:2807
 translate german chapter7_ec7fd6cd:
@@ -4919,49 +4919,49 @@ translate german chapter7_ec7fd6cd:
 translate german chapter7_f9e8948d:
 
     # hatter "You mean you can’t take less. It’s very easy to take more than nothing."
-    hatter "You mean you can’t take less. It’s very easy to take more than nothing."
+    hatter "Du meinst, du kannst nicht weniger nehmen? Es ist sehr einfach, mehr als nichts zu nehmen."
 
 # game/script.rpy:2816
 translate german chapter7_e8b0b734:
 
     # alice "Nobody asked your opinion."
-    alice "Nobody asked your opinion."
+    alice "Niemand hat dich gefragt."
 
 # game/script.rpy:2820
 translate german chapter7_45b32f10:
 
     # hatter "Who’s making personal remarks now?"
-    hatter "Who's making mean comments now?"
+    hatter "Wer macht hier jetzt fiese Kommentare?"
 
 # game/script.rpy:2826
 translate german chapter7_7160062f:
 
     # "Alice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question."
-    "Alice wasn't sure what to say, so she had some tea and bread-and-butter. Then she asked the Dormouse the same question again."
+    "Alice war sich nicht sicher, was sie sagen sollte. Also trank sie etwas Tee und aß Brot mit Butter. Danach stellte sie der Haselmaus die gleiche Frage noch einmal."
 
 # game/script.rpy:2830
 translate german chapter7_19870dda:
 
     # "The Dormouse again took a minute or two to think about it."
-    "The Dormouse took a moment to think about it again."
+    "Die Haselmaus nahm sich einen Moment Zeit, um wieder darüber nachzudenken."
 
 # game/script.rpy:2832
 translate german chapter7_c2f46b58:
 
     # dormouse "It was a treacle-well."
-    dormouse "It was a syrup-well."
+    dormouse "Es war ein Sirup-Brunnen."
 
 # game/script.rpy:2838
 translate german chapter7_5be1fd3f:
 
     # alice "There’s no such thing!"
-    alice "No, that doesn't exist!"
+    alice "Nee, das gibt's doch gar nicht!"
 
 # game/script.rpy:2840
 translate german chapter7_1f1e39e0:
 
     # "Alice was beginning very angrily, but the Hatter and the March Hare went."
-    "Alice started to get very angry, but the Mad Hatter and the March Hare said:"
+    "Alice fing an, sehr wütend zu werden, aber der verrückte Hutmacher und der Märzhase unterbrachen:"
 
 # game/script.rpy:2844
 translate german chapter7_4bdf13a8:
@@ -4973,103 +4973,103 @@ translate german chapter7_4bdf13a8:
 translate german chapter7_da1fb0d2:
 
     # dormouse "If you can’t be civil, you’d better finish the story for yourself."
-    dormouse "If you can't be polite, you should finish the story on your own."
+    dormouse "Wenn der Kuchen spricht, sind die Krümel leise. Oder willst du die Geschichte zu Ende erzählen?"
 
 # game/script.rpy:2854
 translate german chapter7_56bdf112:
 
     # alice "No, please go on! I won’t interrupt again. I dare say there may be one."
-    alice "Please continue. I promise not to speak while you're talking."
+    alice "Nee, tut mir leid. Ich halte jetzt die Klappe."
 
 # game/script.rpy:2858
 translate german chapter7_eabb6a7b:
 
     # dormouse "One, indeed!"
-    dormouse "I hope so!"
+    dormouse "Das hoffe ich!"
 
 # game/script.rpy:2859
 translate german chapter7_2ec8e285:
 
     # dormouse "And so these three little sisters—they were learning to draw, you know—"
-    dormouse "And so these three little sisters—they were learning to draw, you know—"
+    dormouse "Und die drei kleinen Geschwister - sie lernten schöpfen, weißt du?"
 
 # game/script.rpy:2864
 translate german chapter7_ee15a6eb:
 
     # alice "What did they draw?"
-    alice "What did they draw?"
+    alice "Was haben sie geschöpft?"
 
 # game/script.rpy:2868
 translate german chapter7_cf110b9a:
 
     # dormouse "Treacle."
-    dormouse "Syrup"
+    dormouse "Sirup."
 
 # game/script.rpy:2872
 translate german chapter7_68402aec:
 
     # hatter "I want a clean cup, let’s all move one place on."
-    hatter "I want a clean cup, let’s all move one place on."
+    hatter "Ich will eine saubere Tasse, lasst uns alle einen Platz weiter gehen."
 
 # game/script.rpy:2895
 translate german ch7_reorder_2802cf4e:
 
     # "He moved on as he spoke, and the Dormouse followed him: the March Hare moved into the Dormouse’s place, and Alice rather unwillingly took the place of the March Hare. The Hatter was the only one who got any advantage from the change: and Alice was a good deal worse off than before, as the March Hare had just upset the milk-jug into his plate."
-    "As he talked, he moved on, the Dormouse took the Hatter's place, and then the March Hare took the Dormouse's place. Alice ended up sitting where the March Hare was before, not very happy about it. The Hatter was the only one who benefited from the change. Alice was worse of than before, because the March Hare had just spilled milk on his plate."
+    "Während er sprach, ging er weiter, die Haselmaus nahm den Platz vom Hutmacher ein, und dann nahm der Märzhase den Platz der Haselmaus ein. Alice landete, wo der Märzhase zuvor gesessen hatte, und war nicht sehr glücklich darüber. Nur der Hutmacher profitierte von dem Wechsel. Alice war schlechter dran als zuvor, denn der Märzhase hatte gerade Milch auf seinem Teller verschüttet."
 
 # game/script.rpy:2899
 translate german ch7_reorder_b6f1368b:
 
     # "Alice did not wish to offend the Dormouse again, so she began very cautiously:"
-    "Alice did not want to upset the Dormouse once more, so she spoke very carefully:"
+    "Alice wollte die Haselmaus nicht noch einmal verärgern, also sprach sie sehr vorsichtig:"
 
 # game/script.rpy:2904
 translate german ch7_reorder_76292422:
 
     # alice "But I don’t understand. Where did they draw the treacle from?"
-    alice "But I don't get it. Where did they draw the syrup from?"
+    alice "Aber ich versteh' nicht. Von wo haben sie den Sirup geschöpft?"
 
 # game/script.rpy:2908
 translate german ch7_reorder_fc39ae92:
 
     # hatter "You can draw water out of a water-well, so I should think you could draw treacle out of a treacle-well—eh, stupid?"
-    hatter "If you can draw water from a water-well, then you should also be able to draw syrup from a syrup-well. Isn't that obvious, silly?"
+    hatter "Wenn man Wasser aus einem Brunnen schöpfen kann, sollte man doch genauso Sirup aus einem Sirup-Brunnen schöpfen können. Das ist doch offensichtlich, oder nicht?"
 
 # game/script.rpy:2912
 translate german ch7_reorder_c36640db:
 
     # alice "But they were in the well."
-    alice "But they were in the well."
+    alice "Aber sie waren im Brunnen."
 
 # game/script.rpy:2916
 translate german ch7_reorder_829a5e18:
 
     # dormouse "Of course they were, well in."
-    dormouse "Of course they were, well in."
+    dormouse "Natürlich waren sie das, voll drin."
 
 # game/script.rpy:2918
 translate german ch7_reorder_c8764202:
 
     # "This answer so confused poor Alice, that she let the Dormouse go on for some time without interrupting it."
-    "Alice was so confused by this answer that she didn't interrupt the Dormouse for a while."
+    "Alice war von dieser Antwort so verwirrt, dass sie die Haselmaus eine Weile nicht unterbrach."
 
 # game/script.rpy:2920
 translate german ch7_reorder_3aba6447:
 
     # dormouse "They were learning to draw..."
-    dormouse "They were learning to draw..."
+    dormouse "Sie lernten alle möglichen Dinge zu schöpfen."
 
 # game/script.rpy:2921
 translate german ch7_reorder_749869d9:
 
     # "The Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy."
-    "The Dormouse kept talking while yawning and rubbing its eyes because it was feeling very tired."
+    "Die Haselmaus redete langsam weiter und rieb sich die Augen, weil sie sehr müde wurde."
 
 # game/script.rpy:2923
 translate german ch7_reorder_73fd030c:
 
     # dormouse "...and they drew all manner of things—everything that begins with an M———"
-    dormouse "...and they drew all manner of things—everything that begins with an M———"
+    dormouse "...und sie schöpften allerlei Dinge – alles was mit M anfängt..."
 
 # game/script.rpy:2926
 translate german ch7_reorder_a20cefa7:
@@ -5081,115 +5081,115 @@ translate german ch7_reorder_a20cefa7:
 translate german ch7_reorder_83cc258d:
 
     # alice "Why with an M?"
-    alice "Why with an M?"
+    alice "Warum mit einem M?"
 
 # game/script.rpy:2934
 translate german ch7_reorder_db92c3ea:
 
     # hare "Why not?"
-    hare "Why not?"
+    hare "Warum nicht?"
 
 # game/script.rpy:2935
 translate german ch7_reorder_e951f60a:
 
     # "Alice was silent."
-    "Alice was silent."
+    "Alice schwieg."
 
 # game/script.rpy:2939
 translate german ch7_reorder_f3ded51f:
 
     # "The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on:"
-    "The Dormouse had shut its eyes and was falling asleep. The Hatter pinched it, causing the Dormouse to wake up with a small scream and continued talking."
+    "Die Haselmaus hatte die Augen geschlossen und war fast eingeschlafen. Der Hutmacher zwackte sie, woraufhin die Haselmaus mit einem kleinen Schrei aufwachte und weiterredete."
 
 # game/script.rpy:2942
 translate german ch7_reorder_dae368a9:
 
     # dormouse "—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?"
-    dormouse "—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?"
+    dormouse "alles was mit M anfängt, wie Mausefallen, der Mond und die Menge. Weißt du, man sagt doch immer 'eine ganze Menge'. Hast du jemals eine Zeichnung von einer Menge gesehen?"
 
 # game/script.rpy:2946
 translate german ch7_reorder_e455aeaa:
 
     # alice "Really, now you ask me, I don’t think—"
-    alice "Now that you ask me, I don’t think—"
+    alice "Jetzt, wo du mich fragst, ich denke nicht-"
 
 # game/script.rpy:2950
 translate german ch7_reorder_734c735b:
 
     # hatter "Then you shouldn’t talk."
-    hatter "Then you shouldn’t talk."
+    hatter "Dann solltest du auch nicht sprechen."
 
 # game/script.rpy:2953
 translate german ch7_reorder_060e0570:
 
     # "This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot."
-    "Alice was very upset by the rude behavior. She stood up, left, and the Dormouse fell asleep instantly. The last time she looked back, they were trying to put the Dormouse into the teapot."
+    "Alice war sehr verärgert über das unhöfliche Verhalten. Sie stand auf, ging weg, und die Haselmaus schlief sofort ein. Als sie das letzte Mal zurückschaute, versuchten der Hutmacher und der Märzhase die arme Haselmaus in eine Teekanne zu stecken."
 
 # game/script.rpy:2960
 translate german ch7_reorder_09fddebe:
 
     # alice "At any rate I’ll never go there again!"
-    alice "I will never go there again!"
+    alice "Ich werde nie wieder dorthin gehen!"
 
 # game/script.rpy:2961
 translate german ch7_reorder_4cd41d95:
 
     # alice "It’s the stupidest tea-party I ever was at in all my life!"
-    alice "It was the stupidest tea-party I have ever been to in my whole life!"
+    alice "Das war die dümmste Teeparty, auf der ich jemals in meinem ganzen Leben war!"
 
 # game/script.rpy:2963
 translate german ch7_reorder_42702270:
 
     # "Just as she said this, she noticed that one of the trees had a door leading right into it."
-    "As she spoke, she saw a tree with a door in it."
+    "Als sie sprach, sah sie einen Baum mit einer Tür darin."
 
 # game/script.rpy:2966
 translate german ch7_reorder_944cade4:
 
     # alice "(That’s very curious!)"
-    alice "(That's very interesting!)"
+    alice "(Interessant!)"
 
 # game/script.rpy:2967
 translate german ch7_reorder_8552d0b9:
 
     # alice "(But everything’s curious today. I think I may as well go in at once)"
-    alice "(Everything is interesting today. I suppose I will go in now)"
+    alice "(Heute ist alles interessant. Ich glaube, ich gehe dort rein)"
 
 # game/script.rpy:2968
 translate german ch7_reorder_57be2e5f:
 
     # "And she went in."
-    "And she went in."
+    "Und sie ging hinein."
 
 # game/script.rpy:2971
 translate german ch7_reorder_3aa83355:
 
     # "Once more she found herself in the long hall, and close to the little glass table."
-    "She was back in the long hallway, near the small glass table."
+    "Sie befand sich wieder in dem langen Flur, in der Nähe des kleinen Glastisches."
 
 # game/script.rpy:2975
 translate german ch7_reorder_6e58ecd1:
 
     # alice "Now, I’ll manage better this time."
-    alice "I will do better this time."
+    alice "Diesmal werde ich es besser machen."
 
 # game/script.rpy:2976
 translate german ch7_reorder_f7b4dcc6:
 
     # "She began by taking the little golden key, and unlocking the door that led into the garden."
-    "She started by using the small golden key to open the door to the garden."
+    "Sie begann damit, den kleinen goldenen Schlüssel zu benutzen, um die Tür zum Garten zu öffnen."
 
 # game/script.rpy:2981
 translate german ch7_reorder_db90c965:
 
     # "Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and then—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains."
-    "After that, she ate a piece of the mushroom she kept in her pocket, and she grew to about 30 centimeters tall. Then, she walked through a narrow hallway and reached the beautiful garden with bright flowers and fountains."
+    "Dann aß sie ein Stück von dem Pilz, den sie in ihrer Tasche aufbewahrt hatte, und sie wuchs auf ungefähr 30 Zentimeter. Anschließend ging sie durch einen schmalen Flur und erreichte den wunderschönen Garten mit hellen Blumen und Springbrunnen."
 
 # game/script.rpy:2985
 translate german chapter8_a54d6f0e:
 
     # "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
-    "{size=+40}Kapitel VIII: \n{/size}The Queen's Croquet-Ground"
+    "{size=+40}Kapitel VIII: \n{/size}Das Krocketfeld der Königin"
 
 # game/script.rpy:3025
 translate german chapter8_daef47ab:
