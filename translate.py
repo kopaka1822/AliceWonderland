@@ -13,11 +13,7 @@ client = OpenAI(api_key=api_key)
 
 # File path and start line
 file_path = "game/tl/german/script.rpy"
-start_line = 5030
-
-# Translation instructions
-default_instructions = "Translate the following English text into German. Use vocabulary and grammar that is common in today's German language and suitable for a 10 year old native speaker. Split very long sentences into smaller sentences. Only output the translation."
-alice_instructions = "Translate the following English text into German. The text is from a dialogue of a young 10 year old girl. Translate it in a way that would be common for a 10 year old German in 2020 and use German teenage slang without making it cringe. Only output the translation."
+start_line = 5196
 
 history = [
     {"role": "system", "content": "Translate the following English text from alice in wonderland into German. Use vocabulary and grammar that is common in today's German language and suitable for a 10 year old native speaker. Split very long sentences into smaller sentences. The input format from the user will be <sayer>: <quote>. Only output the translation of the quote. If the sayer is alice, translate it in a way that would be common for a 10 year old German in 2020 and use German teenage slang without making it cringe. If the user input starts with 'instruct:' edit the previous user translation as requested. After the translation the user will supply its accepted translation. Please make sure to stay consistent with the user edits for future translations"}
@@ -96,7 +92,7 @@ def process_lines():
         console_input = ""
         print(last_comment)
         print(f"Original line {i}/{len(lines) + 1} ({round(i / len(lines) * 100.0, 2)}%): {stripped_line}")
-        print("Enter to skip.\ng to generate with OpenAI\na alice dialogue\np to pass line\nb to go back\nAny other text to replace:")
+        print("Enter to skip.\ng to generate with OpenAI\nm modify\np to pass line\nb to go back\nAny other text to replace:")
 
         while True:
             user_input = prompt("> ", default=console_input).strip()
