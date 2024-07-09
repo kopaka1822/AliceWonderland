@@ -6065,55 +6065,55 @@ translate german chapter9_9086c185:
 translate german chapter9_ec27667c:
 
     # duchess "You can’t think how glad I am to see you again, you dear old thing!"
-    duchess "I am so happy to see you again, my dear friend!"
+    duchess "Ich freue mich so sehr, dich wiederzusehen, meine Liebe!"
 
 # game/script.rpy:3760
 translate german chapter9_b267c1a6:
 
     # "The Duchess tucked her arm affectionately into Alice’s, and they walked off together."
-    "The Duchess put her arm lovingly around Alice, and they walked away together."
+    "Die Herzogin verschrenke liebevoll ihren Arm mit Alice's, und sie gingen davon."
 
 # game/script.rpy:3762
 translate german chapter9_57042d84:
 
     # "Alice was very glad to find her in such a pleasant temper, and thought to herself that perhaps it was only the pepper that had made her so savage when they met in the kitchen."
-    "Alice was glad to see that the Duchess was in a good mood. She believed that the Duchess was angry in the kitchen earlier because of all the pepper."
+    "Alice freute sich zu sehen, dass die Herzogin gut gelaunt war. Sie glaubte, dass die Herzogin in der Küche nur wegen des vielen Pfeffers so wütend war."
 
 # game/script.rpy:3767
 translate german chapter9_7ccc509b:
 
     # alice "(When I’m a Duchess, I won’t have any pepper in my kitchen at all)"
-    alice "(When I become a Duchess, I won't have any pepper in my kitchen)"
+    alice "(Wenn ich Herzogin werde, werde ich keinen Pfeffer in meiner Küche haben)"
 
 # game/script.rpy:3768
 translate german chapter9_26347513:
 
     # alice "(Soup does very well without—Maybe it’s always pepper that makes people hot-tempered, and vinegar that makes them sour—and camomile that makes them bitter—and—and barley-sugar and such things that make children sweet-tempered)"
-    alice "(Soup does very well without—Maybe it’s always pepper that makes people hot-tempered, and vinegar that makes them sour—and camomile that makes them bitter—and—and sugar that make children sweet-tempered)"
+    alice "(Suppe schmeckt auch ohne... Vielleicht ist es immer der Pfeffer, der Leute wütend macht, und Essig, der sie sauer macht, und Kaffee, der sie bitter macht, und... und Zucker, der die Kinder süß macht)"
 
 # game/script.rpy:3769
 translate german chapter9_6c4a5ea9:
 
     # alice "(I only wish people knew that: then they wouldn’t be so stingy about it, you know—)"
-    alice "(I only wish more people knew that)"
+    alice "(Ich wünschte nur, dass mehr Leute das wüssten)"
 
 # game/script.rpy:3772
 translate german chapter9_f7328e8b:
 
     # "She had quite forgotten the Duchess by this time, and was a little startled when she heard her voice close to her ear."
-    "She had completely forgotten about the Duchess, and was a bit surprised when she heard her voice right next to her."
+    "Sie hatte die Herzogin völlig vergessen und war ein bisschen überrascht, als sie ihre Stimme direkt neben sich hörte."
 
 # game/script.rpy:3775
 translate german chapter9_b68d7523:
 
     # duchess "You’re thinking about something, my dear, and that makes you forget to talk. I can’t tell you just now what the moral of that is, but I shall remember it in a bit."
-    duchess "You seem lost in thought, and that's why you're not speaking. I don't know the moral of it right now, but I will remember in a little while."
+    duchess "Worüber denkst du gerade nach? Du sagst ja gar nichts. Mir fällt die Moral dazu gerade nicht ein, gib mir bitte noch einen Moment."
 
 # game/script.rpy:3778
 translate german chapter9_4192033d:
 
     # alice "Perhaps it hasn’t one."
-    alice "Maybe it doesn't have a moral."
+    alice "Vielleicht hat es gar keine Moral."
 
 # game/script.rpy:3780
 translate german chapter9_8cda8f9a:
@@ -6125,55 +6125,55 @@ translate german chapter9_8cda8f9a:
 translate german chapter9_21776a78:
 
     # duchess "Everything’s got a moral, if only you can find it."
-    duchess "Everything’s got a moral."
+    duchess "Alles hat eine Moral."
 
 # game/script.rpy:3786
 translate german chapter9_2136bb77:
 
     # "And she squeezed herself up closer to Alice’s side as she spoke."
-    "She moved closer to Alice."
+    "Sie rückte näher an Alice heran."
 
 # game/script.rpy:3788
 translate german chapter9_0cec38d4:
 
     # "Alice did not much like keeping so close to her: first, because the Duchess was very ugly; and secondly, because she was exactly the right height to rest her chin upon Alice’s shoulder, and it was an uncomfortably sharp chin."
-    "Alice did not like standing so near to the Duchess because the Duchess was very ugly. Also, the Duchess's chin was sharp and exactly the right height to rest upon Alice's shoulder."
+    "Alice mochte es nicht, so nah bei der Herzogin zu stehen, denn die Herzogin war sehr hässlich. Außerdem war das Kinn der Herzogin spitz und genau die richtige Höhe, um auf Alice's Schulter zu ruhen."
 
 # game/script.rpy:3790
 translate german chapter9_62337af9:
 
     # alice "The game’s going on rather better now."
-    alice "The game is going well now."
+    alice "Das Spiel läuft gut jetzt."
 
 # game/script.rpy:3792
 translate german chapter9_415ea529:
 
     # duchess "’Tis so, and the moral of that is—‘Oh, ’tis love, ’tis love, that makes the world go round!’"
-    duchess "That's right, and the moral here is that love is what makes the world go round!"
+    duchess "Genau, und die Moral hier ist, dass Liebe die Welt drehen lässt!"
 
 # game/script.rpy:3794
 translate german chapter9_fc8e87c1:
 
     # alice "Somebody said, that it’s done by everybody minding their own business!"
-    alice "Somebody said, that the world goes round because everyone should mind their own business!"
+    alice "Jemand hat mal gesagt, dass die Welt sich nur dreht, wenn sich jeder um seine eigenen Angelegenheiten kümmert!"
 
 # game/script.rpy:3796
 translate german chapter9_3cd6d42f:
 
     # duchess "Ah, well! It means much the same thing, and the moral of that is—‘Take care of the sense, and the sounds will take care of themselves’."
-    duchess "Well, that's the same thing. And the moral is that 'Focus on what you mean, and how you say it will follow naturally.'"
+    duchess "Nun, das ist dasselbe. Und die Moral ist, dass 'Konzentriere dich auf das, was du meinst, dann sagt es sich von ganz alleine.'"
 
 # game/script.rpy:3801
 translate german chapter9_d8b86064:
 
     # "The Duchess started digging her sharp little chin into Alice’s shoulder."
-    "The Duchess started digging her sharp little chin into Alice’s shoulder."
+    "Die Herzogin begann, ihr spitzes Kinn in Alice's Schulter zu bohren."
 
 # game/script.rpy:3803
 translate german chapter9_6f8fa61b:
 
     # alice "(How fond she is of finding morals in things!)"
-    alice "(She really likes to find morals in everything!)"
+    alice "(Sie mag es wirklich, in allem eine Moral zu finden!)"
 
 # game/script.rpy:3804
 translate german chapter9_a20cefa7:
@@ -6185,229 +6185,229 @@ translate german chapter9_a20cefa7:
 translate german chapter9_d7cdb3cc:
 
     # duchess "I dare say you’re wondering why I don’t put my arm round your waist, the reason is, that I’m doubtful about the temper of your flamingo. Shall I try the experiment?"
-    duchess "I bet you're thinking why I don't put my arm around you. The reason is, I'm not sure how your flamingo will react. Should I try and see what happens?"
+    duchess "Ich wette, du fragst dich, warum ich nicht meinen Arm um dich lege. Der Grund ist dafür ist, dass ich mir nicht sicher bin, ob dein Flamingo beißt. Soll ich es mal versuchen und sehen, was passiert?"
 
 # game/script.rpy:3807
 translate german chapter9_ad2a910c:
 
     # alice "He might bite."
-    alice "He might bite."
+    alice "Er könnte beißen."
 
 # game/script.rpy:3808
 translate german chapter9_d2413f5c:
 
     # "Alice did not feel at all anxious to have the experiment tried."
-    "Alice was not worried about her trying the experiment."
+    pass
 
 # game/script.rpy:3809
 translate german chapter9_60f7002c:
 
     # duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together’."
-    duchess "It's true. And the moral is that two birds of a feather flock together."
+    duchess "Das ist wahr. Flamingos und Senf beißen beide. Und die Moral ist, dass Gleich und Gleich sich gern gesellt."
 
 # game/script.rpy:3811
 translate german chapter9_92521c20:
 
     # alice "Only mustard isn’t a bird."
-    alice "Mustard is not a bird."
+    alice "Aber Senf ist kein Vogel, sondern ... Senf"
 
 # game/script.rpy:3813
 translate german chapter9_61398943:
 
     # duchess "Right, as usual, what a clear way you have of putting things!"
-    duchess "You are very clever!"
+    duchess "Du bist sehr clever!"
 
 # game/script.rpy:3814
 translate german chapter9_a0158356:
 
     # alice "It’s a mineral, I think."
-    alice "I believe it is a mineral."
+    alice "Ich glaube, Senf ist ein Mineral."
 
 # game/script.rpy:3815
 translate german chapter9_09b9d787:
 
     # duchess "Of course it is, there’s a large mustard-mine near here."
-    duchess "Yes, there is a big mustard mine close by."
+    duchess "Ja, es gibt eine große Senfmine in der Nähe."
 
 # game/script.rpy:3816
 translate german chapter9_083fe0dd:
 
     # "The Duchess seemed ready to agree to everything that Alice said."
-    "The Duchess was willing to agree with everything Alice said."
+    "Die Herzogin war bereit, allem zuzustimmen, was Alice sagte."
 
 # game/script.rpy:3817
 translate german chapter9_c4fe1f24:
 
     # duchess "And the moral of that is—‘The more there is of mine, the less there is of yours’."
-    duchess "And the moral of that is—'The more there is of mine, the less there is of yours'."
+    duchess "Und die Moral davon ist - 'Mehr Mine, weniger Deine.'"
 
 # game/script.rpy:3819
 translate german chapter9_3b751ad0:
 
     # alice "Oh, I know!"
-    alice "Oh, I know!"
+    alice "Oh, jetzt fällt es mir wieder ein!"
 
 # game/script.rpy:3820
 translate german chapter9_040224d6:
 
     # alice "It’s a vegetable. It doesn’t look like one, but it is."
-    alice "It's a vegetable. Even though it doesn't seem like it, it really is one."
+    alice "Es ist ein Gemüse."
 
 # game/script.rpy:3822
 translate german chapter9_f7a65376:
 
     # duchess "I quite agree with you, and the moral of that is—‘Be what you would seem to be’"
-    duchess "I totally agree with you, and the moral is 'Be what you would seem to be'"
+    duchess "Ich stimme dir total zu, und die Moral lautet 'Sei, was du zu sein scheinst'."
 
 # game/script.rpy:3823
 translate german chapter9_88bdf140:
 
     # duchess "—or if you’d like it put more simply—‘Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise’."
-    duchess "—or if you’d like it put more simply—‘Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise’."
+    duchess "—oder einfacher ausgedrückt—‘Stell dir niemals vor, anders zu sein, als was du anderen vielleicht erscheinen magst, oder als das, was du warst oder hättest sein können’."
 
 # game/script.rpy:3825
 translate german chapter9_d2b16a6c:
 
     # alice "I think I should understand that better, if I had it written down: but I can’t quite follow it as you say it."
-    alice "I would find it easier to understand if you could write it down for me."
+    alice "Das war mir jetzt ein wenig zu kompliziert."
 
 # game/script.rpy:3827
 translate german chapter9_0b17ed84:
 
     # duchess "That’s nothing to what I could say if I chose."
-    duchess "If you want, I can give you more details about it."
+    duchess "Wenn du möchtest, kann ich es dir aufschreiben."
 
 # game/script.rpy:3828
 translate german chapter9_57b34102:
 
     # alice "Pray don’t trouble yourself to say it any longer than that."
-    alice "Oh, don't trouble yourself."
+    alice "Ach, passt schon. Mach dir keine Mühe."
 
 # game/script.rpy:3830
 translate german chapter9_7f0663d3:
 
     # duchess "Oh, don’t talk about trouble!"
-    duchess "Oh, don’t talk about trouble!"
+    duchess "Das macht mir doch keine Mühe!"
 
 # game/script.rpy:3831
 translate german chapter9_74e9f3be:
 
     # duchess "I make you a present of everything I’ve said as yet."
-    duchess "I can write it down and give it to you as a present."
+    duchess "Ich würde dir gerne alles was ich bis jetzt gesagt habe aufschreiben, und schenken."
 
 # game/script.rpy:3833
 translate german chapter9_c688d5d4:
 
     # alice "(A cheap sort of present!)"
-    alice "(A cheap present!)"
+    alice "(Tolles Geschenk..)"
 
 # game/script.rpy:3834
 translate german chapter9_bf0eb4de:
 
     # alice "(I’m glad they don’t give birthday presents like that!)"
-    alice "(I'm happy we don't get presents like that for birthdays!)"
+    alice "(Ich bin froh, dass ich nicht solche Geschenke zum Geburtstag bekomme!)"
 
 # game/script.rpy:3835
 translate german chapter9_f94f6901:
 
     # "She did not venture to say it out loud."
-    "She didn't dare to say it out loud."
+    "Sie wagte es nicht, es laut auszusprechen."
 
 # game/script.rpy:3837
 translate german chapter9_1c864987:
 
     # duchess "Thinking again?"
-    duchess "Thinking again?"
+    duchess "Wieder am Nachdenken?"
 
 # game/script.rpy:3838
 translate german chapter9_f7977890:
 
     # "The Duchess asked, with another dig of her sharp little chin."
-    "The Duchess asked, poking her chin further into Alice's shoulder."
+    "Die Herzogin fragte und stieß ihr Kinn weiter in Alice's Schulter."
 
 # game/script.rpy:3840
 translate german chapter9_4395b902:
 
     # alice "I’ve a right to think."
-    alice "I have the right to think."
+    alice "Ich habe das Recht zu denken."
 
 # game/script.rpy:3841
 translate german chapter9_f93e03cf:
 
     # "She was beginning to feel a little worried."
-    "She started to feel a bit worried."
+    "Sie fing an, sich ein bisschen Sorgen zu machen."
 
 # game/script.rpy:3842
 translate german chapter9_0f6ac620:
 
     # duchess "Just about as much right, as pigs have to fly; and the m—"
-    duchess "Just about as much right, as pigs have to fly; and the m—"
+    duchess "Genau so viel Recht wie Schweine zum Fliegen haben; und die Mor-"
 
 # game/script.rpy:3844
 translate german chapter9_6f19fa03:
 
     # "But here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral’ and the arm that was linked into hers began to tremble."
-    "Alice was surprised when the Duchess abruptly stopped talking, even though she was saying her favorite word 'moral,' and the arm she had linked with Alice's began to shake."
+    "Alice war überrascht, als die Herzogin plötzlich aufhörte zu sprechen, obwohl sie gerade ihr Lieblingswort 'Moral' sagte, und der Arm, den sie mit Alice verschrenkt hatte, begann zu zittern."
 
 # game/script.rpy:3850
 translate german chapter9_47268d9c:
 
     # "Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm."
-    "Alice looked up and saw the Queen standing in front of them. The Queen had her arms folded and was looking very angry."
+    "Alice schaute auf und sah die Königin vor ihnen stehen. Die Königin hatte die Arme verschränkt und sah sehr wütend aus."
 
 # game/script.rpy:3852
 translate german chapter9_51bb2d3f:
 
     # duchess "A fine day, your Majesty!"
-    duchess "A fine day, your Majesty!"
+    duchess "Ein schöner Tag, Eure Majestät!"
 
 # game/script.rpy:3854
 translate german chapter9_976e88f7:
 
     # queen "Now, I give you fair warning, either you or your head must be off, and that in about half no time! Take your choice!"
-    queen "Listen carefully, either you or your head must be off! Take your choice!"
+    queen "Hör genau zu, entweder du oder dein Kopf verschwindet! Entscheide dich!"
 
 # game/script.rpy:3856
 translate german chapter9_eda86245:
 
     # "The Queen was stamping on the ground as she spoke."
-    "The Queen was stamping on the ground as she spoke."
+    "Die Königin stampfte wütend auf den Boden, während sie sprach."
 
 # game/script.rpy:3860
 translate german chapter9_5ce79b93:
 
     # "The Duchess took her choice, and was gone in a moment."
-    "The Duchess made her choice and left quickly."
+    "Die Herzogin eilte schnell davon."
 
 # game/script.rpy:3862
 translate german chapter9_f5829c23:
 
     # queen "Let’s go on with the game."
-    queen "Let's continue playing the game."
+    queen "Lass uns das Spiel weiter spielen."
 
 # game/script.rpy:3863
 translate german chapter9_c77ffc12:
 
     # "The Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground."
-    "The Queen spoke to Alice. Alice was very scared and didn't say anything. She just followed the Queen back to the croquet-ground."
+    "Alice hatte große Angst und sagte nichts. Sie folgte der Königin zurück zum Krocketplatz."
 
 # game/script.rpy:3865
 translate german chapter9_2fd726f9:
 
     # "The other guests had taken advantage of the Queen’s absence, and were resting in the shade: however, the moment they saw her, they hurried back to the game, the Queen merely remarking that a moment’s delay would cost them their lives."
-    "The other guests relaxed in the shade. But as soon as they noticed the Queen returning, they quickly went back to the game. The Queen warned them that any delay would be deadly."
+    "Die anderen Gäste entspannten sich im Schatten. Sobald sie bemerkten, dass die Königin zurückkehrte, gingen sie schnell zum Spiel zurück. Die Königin warnte, dass jede Verzögerung tödlich wäre."
 
 # game/script.rpy:3867
 translate german chapter9_b45acfca:
 
     # "All the time they were playing the Queen never left off quarrelling with the other players, and shouting “Off with his head!” or “Off with her head!”."
-    "The Queen kept arguing and shouting 'Off with his head!' or 'Off with her head!' while they played."
+    "Während des Spiels hörte man weiterhin gelegentlich 'Köpft ihn' oder 'Köpft sie' von der Königin."
 
 # game/script.rpy:3868
 translate german chapter9_2b75377d:
 
     # "Those whom she sentenced were taken into custody by the soldiers, who of course had to leave off being arches to do this, so that by the end of half an hour or so there were no arches left, and all the players, except the King, the Queen, and Alice, were in custody and under sentence of execution."
-    "The people she sentenced were taken away by the soldiers. The soldiers had to stop being arches to do this. After about half an hour, all the players, except the King, the Queen, and Alice, were sentenced to be executed."
+    "Die Verurteilten wurden von den Soldaten weggebracht. Die Soldaten mussten aufhören, Bögen zu sein, um das zu tun. Nach etwa einer halben Stunde waren alle Spieler, außer dem König, der Königin und Alice, zum Tode verurteilt."
 
 # game/script.rpy:3870
 translate german chapter9_c3cb8fd0:
@@ -6419,49 +6419,49 @@ translate german chapter9_c3cb8fd0:
 translate german chapter9_7d9fa722:
 
     # queen "Have you seen the Mock Turtle yet?"
-    queen "Have you met the Mock Turtle yet?"
+    queen "Hast du schon den Schmor getroffen?"
 
 # game/script.rpy:3875
 translate german chapter9_ea9db8c4:
 
     # alice "No, I don’t even know what a Mock Turtle is."
-    alice "No, I don't know what a Mock Turtle is."
+    alice "Nein, ich weiß nicht, was ein Schmor ist."
 
 # game/script.rpy:3877
 translate german chapter9_54bab3ba:
 
     # queen "It’s the thing Mock Turtle Soup is made from."
-    queen "It's the thing Mock Turtle Soup is made of."
+    queen "Es ist das Tier, aus dem Schmorbraten gemacht wird."
 
 # game/script.rpy:3879
 translate german chapter9_89b0726e:
 
     # alice "I never saw one, or heard of one."
-    alice "I have never seen or heard of one."
+    alice "Ich habe noch nie eins gesehen oder davon gehört."
 
 # game/script.rpy:3881
 translate german chapter9_e1e9dc73:
 
     # queen "Come on, then, and he shall tell you his history."
-    queen "Alright, come with me and he will tell you his story."
+    queen "Okay, komm schon. Ich bringe dich zu ihm und er wird dir seine Geschichte erzählen."
 
 # game/script.rpy:3890
 translate german chapter9_df464b52:
 
     # "As they walked off together, Alice heard the King say in a low voice, to the company generally:"
-    "As they walked away, Alice overheard the King speaking quietly to everyone around:"
+    "Während sie weggingen, hörte Alice, wie der König leise zu allen um sich herum sprach:"
 
 # game/script.rpy:3891
 translate german chapter9_c9e6c3b1:
 
     # king "You are all pardoned."
-    king "You are all pardoned."
+    king "Ihr seid alle begnadigt."
 
 # game/script.rpy:3892
 translate german chapter9_6a7e200f:
 
     # alice "(Come, that’s a good thing!)"
-    alice "(Yes, that's a good thing!)"
+    alice "(Ja, das ist doch schön!)"
 
 # game/script.rpy:3893
 translate german chapter9_eac8fa48:
@@ -6473,115 +6473,115 @@ translate german chapter9_eac8fa48:
 translate german ch9_gryphon_cff79d2e:
 
     # "They very soon came upon a Gryphon, lying fast asleep in the sun."
-    "They quickly found a Gryphon sleeping in the sun."
+    "Sie fanden schnell einen Greif, der in der Sonne schlief."
 
 # game/script.rpy:3912
 translate german ch9_gryphon_24b5d250:
 
     # queen "Up, lazy thing!"
-    queen "Get up, lazy thing!"
+    queen "Steh auf, faules Ding!"
 
 # game/script.rpy:3913
 translate german ch9_gryphon_1bea41cd:
 
     # queen "And take this young lady to see the Mock Turtle, and to hear his history."
-    queen "Take this girl to meet the Mock Turtle and listen to his story."
+    queen "Bring dieses Mädchen zum Schmor, damit sie seine Geschichte hört."
 
 # game/script.rpy:3914
 translate german ch9_gryphon_f4882208:
 
     # queen "I must go back and see after some executions I have ordered."
-    queen "I need to go back and check on the executions I ordered."
+    queen "Ich muss zurückgehen und nachsehen, ob die Hinrichtungen, die ich angeordnet habe, durchgeführt werden."
 
 # game/script.rpy:3919
 translate german ch9_gryphon_83243f96:
 
     # "She walked off, leaving Alice alone with the Gryphon."
-    "She went away, leaving Alice by herself with the Gryphon."
+    "Sie ging weg und ließ Alice alleine mit dem Greif zurück."
 
 # game/script.rpy:3920
 translate german ch9_gryphon_2e9b9503:
 
     # "Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited."
-    "Alice was wary of the creature, but she decided it was safer to stay with it than to follow the fierce Queen, so she waited."
+    "Alice war misstrauisch gegenüber dem Wesen, aber sie beschloss, dass es sicherer war, als weiterhin bei der wilden Königin zu bleiben."
 
 # game/script.rpy:3922
 translate german ch9_gryphon_d81c24d5:
 
     # "The Gryphon sat up and rubbed its eyes: then it watched the Queen till she was out of sight: then it chuckled."
-    "The Gryphon sat up and rubbed its eyes. It watched the Queen until she was gone, then it chuckled."
+    "Der Greif setzte sich auf und rieb sich die Augen. Er beobachtete die Königin, bis sie weg war, dann kicherte er."
 
 # game/script.rpy:3923
 translate german ch9_gryphon_ef8fe338:
 
     # gryphon "What fun!"
-    gryphon "How enjoyable!"
+    gryphon "Wie amüsant!"
 
 # game/script.rpy:3925
 translate german ch9_gryphon_72864d29:
 
     # alice "What is the fun?"
-    alice "What's enjoyable?"
+    alice "Was ist amüsant?"
 
 # game/script.rpy:3927
 translate german ch9_gryphon_db033e4f:
 
     # gryphon "Why, she. It’s all her fancy, that: they never executes nobody, you know. Come on!"
-    gryphon "She's enjoyable. She alway sentences everyone, but they never really execute anyone, you know. Come on!"
+    gryphon "Sie ist amüsant. Sie verurteilt immer alle, aber sie richten eigentlich niemanden hin, verstehst du. Komm schon!"
 
 # game/script.rpy:3929
 translate german ch9_gryphon_6d40c592:
 
     # alice "(Everybody says ‘come on!’ here. I never was so ordered about in all my life, never!)"
-    alice "(Everyone keeps telling 'come on!'. I have never been ordered around so much in my whole life!)"
+    alice "(Alle sagen immer 'komm schon!'. Ich wurde noch nie so oft in meinem ganzen Leben herumkommandiert!)"
 
 # game/script.rpy:3942
 translate german ch9_gryphon_e347904c:
 
     # "They had not gone far before they saw the Mock Turtle in the distance, sitting sad and lonely on a little ledge of rock, and, as they came nearer, Alice could hear him sighing as if his heart would break."
-    "They had not gone very far when they saw the Mock Turtle not too far away. He was sitting sadly and alone on a small rock ledge. As they got closer, Alice could hear him sighing like he was very sad."
+    "Sie waren noch nicht weit gegangen, als sie den Schmor nicht allzu weit entfernt sahen. Er saß traurig und alleine auf einer kleinen Felskante. Als sie näher kamen, konnte Alice ihn seufzen hören, als sei er sehr traurig."
 
 # game/script.rpy:3943
 translate german ch9_gryphon_1bec5712:
 
     # "She pitied him deeply."
-    "She felt very sorry for him."
+    "Sie hatte großes Mitleid."
 
 # game/script.rpy:3944
 translate german ch9_gryphon_a961bec8:
 
     # alice "What is his sorrow?"
-    alice "What is making him sad?"
+    alice "Warum ist er so traurig?"
 
 # game/script.rpy:3946
 translate german ch9_gryphon_f7761561:
 
     # gryphon "It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!"
-    gryphon "That's just his imagination; he doesn't feel sad at all, you know. Come on!"
+    gryphon "Das ist nur seine Einbildung; er ist überhaupt nicht traurig, verstehst du. Komm schon!"
 
 # game/script.rpy:3954
 translate german ch9_gryphon_ac40b947:
 
     # "So they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing."
-    "They approached the Mock Turtle. He had big teary eyes but didn't say anything."
+    "Sie näherten sich dem Schmor. Er hatte große tränengefüllte Augen, sagte aber nichts."
 
 # game/script.rpy:3956
 translate german ch9_gryphon_bdb8f086:
 
     # gryphon "This here young lady, she wants for to know your history, she do."
-    gryphon "This young lady wants to know your story."
+    gryphon "Diese junge Dame möchte deine Geschichte hören."
 
 # game/script.rpy:3958
 translate german ch9_gryphon_11997b4f:
 
     # mock "I’ll tell it her, sit down, both of you, and don’t speak a word till I’ve finished."
-    mock "I will tell her. Please sit down, both of you, and do not talk until I'm finished."
+    mock "Ich werde sie ihr erzählen. Bitte setzt euch beide hin und seid leise, bis ich fertig bin."
 
 # game/script.rpy:3960
 translate german ch9_gryphon_903030dc:
 
     # "So they sat down, and nobody spoke for some minutes."
-    "They sat down and didn't say anything for a few minutes."
+    "Sie setzten sich und schwiegen für ein paar Minuten."
 
 # game/script.rpy:3961
 translate german ch9_gryphon_a20cefa7:
@@ -6593,25 +6593,25 @@ translate german ch9_gryphon_a20cefa7:
 translate german ch9_gryphon_9b72d5ac:
 
     # alice "I don’t see how he can ever finish, if he doesn’t begin."
-    alice "If he doesn't start, he won't be able to finish."
+    alice "(Wenn er nicht anfängt, wird er niemals fertig werden)"
 
 # game/script.rpy:3963
 translate german ch9_gryphon_9636a767:
 
     # "But she waited patiently."
-    "But she waited patiently."
+    "Aber sie wartete geduldig."
 
 # game/script.rpy:3969
 translate german ch9_gryphon_d83ac9b2:
 
     # mock "Once, *deep sigh* I was a real Turtle."
-    mock "Once, *deep sigh* I was a real Turtle."
+    mock "Einst, *tiefer Seufzer* war ich eine echtes Tiefsee Schmor."
 
 # game/script.rpy:3972
 translate german ch9_gryphon_b994e6ec:
 
     # "These words were followed by a very long silence, broken only by an occasional exclamation of:"
-    "After these words, there was a long pause, only interrupted by some occasional exclamations of:"
+    "Nach diesen Worten gab es eine lange Pause, nur unterbrochen von einigen gelegentlichen Ausdrücken von:"
 
 # game/script.rpy:3975
 translate german ch9_gryphon_0be2d6ad:
@@ -6623,85 +6623,85 @@ translate german ch9_gryphon_0be2d6ad:
 translate german ch9_gryphon_929a65e6:
 
     # "And the constant heavy sobbing of the Mock Turtle."
-    "And the constant heavy sobbing of the Mock Turtle."
+    "Und dem ständige schweren Schluchzen des Schmors."
 
 # game/script.rpy:3981
 translate german ch9_gryphon_90574092:
 
     # "Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story”, but she could not help thinking there must be more to come, so she sat still and said nothing."
-    "Alice was just about to stand up and thank the turtle for his interesting story, but she thought there might be more to it, so she remained seated and waited."
+    "Alice war gerade dabei aufzustehen und sich bei dem Schmor für die interessante Geschichte zu bedanken, aber sie dachte, dass es noch mehr geben könnte, also blieb sie sitzen und wartete."
 
 # game/script.rpy:3985
 translate german ch9_gryphon_df437f18:
 
     # mock "When we were little, we went to school in the sea."
-    mock "When we were young, we attended school in the ocean."
+    mock "Als ich jung war, besuchte ich eine Schule im Meer."
 
 # game/script.rpy:3986
 translate german ch9_gryphon_50a8adc7:
 
     # mock "The master was an old Turtle—we used to call him Tortoise—"
-    mock "The master was an old Turtle, who we called Tortoise."
+    mock "Der Lehrer war eine Seeschlange, aber wir nannten ihn Aal."
 
 # game/script.rpy:3990
 translate german ch9_gryphon_0bf954eb:
 
     # alice "Why did you call him Tortoise, if he wasn’t one?"
-    alice "Why did you call him Tortoise if he wasn't really a tortoise?"
+    alice "Warum habt ihr ihn Aal genannte, wenn er in Wirklichkeit eine Seeschlange war?"
 
 # game/script.rpy:3994
 translate german ch9_gryphon_029dbfd6:
 
     # mock "We called him Tortoise because he taught us, really you are very dull!"
-    mock "We called him Tortoise because he taught us, really you are very dull!"
+    mock "Wir nannten ihn Aal, weil er immer so viel erzahl. Darauf hätte man auch selber kommen können."
 
 # game/script.rpy:3998
 translate german ch9_gryphon_f2876af3:
 
     # gryphon "You ought to be ashamed of yourself for asking such a simple question."
-    gryphon "You should feel bad for asking such an easy question."
+    gryphon "Eigentlich sagt man ja, es gäbe keine dummen Fragen, aber die war wirklich dumm."
 
 # game/script.rpy:4003
 translate german ch9_gryphon_48589ece:
 
     # "They both sat silent and looked at poor Alice, who felt ready to sink into the earth."
-    "They both sat quietly and looked at Alice, who felt like she wanted to disappear."
+    "Beide saßen still da und schauten Alice an, die sich am liebsten in Luft aufgelöst hätte."
 
 # game/script.rpy:4004
 translate german ch9_gryphon_e0ef082b:
 
     # "At last the Gryphon said to the Mock Turtle:"
-    "Finally, the Gryphon spoke to the Mock Turtle:"
+    "Schließlich sprach der Greif zum Schmor:"
 
 # game/script.rpy:4008
 translate german ch9_gryphon_5e50f9a0:
 
     # gryphon "Drive on, old fellow! Don’t be all day about it!"
-    gryphon "Continue, old friend!"
+    gryphon "Mach weiter, alter Freund!"
 
 # game/script.rpy:4012
 translate german ch9_gryphon_ca14c156:
 
     # mock "Yes, we went to school in the sea, though you mayn’t believe it—"
-    mock "Yes, we went to school in the sea, even if you might find it hard to believe—"
+    mock "Ja, wir gingen zur Schule im Meer, auch wenn du es vielleicht schwer zu glauben findest—"
 
 # game/script.rpy:4016
 translate german ch9_gryphon_c1c95a94:
 
     # alice "I never said I didn’t!"
-    alice "I never said I did!"
+    alice "Das habe ich niemlas behauptet!"
 
 # game/script.rpy:4020
 translate german ch9_gryphon_fbc2788a:
 
     # mock "You did."
-    mock "You did."
+    mock "Doch, hast du."
 
 # game/script.rpy:4024
 translate german ch9_gryphon_b5c18e5c:
 
     # gryphon "Hold your tongue!"
-    gryphon "Be quiet!"
+    gryphon "Sei still!"
 
 # game/script.rpy:4028
 translate german ch9_gryphon_a20cefa7_1:
@@ -6713,445 +6713,445 @@ translate german ch9_gryphon_a20cefa7_1:
 translate german ch9_gryphon_cc0133a3:
 
     # mock "We had the best of educations—in fact, we went to school every day—"
-    mock "We received a good education by going to school every day."
+    mock "Durch den täglichen Schulbesuch erhielten wir eine gute Ausbildung."
 
 # game/script.rpy:4036
 translate german ch9_gryphon_ce735078:
 
     # alice "I’ve been to a day-school, too, you needn’t be so proud as all that."
-    alice "I also went to a day school, so there's no need for you to brag."
+    alice "Ich gehe auch jeden Tag zur Schule, also keinen Grund um anzugeben."
 
 # game/script.rpy:4040
 translate german ch9_gryphon_9156df63:
 
     # mock "With extras?"
-    mock "With extras?"
+    mock "Mit Extras?"
 
 # game/script.rpy:4044
 translate german ch9_gryphon_feb76f1f:
 
     # alice "Yes, we learned French and music."
-    alice "Yes, we learned French and music."
+    alice "Ja, wir haben Französisch und Musik gelernt."
 
 # game/script.rpy:4048
 translate german ch9_gryphon_037a2986:
 
     # mock "And washing?"
-    mock "And washing?"
+    mock "Und Waschen?"
 
 # game/script.rpy:4052
 translate german ch9_gryphon_d3f12fe4:
 
     # alice "Certainly not!"
-    alice "No way!"
+    alice "Nee!"
 
 # game/script.rpy:4056
 translate german ch9_gryphon_dca6383a:
 
     # mock "Ah! then yours wasn’t a really good school."
-    mock "Ah! then yours wasn’t a really good school."
+    mock "Ah, dann war deine Schule nicht gut."
 
 # game/script.rpy:4058
 translate german ch9_gryphon_28d110f4:
 
     # mock "Now at ours they had at the end of the bill, ‘French, music, and washing—extra’."
-    mock "In our school we had ‘French, music, and washing—extra’."
+    mock "In unserer Schule hatten wir 'Französisch, Musik und Waschen—Extra'."
 
 # game/script.rpy:4062
 translate german ch9_gryphon_2d498e29:
 
     # alice "You couldn’t have wanted it much, living at the bottom of the sea."
-    alice "You probably didn't need that at the bottom of the sea."
+    alice "Das konntet ihr doch nicht wirklich gebrauchen, oder? So unten im Meer."
 
 # game/script.rpy:4066
 translate german ch9_gryphon_70ee0357:
 
     # mock "I couldn’t afford to learn it. I only took the regular course."
-    mock "I couldn't afford to study it, so I just took the normal class."
+    mock "Ich hatte keine Zeit, es zu besuchen, also habe ich nur am normalen Unterricht teilgenommen."
 
 # game/script.rpy:4070
 translate german ch9_gryphon_cb4119d5:
 
     # alice "What was that?"
-    alice "What was the normal class?"
+    alice "Was war der normale Unterricht?"
 
 # game/script.rpy:4074
 translate german ch9_gryphon_775852dc:
 
     # mock "Reeling and Writhing, of course, to begin with, and then the different branches of Arithmetic—Ambition, Distraction, Uglification, and Derision."
-    mock "First, we do some basic Reeding and Writhing, and then we learn different parts of Math: Ambition, Distraction, Uglification, and Derision."
+    mock "Zuerst machen wir etwas Grundlegendes wie Legen und Treiben und dann verschiedene Teile der Mathematik: Hinzufügen, Entfernen, Vervielfachen und Verwenigfachen."
 
 # game/script.rpy:4078
 translate german ch9_gryphon_485482dc:
 
     # alice "I never heard of ‘Uglification’. What is it?"
-    alice "I don't know what 'Uglification' means. What is it?"
+    alice "Ich weiß nicht, was 'Verwenigfachen' bedeutet. Was ist das?"
 
 # game/script.rpy:4082
 translate german ch9_gryphon_378c67b8:
 
     # "The Gryphon lifted up both its paws in surprise."
-    "The Gryphon raised both of its paws in surprise."
+    "Der Greif hob überrascht beide Pfoten hoch."
 
 # game/script.rpy:4083
 translate german ch9_gryphon_63550c54:
 
     # gryphon "What! Never heard of uglifying!"
-    gryphon "What! You've never heard of uglifying!"
+    gryphon "Was! Du hast noch nie von Verwenigfachen gehört!"
 
 # game/script.rpy:4084
 translate german ch9_gryphon_82e70eea:
 
     # gryphon "You know what to beautify is, I suppose?"
-    gryphon "You know what to beautify is, I suppose?"
+    gryphon "Du weißt, was Vervielfachen ist, nehme ich an?"
 
 # game/script.rpy:4088
 translate german ch9_gryphon_519ce9e3:
 
     # alice "Yes, it means to make anything prettier."
-    alice "Yes, it means to make something look nicer."
+    alice "Ja, das bedeutet, mehr aus etwas zu machen."
 
 # game/script.rpy:4092
 translate german ch9_gryphon_1a72530f:
 
     # gryphon "Well, then, if you don’t know what to uglify is, you are a simpleton."
-    gryphon "Well, then, if you don’t know what to uglify is, you are a simpleton."
+    gryphon "Wenn du dann nicht weißt, was Verwenigfachen ist, bist du ein Dummkopf."
 
 # game/script.rpy:4096
 translate german ch9_gryphon_113b1e7d:
 
     # "Alice did not feel encouraged to ask any more questions about it, so she turned to the Mock Turtle:"
-    "Alice didn't want to ask more questions, so she decided to talk to the Mock Turtle instead:"
+    "Alice wollte keine weiteren Fragen mehr bekommen, also stellte sie einfach eine."
 
 # game/script.rpy:4097
 translate german ch9_gryphon_1ebd0532:
 
     # alice "What else had you to learn?"
-    alice "What more did you need to learn?"
+    alice "Was habt ihr sonst noch gelernt?"
 
 # game/script.rpy:4101
 translate german ch9_gryphon_ffa3ba72:
 
     # mock "Well, there was Mystery, ancient and modern, with Seaography: then Drawling—the Drawling-master was an old conger-eel, that used to come once a week: he taught us Drawling, Stretching, and Fainting in Coils."
-    mock "Well, there was Mystery and Seography. Our art teacher was an old eel who came once a week to teach us Drawling and Stretching."
+    mock "Nun, es gab Vergangenheit und Meerkunde. Unser Hauswirtschafts- und Sportlehrer war ein Tintenfisch, er lehrte uns Saugen und achtarmige Liegestütze."
 
 # game/script.rpy:4105
 translate german ch9_gryphon_a563be3d:
 
     # alice "What was that like?"
-    alice "What was it like?"
+    alice "Wie war das so?"
 
 # game/script.rpy:4109
 translate german ch9_gryphon_ca1586e5:
 
     # mock "Well, I can’t show it you myself."
-    mock "I can't show it to you myself."
+    mock "Ich kann es dir nicht zeigen."
 
 # game/script.rpy:4110
 translate german ch9_gryphon_79ce8738:
 
     # mock "I’m too stiff. And the Gryphon never learnt it."
-    mock "I'm too stiff. And the Gryphon never learned it."
+    mock "Ich habe nicht genug Arme. Und der Greif hat es nie gelernt."
 
 # game/script.rpy:4114
 translate german ch9_gryphon_b4480a6e:
 
     # gryphon "Hadn’t time, I went to the Classics master, though. He was an old crab, he was."
-    gryphon "I didn't have time, but I went to the Classics teacher instead. He was and old crab."
+    gryphon "Ich hatte ein anderes Wahlpflichtfach. Unzwar bei einem alten Wal."
 
 # game/script.rpy:4118
 translate german ch9_gryphon_51d86a7e:
 
     # mock "I never went to him, he taught Laughing and Grief, they used to say."
-    mock "I never went to him, he taught Laughing and Grief, they used to say."
+    mock "Da war ich tatsächlich nie, aber ich habe gehört er unterrichtet  'Singen und Seufzen'."
 
 # game/script.rpy:4122
 translate german ch9_gryphon_d40dfd47:
 
     # gryphon "So he did, so he did."
-    gryphon "So he did, so he did."
+    gryphon "Das hat er, das hat er."
 
 # game/script.rpy:4125
 translate german ch9_gryphon_748d86d6:
 
     # "They both sighed and hid their faces in their paws."
-    "They both sighed and covered their faces with their paws."
+    "Beide seufzten und bedeckten ihre Gesichter mit ihren Pfoten."
 
 # game/script.rpy:4129
 translate german ch9_gryphon_f5e923a8:
 
     # alice "And how many hours a day did you do lessons?"
-    alice "How many hours did you do lessons?"
+    alice "Wie viele Schüler wart ihr so in der Klasse?"
 
 # game/script.rpy:4133
 translate german ch9_gryphon_c0c81f82:
 
     # mock "Ten hours the first day, nine the next, and so on."
-    mock "Ten hours on the first day, nine hours on the next day, and so on."
+    mock "Zehn am ersten Tag, neun am nächsten Tag und so weiter."
 
 # game/script.rpy:4137
 translate german ch9_gryphon_6691a3a2:
 
     # alice "What a curious plan!"
-    alice "What an interesting plan!"
+    alice "Was für eine komische Schule!"
 
 # game/script.rpy:4141
 translate german ch9_gryphon_62e225b7:
 
     # gryphon "That’s the reason they’re called lessons, because they lessen from day to day."
-    gryphon "That’s the reason they’re called lessons, because they lessen from day to day."
+    gryphon "Deshalb wird der Unterricht auch von einem Lehrer gehalten. So wird die Klasse von Tag zu Tag leerer."
 
 # game/script.rpy:4146
 translate german ch9_gryphon_d5537fd5:
 
     # "This was quite a new idea to Alice, and she thought it over a little before she made her next remark."
-    "This was a new idea for Alice, so she took some time to think before speaking again."
+    "Von so einer Idee hatte Alice noch nie gehört. Sie musste kurz darüber nachdenken, bevor sie wieder etwas sagte."
 
 # game/script.rpy:4147
 translate german ch9_gryphon_4de59267:
 
     # alice "Then the eleventh day must have been a holiday?"
-    alice "So, was the eleventh day a holiday?"
+    alice "Also gab es am elften Tag keinen Unterricht?"
 
 # game/script.rpy:4151
 translate german ch9_gryphon_9c9790b2:
 
     # mock "Of course it was."
-    mock "Yes, it was."
+    mock "Genau."
 
 # game/script.rpy:4156
 translate german ch9_gryphon_7560294f:
 
     # alice "And how did you manage on the twelfth?"
-    alice "What did you do on the twelfth?"
+    alice "Was habt ihr am zwölften Tag gemacht?"
 
 # game/script.rpy:4160
 translate german ch9_gryphon_21669018:
 
     # gryphon "That’s enough about lessons, tell her something about the games now."
-    gryphon "Okay, let's stop talking about lessons and talk about games instead."
+    gryphon "Okay, lass uns aufhören über Unterricht zu reden und stattdessen über Spiele sprechen."
 
 # game/script.rpy:4168
 translate german chapter10_ad0e6912:
 
     # "{size=+40}Chapter X: \n{/size}The Lobster Quadrille"
-    "{size=+40}Kapitel X: \n{/size}The Lobster Quadrille"
+    "{size=+40}Kapitel X: \n{/size}Das Hummerballet"
 
 # game/script.rpy:4185
 translate german chapter10_1e16bf00:
 
     # "The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes."
-    "The Mock Turtle sighed very deeply and wiped his eyes."
+    "Das Schmor seufzte sehr tief und wischte sich die Augen."
 
 # game/script.rpy:4186
 translate german chapter10_d4165253:
 
     # "He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice."
-    "He wanted to talk to Alice but couldn't because he was crying."
+    "Er wollte mit Alice sprechen, konnte aber nicht, weil er so viel weinte."
 
 # game/script.rpy:4189
 translate german chapter10_24f898cd:
 
     # gryphon "Same as if he had a bone in his throat."
-    gryphon "I think he has something stuck in his throat."
+    gryphon "Ich glaube, er hat sich verschluckt."
 
 # game/script.rpy:4190
 translate german chapter10_a94c0f96:
 
     # "The gryphon started shaking him and punching him in the back."
-    "The gryphon began shaking and hitting him on the back."
+    "Der Greif begann ihn zu schütteln und ihm auf den Rücken zu schlagen."
 
 # game/script.rpy:4194
 translate german chapter10_28fae4cb:
 
     # "At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:"
-    "Finally, the Mock Turtle recovered his voice and continued speaking with tears in his eyes."
+    "Schließlich erlangte der Schmor seine Stimme zurück und sprach mit Tränen in den Augen weiter."
 
 # game/script.rpy:4195
 translate german chapter10_457364e7:
 
     # mock "You may not have lived much under the sea—"
-    mock "You may not have spent a lot of time living under the sea—"
+    mock "Du hast bestimmt noch nicht so lange im Meer gelebt-"
 
 # game/script.rpy:4199
 translate german chapter10_411fb7aa:
 
     # alice "I haven’t."
-    alice "I have not."
+    alice "Hab' ich nicht."
 
 # game/script.rpy:4203
 translate german chapter10_e20a2d2a:
 
     # mock "And perhaps you were never even introduced to a lobster—"
-    mock "And maybe you've never even met a lobster before—"
+    mock "Und vielleicht hast du sogar noch nie einen Hummer getroffen—"
 
 # game/script.rpy:4207
 translate german chapter10_72acd372:
 
     # alice "I once tasted—"
-    alice "I once tasted-"
+    alice "Ich habe einmal propiert-"
 
 # game/script.rpy:4208
 translate german chapter10_1492fe45:
 
     # alice "No, never."
-    alice "No, never."
+    alice "Nein, niemals."
 
 # game/script.rpy:4212
 translate german chapter10_b788f0f3:
 
     # mock "—so you can have no idea what a delightful thing a Lobster Quadrille is!"
-    mock "So you can't imagine how fun a Lobster Quadrille is!"
+    mock "Also kannst du dir nicht vorstellen, wie lustig ein Hummerballet ist!"
 
 # game/script.rpy:4216
 translate german chapter10_01ed0265:
 
     # alice "No, indeed. What sort of a dance is it?"
-    alice "Not, really. What kind of dance is it?"
+    alice "Nicht wirklich. Was für ein Tanz ist es?"
 
 # game/script.rpy:4220
 translate german chapter10_878a0239:
 
     # gryphon "Why, you first form into a line along the sea-shore—"
-    gryphon "First, you should line up along the sea-shore—"
+    gryphon "Zuerst stellt ihr euch entlang der Küste auf—"
 
 # game/script.rpy:4224
 translate german chapter10_12a91104:
 
     # mock "Two lines!"
-    mock "Two lines!"
+    mock "Zwei Reihen!"
 
 # game/script.rpy:4225
 translate german chapter10_2dc04517:
 
     # mock "Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—"
-    mock "Seals, turtles, salmon, and more animals; then, once you've moved all the jellyfish aside—"
+    mock "Seehunde, Schildkröten, Lachse und noch weitere Tiere; dann, sobald ihr alle Quallen beiseite geschoben habt—"
 
 # game/script.rpy:4229
 translate german chapter10_42a78586:
 
     # gryphon "That generally takes some time."
-    gryphon "That generally takes some time."
+    gryphon "Das dauert immer ein Wenig."
 
 # game/script.rpy:4233
 translate german chapter10_a142307c:
 
     # mock "—you advance twice—"
-    mock "—you advance twice—"
+    mock "—macht ihr zwei Schritte—"
 
 # game/script.rpy:4237
 translate german chapter10_0b053a90:
 
     # gryphon "Each with a lobster as a partner!"
-    gryphon "Each with a lobster as a partner!"
+    gryphon "Jeder mit einem Hummer als Partner!"
 
 # game/script.rpy:4241
 translate german chapter10_8e10d41c:
 
     # mock "Of course, advance twice, set to partners—"
-    mock "Of course, advance twice, stand next to your partner—"
+    mock "Natürlich, zwei Schritte vorwärts und dann steht ihr neben eurem Partner—"
 
 # game/script.rpy:4245
 translate german chapter10_40ed3f4e:
 
     # gryphon "—change lobsters, and retire in same order."
-    gryphon "-change lobsters and then get back to your position."
+    gryphon "-tauscht Hummer aus und kehrt dann zurück an eure Position."
 
 # game/script.rpy:4249
 translate german chapter10_22cc09a6:
 
     # mock "Then, you know, you throw the—"
-    mock "Next, you throw the—"
+    mock "Als Nächstes werft ihr—"
 
 # game/script.rpy:4257
 translate german chapter10_419a1803:
 
     # gryphon "The lobsters!"
-    gryphon "The lobsters!"
+    gryphon "Die Hummer!"
 
 # game/script.rpy:4261
 translate german chapter10_4630b7c2:
 
     # mock "—as far out to sea as you can—"
-    mock "-as far into the ocean as possible-"
+    mock "-so weit wie möglich in den Ozean-"
 
 # game/script.rpy:4265
 translate german chapter10_d3599b62:
 
     # gryphon "Swim after them!"
-    gryphon "Swim after them!"
+    gryphon "Schwimmt hinterher!"
 
 # game/script.rpy:4276
 translate german chapter10_865bc280:
 
     # mock "Turn a somersault in the sea!"
-    mock "Do a flip in the ocean!"
+    mock "Mach einen Backflip im Ozean!"
 
 # game/script.rpy:4280
 translate german chapter10_3cf13861:
 
     # gryphon "Change lobsters again!"
-    gryphon "Change lobsters again!"
+    gryphon "Tauscht die Hummer erneut!"
 
 # game/script.rpy:4284
 translate german chapter10_dbdbfce5:
 
     # mock "Back to land again, and that’s all the first figure."
-    mock "Back to land again and that's the first part of the dance."
+    mock "Zurück zum Land und das ist der erste Teil des Tanzes."
 
 # game/script.rpy:4288
 translate german chapter10_4cfdad98:
 
     # "The two creatures, who had been jumping about like mad things all this time, sat down again very sadly and quietly, and looked at Alice."
-    "The two animals, who had been jumping around crazily, suddenly stopped and sat down sadly and quietly, staring at Alice."
+    "Die beiden Tiere, die wild herumsprangen, hörten plötzlich auf und setzten sich traurig und ruhig hin, während sie Alice anstarrten."
 
 # game/script.rpy:4292
 translate german chapter10_66c9e9cd:
 
     # alice "It must be a very pretty dance."
-    alice "The dance must be very beautiful."
+    alice "Der Tanz muss sehr schön sein."
 
 # game/script.rpy:4296
 translate german chapter10_012b93d0:
 
     # mock "Would you like to see a little of it?"
-    mock "Do you want to see a bit of it?"
+    mock "Möchtest du ihn sehen?"
 
 # game/script.rpy:4300
 translate german chapter10_92d1e2a1:
 
     # alice "Very much indeed."
-    alice "Yes, very much."
+    alice "Ja, sehr gerne."
 
 # game/script.rpy:4304
 translate german chapter10_64af4384:
 
     # "The mock turtle turned to the gryphon:"
-    "The mock turtle turned to the gryphon:"
+    "Das Schmor drehte sich zum Greif um:"
 
 # game/script.rpy:4305
 translate german chapter10_5888cc22:
 
     # mock "Come, let’s try the first figure!"
-    mock "Let's do the first dance move!"
+    mock "Lasst uns den ersten Akt machen!"
 
 # game/script.rpy:4307
 translate german chapter10_443d0a9e:
 
     # mock "We can do without lobsters, you know. Which shall sing?"
-    mock "We don't need the lobsters. Who will sing?"
+    mock "Wir brauchen die Hummer nicht. Wer von uns singt?"
 
 # game/script.rpy:4311
 translate german chapter10_2fd1b88d:
 
     # gryphon "Oh, you sing. I’ve forgotten the words."
-    gryphon "Oh, you're singing. I forgot the lyrics."
+    gryphon "Oh, du singst. Ich habe den Text vergessen."
 
 # game/script.rpy:4330
 translate german chapter10_13f6d2fb:
 
     # "So they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—"
-    "They started dancing around Alice. Sometimes they accidentally stepped on her toes. The Mock Turtle sang slowly and sadly:"
+    "Sie fingen an um Alice herum zu tanzen. Manchmal traten sie versehentlich auf ihre Zehen. Das Schmor sang langsam und traurig:"
 
 # game/script.rpy:4332
 translate german chapter10_9ad8f338:
@@ -7211,13 +7211,13 @@ translate german chapter10_183fe015:
 translate german chapter10_c7e5993f:
 
     # alice "Thank you, it’s a very interesting dance to watch."
-    alice "Thank you, the dance was very interesting to watch."
+    alice "Danke, der Tanz war sehr interessant."
 
 # game/script.rpy:4362
 translate german chapter10_9ed42593:
 
     # "Alice was feeling very glad that it was over at last."
-    "Alice was very happy that it was finally over."
+    "Alice war sehr froh, dass es endlich vorbei war."
 
 # game/script.rpy:4363
 translate german chapter10_e0f065de:
