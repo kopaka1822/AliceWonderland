@@ -4739,7 +4739,7 @@ translate german chapter7_11227ebb:
 translate german chapter7_e2fa44c5:
 
     # hatter "Well, I’d hardly finished the first verse, when the Queen jumped up and bawled out, ‘He’s murdering the time! Off with his head!’"
-    hatter "Sobald ich den ersten Vers sang, stand die Königin auf und rief: 'Er verschwendet nur Zeit! Weg mit seinem Kopf!'"
+    hatter "Sobald ich den ersten Vers sang, stand die Königin auf und rief: 'Er verschwendet nur Zeit! Köpft ihn!'"
 
 # game/script.rpy:2699
 translate german chapter7_55a7f156:
@@ -5447,7 +5447,7 @@ translate german chapter8_a2229f0c:
 translate german chapter8_889880e4:
 
     # queen "Off with her head! Off—"
-    queen "Kopf ab! Kopf—"
+    queen "Köpft sie! Köpf—"
 
 # game/script.rpy:3290
 translate german chapter8_9b8eaf3d:
@@ -5933,7 +5933,7 @@ translate german ch8_croquet_4f23ad63:
 translate german ch8_croquet_d51c6dab_1:
 
     # queen "Off with his head!"
-    queen "Kopf ab!"
+    queen "Köpft ihn!"
 
 # game/script.rpy:3644
 translate german ch8_croquet_1806d9fc:
@@ -6077,13 +6077,13 @@ translate german chapter9_b267c1a6:
 translate german chapter9_57042d84:
 
     # "Alice was very glad to find her in such a pleasant temper, and thought to herself that perhaps it was only the pepper that had made her so savage when they met in the kitchen."
-    "Alice freute sich zu sehen, dass die Herzogin gut gelaunt war. Sie glaubte, dass die Herzogin in der Küche nur wegen des vielen Pfeffers so wütend war."
+    "Alice freute sich zu sehen, dass die Herzogin gut gelaunt war. Sie glaubte, dass die Herzogin damals nur wütend war, wegen des vielen Pfeffers in der Luft."
 
 # game/script.rpy:3767
 translate german chapter9_7ccc509b:
 
     # alice "(When I’m a Duchess, I won’t have any pepper in my kitchen at all)"
-    alice "(Wenn ich Herzogin werde, werde ich keinen Pfeffer in meiner Küche haben)"
+    alice "(Wenn ich Herzogin werde, gibt es keinen Pfeffer in meiner Küche)"
 
 # game/script.rpy:3768
 translate german chapter9_26347513:
@@ -6143,25 +6143,25 @@ translate german chapter9_0cec38d4:
 translate german chapter9_62337af9:
 
     # alice "The game’s going on rather better now."
-    alice "Das Spiel läuft gut jetzt."
+    alice "Das Spiel läuft besser jetzt."
 
 # game/script.rpy:3792
 translate german chapter9_415ea529:
 
     # duchess "’Tis so, and the moral of that is—‘Oh, ’tis love, ’tis love, that makes the world go round!’"
-    duchess "Genau, und die Moral hier ist, dass Liebe die Welt drehen lässt!"
+    duchess "Genau, und die Moral hier ist: 'Übung macht den Meister!'"
 
 # game/script.rpy:3794
 translate german chapter9_fc8e87c1:
 
     # alice "Somebody said, that it’s done by everybody minding their own business!"
-    alice "Jemand hat mal gesagt, dass die Welt sich nur dreht, wenn sich jeder um seine eigenen Angelegenheiten kümmert!"
+    alice "Naja, es ist auch noch kein Meister vom Himmel gefallen."
 
 # game/script.rpy:3796
 translate german chapter9_3cd6d42f:
 
     # duchess "Ah, well! It means much the same thing, and the moral of that is—‘Take care of the sense, and the sounds will take care of themselves’."
-    duchess "Nun, das ist dasselbe. Und die Moral ist, dass 'Konzentriere dich auf das, was du meinst, dann sagt es sich von ganz alleine.'"
+    duchess "Nun, das ist dasselbe. Und die Moral davon ist: 'Ohne Fleiß kein Preis!'"
 
 # game/script.rpy:3801
 translate german chapter9_d8b86064:
@@ -6185,7 +6185,7 @@ translate german chapter9_a20cefa7:
 translate german chapter9_d7cdb3cc:
 
     # duchess "I dare say you’re wondering why I don’t put my arm round your waist, the reason is, that I’m doubtful about the temper of your flamingo. Shall I try the experiment?"
-    duchess "Ich wette, du fragst dich, warum ich nicht meinen Arm um dich lege. Der Grund ist dafür ist, dass ich mir nicht sicher bin, ob dein Flamingo beißt. Soll ich es mal versuchen und sehen, was passiert?"
+    duchess "Du wunderst dich sicher, warum ich meinen Arm nicht um deine Taille lege. Der Grund dafür ist, dass ich mir nicht sicher bin, ob sich dein Flamingo benehmen kann. Soll ich es mal versuchen und sehen, was passiert?"
 
 # game/script.rpy:3807
 translate german chapter9_ad2a910c:
@@ -6203,7 +6203,7 @@ translate german chapter9_d2413f5c:
 translate german chapter9_60f7002c:
 
     # duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together’."
-    duchess "Das ist wahr. Flamingos und Senf beißen beide. Und die Moral ist, dass Gleich und Gleich sich gern gesellt."
+    duchess "Das ist wahr. Flamingos und Senf beißen beide. Und die Moral ist, davon ist: 'Gleich und gleich gesellt sich gern.'"
 
 # game/script.rpy:3811
 translate german chapter9_92521c20:
@@ -6215,7 +6215,7 @@ translate german chapter9_92521c20:
 translate german chapter9_61398943:
 
     # duchess "Right, as usual, what a clear way you have of putting things!"
-    duchess "Du bist sehr clever!"
+    duchess "Richtig, wie immer! Du bist einfach zu clever."
 
 # game/script.rpy:3814
 translate german chapter9_a0158356:
@@ -6227,7 +6227,7 @@ translate german chapter9_a0158356:
 translate german chapter9_09b9d787:
 
     # duchess "Of course it is, there’s a large mustard-mine near here."
-    duchess "Ja, es gibt eine große Senfmine in der Nähe."
+    duchess "Natürlich ist es das, es gibt eine große Senfmine in der Nähe."
 
 # game/script.rpy:3816
 translate german chapter9_083fe0dd:
@@ -6239,7 +6239,7 @@ translate german chapter9_083fe0dd:
 translate german chapter9_c4fe1f24:
 
     # duchess "And the moral of that is—‘The more there is of mine, the less there is of yours’."
-    duchess "Und die Moral davon ist - 'Mehr Mine, weniger Deine.'"
+    duchess "Und die Moral davon ist: 'Morgenstund hat Senf im Mund'."
 
 # game/script.rpy:3819
 translate german chapter9_3b751ad0:
@@ -6251,13 +6251,13 @@ translate german chapter9_3b751ad0:
 translate german chapter9_040224d6:
 
     # alice "It’s a vegetable. It doesn’t look like one, but it is."
-    alice "Es ist ein Gemüse."
+    alice "Senf ist ein Gemüse."
 
 # game/script.rpy:3822
 translate german chapter9_f7a65376:
 
     # duchess "I quite agree with you, and the moral of that is—‘Be what you would seem to be’"
-    duchess "Ich stimme dir total zu, und die Moral lautet 'Sei, was du zu sein scheinst'."
+    duchess "Ich stimme dir total zu, und die Moral lautet 'Du bist, was du isst'."
 
 # game/script.rpy:3823
 translate german chapter9_88bdf140:
@@ -6287,13 +6287,13 @@ translate german chapter9_57b34102:
 translate german chapter9_7f0663d3:
 
     # duchess "Oh, don’t talk about trouble!"
-    duchess "Das macht mir doch keine Mühe!"
+    duchess "Das macht mir doch keine Mühe! Du weißt doch, wer rastet, der rostet."
 
 # game/script.rpy:3831
 translate german chapter9_74e9f3be:
 
     # duchess "I make you a present of everything I’ve said as yet."
-    duchess "Ich würde dir gerne alles was ich bis jetzt gesagt habe aufschreiben, und schenken."
+    duchess "Ich würde dir mit Vergnügen alles aufschreiben und als Geschenk einpacken."
 
 # game/script.rpy:3833
 translate german chapter9_c688d5d4:
@@ -6605,7 +6605,7 @@ translate german ch9_gryphon_9636a767:
 translate german ch9_gryphon_d83ac9b2:
 
     # mock "Once, *deep sigh* I was a real Turtle."
-    mock "Einst, *tiefer Seufzer* war ich eine echtes Tiefsee Schmor."
+    mock "Einst, *tiefer Seufzer* war ich ein echtes Tiefsee Schmor."
 
 # game/script.rpy:3972
 translate german ch9_gryphon_b994e6ec:
@@ -6623,7 +6623,7 @@ translate german ch9_gryphon_0be2d6ad:
 translate german ch9_gryphon_929a65e6:
 
     # "And the constant heavy sobbing of the Mock Turtle."
-    "Und dem ständige schweren Schluchzen des Schmors."
+    "Und dem ständigen schweren Schluchzen des Schmors."
 
 # game/script.rpy:3981
 translate german ch9_gryphon_90574092:
@@ -6647,7 +6647,7 @@ translate german ch9_gryphon_50a8adc7:
 translate german ch9_gryphon_0bf954eb:
 
     # alice "Why did you call him Tortoise, if he wasn’t one?"
-    alice "Warum habt ihr ihn Aal genannte, wenn er in Wirklichkeit eine Seeschlange war?"
+    alice "Warum habt ihr ihn Aal genannt, wenn er in Wirklichkeit eine Seeschlange war?"
 
 # game/script.rpy:3994
 translate german ch9_gryphon_029dbfd6:
@@ -6989,7 +6989,7 @@ translate german chapter10_e20a2d2a:
 translate german chapter10_72acd372:
 
     # alice "I once tasted—"
-    alice "Ich habe einmal propiert-"
+    alice "Ich habe einmal probiert-"
 
 # game/script.rpy:4208
 translate german chapter10_1492fe45:
@@ -7133,7 +7133,7 @@ translate german chapter10_64af4384:
 translate german chapter10_5888cc22:
 
     # mock "Come, let’s try the first figure!"
-    mock "Lasst uns den ersten Akt machen!"
+    mock "Lass uns den ersten Akt vorführen!"
 
 # game/script.rpy:4307
 translate german chapter10_443d0a9e:
