@@ -7085,7 +7085,7 @@ translate german chapter10_d3599b62:
 translate german chapter10_865bc280:
 
     # mock "Turn a somersault in the sea!"
-    mock "Mach einen Backflip im Ozean!"
+    mock "Mach eine Rolle im Ozean!"
 
 # game/script.rpy:4280
 translate german chapter10_3cf13861:
@@ -7157,55 +7157,55 @@ translate german chapter10_13f6d2fb:
 translate german chapter10_9ad8f338:
 
     # mock " “Will you walk a little faster?” said a whiting to a snail.\n “There’s a porpoise close behind us, and he’s treading on my tail.”"
-    mock " 'Will you walk a little faster?' said a whiting to a snail.\n  'There’s a porpoise close behind us, and he’s stepping on my tail.'"
+    mock " 'Geh ein wenig schneller, kleine Schnecke' sagte der Lachs,\n 'Hinter mir ist ein Thunfisch, der tritt mir auf den Latz."
 
 # game/script.rpy:4334
 translate german chapter10_032e1f8b:
 
     # mock " See how eagerly the lobsters and the turtles all advance!\n They are waiting on the shingle—will you come and join the dance?"
-    mock " See how eagerly the lobsters and the turtles all advance!\n They are waiting by the sea—will you come and join the dance?"
+    mock " Siehst du wie toll die Hummer tanzen, bald ist es vorbei!\n Beeil dich und sei schnell, bist du auch mit dabei?'"
 
 # game/script.rpy:4336
 translate german chapter10_aa244cb5:
 
     # mock " Will you, won’t you, will you, won’t you, will you join the dance?\n Will you, won’t you, will you, won’t you, won’t you join the dance?"
-    mock " Will you, won’t you, will you, won’t you, will you join the dance?\n Will you, won’t you, will you, won’t you, won’t you join the dance?"
+    mock " Kommst du, komm doch, kommst du, komm doch mit zum Tanz.\n Komm doch, kommst du, komm doch, kommst du mit zum Tanz?"
 
 # game/script.rpy:4339
 translate german chapter10_010115d8:
 
     # mock " “You can really have no notion how delightful it will be\n When they take us up and throw us, with the lobsters, out to sea!”"
-    mock " 'You can really have no notion how delightful it will be\n When they take us up and throw us, with the lobsters, in the sea!'"
+    mock " 'Du kannst dir nicht vorstellen, wie herrlich es wird sein,\n Wenn sie uns hochheben und werfen, ins weite Meer hinein!'"
 
 # game/script.rpy:4341
 translate german chapter10_09124143:
 
     # mock " But the snail replied “Too far, too far!” and gave a look askance—\n Said he thanked the whiting kindly, but he would not join the dance."
-    mock " But the snail replied 'Too far, too far!' with a wary glance—\n He thanked the whiting kindly, but he would not join the dance."
+    mock " Doch die Schnecke sagte 'Zu weit, zu weit!' und sah zur Seite hin-\n Sie dankte dem Lachs freundlich, doch es hatte keinen Sinn."
 
 # game/script.rpy:4343
 translate german chapter10_26fa0683:
 
     # mock " Would not, could not, would not, could not, would not join the dance.\n Would not, could not, would not, could not, could not join the dance."
-    mock " Would not, could not, would not, could not, would not join the dance.\n Would not, could not, would not, could not, could not join the dance."
+    mock " Will nicht, kann nicht, will nicht, kann nicht mit zum Tanz.\n Kann nicht, will nicht, kann nicht, will nicht mit zum Tanz."
 
 # game/script.rpy:4346
 translate german chapter10_405c1cf7:
 
     # mock " “What matters it how far we go?” his scaly friend replied.\n “There is another shore, you know, upon the other side."
-    mock " 'Why care how far?' the whiting replied,\n 'There's another shore, just on the other side."
+    mock " 'Was macht es schon, wie weit wir geh’n?' sprach sein Freund.\n 'Auf der anderen Seite gibt es einen Strand, der uns vereint."
 
 # game/script.rpy:4348
 translate german chapter10_e9e0a0ad:
 
     # mock " The further off from England the nearer is to France—\n Then turn not pale, beloved snail, but come and join the dance."
-    mock " The further from here, the closer to France we'll be,\n So don't be scared, come dance with me.'"
+    mock " Desto weiter weg von hier, desto näher sind wir an Frankreich-\n Liebe Schnecke, komm mit zum Tanz und werd nicht so bleich.'"
 
 # game/script.rpy:4350
 translate german chapter10_183fe015:
 
     # mock " Will you, won’t you, will you, won’t you, will you join the dance?\n Will you, won’t you, will you, won’t you, won’t you join the dance?”"
-    mock " Will you, won’t you, will you, won’t you, will you join the dance?\n Will you, won’t you, will you, won’t you, won’t you join the dance?”"
+    mock " Kommst du, komm doch, kommst du, komm doch mit zum Tanz.\n Komm doch, kommst du, komm doch, kommst du mit zum Tanz?"
 
 # game/script.rpy:4361
 translate german chapter10_c7e5993f:
@@ -7223,199 +7223,199 @@ translate german chapter10_9ed42593:
 translate german chapter10_e0f065de:
 
     # alice "And I do so like that curious song about the whiting!"
-    alice "I really like that interesting song about the whiting!"
+    alice "Mir hat besonders die Geschichte mit dem Lachs gefallen!"
 
 # game/script.rpy:4367
 translate german chapter10_3dee26c0:
 
     # mock "Oh, as to the whiting, they—you’ve seen them, of course?"
-    mock "Have you seen whiting before?"
+    mock "Nicht der Reder wert. Hast du denn schon mal einen Lachs gesehen?"
 
 # game/script.rpy:4371
 translate german chapter10_7ce46dfc:
 
     # alice "Yes, I’ve often seen them at dinn—"
-    alice "Yes, I’ve often seen them at dinn—"
+    alice "Ja, die gibt es bei uns oft beim Mittagess-"
 
 # game/script.rpy:4372
 translate german chapter10_72b5c1dd:
 
     # "She checked herself hastily."
-    "She quickly stopped herself."
+    "Sie hielt hastig inne."
 
 # game/script.rpy:4376
 translate german chapter10_3cbc2858:
 
     # mock "I don’t know where Dinn may be, but if you’ve seen them so often, of course you know what they’re like."
-    mock "I'm not sure where Dinn is, but if you have seen them a lot, you must know what they are like."
+    mock "Ich weiß zwar nicht wo dieses Mittagess ist, aber wenn du sie so oft gesehen hast, weißt du bestimmt auch wie sie aussehen?"
 
 # game/script.rpy:4380
 translate german chapter10_e726c289:
 
     # alice "I believe so."
-    alice "I think so."
+    alice "Ja, ich glaub schon."
 
 # game/script.rpy:4381
 translate german chapter10_9ce189c5:
 
     # alice "They have their tails in their mouths—and they’re all over crumbs."
-    alice "They are holding their tails in their mouths and all around are breadcrumbs."
+    alice "Die sind immer Kerzengerade und mit Brotkrümeln bedeckt."
 
 # game/script.rpy:4385
 translate german chapter10_ec7915d0:
 
     # mock "You’re wrong about the crumbs, crumbs would all wash off in the sea."
-    mock "You are mistaken about the crumbs. Crumbs would easily wash away in the sea."
+    mock "Du irrst dich bei den Krümeln. Krümel würden ja im Meer alle abgewaschen werden. "
 
 # game/script.rpy:4386
 translate german chapter10_6a7b7c04:
 
     # mock "But they have their tails in their mouths; and the reason is— *yawn* —Tell her about the reason and all that."
-    mock "But they have their tails in their mouths; and the reason is— *yawn* —Tell her about the reason and all that."
+    mock "Aber sie sind öfter Kerzengerade, und der Grund dafür ist- *Gähn* -Erzähl du ihr den Grund und alles andere."
 
 # game/script.rpy:4390
 translate german chapter10_93c78c1c:
 
     # gryphon "The reason is, that they would go with the lobsters to the dance."
-    gryphon "The reason is, that they would go with the lobsters to the dance."
+    gryphon "Und der Grund dafür ist, dass sie mit den Hummern zum Tanz gehen wollten. "
 
 # game/script.rpy:4391
 translate german chapter10_1b5f1f24:
 
     # gryphon "So they got thrown out to sea."
-    gryphon "So they got thrown out to sea."
+    gryphon "Also wurden sie ins Meer geworfen."
 
 # game/script.rpy:4392
 translate german chapter10_1d3939d9:
 
     # gryphon "So they had to fall a long way."
-    gryphon "So they had to fall a long way."
+    gryphon "Und um möglich weit zu fliegen mussten sie sich Kerzengerade machen."
 
 # game/script.rpy:4393
 translate german chapter10_21f6d5a8:
 
     # gryphon "So they got their tails fast in their mouths."
-    gryphon "So they got their tails in their mouths."
+    gryphon "Damit sie dann weniger Lufwiederstand haben."
 
 # game/script.rpy:4394
 translate german chapter10_8ee701b6:
 
     # gryphon "So they couldn’t get them out again."
-    gryphon "So they couldn’t get them out again."
+    gryphon "Aber vor Schreck vergessen sie sich dann manchmal wieder zu bewegen."
 
 # game/script.rpy:4395
 translate german chapter10_68f63784:
 
     # gryphon "That’s all."
-    gryphon "That’s all."
+    gryphon "Das wars."
 
 # game/script.rpy:4399
 translate german chapter10_9bef08db:
 
     # alice "Thank you, it’s very interesting. I never knew so much about a whiting before."
-    alice "Thank you, it’s very interesting. I never knew so much about a whiting before."
+    alice "Danke, das war interessant. Ich habe noch nie so viel über den Lachs gehört."
 
 # game/script.rpy:4403
 translate german chapter10_a3890bb0:
 
     # gryphon "I can tell you more than that, if you like. Do you know why it’s called a whiting?"
-    gryphon "I can tell you more than that, if you like. Do you know why it’s called a whiting?"
+    gryphon "Ich kann dir mehr erzählen, wenn du magst. Weißt du, warum er Lachs heißt?"
 
 # game/script.rpy:4407
 translate german chapter10_5d2a5f6d:
 
     # alice "I never thought about it. Why?"
-    alice "I never thought about it. Why?"
+    alice "Nein, warum denn?"
 
 # game/script.rpy:4411
 translate german chapter10_d5ba95db:
 
     # gryphon "It does the boots and shoes."
-    gryphon "It cleans the shoes and boots."
+    gryphon "Er macht die Lackschuhe."
 
 # game/script.rpy:4417
 translate german chapter10_e59b1eee:
 
     # "Alice was thoroughly puzzled."
-    "Alice was very confused."
+    "Alice war verwirrt."
 
 # game/script.rpy:4418
 translate german chapter10_5533d8c3:
 
     # alice "Does the boots and shoes!?"
-    alice "Cleans the boots and shoes!?"
+    alice "Er macht die Lackschuhe!?"
 
 # game/script.rpy:4422
 translate german chapter10_b4fd2db0:
 
     # gryphon "Why, what are your shoes done with? I mean, what makes them so shiny?"
-    gryphon "Why are your shoes so shiny? What did you use to make them that way?"
+    gryphon "Naja, womit werden denn deine Schuhe gemacht? Ich meine, was macht sie so glänzend?"
 
 # game/script.rpy:4426
 translate german chapter10_925cae44:
 
     # "Alice looked down at them, and considered a little before she gave her answer."
-    "Alice thought about it for a little before answering."
+    "Alice schaute auf ihre Schuhe hinab und überlegte ein wenig, bevor sie antwortete"
 
 # game/script.rpy:4427
 translate german chapter10_625c18cb:
 
     # alice "They’re done with blacking, I believe."
-    alice "They’re done with blacking, I believe."
+    alice "Sie werden mit Lack überzogen, glaube ich."
 
 # game/script.rpy:4431
 translate german chapter10_a6160fee:
 
     # gryphon "Boots and shoes under the sea, are done with a whiting. Now you know."
-    gryphon "Boots and shoes under the sea, are done with a whiting. Now you know."
+    gryphon "Schuhe im Meer werden mit Lachs überzogen. Jetzt weißt du es."
 
 # game/script.rpy:4435
 translate german chapter10_eb7d7256:
 
     # alice "And what are they made of?"
-    alice "What are the shoes made from?"
+    alice "Und woraus werden sie gemacht?"
 
 # game/script.rpy:4439
 translate german chapter10_daefcf6f:
 
     # gryphon "Soles and eels, of course, any shrimp could have told you that."
-    gryphon "Soles and eels, of course, any shrimp could have told you that."
+    gryphon "Lederfische natürlich, das weiß doch jeder Hering."
 
 # game/script.rpy:4443
 translate german chapter10_85720915:
 
     # alice "If I’d been the whiting, I’d have said to the porpoise, ‘Keep back, please: we don’t want you with us!’"
-    alice "If I was the whiting, I would have said to the porpoise: 'Go away, we don't want you'"
+    alice "Also ich hätte ja zum Thunfisch gesagt: 'Geh weg! wir wollen dich nicht bei uns!'"
 
 # game/script.rpy:4447
 translate german chapter10_7f7ac74c:
 
     # mock "They were obliged to have him with them, no wise fish would go anywhere without a porpoise."
-    mock "They had to bring him along because no fish would go anywhere without a porpoise."
+    mock "Sie mussten ihn bei sich haben, kein weiser Fisch würde irgendwohin gehen ohne einen Thunfisch."
 
 # game/script.rpy:4451
 translate german chapter10_6e2be878:
 
     # alice "Wouldn’t it really?"
-    alice "Is that true?"
+    alice "Wirklich nicht?"
 
 # game/script.rpy:4455
 translate german chapter10_4028a3f8:
 
     # mock "Of course not, why, if a fish came to me, and told me he was going a journey, I should say ‘With what porpoise?’"
-    mock "If a fish told me it was going on a journey, I would ask, 'With what porpoise?'"
+    mock "Natürlich, man kann nichts ohne ihn tun, Fisch."
 
 # game/script.rpy:4459
 translate german chapter10_c3a9164f:
 
     # alice "Don’t you mean ‘purpose’?"
-    alice "Do you mean 'purpose'?"
+    alice "..."
 
 # game/script.rpy:4463
 translate german chapter10_a4e3f0f1:
 
     # mock "*offended* I mean what I say."
-    mock "*offended* I mean what I say."
+    mock "*grins*"
 
 # game/script.rpy:4467
 translate german chapter10_74f1194d:
