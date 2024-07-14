@@ -13,7 +13,7 @@ client = OpenAI(api_key=api_key)
 
 # File path and start line
 file_path = "game/tl/german/script.rpy"
-start_line = 7699
+start_line = 7758
 
 history = [
     {"role": "system", "content": "Translate the following English text from alice in wonderland into German. Use vocabulary and grammar that is common in today's German language and suitable for a 10 year old native speaker. Split very long sentences into smaller sentences. The input format from the user will be <sayer>: <quote>. Only output the translation of the quote. If the sayer is alice, translate it in a way that would be common for a 10 year old German in 2020 and use German teenage slang without making it cringe. If the user input starts with 'instruct:' edit the previous user translation as requested. After the translation the user will supply its accepted translation. Please make sure to stay consistent with the user edits for future translations"}
