@@ -8471,31 +8471,31 @@ translate german chapter12_72206f30:
 translate german chapter12_830a84bc:
 
     # "Alice forgot in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
-    "Alice forgot how big she had become and quickly stood up, accidentally knocking over the jury-box with her skirt. The jurors fell to the ground which reminded her of the goldfish she had spilled the week before."
+    "Alice stand schnell auf, wobei sie versehentlich die Geschworenenbank mit ihrem Rock umstieß. Die Geschworenen fielen zu Boden, was sie an den Goldfisch erinnerte, den sie in der Woche zuvor verschüttet hatte."
 
 # game/script.rpy:5206
 translate german chapter12_4947535b:
 
     # alice "Oh, I beg your pardon!"
-    alice "I'm sorry!"
+    alice "Oh nein!"
 
 # game/script.rpy:5213
 translate german chapter12_b6afee4e:
 
     # "She began picking them up again as quickly as she could, for the accident of the goldfish kept running in her head, and she had a vague sort of idea that they must be collected at once and put back into the jury-box, or they would die."
-    "She quickly started picking up the jurors. The accident with the goldfish was still on her mind, and she had a feeling that she needed to pick them up right away, or they might die."
+    "Sie fing schnell an, die Geschworenen aufzuheben. Der Unfall mit dem Goldfisch beschäftigte sie immer noch, und sie hatte das Gefühl, dass sie die Geschworenen sofort aufheben musste, weil diese sonst sterben würden."
 
 # game/script.rpy:5217
 translate german chapter12_a2ab220e:
 
     # king "The trial cannot proceed, until all the jurymen are back in their proper places."
-    king "The trial cannot continue until all the jurors are back in their seats."
+    king "Der Prozess kann nicht fortgesetzt werden, bis alle Geschworenen wieder auf ihren Plätzen sind."
 
 # game/script.rpy:5220
 translate german chapter12_63bdc3e8:
 
     # king "All!"
-    king "All!"
+    king "Alle!"
 
 # game/script.rpy:5221
 translate german chapter12_81fc37a2:
@@ -8507,19 +8507,19 @@ translate german chapter12_81fc37a2:
 translate german chapter12_8a5fef28:
 
     # "Alice looked at the jury-box, and saw that, in her haste, she had put the Lizard in head downwards, and the poor little thing was waving its tail about in a melancholy way, being quite unable to move."
-    "Alice quickly noticed that she had accidentally placed the Lizard upside down in her hurry. The poor creature was sadly waving its tail as it could not move."
+    "Alice bemerkte schnell, dass sie die Eidechse versehentlich kopfüber zurückgestellt hatte. Das arme Tier wedelte wild mit seinem Schwanz, da es sich nicht bewegen konnte."
 
 # game/script.rpy:5228
 translate german chapter12_77726b09:
 
     # "She soon got it out again, and put it right."
-    "She quickly took it out again and turned it around."
+    "Sie nahm es schnell wieder heraus und drehte es um."
 
 # game/script.rpy:5229
 translate german chapter12_b4dbbe03:
 
     # alice "(not that it signifies much)"
-    alice "(It does not make much of a difference anyways)"
+    alice "(Der trägt sowieso nicht viel bei)"
 
 # game/script.rpy:5230
 translate german chapter12_69fb5e44:
@@ -8531,55 +8531,55 @@ translate german chapter12_69fb5e44:
 translate german chapter12_c371a42e:
 
     # "As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court."
-    "Once the jury calmed down from the shock, they started to write down what happened during the accident. Everyone was writing, except for the Lizard. It was too shocked to do anything except sit with its mouth open."
+    "Als sich die Geschworenen vom Schock beruhigt hatten, begannen sie damit, den Unfall aufzuschreiben. Jeder schrieb, außer der Eidechse. Sie war zu geschockt, um irgendetwas zu tun, und saß nur mit offenem Mund da."
 
 # game/script.rpy:5238
 translate german chapter12_4cc833b8:
 
     # king "What do you know about this business?"
-    king "What do you know about this incident?"
+    king "Was weißt du über diesen Vorfall?"
 
 # game/script.rpy:5242
 translate german chapter12_7cf45b7a:
 
     # alice "Nothing."
-    alice "Nothing."
+    alice "Nichts."
 
 # game/script.rpy:5246
 translate german chapter12_2eed7f98:
 
     # king "Nothing whatever?"
-    king "Nothing whatever?"
+    king "Gar nichts?"
 
 # game/script.rpy:5250
 translate german chapter12_cce585a4:
 
     # alice "Nothing whatever."
-    alice "Nothing whatever."
+    alice "Gar nichts."
 
 # game/script.rpy:5254
 translate german chapter12_f3abacc7:
 
     # king "That’s very important."
-    king "That’s very important."
+    king "Das ist sehr wichtig."
 
 # game/script.rpy:5258
 translate german chapter12_71a1e928:
 
     # "The king turned to the jury."
-    "The king turned to the jury."
+    "Der König wandte sich an die Geschworenen."
 
 # game/script.rpy:5259
 translate german chapter12_20307473:
 
     # "They were just beginning to write this down on their slates, when the White Rabbit interrupted:"
-    "They had just started to write this on their slates when the White Rabbit interrupted them:"
+    "Sie hatten gerade angefangen, dies auf ihre Schiefertafeln zu schreiben, als das weiße Kaninchen sie unterbrach:"
 
 # game/script.rpy:5263
 translate german chapter12_fba96f86:
 
     # rabbit "Unimportant, your Majesty means, of course."
-    rabbit "Unimportant, your Majesty means, of course."
+    rabbit "Unwichtig, meint eure Majestät natürlich."
 
 # game/script.rpy:5264
 translate german chapter12_fed6dd2e:
@@ -8591,19 +8591,19 @@ translate german chapter12_fed6dd2e:
 translate german chapter12_6310b142:
 
     # king "Unimportant, of course, I meant."
-    king "Unimportant, of course, I meant."
+    king "Unwichtig, natürlich meinte ich das."
 
 # game/script.rpy:5268
 translate german chapter12_6f4e5d01:
 
     # "The King went on to himself in an undertone:"
-    "The King quietly spoke to himself:"
+    "Der König sprach leise vor sich hin:"
 
 # game/script.rpy:5271
 translate german chapter12_5153755f:
 
     # king "(important—unimportant—unimportant—important—)"
-    king "(important—unimportant—unimportant—important—)"
+    king "(wichtig—unwichtig—unwichtig—wichtig—)"
 
 # game/script.rpy:5272
 translate german chapter12_565696f9:
@@ -8615,7 +8615,7 @@ translate german chapter12_565696f9:
 translate german chapter12_84a3dea9:
 
     # "Some of the jury wrote it down “important,” and some “unimportant.”"
-    "Some of the jury wrote “important,” and some “unimportant.”"
+    "Einige der Geschworenen schrieben 'wichtig', und einige schrieben 'unwichtig'."
 
 # game/script.rpy:5278
 translate german chapter12_c372487a:
@@ -8633,79 +8633,79 @@ translate german chapter12_f193792a:
 translate german chapter12_14a35436:
 
     # "At this moment the King, who had been for some time busily writing in his note-book, cackled out:"
-    "The King, who had been writing in his notebook for a while, suddenly spoke again:"
+    "Der König, der eine Weile in sein Notizbuch geschrieben hatte, sprach plötzlich wieder:"
 
 # game/script.rpy:5284
 translate german chapter12_a710a126:
 
     # king "Silence!"
-    king "Silence!"
+    king "Ruhe!"
 
 # game/script.rpy:5285
 translate german chapter12_f6421590:
 
     # "And he read out from his book:"
-    "And he read aloud from his book:"
+    "Dann las er laut aus seinem Buch vor:"
 
 # game/script.rpy:5286
 translate german chapter12_7a76d043:
 
     # king "Rule Forty-two. All persons more than a mile high have to leave the court."
-    king "Rule Forty-two states that everyone taller than one kilometers must leave the court."
+    king "Paragraf 42 besagt, dass alle, die größer als ein Kilometer sind, den Gerichtssaal verlassen müssen."
 
 # game/script.rpy:5289
 translate german chapter12_a7c862d2:
 
     # "Everybody looked at Alice."
-    "Everybody looked at Alice."
+    "Alle schauten zu Alice."
 
 # game/script.rpy:5292
 translate german chapter12_8df41646:
 
     # alice "I’m not a mile high."
-    alice "I'm not a kilometer tall."
+    alice "Ich bin kein Kilometer groß."
 
 # game/script.rpy:5296
 translate german chapter12_b3fe30e3:
 
     # king "You are."
-    king "You are."
+    king "Doch, das bist du."
 
 # game/script.rpy:5299
 translate german chapter12_13337312:
 
     # queen "Nearly two miles high."
-    queen "Almost 2 kilometers tall."
+    queen "Fast 2 Kilometer groß."
 
 # game/script.rpy:5304
 translate german chapter12_dfc0f49a:
 
     # alice "Well, I shan’t go, at any rate, besides, that’s not a regular rule: you invented it just now."
-    alice "I won't go, and that rule isn't real; you just made it up."
+    alice "Ich werde nicht gehen, und dieser Paragraf ist nicht echt; du hast ihn gerade erfunden."
 
 # game/script.rpy:5308
 translate german chapter12_86a7b589:
 
     # king "It’s the oldest rule in the book."
-    king "It’s the oldest rule in the book."
+    king "Das ist der älteste Paragraf im Buch."
 
 # game/script.rpy:5312
 translate german chapter12_11eaf118:
 
     # alice "Then it ought to be Number One."
-    alice "Then it should be rule one."
+    alice "Dann sollte er Paragraf 1 sein."
 
 # game/script.rpy:5317
 translate german chapter12_c05887b2:
 
     # "The King turned pale, and shut his note-book hastily."
-    "The King turned pale and closed his notebook quickly."
+    "Der König wurde blass und schloss schnell sein Notizbuch."
 
 # game/script.rpy:5318
 translate german chapter12_b29ec789:
 
     # king "Consider your verdict."
-    king "Consider your verdict."
+    king "Fällt euer Urteil."
 
 # game/script.rpy:5319
 translate german chapter12_215c9fe9:
@@ -8717,337 +8717,337 @@ translate german chapter12_215c9fe9:
 translate german chapter12_54e1e1a0:
 
     # rabbit "There’s more evidence to come yet, please your Majesty."
-    rabbit "There is more evidence to discuss, Your Majesty."
+    rabbit "Es gibt noch mehr Beweise, Eure Majestät."
 
 # game/script.rpy:5326
 translate german chapter12_90fafb81:
 
     # "The White Rabbit was jumping up in a great hurry."
-    "The White Rabbit was hopping quickly."
+    "Das weiße Kaninchen sprang auf und ab."
 
 # game/script.rpy:5327
 translate german chapter12_239cc1c9:
 
     # rabbit "This paper has just been picked up."
-    rabbit "This envelope was just picked up."
+    rabbit "Dieser Umschlag wurde gerade gefunden."
 
 # game/script.rpy:5331
 translate german chapter12_3d98c1d5:
 
     # queen "What’s in it?"
-    queen "What is inside?"
+    queen "Was ist drin?"
 
 # game/script.rpy:5335
 translate german chapter12_bf413277:
 
     # rabbit "I haven’t opened it yet, but it seems to be a letter, written by the prisoner to—to somebody."
-    rabbit "I haven't read it yet, but it looks like a letter from the prisoner to someone."
+    rabbit "Ich habe ihn noch nicht geöffnet, aber es sieht aus wie ein Brief des Gefangenen an jemanden."
 
 # game/script.rpy:5340
 translate german chapter12_d3e0f0bb:
 
     # king "It must have been that, unless it was written to nobody, which isn’t usual, you know."
-    king "It must have been written to someone, unless it was written to nobody, which is not very common."
+    king "Es muss ein Brief an {i}jemanden{/i} sein. Man schreibt ja normalerweise nicht an {i}niemanden{/i}."
 
 # game/script.rpy:5344
 translate german chapter12_a0daa1b7:
 
     # bill "Who is it directed to?"
-    bill "Who is it addressed to?"
+    bill "An wen ist er adressiert?"
 
 # game/script.rpy:5348
 translate german chapter12_7cd014f9:
 
     # rabbit "It isn’t directed at all, in fact, there’s nothing written on the outside."
-    rabbit "It's not addressed at all, in fact, there's nothing written on the outside."
+    rabbit "Er ist überhaupt nicht adressiert. Er ist komplett unbeschriftet."
 
 # game/script.rpy:5349
 translate german chapter12_24702253:
 
     # "He unfolded the paper as he spoke."
-    "He opened the envelope while he talked."
+    "Er öffnete den Umschlag, während er sprach."
 
 # game/script.rpy:5350
 translate german chapter12_fd0177f2:
 
     # rabbit "It isn’t a letter, after all: it’s a set of verses."
-    rabbit "It's not a letter, it's a poem."
+    rabbit "Es ist kein Brief, sondern ein Gedicht."
 
 # game/script.rpy:5354
 translate german chapter12_61990803:
 
     # lory "Are they in the prisoner’s handwriting?"
-    lory "Is it in the prisoner's handwriting?"
+    lory "Ist es in der Handschrift des Gefangenen?"
 
 # game/script.rpy:5358
 translate german chapter12_9c4ae923:
 
     # rabbit "No, they’re not, and that’s the queerest thing about it."
-    rabbit "No, it's not, and that's the strangest part."
+    rabbit "Nein, ist es nicht, wie merkwürdig."
 
 # game/script.rpy:5362
 translate german chapter12_34050c98:
 
     # "(The jury all looked puzzled)"
-    "(The jury all looked confused)"
+    "(Die Geschworenen sahen alle verwirrt aus)"
 
 # game/script.rpy:5366
 translate german chapter12_8ab2e1f3:
 
     # king "He must have imitated somebody else’s hand."
-    king "He copied someone else’s handwriting."
+    king "Er hat wohl die Handschrift von jemand anderem nachgemacht."
 
 # game/script.rpy:5367
 translate german chapter12_a01180e2:
 
     # "(The jury all brightened up again)"
-    "(The jury seemed enlightened)"
+    "(Den Geschworenen ging ein Licht auf)"
 
 # game/script.rpy:5372
 translate german chapter12_6a1def5e:
 
     # knave "Please your Majesty, I didn’t write it, and they can’t prove I did: there’s no name signed at the end."
-    knave "Your Highness, I didn't write it, and there's no name signed at the end to prove that I did."
+    knave "Eure Hoheit, ich habe es nicht geschrieben. Und am Ende ist auch keine Unterschrift."
 
 # game/script.rpy:5376
 translate german chapter12_bf6be2b7:
 
     # king "If you didn’t sign it, that only makes the matter worse. You must have meant some mischief, or else you’d have signed your name like an honest man."
-    king "If you didn't sign it, that's even worse. You must have wanted to cause trouble, or else you would have signed your name like an honest person."
+    king "Wenn du es nicht unterschrieben hast, ist das ja noch schlimmer. Du wolltest wahrscheinlich für Ärger sorgen, sonst hättest du mit deinen Namen unterschrieben wie jeder ehrliche Mensch."
 
 # game/script.rpy:5377
 translate german chapter12_bc85cef5:
 
     # "There was a general clapping of hands at this: it was the first really clever thing the King had said that day."
-    "Everyone clapped - it was the first clever thing the king had said that day."
+    "Alle klatschten - das war das erste kluge, was der König an diesem Tag gesagt hatte."
 
 # game/script.rpy:5381
 translate german chapter12_21876a37:
 
     # queen "That proves his guilt."
-    queen "That proves his guilt."
+    queen "Das beweist seine Schuld."
 
 # game/script.rpy:5387
 translate german chapter12_2ac01392:
 
     # alice "It proves nothing of the sort!"
-    alice "It doesn't prove that at all!"
+    alice "Das beweist überhaupt nichts!"
 
 # game/script.rpy:5388
 translate german chapter12_03013256:
 
     # alice "Why, you don’t even know what they’re about!"
-    alice "You don't even know what the poem is about!"
+    alice "Ihr wisst doch nicht einmal, worum es in dem Gedicht geht!"
 
 # game/script.rpy:5392
 translate german chapter12_5ea90e8a:
 
     # king "Read them."
-    king "Read it."
+    king "Lies es vor."
 
 # game/script.rpy:5397
 translate german chapter12_b9b9f62e:
 
     # "The White Rabbit put on his spectacles."
-    "The White Rabbit put on his glasses."
+    "Das weiße Kaninchen setzte seine Brille auf."
 
 # game/script.rpy:5398
 translate german chapter12_ee898797:
 
     # rabbit "Where shall I begin, please your Majesty?"
-    rabbit "Where should I start, your Majesty?"
+    rabbit "Wo soll ich anfangen, Eure Majestät?"
 
 # game/script.rpy:5402
 translate german chapter12_21aada1f:
 
     # king "Begin at the beginning, and go on till you come to the end: then stop."
-    king "Start at the start and keep going until you reach the end, then stop."
+    king "Fang am Anfang an und mach weiter, bis du zum Ende kommst, dann hör auf."
 
 # game/script.rpy:5407
 translate german chapter12_19b3f3e2:
 
     # rabbit "They told me you had been to her,\n{space=30}And mentioned me to him:\nShe gave me a good character,\n{space=30}But said I could not swim."
-    rabbit "A boy visits a girl, with a cake in his glove,\n{space=30}Claims he made it himself, \n{space=30}as a sign of his love.\nThe girl's joy blooms, the cake she saves,\n{space=30}For a special moment, her craving it craves."
+    rabbit "Ich höre ja du warst bei ihr,\n{space=30}Und dass er mir es gönnt; \nSie sprach, sie hielte viel von mir,\n{space=30}Wenn ich nur schwimmen könnt'!"
 
 # game/script.rpy:5409
 translate german chapter12_35095ab0:
 
     # rabbit "He sent them word I had not gone\n{space=30}(We know it to be true):\nIf she should push the matter on,\n{space=30}What would become of you?"
-    rabbit "Next day she chats, with her friend so dear,\n{space=30}Praises the boy, but with one small fear.\n'He can't swim,' she says, a fact so clear,\n{space=30}Her friend nods, 'We know,' \n{space=30}without any cheer."
+    rabbit "Er schrieb an sie, ich ginge nicht\n{space=30}(Nur wussten wir es gleich):\nWenn ihr viel an der Sache liegt,\n{space=30}Was würde dann aus euch?"
 
 # game/script.rpy:5411
 translate german chapter12_27c6adba:
 
     # rabbit "I gave her one, they gave him two,\n{space=30}You gave us three or more;\nThey all returned from him to you,\n{space=30}Though they were mine before."
-    rabbit "They decide to eat, the cake so sweet,\n{space=30}But the friend stops, her heart skips a beat.\n'It's from our shop,' she says with a surprise,\n{space=30}'So it returned,' she laughs, as truth unties."
+    rabbit "Ich gab ihr eins, sie gab ihm zwei,\n{space=30}Ihr gabt uns drei Mal vier;\nJetzt sind sie hier, er steht dabei;\n{space=30}Doch alle gehörten erst mir."
 
 # game/script.rpy:5413
 translate german chapter12_00c018c5:
 
     # rabbit "If I or she should chance to be\n{space=30}Involved in this affair,\nHe trusts to you to set them free,\n{space=30}Exactly as we were."
-    rabbit "The girl's joy fades, her anger takes its place,\n{space=30}Betrayed by the boy, \n{space=30}a frown crosses her face.\n'He said he baked it,' her voice cold and stiff,\n{space=30}Her trust in pieces, like a shattered cliff."
+    rabbit "Würd' ich und sie vielleicht darein\n{space=30}Verwickelt und verfahren,\nVertraut er dir, sie zu befrei'n,\n{space=30}Gerade wie wir waren."
 
 # game/script.rpy:5415
 translate german chapter12_17c71a22:
 
     # rabbit "My notion was that you had been\n{space=30}(Before she had this fit)\nAn obstacle that came between\n{space=30}Him, and ourselves, and it."
-    pass
+    rabbit "Ich dachte schon in meinem Sinn,\n{space=30}Eh' sie den Anfall hätt',\nIhr wär't derjenige, der ihn,\n{space=30}Es und uns hindertet."
 
 # game/script.rpy:5417
 translate german chapter12_2ce3842c:
 
     # rabbit "Don’t let him know she liked them best,\n{space=30}For this must ever be\nA secret, kept from all the rest,\n{space=30}Between yourself and me."
-    pass
+    rabbit "Sag' ihm um keinen Preis, daß ihr\n{space=30}Die Andern lieber war'n;\nDenn keine Seele außer dir\n{space=30}Und mir darf dies erfahr'n."
 
 # game/script.rpy:5421
 translate german chapter12_5a5c9f32:
 
     # king "That’s the most important piece of evidence we’ve heard yet."
-    king "That's the most important evidence we've heard so far."
+    king "Das ist der bisher wichtigste Beweis, den wir gehört haben."
 
 # game/script.rpy:5422
 translate german chapter12_651003f5:
 
     # king "So now let the jury—"
-    king "So now let the jury—"
+    king "Nun lasst die Geschworenen—"
 
 # game/script.rpy:5428
 translate german chapter12_a5a82f4d:
 
     # alice "If any one of them can explain it I’ll give him sixpence. I don’t believe there’s an atom of meaning in it."
-    alice "If anyone can explain it, I will give them six pence. I don't think there is any meaning in it at all."
+    alice "Wenn das jemand erklären kann, gebe ich ihm 5 Euro. Ich glaube nicht, dass es überhaupt eine Bedeutung hat."
 
 # game/script.rpy:5429
 translate german chapter12_d8a816a6:
 
     # "(she had grown so large in the last few minutes that she wasn’t a bit afraid of interrupting him)"
-    "(She had become much bigger in the last few minutes and wasn't scared at all to interrupt the king)"
+    "(Sie war in den letzten Minuten viel größer geworden und hatte überhaupt keine Angst, den König zu unterbrechen)"
 
 # game/script.rpy:5433
 translate german chapter12_395611b0:
 
     # "The jury all wrote down on their slates: “She doesn’t believe there’s an atom of meaning in it”, but none of them attempted to explain the paper."
-    "The jury all wrote on their slates: 'She thinks there's no meaning in it,' but none of them tried to explain the poem."
+    "Die Geschworenen schrieben alle auf ihre Schiefertafeln: 'Sie glaubt, dass es keine Bedeutung hat', aber keiner von ihnen versuchte, das Gedicht zu erklären."
 
 # game/script.rpy:5436
 translate german chapter12_bbf1c8e9:
 
     # king "If there’s no meaning in it, that saves a world of trouble, you know, as we needn’t try to find any."
-    king "If there is no meaning, it's less trouble because we don't have to look for any."
+    king "Wenn es keine Bedeutung hat, dann müssen wir auch nicht nach einer suchen. Perfekt!"
 
 # game/script.rpy:5437
 translate german chapter12_b9d92e96:
 
     # king "And yet I don’t know..."
-    king "But I don't know..."
+    king "Aber ich weiß nicht..."
 
 # game/script.rpy:5438
 translate german chapter12_e498dbfb:
 
     # "He went on, spreading out the verses on his knee, and looking at them with one eye."
-    "He continued looking at the poem with one eye."
+    "Er schaute weiter mit einem Auge auf das Gedicht."
 
 # game/script.rpy:5439
 translate german chapter12_6d2523da:
 
     # king "I seem to see some meaning in them, after all. “—said I could not swim—” you can’t swim, can you?"
-    king "I think I understand now. It said you can't swim, is that right?"
+    king "Ich glaube, jetzt verstehe ich. Es sagt: 'Wenn ich nur schwimmen könnt'. Du kannst nicht schwimmen, oder?"
 
 # game/script.rpy:5444
 translate german chapter12_1350c6ef:
 
     # "He turned to the Knave."
-    "He turned to the Knave."
+    "Er wandte sich dem Buben zu."
 
 # game/script.rpy:5446
 translate german chapter12_ecfb127b:
 
     # "The Knave shook his head sadly."
-    "The Knave sadly shook his head."
+    "Der Bube schüttelte traurig den Kopf."
 
 # game/script.rpy:5447
 translate german chapter12_948780d0:
 
     # knave "Do I look like it?"
-    knave "Do I look like I can swim?"
+    knave "Sehe ich so aus?"
 
 # game/script.rpy:5448
 translate german chapter12_4df535e3:
 
     # "(He certainly did not, being made entirely of cardboard)"
-    "(He definitely didn't because he was completely made of cardboard)"
+    "(Definitiv nicht, weil er komplett aus Pappe gemacht war)"
 
 # game/script.rpy:5452
 translate german chapter12_6d3bc29b:
 
     # king "All right, so far."
-    king "All right."
+    king "So."
 
 # game/script.rpy:5453
 translate german chapter12_396e35ce:
 
     # "The King went on muttering over the verses to himself:"
-    "The King kept mumbling the verses to himself."
+    "Der König murmelte die Verse vor sich hin."
 
 # game/script.rpy:5454
 translate german chapter12_c6c1d5fe:
 
     # king "‘We know it to be true—’ that’s the jury, of course—‘I gave her one, they gave him two—’ why, that must be what he did with the tarts, you know—” "
-    king "'We know,' without any cheer - that's what the jury does. \nWith a cake in his glove - that's probably what happened with the tarts!'"
+    king "'Nur wussten wir es gleich' - das sind die Geschworenen, natürlich - 'Ich gab ihr eins, sie gab ihm zwei -' ja wohl, so hat er es mit den Keksen gemacht, versteht sich -"
 
 # game/script.rpy:5460
 translate german chapter12_e1a93529:
 
     # alice "But, it goes on ‘they all returned from him to you’"
-    alice "But, it goes on 'It's from our shop,' she says with a surprise, 'So it {b}returned{/b}'"
+    alice "Aber es geht weiter: 'Jetzt sind sie hier'"
 
 # game/script.rpy:5464
 translate german chapter12_d80f7c6b:
 
     # king "Why, there they are!"
-    king "Look, there they are!"
+    king "Mensch, da sind sie ja!"
 
 # game/script.rpy:5468
 translate german chapter12_bfe5c012:
 
     # "The King triumphantly pointed to the tarts on the table."
-    "The King pointed to the tarts on the table."
+    "Der König zeigte auf die Kekse in der Mitte der Halle."
 
 # game/script.rpy:5472
 translate german chapter12_1a68404e:
 
     # king "Nothing can be clearer than that. Then again—‘before she had this fit—’ you never had fits, my dear, I think?"
-    king "Nothing can be clearer than that. Then again—'The girl's joy fades, her anger takes its {i}place{/i}' you are never angry, my dear, right?"
+    king "Nichts ist klarer als das! Aber dann - 'Eh sie den Anfall hätt' - du hast noch nie einen Anfall gehabt, Liebe, richtig?"
 
 # game/script.rpy:5475
 translate german chapter12_f4813a10:
 
     # queen "Never!"
-    queen "Never!"
+    queen "Nie!"
 
 # game/script.rpy:5479
 translate german chapter12_4b4a7e6d:
 
     # "Said the Queen furiously, throwing an inkstand at the Lizard as she spoke."
-    "The Queen was very angry. She threw an ink container at the Lizard while talking."
+    "Die Königin war sehr wütend. Sie warf daraufhin ein Tintenfaß auf die Eidechse."
 
 # game/script.rpy:5480
 translate german chapter12_c73bce50:
 
     # "(The unfortunate little Bill had left off writing on his slate with one finger, as he found it made no mark; but he now hastily began again, using the ink, that was trickling down his face, as long as it lasted)"
-    "(Poor little Bill had stopped trying to write on his slate with his finger because it didn't work. But he quickly started writing again with ink that was running down his face now)"
+    "(Der arme kleine Bill hatte aufgehört, mit seinem Finger auf seine Schiefertafel zu schreiben, weil es nicht funktionierte. Aber jetzt er fing schnell wieder an zu schreiben, mit der Tinte, die ihm nun über das Gesicht lief)"
 
 # game/script.rpy:5484
 translate german chapter12_285ad1e3:
 
     # king "Then the words don’t fit you."
-    king "Then 'angry' is not in the right {i}place{/i}."
+    king "Dann ist das wohl nicht der {i}Fall{/i}."
 
 # game/script.rpy:5485
 translate german chapter12_0ace1bad:
 
     # "The King was looking round the court with a smile."
-    "The King looked around the court, smiling."
+    "Der König sah sich im Gericht um und lächelte."
 
 # game/script.rpy:5486
 translate german chapter12_a20cefa7:
@@ -9059,151 +9059,151 @@ translate german chapter12_a20cefa7:
 translate german chapter12_1883cb68:
 
     # "There was a dead silence."
-    "There was a dead silence."
+    "Es herrschte Totenstille."
 
 # game/script.rpy:5491
 translate german chapter12_86c7a450:
 
     # king "*offended* It’s a pun!"
-    king "*offended* That was a pun!"
+    king "*beleidigt* Das war ein Wortwitz!"
 
 # game/script.rpy:5492
 translate german chapter12_6691f14f:
 
     # "Everybody laughed."
-    "Everybody laughed."
+    "Alle lachten."
 
 # game/script.rpy:5493
 translate german chapter12_963d8578:
 
     # king "Let the jury consider their verdict."
-    king "Let the jury consider their verdict."
+    king "Die Geschworenen sollen ihr Urteil fällen."
 
 # game/script.rpy:5496
 translate german chapter12_a439f05c:
 
     # queen "No, no! Sentence first—verdict afterwards."
-    queen "No, no! Punishment first, the verdict can come afterwards."
+    queen "Nein, nein! Bestrafung zuerst, das Urteil kann danach kommen."
 
 # game/script.rpy:5500
 translate german chapter12_a95b2044:
 
     # alice "Stuff and nonsense!"
-    alice "Nonsense!"
+    alice "Unsinn!"
 
 # game/script.rpy:5501
 translate german chapter12_028826f6:
 
     # alice "The idea of having the sentence first!"
-    alice "You can't have the punishment first!"
+    alice "Man kann nicht zuerst die Bestrafung haben!"
 
 # game/script.rpy:5505
 translate german chapter12_10ba897e:
 
     # queen "Hold your tongue!"
-    queen "Be quiet!"
+    queen "Sei still!"
 
 # game/script.rpy:5506
 translate german chapter12_794947eb:
 
     # "The queen turned purple."
-    "The queen's face turned purple."
+    "Das Gesicht der Königin wurde rot."
 
 # game/script.rpy:5510
 translate german chapter12_71c1484e:
 
     # alice "I won’t!"
-    alice "I won’t!"
+    alice "Nein!"
 
 # game/script.rpy:5514
 translate german chapter12_5205c38e:
 
     # queen "Off with her head!"
-    queen "Off with her head!"
+    queen "Köpft sie!"
 
 # game/script.rpy:5515
 translate german chapter12_8d8d987c:
 
     # "The Queen shouted at the top of her voice."
-    "The Queen screamed as loud as she could."
+    "Die Königin schrie so laut sie konnte."
 
 # game/script.rpy:5516
 translate german chapter12_0084f6bd:
 
     # "Nobody moved."
-    "Nobody moved."
+    "Niemand bewegte sich."
 
 # game/script.rpy:5522
 translate german chapter12_5cc1e1a1:
 
     # alice "Who cares for you?"
-    alice "Who cares for you?"
+    alice "Wer hat euch gefragt?"
 
 # game/script.rpy:5523
 translate german chapter12_8f6dcc03:
 
     # "(Alice had grown to her full size by this time)"
-    "(Alice had finished growing and was now her usual height)"
+    "(Alice hatte aufgehört zu wachsen und war jetzt wieder auf ihrer normalen Größe)"
 
 # game/script.rpy:5524
 translate german chapter12_f8750a70:
 
     # alice "You’re nothing but a pack of cards!"
-    alice "You are just a bunch of playing cards!"
+    alice "Ihr seid nur ein Haufen Spielkarten!"
 
 # game/script.rpy:5530
 translate german chapter12_82e555f2:
 
     # "At this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face."
-    "Suddenly, the cards all flew towards her. She screamed in fear and tried to push them away. But then she woke up in her sister's lap."
+    "Plötzlich flogen die Karten alle auf sie zu. Sie schrie vor Angst und versuchte, sie wegzuschieben. Doch dann wachte sie im Schoß ihrer Schwester auf."
 
 # game/script.rpy:5536
 translate german chapter12_a3d0b8af:
 
     # sister "Wake up, Alice dear!"
-    sister "Alice, wake up!"
+    sister "Alice, wach auf!"
 
 # game/script.rpy:5544
 translate german chapter12_1cf115ba:
 
     # sister "Why, what a long sleep you’ve had!"
-    sister "Wow, you slept for a long time!"
+    sister "Wow, du hast wirklich lange geschlafen!"
 
 # game/script.rpy:5546
 translate german chapter12_340d0627:
 
     # alice "Oh, I’ve had such a curious dream!"
-    alice "I had a very interesting dream!"
+    alice "Ich hatte einen sehr interessanten Traum!"
 
 # game/script.rpy:5547
 translate german chapter12_28d5b108:
 
     # "She told her sister, as well as she could remember them, all these strange Adventures of hers that you have just been reading about; and when she had finished, her sister kissed her."
-    "She told her sister all about the strange adventure, as best as she could remember. When she finished, her sister kissed her."
+    "Sie erzählte ihrer Schwester von dem seltsamen Abenteuer, so gut sie sich erinnern konnte. Als sie fertig war, küsste ihre Schwester sie auf die Stirn."
 
 # game/script.rpy:5548
 translate german chapter12_a259d32e:
 
     # sister "It was a curious dream, dear, certainly: but now run in to your tea; it’s getting late."
-    sister "That dream was interesting, my dear. Now let's go back home."
+    sister "Interessanter Traum, meine Liebe. Lass uns jetzt nach Hause gehen."
 
 # game/script.rpy:5549
 translate german chapter12_3d02654f:
 
     # "So Alice got up and ran off, thinking while she ran, as well she might, what a wonderful dream it had been."
-    "Alice stood up and ran away, thinking about the amazing dream she just had."
+    "Alice stand auf und lief davon, während sie über den fantastischen Traum nachdachte, den sie gerade hatte."
 
 # game/script.rpy:5551
 translate german chapter12_d95a5738:
 
     # "But her sister sat still just as she left her, leaning her head on her hand, watching the setting sun, and thinking of little Alice and all her wonderful Adventures, till she too began dreaming after a fashion, and this was her dream:—"
-    "Her sister kept sitting for a while and was looking at the sunset. She thought about little Alice and all her adventures. Before long, she started dreaming too. And this is what she dreamt:—"
+    "Ihre Schwester blieb noch eine Weile sitzen und schaute den Sonnenuntergang an. Sie dachte an die kleine Alice und all ihre Abenteuer. Bald begann auch sie zu träumen. Und das ist, was sie träumte:—"
 
 # game/script.rpy:5553
 translate german chapter12_0f065aa8:
 
     # "First, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers."
-    "First, she dreamed about Alice. In the dream, Alice reached up to hold her hand and looked at her with bright, excited eyes."
+    "Zuerst träumte sie von Alice."
 
 # game/script.rpy:5554
 translate german chapter12_b5aca4d7:
@@ -9215,85 +9215,85 @@ translate german chapter12_b5aca4d7:
 translate german chapter12_3ebb9780:
 
     # "And still as she listened, or seemed to listen, the whole place around her became alive with the strange creatures of her little sister’s dream."
-    "Suddenly the area was filled with the odd creatures from her little sister’s dream."
+    "Plötzlich war die Gegend mit den seltsamen Kreaturen aus dem Traum ihrer kleinen Schwester gefüllt."
 
 # game/script.rpy:5557
 translate german chapter12_5257fada:
 
     # "The long grass rustled at her feet as the White Rabbit hurried by."
-    "The tall grass made a sound as the White Rabbit rushed past her."
+    "Das hohe Gras raschelte, als das weiße Kaninchen an ihr vorbeirauschte."
 
 # game/script.rpy:5558
 translate german chapter12_9beafa45:
 
     # "The frightened Mouse splashed his way through the neighbouring pool."
-    "The scared mouse ran quickly through the nearby pool."
+    "Die verängstigte Maus rannte schnell durch den nahegelegenen Teich."
 
 # game/script.rpy:5559
 translate german chapter12_3679851b:
 
     # "She could hear the rattle of the teacups as the March Hare and his friends shared their never-ending meal, and the shrill voice of the Queen ordering off her unfortunate guests to execution."
-    "She listened to the sound of tea cups clinking during the tea party with the March Hare and his friends. She also heard the loud voice of the Queen telling people to be executed."
+    "Sie hörte das Klirren von Teetassen während der Teeparty mit dem Märzhasen und seinen Freunden. Sie hörte auch das laute Schreien der Königin, die Leute zum Tode verurteilte."
 
 # game/script.rpy:5560
 translate german chapter12_5fc5b640:
 
     # "Once more the pig-baby was sneezing on the Duchess’s knee, while plates and dishes crashed around it."
-    "The pig-baby sneezed on the Duchess's knee as plates and dishes crashed around it again."
+    "Das Ferkel nieste auf dem Knie der Herzogin, während überall Teller und Geschirr zu Bruch gingen."
 
 # game/script.rpy:5561
 translate german chapter12_b75e4457:
 
     # "Once more the shriek of the Gryphon, the squeaking of the Lizard’s slate-pencil, and the choking of the suppressed guinea-pigs, filled the air, mixed up with the distant sobs of the miserable Mock Turtle."
-    "The Gryphon screeched, the Lizard pencil squeaked, and the guinea pigs made choking sounds, all while the Mock Turtle sobbed sadly in the background."
+    "Der Greif kreischte, die Kreide der Eidechse quietschte und die Meerschweinchen quiekten, während das Schmor traurig im Hintergrund schluchzte."
 
 # game/script.rpy:5563
 translate german chapter12_2ee4f627:
 
     # "So she sat on, with closed eyes, and half believed herself in Wonderland, though she knew she had but to open them again, and all would change to dull reality."
-    "She sat there with her eyes closed, imagining she was in Wonderland. But she knew that if she opened her eyes, everything would go back to normal."
+    "Sie saß da mit geschlossenen Augen und stellte sich vor, sie wäre im Wunderland. Aber sie wusste, das alles wieder normal sein würde, sobald sie die Augen öffnet."
 
 # game/script.rpy:5564
 translate german chapter12_e67f7fb3:
 
     # "The grass would be only rustling in the wind, and the pool rippling to the waving of the reeds."
-    "The grass sways gently in the wind, and the water in the pool ripples."
+    "Das Gras würde nur noch vom Wind rascheln."
 
 # game/script.rpy:5565
 translate german chapter12_04dd2931:
 
     # "The rattling teacups would change to tinkling sheep-bells, and the Queen’s shrill cries to the voice of the shepherd boy."
-    "The noisy teacups would turn into gentle sheep-bells, and the Queen's loud cries into the shepherd boy's voice."
+    "Die lauten Teetassen würden sich in sanfte Schafsglocken verwandeln, und die lauten Rufe der Königin in die Stimme des Hirtenjungen."
 
 # game/script.rpy:5566
 translate german chapter12_f9cc1b5a:
 
     # "And the sneeze of the baby, the shriek of the Gryphon, and all the other queer noises, would change (she knew) to the confused clamour of the busy farm-yard."
-    "The baby's sneeze, the Gryphon's shriek, and all the other strange noises would turn into the noisy sounds of the nearby farm."
+    "Das Niesen des Babys, der Schrei des Greifs und all die anderen seltsamen Geräusche würden sich in die lauten Klänge des nahegelegenen Bauernhofs verwandeln."
 
 # game/script.rpy:5567
 translate german chapter12_52194627:
 
     # "While the lowing of the cattle in the distance would take the place of the Mock Turtle’s heavy sobs."
-    "The sound of cattle in the distance would replace the Mock Turtle's cries."
+    "Das Geräusch von Vieh in der Ferne würde das Schluchzen des Schmors ersetzen."
 
 # game/script.rpy:5569
 translate german chapter12_e9bef6fa:
 
     # "Lastly, she pictured to herself how this same little sister of hers would, in the after-time, be herself a grown woman; and how she would keep, through all her riper years, the simple and loving heart of her childhood:"
-    "Finally, she imagined how her little sister would grow up to be a woman with the same kind and loving heart she had as a child."
+    "Schließlich stellte sie sich vor, wie ihre kleine Schwester zu einer Frau heranwachsen würde, die weiterhin so freundlich und liebevoll sein wird."
 
 # game/script.rpy:5570
 translate german chapter12_91e7c182:
 
     # "And how she would gather about her other little children, and make their eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer days."
-    "She would gather her own little children and tell them interesting stories about the Wonderland and other things, making their eyes shine with excitement."
+    "Sie würde dann ihren eigenen kleinen Kinder von dem Abenteuer im Wunderland erzählen."
 
 # game/script.rpy:5574
 translate german chapter12_241951e0:
 
     # "The End."
-    "The End."
+    "Ende."
 # TODO: Translation updated at 2024-06-17 23:09
 
 # game/script.rpy:270
