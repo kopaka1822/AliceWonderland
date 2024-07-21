@@ -16,7 +16,7 @@ translate german strings:
 
     # game/gui/screens.rpy:356
     old "Settings"
-    new "Einstellungen"
+    new "Optionen"
 
     # game/gui/screens.rpy:359
     old "Adjust game settings"
@@ -120,7 +120,7 @@ translate german strings:
 
     # game/gui/screens.rpy:824
     old "Auto-Forward Time"
-    new "Auto Zeit"
+    new "Auto Geschwindigkeit"
 
     # game/gui/screens.rpy:826
     old "Adjust wait time before automatically advancing the game"
@@ -217,4 +217,12 @@ translate german strings:
     # game/gui/screens.rpy:1510
     old "Simple English"
     new "Simple English"
+
+# TODO: Translation updated at 2024-07-21 11:25
+
+translate german strings:
+
+    # game/gui/screens.rpy:1452
+    old "Chapter {number}"
+    new "Kapitel {number}"
 
