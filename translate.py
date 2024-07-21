@@ -13,25 +13,49 @@ client = OpenAI(api_key=api_key)
 
 # File path and start line
 file_path = "game/tl/german/script.rpy"
-start_line = 8473
+start_line = 4250
 
 history = [
-    {"role": "system", "content": "Translate the following English text from alice in wonderland into German. Use vocabulary and grammar that is common in today's German language and suitable for a 10 year old native speaker. Split very long sentences into smaller sentences. The input format from the user will be <sayer>: <quote>. Only output the translation of the quote (omit <sayer>:). If the sayer is alice, translate it in a way that would be common for a 10 year old German in 2020 and use German teenage slang without making it cringe. If the user input starts with 'instruct:' edit the previous user translation as requested. After the translation the user will supply its accepted translation. Please make sure to stay consistent with the user edits for future translations"}
+    #{"role": "system", "content": "Translate the following English text from alice in wonderland into German. Use vocabulary and grammar that is common in today's German language and suitable for a 10 year old native speaker. Split very long sentences into smaller sentences. The input format from the user will be <sayer>: <quote>. Only output the translation of the quote (omit <sayer>:). If the sayer is alice, translate it in a way that would be common for a 10 year old German in 2020 and use German teenage slang without making it cringe. If the user input starts with 'instruct:' edit the previous user translation as requested. After the translation the user will supply its accepted translation. Please make sure to stay consistent with the user edits for future translations"}
+    {"role": "system", "content": "Bitte passe den folgenden deutschen Text so an, dass er für 10-jährige geeignet ist. Vereinfache komplexe Sätze, sodass sie leicht zu lesen und zu verstehen sind. Falls der Text keine Anpassungen benötigt, sollen keine Änderungen vorgenommen werden. Die Figur Alice sollte weiterhin in leichter, jugendlicher deutscher Umgangssprache sprechen. Falls es sich ergibt, füge gerne bekannte deutsche Sprichwörter ein. Eingabeformat: Sprecher: Text. Der Text enthält zum Teil spezielle Formatierungen in geschweiften Klammern oder Escape Codes, diese sollen beibehalten werden. Für die Ausgabe, gib nur den angepassten Text ohne den Namen des Sprechers an."}
 ]
 
 def ask_AI(prompt):
     try:
         history.append({"role": "user", "content": prompt})
         completion = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o-mini",
             messages=history
         )
         respone = completion.choices[0].message.content
         history.append({"role": "assistant", "content": respone})
+
+        # keep history at most 50 elements long
+        while len(history) > 24:
+            history.pop(1) # dont remove the system message
+
         return completion.choices[0].message.content
     except Exception as e:
         print(f"Error communicating with OpenAI API: {e}")
         return None
+    
+def replace_last_assistant(new_content):
+    if len(history) > 0 and history[-1]["role"] == "assistant":
+        history[-1]["content"] = new_content
+    else:
+        history.append({"role": "assistant", "content": new_content})
+
+def strip_sayer(content):
+    parts = content.split(":", 1)
+    if len(parts) < 2:
+        return content
+    
+    # test if there was no space before the colon
+    if len(parts[0].strip()) != len(parts[0]): # if we could remove a whitespace, the colon was probably part of the sayer
+        return content
+
+    # return all other parts in one string (one remove parts[0])
+    return content[len(parts[0]) + 1:]
 
 def read_lines_from_file():
     try:
@@ -80,7 +104,7 @@ def process_lines():
         sayer = parts[0].strip()
         # if sayer is empty, its the narrator
         if len(sayer) == 0:
-            sayer = "narrator"
+            sayer = "Erzähler"
 
         quote = parts[1][0:-1]
         brackets = False
@@ -94,14 +118,15 @@ def process_lines():
         print(f"Original line {i}/{len(lines) + 1} ({round(i / len(lines) * 100.0, 2)}%): {stripped_line}")
         print("Enter to skip.\ng to generate with OpenAI\nm modify\np to pass line\nb to go back\nAny other text to replace:")
 
+        user_input = "g"
         while True:
-            user_input = prompt("> ", default=console_input).strip()
-
             if user_input == "g":
                 console_input = ask_AI(f"{sayer}: {quote}")
+                console_input = strip_sayer(console_input)
             elif user_input == "m":
                 intruction = prompt("> ", default="").strip()
-                console_input = ask_AI(f"instruct: {intruction}")
+                console_input = ask_AI(f"{intruction}")
+                console_input = strip_sayer(console_input)
             elif user_input == "c":
                 console_input = quote
             elif user_input == "p":
@@ -116,6 +141,10 @@ def process_lines():
             else:
                 break
 
+            if console_input == quote:
+                print("No changes made.")
+            user_input = prompt("> ", default=console_input).strip()
+
         if user_input:
             if brackets and user_input.endswith("."):
                 user_input = user_input[:-1]
@@ -123,7 +152,8 @@ def process_lines():
                 user_input = user_input[1:-1]
             user_input = user_input.replace('"', "'")
 
-            history.append({"role": "user", "content": f"{sayer}: {user_input}"})
+            #history.append({"role": "user", "content": f"{sayer}: {user_input}"})
+            replace_last_assistant(f"{sayer}: {user_input}")
             modified_line = replace_last(line, quote, user_input)
             lines = write_line_to_file(i - 1, modified_line)
 
