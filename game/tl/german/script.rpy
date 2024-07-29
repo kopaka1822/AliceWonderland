@@ -3421,7 +3421,7 @@ translate german chapter6_c9d2dcd0:
 translate german chapter6_f46a236d:
 
     # "For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood—(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)—and rapped loudly at the door with his knuckles."
-    "."
+    "Für eine Weile starrte sie unsicher auf das Haus. Dann kam ein Butler in schicker Kleidung aus dem Wald. Sie nahm an, er sei ein Butler wegen seiner Kleidung; ansonsten hätte sie ihn als Fisch bezeichnet. Er klopfte laut an die Tür."
 
 # game/script.rpy:1941
 translate german chapter6_86219a33:
@@ -3535,7 +3535,7 @@ translate german chapter6_6954584a:
 translate german chapter6_6c311902:
 
     # "At this moment the door of the house opened, and a large plate came skimming out, straight at the Footman’s head: it just grazed his nose, and broke to pieces against one of the trees behind him."
-    "In dem Moment öffnete sich die Tür und ein großes Tablett flog heraus. Es verfehlte nur knapp die Nase des Butlers, bevor es gegen einen Baum krachte."
+    "In dem Moment öffnete sich die Tür und ein großer Teller flog heraus. Es verfehlte nur knapp die Nase des Butlers, bevor es gegen einen Baum krachte."
 
 # game/script.rpy:2006
 translate german chapter6_996a53f4:
@@ -3607,7 +3607,7 @@ translate german chapter6_9f333002:
 translate german ch6_kitchen_6d01104b:
 
     # "The door led right into a large kitchen, which was full of smoke from one end to the other: the Duchess was sitting on a three-legged stool in the middle, nursing a baby; the cook was leaning over the fire, stirring a large cauldron which seemed to be full of soup."
-    "Die Tür führte in eine große Küche. Es war voller Rauch. Die Herzogin saß in der Mitte auf einem Hocker und hielt ein Baby. Der Koch rührte einen Topf Suppe über dem Feuer um."
+    "Die Tür führte in eine große Küche. Es war voller Rauch. Die Herzogin saß in der Mitte auf einem Hocker und hielt ein Baby. Die Köchin rührte einen Topf Suppe über dem Feuer um."
 
 # game/script.rpy:2069
 translate german ch6_kitchen_fe515dd9:
@@ -3625,7 +3625,7 @@ translate german ch6_kitchen_9ee6c068:
 translate german ch6_kitchen_79c42fe4:
 
     # "The only things in the kitchen that did not sneeze, were the cook, and a large cat which was sitting on the hearth and grinning from ear to ear."
-    "Weder der Koch noch die große Katze mussten niesen. Die Katze grinste von einem Ohr zum anderen."
+    "Weder die Köchin noch die große Katze mussten niesen. Die Katze grinste von einem Ohr zum anderen."
 
 # game/script.rpy:2077
 translate german ch6_kitchen_74698daa:
@@ -3673,7 +3673,7 @@ translate german ch6_kitchen_c38c438a:
 translate german ch6_kitchen_058c3f68:
 
     # duchess "You don’t know much, and that’s a fact."
-    duchess "Du weißt nicht viel, und das ist Fakt."
+    duchess "Du kennst nicht viel, und das ist Fakt."
 
 # game/script.rpy:2102
 translate german ch6_kitchen_23e0d7b0:
@@ -3816,7 +3816,7 @@ translate german ch6_kitchen_741339f4:
 translate german ch6_kitchen_6851ebe8:
 
     # "The cook threw a frying-pan after her as she went out, but it just missed her."
-    "Der Koch warf ihr eine Bratpfanne hinterher, als sie ging, aber sie traf nicht."
+    "Die Köchin warf ihr eine Bratpfanne hinterher, als sie ging, aber sie traf nicht."
 
 # game/script.rpy:2203
 translate german ch6_kitchen_c0484609:
@@ -4229,7 +4229,7 @@ translate german ch6_cat_782e0228:
 translate german ch6_cat_4298ed4d:
 
     # "It was so large a house, that she did not like to go nearer till she had nibbled some more of the lefthand bit of mushroom, and raised herself to about two feet high: even then she walked up towards it rather timidly."
-    "Das Haus war sehr groß. Alice wollte nicht näher hingehen, bevor sie mehr von der linken Seite des Pilzes gegessen hatte. Davon wurde sie etwa 60 Zentimeter größ. Nervös ging sie auf das Haus zu."
+    "Das Haus war sehr groß. Alice wollte nicht näher hingehen, bevor sie mehr von der linken Seite des Pilzes gegessen hatte. Davon wurde sie etwa 60 Zentimeter groß. Nervös ging sie auf das Haus zu."
 
 # game/script.rpy:2383
 translate german ch6_cat_41b34c48:
@@ -8333,7 +8333,7 @@ translate german ch11_court_9dde5dd9:
 translate german ch11_court_88154ccf:
 
     # "The next witness was the Duchess’s cook."
-    "Der nächste Zeuge war der Koch von der Herzogin."
+    "Der nächste Zeuge war die Köchin von der Herzogin."
 
 # game/script.rpy:5103
 translate german ch11_court_3b15db76:
@@ -8405,7 +8405,7 @@ translate german ch11_court_231090de:
 translate german ch11_court_7c0ccb95:
 
     # "For some minutes the whole court was in confusion, getting the Dormouse turned out, and, by the time they had settled down again, the cook had disappeared."
-    "Für ein paar Minuten herrschte Chaos im Gerichtssaal, während sie die Haselmaus entfernten. Als sich die Dinge beruhigten, war der Koch verschwunden."
+    "Für ein paar Minuten herrschte Chaos im Gerichtssaal, während sie die Haselmaus entfernten. Als sich die Dinge beruhigten, war die Köchin verschwunden."
 
 # game/script.rpy:5148
 translate german ch11_court_2968801c:
@@ -9245,7 +9245,7 @@ translate german chapter12_5fc5b640:
 translate german chapter12_b75e4457:
 
     # "Once more the shriek of the Gryphon, the squeaking of the Lizard’s slate-pencil, and the choking of the suppressed guinea-pigs, filled the air, mixed up with the distant sobs of the miserable Mock Turtle."
-    "Der Greif kreischte, die Kreide der Eidechse quietschte und die Meerschweinchen quiekten, während das Schmor traurig im Hintergrund weinte."
+    "Der Greif kreischte, die Kreide der Eidechse quietschte und die Meerschweinchen quiekten, während das Schmor traurig im Hintergrund schluchzte."
 
 # game/script.rpy:5563
 translate german chapter12_2ee4f627:
@@ -9464,7 +9464,7 @@ translate german strings:
 
     # game/script.rpy:150
     old "Cook"
-    new "Koch"
+    new "Köchin"
 
     # game/script.rpy:151
     old "Knave"
