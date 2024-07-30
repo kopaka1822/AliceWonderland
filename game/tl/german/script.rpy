@@ -2875,7 +2875,7 @@ translate german chapter5_90fa08c7:
 translate german chapter5_955e8b96:
 
     # caterpillar "Repeat, 'You are old, Father William.'"
-    caterpillar "Versuch es mal mit 'Ihr seid alt, Vater Martin.'"
+    caterpillar "Versuch es mal mit 'John Maynard' von Theodor Fontane."
 
 # game/script.rpy:1708
 translate german chapter5_3276e961:
@@ -2887,49 +2887,50 @@ translate german chapter5_3276e961:
 translate german chapter5_8bc69656:
 
     # alice "'You are old, Father William',\nthe young man said,\n{space=30}And your hair has become very white;\nAnd yet you incessantly stand on your head—\n{space=30}Do you think, at your age, it is right?'"
-    alice "'Ihr seid alt, Vater Martin,' sagte Jim Knopf,\n{space=30}'und euer Haar ist schon ganz weiß;\nDoch ihr steht so gerne auf dem Kopf.\n{space=30}Sagt, ist euch das nicht zu heiß?'"
+    alice "Crew spricht laut: „John, sieh voran!\n{space=30}Ein Eisberg droht, siehst du ihn schon?\nAls Steuermann, oh gib uns Acht,\n{space=30}führ uns sicher durch die Nacht.“"
 
 # game/script.rpy:1712
 translate german chapter5_9c4ec273:
 
     # alice "'In my youth',\nFather William replied to his son,\n{space=30}'I feared it might injure the brain;\nBut, now that I’m perfectly sure I have none,\n{space=30}Why, I do it again and again.'"
-    alice "'Als ich jung war,' der Vater zur Antwort gab,\n{space=30}'Da glaubte ich, für’s Hirn sei’s nicht gut;\nDoch seit ich entdeckt, dass ich gar keins hab’\n{space=30}So tue ich's mit fröhlichem Mut.'"
+    alice "John Maynard lacht, spricht ganz gelassen:\n{space=30}„Keine Sorge, wir werden’s nicht erfassen.\nDer Eisberg groß, doch nur die Spitze seh'n,\n{space=30}als bester Steuermann werd' ich's umgeh'n.“"
 
 # game/script.rpy:1714
 translate german chapter5_eccd9e04:
 
     # alice "'You are old', said the youth,\n'as I mentioned before,\n{space=30}And have grown most uncommonly fat;\nYet you turned a back-somersault\nin at the door—\n{space=30}Pray, what is the reason of that?'"
-    alice "'Ihr seid alt,' sprach der Sohn, 'wie vorhin schon gesagt,\n{space=30}Und geworden ein gar dicker Mann;\nDrum sprecht, wie ihr rücklings den Purzelbaum schlagt\n{space=30}Potz tausend! Wie fangt ihr’s nur an?'"
+    alice "Crew in Panik: „Ein Feuer bricht!\n{space=30}Wir stießen leicht den Eisberg dicht.\nJohn, wie kannst du unten steh'n,\n{space=30}während um uns die Flammen weh'n?“"
 
 # game/script.rpy:1716
 translate german chapter5_f7d47c6f:
 
     # alice "'In my youth', said the sage,\nas he shook his grey locks,\n{space=30}'I kept all my limbs very supple\nBy the use of this ointment—\none shilling the box—\n{space=30}Allow me to sell you a couple?'"
-    alice "'Als ich jung war,' der Alte mit Kopfschütteln sagt’,\n{space=30}'Da rieb ich die Glieder mir ein\nMit der Salbe hier, die sie geschmeidig macht.\n{space=30}Für zwei Euro ist sie dein.'"
+    alice "John klärt: „Ich bleib' hier, halt das Steuer fest,\n{space=3}durch Rauch und Flammen, ich mach den Test.\nSolange noch Wasser unter uns ist,\n{space=30}halte ich das Schiff, das müsst ihr wisst.“
+"
 
 # game/script.rpy:1718
 translate german chapter5_be28c831:
 
     # alice "'You are old', said the youth,\n'and your jaws are too weak\n{space=30}For anything tougher than suet;\nYet you finished the goose,\nRwith the bones and the beak—\n{space=30}Pray how did you manage to do it?'"
-    alice "'Ihr seid alt,' sprach der Bub, 'und könnt nicht gut kau’n,\n{space=30}Und solltet euch nehmen in Acht;\nDoch aßt ihr die Gans mit Schnabel und Klau'n;\n{space=30}Wie habt ihr das nur gemacht?'"
+    alice "Crew fragt schnell: „Wie weit noch, sag?\n{space=30}Das Feuer brennt, ach, welche Plag!\nWann erreichen wir Land, siehst du es schon?\n{space=30}Sag, wie lang noch in dieser brennenden Region?“"
 
 # game/script.rpy:1720
 translate german chapter5_483841f0:
 
     # alice "'In my youth', said his father, \n'I took to the law,\n{space=30}And argued each case with my wife;\nAnd the muscular strength, \nwhich it gave to my jaw,\n{space=30}Has lasted the rest of my life.'"
-    alice "'Ich war früher Jurist und hab' viel diskutiert,\n{space=30}Besonders mit meiner Frau;\nDas hat so mir den Kiefer exerciert,\n{space=30}dass ich jetzt noch mit Leichtigkeit kau!'"
+    alice "John antwortet stark: „Nicht mehr weit,\n{space=30}haltet aus, bald ist's Rettungszeit.\nIch steuer fest, durch Rauch und Glut,\n{space=30}bald erreichen wir das Ufer gut.“"
 
 # game/script.rpy:1722
 translate german chapter5_5f472f63:
 
     # alice "'You are old', said the youth, \n'one would hardly suppose\n{space=30}That your eye was as steady as ever;\nYet you balanced an eel \non the end of your nose—\n{space=30}What made you so awfully clever?'"
-    alice "'Ihr seid alt,' sagte der Sohn, 'und habt nicht viel Witz,\n{space=30}und doch seid ihr so geschickt;\nIhr balanciert einen Aal auf der Nasenspitz!\n{space=30}Wie ist euch das nur geglückt?'"
+    alice "Crew nochmal: „Wann sehen wir das Land?\n{space=30}Diese Hitze, das Feuer, es nimmt Überhand.\nWie hältst du es aus, immer hier,\n{space=30}am Steuer so ruhig, fragen wir?“"
 
 # game/script.rpy:1724
 translate german chapter5_d1cad718:
 
     # alice "'I have answered three questions, \nand that is enough',\n{space=30}Said his father; 'don’t give yourself airs!\nDo you think I can listen all day to such stuff?\n{space=30}Be off, or I’ll kick you down stairs!'"
-    alice "'Drei Antworten du hast, und damit genug,\n{space=30}Nun lass mich kein Wort mehr hören; \nGeh fort in die Welt, du tust so überklug,\n{space=30}und hör endlich auf mich zu stören!'"
+    alice "John mahnt: „Noch ein Wort, ihr lieben Leut’,\n{space=30}und ich lass das Schiff versinken heut’.\nAlso seid still, oder schwimmt nach Haus,\n{space=30}haltet den Mund, oder das Spiel ist aus!“"
 
 # game/script.rpy:1726
 translate german chapter5_0185ef46:
@@ -7493,7 +7494,7 @@ translate german chapter10_986b35dd:
 translate german chapter10_d60068cd:
 
     # gryphon "Stand up and repeat ‘Tis the voice of the sluggard’"
-    gryphon "Steh bitte auf und sag: 'Der Handschuh!'"
+    gryphon "Steh bitte auf und wiederhole 'Der Handschuh' von Friedrich Schiller."
 
 # game/script.rpy:4517
 translate german chapter10_3880001a:
