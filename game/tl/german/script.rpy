@@ -16,7 +16,7 @@ translate german chapter1_470d34b5:
 translate german chapter1_bbddd97e:
 
     # alice "(And what is the use of a book without pictures or conversations?)"
-    alice "(Warum soll man ein Buch ohne Bilder lesen?)"
+    alice "(Warum sollte man ein Buch ohne Bilder lesen?)"
 
 # game/script.rpy:319
 translate german chapter1_f0723177:
@@ -82,7 +82,7 @@ translate german chapter1_fecd0831:
 translate german chapter1_827dde33:
 
     # "First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs."
-    "Sie wollte den Boden des Lochs sehen, aber es war zu dunkel. Dann schaute sie an die Wände und sah, dass dort viele Schränke und Bücherregale standen. Sie bemerkte, dass überall Karten und Bilder hingen."
+    "Zuerst wollte sie den Boden des Lochs sehen, aber es war zu dunkel. Dann schaute sie an die Wände und sah, dass dort viele Schränke und Bücherregale standen. Sie bemerkte, dass überall Karten und Bilder hingen."
 
 # game/script.rpy:371
 translate german chapter1_91e74c2c:
@@ -112,7 +112,7 @@ translate german chapter1_e9d9bac0:
 translate german chapter1_67e8b78b:
 
     # "(Which was very likely true)"
-    "(Das wird wahrscheinlich stimmen)"
+    pass
 
 # game/script.rpy:393
 translate german chapter1_d3c5a6ee:
@@ -184,7 +184,7 @@ translate german chapter1_718964c4:
 translate german chapter1_f8ef3c91:
 
     # "(and she tried to curtsey as she spoke—fancy curtseying as you’re falling through the air! Do you think you could manage it?)"
-    "(Sie versuchte, sich nett zu verbeugen während des Gesprächs. Stell dir vor, du würdest dich verbeugen, während du fällst! Glaubst du, du könntest das hinbekommen?)"
+    "(Sie versuchte, sich nett zu verbeugen. Stell dir vor, du würdest dich verbeugen, während du fällst! Glaubst du, du könntest das hinbekommen?)"
 
 # game/script.rpy:420
 translate german chapter1_dd988509:
@@ -341,7 +341,7 @@ translate german chapter1_251883fe:
 translate german chapter1_a7fecbc7:
 
     # "Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw."
-    "Alice öffnete die Tür und fand einen kleinen Gang, der fast so klein wie ein Rattenloch war. Sie kniete sich hin und sah den tollsten Garten, den sie je gesehen hatte."
+    "Alice öffnete die Tür und sah den tollsten Garten, den sie je gesehen hatte."
 
 # game/script.rpy:501
 translate german chapter1_80feb15d:
@@ -377,7 +377,7 @@ translate german chapter1_3764aa6b:
 translate german chapter1_6d9fdf29:
 
     # alice "This certainly was not here before."
-    alice "Die war vorher noch nicht hier..."
+    alice "Die war vorher noch nicht hier."
 
 # game/script.rpy:517
 translate german chapter1_94d41ba2:
@@ -701,7 +701,7 @@ translate german chapter2_8da21df9:
 translate german chapter2_0acfff12:
 
     # alice "I’m sure I’m not Ada, for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, she’s she, and I’m I, and—oh dear, how puzzling it all is!"
-    alice "Ich weiß, ich bin nicht wie Amy, sie hat Locken, aber meine Haare sind glatt. Und ich bin auch nicht wie Hermine, ich weiß viel, und sie, naja, sie weiß nicht so viel. Die sind die und ich bin ich. Komisch!"
+    alice "Ich weiß, ich bin nicht wie Amy, sie hat Locken, aber meine Haare sind glatt. Und ich bin auch nicht wie Laura, ich weiß viel, und sie, naja, sie weiß nicht so viel. Die sind die und ich bin ich. Komisch!"
 
 # game/script.rpy:645
 translate german chapter2_058600ff:
@@ -719,7 +719,7 @@ translate german chapter2_151bb418:
 translate german chapter2_3bdd3742:
 
     # alice "I must have been changed for Mabel! I’ll try and say 'How doth the little—'"
-    alice "Oh nein, bin ich doch Hermine? Ich werde mal versuchen, den 'Erlkönig' aufzusagen."
+    alice "Oh nein, bin ich doch Laura? Ich werde mal versuchen, den 'Erlkönig' aufzusagen."
 
 # game/script.rpy:648
 translate german chapter2_06b28985:
@@ -749,13 +749,13 @@ translate german chapter2_86782c98:
 translate german chapter2_de721e8e:
 
     # alice "I must be Mabel after all, and I shall have to go and live in that poky little house, and have next to no toys to play with, and oh!"
-    alice "Ich glaube, ich bin doch Hermine..."
+    alice "Ich glaube, ich bin doch Laura."
 
 # game/script.rpy:657
 translate german chapter2_c23c7ff7:
 
     # alice "Ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here!"
-    alice "Dann muss ich noch so viel lernen! Nee, wenn ich wirklich Hermine bin, dann bleibe ich einfach hier unten!"
+    alice "Dann muss ich noch so viel lernen! Nee, wenn ich wirklich Laura bin, dann bleibe ich einfach hier unten!"
 
 # game/script.rpy:658
 translate german chapter2_c749754a:
