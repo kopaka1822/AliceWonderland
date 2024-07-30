@@ -1,4 +1,6 @@
-﻿init python:
+﻿default persistent.started_story = False
+
+init python:
     import random
     import time
 
@@ -114,6 +116,7 @@
         if isinstance(obj, renpy.display.image.ImageReference):
             return (hash(obj.name[0]) % 7919) / 7919
         return 0.0
+
 
 define alice = Character("Alice", color="#ADD8E6")
 define rabbit = Character(_("Rabbit"), color="#ffffff")
@@ -318,6 +321,7 @@ label start:
     call screen language
 
 label chapter1:
+    $ persistent.started_story = True
     scene black
     call reset_camera
     "{size=+40}Chapter I: \n{/size}Down the Rabbit-Hole"
@@ -594,6 +598,7 @@ label chapter1:
     "So she set to work, and very soon finished off the cake."
 
 label chapter2:
+    $ persistent.started_story = True
     scene black
     call reset_camera
     "{size=+40}Chapter II: \n{/size}The Pool of Tears"
@@ -812,6 +817,7 @@ label chapter2:
     "Alice led the way, and the whole party swam to the shore."
 
 label chapter3:
+    $ persistent.started_story = True
     scene black 
     call reset_camera
     "{size=+40}Chapter III: \n{/size}A Caucus-Race and a Long Tale"
@@ -1272,6 +1278,7 @@ label ch3_start:
     "In a little while, however, she again heard a little pattering of footsteps in the distance, and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story."
 
 label chapter4:
+    $ persistent.started_story = True
     scene black
     call reset_camera
 
@@ -1643,6 +1650,7 @@ label ch4_caterpillar:
     "She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else."
 
 label chapter5:
+    $ persistent.started_story = True
     scene black
     camera: # revert camera
         perspective False
@@ -1944,6 +1952,7 @@ label ch5_sky:
     "So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high."
 
 label chapter6:
+    $ persistent.started_story = True
     scene black
     "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
 
@@ -2405,6 +2414,7 @@ label ch6_cat:
     alice "Suppose it should be raving mad after all! I almost wish I’d gone to see the Hatter instead!"
 
 label chapter7:
+    $ persistent.started_story = True
     scene black
     "{size=+40}Chapter VII: \n{/size}A Mad Tea-Party"
 
@@ -3003,6 +3013,7 @@ label ch7_reorder:
     "Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and then—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains."
 
 label chapter8:
+    $ persistent.started_story = True
     scene black
     "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
 
@@ -3753,6 +3764,7 @@ label ch8_croquet:
     "The Cat’s head began fading away the moment he was gone, and, by the time he had come back with the Duchess, it had entirely disappeared; so the King and the executioner ran wildly up and down looking for it, while the rest of the party went back to the game."
 
 label chapter9:
+    $ persistent.started_story = True
     scene black
     camera:
         perspective False
@@ -4183,6 +4195,7 @@ label ch9_gryphon:
 
 
 label chapter10:
+    $ persistent.started_story = True
     scene black
     camera:
         perspective False
@@ -4681,6 +4694,7 @@ label chapter10:
     {space=30}Beautiful, beautiful Soup!"
 
 label chapter11:
+    $ persistent.started_story = True
     scene black
     call reset_camera
     "{size=+40}Chapter XI: \n{/size}Who Stole the Tarts?"
@@ -5186,6 +5200,7 @@ label ch11_court:
     rabbit "Alice!"
 
 label chapter12:
+    $ persistent.started_story = True
     scene black
     call reset_camera
     "{size=+40}Chapter XII: \n{/size}Alice's Evidence"
@@ -5594,15 +5609,14 @@ label chapter12:
     scene black
     call reset_camera
     "The End."
-    
+    $ persistent.started_story = False # reset story
     call screen credits
-    # delete autosave slot
-    if renpy.can_load("auto-1"):
-        $ renpy.unlink_save("auto-1")
     return
 
 label autoload:
-    if renpy.can_load("auto-1"):
+    if persistent.started_story and renpy.can_load("auto-1"):
         $ renpy.load("auto-1")
-    jump start
+    else:
+        $ persistent.started_story = True
+        jump start
     return
