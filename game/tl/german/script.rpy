@@ -2912,7 +2912,7 @@ translate german chapter5_f7d47c6f:
 translate german chapter5_be28c831:
 
     # alice "'You are old', said the youth,\n'and your jaws are too weak\n{space=30}For anything tougher than suet;\nYet you finished the goose,\nRwith the bones and the beak—\n{space=30}Pray how did you manage to do it?'"
-    alice "Crew fragt schnell: „Wie weit noch, sag?\n{space=30}Das Feuer brennt, ach, welche Plag!\nWann erreichen wir Land, siehst du es schon?\n{space=30}Sag, wie lang noch in dieser brennenden Region?“"
+    alice "Crew fragt schnell: „Wie weit noch, sag?\n{space=30}Das Feuer brennt, ach, welche Plag!\nWann erreichen wir Land, siehst du es schon?\n{space=30}Sag, wie lang noch in dieser brand Region?“"
 
 # game/script.rpy:1720
 translate german chapter5_483841f0:
@@ -8772,7 +8772,7 @@ translate german chapter12_24702253:
 translate german chapter12_fd0177f2:
 
     # rabbit "It isn’t a letter, after all: it’s a set of verses."
-    rabbit "Es ist kein Brief, sondern ein Gedicht."
+    rabbit "Es ist kein Brief, sondern ein Lied."
 
 # game/script.rpy:5354
 translate german chapter12_61990803:
@@ -8838,7 +8838,7 @@ translate german chapter12_2ac01392:
 translate german chapter12_03013256:
 
     # alice "Why, you don’t even know what they’re about!"
-    alice "Ihr wisst doch nicht einmal, worum es in dem Gedicht geht!"
+    alice "Ihr wisst doch nicht einmal, worum es in dem Lied geht!"
 
 # game/script.rpy:5392
 translate german chapter12_5ea90e8a:
@@ -8868,37 +8868,37 @@ translate german chapter12_21aada1f:
 translate german chapter12_19b3f3e2:
 
     # rabbit "They told me you had been to her,\n{space=30}And mentioned me to him:\nShe gave me a good character,\n{space=30}But said I could not swim."
-    rabbit "Ich höre ja du warst bei ihr,\n{space=30}Und dass er mir es gönnt; \nSie sprach, sie hielte viel von mir,\n{space=30}Wenn ich nur schwimmen könnt'!"
+    rabbit "In der Weihnachtsbäckerei\nGibt es manche Kleckerei\nÜber Butter und Milch\nRutscht so mancher Knilch,\nEine riesengroße Sauerei.\nIn der Weihnachtsbäckerei\nIn der Weihnachtsbäckerei"
 
 # game/script.rpy:5409
 translate german chapter12_35095ab0:
 
     # rabbit "He sent them word I had not gone\n{space=30}(We know it to be true):\nIf she should push the matter on,\n{space=30}What would become of you?"
-    rabbit "Er schrieb an sie, ich ginge nicht\n{space=30}(Nur wussten wir es gleich):\nWenn ihr viel an der Sache liegt,\n{space=30}Was würde dann aus euch?"
+    rabbit "Wo ist das Gebäck geblieben\nVon den Keksen, die wir lieben?\nWer hat das Gebäck\nVersteckt?"
 
 # game/script.rpy:5411
 translate german chapter12_27c6adba:
 
     # rabbit "I gave her one, they gave him two,\n{space=30}You gave us three or more;\nThey all returned from him to you,\n{space=30}Though they were mine before."
-    rabbit "Ich gab ihr eins, sie gab ihm zwei,\n{space=30}Ihr gabt uns drei Mal vier;\nJetzt sind sie hier, er steht dabei;\n{space=30}Doch alle gehörten erst mir."
+    rabbit "Na, dann müssen wir es packen\nEinfach neue Kekse backen\nSchmeißt den Ofen an\nUnd ran!"
 
 # game/script.rpy:5413
 translate german chapter12_00c018c5:
 
     # rabbit "If I or she should chance to be\n{space=30}Involved in this affair,\nHe trusts to you to set them free,\n{space=30}Exactly as we were."
-    rabbit "Würd' ich und sie vielleicht darein\n{space=30}Verwickelt und verfahren,\nVertraut er dir, sie zu befrei'n,\n{space=30}Gerade wie wir waren."
+    rabbit "In der Weihnachtsbäckerei\ngibt es Ärger allerlei.\nZwischen Mehl und Milch\ngibt sie jedem Knilch\neine riesengroße Meckerei.\nIn der Weihnachtsbäckerei,\nin der Weihnachtsbäckerei."
 
 # game/script.rpy:5415
 translate german chapter12_17c71a22:
 
     # rabbit "My notion was that you had been\n{space=30}(Before she had this fit)\nAn obstacle that came between\n{space=30}Him, and ourselves, and it."
-    rabbit "Ich dachte schon in meinem Sinn,\n{space=30}Eh' sie den Anfall hätt',\nIhr wär't derjenige, der ihn,\n{space=30}Es und uns hindertet."
+    pass
 
 # game/script.rpy:5417
 translate german chapter12_2ce3842c:
 
     # rabbit "Don’t let him know she liked them best,\n{space=30}For this must ever be\nA secret, kept from all the rest,\n{space=30}Between yourself and me."
-    rabbit "Sag' ihm um keinen Preis, daß ihr\n{space=30}Die Andern lieber war'n;\nDenn keine Seele außer dir\n{space=30}Und mir darf dies erfahr'n."
+    pass
 
 # game/script.rpy:5421
 translate german chapter12_5a5c9f32:
@@ -8928,7 +8928,7 @@ translate german chapter12_d8a816a6:
 translate german chapter12_395611b0:
 
     # "The jury all wrote down on their slates: “She doesn’t believe there’s an atom of meaning in it”, but none of them attempted to explain the paper."
-    "Die Geschworenen schrieben alle auf ihre Schiefertafeln: 'Sie glaubt, dass es keine Bedeutung hat', aber keiner von ihnen versuchte, das Gedicht zu erklären."
+    "Die Geschworenen schrieben alle auf ihre Schiefertafeln: 'Sie glaubt, dass es keine Bedeutung hat', aber keiner von ihnen versuchte, das Lied zu erklären."
 
 # game/script.rpy:5436
 translate german chapter12_bbf1c8e9:
@@ -8940,19 +8940,19 @@ translate german chapter12_bbf1c8e9:
 translate german chapter12_b9d92e96:
 
     # king "And yet I don’t know..."
-    king "Aber ich weiß nicht..."
+    king "Aber ich weiß nicht-"
 
 # game/script.rpy:5438
 translate german chapter12_e498dbfb:
 
     # "He went on, spreading out the verses on his knee, and looking at them with one eye."
-    "Er schaute weiter mit einem Auge auf das Gedicht."
+    "Er schaute weiter mit einem Auge auf das Lied."
 
 # game/script.rpy:5439
 translate german chapter12_6d2523da:
 
     # king "I seem to see some meaning in them, after all. “—said I could not swim—” you can’t swim, can you?"
-    king "Ich glaube, jetzt verstehe ich. Es sagt: 'Wenn ich nur schwimmen könnt'. Du kannst nicht schwimmen, oder?"
+    king "Ich glaube, jetzt verstehe ich. Es sagt: 'Über Butter und Milch, rutscht so mancher Knilch, eine riesengroße Sauerei.'. Wenn du auf Butter ausrutscht bekommst du den Fleck doch nie wieder raus oder?"
 
 # game/script.rpy:5444
 translate german chapter12_1350c6ef:
@@ -8994,19 +8994,19 @@ translate german chapter12_396e35ce:
 translate german chapter12_c6c1d5fe:
 
     # king "‘We know it to be true—’ that’s the jury, of course—‘I gave her one, they gave him two—’ why, that must be what he did with the tarts, you know—” "
-    king "'Nur wussten wir es gleich' - das sind die Geschworenen, natürlich - 'Ich gab ihr eins, sie gab ihm zwei -' ja wohl, so hat er es mit den Keksen gemacht, versteht sich -"
+    king "'Wo ist das Gebäck geblieben, von den Keksen, die wir lieben?' genau das fragen wir uns auch gerade! 'Versteckt?' so hat er es wohl gemacht-"
 
 # game/script.rpy:5460
 translate german chapter12_e1a93529:
 
     # alice "But, it goes on ‘they all returned from him to you’"
-    alice "Aber es geht weiter: 'Jetzt sind sie hier'"
+    alice "Aber es geht weiter: 'Na, dann müssen wir es packen, einfach neue Kekse backen'."
 
 # game/script.rpy:5464
 translate german chapter12_d80f7c6b:
 
     # king "Why, there they are!"
-    king "Mensch, da sind sie ja!"
+    king "Mensch, da sind sie ja auch!"
 
 # game/script.rpy:5468
 translate german chapter12_bfe5c012:
@@ -9018,7 +9018,7 @@ translate german chapter12_bfe5c012:
 translate german chapter12_1a68404e:
 
     # king "Nothing can be clearer than that. Then again—‘before she had this fit—’ you never had fits, my dear, I think?"
-    king "Nichts ist klarer als das! Aber dann - 'Eh sie den Anfall hätt' - du hast noch nie einen Anfall gehabt, Liebe, richtig?"
+    king "Nichts ist klarer als das! Aber dann - 'gibt sie jedem Knilch, eine riesengroße Meckerei.' - du meckerst doch nie, meine Liebe, richtig?"
 
 # game/script.rpy:5475
 translate german chapter12_f4813a10:
@@ -9042,7 +9042,7 @@ translate german chapter12_c73bce50:
 translate german chapter12_285ad1e3:
 
     # king "Then the words don’t fit you."
-    king "Dann ist das wohl nicht der {i}Fall{/i}."
+    king "Dann kannst du ja nicht gemeint sein, meine Liebe."
 
 # game/script.rpy:5485
 translate german chapter12_0ace1bad:
@@ -9054,7 +9054,7 @@ translate german chapter12_0ace1bad:
 translate german chapter12_a20cefa7:
 
     # "..."
-    "..."
+    pass
 
 # game/script.rpy:5487
 translate german chapter12_1883cb68:
@@ -9066,13 +9066,13 @@ translate german chapter12_1883cb68:
 translate german chapter12_86c7a450:
 
     # king "*offended* It’s a pun!"
-    king "*beleidigt* Das war ein Wortwitz!"
+    pass
 
 # game/script.rpy:5492
 translate german chapter12_6691f14f:
 
     # "Everybody laughed."
-    "Alle lachten."
+    pass
 
 # game/script.rpy:5493
 translate german chapter12_963d8578:
