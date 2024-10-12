@@ -13,9 +13,10 @@ translate simple_english chapter1_470d34b5:
     "Alice sat next to her sister by the river and was feeling bored. She peeked at her sister's book, but it had no pictures in it."
 
 # game/script.rpy:317
-translate simple_english chapter1_bbddd97e:
+translate simple_english chapter1_065c1c04:
 
     # alice "(And what is the use of a book without pictures or conversations?)"
+    #voice "alice001"
     alice "(Why should you read a book without any pictures in it?)"
 
 # game/script.rpy:319
@@ -91,21 +92,24 @@ translate simple_english chapter1_91e74c2c:
     "As she fell, she grabbed a jar labeled 'ORANGE MARMALADE' off a shelf. But it was empty, which made her really sad. She didn't want to drop the jar and hurt anyone below, so she carefully placed it in a cupboard as she fell past it."
 
 # game/script.rpy:383
-translate simple_english chapter1_03730b0d:
+translate simple_english chapter1_988fd847:
 
     # alice "(Well! After such a fall as this, I shall think nothing of tumbling down stairs!)"
+    #voice "alice002"
     alice "(Wow! If I can fall like that and still be fine, I won't be afraid of falling down stairs anymore!)"
 
 # game/script.rpy:386
-translate simple_english chapter1_c76c118d:
+translate simple_english chapter1_a38eedd8:
 
     # alice "(How brave they'll all think me at home!)"
+    #voice "alice003"
     alice "(Everyone at home will think I'm very brave!)"
 
 # game/script.rpy:389
-translate simple_english chapter1_e9d9bac0:
+translate simple_english chapter1_5990b789:
 
     # alice "(Why, I wouldn’t say anything about it, even if I fell off the top of the house!)"
+    #voice "alice004"
     alice "(I wouldn't be scared, not even if I fell off the roof!)"
 
 # game/script.rpy:390
@@ -121,21 +125,24 @@ translate simple_english chapter1_d3c5a6ee:
     "Down, down, down. Would the fall never come to an end?"
 
 # game/script.rpy:395
-translate simple_english chapter1_73d1e28a:
+translate simple_english chapter1_6d394125:
 
     # alice "I wonder how many miles I've fallen by this time?"
+    #voice "alice005"
     alice "I wonder how far I have fallen by now?"
 
 # game/script.rpy:397
-translate simple_english chapter1_d44c5aa5:
+translate simple_english chapter1_48413486:
 
     # alice "I must be getting somewhere near the centre of the earth."
+    #voice "alice006"
     alice "I think I'm close to the middle of the Earth now."
 
 # game/script.rpy:399
-translate simple_english chapter1_89b90f09:
+translate simple_english chapter1_e6536e0f:
 
     # alice "Let me see: that would be four thousand miles down, I think—"
+    #voice "alice007"
     alice "Let me check: that would be around six thousand kilometers down, I believe—"
 
 # game/script.rpy:401
@@ -145,9 +152,10 @@ translate simple_english chapter1_96b74097:
     "(Alice had learned a lot of things like this in school. Even when no one was there to listen to her, she found it useful to practice saying what she knew)"
 
 # game/script.rpy:404
-translate simple_english chapter1_56db8c28:
+translate simple_english chapter1_2536db34:
 
     # alice "—yes, that’s about the right distance—but then I wonder what Latitude or Longitude I’ve got to?"
+    #voice "alice008"
     alice "Yes, that looks like the right distance. Now I'm wondering about which Latitude and Longitude I am at."
 
 # game/script.rpy:406
@@ -1300,7 +1308,7 @@ translate simple_english ch3_start_b9bc5cca:
 translate simple_english ch3_start_5d04593b:
 
     # duck "I know what 'it' means well enough, when I find a thing, it’s generally a frog or a worm. The question is, what did the archbishop find?"
-    duck "I understand 'it' very well. When I find something, it's usually a frog or a worm. So, what did the archbishop find?"
+    duck "I know what 'it' means well enough, when I find a thing, it’s generally a frog or a worm. The question is, what did the archbishop find?"
 
 # game/script.rpy:912
 translate simple_english ch3_start_fcb36ac1:
@@ -1342,7 +1350,7 @@ translate simple_english ch3_start_ced08b12:
 translate simple_english ch3_start_3405bef4:
 
     # eaglet "Speak English! I don’t know the meaning of half those long words, and, what’s more, I don’t believe you do either!"
-    eaglet "Speak English! I don’t understand the meaning of those words, and I don't think you do either!"
+    eaglet "Speak English! I don’t understand the meaning of half those long words, and I don't think you do either!"
 
 # game/script.rpy:930
 translate simple_english ch3_start_e7a70394:

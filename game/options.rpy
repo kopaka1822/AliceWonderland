@@ -4,3 +4,4 @@ define config.version = "1.6"
 define build.name = "AliceWonderland"
 define config.save_directory = "AliceWVN"
 define menu_title = _("Alice in Wonderland")
+define config.voice_filename_format = "voice/{filename}.mp3"

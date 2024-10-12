@@ -116,7 +116,7 @@ translate german strings:
 
     # renpy/common/00accessibility.rpy:216
     old "Voice Volume"
-    new "Sprachlautstärke"
+    new "Sprach Lautstärke"
 
     # renpy/common/00accessibility.rpy:224
     old "Self-Voicing Volume Drop"
@@ -1213,4 +1213,12 @@ translate german strings:
     # renpy/common/_errorhandling.rpym:782
     old "Parsing the script failed."
     new "Parsing the script failed."
+
+# TODO: Translation updated at 2024-10-07 18:19
+
+translate german strings:
+
+    # renpy/common/00accessibility.rpy:197
+    old "Self-voicing support is limited when using a touch screen."
+    new "Self-voicing support is limited when using a touch screen."
 

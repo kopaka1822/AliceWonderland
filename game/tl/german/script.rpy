@@ -13,9 +13,10 @@ translate german chapter1_470d34b5:
     "Alice saß neben ihrer Schwester am Fluss und langweilte sich. Sie schaute in das Buch ihrer Schwester, aber es hatte keine Bilder."
 
 # game/script.rpy:317
-translate german chapter1_bbddd97e:
+translate german chapter1_065c1c04:
 
     # alice "(And what is the use of a book without pictures or conversations?)"
+    #voice "alice001"
     alice "(Warum sollte man ein Buch ohne Bilder lesen?)"
 
 # game/script.rpy:319
@@ -91,21 +92,24 @@ translate german chapter1_91e74c2c:
     "Während sie fiel, griff sie nach einem Glas mit der Aufschrift 'ORANGEN MARMELADE' von einem Regal. Aber es war leider leer. Sie legte das Glas vorsichtig zurück in einen Schrank, an dem sie vorbeifiel."
 
 # game/script.rpy:383
-translate german chapter1_03730b0d:
+translate german chapter1_988fd847:
 
     # alice "(Well! After such a fall as this, I shall think nothing of tumbling down stairs!)"
+    #voice "alice002"
     alice "(Krass! Wenn ich so tief fallen kann, muss ich mir später keine Sorgen machen, wenn ich die Treppe runterfalle!)"
 
 # game/script.rpy:386
-translate german chapter1_c76c118d:
+translate german chapter1_a38eedd8:
 
     # alice "(How brave they'll all think me at home!)"
+    #voice "alice003"
     alice "(Zuhause werden alle denken, dass ich mega mutig bin!)"
 
 # game/script.rpy:389
-translate german chapter1_e9d9bac0:
+translate german chapter1_5990b789:
 
     # alice "(Why, I wouldn’t say anything about it, even if I fell off the top of the house!)"
+    #voice "alice004"
     alice "(Ich hätte null Angst, selbst wenn ich vom Dach falle!)"
 
 # game/script.rpy:390
@@ -121,21 +125,24 @@ translate german chapter1_d3c5a6ee:
     "Runter, runter, runter."
 
 # game/script.rpy:395
-translate german chapter1_73d1e28a:
+translate german chapter1_6d394125:
 
     # alice "I wonder how many miles I've fallen by this time?"
+    #voice "alice005"
     alice "Ich frage mich, wie tief ich schon gefallen bin?"
 
 # game/script.rpy:397
-translate german chapter1_d44c5aa5:
+translate german chapter1_48413486:
 
     # alice "I must be getting somewhere near the centre of the earth."
+    #voice "alice006"
     alice "Ich glaub, ich bin jetzt fast in der Mitte der Erde!"
 
 # game/script.rpy:399
-translate german chapter1_89b90f09:
+translate german chapter1_e6536e0f:
 
     # alice "Let me see: that would be four thousand miles down, I think—"
+    #voice "alice007"
     alice "Lass mich mal überlegen: Das wären ungefähr 6000 Kilometer nach unten, oder so—"
 
 # game/script.rpy:401
@@ -145,9 +152,10 @@ translate german chapter1_96b74097:
     "(Alice hatte so etwas in der Schule gelernt. Auch wenn niemand da war, um zuzuhören, fand sie es trotzdem gut, es laut auszusprechen)"
 
 # game/script.rpy:404
-translate german chapter1_56db8c28:
+translate german chapter1_2536db34:
 
     # alice "—yes, that’s about the right distance—but then I wonder what Latitude or Longitude I’ve got to?"
+    #voice "alice008"
     alice "Ja, das klingt nach der richtigen Entfernung. Jetzt frage ich mich, bei welchem Breitengrad und Längengrad ich bin."
 
 # game/script.rpy:406
@@ -9475,3 +9483,10 @@ translate german strings:
     old "Sister"
     new "Schwester"
 
+# TODO: Translation updated at 2024-10-12 16:31
+
+# game/script.rpy:346
+translate german chapter4_ed0fe5b9:
+
+    # anon "Oh! they’ll do well enough; don’t be particular."
+    anon "Oh! they’ll do well enough; don’t be particular."

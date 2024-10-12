@@ -343,7 +343,8 @@ label chapter1:
 
     camera:
         ease cam_transition zpos -300
-    # voice "voice/alice001.mp3"
+    voice "alice001"
+    
     alice "(And what is the use of a book without pictures or conversations?)" 
 
     "So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her."
@@ -409,28 +410,28 @@ label chapter1:
         linear 1.0 xoffset 20 yoffset -20 rotate -5
         repeat
 
-    # voice "voice/alice002.mp3"
+    voice "alice002"
     alice "(Well! After such a fall as this, I shall think nothing of tumbling down stairs!)"  
     
-    # voice "voice/alice003.mp3"
+    voice "alice003"
     alice "(How brave they'll all think me at home!)" 
     
-    # voice "voice/alice004.mp3"
+    voice "alice004"
     alice "(Why, I wouldn’t say anything about it, even if I fell off the top of the house!)"  
     "(Which was very likely true)"
 
 
     "Down, down, down. Would the fall never come to an end?"
-    # voice "voice/alice005.mp3"
+    voice "alice005"
     alice "I wonder how many miles I've fallen by this time?"
-    # voice "voice/alice006.mp3"
+    voice "alice006"
     alice "I must be getting somewhere near the centre of the earth."
-    # voice "voice/alice007.mp3"
+    voice "alice007"
     alice "Let me see: that would be four thousand miles down, I think—"
 
     "(for, you see, Alice had learnt several things of this sort in her lessons in the schoolroom, and though this was not a very good opportunity for showing off her knowledge, as there was no one to listen to her, still it was good practice to say it over)"
 
-    # voice "voice/alice008.mp3"
+    voice "alice008"
     alice "—yes, that’s about the right distance—but then I wonder what Latitude or Longitude I’ve got to?"
 
     "(Alice had no idea what Latitude was, or Longitude either, but thought they were nice grand words to say)"
@@ -1425,24 +1426,25 @@ label chapter4:
 
     "She waited for some time without hearing anything more: at last came a rumbling of little cartwheels, and the sound of a good many voices all talking together:"
 
-    anon "Where’s the other ladder?"
-    anon "Why, I hadn’t to bring but one; Bill’s got the other."
-    anon "Bill! fetch it here, lad!"
-    anon "Here, put 'em up at this corner."
-    anon "No, tie 'em together first—they don’t reach half high enough yet—Oh! they’ll do well enough; don’t be particular."
-    anon "Here, Bill! catch hold of this rope."
-    anon "Will the roof bear?"
-    anon "Mind that loose slate."
-    anon "Oh, it’s coming down! Heads below!"
+    anon "Where’s the other ladder?" # A
+    anon "Why, I hadn’t to bring but one; Bill’s got the other." # B
+    anon "Bill! fetch it here, lad!" # A
+    anon "Here, put 'em up at this corner." # B
+    anon "No, tie 'em together first—they don’t reach half high enough yet" # A
+    anon "Oh! they’ll do well enough; don’t be particular." # C
+    anon "Here, Bill! catch hold of this rope." # A
+    anon "Will the roof bear?" # C
+    anon "Mind that loose slate." # B
+    anon "Oh, it’s coming down! Heads below!" # A
 
     play sound "sfx/shatter.mp3"
-    anon "Now, who did that?"
-    anon "It was Bill, I fancy."
-    anon "Who’s to go down the chimney?"
-    anon "Nay, I shan’t! You do it!"
-    anon "That I won’t, then!"
-    anon "Bill’s to go down."
-    anon "Here, Bill! the master says you’re to go down the chimney!"
+    anon "Now, who did that?" # A
+    anon "It was Bill, I fancy." # B
+    anon "Who’s to go down the chimney?" # C
+    anon "Nay, I shan’t! You do it!" # B
+    anon "That I won’t, then!" # C
+    anon "Bill’s to go down." # A
+    anon "Here, Bill! the master says you’re to go down the chimney!" # B
 
     alice "(Oh! So Bill’s got to come down the chimney, has he?)"
     alice "(Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I think I can kick a little!)"
@@ -1459,14 +1461,14 @@ label chapter4:
     play sound "sfx/shatter.mp3"
     "..."
     "Then silence, and then another confusion of voices—"
-    anon "Hold up his head."
-    anon "Brandy now."
-    anon "Don’t choke him."
-    anon "How was it, old fellow? What happened to you? Tell us all about it!"
+    anon "Hold up his head." # A
+    anon "Brandy now." # B
+    anon "Don’t choke him." # C
+    anon "How was it, old fellow? What happened to you? Tell us all about it!" # A
 
     "Last came a little feeble, squeaking voice:"
     bill "Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
-    anon "So you did, old fellow!"
+    anon "So you did, old fellow!" # B
 
     rabbit "We must burn the house down!"
     "Alice called out as loud as she could:"
