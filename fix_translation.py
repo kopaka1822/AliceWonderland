@@ -1,7 +1,7 @@
-#TRANSLATION_FILE = "C:/git/AliceWonderland/game/tl/german/script.rpy"
-#NEW_TRANSLATIONS_INDEX = 9477
-TRANSLATION_FILE = "C:/git/AliceWonderland/game/tl/simple_english/script.rpy"
-NEW_TRANSLATIONS_INDEX = 9296
+TRANSLATION_FILE = "C:/git/AliceWonderland/game/tl/german/script.rpy"
+NEW_TRANSLATIONS_INDEX = 9493
+#TRANSLATION_FILE = "C:/git/AliceWonderland/game/tl/simple_english/script.rpy"
+#NEW_TRANSLATIONS_INDEX = 9305
 
 # line number where new translatins were appened
 
