@@ -1403,9 +1403,10 @@ translate german ch3_start_ced08b12:
     dodo "In Anbetracht der aktuellen Umstände empfehle ich die temporäre Suspension dieser Sitzung, um unmittelbar proaktivere Interventionsstrategien zu ergreifen—"
 
 # game/script.rpy:929
-translate german ch3_start_3405bef4:
+translate german ch3_start_ff0d2429:
 
     # eaglet "Speak English! I don’t know the meaning of half those long words, and, what’s more, I don’t believe you do either!"
+    #voice "eaglet1"
     eaglet "Sprich Deutsch! Ich kenne die Hälfte dieser komischen Wörter nicht, und du vermutlich auch nicht!"
 
 # game/script.rpy:930
@@ -1763,9 +1764,10 @@ translate german ch3_start_27a33397:
     "Der Papagei seufzte, und eine alte Krabbe nutzte die Chance, um mit ihrer Tochter zu sprechen:"
 
 # game/script.rpy:1192
-translate german ch3_start_8d938c66:
+translate german ch3_start_b3339f33:
 
     # old_crab "Ah, my dear! Let this be a lesson to you never to lose your temper!"
+    #voice "old_crab1"
     old_crab "Denk dran, mein Lieber! Werde niemals wütend!"
 
 # game/script.rpy:1196
@@ -1805,9 +1807,10 @@ translate german ch3_start_04a7b36f:
     "Die Rede hatte die Gruppe sprachlos gemacht. Ein paar von den Vögeln sind direkt weggeflogen."
 
 # game/script.rpy:1218
-translate german ch3_start_44a331e9:
+translate german ch3_start_1c9e32f8:
 
     # magpie "I really must be getting home; the night-air doesn’t suit my throat!"
+    #voice "magpie1"
     magpie "Ich muss morgen früh aufstehen!"
 
 # game/script.rpy:1224
@@ -2159,9 +2162,10 @@ translate german chapter4_567629ec:
     "Und dann eine Stimme, die sie noch nie gehört hatte:"
 
 # game/script.rpy:1374
-translate german chapter4_d53f9435:
+translate german chapter4_6f1945ac:
 
     # pat "Sure then I’m here! Digging for apples, yer honour!"
+    #voice "pat1"
     pat "*bayrisch* Do bin i! I buddl grod noch Äpfe."
 
 # game/script.rpy:1375
@@ -2195,9 +2199,10 @@ translate german chapter4_88940096:
     rabbit "Sag mal, Franz, was ist das da in dem Fenster?"
 
 # game/script.rpy:1381
-translate german chapter4_2f8a7e14:
+translate german chapter4_c0f11e21:
 
     # pat "Sure, it’s an arrumm, yer honour!"
+    #voice "pat2"
     pat "Des is en Arm!"
 
 # game/script.rpy:1382
@@ -2207,9 +2212,10 @@ translate german chapter4_4d00bb46:
     rabbit "Ein Arm?! Der ist so groß, wie das Fenster!"
 
 # game/script.rpy:1383
-translate german chapter4_6252371b:
+translate german chapter4_4f6d9236:
 
     # pat "Sure, it does, yer honour: but it’s an arm for all that."
+    #voice "pat3"
     pat "Ja, des stimmt scho, aber en Arm is halt trotzdem."
 
 # game/script.rpy:1384
@@ -2225,9 +2231,10 @@ translate german chapter4_69d74da6:
     "Danach herrschte eine lange Stille. Alice konnte nur gelegentlich ein leises Flüstern hören."
 
 # game/script.rpy:1387
-translate german chapter4_c2ff67ac:
+translate german chapter4_964076bc:
 
     # pat "Sure, I don’t like it, yer honour, at all, at all!"
+    #voice "pat4"
     pat "O mei, des gefallt mir ja gar net."
 
 # game/script.rpy:1388
@@ -4057,9 +4064,10 @@ translate german ch6_kitchen_0873dc41:
     alice "Kannst du mir sagen, wohin ich gehen muss?"
 
 # game/script.rpy:2275
-translate german ch6_kitchen_3cb31f10:
+translate german ch6_kitchen_2374a82b:
 
     # cat "That depends a good deal on where you want to get to."
+    #voice "cat01"
     cat "Das kommt darauf an, wohin du gehen möchtest."
 
 # game/script.rpy:2277
@@ -4069,9 +4077,10 @@ translate german ch6_kitchen_7ceebf2c:
     alice "Mir ist es eigentlich egal, ich—"
 
 # game/script.rpy:2279
-translate german ch6_kitchen_3e26a9cc:
+translate german ch6_kitchen_04e4d73f:
 
     # cat "Then it doesn’t matter which way you go."
+    #voice "cat02"
     cat "Dann ist es auch egal, in welche Richtung du gehen wirst."
 
 # game/script.rpy:2281
@@ -4081,9 +4090,10 @@ translate german ch6_kitchen_0bb2c7ae:
     alice "—Ich will einfach nur irgendwo ankommen!"
 
 # game/script.rpy:2283
-translate german ch6_kitchen_accaceee:
+translate german ch6_kitchen_c0365ac6:
 
     # cat "Oh, you’re sure to do that, if you only walk long enough."
+    #voice "cat03"
     cat "Oh, das schaffst du bestimmt, wenn du nur lange genug gehst!"
 
 # game/script.rpy:2285
@@ -4099,9 +4109,10 @@ translate german ch6_kitchen_7d46d7cb:
     alice "Was für Leute wohnen hier?"
 
 # game/script.rpy:2289
-translate german ch6_kitchen_990711a9:
+translate german ch6_kitchen_d791ab0f:
 
     # cat "In that direction, lives a Hatter: and in that direction, lives a March Hare. Visit either you like: they’re both mad."
+    #voice "cat04"
     cat "Dort drüben lebt ein Hutmacher und dort drüben lebt ein Märzhase. Es ist egal, welchen du besuchst, sie sind beide verrückt!"
 
 # game/script.rpy:2291
@@ -4111,9 +4122,10 @@ translate german ch6_kitchen_82c0f0fa:
     alice "Aber ich will nicht bei verrückten Leuten rumhängen!"
 
 # game/script.rpy:2293
-translate german ch6_kitchen_01b16c9b:
+translate german ch6_kitchen_ce15607e:
 
     # cat "Oh, you can’t help that. We’re all mad here. I’m mad. You’re mad."
+    #voice "cat05"
     cat "Oh, da kannst du nichts machen. Wir sind alle verrückt hier. Ich bin verrückt. Du bist verrückt!"
 
 # game/script.rpy:2295
@@ -4123,9 +4135,10 @@ translate german ch6_kitchen_6ffcd429:
     alice "Wie kommst du darauf, dass ich verrückt bin?"
 
 # game/script.rpy:2297
-translate german ch6_kitchen_e9286c75:
+translate german ch6_kitchen_3f3aab0f:
 
     # cat "You must be, or you wouldn’t have come here."
+    #voice "cat06"
     cat "Du musst es sein, sonst wärst du nicht hierher gekommen!"
 
 # game/script.rpy:2299
@@ -4141,9 +4154,10 @@ translate german ch6_kitchen_70b6563c:
     alice "Und woher weißt du, dass du verrückt bist?"
 
 # game/script.rpy:2303
-translate german ch6_kitchen_d5b77d1a:
+translate german ch6_kitchen_409e7916:
 
     # cat "To begin with, a dog’s not mad. You grant that?"
+    #voice "cat07"
     cat "Zuerst müssen wir uns darauf einigen, dass ein Hund nicht verrückt ist. Stimmt das für dich?"
 
 # game/script.rpy:2305
@@ -4153,9 +4167,10 @@ translate german ch6_kitchen_27a937d9:
     alice "Ja, stimmt."
 
 # game/script.rpy:2307
-translate german ch6_kitchen_9dc1bc60:
+translate german ch6_kitchen_263db83d:
 
     # cat "Well, then, you see, a dog growls when it’s angry, and wags its tail when it’s pleased. Now I growl when I’m pleased, and wag my tail when I’m angry. Therefore I’m mad."
+    #voice "cat08"
     cat "Also, pass auf: Ein Hund knurrt, wenn er wütend ist und wedelt mit dem Schwanz, wenn er glücklich ist. Aber ich knurre, wenn ich glücklich bin und wedle mit dem Schwanz, wenn ich wütend bin. Also muss ich verrückt sein!"
 
 # game/script.rpy:2309
@@ -4165,15 +4180,17 @@ translate german ch6_kitchen_aa7f38ca:
     alice "Ich nenne es schnurren, nicht knurren!"
 
 # game/script.rpy:2311
-translate german ch6_kitchen_db2f18f1:
+translate german ch6_kitchen_de3205d5:
 
     # cat "Call it what you like."
+    #voice "cat09"
     cat "Nenne es, wie du willst!"
 
 # game/script.rpy:2312
-translate german ch6_kitchen_c18af4ad:
+translate german ch6_kitchen_14d53240:
 
     # cat "Do you play croquet with the Queen today?"
+    #voice "cat10"
     cat "Spielst du heute Krocket mit der Königin?"
 
 # game/script.rpy:2314
@@ -4183,9 +4200,10 @@ translate german ch6_kitchen_4325bce6:
     alice "Ich will unbedingt hin, aber mich hat noch niemand eingeladen."
 
 # game/script.rpy:2316
-translate german ch6_kitchen_d6a969f2:
+translate german ch6_kitchen_c93beada:
 
     # cat "You’ll see me there."
+    #voice "cat11"
     cat "Du wirst mich dort treffen!"
 
 # game/script.rpy:2319
@@ -4206,15 +4224,17 @@ translate german ch6_kitchen_7bf2ebd5:
     # "While she was looking at the place where it had been, it suddenly appeared again."
     "Sie schaute auf die Stelle, wo die Katze verschwunden war, und plötzlich war sie wieder da!"
 
-translate german ch6_kitchen_2b611bbc:
+translate german ch6_kitchen_58aa4b7d:
 
     # cat "By the way, what became of the baby?"
+    #voice "cat12"
     cat "Ach ja, was ist mit dem Baby passiert?"
 
 # game/script.rpy:2329
-translate german ch6_kitchen_68ad89bd:
+translate german ch6_kitchen_eb822bb6:
 
     # cat "I’d nearly forgotten to ask."
+    #voice "cat13"
     cat "Ich habe fast vergessen zu fragen!"
 
 # game/script.rpy:2331
@@ -4224,9 +4244,10 @@ translate german ch6_kitchen_66c2d43e:
     alice "Es hat sich in ein Ferkel verwandelt!"
 
 # game/script.rpy:2333
-translate german ch6_kitchen_c0611875:
+translate german ch6_kitchen_223d8910:
 
     # cat "I thought it would."
+    #voice "cat14"
     cat "Wie erwartet!"
 
 # game/script.rpy:2336
@@ -4254,9 +4275,10 @@ translate german ch6_cat_e5a1ed14:
     "Während sie sprach, schaute sie nach oben und sah die Katze wieder auf einem Ast sitzen."
 
 # game/script.rpy:2349
-translate german ch6_cat_beb65723:
+translate german ch6_cat_23a2b18d:
 
     # cat "Did you say pig, or fig?"
+    #voice "cat15"
     cat "Hast du Ferkel oder Merkel gesagt?"
 
 # game/script.rpy:2351
@@ -4266,9 +4288,10 @@ translate german ch6_cat_66b6159b:
     alice "Ich sagte Ferkel! Und ich wünschte, du würdest nicht immer auftauchen und dann gleich wieder verschwinden. Das macht mich ganz verrückt!"
 
 # game/script.rpy:2353
-translate german ch6_cat_9893c57f:
+translate german ch6_cat_978f0655:
 
     # cat "All right."
+    #voice "cat16"
     cat "In Ordnung!"
 
 # game/script.rpy:2374
@@ -4344,9 +4367,10 @@ translate german chapter7_e16fd9c4:
     "Sie setzte sich auf einen großen Stuhl am Tisch."
 
 # game/script.rpy:2440
-translate german chapter7_099a2d60:
+translate german chapter7_caf1bf10:
 
     # hare "Have some wine."
+    #voice "hare01"
     hare "Nimm dir etwas Wein!"
 
 # game/script.rpy:2445
@@ -4362,9 +4386,10 @@ translate german chapter7_2e5192ee:
     alice "Ich seh' keinen Wein!"
 
 # game/script.rpy:2453
-translate german chapter7_867698ff:
+translate german chapter7_0f34a9d6:
 
     # hare "There isn’t any."
+    #voice "hare02"
     hare "Es gibt auch keinen!"
 
 # game/script.rpy:2457
@@ -4374,9 +4399,10 @@ translate german chapter7_42cc716f:
     alice "Dann war das nicht sehr nett von dir, ihn anzubieten!"
 
 # game/script.rpy:2461
-translate german chapter7_98119d5f:
+translate german chapter7_655014a0:
 
     # hare "It wasn’t very civil of you to sit down without being invited."
+    #voice "hare03"
     hare "Es war auch nicht nett von dir, einfach zu sitzen, ohne vorher zu fragen!"
 
 # game/script.rpy:2465
@@ -4428,9 +4454,10 @@ translate german chapter7_c41fdd10:
     alice "Ich glaube, ich kann das herausfinden!"
 
 # game/script.rpy:2491
-translate german chapter7_4b604fbf:
+translate german chapter7_a5f31262:
 
     # hare "Do you mean that you think you can find out the answer to it?"
+    #voice "hare04"
     hare "Meinst du, du kannst die Antwort darauf herausfinden?"
 
 # game/script.rpy:2495
@@ -4440,9 +4467,10 @@ translate german chapter7_b57db509:
     alice "Genau!"
 
 # game/script.rpy:2499
-translate german chapter7_4b859c8e:
+translate german chapter7_2e83ce75:
 
     # hare "Then you should say what you mean."
+    #voice "hare05"
     hare "Dann solltest du sagen, was du meinst."
 
 # game/script.rpy:2503
@@ -4458,9 +4486,10 @@ translate german chapter7_6cb22e6f:
     hatter "Das ist überhaupt nicht dasselbe! Das ist so, als würde man sagen: „Ich sehe, was ich esse“ ist dasselbe wie „Ich esse, was ich sehe“!"
 
 # game/script.rpy:2511
-translate german chapter7_cd0c91de:
+translate german chapter7_f08a1e7a:
 
     # hare "You might just as well say, that ‘I like what I get’ is the same thing as ‘I get what I like’!"
+    #voice "hare06"
     hare "Oder „Ich mag, was ich bekomme“ ist dasselbe wie „Ich bekomme, was ich mag“!"
 
 # game/script.rpy:2515
@@ -4530,9 +4559,10 @@ translate german chapter7_30d6f6da:
     hatter "Ich hab doch gesagt, dass Butter nicht dazu passt!"
 
 # game/script.rpy:2545
-translate german chapter7_6c24716c:
+translate german chapter7_40b6cbbe:
 
     # hare "It was the best butter."
+    #voice "hare07"
     hare "Es ist die beste Butter."
 
 # game/script.rpy:2549
@@ -4548,9 +4578,10 @@ translate german chapter7_50dab3dd:
     "Der Märzhase nahm die Uhr und schaute traurig darauf. Dann tauchte er sie in seine Teetasse und guckte sie wieder an."
 
 # game/script.rpy:2556
-translate german chapter7_4ff17dc9:
+translate german chapter7_b78dfe4a:
 
     # hare "It was the best butter, you know."
+    #voice "hare08"
     hare "Es war die beste Butter, weißt du."
 
 # game/script.rpy:2558
@@ -4662,9 +4693,10 @@ translate german chapter7_43de7ccf:
     hatter "Ich weiß nicht."
 
 # game/script.rpy:2616
-translate german chapter7_9ec48c9e:
+translate german chapter7_951ff05f:
 
     # hare "Nor I."
+    #voice "hare09"
     hare "Ich auch nicht."
 
 # game/script.rpy:2621
@@ -4710,9 +4742,10 @@ translate german chapter7_688503d1:
     hatter "Stell dir vor, es ist neun Uhr morgens, Zeit für den Unterricht. Wenn du Zeit nett bittest, geht sie schnell vorbei. Plötzlich ist es halb zwei, Zeit für das Mittagessen!"
 
 # game/script.rpy:2648
-translate german chapter7_19dcb579:
+translate german chapter7_af4c68f7:
 
     # hare "(I only with wish it was...)"
+    #voice "10"
     hare "(Ich wünschte nur, es wäre so)"
 
 # game/script.rpy:2653
@@ -4854,9 +4887,10 @@ translate german chapter7_32d8e5cc:
     alice "Aber was passiert, wenn ihr wieder am Anfang ankommt?"
 
 # game/script.rpy:2731
-translate german chapter7_5046cf0d:
+translate german chapter7_88ac40db:
 
     # hare "Suppose we change the subject. I’m getting tired of this. I vote the young lady tells us a story."
+    #voice "hare11"
     hare "Lass uns über etwas anderes reden. Mir ist langweilig. Ich glaube, die junge Dame sollte uns eine Geschichte erzählen."
 
 # game/script.rpy:2736
@@ -4890,9 +4924,10 @@ translate german chapter7_ced1f71a:
     dormouse "Ich hab nicht geschlafen. Ich habe alles gehört, was ihr gesagt habt."
 
 # game/script.rpy:2752
-translate german chapter7_6ac3f79c:
+translate german chapter7_f074a8a4:
 
     # hare "Tell us a story!"
+    #voice "hare12"
     hare "Erzähl uns eine Geschichte!"
 
 # game/script.rpy:2757
@@ -4962,9 +4997,10 @@ translate german chapter7_a68c3875:
     alice "Aber warum haben sie am Boden eines Brunnens gelebt?"
 
 # game/script.rpy:2799
-translate german chapter7_219bdfe5:
+translate german chapter7_b36f9ad2:
 
     # hare "Take some more tea."
+    #voice "hare13"
     hare "Nimm ruhig noch etwas Tee."
 
 # game/script.rpy:2805
@@ -5148,9 +5184,10 @@ translate german ch7_reorder_83cc258d:
     alice "Warum mit einem M?"
 
 # game/script.rpy:2934
-translate german ch7_reorder_db92c3ea:
+translate german ch7_reorder_1081dc23:
 
     # hare "Why not?"
+    #voice "hare14"
     hare "Warum nicht?"
 
 # game/script.rpy:2935
@@ -5850,9 +5887,10 @@ translate german ch8_croquet_f9e6f993:
     alice "(Es ist die Grinsekatze! Jetzt habe ich jemanden zum Plaudern!)"
 
 # game/script.rpy:3555
-translate german ch8_croquet_86cd0ac5:
+translate german ch8_croquet_e26809d0:
 
     # cat "How are you getting on?"
+    #voice "cat17"
     cat "Na, wie geht's?"
 
 # game/script.rpy:3563
@@ -5892,9 +5930,10 @@ translate german ch8_croquet_748fd411:
     alice "Und es ist so verwirrend, wenn alles lebendig ist. Die Bögen gehen über das ganze Feld, und der Igel rennt immer weg!"
 
 # game/script.rpy:3586
-translate german ch8_croquet_1ee621eb:
+translate german ch8_croquet_25f640e2:
 
     # cat "How do you like the Queen?"
+    #voice "cat18"
     cat "Wie findest du die Königin?"
 
 # game/script.rpy:3592
@@ -5946,9 +5985,10 @@ translate german ch8_croquet_751cb3f1:
     king "Ich mag sein Aussehen nicht wirklich, aber es darf meine Hand küssen, wenn es möchte."
 
 # game/script.rpy:3618
-translate german ch8_croquet_a02f5d38:
+translate german ch8_croquet_af62ceb6:
 
     # cat "I’d rather not."
+    #voice "cat19"
     cat "Ich möchte nicht."
 
 # game/script.rpy:3622
@@ -8046,9 +8086,10 @@ translate german ch11_court_adfc3bfb:
     hatter "Ich glaube, es war der 14. März."
 
 # game/script.rpy:4887
-translate german ch11_court_d7d4839a:
+translate german ch11_court_0e0339b1:
 
     # hare "Fifteenth."
+    #voice "hare15"
     hare "Fünfzehnte."
 
 # game/script.rpy:4891
@@ -8220,9 +8261,10 @@ translate german ch11_court_ef67de58:
     hatter "Ich bin ein armer Mann, und danach hat so ziemlich alles gefunkelt — nur der Märzhase sagte —"
 
 # game/script.rpy:4997
-translate german ch11_court_1b9e1f87:
+translate german ch11_court_ceab4b07:
 
     # hare "I didn’t!"
+    #voice "hare16"
     hare "Habe ich nicht gesagt!"
 
 # game/script.rpy:5001
@@ -8232,9 +8274,10 @@ translate german ch11_court_85999e6a:
     hatter "Doch, hast du!"
 
 # game/script.rpy:5005
-translate german ch11_court_a35fe5af:
+translate german ch11_court_14c2345a:
 
     # hare "I deny it!"
+    #voice "hare17"
     hare "Das streite ich ab!"
 
 # game/script.rpy:5009
@@ -9222,15 +9265,17 @@ translate german chapter12_82e555f2:
     "Plötzlich flogen die Karten alle auf sie zu. Sie schrie vor Angst und versuchte, sie wegzuschieben. Doch dann wachte sie im Schoß ihrer Schwester auf."
 
 # game/script.rpy:5536
-translate german chapter12_a3d0b8af:
+translate german chapter12_6047d7a4:
 
     # sister "Wake up, Alice dear!"
+    #voice "sister1"
     sister "Alice, wach auf!"
 
 # game/script.rpy:5544
-translate german chapter12_1cf115ba:
+translate german chapter12_aa355fee:
 
     # sister "Why, what a long sleep you’ve had!"
+    #voice "sister2"
     sister "Wow, du hast wirklich lange geschlafen!"
 
 # game/script.rpy:5546
@@ -9246,9 +9291,10 @@ translate german chapter12_28d5b108:
     "Sie erzählte ihrer Schwester von dem komischen Abenteuer, so gut sie sich erinnern konnte. Als sie fertig war, küsste ihre Schwester sie auf die Stirn."
 
 # game/script.rpy:5548
-translate german chapter12_a259d32e:
+translate german chapter12_bc4aaecc:
 
     # sister "It was a curious dream, dear, certainly: but now run in to your tea; it’s getting late."
+    #voice "sister3"
     sister "Interessanter Traum, meine Liebe. Lass uns jetzt nach Hause gehen."
 
 # game/script.rpy:5549
@@ -9541,7 +9587,3 @@ translate german strings:
 # TODO: Translation updated at 2024-10-12 16:31
 
 # game/script.rpy:346
-translate german chapter4_8f130b94:
-
-    # anon "No, tie 'em together first—they don’t reach half high enough yet"
-    anon "No, tie 'em together first—they don’t reach half high enough yet"

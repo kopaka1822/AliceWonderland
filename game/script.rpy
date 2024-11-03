@@ -1020,6 +1020,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_eaglet_cam_pos zpos -510 ypos -50
+    voice "eaglet1"
     eaglet "Speak English! I don’t know the meaning of half those long words, and, what’s more, I don’t believe you do either!"
     "And the Eaglet bent down its head to hide a smile: some of the other birds tittered audibly."
 
@@ -1283,6 +1284,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_old_crab_pos zpos -500 ypos muddy_lory_ypos
+    voice "old_crab1"
     old_crab "Ah, my dear! Let this be a lesson to you never to lose your temper!"
     
     camera: 
@@ -1309,6 +1311,7 @@ label ch3_start:
     show magpie at breathing:
         xzoom -1.0
         linear 1.0 xpos 4000
+    voice "magpie1"
     magpie "I really must be getting home; the night-air doesn’t suit my throat!"
     hide magpie
 
@@ -1462,6 +1465,7 @@ label chapter4:
     "Next came an angry voice—"
     rabbit "Pat! Pat! Where are you?"
     "And then a voice she had never heard before:"
+    voice "pat1"
     pat "Sure then I’m here! Digging for apples, yer honour!"
     rabbit "Digging for apples, indeed!"
     rabbit "Here! Come and help me out of this!"
@@ -1469,12 +1473,15 @@ label chapter4:
     play sound "sfx/shatter.mp3"
     "(Sounds of more broken glass)"
     rabbit "Now tell me, Pat, what’s that in the window?"
+    voice "pat2"
     pat "Sure, it’s an arrumm, yer honour!"
     rabbit "An arm, you goose! Who ever saw one that size? Why, it fills the whole window!"
+    voice "pat3" # TODO
     pat "Sure, it does, yer honour: but it’s an arm for all that."
     rabbit "Well, it’s got no business there, at any rate: go and take it away!"
 
     "There was a long silence after this, and Alice could only hear whispers now and then; such as:"
+    voice "pat4"
     pat "Sure, I don’t like it, yer honour, at all, at all!"
     rabbit "Do as I tell you, you coward!"
     play sound "sfx/snatch.mp3"
@@ -2366,47 +2373,58 @@ label ch6_kitchen:
     alice "Come, it’s pleased so far."
     alice "Would you tell me, please, which way I ought to go from here?"
 
+    voice "cat01"
     cat "That depends a good deal on where you want to get to."
     
     alice "I don’t much care where—"
 
+    voice "cat02"
     cat "Then it doesn’t matter which way you go."
 
     alice "—so long as I get somewhere."
 
+    voice "cat03"
     cat "Oh, you’re sure to do that, if you only walk long enough."
 
     "Alice felt that this could not be denied, so she tried another question."
 
     alice "What sort of people live about here?"
 
+    voice "cat04"
     cat "In that direction, lives a Hatter: and in that direction, lives a March Hare. Visit either you like: they’re both mad."
 
     alice "But I don’t want to go among mad people."
 
+    voice "cat05"
     cat "Oh, you can’t help that. We’re all mad here. I’m mad. You’re mad."
 
     alice "How do you know I’m mad?"
 
+    voice "cat06"
     cat "You must be, or you wouldn’t have come here."
 
     "Alice didn’t think that proved it at all; however, she went on:"
 
     alice "And how do you know that you’re mad?"
 
+    voice "cat07"
     cat "To begin with, a dog’s not mad. You grant that?"
 
     alice "I suppose so."
 
+    voice "cat08"
     cat "Well, then, you see, a dog growls when it’s angry, and wags its tail when it’s pleased. Now I growl when I’m pleased, and wag my tail when I’m angry. Therefore I’m mad."
 
     alice "I call it purring, not growling."
 
+    voice "cat09"
     cat "Call it what you like."
+    voice "cat10"
     cat "Do you play croquet with the Queen today?"
 
     alice "I should like it very much, but I haven’t been invited yet."
 
+    voice "cat11"
     cat "You’ll see me there."
 
     hide cat
@@ -2419,11 +2437,14 @@ label ch6_kitchen:
     show cat:
         anchor (0.5, 1.0)
         xpos 0.79 ypos 0.25 zoom 0.5
+    voice "cat12"
     cat "By the way, what became of the baby?"
+    voice "cat13"
     cat "I’d nearly forgotten to ask."
 
     alice "It turned into a pig."
 
+    voice "cat14"
     cat "I thought it would." # said the cat and VANISHED again
 
     hide cat
@@ -2440,10 +2461,12 @@ label ch6_cat:
         
     "As she said this, she looked up, and there was the Cat again, sitting on a branch of a tree."
 
+    voice "cat15"
     cat "Did you say pig, or fig?"
 
     alice "I said pig, and I wish you wouldn’t keep appearing and vanishing so suddenly: you make one quite giddy."
 
+    voice "cat16"
     cat "All right."
 
     hide cat
@@ -2532,6 +2555,7 @@ label chapter7:
 
     camera:
         ease cam_transition xpos hare_tea_pos zpos -415
+    voice "hare01"
     hare "Have some wine."
 
     camera:
@@ -2545,6 +2569,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415
+    voice "hare02"
     hare "There isn’t any."
 
     camera: 
@@ -2553,6 +2578,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415
+    voice "hare03"
     hare "It wasn’t very civil of you to sit down without being invited."
 
     camera: 
@@ -2583,6 +2609,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+    voice "hare04"
     hare "Do you mean that you think you can find out the answer to it?"
 
     camera: 
@@ -2591,6 +2618,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+    voice "hare05"
     hare "Then you should say what you mean."
 
     camera: 
@@ -2603,6 +2631,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+    voice "hare06"
     hare "You might just as well say, that ‘I like what I get’ is the same thing as ‘I get what I like’!"
 
     camera: 
@@ -2637,6 +2666,7 @@ label chapter7:
     
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+    voice "hare07"
     hare "It was the best butter."
 
     camera: 
@@ -2647,7 +2677,7 @@ label chapter7:
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
     "The March Hare took the watch and looked at it gloomily: then he dipped it into his cup of tea, and looked at it again: but he could think of nothing better to say than his first remark."
 
-    
+    voice "hare08"
     hare "It was the best butter, you know."
 
     "Alice had been looking over his shoulder with some curiosity."
@@ -2708,6 +2738,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+    voice "hare09"
     hare "Nor I."
 
 
@@ -2740,6 +2771,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+    voice "10"
     hare "(I only with wish it was...)"
 
 
@@ -2823,6 +2855,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+    voice "hare11"
     hare "Suppose we change the subject. I’m getting tired of this. I vote the young lady tells us a story."
 
 
@@ -2844,6 +2877,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+    voice "hare12"
     hare "Tell us a story!"
 
 
@@ -2891,6 +2925,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+    voice "hare13"
     hare "Take some more tea."
 
 
@@ -3026,6 +3061,7 @@ label ch7_reorder:
 
     camera: 
         ease cam_transition xpos hare_tea_pos2 zpos -425 ypos 5
+    voice "hare14"
     hare "Why not?"
     "Alice was silent."
 
@@ -3648,6 +3684,7 @@ label ch8_croquet:
     show alice happy at breathing
     alice "(It’s the Cheshire Cat: now I shall have somebody to talk to)"
 
+    voice "cat17"
     cat "How are you getting on?" # said the Cat, as soon as there was mouth enough for it to speak with.
 
     show cat5:
@@ -3679,6 +3716,8 @@ label ch8_croquet:
         pos (cat_croquet, 0.4) zoom cat_scale
         xoffset 120
         alpha 1.0
+
+    voice "cat18"
     cat "How do you like the Queen?"
 
     define queen_croquet2 = 1.03
@@ -3711,6 +3750,7 @@ label ch8_croquet:
 
     king "I don’t like the look of it at all, however, it may kiss my hand if it likes."
 
+    voice "cat19"
     cat "I’d rather not."
 
     show king scared at breathing:
@@ -4983,6 +5023,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_hare ypos 365 zpos -500 # hare
+    voice "hare15"
     hare "Fifteenth."
     
     camera:
@@ -5093,6 +5134,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_hare ypos 365 zpos -500 # hare
+    voice "hare16"
     hare "I didn’t!" # interrupted in great hurry
 
     camera:
@@ -5101,6 +5143,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_hare ypos 365 zpos -500 # hare
+    voice "hare17"
     hare "I deny it!"
 
     camera:
@@ -5633,6 +5676,7 @@ label chapter12:
     call reset_camera
     stop music fadeout 1.0
 
+    voice "sister1"
     sister "Wake up, Alice dear!"
 
     scene sister_cg with dissolve
@@ -5641,10 +5685,12 @@ label chapter12:
         ease 3.0 zrotate -0.1
         ease 3.0 zrotate 0.1
         repeat
+    voice "sister2"
     sister "Why, what a long sleep you’ve had!"
 
     alice "Oh, I’ve had such a curious dream!" 
     "She told her sister, as well as she could remember them, all these strange Adventures of hers that you have just been reading about; and when she had finished, her sister kissed her."
+    voice "sister3"
     sister "It was a curious dream, dear, certainly: but now run in to your tea; it’s getting late."
     "So Alice got up and ran off, thinking while she ran, as well she might, what a wonderful dream it had been."
 
