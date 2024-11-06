@@ -3705,9 +3705,10 @@ translate german ch6_kitchen_74698daa:
     alice "Kannst du mir erklären, warum deine Katze so grinst?"
 
 # game/script.rpy:2081
-translate german ch6_kitchen_e48c86b8:
+translate german ch6_kitchen_c92241f2:
 
     # duchess "It’s a Cheshire cat, and that’s why. Pig!"
+    #voice "duchess01"
     duchess "Es ist eine Grinsekatze, deshalb. {b}Ferkel{/b}!"
 
 # game/script.rpy:2088
@@ -3723,9 +3724,10 @@ translate german ch6_kitchen_c5421c70:
     alice "Ich wusste gar nicht, dass Katzen grinsen können."
 
 # game/script.rpy:2093
-translate german ch6_kitchen_6b4d3d59:
+translate german ch6_kitchen_d84a10f0:
 
     # duchess "They all can, and most of ’em do."
+    #voice "duchess02"
     duchess "Sie alle können es, und die meisten machen es auch."
 
 # game/script.rpy:2095
@@ -3741,9 +3743,10 @@ translate german ch6_kitchen_c38c438a:
     pass
 
 # game/script.rpy:2100
-translate german ch6_kitchen_058c3f68:
+translate german ch6_kitchen_121c78eb:
 
     # duchess "You don’t know much, and that’s a fact."
+    #voice "duchess03"
     duchess "Du kennst nicht viel, und das ist Fakt."
 
 # game/script.rpy:2102
@@ -3789,9 +3792,10 @@ translate german ch6_kitchen_450fc10d:
     "Ein sehr großer Topf flog vorbei und hätte sie fast mitgenommen."
 
 # game/script.rpy:2140
-translate german ch6_kitchen_42b40207:
+translate german ch6_kitchen_508b3cd9:
 
     # duchess "If everybody minded their own business, the world would go round a deal faster than it does."
+    #voice "duchess04"
     duchess "Wenn sich jeder um seine eigenen Sachen kümmern würde, würde sich die Welt viel schneller drehen."
 
 # game/script.rpy:2144
@@ -3801,9 +3805,10 @@ translate german ch6_kitchen_8ce354b5:
     alice "Was kein Vorteil wäre, denn das würde Tag und Nacht durcheinander bringen! Die Erde braucht ja 24 Stunden, um sich um ihre eigene Achse zu drehen."
 
 # game/script.rpy:2146
-translate german ch6_kitchen_266e0139:
+translate german ch6_kitchen_a49f416d:
 
     # duchess "Talking of axes, chop off her head!"
+    #voice "duchess05"
     duchess "Jetzt, wo du schon von Äxten redest: Haut ihr den Kopf ab!"
 
 # game/script.rpy:2152
@@ -3819,9 +3824,10 @@ translate german ch6_kitchen_103d874b:
     alice "24 Stunden, glaub ich; oder waren es doch 12? Ich—"
 
 # game/script.rpy:2160
-translate german ch6_kitchen_9dc137d6:
+translate german ch6_kitchen_71fbfa48:
 
     # duchess "Oh, don’t bother me, I never could abide figures!"
+    #voice "duchess06"
     duchess "Bitte frag mich nicht nach Zahlen, ich hab Zahlen nie gemocht!"
 
 # game/script.rpy:2161
@@ -3831,9 +3837,10 @@ translate german ch6_kitchen_466ea812:
     "Sie begann, ihr Baby zu füttern und ein Wiegenlied zu singen. Dabei schüttelte sie das Baby heftig am Ende jeder Zeile."
 
 # game/script.rpy:2165
-translate german ch6_kitchen_11575324:
+translate german ch6_kitchen_e8ea19cf:
 
     # duchess "Speak roughly to your little boy,\n{space=30}And beat him when he sneezes:\nHe only does it to annoy,\n{space=30}Because he knows it teases."
+    #voice "duchess07"
     duchess "Sprich grob zu deinem kleinen Knaben\n{space=30}und schlag ihn, wenn er niest.\nEr macht das nur um Spaß zu haben,\n{space=30}weil er weiß, dass es dich piekst."
 
 # game/script.rpy:2172
@@ -3849,9 +3856,10 @@ translate german ch6_kitchen_72077540:
     "Die Herzogin sang weiter und wiegte das Baby kräftig, woraufhin das Baby jedes Mal laut schrie."
 
 # game/script.rpy:2178
-translate german ch6_kitchen_e8532e4b:
+translate german ch6_kitchen_c3c261c9:
 
     # duchess "I speak severely to my boy,\n{space=30}I beat him when he sneezes;\nFor he can thoroughly enjoy\n{space=30}The pepper when he pleases!"
+    #voice "duchess08"
     duchess "Ich rede streng zu meinem Sohn, \n{space=30}und schlag ihn, wenn er niest. \nEr hat den Pfeffer gern im Haus, \n{space=30}weil er den Reiz genießt."
 
 # game/script.rpy:2182
@@ -3872,9 +3880,10 @@ translate german ch6_kitchen_6246b82c:
     "Die Herzogin warf das Baby zu Alice, während sie sprach."
 
 # game/script.rpy:2191
-translate german ch6_kitchen_5ba0573d:
+translate german ch6_kitchen_86879c6e:
 
     # duchess "I must go and get ready to play croquet with the Queen."
+    #voice "duchess10"
     duchess "Ich muss mich fertig machen, um Krocket mit der Königin zu spielen."
 
 # game/script.rpy:2192
@@ -4493,9 +4502,10 @@ translate german chapter7_f08a1e7a:
     hare "Oder „Ich mag, was ich bekomme“ ist dasselbe wie „Ich bekomme, was ich mag“!"
 
 # game/script.rpy:2515
-translate german chapter7_a14d85b5:
+translate german chapter7_7b5b665d:
 
     # dormouse "You might just as well say, that ‘I breathe when I sleep’ is the same thing as ‘I sleep when I breathe’!"
+    #voice "dormouse01"
     dormouse "Oder „Ich atme, wenn ich schlafe“ ist dasselbe wie „Ich schlafe, wenn ich atme“!"
 
 # game/script.rpy:2519
@@ -4663,9 +4673,10 @@ translate german chapter7_dbe17320:
     "Die Haselmaus schüttelte den Kopf und sagte schnell, ohne die Augen zu öffnen:"
 
 # game/script.rpy:2599
-translate german chapter7_a1c30eff:
+translate german chapter7_53c5abf3:
 
     # dormouse "Of course, of course; just what I was going to remark myself."
+    #voice "dormouse02"
     dormouse "Ja, ja, genau das wollte ich auch sagen."
 
 # game/script.rpy:2603
@@ -4742,9 +4753,10 @@ translate german chapter7_688503d1:
     hatter "Stell dir vor, es ist neun Uhr morgens, Zeit für den Unterricht. Wenn du Zeit nett bittest, geht sie schnell vorbei. Plötzlich ist es halb zwei, Zeit für das Mittagessen!"
 
 # game/script.rpy:2648
-translate german chapter7_af4c68f7:
+translate german chapter7_e794d5a5:
 
     # hare "(I only with wish it was...)"
+    #voice "hare10"
     #voice "10"
     hare "(Ich wünschte nur, es wäre so)"
 
@@ -4821,9 +4833,10 @@ translate german chapter7_ef6ef70a:
     "Die Haselmaus schüttelte sich und fing an, im Schlaf zu singen."
 
 # game/script.rpy:2688
-translate german chapter7_7ab40cf4:
+translate german chapter7_d286aa44:
 
     # dormouse "Twinkle, twinkle, twinkle, twinkle—"
+    #voice "dormouse03"
     dormouse "Funkel, funkel, funkel, funkel-"
 
 # game/script.rpy:2690
@@ -4918,9 +4931,10 @@ translate german chapter7_71193301:
     "Die Haselmaus öffnete langsam ihre Augen."
 
 # game/script.rpy:2748
-translate german chapter7_ced1f71a:
+translate german chapter7_a77c5a86:
 
     # dormouse "I wasn’t asleep, I heard every word you fellows were saying."
+    #voice "dormouse04"
     dormouse "Ich hab nicht geschlafen. Ich habe alles gehört, was ihr gesagt habt."
 
 # game/script.rpy:2752
@@ -4943,9 +4957,10 @@ translate german chapter7_31a7e4b3:
     hatter "Beeil dich, sonst schläfst du wieder ein, bevor du fertig bist."
 
 # game/script.rpy:2765
-translate german chapter7_48a56481:
+translate german chapter7_f64fa29d:
 
     # dormouse "Once upon a time there were three little sisters, and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—"
+    #voice "dormouse05"
     dormouse "Es waren einmal drei kleine Geschwister namens Sarah, Christian und Felix. Sie lebten am Boden eines Brunnens."
 
 # game/script.rpy:2770
@@ -4961,9 +4976,10 @@ translate german chapter7_fb1a241e:
     "Alice war immer sehr neugierig, wenn es um Essen oder Trinken ging."
 
 # game/script.rpy:2777
-translate german chapter7_bd3a65d4:
+translate german chapter7_9ea6200f:
 
     # dormouse "They lived on treacle."
+    #voice "dormouse06"
     dormouse "Sie lebten von Sirup."
 
 # game/script.rpy:2779
@@ -4979,9 +4995,10 @@ translate german chapter7_f1a8385b:
     alice "Das geht nicht, die wären doch krank geworden."
 
 # game/script.rpy:2789
-translate german chapter7_26852f98:
+translate german chapter7_8ff10a1b:
 
     # dormouse "So they were, very ill..."
+    #voice "dormouse07"
     dormouse "Und das waren sie, sehr krank..."
 
 # game/script.rpy:2793
@@ -5046,9 +5063,10 @@ translate german chapter7_19870dda:
     "Die Haselmaus nahm sich einen Moment Zeit, um wieder darüber nachzudenken."
 
 # game/script.rpy:2832
-translate german chapter7_c2f46b58:
+translate german chapter7_f4e9cd78:
 
     # dormouse "It was a treacle-well."
+    #voice "dormouse08"
     dormouse "Es war ein Sirup-Brunnen."
 
 # game/script.rpy:2838
@@ -5070,9 +5088,10 @@ translate german chapter7_4bdf13a8:
     everyone "Sh! sh!"
 
 # game/script.rpy:2849
-translate german chapter7_da1fb0d2:
+translate german chapter7_8e6b4277:
 
     # dormouse "If you can’t be civil, you’d better finish the story for yourself."
+    #voice "dormouse09"
     dormouse "Wenn der Kuchen spricht, sind die Krümel leise. Oder willst du die Geschichte zu Ende erzählen?"
 
 # game/script.rpy:2854
@@ -5082,15 +5101,17 @@ translate german chapter7_56bdf112:
     alice "Nee, tut mir leid. Ich halte jetzt die Klappe."
 
 # game/script.rpy:2858
-translate german chapter7_eabb6a7b:
+translate german chapter7_69145bd8:
 
     # dormouse "One, indeed!"
+    #voice "dormouse10"
     dormouse "Das hoffe ich!"
 
 # game/script.rpy:2859
-translate german chapter7_2ec8e285:
+translate german chapter7_1ea360f2:
 
     # dormouse "And so these three little sisters—they were learning to draw, you know—"
+    #voice "dormouse11"
     dormouse "Und die drei kleinen Geschwister - sie lernten schöpfen, weißt du?"
 
 # game/script.rpy:2864
@@ -5100,9 +5121,10 @@ translate german chapter7_ee15a6eb:
     alice "Was haben sie geschöpft?"
 
 # game/script.rpy:2868
-translate german chapter7_cf110b9a:
+translate german ch11_court_6a4daace:
 
     # dormouse "Treacle."
+    #voice "dormouse21"
     dormouse "Sirup."
 
 # game/script.rpy:2872
@@ -5142,9 +5164,10 @@ translate german ch7_reorder_c36640db:
     alice "Aber sie waren im Brunnen."
 
 # game/script.rpy:2916
-translate german ch7_reorder_829a5e18:
+translate german ch7_reorder_bd84a40f:
 
     # dormouse "Of course they were, well in."
+    #voice "dormouse13"
     dormouse "Natürlich waren sie das, ganz tief drin."
 
 # game/script.rpy:2918
@@ -5154,9 +5177,10 @@ translate german ch7_reorder_c8764202:
     "Alice war von dieser Antwort so verwirrt, dass sie die Haselmaus eine Weile nichts fragte."
 
 # game/script.rpy:2920
-translate german ch7_reorder_3aba6447:
+translate german ch7_reorder_23f14e27:
 
     # dormouse "They were learning to draw..."
+    #voice "dormouse14"
     dormouse "Sie lernten alle möglichen Sachen zu schöpfen."
 
 # game/script.rpy:2921
@@ -5166,9 +5190,10 @@ translate german ch7_reorder_749869d9:
     "Die Haselmaus redete langsam weiter und rieb sich die Augen, weil sie sehr müde wurde."
 
 # game/script.rpy:2923
-translate german ch7_reorder_73fd030c:
+translate german ch7_reorder_08e2564e:
 
     # dormouse "...and they drew all manner of things—everything that begins with an M———"
+    #voice "dormouse15"
     dormouse "...und sie schöpften allerlei Dinge – alles, was mit M anfängt..."
 
 # game/script.rpy:2926
@@ -5203,9 +5228,10 @@ translate german ch7_reorder_f3ded51f:
     "Die Haselmaus hatte die Augen geschlossen und war fast eingeschlafen. Der Hutmacher zwackte sie, und die Haselmaus wachte mit einem kleinen Schrei auf und redete weiter."
 
 # game/script.rpy:2942
-translate german ch7_reorder_dae368a9:
+translate german ch7_reorder_aecb1fcc:
 
     # dormouse "—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?"
+    #voice "dormouse16"
     dormouse "alles, was mit M anfängt, wie Mausefallen, der Mond und die Menge. Weißt du, man sagt doch immer 'eine ganze Menge'. Hast du jemals eine Zeichnung von einer Menge gesehen?"
 
 # game/script.rpy:2946
@@ -6166,9 +6192,10 @@ translate german chapter9_9086c185:
     "{size=+40}Kapitel IX: \n{/size}Die Geschichte des Schmors"
 
 # game/script.rpy:3759
-translate german chapter9_ec27667c:
+translate german chapter9_7dc4c8d8:
 
     # duchess "You can’t think how glad I am to see you again, you dear old thing!"
+    #voice "duchess11"
     duchess "Ich freue mich so sehr, dich wiederzusehen, meine Liebe!"
 
 # game/script.rpy:3760
@@ -6208,9 +6235,10 @@ translate german chapter9_f7328e8b:
     "Alice hatte die Herzogin ganz vergessen und war ein bisschen überrascht, als sie ihre Stimme direkt neben sich hörte."
 
 # game/script.rpy:3775
-translate german chapter9_b68d7523:
+translate german chapter9_a19c48f5:
 
     # duchess "You’re thinking about something, my dear, and that makes you forget to talk. I can’t tell you just now what the moral of that is, but I shall remember it in a bit."
+    #voice "duchess12"
     duchess "Worüber denkst du gerade nach? Du sagst ja gar nichts. Mir fällt die Moral dazu gerade nicht ein, gib mir bitte noch einen Moment."
 
 # game/script.rpy:3778
@@ -6220,15 +6248,17 @@ translate german chapter9_4192033d:
     alice "Vielleicht hat es gar keine Moral."
 
 # game/script.rpy:3780
-translate german chapter9_8cda8f9a:
+translate german chapter9_ea886b3c:
 
     # duchess "Tut, tut, child!"
+    #voice "duchess13"
     pass
 
 # game/script.rpy:3781
-translate german chapter9_21776a78:
+translate german chapter9_763c8c69:
 
     # duchess "Everything’s got a moral, if only you can find it."
+    #voice "duchess14"
     duchess "Alles hat eine Moral."
 
 # game/script.rpy:3786
@@ -6250,9 +6280,10 @@ translate german chapter9_62337af9:
     alice "Das Spiel läuft jetzt besser!"
 
 # game/script.rpy:3792
-translate german chapter9_415ea529:
+translate german chapter9_e5eacee3:
 
     # duchess "’Tis so, and the moral of that is—‘Oh, ’tis love, ’tis love, that makes the world go round!’"
+    #voice "duchess15"
     duchess "Genau, und die Moral hier ist: 'Übung macht den Meister!'"
 
 # game/script.rpy:3794
@@ -6262,9 +6293,10 @@ translate german chapter9_fc8e87c1:
     alice "Naja, es ist auch noch kein Meister vom Himmel gefallen!"
 
 # game/script.rpy:3796
-translate german chapter9_3cd6d42f:
+translate german chapter9_78fe9d0a:
 
     # duchess "Ah, well! It means much the same thing, and the moral of that is—‘Take care of the sense, and the sounds will take care of themselves’."
+    #voice "duchess16"
     duchess "Nun, das ist das Gleiche. Und die Moral davon ist: 'Ohne Fleiß kein Preis!'"
 
 # game/script.rpy:3801
@@ -6286,9 +6318,10 @@ translate german chapter9_a20cefa7:
     "..."
 
 # game/script.rpy:3805
-translate german chapter9_d7cdb3cc:
+translate german chapter9_4874746d:
 
     # duchess "I dare say you’re wondering why I don’t put my arm round your waist, the reason is, that I’m doubtful about the temper of your flamingo. Shall I try the experiment?"
+    #voice "duchess17"
     duchess "Du wunderst dich bestimmt, warum ich meinen Arm nicht um deine Taille lege. Der Grund ist, dass ich nicht weiß, ob dein Flamingo sich benehmen kann. Soll ich es mal versuchen und sehen, was passiert?"
 
 # game/script.rpy:3807
@@ -6304,9 +6337,10 @@ translate german chapter9_d2413f5c:
     pass
 
 # game/script.rpy:3809
-translate german chapter9_60f7002c:
+translate german chapter9_8212c00e:
 
     # duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together’."
+    #voice "duchess18"
     duchess "Das stimmt! Flamingos und Senf beißen beide. Und die Moral ist: 'Gleich und gleich gesellt sich gern.'"
 
 # game/script.rpy:3811
@@ -6316,9 +6350,10 @@ translate german chapter9_92521c20:
     alice "Aber Senf ist kein Vogel, sondern ... Senf!"
 
 # game/script.rpy:3813
-translate german chapter9_61398943:
+translate german chapter9_70681eec:
 
     # duchess "Right, as usual, what a clear way you have of putting things!"
+    #voice "duchess19"
     duchess "Richtig, wie immer! Du bist echt zu clever."
 
 # game/script.rpy:3814
@@ -6328,9 +6363,10 @@ translate german chapter9_a0158356:
     alice "Ich glaube, Senf ist ein Mineral!"
 
 # game/script.rpy:3815
-translate german chapter9_09b9d787:
+translate german chapter9_30ecf544:
 
     # duchess "Of course it is, there’s a large mustard-mine near here."
+    #voice "duchess20"
     duchess "Klar ist das so, es gibt eine große Senfmine in der Nähe!"
 
 # game/script.rpy:3816
@@ -6340,9 +6376,10 @@ translate german chapter9_083fe0dd:
     "Die Herzogin war bereit, allem zuzustimmen, was Alice gesagt hat."
 
 # game/script.rpy:3817
-translate german chapter9_c4fe1f24:
+translate german chapter9_6570de9f:
 
     # duchess "And the moral of that is—‘The more there is of mine, the less there is of yours’."
+    #voice "duchess21"
     duchess "Und die Moral davon ist: 'Morgenstund hat Senf im Mund.'"
 
 # game/script.rpy:3819
@@ -6358,15 +6395,17 @@ translate german chapter9_040224d6:
     alice "Senf ist ein Gemüse!"
 
 # game/script.rpy:3822
-translate german chapter9_f7a65376:
+translate german chapter9_288e0187:
 
     # duchess "I quite agree with you, and the moral of that is—‘Be what you would seem to be’"
+    #voice "duchess22"
     duchess "Ich stimme dir total zu, und die Moral lautet: 'Du bist, was du isst.'"
 
 # game/script.rpy:3823
-translate german chapter9_88bdf140:
+translate german chapter9_3b709605:
 
     # duchess "—or if you’d like it put more simply—‘Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise’."
+    #voice "duchess23"
     duchess "—oder einfacher ausgedrückt—‘Stell dir niemals vor, anders zu sein, als was du anderen vielleicht erscheinen magst, oder als das, was du warst oder hättest sein können’."
 
 # game/script.rpy:3825
@@ -6376,9 +6415,10 @@ translate german chapter9_d2b16a6c:
     alice "Das war mir jetzt ein bisschen zu kompliziert!"
 
 # game/script.rpy:3827
-translate german chapter9_0b17ed84:
+translate german chapter9_b9c33fcc:
 
     # duchess "That’s nothing to what I could say if I chose."
+    #voice "duchess24"
     duchess "Wenn du willst, kann ich es dir aufschreiben!"
 
 # game/script.rpy:3828
@@ -6388,15 +6428,17 @@ translate german chapter9_57b34102:
     alice "Ach, passt schon. Mach dir keine Mühe!"
 
 # game/script.rpy:3830
-translate german chapter9_7f0663d3:
+translate german chapter9_91d2f97a:
 
     # duchess "Oh, don’t talk about trouble!"
+    #voice "duchess25"
     duchess "Das macht mir doch keine Mühe! Du weißt doch, wer rastet, der rostet."
 
 # game/script.rpy:3831
-translate german chapter9_74e9f3be:
+translate german chapter9_c348c730:
 
     # duchess "I make you a present of everything I’ve said as yet."
+    #voice "duchess26"
     duchess "Ich würde dir mit Vergnügen alles aufschreiben und als Geschenk einpacken."
 
 # game/script.rpy:3833
@@ -6418,9 +6460,10 @@ translate german chapter9_f94f6901:
     "Sie traute sich nicht, es laut auszusprechen.."
 
 # game/script.rpy:3837
-translate german chapter9_1c864987:
+translate german chapter9_26d445d3:
 
     # duchess "Thinking again?"
+    #voice "duchess27"
     duchess "Denkst du wieder nach?"
 
 # game/script.rpy:3838
@@ -6442,9 +6485,10 @@ translate german chapter9_f93e03cf:
     "Sie begann, sich ein bisschen Sorgen zu machen."
 
 # game/script.rpy:3842
-translate german chapter9_0f6ac620:
+translate german chapter9_16aea501:
 
     # duchess "Just about as much right, as pigs have to fly; and the m—"
+    #voice "duchess28"
     duchess "Genau so viel Recht wie Schweine zum Fliegen haben; und die Mor-"
 
 # game/script.rpy:3844
@@ -6460,9 +6504,10 @@ translate german chapter9_47268d9c:
     "Alice schaute auf und sah die Königin vor ihnen stehen. Die Königin hatte die Arme verschränkt und sah sehr wütend aus."
 
 # game/script.rpy:3852
-translate german chapter9_51bb2d3f:
+translate german chapter9_c121eb18:
 
     # duchess "A fine day, your Majesty!"
+    #voice "duchess29"
     duchess "Ein schöner Tag, Eure Majestät!"
 
 # game/script.rpy:3854
@@ -8093,9 +8138,10 @@ translate german ch11_court_0e0339b1:
     hare "Fünfzehnte."
 
 # game/script.rpy:4891
-translate german ch11_court_3c38df6d:
+translate german ch11_court_040a0d65:
 
     # dormouse "Sixteenth."
+    #voice "dormouse17"
     dormouse "Sechzehnte."
 
 # game/script.rpy:4895
@@ -8165,9 +8211,10 @@ translate german ch11_court_57e7c3a8:
     "Plötzlich fühlte sich Alice ganz komisch. Sie wurde größer und wusste nicht, was sie tun sollte. Zuerst wollte sie gehen, aber dann dachte sie, sie bleibt lieber, solange noch Platz für sie ist."
 
 # game/script.rpy:4938
-translate german ch11_court_1d245d7a:
+translate german ch11_court_ef091c2d:
 
     # dormouse "I wish you wouldn’t squeeze so. I can hardly breathe."
+    #voice "dormouse18"
     dormouse "Bitte hör auf, so zu quetschen. Ich kann kaum noch atmen."
 
 # game/script.rpy:4942
@@ -8177,9 +8224,10 @@ translate german ch11_court_09dc0da6:
     alice "Ich kann nichts dafür, ich wachse."
 
 # game/script.rpy:4946
-translate german ch11_court_ece2a762:
+translate german ch11_court_2ac4c3a5:
 
     # dormouse "You’ve no right to grow here..."
+    #voice "dormouse19"
     dormouse "Du hast kein Recht hier zu wachsen!"
 
 # game/script.rpy:4950
@@ -8189,9 +8237,10 @@ translate german ch11_court_909daa8b:
     alice "Red keinen Unsinn, du wächst doch auch noch."
 
 # game/script.rpy:4954
-translate german ch11_court_3cb6d9dc:
+translate german ch11_court_899e2151:
 
     # dormouse "Yes, but I grow at a reasonable pace, not in that ridiculous fashion."
+    #voice "dormouse20"
     dormouse "Ja, aber ich wachse langsam und nicht so lächerlich schnell."
 
 # game/script.rpy:4959
@@ -8497,9 +8546,10 @@ translate german ch11_court_5291de61:
     cook "Pfeffer, hauptsächlich."
 
 # game/script.rpy:5133
-translate german ch11_court_cf110b9a:
+translate german chapter7_073ed35e:
 
     # dormouse "Treacle."
+    #voice "dormouse12"
     dormouse "Sirup."
 
 # game/script.rpy:5137

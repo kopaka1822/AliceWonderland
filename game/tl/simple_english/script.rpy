@@ -3703,9 +3703,10 @@ translate simple_english ch6_kitchen_74698daa:
     alice "Can you explain why your cat is grinning like that?"
 
 # game/script.rpy:2081
-translate simple_english ch6_kitchen_e48c86b8:
+translate simple_english ch6_kitchen_c92241f2:
 
     # duchess "It’s a Cheshire cat, and that’s why. Pig!"
+    #voice "duchess01"
     duchess "It's a Cheshire cat, that's why. Pig!"
 
 # game/script.rpy:2088
@@ -3721,9 +3722,10 @@ translate simple_english ch6_kitchen_c5421c70:
     alice "I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats could grin at all."
 
 # game/script.rpy:2093
-translate simple_english ch6_kitchen_6b4d3d59:
+translate simple_english ch6_kitchen_d84a10f0:
 
     # duchess "They all can, and most of ’em do."
+    #voice "duchess02"
     duchess "They all can, and most of them do."
 
 # game/script.rpy:2095
@@ -3739,9 +3741,10 @@ translate simple_english ch6_kitchen_c38c438a:
     pass
 
 # game/script.rpy:2100
-translate simple_english ch6_kitchen_058c3f68:
+translate simple_english ch6_kitchen_121c78eb:
 
     # duchess "You don’t know much, and that’s a fact."
+    #voice "duchess03"
     duchess "You don’t know much, and that’s a fact."
 
 # game/script.rpy:2102
@@ -3787,9 +3790,10 @@ translate simple_english ch6_kitchen_450fc10d:
     "A very saucepan flew by and almost took it away."
 
 # game/script.rpy:2140
-translate simple_english ch6_kitchen_42b40207:
+translate simple_english ch6_kitchen_508b3cd9:
 
     # duchess "If everybody minded their own business, the world would go round a deal faster than it does."
+    #voice "duchess04"
     duchess "If everybody minded their own business, the world would run a lot more smoothly and quickly."
 
 # game/script.rpy:2144
@@ -3799,9 +3803,10 @@ translate simple_english ch6_kitchen_8ce354b5:
     alice "Which would not be an advantage. Just think what work it would make with the day and night! You see the earth takes twenty-four hours to turn round on its axis—"
 
 # game/script.rpy:2146
-translate simple_english ch6_kitchen_266e0139:
+translate simple_english ch6_kitchen_a49f416d:
 
     # duchess "Talking of axes, chop off her head!"
+    #voice "duchess05"
     duchess "Talking of axes, chop off her head!"
 
 # game/script.rpy:2152
@@ -3817,9 +3822,10 @@ translate simple_english ch6_kitchen_103d874b:
     alice "Twenty-four hours, I think; or is it twelve? I—"
 
 # game/script.rpy:2160
-translate simple_english ch6_kitchen_9dc137d6:
+translate simple_english ch6_kitchen_71fbfa48:
 
     # duchess "Oh, don’t bother me, I never could abide figures!"
+    #voice "duchess06"
     duchess "Please don't ask me about numbers, I really don't like dealing with them!"
 
 # game/script.rpy:2161
@@ -3829,9 +3835,10 @@ translate simple_english ch6_kitchen_466ea812:
     "She started feeding her baby and singing a gentle song to calm it, shaking it violently at the end of each line."
 
 # game/script.rpy:2165
-translate simple_english ch6_kitchen_11575324:
+translate simple_english ch6_kitchen_e8ea19cf:
 
     # duchess "Speak roughly to your little boy,\n{space=30}And beat him when he sneezes:\nHe only does it to annoy,\n{space=30}Because he knows it teases."
+    #voice "duchess07"
     duchess "Speak roughly to your little boy,\n{space=30}And beat him when he sneezes:\nHe only does it to annoy,\n{space=30}Because he knows it teases."
 
 # game/script.rpy:2172
@@ -3847,9 +3854,10 @@ translate simple_english ch6_kitchen_72077540:
     "The Duchess was singing and bouncing the baby roughly, causing the baby to cry loudly. Alice could barely hear the song's words because of the baby's loud cries."
 
 # game/script.rpy:2178
-translate simple_english ch6_kitchen_e8532e4b:
+translate simple_english ch6_kitchen_c3c261c9:
 
     # duchess "I speak severely to my boy,\n{space=30}I beat him when he sneezes;\nFor he can thoroughly enjoy\n{space=30}The pepper when he pleases!"
+    #voice "duchess08"
     duchess "I speak severely to my boy,\n{space=30}I beat him when he sneezes;\nFor he can thoroughly enjoy\n{space=30}The pepper when he pleases!"
 
 # game/script.rpy:2182
@@ -3859,9 +3867,10 @@ translate simple_english ch6_kitchen_e6eb93ec_1:
     everyone "Wow! wow! wow!"
 
 # game/script.rpy:2186
-translate simple_english ch6_kitchen_6cd4f3ad:
+translate simple_english ch6_kitchen_d01b78bf:
 
     # duchess "Here! you may nurse it a bit, if you like!"
+    #voice "duchess09"
     duchess "Here! You may nurse it a bit, if you like!"
 
 # game/script.rpy:2190
@@ -3871,9 +3880,10 @@ translate simple_english ch6_kitchen_6246b82c:
     "The Duchess threw the baby to Alice while talking."
 
 # game/script.rpy:2191
-translate simple_english ch6_kitchen_5ba0573d:
+translate simple_english ch6_kitchen_86879c6e:
 
     # duchess "I must go and get ready to play croquet with the Queen."
+    #voice "duchess10"
     duchess "I need to get ready to play croquet with the Queen."
 
 # game/script.rpy:2192
@@ -4492,9 +4502,10 @@ translate simple_english chapter7_f08a1e7a:
     hare "You could also say that 'I like what I get' is the same as 'I get what I like'!"
 
 # game/script.rpy:2515
-translate simple_english chapter7_a14d85b5:
+translate simple_english chapter7_7b5b665d:
 
     # dormouse "You might just as well say, that ‘I breathe when I sleep’ is the same thing as ‘I sleep when I breathe’!"
+    #voice "dormouse01"
     dormouse "You could also say that 'I breathe when I sleep' is the same as 'I sleep when I breathe'!"
 
 # game/script.rpy:2519
@@ -4662,9 +4673,10 @@ translate simple_english chapter7_dbe17320:
     "The mouse shook its head and said quickly without opening its eyes:"
 
 # game/script.rpy:2599
-translate simple_english chapter7_a1c30eff:
+translate simple_english chapter7_53c5abf3:
 
     # dormouse "Of course, of course; just what I was going to remark myself."
+    #voice "dormouse02"
     dormouse "Yes, yes, that's exactly what I was going to say."
 
 # game/script.rpy:2603
@@ -4741,9 +4753,10 @@ translate simple_english chapter7_688503d1:
     hatter "Imagine it is nine in the morning, time to start lessons. If you whisper to Time, the clock quickly moves forward. Then suddenly it’s half-past one, time for lunch!"
 
 # game/script.rpy:2648
-translate simple_english chapter7_af4c68f7:
+translate simple_english chapter7_e794d5a5:
 
     # hare "(I only with wish it was...)"
+    #voice "hare10"
     #voice "10"
     hare "(I only with wish it was...)"
 
@@ -4820,9 +4833,10 @@ translate simple_english chapter7_ef6ef70a:
     "The Dormouse shook itself and started singing in its sleep:"
 
 # game/script.rpy:2688
-translate simple_english chapter7_7ab40cf4:
+translate simple_english chapter7_d286aa44:
 
     # dormouse "Twinkle, twinkle, twinkle, twinkle—"
+    #voice "dormouse03"
     dormouse "Twinkle, twinkle, twinkle, twinkle—"
 
 # game/script.rpy:2690
@@ -4917,9 +4931,10 @@ translate simple_english chapter7_71193301:
     "The Dormouse slowly opened his eyes."
 
 # game/script.rpy:2748
-translate simple_english chapter7_ced1f71a:
+translate simple_english chapter7_a77c5a86:
 
     # dormouse "I wasn’t asleep, I heard every word you fellows were saying."
+    #voice "dormouse04"
     dormouse "I wasn't asleep. I heard everything you guys said."
 
 # game/script.rpy:2752
@@ -4942,9 +4957,10 @@ translate simple_english chapter7_31a7e4b3:
     hatter "Hurry up, or you'll fall asleep before it's finished."
 
 # game/script.rpy:2765
-translate simple_english chapter7_48a56481:
+translate simple_english chapter7_f64fa29d:
 
     # dormouse "Once upon a time there were three little sisters, and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—"
+    #voice "dormouse05"
     dormouse "Once there were three little sisters named Elsie, Lacie, and Tillie. They lived at the bottom of a well."
 
 # game/script.rpy:2770
@@ -4960,9 +4976,10 @@ translate simple_english chapter7_fb1a241e:
     pass
 
 # game/script.rpy:2777
-translate simple_english chapter7_bd3a65d4:
+translate simple_english chapter7_9ea6200f:
 
     # dormouse "They lived on treacle."
+    #voice "dormouse06"
     dormouse "They lived on syrup."
 
 # game/script.rpy:2779
@@ -4978,9 +4995,10 @@ translate simple_english chapter7_f1a8385b:
     alice "They couldn't do that because it would have made them sick."
 
 # game/script.rpy:2789
-translate simple_english chapter7_26852f98:
+translate simple_english chapter7_8ff10a1b:
 
     # dormouse "So they were, very ill..."
+    #voice "dormouse07"
     dormouse "So they were very sick..."
 
 # game/script.rpy:2793
@@ -5045,9 +5063,10 @@ translate simple_english chapter7_19870dda:
     "The Dormouse took a moment to think about it again."
 
 # game/script.rpy:2832
-translate simple_english chapter7_c2f46b58:
+translate simple_english chapter7_f4e9cd78:
 
     # dormouse "It was a treacle-well."
+    #voice "dormouse08"
     dormouse "It was a syrup-well."
 
 # game/script.rpy:2838
@@ -5069,9 +5088,10 @@ translate simple_english chapter7_4bdf13a8:
     everyone "Sh! sh!"
 
 # game/script.rpy:2849
-translate simple_english chapter7_da1fb0d2:
+translate simple_english chapter7_8e6b4277:
 
     # dormouse "If you can’t be civil, you’d better finish the story for yourself."
+    #voice "dormouse09"
     dormouse "If you can't be polite, you should finish the story on your own."
 
 # game/script.rpy:2854
@@ -5081,15 +5101,17 @@ translate simple_english chapter7_56bdf112:
     alice "Please continue. I promise not to speak while you're talking."
 
 # game/script.rpy:2858
-translate simple_english chapter7_eabb6a7b:
+translate simple_english chapter7_69145bd8:
 
     # dormouse "One, indeed!"
+    #voice "dormouse10"
     dormouse "I hope so!"
 
 # game/script.rpy:2859
-translate simple_english chapter7_2ec8e285:
+translate simple_english chapter7_1ea360f2:
 
     # dormouse "And so these three little sisters—they were learning to draw, you know—"
+    #voice "dormouse11"
     dormouse "And so these three little sisters—they were learning to draw, you know—"
 
 # game/script.rpy:2864
@@ -5099,9 +5121,10 @@ translate simple_english chapter7_ee15a6eb:
     alice "What did they draw?"
 
 # game/script.rpy:2868
-translate simple_english chapter7_cf110b9a:
+translate simple_english ch11_court_6a4daace:
 
     # dormouse "Treacle."
+    #voice "dormouse21"
     dormouse "Syrup"
 
 # game/script.rpy:2872
@@ -5141,9 +5164,10 @@ translate simple_english ch7_reorder_c36640db:
     alice "But they were in the well."
 
 # game/script.rpy:2916
-translate simple_english ch7_reorder_829a5e18:
+translate simple_english ch7_reorder_bd84a40f:
 
     # dormouse "Of course they were, well in."
+    #voice "dormouse13"
     dormouse "Of course they were, well in."
 
 # game/script.rpy:2918
@@ -5153,9 +5177,10 @@ translate simple_english ch7_reorder_c8764202:
     "Alice was so confused by this answer that she didn't interrupt the Dormouse for a while."
 
 # game/script.rpy:2920
-translate simple_english ch7_reorder_3aba6447:
+translate simple_english ch7_reorder_23f14e27:
 
     # dormouse "They were learning to draw..."
+    #voice "dormouse14"
     dormouse "They were learning to draw..."
 
 # game/script.rpy:2921
@@ -5165,9 +5190,10 @@ translate simple_english ch7_reorder_749869d9:
     "The Dormouse kept talking while yawning and rubbing its eyes because it was feeling very tired."
 
 # game/script.rpy:2923
-translate simple_english ch7_reorder_73fd030c:
+translate simple_english ch7_reorder_08e2564e:
 
     # dormouse "...and they drew all manner of things—everything that begins with an M———"
+    #voice "dormouse15"
     dormouse "...and they drew all manner of things—everything that begins with an M———"
 
 # game/script.rpy:2926
@@ -5202,9 +5228,10 @@ translate simple_english ch7_reorder_f3ded51f:
     "The Dormouse had shut its eyes and was falling asleep. The Hatter pinched it, causing the Dormouse to wake up with a small scream and continued talking."
 
 # game/script.rpy:2942
-translate simple_english ch7_reorder_dae368a9:
+translate simple_english ch7_reorder_aecb1fcc:
 
     # dormouse "—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?"
+    #voice "dormouse16"
     dormouse "—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?"
 
 # game/script.rpy:2946
@@ -6165,9 +6192,10 @@ translate simple_english chapter9_9086c185:
     "{size=+40}Chapter IX: \n{/size}The Mock Turtle's Story"
 
 # game/script.rpy:3759
-translate simple_english chapter9_ec27667c:
+translate simple_english chapter9_7dc4c8d8:
 
     # duchess "You can’t think how glad I am to see you again, you dear old thing!"
+    #voice "duchess11"
     duchess "I am so happy to see you again, my dear friend!"
 
 # game/script.rpy:3760
@@ -6207,9 +6235,10 @@ translate simple_english chapter9_f7328e8b:
     "She had completely forgotten about the Duchess, and was a bit surprised when she heard her voice right next to her."
 
 # game/script.rpy:3775
-translate simple_english chapter9_b68d7523:
+translate simple_english chapter9_a19c48f5:
 
     # duchess "You’re thinking about something, my dear, and that makes you forget to talk. I can’t tell you just now what the moral of that is, but I shall remember it in a bit."
+    #voice "duchess12"
     duchess "You seem lost in thought, and that's why you're not speaking. I don't know the moral of it right now, but I will remember in a little while."
 
 # game/script.rpy:3778
@@ -6219,15 +6248,17 @@ translate simple_english chapter9_4192033d:
     alice "Maybe it doesn't have a moral."
 
 # game/script.rpy:3780
-translate simple_english chapter9_8cda8f9a:
+translate simple_english chapter9_ea886b3c:
 
     # duchess "Tut, tut, child!"
+    #voice "duchess13"
     pass
 
 # game/script.rpy:3781
-translate simple_english chapter9_21776a78:
+translate simple_english chapter9_763c8c69:
 
     # duchess "Everything’s got a moral, if only you can find it."
+    #voice "duchess14"
     duchess "Everything’s got a moral."
 
 # game/script.rpy:3786
@@ -6249,9 +6280,10 @@ translate simple_english chapter9_62337af9:
     alice "The game is going well now."
 
 # game/script.rpy:3792
-translate simple_english chapter9_415ea529:
+translate simple_english chapter9_e5eacee3:
 
     # duchess "’Tis so, and the moral of that is—‘Oh, ’tis love, ’tis love, that makes the world go round!’"
+    #voice "duchess15"
     duchess "That's right, and the moral here is that love is what makes the world go round!"
 
 # game/script.rpy:3794
@@ -6261,9 +6293,10 @@ translate simple_english chapter9_fc8e87c1:
     alice "Somebody said, that the world goes round because everyone should mind their own business!"
 
 # game/script.rpy:3796
-translate simple_english chapter9_3cd6d42f:
+translate simple_english chapter9_78fe9d0a:
 
     # duchess "Ah, well! It means much the same thing, and the moral of that is—‘Take care of the sense, and the sounds will take care of themselves’."
+    #voice "duchess16"
     duchess "Well, that's the same thing. And the moral is that 'Focus on what you mean, and how you say it will follow naturally.'"
 
 # game/script.rpy:3801
@@ -6285,9 +6318,10 @@ translate simple_english chapter9_a20cefa7:
     "..."
 
 # game/script.rpy:3805
-translate simple_english chapter9_d7cdb3cc:
+translate simple_english chapter9_4874746d:
 
     # duchess "I dare say you’re wondering why I don’t put my arm round your waist, the reason is, that I’m doubtful about the temper of your flamingo. Shall I try the experiment?"
+    #voice "duchess17"
     duchess "I bet you're thinking why I don't put my arm around you. The reason is, I'm not sure how your flamingo will react. Should I try and see what happens?"
 
 # game/script.rpy:3807
@@ -6303,9 +6337,10 @@ translate simple_english chapter9_d2413f5c:
     "Alice was not worried about her trying the experiment."
 
 # game/script.rpy:3809
-translate simple_english chapter9_60f7002c:
+translate simple_english chapter9_8212c00e:
 
     # duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together’."
+    #voice "duchess18"
     duchess "It's true. And the moral is that two birds of a feather flock together."
 
 # game/script.rpy:3811
@@ -6315,9 +6350,10 @@ translate simple_english chapter9_92521c20:
     alice "Mustard is not a bird."
 
 # game/script.rpy:3813
-translate simple_english chapter9_61398943:
+translate simple_english chapter9_70681eec:
 
     # duchess "Right, as usual, what a clear way you have of putting things!"
+    #voice "duchess19"
     duchess "You are very clever!"
 
 # game/script.rpy:3814
@@ -6327,9 +6363,10 @@ translate simple_english chapter9_a0158356:
     alice "I believe it is a mineral."
 
 # game/script.rpy:3815
-translate simple_english chapter9_09b9d787:
+translate simple_english chapter9_30ecf544:
 
     # duchess "Of course it is, there’s a large mustard-mine near here."
+    #voice "duchess20"
     duchess "Yes, there is a big mustard mine close by."
 
 # game/script.rpy:3816
@@ -6339,9 +6376,10 @@ translate simple_english chapter9_083fe0dd:
     "The Duchess was willing to agree with everything Alice said."
 
 # game/script.rpy:3817
-translate simple_english chapter9_c4fe1f24:
+translate simple_english chapter9_6570de9f:
 
     # duchess "And the moral of that is—‘The more there is of mine, the less there is of yours’."
+    #voice "duchess21"
     duchess "And the moral of that is—'The more there is of mine, the less there is of yours'."
 
 # game/script.rpy:3819
@@ -6357,15 +6395,17 @@ translate simple_english chapter9_040224d6:
     alice "It's a vegetable. Even though it doesn't seem like it, it really is one."
 
 # game/script.rpy:3822
-translate simple_english chapter9_f7a65376:
+translate simple_english chapter9_288e0187:
 
     # duchess "I quite agree with you, and the moral of that is—‘Be what you would seem to be’"
+    #voice "duchess22"
     duchess "I totally agree with you, and the moral is 'Be what you would seem to be'"
 
 # game/script.rpy:3823
-translate simple_english chapter9_88bdf140:
+translate simple_english chapter9_3b709605:
 
     # duchess "—or if you’d like it put more simply—‘Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise’."
+    #voice "duchess23"
     duchess "—or if you’d like it put more simply—‘Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise’."
 
 # game/script.rpy:3825
@@ -6375,9 +6415,10 @@ translate simple_english chapter9_d2b16a6c:
     alice "I would find it easier to understand if you could write it down for me."
 
 # game/script.rpy:3827
-translate simple_english chapter9_0b17ed84:
+translate simple_english chapter9_b9c33fcc:
 
     # duchess "That’s nothing to what I could say if I chose."
+    #voice "duchess24"
     duchess "If you want, I can give you more details about it."
 
 # game/script.rpy:3828
@@ -6387,15 +6428,17 @@ translate simple_english chapter9_57b34102:
     alice "Oh, don't trouble yourself."
 
 # game/script.rpy:3830
-translate simple_english chapter9_7f0663d3:
+translate simple_english chapter9_91d2f97a:
 
     # duchess "Oh, don’t talk about trouble!"
+    #voice "duchess25"
     duchess "Oh, don’t talk about trouble!"
 
 # game/script.rpy:3831
-translate simple_english chapter9_74e9f3be:
+translate simple_english chapter9_c348c730:
 
     # duchess "I make you a present of everything I’ve said as yet."
+    #voice "duchess26"
     duchess "I can write it down and give it to you as a present."
 
 # game/script.rpy:3833
@@ -6417,9 +6460,10 @@ translate simple_english chapter9_f94f6901:
     "She didn't dare to say it out loud."
 
 # game/script.rpy:3837
-translate simple_english chapter9_1c864987:
+translate simple_english chapter9_26d445d3:
 
     # duchess "Thinking again?"
+    #voice "duchess27"
     duchess "Thinking again?"
 
 # game/script.rpy:3838
@@ -6441,9 +6485,10 @@ translate simple_english chapter9_f93e03cf:
     "She started to feel a bit worried."
 
 # game/script.rpy:3842
-translate simple_english chapter9_0f6ac620:
+translate simple_english chapter9_16aea501:
 
     # duchess "Just about as much right, as pigs have to fly; and the m—"
+    #voice "duchess28"
     duchess "Just about as much right, as pigs have to fly; and the m—"
 
 # game/script.rpy:3844
@@ -6459,9 +6504,10 @@ translate simple_english chapter9_47268d9c:
     "Alice looked up and saw the Queen standing in front of them. The Queen had her arms folded and was looking very angry."
 
 # game/script.rpy:3852
-translate simple_english chapter9_51bb2d3f:
+translate simple_english chapter9_c121eb18:
 
     # duchess "A fine day, your Majesty!"
+    #voice "duchess29"
     duchess "A fine day, your Majesty!"
 
 # game/script.rpy:3854
@@ -8092,9 +8138,10 @@ translate simple_english ch11_court_0e0339b1:
     hare "Fifteenth."
 
 # game/script.rpy:4891
-translate simple_english ch11_court_3c38df6d:
+translate simple_english ch11_court_040a0d65:
 
     # dormouse "Sixteenth."
+    #voice "dormouse17"
     dormouse "Sixteenth."
 
 # game/script.rpy:4895
@@ -8164,9 +8211,10 @@ translate simple_english ch11_court_57e7c3a8:
     "All of a sudden, Alice started feeling weird. She was growing larger and didn't know what to do. At first, she thought about leaving, but then she chose to stay as long as there was still enough space for her."
 
 # game/script.rpy:4938
-translate simple_english ch11_court_1d245d7a:
+translate simple_english ch11_court_ef091c2d:
 
     # dormouse "I wish you wouldn’t squeeze so. I can hardly breathe."
+    #voice "dormouse18"
     dormouse "Please stop squeezing me. It's hard for me to breathe."
 
 # game/script.rpy:4942
@@ -8176,9 +8224,10 @@ translate simple_english ch11_court_09dc0da6:
     alice "I can’t help it, I’m growing."
 
 # game/script.rpy:4946
-translate simple_english ch11_court_ece2a762:
+translate simple_english ch11_court_2ac4c3a5:
 
     # dormouse "You’ve no right to grow here..."
+    #voice "dormouse19"
     dormouse "You’ve no right to grow here..."
 
 # game/script.rpy:4950
@@ -8188,9 +8237,10 @@ translate simple_english ch11_court_909daa8b:
     alice "Don’t talk nonsense, you know you’re growing too."
 
 # game/script.rpy:4954
-translate simple_english ch11_court_3cb6d9dc:
+translate simple_english ch11_court_899e2151:
 
     # dormouse "Yes, but I grow at a reasonable pace, not in that ridiculous fashion."
+    #voice "dormouse20"
     dormouse "Yes, but I grow slowly and not so ridiculously fast"
 
 # game/script.rpy:4959
@@ -8496,9 +8546,10 @@ translate simple_english ch11_court_5291de61:
     cook "Pepper, mostly."
 
 # game/script.rpy:5133
-translate simple_english ch11_court_cf110b9a:
+translate simple_english chapter7_073ed35e:
 
     # dormouse "Treacle."
+    #voice "dormouse12"
     dormouse "Syrup"
 
 # game/script.rpy:5137

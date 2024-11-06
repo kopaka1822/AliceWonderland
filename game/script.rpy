@@ -2179,6 +2179,7 @@ label ch6_kitchen:
 
     camera:
         ease cam_transition xpos duchess_kitchen_pos zpos 0
+    voice "duchess01"
     duchess "It’s a Cheshire cat, and that’s why. Pig!"
 
     camera:
@@ -2191,6 +2192,7 @@ label ch6_kitchen:
     show alice surprised at breathing
     alice "I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats could grin."
 
+    voice "duchess02"
     duchess "They all can, and most of ’em do."
 
     alice "I don’t know of any that do."
@@ -2198,6 +2200,7 @@ label ch6_kitchen:
     show alice normal at breathing
     "Alice said very politely, feeling quite pleased to have got into a conversation."
 
+    voice "duchess03"
     duchess "You don’t know much, and that’s a fact."
 
     "Alice did not at all like the tone of this remark, and thought it would be as well to introduce some other subject of conversation."
@@ -2238,12 +2241,14 @@ label ch6_kitchen:
         linear 4.0 xpos -600
     "An unusually large saucepan flew close by it, and very nearly carried it off."
 
+    voice "duchess04"
     duchess "If everybody minded their own business, the world would go round a deal faster than it does." # the Duchess said in a hoarse growl, "
     hide saucepan
 
     show alice normal at breathing
     alice "Which would not be an advantage. Just think what work it would make with the day and night! You see the earth takes twenty-four hours to turn round on its axis—"
 
+    voice "duchess05"
     duchess "Talking of axes, chop off her head!"
 
     show alice pout at breathing
@@ -2258,11 +2263,13 @@ label ch6_kitchen:
 
     alice "Twenty-four hours, I think; or is it twelve? I—"
 
+    voice "duchess06"
     duchess "Oh, don’t bother me, I never could abide figures!" 
     "And with that she began nursing her child again, singing a sort of lullaby to it as she did so, and giving it a violent shake at the end of every line:"
 
     camera:
         ease cam_transition xpos duchess_kitchen_pos zpos 0
+    voice "duchess07"
     duchess "Speak roughly to your little boy,\n{space=30}And beat him when he sneezes:\nHe only does it to annoy,\n{space=30}Because he knows it teases."
 
     camera:
@@ -2276,6 +2283,7 @@ label ch6_kitchen:
         ease cam_transition xpos duchess_kitchen_pos zpos 0
     "While the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:"
 
+    voice "duchess08"
     duchess "I speak severely to my boy,\n{space=30}I beat him when he sneezes;\nFor he can thoroughly enjoy\n{space=30}The pepper when he pleases!"
 
     camera:
@@ -2284,11 +2292,13 @@ label ch6_kitchen:
 
     camera:
         ease cam_transition xpos duchess_kitchen_pos zpos 0
+    voice "duchess09"
     duchess "Here! you may nurse it a bit, if you like!" 
     
     show baby normal:
         ease 1.0 xpos alice_kitchen_pos ypos 0.8
     "The Duchess said to Alice, flinging the baby at her as she spoke."
+    voice "duchess10"
     duchess "I must go and get ready to play croquet with the Queen."
     "The duchess hurried out of the room."
     show duchess:
@@ -2636,6 +2646,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
+    voice "dormouse01"
     dormouse "You might just as well say, that ‘I breathe when I sleep’ is the same thing as ‘I sleep when I breathe’!"
 
     camera: 
@@ -2721,6 +2732,7 @@ label chapter7:
     
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
+    voice "dormouse02"
     dormouse "Of course, of course; just what I was going to remark myself."
 
     camera: 
@@ -2771,7 +2783,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
-    voice "10"
+    voice "hare10"
     hare "(I only with wish it was...)"
 
 
@@ -2812,6 +2824,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
+    voice "dormouse03"
     dormouse "Twinkle, twinkle, twinkle, twinkle—"
 
     "And went on so long that they had to pinch it to make it stop."
@@ -2872,7 +2885,7 @@ label chapter7:
     show dormouse tired at breathing
     "The Dormouse slowly opened his eyes."
 
-
+    voice "dormouse04"
     dormouse "I wasn’t asleep, I heard every word you fellows were saying."
 
     camera: 
@@ -2891,6 +2904,8 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
+
+    voice "dormouse05"
     dormouse "Once upon a time there were three little sisters, and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—"
 
 
@@ -2903,6 +2918,7 @@ label chapter7:
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     show treacle at Position( ypos = 0.65) onlayer screens
+    voice "dormouse06"
     dormouse "They lived on treacle."
 
     "..."
@@ -2915,6 +2931,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
+    voice "dormouse07"
     dormouse "So they were, very ill..."
 
     camera: 
@@ -2959,6 +2976,7 @@ label chapter7:
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     "The Dormouse again took a minute or two to think about it."
 
+    voice "dormouse08"
     dormouse "It was a treacle-well."
 
 
@@ -2976,6 +2994,7 @@ label chapter7:
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
 
+    voice "dormouse09"
     dormouse "If you can’t be civil, you’d better finish the story for yourself."
 
 
@@ -2985,7 +3004,10 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
+
+    voice "dormouse10"
     dormouse "One, indeed!"
+    voice "dormouse11"
     dormouse "And so these three little sisters—they were learning to draw, you know—"
 
 
@@ -2995,6 +3017,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
+    voice "dormouse12"
     dormouse "Treacle."
 
     camera: 
@@ -3043,13 +3066,17 @@ label ch7_reorder:
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos2 zpos -495 ypos 215
+
+    voice "dormouse13"
     dormouse "Of course they were, well in."
 
     "This answer so confused poor Alice, that she let the Dormouse go on for some time without interrupting it."
 
+    voice "dormouse14"
     dormouse "They were learning to draw..."
     "The Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy."
     # todo close eyes
+    voice "dormouse15"
     dormouse "...and they drew all manner of things—everything that begins with an M———"
 
     show dormouse sleep at breathing
@@ -3070,6 +3097,7 @@ label ch7_reorder:
     "The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on:"
     # wake up
     show dormouse tired at breathing
+    voice "dormouse16"
     dormouse "—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?"
     
     camera: 
@@ -3893,6 +3921,7 @@ label chapter9:
         perspective True
         xpos 1.4 ypos 0 zpos 0 xoffset -center_offset
 
+    voice "duchess11"
     duchess "You can’t think how glad I am to see you again, you dear old thing!"
     "The Duchess tucked her arm affectionately into Alice’s, and they walked off together."
 
@@ -3909,12 +3938,15 @@ label chapter9:
     "She had quite forgotten the Duchess by this time, and was a little startled when she heard her voice close to her ear."
     camera:
         ease cam_transition xpos 1.4 ypos 1000 zoom 2.0
+    voice "duchess12"
     duchess "You’re thinking about something, my dear, and that makes you forget to talk. I can’t tell you just now what the moral of that is, but I shall remember it in a bit."
 
     show alice normal at breathing
     alice "Perhaps it hasn’t one."
 
+    voice "duchess13"
     duchess "Tut, tut, child!"
+    voice "duchess14"
     duchess "Everything’s got a moral, if only you can find it."
 
     show alice pout at breathing
@@ -3926,10 +3958,12 @@ label chapter9:
 
     alice "The game’s going on rather better now."
 
+    voice "duchess15"
     duchess "’Tis so, and the moral of that is—‘Oh, ’tis love, ’tis love, that makes the world go round!’"
 
     alice "Somebody said, that it’s done by everybody minding their own business!"
 
+    voice "duchess16"
     duchess "Ah, well! It means much the same thing, and the moral of that is—‘Take care of the sense, and the sounds will take care of themselves’."
     
     show duchess happy at breathing:
@@ -3939,43 +3973,54 @@ label chapter9:
 
     alice "(How fond she is of finding morals in things!)"
     "..."
+    voice "duchess17"
     duchess "I dare say you’re wondering why I don’t put my arm round your waist, the reason is, that I’m doubtful about the temper of your flamingo. Shall I try the experiment?"
 
     alice "He might bite." # Alice cautiously replied, not feeling at all anxious to have the experiment tried.
     "Alice did not feel at all anxious to have the experiment tried."
+    voice "duchess18"
     duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together’."
 
     alice "Only mustard isn’t a bird."
-
+    voice "duchess19"
     duchess "Right, as usual, what a clear way you have of putting things!"
     alice "It’s a mineral, I think."
+    voice "duchess20"
     duchess "Of course it is, there’s a large mustard-mine near here."
     "The Duchess seemed ready to agree to everything that Alice said."
+    voice "duchess21"
     duchess "And the moral of that is—‘The more there is of mine, the less there is of yours’."
 
     alice "Oh, I know!"
     alice "It’s a vegetable. It doesn’t look like one, but it is."
 
+    voice "duchess22"
     duchess "I quite agree with you, and the moral of that is—‘Be what you would seem to be’"
+    voice "duchess23"
     duchess "—or if you’d like it put more simply—‘Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise’."
 
     alice "I think I should understand that better, if I had it written down: but I can’t quite follow it as you say it."
 
+    voice "duchess24"
     duchess "That’s nothing to what I could say if I chose."
     alice "Pray don’t trouble yourself to say it any longer than that."
 
+    voice "duchess25"
     duchess "Oh, don’t talk about trouble!"
+    voice "duchess26"
     duchess "I make you a present of everything I’ve said as yet."
 
     alice "(A cheap sort of present!)"
     alice "(I’m glad they don’t give birthday presents like that!)"
     "She did not venture to say it out loud."
 
+    voice "duchess27"
     duchess "Thinking again?"
     "The Duchess asked, with another dig of her sharp little chin."
 
     alice "I’ve a right to think."
     "She was beginning to feel a little worried."
+    voice "duchess28"
     duchess "Just about as much right, as pigs have to fly; and the m—"
     
     "But here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral’ and the arm that was linked into hers began to tremble."
@@ -3986,6 +4031,7 @@ label chapter9:
         ease cam_transition xpos 1.05 ypos 0 zoom 1.0
     "Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm."
 
+    voice "duchess29"
     duchess "A fine day, your Majesty!" # the Duchess began in a low, weak voice.
 
     queen "Now, I give you fair warning, either you or your head must be off, and that in about half no time! Take your choice!"
@@ -5028,6 +5074,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_dormouse ypos 700 zpos -880 # dormouse
+    voice "dormouse17"
     dormouse "Sixteenth."
 
     camera:
@@ -5075,6 +5122,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_dormouse ypos 700 zpos -880 # dormouse
+    voice "dormouse18"
     dormouse "I wish you wouldn’t squeeze so. I can hardly breathe." # dormouse whi is sitting next to her
 
     camera:
@@ -5083,6 +5131,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_dormouse ypos 700 zpos -880 # dormouse
+    voice "dormouse19"
     dormouse "You’ve no right to grow here..."
     
     camera:
@@ -5091,6 +5140,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_dormouse ypos 700 zpos -880 # dormouse
+    voice "dormouse20"
     dormouse "Yes, but I grow at a reasonable pace, not in that ridiculous fashion."
     
     show dormouse sleep at breathing:
@@ -5272,6 +5322,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_dormouse2 ypos 700 zpos -580 # dormouse2
+    voice "dormouse21"
     dormouse "Treacle." # sleepy voice
     
     camera:
