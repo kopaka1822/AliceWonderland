@@ -663,6 +663,7 @@ label chapter2:
     $ persistent.started_story = True
     scene black
     call reset_camera
+    voice "n1056"
     "{size=+40}Chapter II: \n{/size}The Pool of Tears"
 
     scene hall at center
@@ -679,29 +680,39 @@ label chapter2:
         zoom 0.2
         easeout 10.0 zoom alice_scale_large
     alice "Curiouser and curiouser!"
+    voice "n1057"
     "(she was so much surprised, that for the moment she quite forgot how to speak good English)"
     alice "Now I’m opening out like the largest telescope that ever was!"
     alice "Good-bye, feet!"
+    voice "n1058"
     "(For when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off)"
     alice "(Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure I shan’t be able!)"
     alice "(I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; —but I must be kind to them, or perhaps they won’t walk the way I want to go!)" 
     alice "(Let me see: I’ll give them a new pair of boots every Christmas)"
+    voice "n1059"
     "And she went on planning to herself how she would manage it."
     alice "(They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!)"
+    voice "n1060"
     "Alice’s Right Foot, Esq. \nHearthrug, \nNear the Fender, \n(with Alice’s love)\n"
     alice "(Oh dear, what nonsense I’m talking!)"
     play sound "sfx/bump.mp3"
+    voice "n1061"
     "Just then, her head struck against the roof of the hall: in fact she was now rather more than nine feet high, and she at once took up the little golden key and hurried off to the garden door."
+    voice "n1062"
     "Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again."
     show alice crying at breathing_crying:
         xpos 0.5 ypos 0.9 zoom alice_scale_large
 
     alice "You ought to be ashamed of yourself, a great girl like you, to go on crying in this way! Stop this moment, I tell you!"
+    voice "n1063"
     "But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall."
 
     show alice pout at breathing
+    voice "n1064"
     "After a time she heard a little pattering of feet in the distance, and she hastily dried her eyes to see what was coming."
+    voice "n1065"
     "It was the White Rabbit returning, splendidly dressed, with a pair of white kid gloves in one hand and a large fan in the other:"
+    voice "n1066"
     "He came trotting along in a great hurry, muttering to himself as he came:"
 
     show rabbit normal at breathing:
@@ -710,6 +721,7 @@ label chapter2:
     camera:
         ease cam_transition xpos 355 ypos 385 zpos -365
     rabbit "Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!"
+    voice "n1067"
     "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice:"
     camera:
         ease cam_transition xpos 0 ypos 0 zpos 0
@@ -721,8 +733,9 @@ label chapter2:
     show rabbit normal at breathing:
         xzoom -1.0
         ease 0.5 xpos 1.5
+    voice "n1068"
     "The Rabbit started violently, dropped the white kid gloves and the fan, and skurried away into the darkness as hard as he could go."
-
+    voice "n1069"
     "Alice took up the fan and gloves, and, as the hall was very hot, she kept fanning herself all the time she went on talking:"
     hide fan gloves onlayer screens
     hide rabbit
@@ -732,12 +745,14 @@ label chapter2:
     alice "I wonder if I’ve been changed in the night? Let me think:"
     alice "Was I the same when I got up this morning? I almost think I can remember feeling a little different."
     alice "But if I’m not the same, the next question is, Who in the world am I? Ah, that’s the great puzzle!"
+    voice "n1070"
     "And she began thinking over all the children she knew that were of the same age as herself, to see if she could have been changed for any of them."
 
     alice "I’m sure I’m not Ada, for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, she’s she, and I’m I, and—oh dear, how puzzling it all is!"
     alice "I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is—oh dear! I shall never get to twenty at that rate!"
     alice "However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, that’s all wrong, I’m certain!"
     alice "I must have been changed for Mabel! I’ll try and say 'How doth the little—'"
+    voice "n1071"
     "And she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:"
 
     alice "How doth the little crocodile\n{space=30}Improve his shining tail,\nAnd pour the waters of the Nile\n{space=30}On every golden scale!"
@@ -756,22 +771,28 @@ label chapter2:
         pos (0.5, 0.9)  
         zoom alice_scale_large
         easein 20.0 zoom alice_scale
+    voice "n1072"
     "As she said this she looked down at her hands, and was surprised to see that she had put on one of the Rabbit’s little white kid gloves while she was talking."
     alice "How can I have done that?"
     alice "I must be growing small again."
+    voice "n1073"
     "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
+    voice "n1103" # out of order oops
     "She soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
 
     show alice happy at breathing
     alice "That was a narrow escape!"
+    voice "n1074"
     "She was a good deal frightened at the sudden change, but very glad to find herself still in existence."
     alice "And now for the garden!"
+    voice "n1075"
     "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
     show alice pout at breathing
     alice  "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
 
     stop music fadeout 1.0
     play sound "sfx/splash.mp3"
+    voice "n1076"
     "As she said these words her foot slipped, and in another moment, splash!"
 
     show waves zorder 0:
@@ -789,93 +810,123 @@ label chapter2:
     show alice pout zorder 1 at swimming:
         xpos 0.5 ypos 1.0 zoom alice_scale
     play music "audio/rinne beyond the sea.mp3"
+    voice "n1077"
     "She was up to her chin in salt water."
 
     show alice thinking at breathing
+    voice "n1078"
     "Her first idea was that she had somehow fallen into the sea."
 
     alice "(And in that case I can go back by railway)"
+    voice "n1079"
     "(Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station)"
+    voice "n1080"
     "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high."
 
     show alice pout at breathing
     alice "I wish I hadn’t cried so much!"
+    voice "n1081"
     "She swam about, trying to find her way out."
     alice "I shall be punished for it now, I suppose, by being drowned in my own tears! That will be a queer thing, to be sure! However, everything is queer to-day."
 
     show alice thinking at breathing
     play sound "sfx/splash.mp3"
+    voice "n1082"
     "Just then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was:"
     show alice thinking at swimming:
         ease 1.0 xpos 0.3
     show mouse zorder 1 at swimming:
         xpos 1.6 ypos 0.8 zoom mouse_scale
         ease 2.0 xpos 0.7 
+    voice "n1083"
     "At first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself."
 
     alice "Would it be of any use, now, to speak to this mouse?"
     alice "Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying."
+    voice "n1084"
     "So she began:"
     show alice normal at breathing
     alice "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!"
+    voice "n1085"
     "(Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother’s Latin Grammar, 'A mouse—of a mouse—to a mouse—a mouse—O mouse!')"
+    voice "n1086"
     "The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing."
 
     show alice thinking at breathing
     alice "Perhaps it doesn’t understand English, I daresay it’s a French mouse, come over with William the Conqueror."
+    voice "n1087"
     "(For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened)"
+    voice "n1088"
     "So she began again:"
+    #voice "n1089"
     show alice normal at breathing
     alice "Où est ma chatte?"
+    voice "n1090"
     "Which was the first sentence in her French lesson-book."
+    voice "n1091"
     "The mouse gave a sudden leap out of the water, and seemed to quiver all over with fright."
     show alice thinking at breathing
     alice "Oh, I beg your pardon!"
+    voice "n1092"
     "She was afraid that she had hurt the poor animal’s feelings."
     alice "I quite forgot you didn’t like cats."
 
+    voice "mouse01"
     mouse "Not like cats!"
+    voice "mouse02"
     mouse "Would you like cats if you were me?"
 
     alice "Well, perhaps not, don’t be angry about it."
     show alice happy at breathing
     alice "And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her."
     alice "She is such a dear quiet thing."
+    voice "n1093"
     "Alice went on, half to herself, as she swam lazily about in the pool."
     alice "And she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
+    voice "n1094"
     "This time the Mouse was bristling all over, and she felt certain it must be really offended."
     show alice thinking at breathing
     alice "We won’t talk about her any more if you’d rather not."
 
+    voice "mouse03"
     mouse "We indeed!"
+    voice "n1095"
     "The mouse was trembling down to the end of its tail."
+    voice "mouse04"
     mouse "As if I would talk on such a subject! Our family always hated cats: nasty, low, vulgar things! Don’t let me hear the name again!"
 
     show alice normal at breathing
     alice "I won’t indeed!"
+    voice "n1096"
     "Alice was in a great hurry to change the subject of conversation."
     alice "Are you—are you fond—of—of dogs?"
+    voice "n1097"
     "The mouse did not answer, so Alice went on eagerly:"
     alice "There is such a nice little dog near our house I should like to show you!"
     alice "A little bright-eyed terrier, you know, with oh, such long curly brown hair!"
     alice "And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things—I can’t remember half of them—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds!"
     alice "He says it kills all the rats and—oh dear!"
     show alice crying at breathing
+    voice "n1098"
     "Alice cried in a sorrowful tone."
     alice "I’m afraid I’ve offended it again!"
     show mouse at swimming:
         linear 10.0 xoffset 1000
+    voice "n1099"
     "For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
 
     alice "Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!"
     show alice normal at breathing
     show mouse at swimming:
         linear 10.0 xoffset 0
+    voice "n1100"
     "When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice:"
+    voice "mouse05"
     mouse "Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs."
-
+    voice "n1101"
     "It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures."
     stop music fadeout 1.0
+    voice "n1102"
     "Alice led the way, and the whole party swam to the shore."
 
 label chapter3:
@@ -960,15 +1011,19 @@ label ch3_start:
     camera: 
         ease cam_transition xpos muddy_mouse_pos zpos -500 ypos muddy_lory_ypos
     "At last the Mouse, who seemed to be a person of authority among them, called out:"
-    
+    voice "mouse06"
     mouse "Sit down, all of you, and listen to me! I’ll soon make you dry enough!"
     "They all sat down at once, in a large ring, with the Mouse in the middle."
     "Alice kept her eyes anxiously fixed on it, for she felt sure she would catch a bad cold if she did not get dry very soon."
-
+    voice "mouse07"
     mouse "Ahem!"
+    voice "mouse08"
     mouse "Are you all ready? This is the driest thing I know."
+    voice "mouse09"
     mouse "Silence all round, if you please!"
+    voice "mouse10"
     mouse "'William the Conqueror, whose cause was favoured by the pope, was soon submitted to by the English, who wanted leaders, and had been of late much accustomed to usurpation and conquest." 
+    voice "mouse11"
     mouse "Edwin and Morcar, the earls of Mercia and Northumbria—'"
 
     camera: 
@@ -977,7 +1032,9 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_mouse_pos zpos -500 ypos muddy_lory_ypos
+    voice "mouse12"
     mouse "I beg your pardon!"
+    voice "mouse13"
     mouse "Did you speak?"
 
     camera: 
@@ -986,7 +1043,9 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_mouse_pos zpos -500 ypos muddy_lory_ypos
+    voice "mouse14"
     mouse "I thought you did, —I proceed."
+    voice "mouse15"
     mouse "'Edwin and Morcar, the earls of Mercia and Northumbria, declared for him: and even Stigand, the patriotic archbishop of Canterbury, found it advisable—'"
 
     camera: 
@@ -995,6 +1054,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_mouse_pos zpos -500 ypos 220
+    voice "mouse16"
     mouse "Found it, of course you know what 'it' means."
 
     camera: 
@@ -1005,8 +1065,10 @@ label ch3_start:
         ease cam_transition xpos muddy_mouse_pos zpos -500 ypos 220
     "The Mouse did not notice this question, but hurriedly went on."
 
+    voice "mouse17"
     mouse "'—found it advisable to go with Edgar Atheling to meet William and offer him the crown. William’s conduct at first was moderate. But the insolence of his Normans—'"
     "It continued, turning to Alice as it spoke."
+    voice "mouse18"
     mouse "How are you getting on now, my dear?"
 
     camera: 
@@ -1159,6 +1221,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_mouse_pos zpos -500 ypos 220
+    voice "mouse19"
     mouse "But she must have a prize herself, you know."
 
     camera: 
@@ -1206,6 +1269,7 @@ label ch3_start:
     camera: 
         ease cam_transition xpos muddy_mouse_pos zpos -500 ypos 220
  
+    voice "mouse20"
     mouse "Mine is a long and a sad {b}tale{/b}!"
     
     camera:
@@ -1217,9 +1281,10 @@ label ch3_start:
     camera: 
         ease cam_transition xpos muddy_mouse_pos zpos -500 ypos 220
 
-    mouse "{k=1}Fury said to a mouse, \n{space=260}That he met in the house.\n{space=460}‘Let us both go to law: \n{space=300} I will prosecute YOU. \n{space=100}—Come, I’ll take no denial; \n We must have a trial: \n{space=100}For really this morning \n{space=280}I’ve nothing to do.’ \n {space=320}Said the mouse to the cur, \n{space=260}‘Such a trial,"
-    
-    mouse "{space=200}dear Sir,\n {space=20} With no jury or judge, \n {space=60} would be wasting our breath.’\n {space=220} ‘I’ll be judge, I’ll be jury’\n {space=100} Said cunning old Fury:\n ‘I’ll try the whole cause,\n {space=80} and condemn you to death.’"
+    voice "mouse21"
+    mouse "{k=1}Fury said to a mouse, \n{space=260}That he met in the house.\n{space=460}‘Let us both go to law: \n{space=300} I will prosecute YOU. \n{space=100}—Come, I’ll take no denial; \n We must have a trial: \n{space=100}For really this morning \n{space=280}I’ve nothing to do.’"
+    voice "mouse22"
+    mouse "{space=320}Said the mouse to the cur, \n{space=260}‘Such a trial, \n{space=200}dear Sir, \n{space=20} With no jury or judge, \n {space=60} would be wasting our breath.’\n {space=220} ‘I’ll be judge, I’ll be jury’\n {space=100} Said cunning old Fury:\n ‘I’ll try the whole cause,\n {space=80} and condemn you to death.’"
 
     # book indents
     #mouse " {space=80} Fury said to a\n {space=60} mouse. That he\n {space=40} met in the\n {space=20} house.\n'Let us\n {space=20} both go to\n {space=40} law: I will\n {space=60} prosecute\n {space=80} YOU.—Come,\n {space=100} I’ll take no"
@@ -1227,8 +1292,9 @@ label ch3_start:
     #mouse " {space=80} a trial,\n {space=100} dear Sir,\n {space=120} With\n {space=100} no jury\n {space=80} or judge,\n {space=60} would be\n {space=40} wasting\n {space=20} our\n {space=40} breath.'\n {space=60} 'I’ll be"
     #mouse " {space=80} judge, I’ll\n {space=100} be jury'\n {space=120} Said\n {space=100} cunning\n {space=120} old Fury:\n {space=140} 'I’ll\n {space=120} try the\n {space=140} whole\n {space=160} cause,\n {space=180} and"
     #mouse " {space=160} condemn\n {space=140} you\n {space=120} to\n {space=140} death.'"
-
+    voice "mouse23"
     mouse "You are not attending!"
+    voice "mouse24"
     mouse "What are you thinking of?"
 
     camera:
@@ -1238,7 +1304,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_mouse_pos zpos -500 ypos 220
-
+    voice "mouse25"
     mouse "I had not!" # cried the Mouse, sharply and very angrily.
 
     camera:
@@ -1249,12 +1315,13 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_mouse_pos zpos -500 ypos 220
-
+    voice "mouse26"
     mouse "I shall do nothing of the sort."
     show mouse:
         ease 1.0 xoffset 200
 
     "The Mouse got up and walked away."
+    voice "mouse27"
     mouse "You insult me by talking such nonsense!"
 
     camera:
