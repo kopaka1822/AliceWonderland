@@ -1843,9 +1843,10 @@ translate german ch3_start_b3339f33:
     old_crab "Denk dran, mein Lieber! Werde niemals wütend!"
 
 # game/script.rpy:1196
-translate german ch3_start_34e2b4f7:
+translate german ch3_start_c5f44ff7:
 
     # young_crab "Hold your tongue, Ma! You’re enough to try the patience of an oyster!"
+    #voice "young_crab1"
     young_crab "Du solltest nicht so große Sprüche klopfen, wenn du selbst keine Geduld hast!"
 
 # game/script.rpy:1201
@@ -2544,9 +2545,10 @@ translate german chapter4_620750e1:
     "Als nächstes war eine schwache und quietschende Stimme zu hören:"
 
 # game/script.rpy:1439
-translate german chapter4_099abc7d:
+translate german chapter4_b459f7e8:
 
     # bill "Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
+    #voice "bill1"
     bill "Ich bin mir nicht sicher, danke. Mir geht's schon besser, aber ich weiß nicht wirklich. Da kam etwas auf mich zu und schon ging ich hoch wie eine Rakete!"
 
 # game/script.rpy:1440
@@ -2808,9 +2810,10 @@ translate german chapter5_fed83656:
     "Die Raupe und Alice starrten sich eine Weile stillschweigend an. Nach einiger Zeit hörte die Raupe auf zu rauchen und sprach mit ihr in einer verschlafenen Stimme."
 
 # game/script.rpy:1642
-translate german chapter5_bb4b35f1:
+translate german chapter5_f8e405e4:
 
     # caterpillar "Who are you?"
+    #voice "caterpillar08"
     caterpillar "Wer bist du?"
 
 # game/script.rpy:1644
@@ -2826,15 +2829,17 @@ translate german chapter5_5adf31c3:
     alice "Ich weiß nicht so genau, wer ich gerade bin. Ich wusste noch, wer ich war, als ich heute Morgen aufgewacht bin. Aber ich fühle mich so, als wäre ich seitdem mehrmals ausgetauscht worden."
 
 # game/script.rpy:1647
-translate german chapter5_61f52986:
+translate german chapter5_e7efc800:
 
     # caterpillar "What do you mean by that?"
+    #voice "caterpillar02"
     caterpillar "Was meinst du damit?"
 
 # game/script.rpy:1648
-translate german chapter5_566b6e9c:
+translate german chapter5_cd90aa58:
 
     # caterpillar "Explain yourself!"
+    #voice "caterpillar03"
     caterpillar "Erklär dich!"
 
 # game/script.rpy:1650
@@ -2844,9 +2849,10 @@ translate german chapter5_e7f4c83e:
     alice "Ich kann mich nicht wirklich erklären, weil ich ja gerade nicht ich selbst bin, verstehst du?"
 
 # game/script.rpy:1652
-translate german chapter5_c0a14b7f:
+translate german chapter5_c9a1b724:
 
     # caterpillar "I don’t see."
+    #voice "caterpillar04"
     caterpillar "Ich verstehe nicht."
 
 # game/script.rpy:1654
@@ -2856,9 +2862,10 @@ translate german chapter5_d4d61f29:
     alice "Sorry, aber ich kann es echt nicht besser erklären, weil ich es selbst nicht verstehe. Es ist mega komisch, ständig die Größe zu wechseln."
 
 # game/script.rpy:1656
-translate german chapter5_f9d43491:
+translate german chapter5_19890a08:
 
     # caterpillar "It isn’t."
+    #voice "caterpillar05"
     caterpillar "Das stimmt nicht."
 
 # game/script.rpy:1658
@@ -2868,9 +2875,10 @@ translate german chapter5_16412c3e:
     alice "Naja, aber eines Tages wirst du dich ja auch in einen Schmetterling verwandeln. Das wirst du dann doch auch etwas komisch finden, oder?"
 
 # game/script.rpy:1660
-translate german chapter5_bee2752e:
+translate german chapter5_b2bf6843:
 
     # caterpillar "Not a bit."
+    #voice "caterpillar06"
     caterpillar "Überhaupt nicht."
 
 # game/script.rpy:1662
@@ -2880,15 +2888,17 @@ translate german chapter5_29f99dfa:
     alice "Vielleicht siehst du das anders, aber für mich wäre das total komisch."
 
 # game/script.rpy:1664
-translate german chapter5_8c7fa477:
+translate german chapter5_c9f800d6:
 
     # caterpillar "You!"
+    #voice "caterpillar07"
     caterpillar "Du!"
 
 # game/script.rpy:1665
-translate german chapter5_bb4b35f1_1:
+translate german chapter5_907b9c0d:
 
     # caterpillar "Who are you?"
+    #voice "caterpillar01"
     caterpillar "Wer bist du?"
 
 # game/script.rpy:1667
@@ -2910,9 +2920,10 @@ translate german chapter5_c4c0afa1:
     alice "Ich glaube, du solltest mir zuerst sagen, wer du bist."
 
 # game/script.rpy:1671
-translate german chapter5_e4b108a2:
+translate german chapter5_5273f537:
 
     # caterpillar "Why?"
+    #voice "caterpillar09"
     caterpillar "Warum?"
 
 # game/script.rpy:1676
@@ -2922,15 +2933,17 @@ translate german chapter5_8d76366a:
     "Alice fand keine gute Antwort, also beschloss sie einfach wegzugehen."
 
 # game/script.rpy:1678
-translate german chapter5_0d69bf97:
+translate german chapter5_ac1de09d:
 
     # caterpillar "Come back!"
+    #voice "caterpillar10"
     caterpillar "Komm zurück!"
 
 # game/script.rpy:1679
-translate german chapter5_84893898:
+translate german chapter5_78ce6ae7:
 
     # caterpillar "I’ve something important to say!"
+    #voice "caterpillar11"
     caterpillar "Ich habe dir etwas Wichtiges mitzuteilen!"
 
 # game/script.rpy:1684
@@ -2940,9 +2953,10 @@ translate german chapter5_3ae96ddb:
     "Das klang gut: Alice drehte sich um und kam zurück."
 
 # game/script.rpy:1686
-translate german chapter5_672c05d2:
+translate german chapter5_c5e4096d:
 
     # caterpillar "Keep your temper."
+    #voice "caterpillar12"
     caterpillar "Bleib ruhig."
 
 # game/script.rpy:1688
@@ -2964,9 +2978,10 @@ translate german chapter5_ad7f1bbb:
     "Alice bemühte sich sehr, ihre Wut zu kontrollieren."
 
 # game/script.rpy:1692
-translate german chapter5_a81df4eb:
+translate german chapter5_c617ef72:
 
     # caterpillar "No."
+    #voice "caterpillar13"
     caterpillar "Nein."
 
 # game/script.rpy:1694
@@ -2988,9 +3003,10 @@ translate german chapter5_2c9d1131:
     "Ein paar Minuten lang rauchte er, ohne zu sprechen. Aber schließlich legte er die Pfeife zur Seite und sprach:"
 
 # game/script.rpy:1697
-translate german chapter5_1892ff01:
+translate german chapter5_3872c133:
 
     # caterpillar "So you think you’re changed, do you?"
+    #voice "caterpillar14"
     caterpillar "Also, du denkst, dass du dich verändert hast?"
 
 # game/script.rpy:1699
@@ -3006,9 +3022,10 @@ translate german chapter5_045e2494:
     alice "Ich kann mich an manche Dinge nicht mehr richtig erinnern und ändere meine Größe alle paar Minuten!"
 
 # game/script.rpy:1702
-translate german chapter5_e491bce0:
+translate german chapter5_9da3118d:
 
     # caterpillar "Can’t remember what things?"
+    #voice "caterpillar15"
     caterpillar "An welche Dinge kannst du dich nicht erinnern?"
 
 # game/script.rpy:1704
@@ -3018,9 +3035,10 @@ translate german chapter5_90fa08c7:
     alice "Ich habe versucht, den Erlkönig aufzusagen, aber das hat sich total falsch angehört."
 
 # game/script.rpy:1706
-translate german chapter5_955e8b96:
+translate german chapter5_e2ef4883:
 
     # caterpillar "Repeat, 'You are old, Father William.'"
+    #voice "caterpillar16"
     caterpillar "Versuch es mal mit 'John Maynard' von Theodor Fontane."
 
 # game/script.rpy:1708
@@ -3079,9 +3097,10 @@ translate german chapter5_d1cad718:
     alice "John mahnt: „Noch ein Wort, ihr lieben Leut’,\n{space=30}und ich lass das Schiff versinken heut’.\nAlso seid still, oder schwimmt nach Haus,\n{space=30}haltet den Mund, oder das Spiel ist aus!“"
 
 # game/script.rpy:1726
-translate german chapter5_0185ef46:
+translate german chapter5_d714a4a3:
 
     # caterpillar "That is not said right."
+    #voice "caterpillar17"
     caterpillar "Das ist nicht richtig."
 
 # game/script.rpy:1728
@@ -3097,9 +3116,10 @@ translate german chapter5_069b8529:
     pass
 
 # game/script.rpy:1731
-translate german chapter5_0492e66c:
+translate german chapter5_36861824:
 
     # caterpillar "It is wrong from beginning to end."
+    #voice "caterpillar18"
     caterpillar "Es ist falsch von Anfang bis Ende."
 
 # game/script.rpy:1732
@@ -3115,9 +3135,10 @@ translate german chapter5_edce90e1:
     "Es herrschte für einige Minuten Stille."
 
 # game/script.rpy:1735
-translate german chapter5_2e3ed960:
+translate german chapter5_24d3e227:
 
     # caterpillar "What size do you want to be?"
+    #voice "caterpillar19"
     caterpillar "Welche Größe möchtest du denn sein?"
 
 # game/script.rpy:1737
@@ -3127,9 +3148,10 @@ translate german chapter5_e1827e56:
     alice "Mir ist die genaue Größe eigentlich egal, ich will nur nicht so oft wechseln, weißt du?"
 
 # game/script.rpy:1739
-translate german chapter5_c03f90d9:
+translate german chapter5_10ee2cdf:
 
     # caterpillar "I don’t know."
+    #voice "caterpillar20"
     caterpillar "Ich weiß nicht."
 
 # game/script.rpy:1741
@@ -3139,9 +3161,10 @@ translate german chapter5_1ce556bb:
     "Alice fehlten die Worte."
 
 # game/script.rpy:1743
-translate german chapter5_4e16a90d:
+translate german chapter5_0f4b2765:
 
     # caterpillar "Are you content now?"
+    #voice "caterpillar21"
     caterpillar "Bist du denn jetzt glücklich?"
 
 # game/script.rpy:1745
@@ -3157,9 +3180,10 @@ translate german chapter5_bf41cfb3:
     alice "7 Zentimeter sind nicht so toll."
 
 # game/script.rpy:1748
-translate german chapter5_9092895b:
+translate german chapter5_f882291c:
 
     # caterpillar "It is a very good height indeed!"
+    #voice "caterpillar22"
     caterpillar "Doch, das ist ganz toll!"
 
 # game/script.rpy:1749
@@ -3187,9 +3211,10 @@ translate german chapter5_a6d293b7:
     pass
 
 # game/script.rpy:1756
-translate german chapter5_ad68684e:
+translate german chapter5_eb6626af:
 
     # caterpillar "You’ll get used to it in time."
+    #voice "caterpillar23"
     caterpillar "Du wirst dich schon daran gewöhnen."
 
 # game/script.rpy:1757
@@ -3217,9 +3242,10 @@ translate german chapter5_fb503ac4:
     "Sie kletterte vom Pilz herunter und verschwand im Gras."
 
 # game/script.rpy:1767
-translate german chapter5_897b1657:
+translate german chapter5_9eba681a:
 
     # caterpillar "One side will make you grow taller, and the other side will make you grow shorter."
+    #voice "caterpillar24"
     caterpillar "Die eine Seite macht dich größer, die andere Seite macht dich kleiner."
 
 # game/script.rpy:1769
@@ -3229,9 +3255,10 @@ translate german chapter5_f8f85ba6:
     alice "Die eine Seite von was? Die andere Seite von was?"
 
 # game/script.rpy:1770
-translate german chapter5_45692869:
+translate german chapter5_80460582:
 
     # caterpillar "Of the mushroom."
+    #voice "caterpillar25"
     caterpillar "Vom Pilz."
 
 # game/script.rpy:1771
@@ -5419,9 +5446,10 @@ translate german chapter8_5c9999d5:
     five "Ich konnte nichts dafür, Sieben hat meinen Ellbogen gestoßen."
 
 # game/script.rpy:3037
-translate german chapter8_a440331a:
+translate german chapter8_a28dfc7a:
 
     # seven "That’s right, Five! Always lay the blame on others!"
+    #voice "seven1"
     seven "Genau, Fünf! Immer den anderen die Schuld geben!"
 
 # game/script.rpy:3041
@@ -5443,9 +5471,10 @@ translate german chapter8_90bdad0a:
     two "Warum denn?"
 
 # game/script.rpy:3050
-translate german chapter8_01fd4668:
+translate german chapter8_d684d297:
 
     # seven "That’s none of your business, Two!"
+    #voice "seven2"
     seven "Das geht dich nichts an, Zwei!"
 
 # game/script.rpy:3054
@@ -5461,9 +5490,10 @@ translate german chapter8_e9b2136f:
     "Sieben warf seinen Pinsel weg."
 
 # game/script.rpy:3059
-translate german chapter8_9bed02e8:
+translate german chapter8_34764379:
 
     # seven "Well, of all the unjust things—"
+    #voice "seven3"
     seven "Warum immer ich?"
 
 # game/script.rpy:3063
@@ -6737,9 +6767,10 @@ translate german ch9_gryphon_d81c24d5:
     "Der Greif setzte sich auf und rieb sich die Augen. Er schaute der Königin nach, bis sie weg war, dann kicherte er."
 
 # game/script.rpy:3923
-translate german ch9_gryphon_ef8fe338:
+translate german ch9_gryphon_f0b78f09:
 
     # gryphon "What fun!"
+    #voice "gryphon01"
     gryphon "Wie amüsant!"
 
 # game/script.rpy:3925
@@ -6749,9 +6780,10 @@ translate german ch9_gryphon_72864d29:
     alice "Was ist amüsant?"
 
 # game/script.rpy:3927
-translate german ch9_gryphon_db033e4f:
+translate german ch9_gryphon_5962f533:
 
     # gryphon "Why, she. It’s all her fancy, that: they never executes nobody, you know. Come on!"
+    #voice "gryphon02"
     gryphon "Sie ist amüsant. Sie verurteilt immer alle, aber sie richten eigentlich niemanden hin, verstehst du. Komm schon!"
 
 # game/script.rpy:3929
@@ -6779,9 +6811,10 @@ translate german ch9_gryphon_a961bec8:
     alice "Warum ist er so traurig?"
 
 # game/script.rpy:3946
-translate german ch9_gryphon_f7761561:
+translate german ch9_gryphon_a44a7e22:
 
     # gryphon "It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!"
+    #voice "gryphon03"
     gryphon "Das ist nur seine Einbildung; er ist gar nicht traurig, verstehst du? Komm schon!"
 
 # game/script.rpy:3954
@@ -6791,9 +6824,10 @@ translate german ch9_gryphon_ac40b947:
     "Sie gingen näher zum Schmor. Er hatte große, tränengefüllte Augen, sagte aber nichts."
 
 # game/script.rpy:3956
-translate german ch9_gryphon_bdb8f086:
+translate german ch9_gryphon_b61e9624:
 
     # gryphon "This here young lady, she wants for to know your history, she do."
+    #voice "gryphon04"
     gryphon "Diese junge Dame möchte deine Geschichte hören."
 
 # game/script.rpy:3958
@@ -6839,9 +6873,10 @@ translate german ch9_gryphon_b994e6ec:
     "Nach diesen Worten gab es eine lange Pause, nur unterbrochen von einigen gelegentlichen Geräuschen von:"
 
 # game/script.rpy:3975
-translate german ch9_gryphon_0be2d6ad:
+translate german ch9_gryphon_e39eb7b6:
 
     # gryphon "Hjckrrh!"
+    #voice "gryphon05"
     gryphon "Hjckrrh!"
 
 # game/script.rpy:3978
@@ -6881,9 +6916,10 @@ translate german ch9_gryphon_029dbfd6:
     mock "Wir nannten ihn Aal, weil er immer so viel erzahl. Darauf hätte man auch selber kommen können."
 
 # game/script.rpy:3998
-translate german ch9_gryphon_f2876af3:
+translate german ch9_gryphon_db215bd0:
 
     # gryphon "You ought to be ashamed of yourself for asking such a simple question."
+    #voice "gryphon06"
     gryphon "Eigentlich sagt man ja, es gibt keine dummen Fragen, aber die war echt dumm."
 
 # game/script.rpy:4003
@@ -6899,9 +6935,10 @@ translate german ch9_gryphon_e0ef082b:
     "Schließlich sprach der Greif zum Schmor:"
 
 # game/script.rpy:4008
-translate german ch9_gryphon_5e50f9a0:
+translate german ch9_gryphon_7850ba56:
 
     # gryphon "Drive on, old fellow! Don’t be all day about it!"
+    #voice "gryphon07"
     gryphon "Mach weiter, alter Freund!"
 
 # game/script.rpy:4012
@@ -6923,9 +6960,10 @@ translate german ch9_gryphon_fbc2788a:
     mock "Doch, das hast du."
 
 # game/script.rpy:4024
-translate german ch9_gryphon_b5c18e5c:
+translate german ch9_gryphon_28b75ed5:
 
     # gryphon "Hold your tongue!"
+    #voice "gryphon08"
     gryphon "Sei still!"
 
 # game/script.rpy:4028
@@ -7019,15 +7057,17 @@ translate german ch9_gryphon_378c67b8:
     "Der Greif hob überrascht beide Pfoten hoch."
 
 # game/script.rpy:4083
-translate german ch9_gryphon_63550c54:
+translate german ch9_gryphon_d60d3098:
 
     # gryphon "What! Never heard of uglifying!"
+    #voice "gryphon09"
     gryphon "Was! Du hast noch nie von Verwenigfachen gehört!"
 
 # game/script.rpy:4084
-translate german ch9_gryphon_82e70eea:
+translate german ch9_gryphon_472bfc27:
 
     # gryphon "You know what to beautify is, I suppose?"
+    #voice "gryphon10"
     gryphon "Du weißt, was Vervielfachen ist, nehme ich an?"
 
 # game/script.rpy:4088
@@ -7037,9 +7077,10 @@ translate german ch9_gryphon_519ce9e3:
     alice "Ja, das bedeutet, mehr aus etwas zu machen."
 
 # game/script.rpy:4092
-translate german ch9_gryphon_1a72530f:
+translate german ch9_gryphon_08b15dc9:
 
     # gryphon "Well, then, if you don’t know what to uglify is, you are a simpleton."
+    #voice "gryphon11"
     gryphon "Wenn du dann nicht weißt, was Verwenigfachen ist, bist du ein Dummkopf."
 
 # game/script.rpy:4096
@@ -7079,9 +7120,10 @@ translate german ch9_gryphon_79ce8738:
     mock "Ich habe nicht genug Arme. Und der Greif hat es nie gelernt."
 
 # game/script.rpy:4114
-translate german ch9_gryphon_b4480a6e:
+translate german ch9_gryphon_1590433b:
 
     # gryphon "Hadn’t time, I went to the Classics master, though. He was an old crab, he was."
+    #voice "gryphon12"
     gryphon "Ich hatte ein anderes Wahlpflichtfach. Unzwar bei einem alten Wal."
 
 # game/script.rpy:4118
@@ -7091,9 +7133,10 @@ translate german ch9_gryphon_51d86a7e:
     mock "Da war ich tatsächlich nie, aber ich habe gehört, er unterrichtet 'Singen und Seufzen'."
 
 # game/script.rpy:4122
-translate german ch9_gryphon_d40dfd47:
+translate german ch9_gryphon_623317e0:
 
     # gryphon "So he did, so he did."
+    #voice "gryphon13"
     gryphon "Das hat er, das hat er."
 
 # game/script.rpy:4125
@@ -7121,9 +7164,10 @@ translate german ch9_gryphon_6691a3a2:
     alice "Was für eine komische Schule!"
 
 # game/script.rpy:4141
-translate german ch9_gryphon_62e225b7:
+translate german ch9_gryphon_f8e4eaae:
 
     # gryphon "That’s the reason they’re called lessons, because they lessen from day to day."
+    #voice "gryphon14"
     gryphon "Deshalb wird der Unterricht auch von einem Lehrer gehalten. So wird die Klasse von Tag zu Tag leerer."
 
 # game/script.rpy:4146
@@ -7151,9 +7195,10 @@ translate german ch9_gryphon_7560294f:
     alice "Was habt ihr am zwölften Tag gemacht?"
 
 # game/script.rpy:4160
-translate german ch9_gryphon_21669018:
+translate german ch9_gryphon_599de3c2:
 
     # gryphon "That’s enough about lessons, tell her something about the games now."
+    #voice "gryphon15"
     gryphon "Okay, lass uns aufhören, über Unterricht zu reden und stattdessen über Spiele zu sprechen."
 
 # game/script.rpy:4168
@@ -7175,9 +7220,10 @@ translate german chapter10_d4165253:
     "Er wollte mit Alice sprechen, konnte aber nicht, weil er so viel weinte."
 
 # game/script.rpy:4189
-translate german chapter10_24f898cd:
+translate german chapter10_a73cb885:
 
     # gryphon "Same as if he had a bone in his throat."
+    #voice "gryphon16"
     gryphon "Ich glaube, er hat sich verschluckt."
 
 # game/script.rpy:4190
@@ -7235,9 +7281,10 @@ translate german chapter10_01ed0265:
     alice "Nicht wirklich. Was für ein Tanz ist es?"
 
 # game/script.rpy:4220
-translate german chapter10_878a0239:
+translate german chapter10_66328d1f:
 
     # gryphon "Why, you first form into a line along the sea-shore—"
+    #voice "gryphon17"
     gryphon "Zuerst stellt ihr euch entlang der Küste auf—"
 
 # game/script.rpy:4224
@@ -7253,9 +7300,10 @@ translate german chapter10_2dc04517:
     mock "Seehunde, Schildkröten, Lachse und noch viele andere Tiere; dann, sobald ihr alle Quallen beiseite geschoben habt—"
 
 # game/script.rpy:4229
-translate german chapter10_42a78586:
+translate german chapter10_26c1b572:
 
     # gryphon "That generally takes some time."
+    #voice "gryphon18"
     gryphon "Das dauert immer ein Wenig."
 
 # game/script.rpy:4233
@@ -7265,9 +7313,10 @@ translate german chapter10_a142307c:
     mock "—macht ihr zwei Schritte—"
 
 # game/script.rpy:4237
-translate german chapter10_0b053a90:
+translate german chapter10_234f3c0a:
 
     # gryphon "Each with a lobster as a partner!"
+    #voice "gryphon19"
     gryphon "Jeder mit einem Hummer als Partner!"
 
 # game/script.rpy:4241
@@ -7277,9 +7326,10 @@ translate german chapter10_8e10d41c:
     mock "Natürlich, zwei Schritte vorwärts und dann steht ihr neben eurem Partner—"
 
 # game/script.rpy:4245
-translate german chapter10_40ed3f4e:
+translate german chapter10_a45fa52c:
 
     # gryphon "—change lobsters, and retire in same order."
+    #voice "gryphon20"
     gryphon "-tauscht Hummer aus und kehrt dann zurück an eure Position."
 
 # game/script.rpy:4249
@@ -7289,9 +7339,10 @@ translate german chapter10_22cc09a6:
     mock "Als Nächstes werft ihr—"
 
 # game/script.rpy:4257
-translate german chapter10_419a1803:
+translate german chapter10_95fc0067:
 
     # gryphon "The lobsters!"
+    #voice "gryphon21"
     gryphon "Die Hummer!"
 
 # game/script.rpy:4261
@@ -7301,9 +7352,10 @@ translate german chapter10_4630b7c2:
     mock "-so weit wie möglich in den Ozean-"
 
 # game/script.rpy:4265
-translate german chapter10_d3599b62:
+translate german chapter10_710eeaf6:
 
     # gryphon "Swim after them!"
+    #voice "gryphon22"
     gryphon "Schwimmt hinterher!"
 
 # game/script.rpy:4276
@@ -7313,9 +7365,10 @@ translate german chapter10_865bc280:
     mock "Macht eine Rolle im Ozean!"
 
 # game/script.rpy:4280
-translate german chapter10_3cf13861:
+translate german chapter10_557ce688:
 
     # gryphon "Change lobsters again!"
+    #voice "gryphon23"
     gryphon "Tauscht die Hummer noch einmal!"
 
 # game/script.rpy:4284
@@ -7367,9 +7420,10 @@ translate german chapter10_443d0a9e:
     mock "Wir brauchen die Hummer nicht. Wer von uns singt?"
 
 # game/script.rpy:4311
-translate german chapter10_2fd1b88d:
+translate german chapter10_bac8e830:
 
     # gryphon "Oh, you sing. I’ve forgotten the words."
+    #voice "gryphon24"
     gryphon "Oh, du singst. Ich hab den Text vergessen."
 
 # game/script.rpy:4330
@@ -7499,39 +7553,45 @@ translate german chapter10_6a7b7c04:
     mock "Aber sie sind öfter Kerzengerade, und der Grund dafür ist- *Gähn* -Erzähl du ihr den Grund und alles andere."
 
 # game/script.rpy:4390
-translate german chapter10_93c78c1c:
+translate german chapter10_13532e4c:
 
     # gryphon "The reason is, that they would go with the lobsters to the dance."
+    #voice "gryphon25"
     gryphon "Und der Grund dafür ist, dass sie mit den Hummern zum Tanz gingen."
 
 # game/script.rpy:4391
-translate german chapter10_1b5f1f24:
+translate german chapter10_f0dbbe4b:
 
     # gryphon "So they got thrown out to sea."
+    #voice "gryphon26"
     gryphon "Also wurden sie ins Meer geworfen."
 
 # game/script.rpy:4392
-translate german chapter10_1d3939d9:
+translate german chapter10_75953933:
 
     # gryphon "So they had to fall a long way."
+    #voice "gryphon27"
     gryphon "Und um möglich weit zu fliegen mussten sie sich Kerzengerade machen."
 
 # game/script.rpy:4393
-translate german chapter10_21f6d5a8:
+translate german chapter10_ca0f64bb:
 
     # gryphon "So they got their tails fast in their mouths."
+    #voice "gryphon28"
     gryphon "Damit sie dann weniger Luftwiderstand haben."
 
 # game/script.rpy:4394
-translate german chapter10_8ee701b6:
+translate german chapter10_0dd337b6:
 
     # gryphon "So they couldn’t get them out again."
+    #voice "gryphon29"
     gryphon "Aber vor Schreck vergessen sie manchmal, sich wieder zu bewegen."
 
 # game/script.rpy:4395
-translate german chapter10_68f63784:
+translate german chapter10_87af12e7:
 
     # gryphon "That’s all."
+    #voice "gryphon30"
     gryphon "Das wars."
 
 # game/script.rpy:4399
@@ -7541,9 +7601,10 @@ translate german chapter10_9bef08db:
     alice "Danke, das war interessant! Ich habe noch nie so viel über den Lachs gehört."
 
 # game/script.rpy:4403
-translate german chapter10_a3890bb0:
+translate german chapter10_b0b5c1e4:
 
     # gryphon "I can tell you more than that, if you like. Do you know why it’s called a whiting?"
+    #voice "gryphon31"
     gryphon "Ich kann dir mehr erzählen, wenn du magst. Weißt du, warum er Lachs heißt?"
 
 # game/script.rpy:4407
@@ -7553,9 +7614,10 @@ translate german chapter10_5d2a5f6d:
     alice "Nein, warum denn?"
 
 # game/script.rpy:4411
-translate german chapter10_d5ba95db:
+translate german chapter10_9455ca21:
 
     # gryphon "It does the boots and shoes."
+    #voice "gryphon32"
     gryphon "Er macht die Lackschuhe."
 
 # game/script.rpy:4417
@@ -7571,9 +7633,10 @@ translate german chapter10_5533d8c3:
     alice "Er macht die Lackschuhe!?"
 
 # game/script.rpy:4422
-translate german chapter10_b4fd2db0:
+translate german chapter10_0947bf98:
 
     # gryphon "Why, what are your shoes done with? I mean, what makes them so shiny?"
+    #voice "gryphon33"
     gryphon "Naja, womit werden denn deine Schuhe gemacht? Ich meine, was macht sie so schön glänzend?"
 
 # game/script.rpy:4426
@@ -7589,9 +7652,10 @@ translate german chapter10_625c18cb:
     alice "Die werden mit Lack überzogen, glaube ich."
 
 # game/script.rpy:4431
-translate german chapter10_a6160fee:
+translate german chapter10_506ef3ab:
 
     # gryphon "Boots and shoes under the sea, are done with a whiting. Now you know."
+    #voice "gryphon34"
     gryphon "Schuhe im Meer werden mit Lachs überzogen. Jetzt weißt du es!"
 
 # game/script.rpy:4435
@@ -7601,9 +7665,10 @@ translate german chapter10_eb7d7256:
     alice "Und woraus werden sie gemacht?"
 
 # game/script.rpy:4439
-translate german chapter10_daefcf6f:
+translate german chapter10_1875143d:
 
     # gryphon "Soles and eels, of course, any shrimp could have told you that."
+    #voice "gryphon35"
     gryphon "Lederfische natürlich! Das weiß doch jeder Hering."
 
 # game/script.rpy:4443
@@ -7643,9 +7708,10 @@ translate german chapter10_a4e3f0f1:
     pass
 
 # game/script.rpy:4467
-translate german chapter10_74f1194d:
+translate german chapter10_b5977e4f:
 
     # gryphon "Come, let’s hear some of your adventures."
+    #voice "gryphon36"
     gryphon "Komm, erzähl uns von deinen Abenteuern!"
 
 # game/script.rpy:4472
@@ -7661,9 +7727,10 @@ translate german chapter10_c6c33d18:
     mock "Erklär das bitte!"
 
 # game/script.rpy:4480
-translate german chapter10_bd47d0c2:
+translate german chapter10_823e906c:
 
     # gryphon "No, no! The adventures first, explanations take such a dreadful time."
+    #voice "gryphon37"
     gryphon "Nein, nein! Lass uns zuerst über die Abenteuer sprechen. Erklärungen dauern immer so lange!"
 
 # game/script.rpy:4485
@@ -7691,9 +7758,10 @@ translate german chapter10_11a8b7ff:
     mock "Das ist ja merkwürdig!"
 
 # game/script.rpy:4503
-translate german chapter10_41e8b392:
+translate german chapter10_2411a7bf:
 
     # gryphon "It’s all about as curious as it can be."
+    #voice "gryphon38"
     gryphon "Sehr merkwürdig!"
 
 # game/script.rpy:4507
@@ -7715,9 +7783,10 @@ translate german chapter10_986b35dd:
     "Er starrte den Greif an, so als hätte dieser Autorität über Alice."
 
 # game/script.rpy:4513
-translate german chapter10_d60068cd:
+translate german chapter10_129c0831:
 
     # gryphon "Stand up and repeat ‘Tis the voice of the sluggard’"
+    #voice "gryphon39"
     gryphon "Steh bitte auf und wiederhole 'Der Handschuh' von Friedrich Schiller."
 
 # game/script.rpy:4517
@@ -7745,9 +7814,10 @@ translate german chapter10_6c0aac53:
     alice "Vor seinem Fischgarten, \nDas Tanzspiel zu erwarten, \nSaß Hummer Franz, \nUnd um ihn die Großen der Krone, \nUnd rings auf hohem Balkone \nDie Fische in schönem Kranz."
 
 # game/script.rpy:4534
-translate german chapter10_98f61f26:
+translate german chapter10_88be16a2:
 
     # gryphon "That’s different from what I used to say when I was a child."
+    #voice "gryphon40"
     gryphon "Das ist anders, als ich es in Erinnerung habe!"
 
 # game/script.rpy:4538
@@ -7769,9 +7839,10 @@ translate german chapter10_a4f50617:
     mock "Kannst du es erklären?"
 
 # game/script.rpy:4550
-translate german chapter10_0c72c653:
+translate german chapter10_827b61fa:
 
     # gryphon "She can’t explain it. Go on with the next verse."
+    #voice "gryphon41"
     gryphon "Sie kann es nicht erklären. Mach einfach weiter mit der nächsten Strophe!"
 
 # game/script.rpy:4554
@@ -7799,9 +7870,10 @@ translate german chapter10_39a31f0b:
     "Alice war schrecklich verwirrt und wollte so schnell wie möglich das Thema wechseln."
 
 # game/script.rpy:4565
-translate german chapter10_afa298e8:
+translate german chapter10_dd5b14d0:
 
     # gryphon "Go on with the next verse, it begins ‘I passed by his garden’."
+    #voice "gryphon42"
     gryphon "Mach weiter mit der nächsten Strophe, sie beginnt mit: 'Und wie er winkt!'"
 
 # game/script.rpy:4569
@@ -7829,9 +7901,10 @@ translate german chapter10_e1694bdd:
     mock "Ich verstehe nichts!"
 
 # game/script.rpy:4587
-translate german chapter10_29d06467:
+translate german chapter10_9687a8ce:
 
     # gryphon "Yes, I think you’d better leave off."
+    #voice "gryphon43"
     gryphon "Ja, ich denke, du solltest lieber aufhören!"
 
 # game/script.rpy:4591
@@ -7841,15 +7914,17 @@ translate german chapter10_2acd46e9:
     "Alice war froh, dass es endlich vorbei war."
 
 # game/script.rpy:4595
-translate german chapter10_7e150fd2:
+translate german chapter10_99ba0e1a:
 
     # gryphon "Shall we try another figure of the Lobster Quadrille?"
+    #voice "gryphon44"
     gryphon "Sollen wir einen anderen Akt des Hummerballetts versuchen?"
 
 # game/script.rpy:4596
-translate german chapter10_f184bc0e:
+translate german chapter10_65630785:
 
     # gryphon "Or would you like the Mock Turtle to sing you a song?"
+    #voice "gryphon45"
     gryphon "Oder möchtest du, dass das Schmor dir ein Lied singt?"
 
 # game/script.rpy:4601
@@ -7859,9 +7934,10 @@ translate german chapter10_7dd682f8:
     alice "Oh, ein Lied bitte! Wenn das Schmor so lieb sein würde!"
 
 # game/script.rpy:4605
-translate german chapter10_980dff85:
+translate german chapter10_bcd87bba:
 
     # gryphon "Hm! No accounting for tastes! Sing her ‘Turtle Soup’, will you, old fellow?"
+    #voice "gryphon46"
     gryphon "Hmm! Könntest du bitte 'Schmorbraten' singen, mein lieber Freund?"
 
 # game/script.rpy:4610
@@ -7919,9 +7995,10 @@ translate german chapter10_deef1b12:
     mock "Bra--aten des A--abends,\nSchöner, schöner Braten!"
 
 # game/script.rpy:4632
-translate german chapter10_7e34bac8:
+translate german chapter10_cd3b4eee:
 
     # gryphon "Chorus again!"
+    #voice "gryphon47"
     pass
 
 # game/script.rpy:4636
@@ -7931,9 +8008,10 @@ translate german chapter10_3cb0569f:
     "Das Schmor wollte gerade weitersingen, als sie einen Ruf hörten: 'Der Prozess beginnt!'"
 
 # game/script.rpy:4640
-translate german chapter10_6982cbdf:
+translate german chapter10_ae15f199:
 
     # gryphon "Come on!"
+    #voice "gryphon49"
     gryphon "Komm schon!"
 
 # game/script.rpy:4650
@@ -7955,9 +8033,10 @@ translate german chapter10_30e61242:
     pass
 
 # game/script.rpy:4653
-translate german chapter10_6982cbdf_1:
+translate german chapter10_ecf29497:
 
     # gryphon "Come on!"
+    #voice "gryphon48"
     gryphon "Komm schon!"
 
 # game/script.rpy:4654
@@ -8069,9 +8148,10 @@ translate german ch11_court_f130219b:
     alice "*flüsternd* Was machen die? Die haben doch noch gar nichts zu notieren, der Prozess hat ja noch nicht angefangen!"
 
 # game/script.rpy:4793
-translate german ch11_court_aeef29ef:
+translate german ch11_court_7b9a2435:
 
     # gryphon "*whispering* They’re putting down their names, for fear they should forget them before the end of the trial."
+    #voice "gryphon50"
     gryphon "*flüsternd* Sie schreiben ihre Namen auf, damit sie die nicht vergessen!"
 
 # game/script.rpy:4795
@@ -8983,9 +9063,10 @@ translate german chapter12_d3e0f0bb:
     king "Es muss ein Brief an {i}jemanden{/i} sein. Man schreibt ja normalerweise nicht an {i}niemanden{/i}."
 
 # game/script.rpy:5344
-translate german chapter12_a0daa1b7:
+translate german chapter12_a96ab3d7:
 
     # bill "Who is it directed to?"
+    #voice "bill2"
     bill "An wen ist er adressiert?"
 
 # game/script.rpy:5348
@@ -9717,10 +9798,3 @@ translate german strings:
 
 
 # game/script.rpy:2362
-translate german ch6_kitchen_d01b78bf:
-
-    # voice "duchess09"
-    # duchess "Here! you may nurse it a bit, if you like!"
-    duchess "Hier! Kümmer dich auch mal ein bisschen um das Kind!"
-# TODO: Translation updated at 2024-11-09 12:50
-

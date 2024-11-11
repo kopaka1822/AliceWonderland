@@ -1356,6 +1356,7 @@ label ch3_start:
     
     camera: 
         ease cam_transition xpos muddy_young_crab_pos zpos -500 ypos muddy_lory_ypos
+    voice "young_crab1"
     young_crab "Hold your tongue, Ma! You’re enough to try the patience of an oyster!"
 
     camera: 
@@ -1602,6 +1603,7 @@ label chapter4:
     anon "How was it, old fellow? What happened to you? Tell us all about it!" # A
 
     "Last came a little feeble, squeaking voice:"
+    voice "bill1"
     bill "Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
     anon "So you did, old fellow!" # B
 
@@ -1806,35 +1808,44 @@ label chapter5:
 
     "The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice."
 
+    voice "caterpillar01"
     caterpillar "Who are you?"
 
     "This was not an encouraging opening for a conversation."
     alice "I—I hardly know, sir, just at present—at least I know who I was when I got up this morning, but I think I must have been changed several times since then."
 
+    voice "caterpillar02"
     caterpillar "What do you mean by that?"
+    voice "caterpillar03"
     caterpillar "Explain yourself!"
 
     alice "I can’t explain myself, I’m afraid, sir, because I’m not myself, you see."
 
+    voice "caterpillar04"
     caterpillar "I don’t see."
 
     alice "I’m afraid I can’t put it more clearly, for I can’t understand it myself to begin with; and being so many different sizes in a day is very confusing."
 
+    voice "caterpillar05"
     caterpillar "It isn’t."
 
     alice "Well, perhaps you haven’t found it so yet, but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll feel it a little queer, won’t you?"
 
+    voice "caterpillar06"
     caterpillar "Not a bit."
 
     alice "Well, perhaps your feelings may be different. All I know is, it would feel very queer to me."
 
+    voice "caterpillar07"
     caterpillar "You!" # said the Caterpillar contemptuously.
+    voice "caterpillar08"
     caterpillar "Who are you?"
 
     "Which brought them back again to the beginning of the conversation."
     "Alice felt a little irritated at the Caterpillar’s making such very short remarks, and she drew herself up and said, very gravely:"
     alice "I think, you ought to tell me who you are, first."
 
+    voice "caterpillar09"
     caterpillar "Why?"
 
     show alice at breathing:
@@ -1842,34 +1853,41 @@ label chapter5:
         linear 2.0 xoffset -400
     "Here was another puzzling question; and as Alice could not think of any good reason, and as the Caterpillar seemed to be in a very unpleasant state of mind, she turned away."
 
+    voice "caterpillar10"
     caterpillar "Come back!"
+    voice "caterpillar11"
     caterpillar "I’ve something important to say!"
 
     show alice at breathing:
         zpos -1000
         linear 2.0 xoffset 0
     "This sounded promising, certainly: Alice turned and came back again."
-
+    voice "caterpillar12"
     caterpillar "Keep your temper."
 
     "..."
 
     alice "Is that all?"
     "Alice swallowed down her anger as well as she could."
+    voice "caterpillar13"
     caterpillar "No."
 
     "Alice thought she might as well wait, as she had nothing else to do, and perhaps after all it might tell her something worth hearing."
+    play sound "voice/caterpillar_vape.mp3"
     "..."
     "For some minutes it puffed away without speaking, but at last it unfolded its arms, took the hookah out of its mouth again."
+    voice "caterpillar14"
     caterpillar "So you think you’re changed, do you?"
 
     alice "I’m afraid I am, sir."
     alice "I can’t remember things as I used—and I don’t keep the same size for ten minutes together!"
 
+    voice "caterpillar15"
     caterpillar "Can’t remember what things?"
 
     alice "Well, I’ve tried to say 'How doth the little busy bee', but it all came different!"
 
+    voice "caterpillar16"
     caterpillar "Repeat, 'You are old, Father William.'"
 
     "Alice folded her hands, and began:"
@@ -1890,28 +1908,30 @@ label chapter5:
 
     alice "'I have answered three questions, \nand that is enough',\n{space=30}Said his father; 'don’t give yourself airs!\nDo you think I can listen all day to such stuff?\n{space=30}Be off, or I’ll kick you down stairs!'"
 
+    voice "caterpillar17"
     caterpillar "That is not said right."
 
     alice "Not quite right, I’m afraid." # said alice timidly;
     alice "Some of the words have got altered."
 
+    voice "caterpillar18"
     caterpillar "It is wrong from beginning to end."
     "..."
     "And there was silence for some minutes."
-
+    voice "caterpillar19"
     caterpillar "What size do you want to be?"
 
     alice "Oh, I’m not particular as to size, only one doesn’t like changing so often, you know."
-
+    voice "caterpillar20"
     caterpillar "I don’t know."
 
     "Alice said nothing: she had never been so much contradicted in all her life before, and she felt that she was losing her temper."
-
+    voice "caterpillar21"
     caterpillar "Are you content now?"
 
     alice "Well, I should like to be a little larger, sir, if you wouldn’t mind."
     alice "Three inches is such a wretched height to be."
-
+    voice "caterpillar22"
     caterpillar "It is a very good height indeed!"
     "Said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)"
 
@@ -1919,11 +1939,15 @@ label chapter5:
     "Pleaded poor Alice in a piteous tone. And she thought of herself:"
 
     alice "I wish the creatures wouldn’t be so easily offended!"
-
+    voice "caterpillar23"
     caterpillar "You’ll get used to it in time."
+    play sound "voice/caterpillar_vape.mp3"
     "The caterpillar put the hookah into its mouth and began smoking again."
 
     "This time Alice waited patiently until it chose to speak again."
+
+    play sound "<silence 2.0>"
+    queue sound "voice/caterpillar_yawn.mp3"
     "In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself."
 
     show caterpillar at breathing:
@@ -1931,9 +1955,11 @@ label chapter5:
         linear 2.0 ypos 1.0
         linear 20.0 zpos -1200
     "Then it got down off the mushroom, and crawled away in the grass."
+    voice "caterpillar24"
     caterpillar "One side will make you grow taller, and the other side will make you grow shorter."
 
     alice "One side of what? The other side of what?"
+    voice "caterpillar25"
     caterpillar "Of the mushroom."
     "In another moment it was out of sight."
 
@@ -3261,6 +3287,7 @@ label chapter8:
     # On which seven looked up and said
     camera:
         ease cam_transition xpos card7_garden zoom 2.0 ypos 700
+    voice "seven1"
     seven "That’s right, Five! Always lay the blame on others!"
 
     camera:
@@ -3274,6 +3301,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos card7_garden zoom 2.0 ypos 700
+    voice "seven2"
     seven "That’s none of your business, Two!"
 
     camera:
@@ -3283,6 +3311,7 @@ label chapter8:
     camera:
         ease cam_transition xpos card7_garden zoom 2.0 ypos 700
     "Seven flung down his brush..."
+    voice "seven3"
     seven "Well, of all the unjust things—"
 
     camera:
@@ -4170,10 +4199,12 @@ label ch9_gryphon:
     "Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited."
 
     "The Gryphon sat up and rubbed its eyes: then it watched the Queen till she was out of sight: then it chuckled."
+    voice "gryphon01"
     gryphon "What fun!"
 
     alice "What is the fun?"
 
+    voice "gryphon02"
     gryphon "Why, she. It’s all her fancy, that: they never executes nobody, you know. Come on!"
 
     alice "(Everybody says ‘come on!’ here. I never was so ordered about in all my life, never!)"
@@ -4193,6 +4224,7 @@ label ch9_gryphon:
     "She pitied him deeply."
     alice "What is his sorrow?"
     #"She asked the Gryphon, and the Gryphon answered, very nearly in the same words as before."
+    voice "gryphon03"
     gryphon "It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!"
 
     show gryphon at breathing:
@@ -4203,6 +4235,7 @@ label ch9_gryphon:
         linear 1.0 xpos -120
     "So they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing."
 
+    voice "gryphon04"
     gryphon "This here young lady, she wants for to know your history, she do."
 
     mock "I’ll tell it her, sit down, both of you, and don’t speak a word till I’ve finished."
@@ -4222,6 +4255,7 @@ label ch9_gryphon:
     "These words were followed by a very long silence, broken only by an occasional exclamation of:"
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon05"
     gryphon "Hjckrrh!" 
     camera:
         ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
@@ -4245,6 +4279,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon06"
     gryphon "You ought to be ashamed of yourself for asking such a simple question."
 
     camera:
@@ -4255,6 +4290,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon07"
     gryphon "Drive on, old fellow! Don’t be all day about it!"
 
     camera:
@@ -4271,6 +4307,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon08"
     gryphon "Hold your tongue!"
 
     camera:
@@ -4330,7 +4367,9 @@ label ch9_gryphon:
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
     "The Gryphon lifted up both its paws in surprise."
+    voice "gryphon09"
     gryphon "What! Never heard of uglifying!"
+    voice "gryphon10"
     gryphon "You know what to beautify is, I suppose?"
 
     camera:
@@ -4339,6 +4378,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon11"
     gryphon "Well, then, if you don’t know what to uglify is, you are a simpleton."
 
     camera:
@@ -4361,6 +4401,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon12"
     gryphon "Hadn’t time, I went to the Classics master, though. He was an old crab, he was."
 
     camera:
@@ -4369,6 +4410,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon13"
     gryphon "So he did, so he did."
     camera:
         ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
@@ -4388,6 +4430,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon14"
     gryphon "That’s the reason they’re called lessons, because they lessen from day to day."
 
     camera:
@@ -4407,6 +4450,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon15"
     gryphon "That’s enough about lessons, tell her something about the games now."
 
 
@@ -4437,6 +4481,7 @@ label chapter10:
     "He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice."
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon16"
     gryphon "Same as if he had a bone in his throat."
     "The gryphon started shaking him and punching him in the back."
 
@@ -4468,6 +4513,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon17"
     gryphon "Why, you first form into a line along the sea-shore—"
 
     camera:
@@ -4477,6 +4523,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon18"
     gryphon "That generally takes some time."
 
     camera:
@@ -4485,6 +4532,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon19"
     gryphon "Each with a lobster as a partner!"
 
     camera:
@@ -4493,6 +4541,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon20"
     gryphon "—change lobsters, and retire in same order."
 
     camera:
@@ -4505,6 +4554,7 @@ label chapter10:
     show gryphon at breathing:
         ease 0.5 yoffset -200
         ease 0.5 yoffset 0
+    voice "gryphon21"
     gryphon "The lobsters!"
 
     camera:
@@ -4513,6 +4563,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon22"
     gryphon "Swim after them!"
 
     camera:
@@ -4528,6 +4579,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon23"
     gryphon "Change lobsters again!"
 
     camera:
@@ -4559,6 +4611,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon24"
     gryphon "Oh, you sing. I’ve forgotten the words."
 
     play music "audio/rinne oak general store.mp3" fadein 1.0 fadeout 1.0
@@ -4638,11 +4691,17 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon25"
     gryphon "The reason is, that they would go with the lobsters to the dance."
+    voice "gryphon26"
     gryphon "So they got thrown out to sea."
+    voice "gryphon27"
     gryphon "So they had to fall a long way."
+    voice "gryphon28"
     gryphon "So they got their tails fast in their mouths."
+    voice "gryphon29"
     gryphon "So they couldn’t get them out again."
+    voice "gryphon30"
     gryphon "That’s all."
 
     camera:
@@ -4651,6 +4710,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon31"
     gryphon "I can tell you more than that, if you like. Do you know why it’s called a whiting?"
 
     camera:
@@ -4659,6 +4719,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon32"
     gryphon "It does the boots and shoes." # solemnly
 
     camera:
@@ -4670,6 +4731,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon33"
     gryphon "Why, what are your shoes done with? I mean, what makes them so shiny?"
 
     camera:
@@ -4679,6 +4741,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon34"
     gryphon "Boots and shoes under the sea, are done with a whiting. Now you know." # deep voice
 
     camera:
@@ -4687,6 +4750,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon35"
     gryphon "Soles and eels, of course, any shrimp could have told you that."
 
     camera:
@@ -4715,6 +4779,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon36"
     gryphon "Come, let’s hear some of your adventures." 
 
     camera:
@@ -4728,6 +4793,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon37"
     gryphon "No, no! The adventures first, explanations take such a dreadful time." # impatient
 
     camera:
@@ -4751,6 +4817,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon38"
     gryphon "It’s all about as curious as it can be."
 
     camera:
@@ -4761,6 +4828,7 @@ label chapter10:
     
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon39"
     gryphon "Stand up and repeat ‘Tis the voice of the sluggard’"
 
     camera:
@@ -4782,6 +4850,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon40"
     gryphon "That’s different from what I used to say when I was a child."
 
     camera:
@@ -4798,6 +4867,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon41"
     gryphon "She can’t explain it. Go on with the next verse."
 
     camera:
@@ -4813,6 +4883,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon42"
     gryphon "Go on with the next verse, it begins ‘I passed by his garden’."
 
     camera:
@@ -4835,6 +4906,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon43"
     gryphon "Yes, I think you’d better leave off."
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
@@ -4843,7 +4915,9 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon44"
     gryphon "Shall we try another figure of the Lobster Quadrille?"
+    voice "gryphon45"
     gryphon "Or would you like the Mock Turtle to sing you a song?"
 
     camera:
@@ -4853,6 +4927,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon46"
     gryphon "Hm! No accounting for tastes! Sing her ‘Turtle Soup’, will you, old fellow?"
 
     camera:
@@ -4880,6 +4955,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "gryphon47"
     gryphon "Chorus again!" # cried
 
     camera:
@@ -4888,6 +4964,7 @@ label chapter10:
 
     show gryphon at breathing:
         xzoom -1.0 xpos -0.5
+    voice "gryphon48"
     gryphon "Come on!" # cried
 
     show alice pout at breathing:
@@ -4901,6 +4978,7 @@ label chapter10:
     "The Gryphon took Alice by the hand, and hurried off, without waiting for the end of the song."
     alice "What trial is it?"
     "Alice panted as she ran."
+    voice "gryphon49"
     gryphon "Come on!"
     "He ran faster, while more and more faintly came, carried on the breeze that followed them, the melancholy words:—"
 
@@ -5042,6 +5120,7 @@ label ch11_court:
         ease cam_transition xpos court_alice ypos 0 zpos -500
     alice "*whispering* What are they doing? They can’t have anything to put down yet, before the trial’s begun." # Alice whispered to the Gryphon. “”
 
+    voice "gryphon50"
     gryphon "*whispering* They’re putting down their names, for fear they should forget them before the end of the trial."
 
     alice "Stupid things!" # Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, 
@@ -5602,6 +5681,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_bill zpos -1000 ypos 300 # jury bill
+    voice "bill2"
     bill "Who is it directed to?" # said one of the jurymen.
 
     camera:

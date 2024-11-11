@@ -1842,9 +1842,10 @@ translate simple_english ch3_start_b3339f33:
     old_crab "Remember this, my dear! Never get angry!"
 
 # game/script.rpy:1196
-translate simple_english ch3_start_34e2b4f7:
+translate simple_english ch3_start_c5f44ff7:
 
     # young_crab "Hold your tongue, Ma! You’re enough to try the patience of an oyster!"
+    #voice "young_crab1"
     young_crab "Hold your tongue, Ma! You’re enough to test the patience of an oyster!"
 
 # game/script.rpy:1201
@@ -2544,9 +2545,10 @@ translate simple_english chapter4_620750e1:
     "Finally, a weak, squeaky voice was heard:"
 
 # game/script.rpy:1439
-translate simple_english chapter4_099abc7d:
+translate simple_english chapter4_b459f7e8:
 
     # bill "Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
+    #voice "bill1"
     bill "I'm not sure, thank you. I feel better now, but I'm too confused to explain. All I know is, something came at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
 
 # game/script.rpy:1440
@@ -2808,9 +2810,10 @@ translate simple_english chapter5_fed83656:
     "The Caterpillar and Alice stared at each other quietly for a while. Finally, the Caterpillar stopped smoking and spoke to her in a sleepy voice."
 
 # game/script.rpy:1642
-translate simple_english chapter5_bb4b35f1:
+translate simple_english chapter5_f8e405e4:
 
     # caterpillar "Who are you?"
+    #voice "caterpillar08"
     caterpillar "Who are you?"
 
 # game/script.rpy:1644
@@ -2826,15 +2829,17 @@ translate simple_english chapter5_5adf31c3:
     alice "I'm not sure who I am right now, sir. I know who I was when I woke up this morning, but I feel like I have been changed many times since then."
 
 # game/script.rpy:1647
-translate simple_english chapter5_61f52986:
+translate simple_english chapter5_e7efc800:
 
     # caterpillar "What do you mean by that?"
+    #voice "caterpillar02"
     caterpillar "What do you mean by that?"
 
 # game/script.rpy:1648
-translate simple_english chapter5_566b6e9c:
+translate simple_english chapter5_cd90aa58:
 
     # caterpillar "Explain yourself!"
+    #voice "caterpillar03"
     caterpillar "Explain yourself!"
 
 # game/script.rpy:1650
@@ -2844,9 +2849,10 @@ translate simple_english chapter5_e7f4c83e:
     alice "I can't explain myself, because I am not myself, you see."
 
 # game/script.rpy:1652
-translate simple_english chapter5_c0a14b7f:
+translate simple_english chapter5_c9a1b724:
 
     # caterpillar "I don’t see."
+    #voice "caterpillar04"
     caterpillar "I don’t see."
 
 # game/script.rpy:1654
@@ -2856,9 +2862,10 @@ translate simple_english chapter5_d4d61f29:
     alice "I'm sorry, but I can't explain it better since I don't understand it myself. It's very confusing to change sizes many times a day."
 
 # game/script.rpy:1656
-translate simple_english chapter5_f9d43491:
+translate simple_english chapter5_19890a08:
 
     # caterpillar "It isn’t."
+    #voice "caterpillar05"
     caterpillar "It isn’t."
 
 # game/script.rpy:1658
@@ -2868,9 +2875,10 @@ translate simple_english chapter5_16412c3e:
     alice "Maybe you haven't felt this way before, but one day you will turn into a butterfly. That might feel strange, don't you think?"
 
 # game/script.rpy:1660
-translate simple_english chapter5_bee2752e:
+translate simple_english chapter5_b2bf6843:
 
     # caterpillar "Not a bit."
+    #voice "caterpillar06"
     caterpillar "Not a bit."
 
 # game/script.rpy:1662
@@ -2880,15 +2888,17 @@ translate simple_english chapter5_29f99dfa:
     alice "Maybe you feel differently, but to me, it would feel very strange."
 
 # game/script.rpy:1664
-translate simple_english chapter5_8c7fa477:
+translate simple_english chapter5_c9f800d6:
 
     # caterpillar "You!"
+    #voice "caterpillar07"
     caterpillar "You!"
 
 # game/script.rpy:1665
-translate simple_english chapter5_bb4b35f1_1:
+translate simple_english chapter5_907b9c0d:
 
     # caterpillar "Who are you?"
+    #voice "caterpillar01"
     caterpillar "Who are you?"
 
 # game/script.rpy:1667
@@ -2910,9 +2920,10 @@ translate simple_english chapter5_c4c0afa1:
     alice "I think you should tell me who you are first."
 
 # game/script.rpy:1671
-translate simple_english chapter5_e4b108a2:
+translate simple_english chapter5_5273f537:
 
     # caterpillar "Why?"
+    #voice "caterpillar09"
     caterpillar "Why?"
 
 # game/script.rpy:1676
@@ -2922,15 +2933,17 @@ translate simple_english chapter5_8d76366a:
     "Alice didn't find a good answer, so she decided to walk away."
 
 # game/script.rpy:1678
-translate simple_english chapter5_0d69bf97:
+translate simple_english chapter5_ac1de09d:
 
     # caterpillar "Come back!"
+    #voice "caterpillar10"
     caterpillar "Come back!"
 
 # game/script.rpy:1679
-translate simple_english chapter5_84893898:
+translate simple_english chapter5_78ce6ae7:
 
     # caterpillar "I’ve something important to say!"
+    #voice "caterpillar11"
     caterpillar "I have something important to tell you!"
 
 # game/script.rpy:1684
@@ -2940,9 +2953,10 @@ translate simple_english chapter5_3ae96ddb:
     "This sounded good: Alice turned around and came back."
 
 # game/script.rpy:1686
-translate simple_english chapter5_672c05d2:
+translate simple_english chapter5_c5e4096d:
 
     # caterpillar "Keep your temper."
+    #voice "caterpillar12"
     caterpillar "Keep calm."
 
 # game/script.rpy:1688
@@ -2964,9 +2978,10 @@ translate simple_english chapter5_ad7f1bbb:
     "Alice tried hard to control her anger."
 
 # game/script.rpy:1692
-translate simple_english chapter5_a81df4eb:
+translate simple_english chapter5_c617ef72:
 
     # caterpillar "No."
+    #voice "caterpillar13"
     caterpillar "No."
 
 # game/script.rpy:1694
@@ -2988,9 +3003,10 @@ translate simple_english chapter5_2c9d1131:
     "For a few minutes, it smoked without talking, but eventually it put down the pipe and stopped smoking."
 
 # game/script.rpy:1697
-translate simple_english chapter5_1892ff01:
+translate simple_english chapter5_3872c133:
 
     # caterpillar "So you think you’re changed, do you?"
+    #voice "caterpillar14"
     caterpillar "So, you think you have changed?"
 
 # game/script.rpy:1699
@@ -3006,9 +3022,10 @@ translate simple_english chapter5_045e2494:
     alice "I can't remember things like before, and I don't stay the same size for more than ten minutes!"
 
 # game/script.rpy:1702
-translate simple_english chapter5_e491bce0:
+translate simple_english chapter5_9da3118d:
 
     # caterpillar "Can’t remember what things?"
+    #voice "caterpillar15"
     caterpillar "What things can't you remember?"
 
 # game/script.rpy:1704
@@ -3018,9 +3035,10 @@ translate simple_english chapter5_90fa08c7:
     alice "I tried to say 'The little crocodile', but it came out wrong!"
 
 # game/script.rpy:1706
-translate simple_english chapter5_955e8b96:
+translate simple_english chapter5_e2ef4883:
 
     # caterpillar "Repeat, 'You are old, Father William.'"
+    #voice "caterpillar16"
     caterpillar "Repeat, 'You are old, Father William.'"
 
 # game/script.rpy:1708
@@ -3078,9 +3096,10 @@ translate simple_english chapter5_d1cad718:
     alice "'I've answered three questions, that's it for now,'\n{space=30}The old man looked annoyed with a raised \n{space=30}eyebrow.\n'Do you think I've got time to chat all day, somehow?\n{space=30}Off you go, or down the stairs you'll plow!'"
 
 # game/script.rpy:1726
-translate simple_english chapter5_0185ef46:
+translate simple_english chapter5_d714a4a3:
 
     # caterpillar "That is not said right."
+    #voice "caterpillar17"
     caterpillar "That was said incorrectly."
 
 # game/script.rpy:1728
@@ -3096,9 +3115,10 @@ translate simple_english chapter5_069b8529:
     alice "Some of the words have changed."
 
 # game/script.rpy:1731
-translate simple_english chapter5_0492e66c:
+translate simple_english chapter5_36861824:
 
     # caterpillar "It is wrong from beginning to end."
+    #voice "caterpillar18"
     caterpillar "It is wrong from beginning to end."
 
 # game/script.rpy:1732
@@ -3114,9 +3134,10 @@ translate simple_english chapter5_edce90e1:
     "And there was silence for some minutes."
 
 # game/script.rpy:1735
-translate simple_english chapter5_2e3ed960:
+translate simple_english chapter5_24d3e227:
 
     # caterpillar "What size do you want to be?"
+    #voice "caterpillar19"
     caterpillar "What size do you want to be?"
 
 # game/script.rpy:1737
@@ -3126,9 +3147,10 @@ translate simple_english chapter5_e1827e56:
     alice "I'm not picky about size, I just don't want to change so often."
 
 # game/script.rpy:1739
-translate simple_english chapter5_c03f90d9:
+translate simple_english chapter5_10ee2cdf:
 
     # caterpillar "I don’t know."
+    #voice "caterpillar20"
     caterpillar "I don’t know."
 
 # game/script.rpy:1741
@@ -3138,9 +3160,10 @@ translate simple_english chapter5_1ce556bb:
     "Alice didn't say anything. She had never been contradicted so much before and she felt like she was getting angry."
 
 # game/script.rpy:1743
-translate simple_english chapter5_4e16a90d:
+translate simple_english chapter5_0f4b2765:
 
     # caterpillar "Are you content now?"
+    #voice "caterpillar21"
     caterpillar "Are you happy now?"
 
 # game/script.rpy:1745
@@ -3156,9 +3179,10 @@ translate simple_english chapter5_bf41cfb3:
     alice "Being around 7 centimeters tall is not a good height."
 
 # game/script.rpy:1748
-translate simple_english chapter5_9092895b:
+translate simple_english chapter5_f882291c:
 
     # caterpillar "It is a very good height indeed!"
+    #voice "caterpillar22"
     caterpillar "It is a very good height indeed!"
 
 # game/script.rpy:1749
@@ -3186,9 +3210,10 @@ translate simple_english chapter5_a6d293b7:
     alice "I wish the creatures wouldn’t be so easily offended!"
 
 # game/script.rpy:1756
-translate simple_english chapter5_ad68684e:
+translate simple_english chapter5_eb6626af:
 
     # caterpillar "You’ll get used to it in time."
+    #voice "caterpillar23"
     caterpillar "You will become used to it eventually."
 
 # game/script.rpy:1757
@@ -3216,9 +3241,10 @@ translate simple_english chapter5_fb503ac4:
     "It climbed down the mushroom and went away in the grass."
 
 # game/script.rpy:1767
-translate simple_english chapter5_897b1657:
+translate simple_english chapter5_9eba681a:
 
     # caterpillar "One side will make you grow taller, and the other side will make you grow shorter."
+    #voice "caterpillar24"
     caterpillar "One side makes you taller, the other side makes you shorter."
 
 # game/script.rpy:1769
@@ -3228,9 +3254,10 @@ translate simple_english chapter5_f8f85ba6:
     alice "One side of what? The other side of what?"
 
 # game/script.rpy:1770
-translate simple_english chapter5_45692869:
+translate simple_english chapter5_80460582:
 
     # caterpillar "Of the mushroom."
+    #voice "caterpillar25"
     caterpillar "Of the mushroom."
 
 # game/script.rpy:1771
@@ -5420,9 +5447,10 @@ translate simple_english chapter8_5c9999d5:
     five "I couldn't help it, Seven bumped my elbow."
 
 # game/script.rpy:3037
-translate simple_english chapter8_a440331a:
+translate simple_english chapter8_a28dfc7a:
 
     # seven "That’s right, Five! Always lay the blame on others!"
+    #voice "seven1"
     seven "That’s right, Five! Always lay the blame on others!"
 
 # game/script.rpy:3041
@@ -5444,9 +5472,10 @@ translate simple_english chapter8_90bdad0a:
     two "Why?"
 
 # game/script.rpy:3050
-translate simple_english chapter8_01fd4668:
+translate simple_english chapter8_d684d297:
 
     # seven "That’s none of your business, Two!"
+    #voice "seven2"
     seven "It's none of your business, Two!"
 
 # game/script.rpy:3054
@@ -5462,9 +5491,10 @@ translate simple_english chapter8_e9b2136f:
     "Seven dropped his paintbrush..."
 
 # game/script.rpy:3059
-translate simple_english chapter8_9bed02e8:
+translate simple_english chapter8_34764379:
 
     # seven "Well, of all the unjust things—"
+    #voice "seven3"
     seven "Well, of all the unjust things—"
 
 # game/script.rpy:3063
@@ -6738,9 +6768,10 @@ translate simple_english ch9_gryphon_d81c24d5:
     "The Gryphon sat up and rubbed its eyes. It watched the Queen until she was gone, then it chuckled."
 
 # game/script.rpy:3923
-translate simple_english ch9_gryphon_ef8fe338:
+translate simple_english ch9_gryphon_f0b78f09:
 
     # gryphon "What fun!"
+    #voice "gryphon01"
     gryphon "How enjoyable!"
 
 # game/script.rpy:3925
@@ -6750,9 +6781,10 @@ translate simple_english ch9_gryphon_72864d29:
     alice "What's enjoyable?"
 
 # game/script.rpy:3927
-translate simple_english ch9_gryphon_db033e4f:
+translate simple_english ch9_gryphon_5962f533:
 
     # gryphon "Why, she. It’s all her fancy, that: they never executes nobody, you know. Come on!"
+    #voice "gryphon02"
     gryphon "She's enjoyable. She alway sentences everyone, but they never really execute anyone, you know. Come on!"
 
 # game/script.rpy:3929
@@ -6780,9 +6812,10 @@ translate simple_english ch9_gryphon_a961bec8:
     alice "What is making him sad?"
 
 # game/script.rpy:3946
-translate simple_english ch9_gryphon_f7761561:
+translate simple_english ch9_gryphon_a44a7e22:
 
     # gryphon "It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!"
+    #voice "gryphon03"
     gryphon "That's just his imagination; he doesn't feel sad at all, you know. Come on!"
 
 # game/script.rpy:3954
@@ -6792,9 +6825,10 @@ translate simple_english ch9_gryphon_ac40b947:
     "They approached the Mock Turtle. He had big teary eyes but didn't say anything."
 
 # game/script.rpy:3956
-translate simple_english ch9_gryphon_bdb8f086:
+translate simple_english ch9_gryphon_b61e9624:
 
     # gryphon "This here young lady, she wants for to know your history, she do."
+    #voice "gryphon04"
     gryphon "This young lady wants to know your story."
 
 # game/script.rpy:3958
@@ -6840,9 +6874,10 @@ translate simple_english ch9_gryphon_b994e6ec:
     "After these words, there was a long pause, only interrupted by some occasional exclamations of:"
 
 # game/script.rpy:3975
-translate simple_english ch9_gryphon_0be2d6ad:
+translate simple_english ch9_gryphon_e39eb7b6:
 
     # gryphon "Hjckrrh!"
+    #voice "gryphon05"
     gryphon "Hjckrrh!"
 
 # game/script.rpy:3978
@@ -6882,9 +6917,10 @@ translate simple_english ch9_gryphon_029dbfd6:
     mock "We called him Tortoise because he taught us, really you are very dull!"
 
 # game/script.rpy:3998
-translate simple_english ch9_gryphon_f2876af3:
+translate simple_english ch9_gryphon_db215bd0:
 
     # gryphon "You ought to be ashamed of yourself for asking such a simple question."
+    #voice "gryphon06"
     gryphon "You should feel bad for asking such an easy question."
 
 # game/script.rpy:4003
@@ -6900,9 +6936,10 @@ translate simple_english ch9_gryphon_e0ef082b:
     "Finally, the Gryphon spoke to the Mock Turtle:"
 
 # game/script.rpy:4008
-translate simple_english ch9_gryphon_5e50f9a0:
+translate simple_english ch9_gryphon_7850ba56:
 
     # gryphon "Drive on, old fellow! Don’t be all day about it!"
+    #voice "gryphon07"
     gryphon "Continue, old friend!"
 
 # game/script.rpy:4012
@@ -6924,9 +6961,10 @@ translate simple_english ch9_gryphon_fbc2788a:
     mock "You did."
 
 # game/script.rpy:4024
-translate simple_english ch9_gryphon_b5c18e5c:
+translate simple_english ch9_gryphon_28b75ed5:
 
     # gryphon "Hold your tongue!"
+    #voice "gryphon08"
     gryphon "Be quiet!"
 
 # game/script.rpy:4028
@@ -7020,15 +7058,17 @@ translate simple_english ch9_gryphon_378c67b8:
     "The Gryphon raised both of its paws in surprise."
 
 # game/script.rpy:4083
-translate simple_english ch9_gryphon_63550c54:
+translate simple_english ch9_gryphon_d60d3098:
 
     # gryphon "What! Never heard of uglifying!"
+    #voice "gryphon09"
     gryphon "What! You've never heard of uglifying!"
 
 # game/script.rpy:4084
-translate simple_english ch9_gryphon_82e70eea:
+translate simple_english ch9_gryphon_472bfc27:
 
     # gryphon "You know what to beautify is, I suppose?"
+    #voice "gryphon10"
     gryphon "You know what to beautify is, I suppose?"
 
 # game/script.rpy:4088
@@ -7038,9 +7078,10 @@ translate simple_english ch9_gryphon_519ce9e3:
     alice "Yes, it means to make something look nicer."
 
 # game/script.rpy:4092
-translate simple_english ch9_gryphon_1a72530f:
+translate simple_english ch9_gryphon_08b15dc9:
 
     # gryphon "Well, then, if you don’t know what to uglify is, you are a simpleton."
+    #voice "gryphon11"
     gryphon "Well, then, if you don’t know what to uglify is, you are a simpleton."
 
 # game/script.rpy:4096
@@ -7080,9 +7121,10 @@ translate simple_english ch9_gryphon_79ce8738:
     mock "I'm too stiff. And the Gryphon never learned it."
 
 # game/script.rpy:4114
-translate simple_english ch9_gryphon_b4480a6e:
+translate simple_english ch9_gryphon_1590433b:
 
     # gryphon "Hadn’t time, I went to the Classics master, though. He was an old crab, he was."
+    #voice "gryphon12"
     gryphon "I didn't have time, but I went to the Classics teacher instead. He was and old crab."
 
 # game/script.rpy:4118
@@ -7092,9 +7134,10 @@ translate simple_english ch9_gryphon_51d86a7e:
     mock "I never went to him, he taught Laughing and Grief, they used to say."
 
 # game/script.rpy:4122
-translate simple_english ch9_gryphon_d40dfd47:
+translate simple_english ch9_gryphon_623317e0:
 
     # gryphon "So he did, so he did."
+    #voice "gryphon13"
     gryphon "So he did, so he did."
 
 # game/script.rpy:4125
@@ -7122,9 +7165,10 @@ translate simple_english ch9_gryphon_6691a3a2:
     alice "What an interesting plan!"
 
 # game/script.rpy:4141
-translate simple_english ch9_gryphon_62e225b7:
+translate simple_english ch9_gryphon_f8e4eaae:
 
     # gryphon "That’s the reason they’re called lessons, because they lessen from day to day."
+    #voice "gryphon14"
     gryphon "That’s the reason they’re called lessons, because they lessen from day to day."
 
 # game/script.rpy:4146
@@ -7152,9 +7196,10 @@ translate simple_english ch9_gryphon_7560294f:
     alice "What did you do on the twelfth?"
 
 # game/script.rpy:4160
-translate simple_english ch9_gryphon_21669018:
+translate simple_english ch9_gryphon_599de3c2:
 
     # gryphon "That’s enough about lessons, tell her something about the games now."
+    #voice "gryphon15"
     gryphon "Okay, let's stop talking about lessons and talk about games instead."
 
 # game/script.rpy:4168
@@ -7176,9 +7221,10 @@ translate simple_english chapter10_d4165253:
     "He wanted to talk to Alice but couldn't because he was crying."
 
 # game/script.rpy:4189
-translate simple_english chapter10_24f898cd:
+translate simple_english chapter10_a73cb885:
 
     # gryphon "Same as if he had a bone in his throat."
+    #voice "gryphon16"
     gryphon "I think he has something stuck in his throat."
 
 # game/script.rpy:4190
@@ -7236,9 +7282,10 @@ translate simple_english chapter10_01ed0265:
     alice "Not, really. What kind of dance is it?"
 
 # game/script.rpy:4220
-translate simple_english chapter10_878a0239:
+translate simple_english chapter10_66328d1f:
 
     # gryphon "Why, you first form into a line along the sea-shore—"
+    #voice "gryphon17"
     gryphon "First, you should line up along the sea-shore—"
 
 # game/script.rpy:4224
@@ -7254,9 +7301,10 @@ translate simple_english chapter10_2dc04517:
     mock "Seals, turtles, salmon, and more animals; then, once you've moved all the jellyfish aside—"
 
 # game/script.rpy:4229
-translate simple_english chapter10_42a78586:
+translate simple_english chapter10_26c1b572:
 
     # gryphon "That generally takes some time."
+    #voice "gryphon18"
     gryphon "That generally takes some time."
 
 # game/script.rpy:4233
@@ -7266,9 +7314,10 @@ translate simple_english chapter10_a142307c:
     mock "—you advance twice—"
 
 # game/script.rpy:4237
-translate simple_english chapter10_0b053a90:
+translate simple_english chapter10_234f3c0a:
 
     # gryphon "Each with a lobster as a partner!"
+    #voice "gryphon19"
     gryphon "Each with a lobster as a partner!"
 
 # game/script.rpy:4241
@@ -7278,9 +7327,10 @@ translate simple_english chapter10_8e10d41c:
     mock "Of course, advance twice, stand next to your partner—"
 
 # game/script.rpy:4245
-translate simple_english chapter10_40ed3f4e:
+translate simple_english chapter10_a45fa52c:
 
     # gryphon "—change lobsters, and retire in same order."
+    #voice "gryphon20"
     gryphon "-change lobsters and then get back to your position."
 
 # game/script.rpy:4249
@@ -7290,9 +7340,10 @@ translate simple_english chapter10_22cc09a6:
     mock "Next, you throw the—"
 
 # game/script.rpy:4257
-translate simple_english chapter10_419a1803:
+translate simple_english chapter10_95fc0067:
 
     # gryphon "The lobsters!"
+    #voice "gryphon21"
     gryphon "The lobsters!"
 
 # game/script.rpy:4261
@@ -7302,9 +7353,10 @@ translate simple_english chapter10_4630b7c2:
     mock "-as far into the ocean as possible-"
 
 # game/script.rpy:4265
-translate simple_english chapter10_d3599b62:
+translate simple_english chapter10_710eeaf6:
 
     # gryphon "Swim after them!"
+    #voice "gryphon22"
     gryphon "Swim after them!"
 
 # game/script.rpy:4276
@@ -7314,9 +7366,10 @@ translate simple_english chapter10_865bc280:
     mock "Do a flip in the ocean!"
 
 # game/script.rpy:4280
-translate simple_english chapter10_3cf13861:
+translate simple_english chapter10_557ce688:
 
     # gryphon "Change lobsters again!"
+    #voice "gryphon23"
     gryphon "Change lobsters again!"
 
 # game/script.rpy:4284
@@ -7368,9 +7421,10 @@ translate simple_english chapter10_443d0a9e:
     mock "We don't need the lobsters. Who will sing?"
 
 # game/script.rpy:4311
-translate simple_english chapter10_2fd1b88d:
+translate simple_english chapter10_bac8e830:
 
     # gryphon "Oh, you sing. I’ve forgotten the words."
+    #voice "gryphon24"
     gryphon "Oh, you're singing. I forgot the lyrics."
 
 # game/script.rpy:4330
@@ -7500,39 +7554,45 @@ translate simple_english chapter10_6a7b7c04:
     mock "But they have their tails in their mouths; and the reason is— *yawn* —Tell her about the reason and all that."
 
 # game/script.rpy:4390
-translate simple_english chapter10_93c78c1c:
+translate simple_english chapter10_13532e4c:
 
     # gryphon "The reason is, that they would go with the lobsters to the dance."
+    #voice "gryphon25"
     gryphon "The reason is, that they would go with the lobsters to the dance."
 
 # game/script.rpy:4391
-translate simple_english chapter10_1b5f1f24:
+translate simple_english chapter10_f0dbbe4b:
 
     # gryphon "So they got thrown out to sea."
+    #voice "gryphon26"
     gryphon "So they got thrown out to sea."
 
 # game/script.rpy:4392
-translate simple_english chapter10_1d3939d9:
+translate simple_english chapter10_75953933:
 
     # gryphon "So they had to fall a long way."
+    #voice "gryphon27"
     gryphon "So they had to fall a long way."
 
 # game/script.rpy:4393
-translate simple_english chapter10_21f6d5a8:
+translate simple_english chapter10_ca0f64bb:
 
     # gryphon "So they got their tails fast in their mouths."
+    #voice "gryphon28"
     gryphon "So they got their tails in their mouths."
 
 # game/script.rpy:4394
-translate simple_english chapter10_8ee701b6:
+translate simple_english chapter10_0dd337b6:
 
     # gryphon "So they couldn’t get them out again."
+    #voice "gryphon29"
     gryphon "So they couldn’t get them out again."
 
 # game/script.rpy:4395
-translate simple_english chapter10_68f63784:
+translate simple_english chapter10_87af12e7:
 
     # gryphon "That’s all."
+    #voice "gryphon30"
     gryphon "That’s all."
 
 # game/script.rpy:4399
@@ -7542,9 +7602,10 @@ translate simple_english chapter10_9bef08db:
     alice "Thank you, it’s very interesting. I never knew so much about a whiting before."
 
 # game/script.rpy:4403
-translate simple_english chapter10_a3890bb0:
+translate simple_english chapter10_b0b5c1e4:
 
     # gryphon "I can tell you more than that, if you like. Do you know why it’s called a whiting?"
+    #voice "gryphon31"
     gryphon "I can tell you more than that, if you like. Do you know why it’s called a whiting?"
 
 # game/script.rpy:4407
@@ -7554,9 +7615,10 @@ translate simple_english chapter10_5d2a5f6d:
     alice "I never thought about it. Why?"
 
 # game/script.rpy:4411
-translate simple_english chapter10_d5ba95db:
+translate simple_english chapter10_9455ca21:
 
     # gryphon "It does the boots and shoes."
+    #voice "gryphon32"
     gryphon "It cleans the shoes and boots."
 
 # game/script.rpy:4417
@@ -7572,9 +7634,10 @@ translate simple_english chapter10_5533d8c3:
     alice "Cleans the boots and shoes!?"
 
 # game/script.rpy:4422
-translate simple_english chapter10_b4fd2db0:
+translate simple_english chapter10_0947bf98:
 
     # gryphon "Why, what are your shoes done with? I mean, what makes them so shiny?"
+    #voice "gryphon33"
     gryphon "Why are your shoes so shiny? What did you use to make them that way?"
 
 # game/script.rpy:4426
@@ -7590,9 +7653,10 @@ translate simple_english chapter10_625c18cb:
     alice "They’re done with blacking, I believe."
 
 # game/script.rpy:4431
-translate simple_english chapter10_a6160fee:
+translate simple_english chapter10_506ef3ab:
 
     # gryphon "Boots and shoes under the sea, are done with a whiting. Now you know."
+    #voice "gryphon34"
     gryphon "Boots and shoes under the sea, are done with a whiting. Now you know."
 
 # game/script.rpy:4435
@@ -7602,9 +7666,10 @@ translate simple_english chapter10_eb7d7256:
     alice "What are the shoes made from?"
 
 # game/script.rpy:4439
-translate simple_english chapter10_daefcf6f:
+translate simple_english chapter10_1875143d:
 
     # gryphon "Soles and eels, of course, any shrimp could have told you that."
+    #voice "gryphon35"
     gryphon "Soles and eels, of course, any shrimp could have told you that."
 
 # game/script.rpy:4443
@@ -7644,9 +7709,10 @@ translate simple_english chapter10_a4e3f0f1:
     mock "*offended* I mean what I say."
 
 # game/script.rpy:4467
-translate simple_english chapter10_74f1194d:
+translate simple_english chapter10_b5977e4f:
 
     # gryphon "Come, let’s hear some of your adventures."
+    #voice "gryphon36"
     gryphon "Come, tell us about your adventures."
 
 # game/script.rpy:4472
@@ -7662,9 +7728,10 @@ translate simple_english chapter10_c6c33d18:
     mock "Please explain that."
 
 # game/script.rpy:4480
-translate simple_english chapter10_bd47d0c2:
+translate simple_english chapter10_823e906c:
 
     # gryphon "No, no! The adventures first, explanations take such a dreadful time."
+    #voice "gryphon37"
     gryphon "No, no! Let's talk about the adventures first. Explanations always take so long."
 
 # game/script.rpy:4485
@@ -7692,9 +7759,10 @@ translate simple_english chapter10_11a8b7ff:
     mock "That's very interesting."
 
 # game/script.rpy:4503
-translate simple_english chapter10_41e8b392:
+translate simple_english chapter10_2411a7bf:
 
     # gryphon "It’s all about as curious as it can be."
+    #voice "gryphon38"
     gryphon "It's very interesting."
 
 # game/script.rpy:4507
@@ -7716,9 +7784,10 @@ translate simple_english chapter10_986b35dd:
     "He stared at the Gryphon as though he believed it had authority over Alice."
 
 # game/script.rpy:4513
-translate simple_english chapter10_d60068cd:
+translate simple_english chapter10_129c0831:
 
     # gryphon "Stand up and repeat ‘Tis the voice of the sluggard’"
+    #voice "gryphon39"
     gryphon "Please stand up and say, 'This the voice of the sluggard'"
 
 # game/script.rpy:4517
@@ -7746,9 +7815,10 @@ translate simple_english chapter10_6c0aac53:
     alice "The lobster spoke, I heard him say, \n{space=30}'You woke me too soon, I need to lay.' \nLike a door swings, he turns in bed, \n{space=30}moving his sides, shoulders, and head."
 
 # game/script.rpy:4534
-translate simple_english chapter10_98f61f26:
+translate simple_english chapter10_88be16a2:
 
     # gryphon "That’s different from what I used to say when I was a child."
+    #voice "gryphon40"
     gryphon "That's not how I remember it."
 
 # game/script.rpy:4538
@@ -7770,9 +7840,10 @@ translate simple_english chapter10_a4f50617:
     mock "I want someone to explain it to me."
 
 # game/script.rpy:4550
-translate simple_english chapter10_0c72c653:
+translate simple_english chapter10_827b61fa:
 
     # gryphon "She can’t explain it. Go on with the next verse."
+    #voice "gryphon41"
     gryphon "She can’t explain it. Go on with the next verse."
 
 # game/script.rpy:4554
@@ -7800,9 +7871,10 @@ translate simple_english chapter10_39a31f0b:
     "She was very confused by everything and wanted to talk about something else."
 
 # game/script.rpy:4565
-translate simple_english chapter10_afa298e8:
+translate simple_english chapter10_dd5b14d0:
 
     # gryphon "Go on with the next verse, it begins ‘I passed by his garden’."
+    #voice "gryphon42"
     gryphon "Go on with the next verse, it begins ‘I passed by his garden’."
 
 # game/script.rpy:4569
@@ -7830,9 +7902,10 @@ translate simple_english chapter10_e1694bdd:
     mock "I don't understand it."
 
 # game/script.rpy:4587
-translate simple_english chapter10_29d06467:
+translate simple_english chapter10_9687a8ce:
 
     # gryphon "Yes, I think you’d better leave off."
+    #voice "gryphon43"
     gryphon "Yes, I think you better stop."
 
 # game/script.rpy:4591
@@ -7842,15 +7915,17 @@ translate simple_english chapter10_2acd46e9:
     "Alice was very happy stop."
 
 # game/script.rpy:4595
-translate simple_english chapter10_7e150fd2:
+translate simple_english chapter10_99ba0e1a:
 
     # gryphon "Shall we try another figure of the Lobster Quadrille?"
+    #voice "gryphon44"
     gryphon "Do you want to see another part of the Lobster Quadrille?"
 
 # game/script.rpy:4596
-translate simple_english chapter10_f184bc0e:
+translate simple_english chapter10_65630785:
 
     # gryphon "Or would you like the Mock Turtle to sing you a song?"
+    #voice "gryphon45"
     gryphon "Or would you like the Mock Turtle to sing you a song?"
 
 # game/script.rpy:4601
@@ -7860,9 +7935,10 @@ translate simple_english chapter10_7dd682f8:
     alice "Could the Mock Turtle please sing a song?"
 
 # game/script.rpy:4605
-translate simple_english chapter10_980dff85:
+translate simple_english chapter10_bcd87bba:
 
     # gryphon "Hm! No accounting for tastes! Sing her ‘Turtle Soup’, will you, old fellow?"
+    #voice "gryphon46"
     gryphon "Hmm! Could you please sing 'Turtle Soup' for her, my friend?"
 
 # game/script.rpy:4610
@@ -7920,9 +7996,10 @@ translate simple_english chapter10_deef1b12:
     mock "Soo—oop of the e—e—evening,\n Beautiful, beauti—FUL SOUP!"
 
 # game/script.rpy:4632
-translate simple_english chapter10_7e34bac8:
+translate simple_english chapter10_cd3b4eee:
 
     # gryphon "Chorus again!"
+    #voice "gryphon47"
     gryphon "Chorus again!"
 
 # game/script.rpy:4636
@@ -7932,9 +8009,10 @@ translate simple_english chapter10_3cb0569f:
     "The Mock Turtle had just started to say it again when they heard a shout that said, 'The trial is starting!' in the distance."
 
 # game/script.rpy:4640
-translate simple_english chapter10_6982cbdf:
+translate simple_english chapter10_ae15f199:
 
     # gryphon "Come on!"
+    #voice "gryphon49"
     gryphon "Come on!"
 
 # game/script.rpy:4650
@@ -7956,9 +8034,10 @@ translate simple_english chapter10_30e61242:
     "Alice panted as she ran."
 
 # game/script.rpy:4653
-translate simple_english chapter10_6982cbdf_1:
+translate simple_english chapter10_ecf29497:
 
     # gryphon "Come on!"
+    #voice "gryphon48"
     gryphon "Come on!"
 
 # game/script.rpy:4654
@@ -8070,9 +8149,10 @@ translate simple_english ch11_court_f130219b:
     alice "*whispering* What are they doing? They don't have anything to write down yet, the trial hasn't started."
 
 # game/script.rpy:4793
-translate simple_english ch11_court_aeef29ef:
+translate simple_english ch11_court_7b9a2435:
 
     # gryphon "*whispering* They’re putting down their names, for fear they should forget them before the end of the trial."
+    #voice "gryphon50"
     gryphon "*whispering* They're writing their names so they don't forget them before the trial is over."
 
 # game/script.rpy:4795
@@ -8984,9 +9064,10 @@ translate simple_english chapter12_d3e0f0bb:
     king "It must have been written to someone, unless it was written to nobody, which is not very common."
 
 # game/script.rpy:5344
-translate simple_english chapter12_a0daa1b7:
+translate simple_english chapter12_a96ab3d7:
 
     # bill "Who is it directed to?"
+    #voice "bill2"
     bill "Who is it addressed to?"
 
 # game/script.rpy:5348
