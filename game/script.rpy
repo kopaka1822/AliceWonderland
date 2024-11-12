@@ -360,6 +360,7 @@ label chapter1:
     camera:
         ease cam_transition xpos rabbit_riverbank ypos 400 zpos -300
 
+    voice "rabbit01"
     rabbit "Oh dear! Oh dear! I shall be too late!"
 
     voice "n1005"
@@ -536,6 +537,7 @@ label chapter1:
     camera:
         perspective True
         ease cam_transition xpos 0.14 ypos 955 zoom 2.09
+    voice "rabbit02"
     rabbit "Oh my ears and whiskers, how late it's getting!"
     
     show rabbit normal at breathing zorder 5:
@@ -720,6 +722,7 @@ label chapter2:
         ease 1.0 xpos 0.84
     camera:
         ease cam_transition xpos 355 ypos 385 zpos -365
+    voice "rabbit03"
     rabbit "Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!"
     voice "n1067"
     "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice:"
@@ -1440,6 +1443,7 @@ label chapter4:
         ease 5.0 xpos 0.2 ypos 0.7
     "Very soon the Rabbit noticed Alice, as she went hunting about." # , and called out to her in an angry tone"
     show alice surprised at breathing
+    voice "rabbit04"
     rabbit "*angry* Why, Mary Ann, what are you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!"
     show alice surprised at breathing:
         linear 1.0 xpos 2.0
@@ -1512,7 +1516,9 @@ label chapter4:
 
     "And so she went on, taking first one side and then the other, and making quite a conversation of it altogether; but after a few minutes she heard a voice outside, and stopped to listen."
 
+    voice "rabbit05"
     rabbit "Mary Ann! Mary Ann!"
+    voice "rabbit06"
     rabbit "Fetch me my gloves this moment!"
 
     play sound "sfx/upstairs.mp3"
@@ -1521,6 +1527,7 @@ label chapter4:
 
     play sound "sfx/door_closed.mp3"
     "Presently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure."
+    voice "rabbit07"
     rabbit "Then I’ll go round and get in at the window."
 
     alice "(That you won’t!)"
@@ -1531,26 +1538,33 @@ label chapter4:
     "She did not get hold of anything, but she heard a little shriek and a fall, and a crash of broken glass, from which she concluded that it was just possible it had fallen into a cucumber-frame, or something of the sort."
 
     "Next came an angry voice—"
+    voice "rabbit08"
     rabbit "Pat! Pat! Where are you?"
     "And then a voice she had never heard before:"
     voice "pat1"
     pat "Sure then I’m here! Digging for apples, yer honour!"
+    voice "rabbit09"
     rabbit "Digging for apples, indeed!"
+    voice "rabbit10"
     rabbit "Here! Come and help me out of this!"
     "..."
     play sound "sfx/shatter.mp3"
     "(Sounds of more broken glass)"
+    voice "rabbit11"
     rabbit "Now tell me, Pat, what’s that in the window?"
     voice "pat2"
     pat "Sure, it’s an arrumm, yer honour!"
+    voice "rabbit12"
     rabbit "An arm, you goose! Who ever saw one that size? Why, it fills the whole window!"
-    voice "pat3" # TODO
+    voice "pat3"
     pat "Sure, it does, yer honour: but it’s an arm for all that."
+    voice "rabbit13"
     rabbit "Well, it’s got no business there, at any rate: go and take it away!"
 
     "There was a long silence after this, and Alice could only hear whispers now and then; such as:"
     voice "pat4"
     pat "Sure, I don’t like it, yer honour, at all, at all!"
+    voice "rabbit14"
     rabbit "Do as I tell you, you coward!"
     play sound "sfx/snatch.mp3"
     "And at last she spread out her hand again, and made another snatch in the air."
@@ -1593,6 +1607,7 @@ label chapter4:
     "The first thing she heard was a general chorus of:"
     everyone "There goes Bill!"
     "Then the Rabbit’s voice along—"
+    voice "rabbit15"
     rabbit "Catch him, you by the hedge!"
     play sound "sfx/shatter.mp3"
     "..."
@@ -1606,7 +1621,7 @@ label chapter4:
     voice "bill1"
     bill "Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
     anon "So you did, old fellow!" # B
-
+    voice "rabbit16"
     rabbit "We must burn the house down!"
     "Alice called out as loud as she could:"
     alice "If you do, I’ll set Dinah at you!"
@@ -1615,6 +1630,7 @@ label chapter4:
     "There was a dead silence instantly."
     alice "(I wonder what they will do next! If they had any sense, they’d take the roof off)"
     "After a minute or two, they began moving about again."
+    voice "rabbit17"
     rabbit "A barrowful will do, to begin with."
 
     alice "(A barrowful of what?)"
@@ -3549,6 +3565,7 @@ label chapter8:
     camera:
         ease cam_transition xpos king_garden zoom 1.0 ypos 0
     "The King laid his hand upon her arm, and timidly said:"
+    voice "king01"
     king "Consider, my dear: she is only a child!"
 
     camera:
@@ -3715,27 +3732,29 @@ label chapter8:
 
     show rabbit normal zorder 200 at breathing:
         pos (0.57, 0.85) zoom rabbit_scale
+    voice "rabbit18"
     rabbit "It’s—it’s a very fine day!" # timid voice
 
     "She was walking by the White Rabbit, who was peeping anxiously into her face."
 
     alice "Very, —where’s the Duchess?"
-
+    voice "rabbit19"
     rabbit "Hush! Hush!" # low and hurried tone
     "The rabbit looked anxiously over his shoulder as he spoke, and then raised himself upon tiptoe, put his mouth close to her ear, and whispered:"
+    voice "rabbit20"
     rabbit "She’s under sentence of execution."
 
     alice "What for?"
-
+    voice "rabbit21"
     rabbit "Did you say ‘What a pity!’?"
 
     alice "No, I didn’t, I don’t think it’s at all a pity. I said ‘What for?’"
-
+    voice "rabbit22"
     rabbit "She boxed the Queen’s ears—"
 
     show alice happy at breathing
     "Alice gave a little scream of laughter."
-
+    voice "rabbit23"
     rabbit "Oh, hush! The Queen will hear you! You see, she came rather late, and the Queen said—"
 
 label ch8_croquet:
@@ -3867,11 +3886,12 @@ label ch8_croquet:
         pos (king_croquet, 0.9) zoom king_scale
     camera:
         ease cam_transition xpos cat_croquet ypos 0 zoom 1.0
+    voice "king02"
     king "Who are you talking to?" # said the King, going up to Alice
     "The king was looking at the Cat’s head with great curiosity."
-
+    
     alice "It’s a friend of mine—a Cheshire Cat, allow me to introduce it."
-
+    voice "king03"
     king "I don’t like the look of it at all, however, it may kiss my hand if it likes."
 
     voice "cat19"
@@ -3879,6 +3899,7 @@ label ch8_croquet:
 
     show king scared at breathing:
         linear 1.0 xpos king_croquet2
+    voice "king04"
     king "Don’t be impertinent, and don’t look at me like that!"
 
     camera:
@@ -3887,6 +3908,7 @@ label ch8_croquet:
 
     alice "A cat may look at a king, I’ve read that in some book, but I don’t remember where."
 
+    voice "king05"
     king "Well, it must be removed."
 
     show queen normal at breathing:
@@ -3894,6 +3916,7 @@ label ch8_croquet:
     camera:
         ease cam_transition xpos 0.84 ypos 0 zoom 1.0
     "The King called the Queen, who was passing at the moment:"
+    voice "king06"
     king "My dear! I wish you would have this cat removed!"
 
     camera:
@@ -3908,6 +3931,7 @@ label ch8_croquet:
     show king at breathing:
         pause 1.5
         linear 1.0 xpos 0.0
+    voice "king07"
     king "I’ll fetch the executioner myself." # said the King eagerly, and he hurried off.
 
     camera:
@@ -4167,6 +4191,7 @@ label chapter9:
     camera:
         linear 10.0 xpos -0.25 ypos 0 zoom 1.0
     "As they walked off together, Alice heard the King say in a low voice, to the company generally:"
+    voice "king08"
     king "You are all pardoned."
     alice "(Come, that’s a good thing!)"
     "Alice had felt quite unhappy at the number of executions the Queen had ordered."
@@ -5126,6 +5151,7 @@ label ch11_court:
     alice "Stupid things!" # Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -500
+    voice "rabbit24"
     rabbit "Silence in the court!"
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -500
@@ -5153,13 +5179,14 @@ label ch11_court:
         ypos 1.0 xpos 875 zpos -700 zoom alice_scale
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000
+    voice "king09"
     king "Herald, read the accusation!"
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     
     play sound "sfx/fanfare.mp3"
     "On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—"
-
+    voice "rabbit25"
     rabbit "The Queen of Hearts, she made some tarts,
     \n{space=30}All on a summer day:
     \nThe Knave of Hearts, he stole those tarts,
@@ -5167,20 +5194,24 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000
+    voice "king10"
     king "Consider your verdict."
     #"The King said to the jury."
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000
+    voice "rabbit26"
     rabbit "Not yet, not yet! There’s a great deal to come before that!"
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000
+    voice "king11"
     king "Call the first witness."
 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000
     play sound "sfx/fanfare.mp3"
     "The White Rabbit blew three blasts on the trumpet."
+    voice "rabbit27"
     rabbit "First witnes!"
 
     show hatter at breathing:
@@ -5197,6 +5228,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king12"
     king "You ought to have finished. When did you begin?"
 
     # dormouse and march hare
@@ -5225,6 +5257,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king13"
     king "Write that down."
 
     camera:
@@ -5233,6 +5266,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king14"
     king "Take off your hat."
     
     camera:
@@ -5241,6 +5275,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king15"
     king "Stolen!"
 
     camera:
@@ -5254,6 +5289,7 @@ label ch11_court:
     "Here the Queen put on her spectacles, and began staring at the Hatter, who turned pale and fidgeted."
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king16"
     king "Give your evidence and don’t be nervous, or I’ll have you executed on the spot."
 
     camera:
@@ -5305,6 +5341,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king17"
     king "*angry* Give your evidence, or I’ll have you executed, whether you’re nervous or not."
 
     camera:
@@ -5313,6 +5350,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king18"
     king "The twinkling of the what?"
 
     camera:
@@ -5321,7 +5359,9 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king19"
     king "Of course twinkling begins with a T!"
+    voice "king20"
     king "Do you take me for a dunce? Go on!"
     
     camera:
@@ -5344,6 +5384,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king21"
     king "He denies it, —leave out that part."
 
     camera:
@@ -5368,6 +5409,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king22"
     king "You must remember, or I’ll have you executed."
     "The miserable Hatter dropped his teacup and bread-and-butter, and went down on one knee."
 
@@ -5377,6 +5419,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king23"
     king "You’re a very poor speaker."
 
     "Here one of the guinea-pigs cheered, and was immediately suppressed by the officers of the court."
@@ -5389,6 +5432,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king24"
     king "If that’s all you know about it, you may stand down."
 
     camera:
@@ -5397,6 +5441,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king25"
     king "Then you may sit down."
     "Here the other guinea-pig cheered, and was suppressed."
 
@@ -5411,6 +5456,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king26"
     king "You may go."
 
     camera:
@@ -5431,6 +5477,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king27"
     king "Call the next witness!"
 
     camera:
@@ -5442,6 +5489,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king28"
     king "Give your evidence."
 
     camera:
@@ -5451,15 +5499,18 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     "The King looked anxiously at the White Rabbit:"
+    voice "rabbit28"
     rabbit "*whispering* Your Majesty must cross-examine this witness."
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king29"
     king "Well, if I must, I must."
     "After folding his arms and frowning at the cook till his eyes were nearly out of sight, he said in a deep voice:"
     
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king30"
     king "What are tarts made of?"
 
     camera:
@@ -5484,11 +5535,14 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king31"
     king "Never mind!" # said the King, with an air of great relief. 
+    voice "king32"
     king "Call the next witness."
     camera:
         ease cam_transition xpos 3905 ypos 0 zpos -1000
     "And he added in an undertone to the Queen:"
+    voice "king33"
     king "Really, my dear, you must cross-examine the next witness. It quite makes my forehead ache!"
 
     show alice thinking at breathing
@@ -5500,6 +5554,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
+    voice "rabbit29"
     rabbit "Alice!"
 
 label chapter12:
@@ -5554,9 +5609,11 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king34"
     king "The trial cannot proceed, until all the jurymen are back in their proper places." # tone of great dismay
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1200 # king zoom
+    voice "king35"
     king "All!"
     "He repeated the last word with great emphasis, looking hard at Alice as he said so."
     
@@ -5575,6 +5632,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king36"
     king "What do you know about this business?"
 
     camera:
@@ -5583,6 +5641,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king37"
     king "Nothing whatever?" # persisted the King.
 
     camera:
@@ -5591,6 +5650,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king38"
     king "That’s very important."
 
     camera:
@@ -5604,10 +5664,12 @@ label chapter12:
     "He said in a very respectful tone, but frowning and making faces at him as he spoke."
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king39"
     king "Unimportant, of course, I meant."
     "The King  went on to himself in an undertone:"
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1200 # king zoom
+    voice "king40"
     king "(important—unimportant—unimportant—important—)"
     "As if he were trying which word sounded best."
 
@@ -5621,8 +5683,10 @@ label chapter12:
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     "At this moment the King, who had been for some time busily writing in his note-book, cackled out:"
+    voice "king41"
     king "Silence!"
     "And he read out from his book:"
+    voice "king42"
     king "Rule Forty-two. All persons more than a mile high have to leave the court."
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
@@ -5633,6 +5697,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king43"
     king "You are."
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
@@ -5645,6 +5710,7 @@ label chapter12:
     
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king44"
     king "It’s the oldest rule in the book."
 
     camera:
@@ -5655,6 +5721,7 @@ label chapter12:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     show king scared  at breathing
     "The King turned pale, and shut his note-book hastily."
+    voice "king45"
     king "Consider your verdict."
     "He said to the jury, in a low, trembling voice."
 
@@ -5662,8 +5729,10 @@ label chapter12:
     hide alice
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
+    voice "rabbit30"
     rabbit "There’s more evidence to come yet, please your Majesty."
     "The White Rabbit was jumping up in a great hurry."
+    voice "rabbit31"
     rabbit "This paper has just been picked up."
 
     camera:
@@ -5672,11 +5741,13 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
+    voice "rabbit32"
     rabbit "I haven’t opened it yet, but it seems to be a letter, written by the prisoner to—to somebody."
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     show king at breathing
+    voice "king46"
     king "It must have been that, unless it was written to nobody, which isn’t usual, you know."
 
     camera:
@@ -5686,8 +5757,10 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
+    voice "rabbit33"
     rabbit "It isn’t directed at all, in fact, there’s nothing written on the outside."
     "He unfolded the paper as he spoke."
+    voice "rabbit34"
     rabbit "It isn’t a letter, after all: it’s a set of verses."
 
     camera:
@@ -5696,6 +5769,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
+    voice "rabbit35"
     rabbit "No, they’re not, and that’s the queerest thing about it."
 
     camera:
@@ -5704,6 +5778,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king47"
     king "He must have imitated somebody else’s hand."
     "(The jury all brightened up again)"
 
@@ -5714,6 +5789,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king48"
     king "If you didn’t sign it, that only makes the matter worse. You must have meant some mischief, or else you’d have signed your name like an honest man."
     "There was a general clapping of hands at this: it was the first really clever thing the King had said that day."
     
@@ -5730,36 +5806,42 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king49"
     king "Read them."
 
     hide alice # because of clipping
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     "The White Rabbit put on his spectacles."
+    voice "rabbit36"
     rabbit "Where shall I begin, please your Majesty?"
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king50"
     king "Begin at the beginning, and go on till you come to the end: then stop."
     #"These were the verses the White Rabbit read:—"
     
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
+    voice "rabbit37"
     rabbit "They told me you had been to her,\n{space=30}And mentioned me to him:\nShe gave me a good character,\n{space=30}But said I could not swim."
-
+    voice "rabbit38"
     rabbit "He sent them word I had not gone\n{space=30}(We know it to be true):\nIf she should push the matter on,\n{space=30}What would become of you?"
-
+    voice "rabbit39"
     rabbit "I gave her one, they gave him two,\n{space=30}You gave us three or more;\nThey all returned from him to you,\n{space=30}Though they were mine before."
-
+    voice "rabbit40"
     rabbit "If I or she should chance to be\n{space=30}Involved in this affair,\nHe trusts to you to set them free,\n{space=30}Exactly as we were."
-
+    voice "rabbit41"
     rabbit "My notion was that you had been\n{space=30}(Before she had this fit)\nAn obstacle that came between\n{space=30}Him, and ourselves, and it."
-
+    voice "rabbit42"
     rabbit "Don’t let him know she liked them best,\n{space=30}For this must ever be\nA secret, kept from all the rest,\n{space=30}Between yourself and me."
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king51"
     king "That’s the most important piece of evidence we’ve heard yet." #,” said the King, rubbing his hands; 
+    voice "king52"
     king "So now let the jury—"
 
     show alice normal at breathing:
@@ -5774,9 +5856,12 @@ label chapter12:
     "The jury all wrote down on their slates: “She doesn’t believe there’s an atom of meaning in it”, but none of them attempted to explain the paper."
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king53"
     king "If there’s no meaning in it, that saves a world of trouble, you know, as we needn’t try to find any."
+    voice "king54"
     king "And yet I don’t know..."
     "He went on, spreading out the verses on his knee, and looking at them with one eye."
+    voice "king55"
     king "I seem to see some meaning in them, after all. “—said I could not swim—” you can’t swim, can you?"
 
     hide alice
@@ -5790,8 +5875,10 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king56"
     king "All right, so far."
     "The King went on muttering over the verses to himself:"
+    voice "king57"
     king "‘We know it to be true—’ that’s the jury, of course—‘I gave her one, they gave him two—’ why, that must be what he did with the tarts, you know—” "
 
     show alice normal at breathing:
@@ -5802,6 +5889,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king58"
     king "Why, there they are!"
 
     camera:
@@ -5810,6 +5898,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king59"
     king "Nothing can be clearer than that. Then again—‘before she had this fit—’ you never had fits, my dear, I think?"
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
@@ -5822,6 +5911,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king60"
     king "Then the words don’t fit you."
     "The King was looking round the court with a smile."
     "..."
@@ -5829,8 +5919,10 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "king61"
     king "*offended* It’s a pun!" 
     "Everybody laughed."
+    voice "king62"
     king "Let the jury consider their verdict."
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
