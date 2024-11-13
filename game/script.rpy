@@ -458,18 +458,19 @@ label chapter1:
     voice "n1018"
     "Presently she began again."
 
-    # voice "voice/alice009.mp3"
+    voice "alice009"
     alice "I wonder if I shall fall right through the earth! How funny it’ll seem to come out among the people that walk with their heads downward! The Antipathies, I think—"
 
     voice "n1019"
     "(she was rather glad there was no one listening, this time, as it didn’t sound at all the right word)"
 
-
+    voice "alice010"
     alice "—but I shall have to ask them what the name of the country is, you know. Please, Ma’am, is this New Zealand or Australia?"
 
     voice "n1020"
     "(and she tried to curtsey as she spoke—fancy curtseying as you’re falling through the air! Do you think you could manage it?)"
 
+    voice "alice011"
     alice "And what an ignorant little girl she’ll think me for asking! No, it’ll never do to ask: perhaps I shall see it written up somewhere."
 
     voice "n1021"
@@ -478,6 +479,7 @@ label chapter1:
     voice "n1022"
     "There was nothing else to do, so Alice soon began talking again."
 
+    voice "alice012"
     alice "Dinah’ll miss me very much to-night, I should think!"
 
     voice "n1023"
@@ -1205,6 +1207,7 @@ label ch3_start:
         ease cam_transition xpos muddy_alice_pos zpos 0 ypos 0
     voice "n1121"
     "And they all crowded round it, panting, and asking:"
+    voice "everyone1"
     everyone "But who has won?"
     voice "n1122"
     "This question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence."
@@ -1217,6 +1220,7 @@ label ch3_start:
     camera:
         ease cam_transition xpos muddy_alice_pos zpos 0 ypos 0
 
+    voice "everyone2"
     everyone "But who is to give the prizes?"
 
     camera:
@@ -1230,7 +1234,7 @@ label ch3_start:
 
     camera:
         ease cam_transition xpos muddy_alice_pos zpos 0 ypos 0
-
+    voice "everyone3"
     everyone "Prizes! Prizes!"
 
     show comfits at Position(ypos = 0.65 ) onlayer screens 

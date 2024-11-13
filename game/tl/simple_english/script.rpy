@@ -36,9 +36,10 @@ translate simple_english chapter1_3911639d:
     pass
 
 # game/script.rpy:328
-translate simple_english chapter1_d53f9006:
+translate simple_english chapter1_add4f7e1:
 
     # rabbit "Oh dear! Oh dear! I shall be too late!"
+    #voice "rabbit01"
     rabbit "Oh no! Oh no! I will be late!"
 
 # game/script.rpy:330
@@ -189,9 +190,10 @@ translate simple_english chapter1_e93b9439:
     "She began again:"
 
 # game/script.rpy:411
-translate simple_english chapter1_b4d2bb8b:
+translate simple_english chapter1_e4a44791:
 
     # alice "I wonder if I shall fall right through the earth! How funny it’ll seem to come out among the people that walk with their heads downward! The Antipathies, I think—"
+    #voice "alice009"
     alice "I wonder if I could fall through the earth and end up on the other side where people walk upside down! The Antipathies, I think-"
 
 # game/script.rpy:413
@@ -202,9 +204,10 @@ translate simple_english chapter1_5f98b0b4:
     "(She was happy that no one was listening this time because the word she said didn't sound right)"
 
 # game/script.rpy:416
-translate simple_english chapter1_718964c4:
+translate simple_english chapter1_523f1262:
 
     # alice "—but I shall have to ask them what the name of the country is, you know. Please, Ma’am, is this New Zealand or Australia?"
+    #voice "alice010"
     alice "—but I need to ask them the name of the country. Excuse me, is this New Zealand or Australia?"
 
 # game/script.rpy:418
@@ -215,9 +218,10 @@ translate simple_english chapter1_270aae97:
     "(She attempted a nice curtsy while talking. Just picture curtsying while you are falling through the air! Do you think you could do that?)"
 
 # game/script.rpy:420
-translate simple_english chapter1_dd988509:
+translate simple_english chapter1_8e2819ac:
 
     # alice "And what an ignorant little girl she’ll think me for asking! No, it’ll never do to ask: perhaps I shall see it written up somewhere."
+    #voice "alice011"
     alice "I might look silly if I ask! So I won't ask. I might find the answer written down somewhere."
 
 # game/script.rpy:422
@@ -235,9 +239,10 @@ translate simple_english chapter1_e80be8fb:
     "Alice started talking again because there wasn't anything else she could do."
 
 # game/script.rpy:426
-translate simple_english chapter1_a53da462:
+translate simple_english chapter1_aa1759a5:
 
     # alice "Dinah’ll miss me very much to-night, I should think!"
+    #voice "alice012"
     alice "Dinah will miss me a lot tonight, I believe!"
 
 # game/script.rpy:428
@@ -340,9 +345,10 @@ translate simple_english chapter1_5466dff0:
     "Alice ran fast after the rabbit as it went around a corner."
 
 # game/script.rpy:473
-translate simple_english chapter1_4f516453:
+translate simple_english chapter1_3a8f0d36:
 
     # rabbit "Oh my ears and whiskers, how late it's getting!"
+    #voice "rabbit02"
     rabbit "Oh my ears and whiskers! It's getting late!"
 
 # game/script.rpy:479
@@ -711,9 +717,10 @@ translate simple_english chapter2_9d0434da:
     pass
 
 # game/script.rpy:619
-translate simple_english chapter2_9f71555e:
+translate simple_english chapter2_2583bce1:
 
     # rabbit "Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!"
+    #voice "rabbit03"
     rabbit "Oh no! The Queen will be angry if I make her wait!"
 
 # game/script.rpy:620
@@ -1274,27 +1281,31 @@ translate simple_english chapter2_273d75b8:
     "Alice was the first to swim to the shore, and everyone else followed her."
 
 # game/script.rpy:791
-translate simple_english chapter3_24276f65:
+translate simple_english chapter3_c4a1cafb:
 
     # "{size=+40}Chapter III: \n{/size}A Caucus-Race and a Long Tale"
+    #voice "n1104"
     "{size=+40}Chapter III: \n{/size}A Caucus-Race and a Long Tale"
 
 # game/script.rpy:855
-translate simple_english ch3_start_d810c5a2:
+translate simple_english ch3_start_ecc83236:
 
     # "They were indeed a queer-looking party that assembled on the bank—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable."
+    #voice "n1105"
     "A strange group gathered on the riverbank. The birds had messy feathers, the animals had wet fur, and they all looked grumpy and uncomfortable."
 
 # game/script.rpy:857
-translate simple_english ch3_start_95a68f9a:
+translate simple_english ch3_start_fdeea43e:
 
     # "The first question of course was, how to get dry again: they had a consultation about this, and after a few minutes it seemed quite natural to Alice to find herself talking familiarly with them, as if she had known them all her life."
+    #voice "n1106"
     "The first thing they thought about was how to get dry again. They discussed it and soon Alice felt very at ease chatting with them as if they had been friends for ages."
 
 # game/script.rpy:858
-translate simple_english ch3_start_f6b7b1de:
+translate simple_english ch3_start_a2782e45:
 
     # "Indeed, she had quite a long argument with the Lory, who at last turned sulky, and would only say:"
+    #voice "n1107"
     "She had a long argument with the Lory, who got grumpy would only say:"
 
 # game/script.rpy:863
@@ -1304,15 +1315,17 @@ translate simple_english ch3_start_48bb96ec:
     lory "I am older than you, so I have more knowledge."
 
 # game/script.rpy:864
-translate simple_english ch3_start_6d11b6d2:
+translate simple_english ch3_start_8f52a1b0:
 
     # "And this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said."
+    #voice "n1108"
     "Alice wanted to know how old the Lory was, but the bird wouldn't say. So, there was nothing more to talk about."
 
 # game/script.rpy:868
-translate simple_english ch3_start_8dd580fe:
+translate simple_english ch3_start_acfa7026:
 
     # "At last the Mouse, who seemed to be a person of authority among them, called out:"
+    #voice "n1109"
     "Finally, the Mouse, who seemed to be in charge, spoke up."
 
 # game/script.rpy:870
@@ -1323,15 +1336,17 @@ translate simple_english ch3_start_fb61c10f:
     mouse "Everyone, please sit down and listen to me! I will make you dry!"
 
 # game/script.rpy:871
-translate simple_english ch3_start_0e6dd4d7:
+translate simple_english ch3_start_7cc3d7e1:
 
     # "They all sat down at once, in a large ring, with the Mouse in the middle."
+    #voice "n1110"
     "They all sat together in a large circle, and the Mouse sat in the middle."
 
 # game/script.rpy:872
-translate simple_english ch3_start_e3961f27:
+translate simple_english ch3_start_5a7a6438:
 
     # "Alice kept her eyes anxiously fixed on it, for she felt sure she would catch a bad cold if she did not get dry very soon."
+    #voice "n1111"
     "Alice watched the mouse carefully because she was worried she might get sick if she didn't get dry fast enough."
 
 # game/script.rpy:874
@@ -1429,9 +1444,10 @@ translate simple_english ch3_start_5d04593b:
     duck "I know what 'it' means well enough, when I find a thing, it’s generally a frog or a worm. The question is, what did the archbishop find?"
 
 # game/script.rpy:912
-translate simple_english ch3_start_fcb36ac1:
+translate simple_english ch3_start_66a31c86:
 
     # "The Mouse did not notice this question, but hurriedly went on."
+    #voice "n1112"
     "The mouse ignored the question and continued."
 
 # game/script.rpy:914
@@ -1442,9 +1458,10 @@ translate simple_english ch3_start_75c8ea80:
     mouse "'—found it advisable to go with Edgar Atheling to meet William and offer him the crown. William’s conduct at first was moderate. But the insolence of his Normans—'"
 
 # game/script.rpy:915
-translate simple_english ch3_start_dfda6237:
+translate simple_english ch3_start_8c25e8e2:
 
     # "It continued, turning to Alice as it spoke."
+    #voice "n1113"
     "It turned to Alice."
 
 # game/script.rpy:916
@@ -1474,9 +1491,10 @@ translate simple_english ch3_start_ff0d2429:
     eaglet "Speak English! I don’t understand the meaning of half those long words, and I don't think you do either!"
 
 # game/script.rpy:930
-translate simple_english ch3_start_e7a70394:
+translate simple_english ch3_start_222c6234:
 
     # "And the Eaglet bent down its head to hide a smile: some of the other birds tittered audibly."
+    #voice "n1114"
     "The Eaglet smiled and some other birds started to laugh."
 
 # game/script.rpy:934
@@ -1498,9 +1516,10 @@ translate simple_english ch3_start_3057377f:
     alice "What is a Caucus-race?"
 
 # game/script.rpy:943
-translate simple_english ch3_start_899063de:
+translate simple_english ch3_start_95bcb207:
 
     # "Not that she wanted much to know, but the Dodo had paused as if it thought that somebody ought to speak, and no one else seemed inclined to say anything."
+    #voice "n1115"
     pass
 
 # game/script.rpy:947
@@ -1510,15 +1529,17 @@ translate simple_english ch3_start_9d1dfaf7:
     dodo "The best way to understand how something works is by actually trying it out."
 
 # game/script.rpy:949
-translate simple_english ch3_start_65f2ee5b:
+translate simple_english ch3_start_fb2017f7:
 
     # "(And, as you might like to try the thing yourself, some winter day, I will tell you how the Dodo managed it)"
+    #voice "n1116"
     pass
 
 # game/script.rpy:952
-translate simple_english ch3_start_e32b0033:
+translate simple_english ch3_start_7c396578:
 
     # "First it marked out a race-course, in a sort of circle."
+    #voice "n1117"
     "The dodo created a racetrack in a circular shape."
 
 # game/script.rpy:953
@@ -1528,15 +1549,17 @@ translate simple_english ch3_start_f83cb682:
     dodo "The exact shape doesn’t matter."
 
 # game/script.rpy:971
-translate simple_english ch3_start_e2fb94cc:
+translate simple_english ch3_start_8a7f4710:
 
     # "And then all the party were placed along the course, here and there."
+    #voice "n1118"
     "And then everyone in the group spread out around the path."
 
 # game/script.rpy:1015
-translate simple_english ch3_start_3ecd4dfa:
+translate simple_english ch3_start_3c4e8d45:
 
     # "There was no 'One, two, three, and away', but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over."
+    #voice "n1119"
     "In the race, there were no rules like 'ready, set, go!' They could start running and stop whenever they wanted. This made it difficult to know when the race was over."
 
 # game/script.rpy:1016
@@ -1546,9 +1569,10 @@ translate simple_english ch3_start_a20cefa7_1:
     "..."
 
 # game/script.rpy:1017
-translate simple_english ch3_start_711c65cd:
+translate simple_english ch3_start_fa56f549:
 
     # "However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out:"
+    #voice "n1120"
     "After running for about 30 minutes, they were all dry again and the Dodo suddenly shouted:"
 
 # game/script.rpy:1027
@@ -1558,21 +1582,24 @@ translate simple_english ch3_start_87e15a18:
     dodo "The race is over!"
 
 # game/script.rpy:1032
-translate simple_english ch3_start_3e1b795e:
+translate simple_english ch3_start_501b743c:
 
     # "And they all crowded round it, panting, and asking:"
+    #voice "n1121"
     "They all gathered around the dodo, breathing heavily, and asking:"
 
 # game/script.rpy:1033
-translate simple_english ch3_start_12bb56cf:
+translate simple_english ch3_start_851b2603:
 
     # everyone "But who has won?"
+    #voice "everyone1"
     everyone "But who has won?"
 
 # game/script.rpy:1035
-translate simple_english ch3_start_b535935a:
+translate simple_english ch3_start_1dc1c588:
 
     # "This question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence."
+    #voice "n1122"
     "The Dodo took some time to think before answering the question. Everyone else stayed quiet and waited."
 
 # game/script.rpy:1040
@@ -1582,9 +1609,10 @@ translate simple_english ch3_start_2dc4e799:
     dodo "Everyone is a winner, so everyone gets a prize."
 
 # game/script.rpy:1045
-translate simple_english ch3_start_01737d8d:
+translate simple_english ch3_start_d481ceb7:
 
     # everyone "But who is to give the prizes?"
+    #voice "everyone2"
     everyone "Who will give us the prizes?"
 
 # game/script.rpy:1050
@@ -1594,27 +1622,31 @@ translate simple_english ch3_start_0dbcc33c:
     dodo "She, of course."
 
 # game/script.rpy:1053
-translate simple_english ch3_start_7f8840ac:
+translate simple_english ch3_start_2ac906c5:
 
     # "Said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way:"
+    #voice "n1123"
     "The Dodo pointed at Alice with a finger and everyone quickly gathered around her, talking all at once in a confused manner."
 
 # game/script.rpy:1058
-translate simple_english ch3_start_52d37f6d:
+translate simple_english ch3_start_e84651d7:
 
     # everyone "Prizes! Prizes!"
+    #voice "everyone3"
     everyone "Prizes! Prizes!"
 
 # game/script.rpy:1061
-translate simple_english ch3_start_733c6d3d:
+translate simple_english ch3_start_3ad8fac1:
 
     # "Alice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes."
+    #voice "n1124"
     "Alice was unsure what to do. She found a box of candies in her pocket. She decided to give them to everyone as prizes."
 
 # game/script.rpy:1062
-translate simple_english ch3_start_8bed4759:
+translate simple_english ch3_start_213b8ce0:
 
     # "There was exactly one a-piece all round."
+    #voice "n1125"
     "There was one for each person."
 
 # game/script.rpy:1067
@@ -1631,9 +1663,10 @@ translate simple_english ch3_start_cd04a293:
     dodo "Sure. Do you have anything else in your pocket?"
 
 # game/script.rpy:1072
-translate simple_english ch3_start_1449a53e:
+translate simple_english ch3_start_05f5a22d:
 
     # "The dodo turned to Alice."
+    #voice "n1126"
     "The dodo looked at Alice."
 
 # game/script.rpy:1079
@@ -1649,9 +1682,10 @@ translate simple_english ch3_start_c1ffdf93:
     dodo "Give it to me."
 
 # game/script.rpy:1086
-translate simple_english ch3_start_04725d94:
+translate simple_english ch3_start_3b1efe61:
 
     # "Then they all crowded round her once more, while the Dodo solemnly presented the thimble."
+    #voice "n1127"
     "Then everyone gathered around her again, while the Dodo formally gave her the thimble."
 
 # game/script.rpy:1090
@@ -1661,27 +1695,31 @@ translate simple_english ch3_start_0ab04a9c:
     dodo "Please take this beautiful thimble as a gift from us."
 
 # game/script.rpy:1091
-translate simple_english ch3_start_bb797765:
+translate simple_english ch3_start_3eaa5679:
 
     # "And, when it had finished this short speech, they all cheered."
+    #voice "n1128"
     "After it finished talking, they all cheered."
 
 # game/script.rpy:1093
-translate simple_english ch3_start_d040c754:
+translate simple_english ch3_start_8212e1c5:
 
     # "Alice thought the whole thing very absurd, but they all looked so grave that she did not dare to laugh; and, as she could not think of anything to say, she simply bowed, and took the thimble, looking as solemn as she could."
+    #voice "n1129"
     "Alice found the situation silly but everyone seemed serious, so she didn't want to laugh. Since she couldn't think of what to say, she just nodded politely, took the thimble, and tried to look serious."
 
 # game/script.rpy:1098
-translate simple_english ch3_start_92c9d3da:
+translate simple_english ch3_start_0848ea9f:
 
     # "The next thing was to eat the comfits: this caused some noise and confusion, as the large birds complained that they could not taste theirs, and the small ones choked and had to be patted on the back."
+    #voice "n1130"
     "Next, everyone started eating the candies. But there was a little chaos because the big birds said they couldn't taste theirs and the small ones needed help when they choked on them."
 
 # game/script.rpy:1102
-translate simple_english ch3_start_9c54ac19:
+translate simple_english ch3_start_e5b9d6a5:
 
     # "However, it was over at last, and they sat down again in a ring, and begged the Mouse to tell them something more."
+    #voice "n1131"
     "After they finished, they all sat back in a circle and asked the Mouse to tell them another story."
 
 # game/script.rpy:1107
@@ -1697,9 +1735,10 @@ translate simple_english ch3_start_bf1ce7bf:
     alice "*whispering* And why do you hate C and D?"
 
 # game/script.rpy:1109
-translate simple_english ch3_start_97c0898e:
+translate simple_english ch3_start_8374abe9:
 
     # "Alice added in a whisper, half afraid that it would be offended again."
+    #voice "n1132"
     pass
 
 # game/script.rpy:1114
@@ -1716,9 +1755,10 @@ translate simple_english ch3_start_57a58567:
     alice "It is a long {b}tail{/b}, certainly, but why do you call it sad?"
 
 # game/script.rpy:1120
-translate simple_english ch3_start_6176b3bb:
+translate simple_english ch3_start_6106540f:
 
     # "She kept on puzzling about it while the Mouse was speaking, so that her idea of the tale was something like this:—"
+    #voice "n1133"
     "She continued to think about it while the Mouse talked, so she imagined the story as something like this:—"
 
 # game/script.rpy:1125
@@ -1780,9 +1820,10 @@ translate simple_english ch3_start_b164ab8f:
     mouse "I won't let you do that!"
 
 # game/script.rpy:1162
-translate simple_english ch3_start_b7b2ee3b:
+translate simple_english ch3_start_da6d971f:
 
     # "The Mouse got up and walked away."
+    #voice "n1134"
     "The Mouse got up and walked away."
 
 # game/script.rpy:1163
@@ -1799,9 +1840,10 @@ translate simple_english ch3_start_90b97de3:
     alice "I didn’t try to upset you! But you get upset very easily!"
 
 # game/script.rpy:1171
-translate simple_english ch3_start_50016c1f:
+translate simple_english ch3_start_5400d54d:
 
     # "The Mouse only growled in reply."
+    #voice "n1135"
     "The Mouse only growled in reply."
 
 # game/script.rpy:1173
@@ -1817,9 +1859,10 @@ translate simple_english ch3_start_77f4cd4c:
     everyone "Yes, please do!"
 
 # game/script.rpy:1182
-translate simple_english ch3_start_6feff011:
+translate simple_english ch3_start_1df2aeda:
 
     # "But the Mouse only shook its head impatiently, and walked a little quicker."
+    #voice "n1136"
     "But the Mouse just shook its head and walked a little faster."
 
 # game/script.rpy:1187
@@ -1829,9 +1872,10 @@ translate simple_english ch3_start_8ad9ad67:
     lory "What a shame it wouldn't stay!"
 
 # game/script.rpy:1188
-translate simple_english ch3_start_27a33397:
+translate simple_english ch3_start_12864365:
 
     # "Sighed the Lory, as soon as it was quite out of sight; and an old Crab took the opportunity of saying to her daughter:"
+    #voice "n1137"
     "The Lory sighed, and an old Crab took the chance to speak to her daughter:"
 
 # game/script.rpy:1192
@@ -1873,9 +1917,10 @@ translate simple_english ch3_start_ce50c797:
     alice "Dinah is our cat, and she's really good at catching mice. She's amazing at catching birds too, she'll eat one without hesitation!"
 
 # game/script.rpy:1214
-translate simple_english ch3_start_04a7b36f:
+translate simple_english ch3_start_fc11799b:
 
     # "This speech caused a remarkable sensation among the party. Some of the birds hurried off at once: one old Magpie began wrapping itself up very carefully"
+    #voice "n1138"
     "The speech made a big impression on the group. Some birds left quickly."
 
 # game/script.rpy:1218
@@ -1886,9 +1931,10 @@ translate simple_english ch3_start_1c9e32f8:
     magpie "I have to go home now because the cold air is making my throat uncomfortable."
 
 # game/script.rpy:1224
-translate simple_english ch3_start_1d7152d1:
+translate simple_english ch3_start_15af7a27:
 
     # "And a Canary called out in a trembling voice to its children:"
+    #voice "n1139"
     pass
 
 # game/script.rpy:1228
@@ -1898,9 +1944,10 @@ translate simple_english ch3_start_604eee0b:
     canary "Time to go to sleep!"
 
 # game/script.rpy:1242
-translate simple_english ch3_start_c9f28f1b:
+translate simple_english ch3_start_65d6ad05:
 
     # "On various pretexts they all moved off, and Alice was soon left alone."
+    #voice "n1140"
     "They all left for different reasons, and Alice was soon alone."
 
 # game/script.rpy:1245
@@ -1922,15 +1969,17 @@ translate simple_english ch3_start_63e38ed7:
     alice "(Oh, my dear Dinah! I'm wondering if I will every see you again!)"
 
 # game/script.rpy:1249
-translate simple_english ch3_start_a3e31f04:
+translate simple_english ch3_start_62117b8c:
 
     # "And here poor Alice began to cry again, for she felt very lonely and low-spirited."
+    #voice "n1141"
     "Poor Alice started crying again because she felt very sad and alone."
 
 # game/script.rpy:1250
-translate simple_english ch3_start_7ebb23fc:
+translate simple_english ch3_start_dac96f26:
 
     # "In a little while, however, she again heard a little pattering of footsteps in the distance, and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story."
+    #voice "n1142"
     "After a little while, she heard footsteps far away. She looked up, wishing the Mouse would come back to continue the story."
 
 # game/script.rpy:1256
@@ -1964,9 +2013,10 @@ translate simple_english chapter4_d3f3eb02:
     "The Rabbit noticed Alice."
 
 # game/script.rpy:1281
-translate simple_english chapter4_21e0bd6b:
+translate simple_english chapter4_1cfcc1b9:
 
     # rabbit "*angry* Why, Mary Ann, what are you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!"
+    #voice "rabbit04"
     rabbit "*angry* Mary Ann, why are you here? Go home now and bring me gloves and a fan. Hurry!"
 
 # game/script.rpy:1284
@@ -2156,15 +2206,17 @@ translate simple_english chapter4_1d612ee1:
     "So she continued talking back and forth, having a conversation by herself. But then she heard a voice outside and stopped to listen."
 
 # game/script.rpy:1353
-translate simple_english chapter4_907df608:
+translate simple_english chapter4_1d9be15d:
 
     # rabbit "Mary Ann! Mary Ann!"
+    #voice "rabbit05"
     rabbit "Mary Ann! Mary Ann!"
 
 # game/script.rpy:1354
-translate simple_english chapter4_33aa95af:
+translate simple_english chapter4_af98eb3d:
 
     # rabbit "Fetch me my gloves this moment!"
+    #voice "rabbit06"
     rabbit "Get me my gloves now!"
 
 # game/script.rpy:1357
@@ -2186,9 +2238,10 @@ translate simple_english chapter4_95c4ef36:
     "Next, the Rabbit reached the door and tried to open it. But since the door opened inward and Alice's elbow was pushing against it, the Rabbit couldn't open it."
 
 # game/script.rpy:1362
-translate simple_english chapter4_a10d4d8e:
+translate simple_english chapter4_fd4b5f83:
 
     # rabbit "Then I’ll go round and get in at the window."
+    #voice "rabbit07"
     rabbit "Then I will go around and enter through the window."
 
 # game/script.rpy:1364
@@ -2222,9 +2275,10 @@ translate simple_english chapter4_4e9a893b:
     "Next came an angry voice—"
 
 # game/script.rpy:1372
-translate simple_english chapter4_64541ae5:
+translate simple_english chapter4_dfbc4d5b:
 
     # rabbit "Pat! Pat! Where are you?"
+    #voice "rabbit08"
     rabbit "Pat! Pat! Where are you?"
 
 # game/script.rpy:1373
@@ -2241,15 +2295,17 @@ translate simple_english chapter4_6f1945ac:
     pat "Sure, I'm here! Digging for apples, sir!"
 
 # game/script.rpy:1375
-translate simple_english chapter4_78e64dd6:
+translate simple_english chapter4_60166879:
 
     # rabbit "Digging for apples, indeed!"
+    #voice "rabbit09"
     rabbit "Digging for apples, are you serious!?"
 
 # game/script.rpy:1376
-translate simple_english chapter4_1d7f75f1:
+translate simple_english chapter4_5b8acefe:
 
     # rabbit "Here! Come and help me out of this!"
+    #voice "rabbit10"
     rabbit "Here! Come and help me get out of here!"
 
 # game/script.rpy:1377
@@ -2265,9 +2321,10 @@ translate simple_english chapter4_29cae5d1:
     "(Sounds of more broken glass)"
 
 # game/script.rpy:1380
-translate simple_english chapter4_88940096:
+translate simple_english chapter4_9ffc0e81:
 
     # rabbit "Now tell me, Pat, what’s that in the window?"
+    #voice "rabbit11"
     rabbit "Now tell me, Pat, what’s that in the window?"
 
 # game/script.rpy:1381
@@ -2278,22 +2335,25 @@ translate simple_english chapter4_c0f11e21:
     pat "Sure, it's an arm, sir!"
 
 # game/script.rpy:1382
-translate simple_english chapter4_4d00bb46:
+translate simple_english chapter4_99e3e901:
 
     # rabbit "An arm, you goose! Who ever saw one that size? Why, it fills the whole window!"
+    #voice "rabbit12"
     rabbit "An arm?! It's so large that it fills the entire window!"
 
 # game/script.rpy:1383
-translate simple_english chapter4_4f6d9236:
+translate simple_english chapter4_f8e9f009:
 
     # pat "Sure, it does, yer honour: but it’s an arm for all that."
+    #voice "pat3"
     #voice "pat3"
     pat "Yes, indeed, sir, but it's still an arm."
 
 # game/script.rpy:1384
-translate simple_english chapter4_165e9405:
+translate simple_english chapter4_150e70da:
 
     # rabbit "Well, it’s got no business there, at any rate: go and take it away!"
+    #voice "rabbit13"
     rabbit "Well, it shouldn't be there. Go and remove it."
 
 # game/script.rpy:1386
@@ -2310,9 +2370,10 @@ translate simple_english chapter4_964076bc:
     pat "Sir, I really don't like it at all!"
 
 # game/script.rpy:1388
-translate simple_english chapter4_9a4bce42:
+translate simple_english chapter4_6bad8236:
 
     # rabbit "Do as I tell you, you coward!"
+    #voice "rabbit14"
     rabbit "Do what I say, you scaredy-cat!"
 
 # game/script.rpy:1390
@@ -2497,9 +2558,10 @@ translate simple_english chapter4_219dae45:
     "Next, the Rabbit spoke up—"
 
 # game/script.rpy:1429
-translate simple_english chapter4_f72c25cf:
+translate simple_english chapter4_ebeff1ec:
 
     # rabbit "Catch him, you by the hedge!"
+    #voice "rabbit15"
     rabbit "Catch him, you by the hedge!"
 
 # game/script.rpy:1431
@@ -2558,9 +2620,10 @@ translate simple_english chapter4_fc40dfc1:
     anon "Yes, you did, old friend!"
 
 # game/script.rpy:1442
-translate simple_english chapter4_5b20fca1:
+translate simple_english chapter4_6429dae4:
 
     # rabbit "We must burn the house down!"
+    #voice "rabbit16"
     rabbit "We have to set the house on fire!"
 
 # game/script.rpy:1443
@@ -2600,9 +2663,10 @@ translate simple_english chapter4_6a611349:
     "After a minute or two, they started moving again."
 
 # game/script.rpy:1450
-translate simple_english chapter4_6249db76:
+translate simple_english chapter4_75cfa632:
 
     # rabbit "A barrowful will do, to begin with."
+    #voice "rabbit17"
     rabbit "Just start with a small pile of that."
 
 # game/script.rpy:1452
@@ -5702,9 +5766,10 @@ translate simple_english chapter8_09868f0c:
     pass
 
 # game/script.rpy:3296
-translate simple_english chapter8_7980cd60:
+translate simple_english chapter8_e8baedfb:
 
     # king "Consider, my dear: she is only a child!"
+    #voice "king01"
     king "Think about it, my dear: she is just a child!"
 
 # game/script.rpy:3300
@@ -5858,9 +5923,10 @@ translate simple_english chapter8_7f557983:
     "Alice joined the parade, curious to see what would happen next."
 
 # game/script.rpy:3462
-translate simple_english chapter8_0648cab4:
+translate simple_english chapter8_f2e78f87:
 
     # rabbit "It’s—it’s a very fine day!"
+    #voice "rabbit18"
     rabbit "It’s—it’s a very fine day!"
 
 # game/script.rpy:3464
@@ -5876,9 +5942,10 @@ translate simple_english chapter8_2e2c3398:
     alice "Very, —where’s the Duchess?"
 
 # game/script.rpy:3468
-translate simple_english chapter8_a0b9ddf9:
+translate simple_english chapter8_a5b53ad6:
 
     # rabbit "Hush! Hush!"
+    #voice "rabbit19"
     rabbit "Hush! Hush!"
 
 # game/script.rpy:3469
@@ -5888,9 +5955,10 @@ translate simple_english chapter8_6ac18534:
     "The rabbit looked back nervously and then stood on his toes, leaned close to her ear, and whispered:"
 
 # game/script.rpy:3470
-translate simple_english chapter8_79525242:
+translate simple_english chapter8_28b5a014:
 
     # rabbit "She’s under sentence of execution."
+    #voice "rabbit20"
     rabbit "She's going to be executed."
 
 # game/script.rpy:3472
@@ -5900,9 +5968,10 @@ translate simple_english chapter8_e2b19729:
     alice "Why?"
 
 # game/script.rpy:3474
-translate simple_english chapter8_34466fbe:
+translate simple_english chapter8_1c6b4b5e:
 
     # rabbit "Did you say ‘What a pity!’?"
+    #voice "rabbit21"
     rabbit "Did you say 'What a pity!'?"
 
 # game/script.rpy:3476
@@ -5912,9 +5981,10 @@ translate simple_english chapter8_2756037d:
     alice "No, I didn’t. I don't think it's a pity. I asked, 'Why?'"
 
 # game/script.rpy:3478
-translate simple_english chapter8_9d8c1b44:
+translate simple_english chapter8_4dbb13f5:
 
     # rabbit "She boxed the Queen’s ears—"
+    #voice "rabbit22"
     rabbit "She hit the Queen's ears—"
 
 # game/script.rpy:3481
@@ -5924,9 +5994,10 @@ translate simple_english chapter8_0368c9ba:
     "Alice laughed loudly."
 
 # game/script.rpy:3483
-translate simple_english chapter8_1bd60945:
+translate simple_english chapter8_5141d56d:
 
     # rabbit "Oh, hush! The Queen will hear you! You see, she came rather late, and the Queen said—"
+    #voice "rabbit23"
     rabbit "Be quiet! The Queen might hear you! She arrived late, and the Queen said-"
 
 # game/script.rpy:3503
@@ -6094,9 +6165,10 @@ translate simple_english ch8_croquet_26a8a6ce:
     "The Queen smiled and passed on."
 
 # game/script.rpy:3611
-translate simple_english ch8_croquet_7489f272:
+translate simple_english ch8_croquet_7dc37fa9:
 
     # king "Who are you talking to?"
+    #voice "king02"
     king "Who are you talking to?"
 
 # game/script.rpy:3612
@@ -6112,9 +6184,10 @@ translate simple_english ch8_croquet_b420eb3c:
     alice "This is my friend, the Cheshire Cat. Let me introduce you to it."
 
 # game/script.rpy:3616
-translate simple_english ch8_croquet_751cb3f1:
+translate simple_english ch8_croquet_0836b6f8:
 
     # king "I don’t like the look of it at all, however, it may kiss my hand if it likes."
+    #voice "king03"
     king "I don't really like how it looks, but it can kiss my hand if it wants to."
 
 # game/script.rpy:3618
@@ -6125,9 +6198,10 @@ translate simple_english ch8_croquet_af62ceb6:
     cat "I don't want."
 
 # game/script.rpy:3622
-translate simple_english ch8_croquet_edc4134a:
+translate simple_english ch8_croquet_ba93d6fb:
 
     # king "Don’t be impertinent, and don’t look at me like that!"
+    #voice "king04"
     king "Don't be rude and don't stare at me like that!"
 
 # game/script.rpy:3626
@@ -6143,9 +6217,10 @@ translate simple_english ch8_croquet_856a26f3:
     alice "I remember reading somewhere that it's okay for a cat to look at a king, but I can't recall the book."
 
 # game/script.rpy:3630
-translate simple_english ch8_croquet_01546df1:
+translate simple_english ch8_croquet_2f6c822c:
 
     # king "Well, it must be removed."
+    #voice "king05"
     king "Well, it must be removed."
 
 # game/script.rpy:3636
@@ -6155,9 +6230,10 @@ translate simple_english ch8_croquet_1af2ddbc:
     "The King called the Queen, who was walking by."
 
 # game/script.rpy:3637
-translate simple_english ch8_croquet_30ff713d:
+translate simple_english ch8_croquet_97c885f6:
 
     # king "My dear! I wish you would have this cat removed!"
+    #voice "king06"
     king "My dear, I wish you would remove this cat."
 
 # game/script.rpy:3641
@@ -6179,9 +6255,10 @@ translate simple_english ch8_croquet_1806d9fc:
     "She said this without even looking."
 
 # game/script.rpy:3651
-translate simple_english ch8_croquet_4679dc10:
+translate simple_english ch8_croquet_f845d401:
 
     # king "I’ll fetch the executioner myself."
+    #voice "king07"
     king "I will go get the executioner myself."
 
 # game/script.rpy:3655
@@ -6708,9 +6785,10 @@ translate simple_english chapter9_df464b52:
     "As they walked away, Alice overheard the King speaking quietly to everyone around:"
 
 # game/script.rpy:3891
-translate simple_english chapter9_c9e6c3b1:
+translate simple_english chapter9_56232474:
 
     # king "You are all pardoned."
+    #voice "king08"
     king "You are all pardoned."
 
 # game/script.rpy:3892
@@ -8162,9 +8240,10 @@ translate simple_english ch11_court_26fac583:
     alice "Stupid things!"
 
 # game/script.rpy:4798
-translate simple_english ch11_court_ab4a0d11:
+translate simple_english ch11_court_5dc28921:
 
     # rabbit "Silence in the court!"
+    #voice "rabbit24"
     rabbit "Silence in the court!"
 
 # game/script.rpy:4801
@@ -8204,9 +8283,10 @@ translate simple_english ch11_court_31acceb1:
     "She did it very quickly, which made the little juror (Bill the Lizard) unable to see where it went. He searched for it but couldn't find it. So, he had to write with just one finger for the rest of the day. Unfortunately, it didn't help much because it did not leave any mark."
 
 # game/script.rpy:4825
-translate simple_english ch11_court_a7c0b013:
+translate simple_english ch11_court_68cdcf30:
 
     # king "Herald, read the accusation!"
+    #voice "king09"
     king "Herald, please read the accusation!"
 
 # game/script.rpy:4830
@@ -8216,27 +8296,31 @@ translate simple_english ch11_court_bdcd7a49:
     "The White Rabbit blew three times on a trumpet and then opened a scroll to read out loud:"
 
 # game/script.rpy:4832
-translate simple_english ch11_court_d243cd99:
+translate simple_english ch11_court_3e9486d2:
 
     # rabbit "The Queen of Hearts, she made some tarts, \n{space=30}All on a summer day: \nThe Knave of Hearts, he stole those tarts, \n{space=30}And took them quite away!"
+    #voice "rabbit25"
     rabbit "The Queen of Hearts, she made some tarts, \n{space=30}All on a summer day: \nThe Knave of Hearts, he stole those tarts, \n{space=30}And took them quite away!"
 
 # game/script.rpy:4839
-translate simple_english ch11_court_b29ec789:
+translate simple_english chapter12_631f618b:
 
     # king "Consider your verdict."
+    #voice "king45"
     king "Consider your verdict."
 
 # game/script.rpy:4843
-translate simple_english ch11_court_eae98bfa:
+translate simple_english ch11_court_32d70481:
 
     # rabbit "Not yet, not yet! There’s a great deal to come before that!"
+    #voice "rabbit26"
     rabbit "Wait, not now! There's still a lot to happen before that!"
 
 # game/script.rpy:4847
-translate simple_english ch11_court_61c84e70:
+translate simple_english ch11_court_a889cb71:
 
     # king "Call the first witness."
+    #voice "king11"
     king "Call the first witness."
 
 # game/script.rpy:4852
@@ -8246,9 +8330,10 @@ translate simple_english ch11_court_d362f390:
     "The White Rabbit blew three blasts on the trumpet."
 
 # game/script.rpy:4853
-translate simple_english ch11_court_5f29ca6e:
+translate simple_english ch11_court_d4090ad4:
 
     # rabbit "First witnes!"
+    #voice "rabbit27"
     rabbit "First witness!"
 
 # game/script.rpy:4860
@@ -8270,9 +8355,10 @@ translate simple_english ch11_court_c547a417:
     hatter "I'm sorry, Your Majesty, for bringing these in. I could not finish my tea before you called me."
 
 # game/script.rpy:4869
-translate simple_english ch11_court_d45baa71:
+translate simple_english ch11_court_62e82586:
 
     # king "You ought to have finished. When did you begin?"
+    #voice "king12"
     king "You should be done by now. When did you start?"
 
 # game/script.rpy:4879
@@ -8302,9 +8388,10 @@ translate simple_english ch11_court_040a0d65:
     dormouse "Sixteenth."
 
 # game/script.rpy:4895
-translate simple_english ch11_court_43e5c090:
+translate simple_english ch11_court_21f05937:
 
     # king "Write that down."
+    #voice "king13"
     king "Write that down."
 
 # game/script.rpy:4899
@@ -8314,9 +8401,10 @@ translate simple_english ch11_court_301b2a7b:
     "The jury quickly wrote all three dates on their slates, then added them up and reduced the answer to shillings and pence."
 
 # game/script.rpy:4903
-translate simple_english ch11_court_ad937720:
+translate simple_english ch11_court_306c2e44:
 
     # king "Take off your hat."
+    #voice "king14"
     king "Take off your hat."
 
 # game/script.rpy:4907
@@ -8326,9 +8414,10 @@ translate simple_english ch11_court_ad4f80e0:
     hatter "It's not mine."
 
 # game/script.rpy:4911
-translate simple_english ch11_court_5ec84e35:
+translate simple_english ch11_court_05f385c0:
 
     # king "Stolen!"
+    #voice "king15"
     king "Stolen!"
 
 # game/script.rpy:4915
@@ -8350,9 +8439,10 @@ translate simple_english ch11_court_ae01ee0b:
     "The Queen put on her glasses and started looking at the Hatter. The Hatter looked scared and turned pale."
 
 # game/script.rpy:4924
-translate simple_english ch11_court_90a327bd:
+translate simple_english ch11_court_84831361:
 
     # king "Give your evidence and don’t be nervous, or I’ll have you executed on the spot."
+    #voice "king16"
     king "Present your evidence and don't be nervous or you will be executed on the spot."
 
 # game/script.rpy:4928
@@ -8425,9 +8515,10 @@ translate simple_english ch11_court_7b36719f:
     "The poor Hatter was so scared that he trembled and his shoes fell off."
 
 # game/script.rpy:4972
-translate simple_english ch11_court_6f5170e4:
+translate simple_english ch11_court_da21e175:
 
     # king "*angry* Give your evidence, or I’ll have you executed, whether you’re nervous or not."
+    #voice "king17"
     king "*angry* Give your evidence, or I’ll have you executed, whether you’re nervous or not."
 
 # game/script.rpy:4976
@@ -8437,9 +8528,10 @@ translate simple_english ch11_court_6d9b8a1a:
     hatter "*trembling* I’m a poor man, your Majesty, —and I hadn’t begun my tea—not above a week or so—and what with the bread-and-butter getting so thin—and the twinkling of the tea—"
 
 # game/script.rpy:4980
-translate simple_english ch11_court_777b9576:
+translate simple_english ch11_court_94334052:
 
     # king "The twinkling of the what?"
+    #voice "king18"
     king "The twinkling of the what?"
 
 # game/script.rpy:4984
@@ -8449,15 +8541,17 @@ translate simple_english ch11_court_61554c01:
     hatter "It began with the tea."
 
 # game/script.rpy:4988
-translate simple_english ch11_court_0a853206:
+translate simple_english ch11_court_35c426f6:
 
     # king "Of course twinkling begins with a T!"
+    #voice "king19"
     king "Of course twinkling begins with a T!"
 
 # game/script.rpy:4989
-translate simple_english ch11_court_bc219fd0:
+translate simple_english ch11_court_1c97858f:
 
     # king "Do you take me for a dunce? Go on!"
+    #voice "king20"
     king "Do you think I'm stupid? Go on!"
 
 # game/script.rpy:4993
@@ -8487,9 +8581,10 @@ translate simple_english ch11_court_14c2345a:
     hare "I deny it!"
 
 # game/script.rpy:5009
-translate simple_english ch11_court_1ce4c382:
+translate simple_english ch11_court_712d6caf:
 
     # king "He denies it, —leave out that part."
+    #voice "king21"
     king "He denies it!"
 
 # game/script.rpy:5013
@@ -8523,9 +8618,10 @@ translate simple_english ch11_court_37d70b59:
     hatter "I can’t remember."
 
 # game/script.rpy:5033
-translate simple_english ch11_court_d9fec9dd:
+translate simple_english ch11_court_78f87f93:
 
     # king "You must remember, or I’ll have you executed."
+    #voice "king22"
     king "You must remember, or you will be executed."
 
 # game/script.rpy:5034
@@ -8541,9 +8637,10 @@ translate simple_english ch11_court_d5cd3828:
     hatter "I’m a poor man, your Majesty."
 
 # game/script.rpy:5042
-translate simple_english ch11_court_728c2019:
+translate simple_english ch11_court_5465c33b:
 
     # king "You’re a very poor speaker."
+    #voice "king23"
     king "You’re a very poor speaker."
 
 # game/script.rpy:5044
@@ -8565,9 +8662,10 @@ translate simple_english ch11_court_829bdecd:
     alice "(I'm happy I saw that happen. Many times I've read in the newspapers about applause suppressed after trials, but I never really got what it meant until now)"
 
 # game/script.rpy:5054
-translate simple_english ch11_court_b315b6be:
+translate simple_english ch11_court_c7ff08a5:
 
     # king "If that’s all you know about it, you may stand down."
+    #voice "king24"
     king "If that's everything you know, you can stand down."
 
 # game/script.rpy:5058
@@ -8577,9 +8675,10 @@ translate simple_english ch11_court_dd840595:
     hatter "I can't go any lower, I am already on the floor."
 
 # game/script.rpy:5062
-translate simple_english ch11_court_cc49a271:
+translate simple_english ch11_court_3d3ea76a:
 
     # king "Then you may sit down."
+    #voice "king25"
     king "Then you can take a seat."
 
 # game/script.rpy:5063
@@ -8607,9 +8706,10 @@ translate simple_english ch11_court_b6c8182e:
     "The hatter looked anxiously at the Queen, who was reading the list of singers."
 
 # game/script.rpy:5076
-translate simple_english ch11_court_3c96b5c3:
+translate simple_english ch11_court_e2ac6901:
 
     # king "You may go."
+    #voice "king26"
     king "You may go."
 
 # game/script.rpy:5082
@@ -8637,9 +8737,10 @@ translate simple_english ch11_court_a20cefa7:
     "..."
 
 # game/script.rpy:5096
-translate simple_english ch11_court_9dde5dd9:
+translate simple_english ch11_court_7fbd9063:
 
     # king "Call the next witness!"
+    #voice "king27"
     king "Call the next witness!"
 
 # game/script.rpy:5102
@@ -8655,9 +8756,10 @@ translate simple_english ch11_court_3b15db76:
     "She held a pepper shaker in her hand, and Alice could tell who it was even before she entered the courtyard because the people near the door all started sneezing."
 
 # game/script.rpy:5107
-translate simple_english ch11_court_0fb0ec55:
+translate simple_english ch11_court_c3819f2d:
 
     # king "Give your evidence."
+    #voice "king28"
     king "Give your evidence."
 
 # game/script.rpy:5111
@@ -8673,15 +8775,17 @@ translate simple_english ch11_court_59d9d9b4:
     "The King looked anxiously at the White Rabbit:"
 
 # game/script.rpy:5116
-translate simple_english ch11_court_bd381677:
+translate simple_english ch11_court_1cf33f06:
 
     # rabbit "*whispering* Your Majesty must cross-examine this witness."
+    #voice "rabbit28"
     rabbit "*whispering* Your Majesty must cross-examine this witness."
 
 # game/script.rpy:5120
-translate simple_english ch11_court_cf07f938:
+translate simple_english ch11_court_e929dbe0:
 
     # king "Well, if I must, I must."
+    #voice "king29"
     king "Well, if I must, I must."
 
 # game/script.rpy:5121
@@ -8691,9 +8795,10 @@ translate simple_english ch11_court_e625f33d:
     "After crossing his arms he spoke in a deep voice:"
 
 # game/script.rpy:5125
-translate simple_english ch11_court_5b503a02:
+translate simple_english ch11_court_ee7dedd5:
 
     # king "What are tarts made of?"
+    #voice "king30"
     king "What are tarts made of?"
 
 # game/script.rpy:5129
@@ -8722,15 +8827,17 @@ translate simple_english ch11_court_7c0ccb95:
     "The court was chaotic for a few minutes while they removed the Dormouse. By the time things calmed down, the cook had vanished."
 
 # game/script.rpy:5148
-translate simple_english ch11_court_2968801c:
+translate simple_english ch11_court_89cace46:
 
     # king "Never mind!"
+    #voice "king31"
     king "Never mind!"
 
 # game/script.rpy:5149
-translate simple_english ch11_court_96447a6e:
+translate simple_english ch11_court_368a6bac:
 
     # king "Call the next witness."
+    #voice "king32"
     king "Call the next witness."
 
 # game/script.rpy:5152
@@ -8740,9 +8847,10 @@ translate simple_english ch11_court_253666d2:
     "And he whispered to the Queen:"
 
 # game/script.rpy:5153
-translate simple_english ch11_court_fe24e145:
+translate simple_english ch11_court_b2528d98:
 
     # king "Really, my dear, you must cross-examine the next witness. It quite makes my forehead ache!"
+    #voice "king33"
     king "Please, my dear, you need to question the next person. It's giving me a headache!"
 
 # game/script.rpy:5158
@@ -8764,9 +8872,10 @@ translate simple_english ch11_court_53cade6e:
     pass
 
 # game/script.rpy:5164
-translate simple_english ch11_court_30a67d83:
+translate simple_english ch11_court_af63a168:
 
     # rabbit "Alice!"
+    #voice "rabbit29"
     rabbit "Alice!"
 
 # game/script.rpy:5169
@@ -8800,15 +8909,17 @@ translate simple_english chapter12_b6afee4e:
     "She quickly started picking up the jurors. The accident with the goldfish was still on her mind, and she had a feeling that she needed to pick them up right away, or they might die."
 
 # game/script.rpy:5217
-translate simple_english chapter12_a2ab220e:
+translate simple_english chapter12_5188ad29:
 
     # king "The trial cannot proceed, until all the jurymen are back in their proper places."
+    #voice "king34"
     king "The trial cannot continue until all the jurors are back in their seats."
 
 # game/script.rpy:5220
-translate simple_english chapter12_63bdc3e8:
+translate simple_english chapter12_4aee5f43:
 
     # king "All!"
+    #voice "king35"
     king "All!"
 
 # game/script.rpy:5221
@@ -8848,9 +8959,10 @@ translate simple_english chapter12_c371a42e:
     "Once the jury calmed down from the shock, they started to write down what happened during the accident. Everyone was writing, except for the Lizard. It was too shocked to do anything except sit with its mouth open."
 
 # game/script.rpy:5238
-translate simple_english chapter12_4cc833b8:
+translate simple_english chapter12_5f0daf3a:
 
     # king "What do you know about this business?"
+    #voice "king36"
     king "What do you know about this incident?"
 
 # game/script.rpy:5242
@@ -8860,9 +8972,10 @@ translate simple_english chapter12_7cf45b7a:
     alice "Nothing."
 
 # game/script.rpy:5246
-translate simple_english chapter12_2eed7f98:
+translate simple_english chapter12_c289f3c1:
 
     # king "Nothing whatever?"
+    #voice "king37"
     king "Nothing whatever?"
 
 # game/script.rpy:5250
@@ -8872,9 +8985,10 @@ translate simple_english chapter12_cce585a4:
     alice "Nothing whatever."
 
 # game/script.rpy:5254
-translate simple_english chapter12_f3abacc7:
+translate simple_english chapter12_4bb194f5:
 
     # king "That’s very important."
+    #voice "king38"
     king "That’s very important."
 
 # game/script.rpy:5258
@@ -8902,9 +9016,10 @@ translate simple_english chapter12_fed6dd2e:
     pass
 
 # game/script.rpy:5267
-translate simple_english chapter12_6310b142:
+translate simple_english chapter12_cdbead73:
 
     # king "Unimportant, of course, I meant."
+    #voice "king39"
     king "Unimportant, of course, I meant."
 
 # game/script.rpy:5268
@@ -8914,9 +9029,10 @@ translate simple_english chapter12_6f4e5d01:
     "The King quietly spoke to himself:"
 
 # game/script.rpy:5271
-translate simple_english chapter12_5153755f:
+translate simple_english chapter12_412abcf0:
 
     # king "(important—unimportant—unimportant—important—)"
+    #voice "king40"
     king "(important—unimportant—unimportant—important—)"
 
 # game/script.rpy:5272
@@ -8950,9 +9066,10 @@ translate simple_english chapter12_14a35436:
     "The King, who had been writing in his notebook for a while, suddenly spoke again:"
 
 # game/script.rpy:5284
-translate simple_english chapter12_a710a126:
+translate simple_english chapter12_128d1be2:
 
     # king "Silence!"
+    #voice "king41"
     king "Silence!"
 
 # game/script.rpy:5285
@@ -8962,9 +9079,10 @@ translate simple_english chapter12_f6421590:
     "And he read aloud from his book:"
 
 # game/script.rpy:5286
-translate simple_english chapter12_7a76d043:
+translate simple_english chapter12_89e29a4d:
 
     # king "Rule Forty-two. All persons more than a mile high have to leave the court."
+    #voice "king42"
     king "Rule Forty-two states that everyone taller than one kilometers must leave the court."
 
 # game/script.rpy:5289
@@ -8980,9 +9098,10 @@ translate simple_english chapter12_8df41646:
     alice "I'm not a kilometer tall."
 
 # game/script.rpy:5296
-translate simple_english chapter12_b3fe30e3:
+translate simple_english chapter12_48d3eff1:
 
     # king "You are."
+    #voice "king43"
     king "You are."
 
 # game/script.rpy:5299
@@ -8998,9 +9117,10 @@ translate simple_english chapter12_dfc0f49a:
     alice "I won't go, and that rule isn't real; you just made it up."
 
 # game/script.rpy:5308
-translate simple_english chapter12_86a7b589:
+translate simple_english chapter12_c1fb828c:
 
     # king "It’s the oldest rule in the book."
+    #voice "king44"
     king "It’s the oldest rule in the book."
 
 # game/script.rpy:5312
@@ -9016,9 +9136,10 @@ translate simple_english chapter12_c05887b2:
     "The King turned pale and closed his notebook quickly."
 
 # game/script.rpy:5318
-translate simple_english chapter12_b29ec789:
+translate simple_english ch11_court_145b755b:
 
     # king "Consider your verdict."
+    #voice "king10"
     king "Consider your verdict."
 
 # game/script.rpy:5319
@@ -9028,9 +9149,10 @@ translate simple_english chapter12_215c9fe9:
     pass
 
 # game/script.rpy:5325
-translate simple_english chapter12_54e1e1a0:
+translate simple_english chapter12_3e7c89c3:
 
     # rabbit "There’s more evidence to come yet, please your Majesty."
+    #voice "rabbit30"
     rabbit "There is more evidence to discuss, Your Majesty."
 
 # game/script.rpy:5326
@@ -9040,9 +9162,10 @@ translate simple_english chapter12_90fafb81:
     "The White Rabbit was hopping quickly."
 
 # game/script.rpy:5327
-translate simple_english chapter12_239cc1c9:
+translate simple_english chapter12_5f2fed61:
 
     # rabbit "This paper has just been picked up."
+    #voice "rabbit31"
     rabbit "This envelope was just picked up."
 
 # game/script.rpy:5331
@@ -9052,15 +9175,17 @@ translate simple_english chapter12_3d98c1d5:
     queen "What is inside?"
 
 # game/script.rpy:5335
-translate simple_english chapter12_bf413277:
+translate simple_english chapter12_3b45d20c:
 
     # rabbit "I haven’t opened it yet, but it seems to be a letter, written by the prisoner to—to somebody."
+    #voice "rabbit32"
     rabbit "I haven't read it yet, but it looks like a letter from the prisoner to someone."
 
 # game/script.rpy:5340
-translate simple_english chapter12_d3e0f0bb:
+translate simple_english chapter12_947d6c6a:
 
     # king "It must have been that, unless it was written to nobody, which isn’t usual, you know."
+    #voice "king46"
     king "It must have been written to someone, unless it was written to nobody, which is not very common."
 
 # game/script.rpy:5344
@@ -9071,9 +9196,10 @@ translate simple_english chapter12_a96ab3d7:
     bill "Who is it addressed to?"
 
 # game/script.rpy:5348
-translate simple_english chapter12_7cd014f9:
+translate simple_english chapter12_ac7160af:
 
     # rabbit "It isn’t directed at all, in fact, there’s nothing written on the outside."
+    #voice "rabbit33"
     rabbit "It's not addressed at all, in fact, there's nothing written on the outside."
 
 # game/script.rpy:5349
@@ -9083,9 +9209,10 @@ translate simple_english chapter12_24702253:
     "He opened the envelope while he talked."
 
 # game/script.rpy:5350
-translate simple_english chapter12_fd0177f2:
+translate simple_english chapter12_23fc309c:
 
     # rabbit "It isn’t a letter, after all: it’s a set of verses."
+    #voice "rabbit34"
     rabbit "It's not a letter, it's a poem."
 
 # game/script.rpy:5354
@@ -9095,9 +9222,10 @@ translate simple_english chapter12_61990803:
     lory "Is it in the prisoner's handwriting?"
 
 # game/script.rpy:5358
-translate simple_english chapter12_9c4ae923:
+translate simple_english chapter12_170ba77a:
 
     # rabbit "No, they’re not, and that’s the queerest thing about it."
+    #voice "rabbit35"
     rabbit "No, it's not, and that's the strangest part."
 
 # game/script.rpy:5362
@@ -9107,9 +9235,10 @@ translate simple_english chapter12_34050c98:
     "(The jury all looked confused)"
 
 # game/script.rpy:5366
-translate simple_english chapter12_8ab2e1f3:
+translate simple_english chapter12_d27aac5b:
 
     # king "He must have imitated somebody else’s hand."
+    #voice "king47"
     king "He copied someone else’s handwriting."
 
 # game/script.rpy:5367
@@ -9125,9 +9254,10 @@ translate simple_english chapter12_6a1def5e:
     knave "Your Highness, I didn't write it, and there's no name signed at the end to prove that I did."
 
 # game/script.rpy:5376
-translate simple_english chapter12_bf6be2b7:
+translate simple_english chapter12_1fb59257:
 
     # king "If you didn’t sign it, that only makes the matter worse. You must have meant some mischief, or else you’d have signed your name like an honest man."
+    #voice "king48"
     king "If you didn't sign it, that's even worse. You must have wanted to cause trouble, or else you would have signed your name like an honest person."
 
 # game/script.rpy:5377
@@ -9155,9 +9285,10 @@ translate simple_english chapter12_03013256:
     alice "You don't even know what the poem is about!"
 
 # game/script.rpy:5392
-translate simple_english chapter12_5ea90e8a:
+translate simple_english chapter12_157ee8e5:
 
     # king "Read them."
+    #voice "king49"
     king "Read it."
 
 # game/script.rpy:5397
@@ -9167,63 +9298,73 @@ translate simple_english chapter12_b9b9f62e:
     "The White Rabbit put on his glasses."
 
 # game/script.rpy:5398
-translate simple_english chapter12_ee898797:
+translate simple_english chapter12_38e90a33:
 
     # rabbit "Where shall I begin, please your Majesty?"
+    #voice "rabbit36"
     rabbit "Where should I start, your Majesty?"
 
 # game/script.rpy:5402
-translate simple_english chapter12_21aada1f:
+translate simple_english chapter12_1cedeb2c:
 
     # king "Begin at the beginning, and go on till you come to the end: then stop."
+    #voice "king50"
     king "Start at the start and keep going until you reach the end, then stop."
 
 # game/script.rpy:5407
-translate simple_english chapter12_19b3f3e2:
+translate simple_english chapter12_ca967b00:
 
     # rabbit "They told me you had been to her,\n{space=30}And mentioned me to him:\nShe gave me a good character,\n{space=30}But said I could not swim."
+    #voice "rabbit37"
     rabbit "A boy visits a girl, with a cake in his glove,\n{space=30}Claims he made it himself, \n{space=30}as a sign of his love.\nThe girl's joy blooms, the cake she saves,\n{space=30}For a special moment, her craving it craves."
 
 # game/script.rpy:5409
-translate simple_english chapter12_35095ab0:
+translate simple_english chapter12_64049aa6:
 
     # rabbit "He sent them word I had not gone\n{space=30}(We know it to be true):\nIf she should push the matter on,\n{space=30}What would become of you?"
+    #voice "rabbit38"
     rabbit "Next day she chats, with her friend so dear,\n{space=30}Praises the boy, but with one small fear.\n'He can't swim,' she says, a fact so clear,\n{space=30}Her friend nods, 'We know,' \n{space=30}without any cheer."
 
 # game/script.rpy:5411
-translate simple_english chapter12_27c6adba:
+translate simple_english chapter12_316ae798:
 
     # rabbit "I gave her one, they gave him two,\n{space=30}You gave us three or more;\nThey all returned from him to you,\n{space=30}Though they were mine before."
+    #voice "rabbit39"
     rabbit "They decide to eat, the cake so sweet,\n{space=30}But the friend stops, her heart skips a beat.\n'It's from our shop,' she says with a surprise,\n{space=30}'So it returned,' she laughs, as truth unties."
 
 # game/script.rpy:5413
-translate simple_english chapter12_00c018c5:
+translate simple_english chapter12_c50a4819:
 
     # rabbit "If I or she should chance to be\n{space=30}Involved in this affair,\nHe trusts to you to set them free,\n{space=30}Exactly as we were."
+    #voice "rabbit40"
     rabbit "The girl's joy fades, her anger takes its place,\n{space=30}Betrayed by the boy, \n{space=30}a frown crosses her face.\n'He said he baked it,' her voice cold and stiff,\n{space=30}Her trust in pieces, like a shattered cliff."
 
 # game/script.rpy:5415
-translate simple_english chapter12_17c71a22:
+translate simple_english chapter12_3bef153f:
 
     # rabbit "My notion was that you had been\n{space=30}(Before she had this fit)\nAn obstacle that came between\n{space=30}Him, and ourselves, and it."
+    #voice "rabbit41"
     pass
 
 # game/script.rpy:5417
-translate simple_english chapter12_2ce3842c:
+translate simple_english chapter12_0977b82d:
 
     # rabbit "Don’t let him know she liked them best,\n{space=30}For this must ever be\nA secret, kept from all the rest,\n{space=30}Between yourself and me."
+    #voice "rabbit42"
     pass
 
 # game/script.rpy:5421
-translate simple_english chapter12_5a5c9f32:
+translate simple_english chapter12_0d0c97fb:
 
     # king "That’s the most important piece of evidence we’ve heard yet."
+    #voice "king51"
     king "That's the most important evidence we've heard so far."
 
 # game/script.rpy:5422
-translate simple_english chapter12_651003f5:
+translate simple_english chapter12_3c1b918f:
 
     # king "So now let the jury—"
+    #voice "king52"
     king "So now let the jury—"
 
 # game/script.rpy:5428
@@ -9245,15 +9386,17 @@ translate simple_english chapter12_395611b0:
     "The jury all wrote on their slates: 'She thinks there's no meaning in it,' but none of them tried to explain the poem."
 
 # game/script.rpy:5436
-translate simple_english chapter12_bbf1c8e9:
+translate simple_english chapter12_ac08631c:
 
     # king "If there’s no meaning in it, that saves a world of trouble, you know, as we needn’t try to find any."
+    #voice "king53"
     king "If there is no meaning, it's less trouble because we don't have to look for any."
 
 # game/script.rpy:5437
-translate simple_english chapter12_b9d92e96:
+translate simple_english chapter12_cca36a3d:
 
     # king "And yet I don’t know..."
+    #voice "king54"
     king "But I don't know..."
 
 # game/script.rpy:5438
@@ -9263,9 +9406,10 @@ translate simple_english chapter12_e498dbfb:
     "He continued looking at the poem with one eye."
 
 # game/script.rpy:5439
-translate simple_english chapter12_6d2523da:
+translate simple_english chapter12_116b0ecf:
 
     # king "I seem to see some meaning in them, after all. “—said I could not swim—” you can’t swim, can you?"
+    #voice "king55"
     king "I think I understand now. It said you can't swim, is that right?"
 
 # game/script.rpy:5444
@@ -9293,9 +9437,10 @@ translate simple_english chapter12_4df535e3:
     "(He definitely didn't because he was completely made of cardboard)"
 
 # game/script.rpy:5452
-translate simple_english chapter12_6d3bc29b:
+translate simple_english chapter12_cabc53d3:
 
     # king "All right, so far."
+    #voice "king56"
     king "All right."
 
 # game/script.rpy:5453
@@ -9305,9 +9450,10 @@ translate simple_english chapter12_396e35ce:
     "The King kept mumbling the verses to himself."
 
 # game/script.rpy:5454
-translate simple_english chapter12_c6c1d5fe:
+translate simple_english chapter12_941a4a8f:
 
     # king "‘We know it to be true—’ that’s the jury, of course—‘I gave her one, they gave him two—’ why, that must be what he did with the tarts, you know—” "
+    #voice "king57"
     king "'We know,' without any cheer - that's what the jury does. \nWith a cake in his glove - that's probably what happened with the tarts!'"
 
 # game/script.rpy:5460
@@ -9317,9 +9463,10 @@ translate simple_english chapter12_e1a93529:
     alice "But, it goes on 'It's from our shop,' she says with a surprise, 'So it {b}returned{/b}'"
 
 # game/script.rpy:5464
-translate simple_english chapter12_d80f7c6b:
+translate simple_english chapter12_501324c4:
 
     # king "Why, there they are!"
+    #voice "king58"
     king "Look, there they are!"
 
 # game/script.rpy:5468
@@ -9329,9 +9476,10 @@ translate simple_english chapter12_bfe5c012:
     "The King pointed to the tarts on the table."
 
 # game/script.rpy:5472
-translate simple_english chapter12_1a68404e:
+translate simple_english chapter12_5beef1d9:
 
     # king "Nothing can be clearer than that. Then again—‘before she had this fit—’ you never had fits, my dear, I think?"
+    #voice "king59"
     king "Nothing can be clearer than that. Then again—'The girl's joy fades, her anger takes its {i}place{/i}' you are never angry, my dear, right?"
 
 # game/script.rpy:5475
@@ -9353,9 +9501,10 @@ translate simple_english chapter12_c73bce50:
     "(Poor little Bill had stopped trying to write on his slate with his finger because it didn't work. But he quickly started writing again with ink that was running down his face now)"
 
 # game/script.rpy:5484
-translate simple_english chapter12_285ad1e3:
+translate simple_english chapter12_baea8cc5:
 
     # king "Then the words don’t fit you."
+    #voice "king60"
     king "Then 'angry' is not in the right {i}place{/i}."
 
 # game/script.rpy:5485
@@ -9377,9 +9526,10 @@ translate simple_english chapter12_1883cb68:
     "There was a dead silence."
 
 # game/script.rpy:5491
-translate simple_english chapter12_86c7a450:
+translate simple_english chapter12_3ede9755:
 
     # king "*offended* It’s a pun!"
+    #voice "king61"
     king "*offended* That was a pun!"
 
 # game/script.rpy:5492
@@ -9389,9 +9539,10 @@ translate simple_english chapter12_6691f14f:
     "Everybody laughed."
 
 # game/script.rpy:5493
-translate simple_english chapter12_963d8578:
+translate simple_english chapter12_dabf33da:
 
     # king "Let the jury consider their verdict."
+    #voice "king62"
     king "Let the jury consider their verdict."
 
 # game/script.rpy:5496
@@ -9612,6 +9763,4 @@ translate simple_english chapter12_241951e0:
 
     # "The End."
     "The End."
-
-
 
