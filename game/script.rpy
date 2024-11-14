@@ -485,16 +485,21 @@ label chapter1:
     voice "n1023"
     "(Dinah was the cat)"
 
+    voice "alice013"
     alice "I hope they’ll remember her saucer of milk at tea-time. Dinah my dear! I wish you were down here with me!"
+    voice "alice014"
     alice "There are no mice in the air, I’m afraid, but you might catch a bat, and that’s very like a mouse, you know." 
+    voice "alice015"
     alice "But do cats eat bats, I wonder?"
 
     voice "n1024"
     "And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way:"
+    voice "alice016"
     alice "Do cats eat bats? Do cats eat bats?"
 
     voice "n1025"
     "And sometimes"
+    voice "alice017"
     alice "Do bats eat cats?" 
 
     voice "n1026"
@@ -502,6 +507,7 @@ label chapter1:
     
     voice "n1027"
     "She felt that she was dozing off, and had just begun to dream that she was walking hand in hand with Dinah, and saying to her very earnestly:"
+    voice "alice018"
     alice "Now, Dinah, tell me the truth: did you ever eat a bat?"
 
     stop music fadeout 1.0
@@ -579,7 +585,9 @@ label chapter1:
 
     #show alice pout at breathing:
     #    xpos 0.5 ypos 0.9 zoom alice_scale
+    voice "alice019"
     alice "(And even if my head would go through, it would be of very little use without my shoulders)"
+    voice "alice020"
     alice "(Oh, how I wish I could shut up like a telescope! I think I could, if I only knew how to begin)"
 
     voice "n1039"
@@ -592,11 +600,13 @@ label chapter1:
     show three_legged_table_bottle at Position(ypos = 0.65)
     voice "n1040"
     "There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it."
+    voice "alice021"
     alice "This certainly was not here before."
     voice "n1041"
     "Around the neck of the bottle was a paper label, with the words 'DRINK ME' beautifully printed on it in large letters."
     voice "n1042"
     "It was all very well to say 'Drink me', but the wise little Alice was not going to do that in a hurry."
+    voice "alice022"
     alice "No, I’ll look first and see whether it’s marked 'poison' or not."
     
     voice "n1043"
@@ -616,6 +626,7 @@ label chapter1:
         ease 8.0 zpos -500 ypos 530
     show alice surprised at breathing:
         ease 10.0 zoom 0.2
+    voice "alice023"
     alice "What a curious feeling! I must be shutting up like a telescope."
 
     voice "n1046"
@@ -623,7 +634,7 @@ label chapter1:
 
     voice "n1047"
     "First, however, she waited for a few minutes to see if she was going to shrink any further: she felt a little nervous about this."
-    
+    voice "alice024"
     alice "It might end, you know, in my going out altogether, like a candle. I wonder what I should be like then?"
 
     voice "n1048"
@@ -635,14 +646,18 @@ label chapter1:
         zoom 0.2
 
     voice "n1050"
+    play sound "<silence 8.0>"
+    queue sound "voice/alice_crying1.mp3"
     "She could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
-
+    voice "alice025"
     alice "(Come, there’s no use in crying like that!)"
     show alice pout at breathing
+    voice "alice026"
     alice "(I advise you to leave off this minute!)"
 
     voice "n1051"
     "She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people."
+    voice "alice027"
     alice "(But it’s no use now, to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!)"
 
     #hide alice
@@ -652,11 +667,13 @@ label chapter1:
 
     hide box_cake onlayer screens
     show alice normal at breathing
+    voice "alice028"
     alice "Well, I’ll eat it, and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I’ll get into the garden, and I don’t care which happens!"
 
     voice "n1053"
     "She ate a little bit." #, and said anxiously to herself: "
     show alice excited at breathing
+    voice "alice029"
     alice "(Which way? Which way?)" # anxiously
     voice "n1054"
     "She was holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way."
@@ -1062,6 +1079,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_duck_pos zpos -500 ypos 160
+    voice "duck1"
     duck "Found what?"
 
     camera: 
@@ -1071,6 +1089,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_duck_pos  zpos -500 ypos 160
+    voice "duck2"
     duck "I know what 'it' means well enough, when I find a thing, it’s generally a frog or a worm. The question is, what did the archbishop find?"
 
     camera: 
@@ -5529,6 +5548,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # cook
+    voice "cook1"
     cook "Shan’t."
 
     camera:
@@ -5550,6 +5570,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # cook
+    voice "cook2"
     cook "Pepper, mostly."
 
     camera:
@@ -5820,6 +5841,7 @@ label chapter12:
     
     camera:
         ease cam_transition xpos court_knave ypos 0 zpos -500 # knave
+    voice "knave1"
     knave "Please your Majesty, I didn’t write it, and they can’t prove I did: there’s no name signed at the end."
 
     camera:
@@ -5905,6 +5927,7 @@ label chapter12:
     "He turned to the Knave."
 
     "The Knave shook his head sadly."
+    voice "knave2"
     knave "Do I look like it?"
     "(He certainly did not, being made entirely of cardboard)"
 
