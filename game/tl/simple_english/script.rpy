@@ -253,21 +253,24 @@ translate simple_english chapter1_9cd5dac9:
     "(Dinah was her cat)"
 
 # game/script.rpy:430
-translate simple_english chapter1_6a96f151:
+translate simple_english chapter1_cf77d08c:
 
     # alice "I hope they’ll remember her saucer of milk at tea-time. Dinah my dear! I wish you were down here with me!"
+    #voice "alice013"
     alice "I hope they remember to give her some milk at tea time. Oh Dinah, I wish you were here with me!"
 
 # game/script.rpy:431
-translate simple_english chapter1_f79f7418:
+translate simple_english chapter1_95e01531:
 
     # alice "There are no mice in the air, I’m afraid, but you might catch a bat, and that’s very like a mouse, you know."
+    #voice "alice014"
     alice "You won't see any mice flying, my friend. But if you look carefully, you might see a bat which looks a bit like a mouse."
 
 # game/script.rpy:432
-translate simple_english chapter1_cb52671b:
+translate simple_english chapter1_60dd2177:
 
     # alice "But do cats eat bats, I wonder?"
+    #voice "alice015"
     alice "But do cats eat bats, I wonder?"
 
 # game/script.rpy:434
@@ -278,9 +281,10 @@ translate simple_english chapter1_5d43cfd1:
     "Alice started feeling tired and began talking to herself in a sleepy manner:"
 
 # game/script.rpy:435
-translate simple_english chapter1_3781f718:
+translate simple_english chapter1_5b6c3b0b:
 
     # alice "Do cats eat bats? Do cats eat bats?"
+    #voice "alice016"
     alice "Do cats eat bats? Do cats eat bats?"
 
 # game/script.rpy:436
@@ -291,9 +295,10 @@ translate simple_english chapter1_22d52947:
     "And sometimes"
 
 # game/script.rpy:437
-translate simple_english chapter1_edea7c61:
+translate simple_english chapter1_8a3cef1d:
 
     # alice "Do bats eat cats?"
+    #voice "alice017"
     alice "Do bats eat cats?"
 
 # game/script.rpy:438
@@ -311,9 +316,10 @@ translate simple_english chapter1_4bd3965d:
     "She felt like she was getting sleepy. In her dream, she was holding hands with Dinah and talking to her very seriously:"
 
 # game/script.rpy:440
-translate simple_english chapter1_a0579137:
+translate simple_english chapter1_d0e21812:
 
     # alice "Now, Dinah, tell me the truth: did you ever eat a bat?"
+    #voice "alice018"
     alice "Now, Dinah, tell me the truth: did you ever eat a bat?"
 
 # game/script.rpy:446
@@ -401,15 +407,17 @@ translate simple_english chapter1_9faf042d:
     "She really wanted to escape the hallway and explore the beautiful flower beds and fountains, but she couldn't even squeeze her head through the door."
 
 # game/script.rpy:505
-translate simple_english chapter1_42f344cd:
+translate simple_english chapter1_37d401d0:
 
     # alice "(And even if my head would go through, it would be of very little use without my shoulders)"
+    #voice "alice019"
     alice "(Even if my head fits, it won't work without my shoulders)"
 
 # game/script.rpy:506
-translate simple_english chapter1_69f5bdc6:
+translate simple_english chapter1_59c9126e:
 
     # alice "(Oh, how I wish I could shut up like a telescope! I think I could, if I only knew how to begin)"
+    #voice "alice020"
     alice "(I wish I could fold up like a telescope! I think I could do it if I knew how to start)"
 
 # game/script.rpy:508
@@ -427,9 +435,10 @@ translate simple_english chapter1_494efc74:
     "She didn't think waiting by the small door was helpful, so she returned to the table. She wished she could find another key there, or a guidebook on how to fold people up like telescopes. Instead, she found a small bottle on the table."
 
 # game/script.rpy:516
-translate simple_english chapter1_6d9fdf29:
+translate simple_english chapter1_8ac40a86:
 
     # alice "This certainly was not here before."
+    #voice "alice021"
     alice "This wasn't here earlier."
 
 # game/script.rpy:517
@@ -447,9 +456,10 @@ translate simple_english chapter1_15515f9a:
     "Alice was clever and didn't want to drink something just because it was labeled 'Drink me'."
 
 # game/script.rpy:520
-translate simple_english chapter1_af568bbb:
+translate simple_english chapter1_27d921c8:
 
     # alice "No, I’ll look first and see whether it’s marked 'poison' or not."
+    #voice "alice022"
     alice "No, I will first check to see if it says 'poison' on it."
 
 # game/script.rpy:522
@@ -474,9 +484,10 @@ translate simple_english chapter1_ae5e4ab8:
     "But since the bottle didn't say it was 'poison', Alice decided to try it. It tasted really good, like a mix of cherry pie, custard, pineapple, roasted turkey, toffee, and buttered toast. She finished it quickly."
 
 # game/script.rpy:536
-translate simple_english chapter1_4efeb272:
+translate simple_english chapter1_8d7a5d1b:
 
     # alice "What a curious feeling! I must be shutting up like a telescope."
+    #voice "alice023"
     alice "I feel strange - I think I'm folding like a telescope."
 
 # game/script.rpy:538
@@ -494,9 +505,10 @@ translate simple_english chapter1_4bc8c442:
     "She waited for a few minutes to see if she would shrink further. She felt a little worried about it."
 
 # game/script.rpy:542
-translate simple_english chapter1_28e11c64:
+translate simple_english chapter1_226ffb8b:
 
     # alice "It might end, you know, in my going out altogether, like a candle. I wonder what I should be like then?"
+    #voice "alice024"
     alice "I might just disappear, like a candle going out. I wonder what I would be like then?"
 
 # game/script.rpy:543
@@ -514,22 +526,24 @@ translate simple_english chapter1_23d2a387:
     "After waiting for a while with nothing happening, she decided to go to the garden. But, Alice remembered she forgot the small golden key when she reached the door. When she attempted to return to the table to grab it, she discovered she couldn't reach it anymore."
 
 # game/script.rpy:548
-translate simple_english chapter1_36b7d428:
+translate simple_english chapter1_d5865354:
 
     # "She could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
     #voice "n1050"
     "She could see it easily through the glass. She tried hard to climb up the table leg, but it was too slippery. After many tries, the tired little girl sat down and started to cry."
 
 # game/script.rpy:550
-translate simple_english chapter1_df7d944c:
+translate simple_english chapter1_6b3726a1:
 
     # alice "(Come, there’s no use in crying like that!)"
+    #voice "alice025"
     alice "(Stop crying, it won't help!)"
 
 # game/script.rpy:552
-translate simple_english chapter1_b3c89eb7:
+translate simple_english chapter1_13e959bc:
 
     # alice "(I advise you to leave off this minute!)"
+    #voice "alice026"
     alice "(I suggest you stop right now!)"
 
 # game/script.rpy:553
@@ -540,9 +554,10 @@ translate simple_english chapter1_7fecdc70:
     "She usually gave herself good advice, but hardly ever listened to it. Sometimes, she scolded herself too harshly, making herself cry. Once, she even tried to scold herself by pretending to hit her own ears for cheating in a game of croquet against herself. This strange child liked to pretend to be two people."
 
 # game/script.rpy:554
-translate simple_english chapter1_9780a769:
+translate simple_english chapter1_62160f39:
 
     # alice "(But it’s no use now, to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!)"
+    #voice "alice027"
     alice "(It's no good trying to act like two people now! I hardly have enough left of myself to be even one good person!)"
 
 # game/script.rpy:558
@@ -553,9 +568,10 @@ translate simple_english chapter1_eed1b6cb:
     "She saw a small glass box under the table. Inside was a tiny cake with 'EAT ME' written on it in currants."
 
 # game/script.rpy:562
-translate simple_english chapter1_6f2a4226:
+translate simple_english chapter1_297dda08:
 
     # alice "Well, I’ll eat it, and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I’ll get into the garden, and I don’t care which happens!"
+    #voice "alice028"
     alice "I will eat the food. If I grow bigger, I can reach the key. If I shrink, I can go under the door. In any case, I will get into the garden. I'm fine with whatever happens!"
 
 # game/script.rpy:564
@@ -566,9 +582,10 @@ translate simple_english chapter1_859477b9:
     "She ate a little bit."
 
 # game/script.rpy:566
-translate simple_english chapter1_fb1d2183:
+translate simple_english chapter1_6b0ddd5b:
 
     # alice "(Which way? Which way?)"
+    #voice "alice029"
     alice "(Which way? Which way?)"
 
 # game/script.rpy:567
@@ -1425,9 +1442,10 @@ translate simple_english ch3_start_a13a88b4:
     mouse "'Edwin and Morcar, the earls of Mercia and Northumbria, declared for him: and even Stigand, the patriotic archbishop of Canterbury, found it advisable—'"
 
 # game/script.rpy:900
-translate simple_english ch3_start_fadf988a:
+translate simple_english ch3_start_71c15d9f:
 
     # duck "Found what?"
+    #voice "duck1"
     duck "Found what?"
 
 # game/script.rpy:904
@@ -1438,9 +1456,10 @@ translate simple_english ch3_start_ee59d092:
     mouse "Found it, of course you know what 'it' means."
 
 # game/script.rpy:908
-translate simple_english ch3_start_5d04593b:
+translate simple_english ch3_start_29fce85d:
 
     # duck "I know what 'it' means well enough, when I find a thing, it’s generally a frog or a worm. The question is, what did the archbishop find?"
+    #voice "duck2"
     duck "I know what 'it' means well enough, when I find a thing, it’s generally a frog or a worm. The question is, what did the archbishop find?"
 
 # game/script.rpy:912
@@ -1478,9 +1497,10 @@ translate simple_english ch3_start_24b48d9e:
     alice "I'm still wet, and this doesn't seem to be drying me."
 
 # game/script.rpy:925
-translate simple_english ch3_start_ced08b12:
+translate simple_english ch3_start_67e62988:
 
     # dodo "In that case, I move that the meeting adjourn, for the immediate adoption of more energetic remedies—"
+    #voice "dodo01"
     dodo "In that case, I move that the meeting adjourn, for the immediate adoption of more energetic remedies—"
 
 # game/script.rpy:929
@@ -1498,9 +1518,10 @@ translate simple_english ch3_start_222c6234:
     "The Eaglet smiled and some other birds started to laugh."
 
 # game/script.rpy:934
-translate simple_english ch3_start_7b212452:
+translate simple_english ch3_start_597b6ad0:
 
     # dodo "What I was going to say, was that the best thing to get us dry would be a Caucus-race."
+    #voice "dodo02"
     dodo "What I meant was, we can get dry by having a Caucus-race."
 
 # game/script.rpy:936
@@ -1523,9 +1544,10 @@ translate simple_english ch3_start_95bcb207:
     pass
 
 # game/script.rpy:947
-translate simple_english ch3_start_9d1dfaf7:
+translate simple_english ch3_start_9ec63125:
 
     # dodo "Why, the best way to explain it is to do it."
+    #voice "dodo03"
     dodo "The best way to understand how something works is by actually trying it out."
 
 # game/script.rpy:949
@@ -1543,9 +1565,10 @@ translate simple_english ch3_start_7c396578:
     "The dodo created a racetrack in a circular shape."
 
 # game/script.rpy:953
-translate simple_english ch3_start_f83cb682:
+translate simple_english ch3_start_ca494429:
 
     # dodo "The exact shape doesn’t matter."
+    #voice "dodo04"
     dodo "The exact shape doesn’t matter."
 
 # game/script.rpy:971
@@ -1576,9 +1599,10 @@ translate simple_english ch3_start_fa56f549:
     "After running for about 30 minutes, they were all dry again and the Dodo suddenly shouted:"
 
 # game/script.rpy:1027
-translate simple_english ch3_start_87e15a18:
+translate simple_english ch3_start_b6ec240e:
 
     # dodo "The race is over!"
+    #voice "dodo05"
     dodo "The race is over!"
 
 # game/script.rpy:1032
@@ -1603,9 +1627,10 @@ translate simple_english ch3_start_1dc1c588:
     "The Dodo took some time to think before answering the question. Everyone else stayed quiet and waited."
 
 # game/script.rpy:1040
-translate simple_english ch3_start_2dc4e799:
+translate simple_english ch3_start_7d2f2fc1:
 
     # dodo "Everybody has won, and all must have prizes."
+    #voice "dodo06"
     dodo "Everyone is a winner, so everyone gets a prize."
 
 # game/script.rpy:1045
@@ -1616,9 +1641,10 @@ translate simple_english ch3_start_d481ceb7:
     everyone "Who will give us the prizes?"
 
 # game/script.rpy:1050
-translate simple_english ch3_start_0dbcc33c:
+translate simple_english ch3_start_d8f374b3:
 
     # dodo "Why, she, of course."
+    #voice "dodo07"
     dodo "She, of course."
 
 # game/script.rpy:1053
@@ -1657,9 +1683,10 @@ translate simple_english ch3_start_cebc6f28:
     mouse "But she needs a reward too, you know."
 
 # game/script.rpy:1071
-translate simple_english ch3_start_cd04a293:
+translate simple_english ch3_start_1e2d699b:
 
     # dodo "Of course. What else have you got in your pocket?"
+    #voice "dodo08"
     dodo "Sure. Do you have anything else in your pocket?"
 
 # game/script.rpy:1072
@@ -1676,9 +1703,10 @@ translate simple_english ch3_start_f8be2fa9:
     alice "Only a thimble."
 
 # game/script.rpy:1084
-translate simple_english ch3_start_c1ffdf93:
+translate simple_english ch3_start_b7f4f994:
 
     # dodo "Hand it over here."
+    #voice "dodo09"
     dodo "Give it to me."
 
 # game/script.rpy:1086
@@ -1689,9 +1717,10 @@ translate simple_english ch3_start_3b1efe61:
     "Then everyone gathered around her again, while the Dodo formally gave her the thimble."
 
 # game/script.rpy:1090
-translate simple_english ch3_start_0ab04a9c:
+translate simple_english ch3_start_2c75ba8a:
 
     # dodo "We beg your acceptance of this elegant thimble."
+    #voice "dodo10"
     dodo "Please take this beautiful thimble as a gift from us."
 
 # game/script.rpy:1091
@@ -1995,9 +2024,10 @@ translate simple_english chapter4_e586a594:
     "It was the White Rabbit, he was looking around as if it had lost something."
 
 # game/script.rpy:1273
-translate simple_english chapter4_23ee3af4:
+translate simple_english chapter4_41ed1fc7:
 
     # rabbit "*muttering* The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
+    #voice "rabbit43"
     rabbit "*muttering* The Queen! The Queen! Oh no! My paws! My fur and whiskers! She'll have me executed, I just know it! Where did I drop them, I wonder?"
 
 # game/script.rpy:1274
@@ -5676,9 +5706,10 @@ translate simple_english chapter8_64d3acf6:
     "When the parade reached Alice, they all stopped and stared at her."
 
 # game/script.rpy:3251
-translate simple_english chapter8_793c8104:
+translate simple_english chapter8_205b8fc5:
 
     # queen "Who is this?"
+    #voice "queen01"
     queen "Who is this?"
 
 # game/script.rpy:3255
@@ -5688,9 +5719,10 @@ translate simple_english chapter8_acd43fd1:
     "She asked the Knave of Hearts, who just bowed and smiled back."
 
 # game/script.rpy:3259
-translate simple_english chapter8_b1eedab7:
+translate simple_english chapter8_ac8937da:
 
     # queen "Idiot!"
+    #voice "queen02"
     queen "Idiot!"
 
 # game/script.rpy:3261
@@ -5700,9 +5732,10 @@ translate simple_english chapter8_41ea9e7e:
     "The Queen impatiently looked at Alice."
 
 # game/script.rpy:3264
-translate simple_english chapter8_87e77465:
+translate simple_english chapter8_3aee11aa:
 
     # queen "What’s your name, child?"
+    #voice "queen03"
     queen "What’s your name, child?"
 
 # game/script.rpy:3268
@@ -5718,9 +5751,10 @@ translate simple_english chapter8_0e5d51e7:
     alice "(They are just cards, no need to be scared of them!)"
 
 # game/script.rpy:3273
-translate simple_english chapter8_d8d5ff7a:
+translate simple_english chapter8_e848f8b5:
 
     # queen "And who are these?"
+    #voice "queen04"
     queen "And who are these?"
 
 # game/script.rpy:3277
@@ -5742,9 +5776,10 @@ translate simple_english chapter8_a2229f0c:
     "The Queen got very angry and screamed:"
 
 # game/script.rpy:3286
-translate simple_english chapter8_889880e4:
+translate simple_english chapter8_2b294733:
 
     # queen "Off with her head! Off—"
+    #voice "queen05"
     queen "Off with her head! Off—"
 
 # game/script.rpy:3290
@@ -5779,9 +5814,10 @@ translate simple_english chapter8_076ee6a2:
     "The Queen got mad and turned away from him. She said to the Knave:"
 
 # game/script.rpy:3301
-translate simple_english chapter8_62bb89bf:
+translate simple_english chapter8_07e6a3f3:
 
     # queen "Turn them over!"
+    #voice "queen06"
     queen "Turn them over!"
 
 # game/script.rpy:3358
@@ -5791,9 +5827,10 @@ translate simple_english chapter8_e28ff79d:
     "The Knave did it very carefully with one foot."
 
 # game/script.rpy:3360
-translate simple_english chapter8_0dc670d7:
+translate simple_english chapter8_f00ee912:
 
     # queen "Get up!"
+    #voice "queen07"
     queen "Get up!"
 
 # game/script.rpy:3361
@@ -5803,15 +5840,17 @@ translate simple_english chapter8_8c6b53b8:
     "The three gardeners quickly stood up and started bowing to the King, the Queen, the royal children, and everyone else."
 
 # game/script.rpy:3363
-translate simple_english chapter8_936aba6f:
+translate simple_english chapter8_8af15d91:
 
     # queen "Leave off that!"
+    #voice "queen08"
     queen "Stop that!"
 
 # game/script.rpy:3364
-translate simple_english chapter8_afc82c7b:
+translate simple_english chapter8_46dcc6f4:
 
     # queen "You make me giddy."
+    #voice "queen09"
     queen "You make me dizzy."
 
 # game/script.rpy:3366
@@ -5821,9 +5860,10 @@ translate simple_english chapter8_acdd6f05:
     "After that, she looked at the rose bush and continued:"
 
 # game/script.rpy:3367
-translate simple_english chapter8_ffc63601:
+translate simple_english chapter8_61c61a6d:
 
     # queen "What have you been doing here?"
+    #voice "queen10"
     queen "What have you been doing here?"
 
 # game/script.rpy:3369
@@ -5833,9 +5873,10 @@ translate simple_english chapter8_31953103:
     two "We were trying, Your Majesty—"
 
 # game/script.rpy:3371
-translate simple_english chapter8_47ad1061:
+translate simple_english chapter8_72d8fe29:
 
     # queen "I see!"
+    #voice "queen11"
     queen "I see!"
 
 # game/script.rpy:3372
@@ -5845,9 +5886,10 @@ translate simple_english chapter8_084ff964:
     "The queen was looking at the roses."
 
 # game/script.rpy:3373
-translate simple_english chapter8_e6d7c2c5:
+translate simple_english chapter8_8397ff0d:
 
     # queen "Off with their heads!"
+    #voice "queen12"
     queen "Off with their heads!"
 
 # game/script.rpy:3393
@@ -5875,9 +5917,10 @@ translate simple_english chapter8_d0f12a54:
     "The three soldiers searched for a little while but couldn't find them. Then they left quietly to catch up with the rest of the parade."
 
 # game/script.rpy:3424
-translate simple_english chapter8_70d12b65:
+translate simple_english chapter8_eaf45049:
 
     # queen "Are their heads off?"
+    #voice "queen13"
     queen "Are their heads off?"
 
 # game/script.rpy:3428
@@ -5887,15 +5930,17 @@ translate simple_english chapter8_3da23d08:
     soldiers "Their heads are gone, your Majesty!"
 
 # game/script.rpy:3433
-translate simple_english chapter8_e0c2e6db:
+translate simple_english chapter8_68955418:
 
     # queen "That’s right!"
+    #voice "queen14"
     queen "That’s right!"
 
 # game/script.rpy:3434
-translate simple_english chapter8_ea1af944:
+translate simple_english chapter8_1dc136bc:
 
     # queen "Can you play croquet?"
+    #voice "queen15"
     queen "Can you play croquet?"
 
 # game/script.rpy:3438
@@ -5911,9 +5956,10 @@ translate simple_english chapter8_d15c4d79:
     alice "Yes!"
 
 # game/script.rpy:3444
-translate simple_english chapter8_d9bfcef9:
+translate simple_english chapter8_1e50cfa5:
 
     # queen "Come on, then!"
+    #voice "queen16"
     queen "Come on, then!"
 
 # game/script.rpy:3458
@@ -6001,9 +6047,10 @@ translate simple_english chapter8_5141d56d:
     rabbit "Be quiet! The Queen might hear you! She arrived late, and the Queen said-"
 
 # game/script.rpy:3503
-translate simple_english ch8_croquet_58f23f54:
+translate simple_english ch8_croquet_6e152f8f:
 
     # queen "Get to your places!"
+    #voice "queen17"
     queen "Get to your places!"
 
 # game/script.rpy:3504
@@ -6043,9 +6090,10 @@ translate simple_english ch8_croquet_4a1c1480:
     "All the players played at the same time and didn't take turns. They argued and fought over the hedgehogs. Soon, the Queen got very angry and started screaming:"
 
 # game/script.rpy:3520
-translate simple_english ch8_croquet_d51c6dab:
+translate simple_english ch8_croquet_3a81725b:
 
     # queen "Off with his head!"
+    #voice "queen20"
     queen "Off with his head!"
 
 # game/script.rpy:3524
@@ -6055,9 +6103,10 @@ translate simple_english ch8_croquet_105a06a7:
     "Or"
 
 # game/script.rpy:3528
-translate simple_english ch8_croquet_5205c38e:
+translate simple_english chapter12_671a7734:
 
     # queen "Off with her head!"
+    #voice "queen39"
     queen "Off with her head!"
 
 # game/script.rpy:3532
@@ -6243,9 +6292,10 @@ translate simple_english ch8_croquet_4f23ad63:
     "The Queen had one way to solve any problems, whether big or small."
 
 # game/script.rpy:3643
-translate simple_english ch8_croquet_d51c6dab_1:
+translate simple_english ch8_croquet_3ec22294:
 
     # queen "Off with his head!"
+    #voice "queen18"
     queen "Off with his head!"
 
 # game/script.rpy:3644
@@ -6352,9 +6402,10 @@ translate simple_english ch8_croquet_d6ed3abc:
     alice "It belongs to the Duchess. You should talk to her about it."
 
 # game/script.rpy:3721
-translate simple_english ch8_croquet_84e455a4:
+translate simple_english ch8_croquet_a8f550fa:
 
     # queen "She’s in prison, fetch her here."
+    #voice "queen21"
     queen "She's in prison, bring her here."
 
 # game/script.rpy:3725
@@ -6695,9 +6746,10 @@ translate simple_english chapter9_c121eb18:
     duchess "A fine day, your Majesty!"
 
 # game/script.rpy:3854
-translate simple_english chapter9_976e88f7:
+translate simple_english chapter9_f25ae8c1:
 
     # queen "Now, I give you fair warning, either you or your head must be off, and that in about half no time! Take your choice!"
+    #voice "queen22"
     queen "Listen carefully, either you or your head must be off! Take your choice!"
 
 # game/script.rpy:3856
@@ -6713,9 +6765,10 @@ translate simple_english chapter9_5ce79b93:
     "The Duchess made her choice and left quickly."
 
 # game/script.rpy:3862
-translate simple_english chapter9_f5829c23:
+translate simple_english chapter9_793436db:
 
     # queen "Let’s go on with the game."
+    #voice "queen23"
     queen "Let's continue playing the game."
 
 # game/script.rpy:3863
@@ -6749,9 +6802,10 @@ translate simple_english chapter9_c3cb8fd0:
     pass
 
 # game/script.rpy:3873
-translate simple_english chapter9_7d9fa722:
+translate simple_english chapter9_2b1e8b71:
 
     # queen "Have you seen the Mock Turtle yet?"
+    #voice "queen24"
     queen "Have you met the Mock Turtle yet?"
 
 # game/script.rpy:3875
@@ -6761,9 +6815,10 @@ translate simple_english chapter9_ea9db8c4:
     alice "No, I don't know what a Mock Turtle is."
 
 # game/script.rpy:3877
-translate simple_english chapter9_54bab3ba:
+translate simple_english chapter9_5a9b28a7:
 
     # queen "It’s the thing Mock Turtle Soup is made from."
+    #voice "queen25"
     queen "It's the thing Mock Turtle Soup is made of."
 
 # game/script.rpy:3879
@@ -6773,9 +6828,10 @@ translate simple_english chapter9_89b0726e:
     alice "I have never seen or heard of one."
 
 # game/script.rpy:3881
-translate simple_english chapter9_e1e9dc73:
+translate simple_english chapter9_a2b00e31:
 
     # queen "Come on, then, and he shall tell you his history."
+    #voice "queen26"
     queen "Alright, come with me and he will tell you his story."
 
 # game/script.rpy:3890
@@ -6810,21 +6866,24 @@ translate simple_english ch9_gryphon_cff79d2e:
     "They quickly found a Gryphon sleeping in the sun."
 
 # game/script.rpy:3912
-translate simple_english ch9_gryphon_24b5d250:
+translate simple_english ch9_gryphon_aa21a3c7:
 
     # queen "Up, lazy thing!"
+    #voice "queen27"
     queen "Get up, lazy thing!"
 
 # game/script.rpy:3913
-translate simple_english ch9_gryphon_1bea41cd:
+translate simple_english ch9_gryphon_5863f479:
 
     # queen "And take this young lady to see the Mock Turtle, and to hear his history."
+    #voice "queen28"
     queen "Take this girl to meet the Mock Turtle and listen to his story."
 
 # game/script.rpy:3914
-translate simple_english ch9_gryphon_f4882208:
+translate simple_english ch9_gryphon_63b02412:
 
     # queen "I must go back and see after some executions I have ordered."
+    #voice "queen29"
     queen "I need to go back and check on the executions I ordered."
 
 # game/script.rpy:3919
@@ -8503,9 +8562,10 @@ translate simple_english ch11_court_025a5a48:
     "The Queen kept looking at the Hatter the whole time. As the Dormouse walked by, she spoke to one of her officers."
 
 # game/script.rpy:4964
-translate simple_english ch11_court_49c76029:
+translate simple_english ch11_court_79e2fabb:
 
     # queen "Bring me the list of the singers in the last concert!"
+    #voice "queen30"
     queen "Please give me the names of the people who sang in the last concert!"
 
 # game/script.rpy:4968
@@ -8719,9 +8779,10 @@ translate simple_english ch11_court_22ff0dbb:
     "The Hatter quickly left the court without putting on his shoes..."
 
 # game/script.rpy:5086
-translate simple_english ch11_court_073c36c7:
+translate simple_english ch11_court_9b622fbb:
 
     # queen "—and just take his head off outside!"
+    #voice "queen31"
     queen "—and just take his head off outside!"
 
 # game/script.rpy:5091
@@ -8763,9 +8824,10 @@ translate simple_english ch11_court_c3819f2d:
     king "Give your evidence."
 
 # game/script.rpy:5111
-translate simple_english ch11_court_500cef0d:
+translate simple_english ch11_court_28d3c42e:
 
     # cook "Shan’t."
+    #voice "cook1"
     cook "Won't."
 
 # game/script.rpy:5115
@@ -8802,9 +8864,10 @@ translate simple_english ch11_court_ee7dedd5:
     king "What are tarts made of?"
 
 # game/script.rpy:5129
-translate simple_english ch11_court_5291de61:
+translate simple_english ch11_court_82a9b386:
 
     # cook "Pepper, mostly."
+    #voice "cook2"
     cook "Pepper, mostly."
 
 # game/script.rpy:5133
@@ -8815,9 +8878,10 @@ translate simple_english chapter7_073ed35e:
     dormouse "Syrup"
 
 # game/script.rpy:5137
-translate simple_english ch11_court_231090de:
+translate simple_english ch11_court_fdda1356:
 
     # queen "*shriek* Collar that Dormouse! Behead that Dormouse! Turn that Dormouse out of court! Suppress him! Pinch him! Off with his whiskers!"
+    #voice "queen32"
     queen "*screech* Catch that small dormouse! Cut off its head! Kick the dormouse out of the room! Quiet it down! Squeeze it! Remove its whiskers!"
 
 # game/script.rpy:5144
@@ -9004,9 +9068,10 @@ translate simple_english chapter12_20307473:
     "They had just started to write this on their slates when the White Rabbit interrupted them:"
 
 # game/script.rpy:5263
-translate simple_english chapter12_fba96f86:
+translate simple_english chapter12_fb91f091:
 
     # rabbit "Unimportant, your Majesty means, of course."
+    #voice "rabbit44"
     rabbit "Unimportant, your Majesty means, of course."
 
 # game/script.rpy:5264
@@ -9105,9 +9170,10 @@ translate simple_english chapter12_48d3eff1:
     king "You are."
 
 # game/script.rpy:5299
-translate simple_english chapter12_13337312:
+translate simple_english chapter12_f57caf29:
 
     # queen "Nearly two miles high."
+    #voice "queen33"
     queen "Almost 2 kilometers tall."
 
 # game/script.rpy:5304
@@ -9169,9 +9235,10 @@ translate simple_english chapter12_5f2fed61:
     rabbit "This envelope was just picked up."
 
 # game/script.rpy:5331
-translate simple_english chapter12_3d98c1d5:
+translate simple_english chapter12_c8fdffa1:
 
     # queen "What’s in it?"
+    #voice "queen34"
     queen "What is inside?"
 
 # game/script.rpy:5335
@@ -9248,9 +9315,10 @@ translate simple_english chapter12_a01180e2:
     "(The jury seemed enlightened)"
 
 # game/script.rpy:5372
-translate simple_english chapter12_6a1def5e:
+translate simple_english chapter12_aa764dfe:
 
     # knave "Please your Majesty, I didn’t write it, and they can’t prove I did: there’s no name signed at the end."
+    #voice "knave1"
     knave "Your Highness, I didn't write it, and there's no name signed at the end to prove that I did."
 
 # game/script.rpy:5376
@@ -9267,9 +9335,10 @@ translate simple_english chapter12_bc85cef5:
     "Everyone clapped - it was the first clever thing the king had said that day."
 
 # game/script.rpy:5381
-translate simple_english chapter12_21876a37:
+translate simple_english chapter12_e8e07085:
 
     # queen "That proves his guilt."
+    #voice "queen35"
     queen "That proves his guilt."
 
 # game/script.rpy:5387
@@ -9425,9 +9494,10 @@ translate simple_english chapter12_ecfb127b:
     "The Knave sadly shook his head."
 
 # game/script.rpy:5447
-translate simple_english chapter12_948780d0:
+translate simple_english chapter12_6fd3b0a6:
 
     # knave "Do I look like it?"
+    #voice "knave2"
     knave "Do I look like I can swim?"
 
 # game/script.rpy:5448
@@ -9483,9 +9553,10 @@ translate simple_english chapter12_5beef1d9:
     king "Nothing can be clearer than that. Then again—'The girl's joy fades, her anger takes its {i}place{/i}' you are never angry, my dear, right?"
 
 # game/script.rpy:5475
-translate simple_english chapter12_f4813a10:
+translate simple_english chapter12_3c7e51ab:
 
     # queen "Never!"
+    #voice "queen36"
     queen "Never!"
 
 # game/script.rpy:5479
@@ -9546,9 +9617,10 @@ translate simple_english chapter12_dabf33da:
     king "Let the jury consider their verdict."
 
 # game/script.rpy:5496
-translate simple_english chapter12_a439f05c:
+translate simple_english chapter12_efd7268c:
 
     # queen "No, no! Sentence first—verdict afterwards."
+    #voice "queen37"
     queen "No, no! Punishment first, the verdict can come afterwards."
 
 # game/script.rpy:5500
@@ -9564,9 +9636,10 @@ translate simple_english chapter12_028826f6:
     alice "You can't have the punishment first!"
 
 # game/script.rpy:5505
-translate simple_english chapter12_10ba897e:
+translate simple_english chapter12_2af9efe0:
 
     # queen "Hold your tongue!"
+    #voice "queen38"
     queen "Be quiet!"
 
 # game/script.rpy:5506
@@ -9582,9 +9655,10 @@ translate simple_english chapter12_71c1484e:
     alice "I won’t!"
 
 # game/script.rpy:5514
-translate simple_english chapter12_5205c38e:
+translate simple_english ch8_croquet_21111089:
 
     # queen "Off with her head!"
+    #voice "queen19"
     queen "Off with her head!"
 
 # game/script.rpy:5515

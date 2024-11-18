@@ -1111,6 +1111,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_dodo_cam_pos zpos -450 ypos -130
+    voice "dodo01"
     dodo "In that case, I move that the meeting adjourn, for the immediate adoption of more energetic remedies—"
 
     camera: 
@@ -1122,6 +1123,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_dodo_cam_pos zpos -450 ypos -130
+    voice "dodo02"
     dodo "What I was going to say, was that the best thing to get us dry would be a Caucus-race."
 
     "..."
@@ -1136,6 +1138,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_dodo_cam_pos zpos -450 ypos -130
+    voice "dodo03"
     dodo "Why, the best way to explain it is to do it."
 
     voice "n1116"
@@ -1144,6 +1147,7 @@ label ch3_start:
     show racetrack at Position(ypos = 0.65) onlayer screens
     voice "n1117"
     "First it marked out a race-course, in a sort of circle."
+    voice "dodo04"
     dodo "The exact shape doesn’t matter."
     hide racetrack onlayer screens
 
@@ -1219,7 +1223,7 @@ label ch3_start:
 
     camera:
         xpos muddy_dodo_cam_pos zpos -450 ypos -130
-
+    voice "dodo05"
     dodo "The race is over!"
 
     camera:
@@ -1233,7 +1237,7 @@ label ch3_start:
 
     camera:
         ease cam_transition xpos muddy_dodo_cam_pos zpos -450 ypos -130
-
+    voice "dodo06"
     dodo "Everybody has won, and all must have prizes."
 
     camera:
@@ -1244,7 +1248,7 @@ label ch3_start:
 
     camera:
         ease cam_transition xpos muddy_dodo_cam_pos zpos -450 ypos -130
-
+    voice "dodo07"
     dodo "Why, she, of course." 
     camera:
         ease cam_transition xpos muddy_alice_pos zpos -450 ypos -130
@@ -1270,6 +1274,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_dodo_cam_pos zpos -450 ypos -130
+    voice "dodo08"
     dodo "Of course. What else have you got in your pocket?"
     voice "n1126"
     "The dodo turned to Alice."
@@ -1284,12 +1289,14 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_dodo_cam_pos zpos -450 ypos -130
+    voice "dodo09"
     dodo "Hand it over here."
     voice "n1127"
     "Then they all crowded round her once more, while the Dodo solemnly presented the thimble."
     camera: 
         ease cam_transition xpos muddy_dodo_cam_pos zpos -450 ypos -130
     show thimble at Position(ypos = 0.65) onlayer screens
+    voice "dodo10"
     dodo "We beg your acceptance of this elegant thimble."
     voice "n1128"
     "And, when it had finished this short speech, they all cheered."
@@ -1431,6 +1438,7 @@ label ch3_start:
     voice "n1138"
     "This speech caused a remarkable sensation among the party. Some of the birds hurried off at once: one old Magpie began wrapping itself up very carefully"
     show magpie at breathing:
+        pause 4.0
         xzoom -1.0
         linear 1.0 xpos 4000
     voice "magpie1"
@@ -1489,7 +1497,8 @@ label chapter4:
         ease 20.0 xpos -1.0
 
     "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something." #; and she heard it muttering to itself:"
-    rabbit  "*muttering* The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
+    voice "rabbit43"  # forgot this at first
+    rabbit "*muttering* The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
     "Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely."
 
     show rabbit normal at breathing:
@@ -3574,6 +3583,7 @@ label chapter8:
         ease cam_transition xpos queen_garden
 
     # the Queen said severely
+    voice "queen01"
     queen "Who is this?"
 
     camera:
@@ -3582,11 +3592,13 @@ label chapter8:
 
     camera:
         ease cam_transition xpos queen_garden zoom 2.0 ypos 700
+    voice "queen02"
     queen "Idiot!"
 
     "The Queen tossed her head impatiently and turned to Alice."
     camera:
         ease cam_transition xpos queen_garden zoom 1.0 ypos 0
+    voice "queen03"
     queen "What’s your name, child?"
 
     camera:
@@ -3596,6 +3608,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos queen_garden zoom 1.0 ypos 0
+    voice "queen04"
     queen "And who are these?"
 
     camera:
@@ -3609,6 +3622,7 @@ label chapter8:
     camera:
         ease cam_transition xpos queen_garden zoom 1.0 ypos 0
     "The Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed:"
+    voice "queen05"
     queen "Off with her head! Off—"
 
     camera:
@@ -3625,6 +3639,7 @@ label chapter8:
     camera:
         ease cam_transition xpos queen_garden zoom 1.0 ypos 0
     "The Queen turned angrily away from him, and said to the Knave:"
+    voice "queen06"
     queen "Turn them over!"
 
     # move knave
@@ -3683,20 +3698,23 @@ label chapter8:
     camera:
         ease cam_transition xpos card5_garden zoom 1.0 ypos 0
     "The Knave did so, very carefully, with one foot."
-
+    voice "queen07"
     queen "Get up!" # said the Queen, in a shrill, loud voice,
     "The three gardeners instantly jumped up, and began bowing to the King, the Queen, the royal children, and everybody else."
-
+    voice "queen08"
     queen "Leave off that!" # screamed the Queen.
+    voice "queen09"
     queen "You make me giddy."
 
     "And then, turning to the rose-tree, she went on:"
+    voice "queen10"
     queen "What have you been doing here?"
 
     two "May it please your Majesty, we were trying—" # said Two, in a very humble tone, going down on one knee as he spoke
-
+    voice "queen11"
     queen "I see!"
     "The queen had meanwhile been examining the roses."
+    voice "queen12"
     queen "Off with their heads!"
     # queen disappear
     show queen normal at breathing:
@@ -3747,7 +3765,7 @@ label chapter8:
         ease cam_transition xpos queen_garden2
     show queen normal at breathing:
         pos (queen_garden2, 0.8) zoom queen_scale
-
+    voice "queen13"
     queen "Are their heads off?"
 
     camera:
@@ -3757,7 +3775,9 @@ label chapter8:
     camera:
         ease cam_transition xpos queen_garden2
     show queen happy at breathing
+    voice "queen14"
     queen "That’s right!" # shouted
+    voice "queen15"
     queen "Can you play croquet?"
 
     camera:
@@ -3768,6 +3788,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos queen_garden2
+    voice "queen16"
     queen "Come on, then!" #  roared the Queen
 
     # move queen away
@@ -3828,7 +3849,7 @@ label ch8_croquet:
         perspective True
         xpos 0 ypos 0 zpos 0 xoffset -center_offset
 
-
+    voice "queen17"
     queen "Get to your places!"
     "Shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began."
 
@@ -3846,6 +3867,7 @@ label ch8_croquet:
     "The players all played at once without waiting for turns, quarrelling all the while, and fighting for the hedgehogs; and in a very short time the Queen was in a furious passion, and went stamping about:"
     camera:
         ease cam_transition xpos queen_croquet zoom 2.0 ypos 700
+    voice "queen18"
     queen "Off with his head!"
     camera:
         ease cam_transition xpos queen_croquet zoom 1.0 ypos 0
@@ -3854,6 +3876,7 @@ label ch8_croquet:
     camera:
         ease cam_transition xpos queen_croquet zoom 2.0 ypos 700
     show queen normal  at breathing
+    voice "queen19"
     queen "Off with her head!" 
     camera:
         ease cam_transition xpos queen_croquet zoom 1.0 ypos 0
@@ -3976,7 +3999,7 @@ label ch8_croquet:
     camera:
         ease cam_transition xpos 0.57 ypos 700 zoom 2.0
     "The Queen had only one way of settling all difficulties, great or small."
-
+    voice "queen20"
     queen "Off with his head!"
     "She said, without even looking round."
 
@@ -4055,7 +4078,7 @@ label ch8_croquet:
 
     # Alice could think of nothing else to say but
     alice "It belongs to the Duchess: you’d better ask her about it."
-
+    voice "queen21"
     queen "She’s in prison, fetch her here."
 
     show soldier9:
@@ -4207,7 +4230,7 @@ label chapter9:
 
     voice "duchess29"
     duchess "A fine day, your Majesty!" # the Duchess began in a low, weak voice.
-
+    voice "queen22"
     queen "Now, I give you fair warning, either you or your head must be off, and that in about half no time! Take your choice!"
     #"Shouted the Queen, stamping on the ground as she spoke."
     "The Queen was stamping on the ground as she spoke."
@@ -4215,7 +4238,7 @@ label chapter9:
     show duchess:
         linear 1.0 xpos 2.0
     "The Duchess took her choice, and was gone in a moment."
-
+    voice "queen23"
     queen "Let’s go on with the game."
     "The Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground."
 
@@ -4227,14 +4250,15 @@ label chapter9:
     "Then the Queen left off, quite out of breath, and said to Alice:"
 
     hide duchess
+    voice "queen24"
     queen "Have you seen the Mock Turtle yet?"
 
     alice "No, I don’t even know what a Mock Turtle is."
-
+    voice "queen25"
     queen "It’s the thing Mock Turtle Soup is made from."
 
     alice "I never saw one, or heard of one."
-
+    voice "queen26"
     queen "Come on, then, and he shall tell you his history."
 
     # start walk
@@ -4267,8 +4291,11 @@ label ch9_gryphon:
         ease 5.0 xpos 935
     "They very soon came upon a Gryphon, lying fast asleep in the sun."
     # "(If you don’t know what a Gryphon is, look at the picture)"
+    voice "queen27"
     queen "Up, lazy thing!"
+    voice "queen28"
     queen "And take this young lady to see the Mock Turtle, and to hear his history."
+    voice "queen29"
     queen "I must go back and see after some executions I have ordered."
     show queen normal at breathing:
         linear 1.0 xpos 2.0
@@ -5387,6 +5414,7 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     "All this time the Queen had never left off staring at the Hatter, and, just as the Dormouse crossed the court, she said to one of the officers of the court:"
+    voice "queen30"
     queen "Bring me the list of the singers in the last concert!"
 
     camera:
@@ -5521,6 +5549,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # king
+    voice "queen31"
     queen "—and just take his head off outside!" # the Queen added to one of the officers:
     hide hatter
 
@@ -5580,6 +5609,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    voice "queen32"
     queen "*shriek* Collar that Dormouse! Behead that Dormouse! Turn that Dormouse out of court! Suppress him! Pinch him! Off with his whiskers!"
 
     hide dormouse
@@ -5716,7 +5746,8 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
-    rabbit  "Unimportant, your Majesty means, of course."
+    voice "rabbit44"
+    rabbit "Unimportant, your Majesty means, of course."
     "He said in a very respectful tone, but frowning and making faces at him as he spoke."
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
@@ -5757,6 +5788,7 @@ label chapter12:
     king "You are."
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    voice "queen33"
     queen "Nearly two miles high."
 
     camera:
@@ -5793,6 +5825,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    voice "queen34"
     queen "What’s in it?"
 
     camera:
@@ -5852,6 +5885,7 @@ label chapter12:
     
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    voice "queen35"
     queen "That proves his guilt."
 
     show alice normal at breathing:
@@ -5960,6 +5994,7 @@ label chapter12:
     king "Nothing can be clearer than that. Then again—‘before she had this fit—’ you never had fits, my dear, I think?"
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    voice "queen36"
     queen "Never!"
 
     camera:
@@ -5984,6 +6019,7 @@ label chapter12:
     king "Let the jury consider their verdict."
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    voice "queen37"
     queen "No, no! Sentence first—verdict afterwards."
     
     camera:
@@ -5993,6 +6029,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    voice "queen38"
     queen "Hold your tongue!"
     "The queen turned purple."
 
@@ -6002,6 +6039,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    voice "queen39"
     queen "Off with her head!"
     "The Queen shouted at the top of her voice."
     "Nobody moved."
