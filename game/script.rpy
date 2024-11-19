@@ -97,7 +97,7 @@ init python:
 
     def get_shaders_wind_mask(child):
         if preferences.graphic_preset <= 1:
-            return "renpy.texture"
+            return ["renpy.texture", "game.mask2"]
         return ["renpy.texture", "game.wind", "game.mask2"]
 
     def get_shader_breathing_pause():
