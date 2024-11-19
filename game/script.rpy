@@ -700,14 +700,19 @@ label chapter2:
         pos (0.5, 0.9)
         zoom 0.2
         easeout 10.0 zoom alice_scale_large
+    voice "alice030"
     alice "Curiouser and curiouser!"
     voice "n1057"
     "(she was so much surprised, that for the moment she quite forgot how to speak good English)"
+    voice "alice031"
     alice "Now I’m opening out like the largest telescope that ever was!"
+    voice "alice032"
     alice "Good-bye, feet!"
     voice "n1058"
     "(For when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off)"
+    voice "alice033"
     alice "(Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure I shan’t be able!)"
+    voice "alice034"
     alice "(I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; —but I must be kind to them, or perhaps they won’t walk the way I want to go!)" 
     alice "(Let me see: I’ll give them a new pair of boots every Christmas)"
     voice "n1059"
