@@ -226,3 +226,11 @@ translate german strings:
     old "Chapter {number}"
     new "Kapitel {number}"
 
+# TODO: Translation updated at 2024-10-07 18:19
+
+translate german strings:
+
+    # game/gui/screens.rpy:1455
+    old "Chapter {}"
+    new "Chapter {}"
+
