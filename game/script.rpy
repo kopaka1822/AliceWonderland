@@ -1035,6 +1035,7 @@ label ch3_start:
     define muddy_lory_ypos = 220
     camera: 
         ease cam_transition xpos muddy_lory_pos zpos -500 ypos muddy_lory_ypos
+    voice "lory1"
     lory "I am older than you, and must know better."
     voice "n1108"
     "And this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said."
@@ -1062,6 +1063,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_lory_pos zpos -500 ypos muddy_lory_ypos
+    voice "lory2"
     lory "Ugh!"
 
     camera: 
@@ -1073,6 +1075,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_lory_pos zpos -500 ypos muddy_lory_ypos
+    voice "lory3"
     lory "Not I!"
 
     camera: 
@@ -1410,6 +1413,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_lory_pos zpos -500 ypos muddy_lory_ypos
+    voice "lory4"
     lory "What a pity it wouldn’t stay!"
     voice "n1137"
     "Sighed the Lory, as soon as it was quite out of sight; and an old Crab took the opportunity of saying to her daughter:"
@@ -1432,6 +1436,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_lory_pos zpos -500 ypos muddy_lory_ypos
+    voice "lory5"
     lory "And who is Dinah, if I might venture to ask the question?"
 
     camera: 
@@ -1454,6 +1459,7 @@ label ch3_start:
         ease cam_transition xpos muddy_canary_cam_pos zpos -550 ypos 275
     voice "n1139"
     "And a Canary called out in a trembling voice to its children:"
+    voice "canary1"
     canary "Come away, my dears! It’s high time you were all in bed!"
 
     show young_crab:
@@ -5488,6 +5494,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_lory ypos 0 zpos -1000
+    voice "lory6"
     lory "But what did the Dormouse say?" # one of the jurors
 
     camera:
@@ -5859,6 +5866,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_lory zpos -1000 ypos 300 # jury lory
+    voice "lory7"
     lory "Are they in the prisoner’s handwriting?" # asked another of the jurymen.
 
     camera:
