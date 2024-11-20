@@ -1490,7 +1490,7 @@ label chapter4:
     $ persistent.started_story = True
     scene black
     call reset_camera
-
+    voice "n1143"
     "{size=+40}Chapter IV: \n{/size}The Rabbit Sends in a Little Bill"
     scene muddy
     play music "audio/rinne oak general store.mp3" if_changed
@@ -1507,20 +1507,24 @@ label chapter4:
         xpos 1.2
         ease 20.0 xpos -1.0
 
+    voice "n1144"
     "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something." #; and she heard it muttering to itself:"
     voice "rabbit43"  # forgot this at first
     rabbit "*muttering* The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?"
+    voice "n1145"
     "Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely."
 
     show rabbit normal at breathing:
         xzoom -1.0
         ease 5.0 xpos 0.2 ypos 0.7
+    voice "n1146"
     "Very soon the Rabbit noticed Alice, as she went hunting about." # , and called out to her in an angry tone"
     show alice surprised at breathing
     voice "rabbit04"
     rabbit "*angry* Why, Mary Ann, what are you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!"
     show alice surprised at breathing:
         linear 1.0 xpos 2.0
+    voice "n1147"
     "And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made."
     scene black
     alice "(He took me for his housemaid. How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them)"
@@ -1528,7 +1532,9 @@ label chapter4:
     scene rabbit_house:
         xalign 0.0
         linear 10.0 xalign 1.0
+    voice "n1148"
     "As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name 'W. RABBIT' engraved upon it."
+    voice "n1149"
     "She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves."
 
     scene rabbit_room:
@@ -1536,17 +1542,21 @@ label chapter4:
         linear 10.0 xalign 1.0
 
     alice "(How queer it seems, to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!)"
+    voice "n1150"
     "And she began fancying the sort of thing that would happen:"
     alice "('Miss Alice! Come here directly, and get ready for your walk!' 'Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.')"
     alice "(Only I don’t think, that they’d let Dinah stop in the house if it began ordering people about like that!)"
 
     show fan gloves at Position(ypos = 0.65, xpos = 0.5)
+    voice "n1151"
     "By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves:"
     hide fan gloves
     show alice excited at breathing:
         xpos 0.5 ypos 0.9 zoom alice_scale
+    voice "n1152"
     "She took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass."
     play sound "sfx/cork.mp3"
+    voice "n1153"
     "There was no label this time with the words 'DRINK ME', but nevertheless she uncorked it and put it to her lips."
     alice "(I know something interesting is sure to happen, whenever I eat or drink anything; so I’ll just see what this bottle does)"
     alice "(I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!)"
@@ -1556,25 +1566,28 @@ label chapter4:
         anchor (0.5, 1.0)
         zoom alice_scale
         easeout 60.0 zoom 10.0
-
+    voice "n1154"
     "It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken."
+    voice "n1155"
     "She hastily put down the bottle."
     alice "(That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!)"
 
     show alice belly at breathing:
         xpos 0.7 ypos 1.0 zoom 1.9
-
+    voice "n1156"
     "Alas! it was too late to wish that! She went on growing, and growing, and very soon had to kneel down on the floor:"
+    voice "n1157"
     "In another minute there was not even room for this, and she tried the effect of lying down with one elbow against the door, and the other arm curled round her head."
+    voice "n1158"
     "Still she went on growing, and, as a last resource, she put one arm out of the window, and one foot up the chimney."
 
 
     alice "(Now I can do no more, whatever happens. What will become of me?)"
 
     # stop growing, show at max w/ breathing
-    
+    voice "n1159"
     "Luckily for Alice, the little magic bottle had now had its full effect, and she grew no larger:"
-
+    voice "n1160"
     "Still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy."
 
     alice "(It was much pleasanter at home, when one wasn’t always growing larger and smaller, and being ordered about by mice and rabbits)"
@@ -1587,7 +1600,7 @@ label chapter4:
     alice "(Oh, you foolish Alice!)"
     alice "(How can you learn lessons in here?)"
     alice "(Why, there’s hardly room for you, and no room at all for any lesson-books!)"
-
+    voice "n1161"
     "And so she went on, taking first one side and then the other, and making quite a conversation of it altogether; but after a few minutes she heard a voice outside, and stopped to listen."
 
     voice "rabbit05"
@@ -1596,24 +1609,31 @@ label chapter4:
     rabbit "Fetch me my gloves this moment!"
 
     play sound "sfx/upstairs.mp3"
+    voice "n1162"
     "Then came a little pattering of feet on the stairs."
+    voice "n1163"
     "Alice knew it was the Rabbit coming to look for her, and she trembled till she shook the house, quite forgetting that she was now about a thousand times as large as the Rabbit, and had no reason to be afraid of it."
 
     play sound "sfx/door_closed.mp3"
+    voice "n1164"
     "Presently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure."
     voice "rabbit07"
     rabbit "Then I’ll go round and get in at the window."
 
     alice "(That you won’t!)"
+    voice "n1165"
     "After waiting till she fancied she heard the Rabbit just under the window."
     play sound "sfx/snatch.mp3"
+    voice "n1166"
     "She suddenly spread out her hand, and made a snatch in the air."
     play sound "sfx/shatter.mp3"
+    voice "n1167"
     "She did not get hold of anything, but she heard a little shriek and a fall, and a crash of broken glass, from which she concluded that it was just possible it had fallen into a cucumber-frame, or something of the sort."
-
+    voice "n1168"
     "Next came an angry voice—"
     voice "rabbit08"
     rabbit "Pat! Pat! Where are you?"
+    voice "n1169"
     "And then a voice she had never heard before:"
     voice "pat1"
     pat "Sure then I’m here! Digging for apples, yer honour!"
@@ -1634,20 +1654,22 @@ label chapter4:
     pat "Sure, it does, yer honour: but it’s an arm for all that."
     voice "rabbit13"
     rabbit "Well, it’s got no business there, at any rate: go and take it away!"
-
+    voice "n1170"
     "There was a long silence after this, and Alice could only hear whispers now and then; such as:"
     voice "pat4"
     pat "Sure, I don’t like it, yer honour, at all, at all!"
     voice "rabbit14"
     rabbit "Do as I tell you, you coward!"
     play sound "sfx/snatch.mp3"
+    voice "n1171"
     "And at last she spread out her hand again, and made another snatch in the air."
 
     play sound "sfx/shatter.mp3"
+    voice "n1172"
     "This time there were two little shrieks, and more sounds of broken glass."
     alice "(What a number of cucumber-frames there must be!)"
     alice "(I wonder what they’ll do next! As for pulling me out of the window, I only wish they could! I’m sure I don’t want to stay in here any longer!)"
-
+    voice "n1173"
     "She waited for some time without hearing anything more: at last came a rumbling of little cartwheels, and the sound of a good many voices all talking together:"
 
     anon "Where’s the other ladder?" # A
@@ -1672,55 +1694,65 @@ label chapter4:
 
     alice "(Oh! So Bill’s got to come down the chimney, has he?)"
     alice "(Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I think I can kick a little!)"
-
+    voice "n1174"
     "She drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her:"
     alice "(This is Bill!)"
     play sound "sfx/snatch.mp3"
+    voice "n1175"
     "She gave one sharp kick, and waited to see what would happen next."
-
+    voice "n1176"
     "The first thing she heard was a general chorus of:"
     everyone "There goes Bill!"
+    voice "n1177"
     "Then the Rabbit’s voice along—"
     voice "rabbit15"
     rabbit "Catch him, you by the hedge!"
     play sound "sfx/shatter.mp3"
     "..."
+    voice "n1178"
     "Then silence, and then another confusion of voices—"
     anon "Hold up his head." # A
     anon "Brandy now." # B
     anon "Don’t choke him." # C
     anon "How was it, old fellow? What happened to you? Tell us all about it!" # A
-
+    voice "n1179"
     "Last came a little feeble, squeaking voice:"
     voice "bill1"
     bill "Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
     anon "So you did, old fellow!" # B
     voice "rabbit16"
     rabbit "We must burn the house down!"
+    voice "n1180"
     "Alice called out as loud as she could:"
     alice "If you do, I’ll set Dinah at you!"
 
     "..."
+    voice "n1181"
     "There was a dead silence instantly."
     alice "(I wonder what they will do next! If they had any sense, they’d take the roof off)"
+    voice "n1182"
     "After a minute or two, they began moving about again."
     voice "rabbit17"
     rabbit "A barrowful will do, to begin with."
 
     alice "(A barrowful of what?)"
+    voice "n1183"
     "She had not long to doubt, for the next moment a shower of little pebbles came rattling in at the window, and some of them hit her in the face."
     alice "(I’ll put a stop to this)"
     #"she said to herself, and shouted out, "
     alice "You’d better not do that again!"
+    voice "n1184"
     "Which produced another dead silence."
 
     show pebble_cake at Position(ypos = 0.65, xpos = 0.5)
+    voice "n1185"
     "Alice noticed with some surprise that the pebbles were all turning into little cakes as they lay on the floor, and a bright idea came into her head."
     alice "(If I eat one of these cakes, it’s sure to make some change in my size; and as it can’t possibly make me larger, it must make me smaller, I suppose)"
     hide pebble_cake
 
     show alice at breathing:
         easein 10.0 zoom 1.0
+    voice "n1186"
     "So she swallowed one of the cakes, and was delighted to find that she began shrinking directly."
 
     scene rabbit_house:
@@ -1730,11 +1762,14 @@ label chapter4:
         pos (0.25, 0.92) zoom 0.8
     show alice surprised at breathing:
         pos (0.85, 0.79) zoom alice_scale
+    voice "n1187"
     "As soon as she was small enough to get through the door, she ran out of the house, and found quite a crowd of little animals and birds waiting outside."
+    voice "n1188"
     "The poor little Lizard, Bill, was in the middle, being held up by two guinea-pigs, who were giving it something out of a bottle."
 
     show alice at breathing:
         linear 1.0 xpos 2.0
+    voice "n1189"
     "They all made a rush at Alice the moment she appeared; but she ran off as hard as she could, and soon found herself safe in a thick wood."
 
 label ch4_forest:
@@ -1757,22 +1792,24 @@ label ch4_forest:
 
     alice "The first thing I’ve got to do, is to grow to my right size again; and the second thing is, to find my way into that lovely garden."
     alice "I think that will be the best plan."
-
+    voice "n1190"
     "It sounded an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that she had not the smallest idea how to set about it; and while she was peering about anxiously among the trees, a little sharp bark just over her head made her look up in a great hurry."
 
     camera:
         linear 2.0 xpos 0 ypos 425 zpos -335
     #scene huge_dog # todo replace with normal sized dog
     play sound "sfx/bark.mp3"
+    voice "n1191"
     "An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her."
     alice "Poor little thing!"
+    voice "n1192"
     "She tried hard to whistle to it; but she was terribly frightened all the time at the thought that it might be hungry, in which case it would be very likely to eat her up in spite of all her coaxing."
 
     play sound "sfx/bark.mp3"
     show puppy:
         easein 1.0 yoffset -200
         easeout 1.0 yoffset 0
-
+    voice "n1193"
     "Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it."
     camera:
         linear 2.0 xpos -275 ypos 425 zpos -335
@@ -1785,10 +1822,11 @@ label ch4_forest:
         linear 0.7 xpos -0.42 ypos 0.75 zrotate -120
         linear 0.7 xpos -0.71 ypos 0.75 zrotate -160
         linear 0.2 xpos -0.71 ypos 0.75 zrotate 0 xzoom -1.0
-
+    voice "n1194"
     "Then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it."
     show alice at breathing:
         linear 0.5 xpos 0.17
+    voice "n1195"
     "Then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every moment to be trampled under its feet, ran round the thistle again."
     camera:
         linear 2.0 xpos -560 ypos 425 zpos -335
@@ -1802,8 +1840,9 @@ label ch4_forest:
     play sound "sfx/bark.mp3"
     #queue sound "sfx/bark.mp3"
     #queue sound "sfx/bark.mp3"
+    voice "n1196"
     "Then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut."
-
+    voice "n1197"
     "This seemed to Alice a good opportunity for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the puppy’s bark sounded quite faint in the distance."
 label ch4_grass:
 
@@ -1855,27 +1894,28 @@ label ch4_caterpillar:
         xpos 730 ypos 815 zpos -1460 xoffset -center_offset
 
     alice "And yet what a dear little puppy it was!"
+    voice "n1198"
     "She leant against a buttercup to rest herself, and fanned herself with one of the leaves:"
 
     alice "I should have liked teaching it tricks very much, if—if I’d only been the right size to do it!"
     alice "Oh dear! I’d nearly forgotten that I’ve got to grow up again!"
     alice "Let me see—how is it to be managed?"
     alice "I suppose I ought to eat or drink something or other; but the great question is, what?"
-
+    voice "n1199"
     "The great question certainly was, what?"
 
     camera:
         linear 4.0 xpos 1000 
-
+    voice "n1200"
     "Alice looked all round her at the flowers and the blades of grass, but she did not see anything that looked like the right thing to eat or drink under the circumstances."
 
 
-
+    voice "n1201"
     "There was a large mushroom growing near her, about the same height as herself; and when she had looked under it, and on both sides of it, and behind it, it occurred to her that she might as well look and see what was on the top of it."
 
     camera:
         linear 4.0 xpos 1000 ypos 635 zpos -1275
-
+    voice "n1202"
     "She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else."
 
 label chapter5:
