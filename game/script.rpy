@@ -714,12 +714,15 @@ label chapter2:
     alice "(Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure I shan’t be able!)"
     voice "alice034"
     alice "(I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; —but I must be kind to them, or perhaps they won’t walk the way I want to go!)" 
+    voice "alice035"
     alice "(Let me see: I’ll give them a new pair of boots every Christmas)"
     voice "n1059"
     "And she went on planning to herself how she would manage it."
+    voice "alice036"
     alice "(They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!)"
-    voice "n1060"
+    voice "n1060" # should this be alice?
     "Alice’s Right Foot, Esq. \nHearthrug, \nNear the Fender, \n(with Alice’s love)\n"
+    voice "alice037"
     alice "(Oh dear, what nonsense I’m talking!)"
     play sound "sfx/bump.mp3"
     voice "n1061"
@@ -728,7 +731,7 @@ label chapter2:
     "Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again."
     show alice crying at breathing_crying:
         xpos 0.5 ypos 0.9 zoom alice_scale_large
-
+    voice "alice038"
     alice "You ought to be ashamed of yourself, a great girl like you, to go on crying in this way! Stop this moment, I tell you!"
     voice "n1063"
     "But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall."
@@ -753,6 +756,7 @@ label chapter2:
     camera:
         ease cam_transition xpos 0 ypos 0 zpos 0
     show alice pout at breathing
+    voice "alice039"
     alice "If you please, sir—"
     # hide alice
 
@@ -768,13 +772,17 @@ label chapter2:
     hide rabbit
 
     show alice pout at breathing
+    voice "alice040"
     alice "Dear, dear! How queer everything is to-day! And yesterday things went on just as usual."
+    voice "alice041"
     alice "I wonder if I’ve been changed in the night? Let me think:"
+    voice "alice042"
     alice "Was I the same when I got up this morning? I almost think I can remember feeling a little different."
+    voice "alice043"
     alice "But if I’m not the same, the next question is, Who in the world am I? Ah, that’s the great puzzle!"
     voice "n1070"
     "And she began thinking over all the children she knew that were of the same age as herself, to see if she could have been changed for any of them."
-
+    voice "alice044"
     alice "I’m sure I’m not Ada, for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, she’s she, and I’m I, and—oh dear, how puzzling it all is!"
     alice "I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is—oh dear! I shall never get to twenty at that rate!"
     alice "However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, that’s all wrong, I’m certain!"
