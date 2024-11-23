@@ -784,22 +784,31 @@ label chapter2:
     "And she began thinking over all the children she knew that were of the same age as herself, to see if she could have been changed for any of them."
     voice "alice044"
     alice "I’m sure I’m not Ada, for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, she’s she, and I’m I, and—oh dear, how puzzling it all is!"
+    voice "alice045"
     alice "I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is—oh dear! I shall never get to twenty at that rate!"
+    voice "alice046"
     alice "However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, that’s all wrong, I’m certain!"
+    voice "alice047"
     alice "I must have been changed for Mabel! I’ll try and say 'How doth the little—'"
     voice "n1071"
     "And she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:"
-
+    voice "alice048"
     alice "How doth the little crocodile\n{space=30}Improve his shining tail,\nAnd pour the waters of the Nile\n{space=30}On every golden scale!"
-
+    voice "alice049"
     alice "How cheerfully he seems to grin,\n{space=30}How neatly spread his claws,\nAnd welcome little fishes in\n{space=30}With gently smiling jaws!"
 
     show alice crying at breathing_crying
+    voice "alice050"
     alice "I’m sure those are not the right words."
+    voice "alice051"
     alice "I must be Mabel after all, and I shall have to go and live in that poky little house, and have next to no toys to play with, and oh!"
+    voice "alice052"
     alice "Ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here!" 
+    voice "alice053"
     alice "It’ll be no use their putting their heads down and saying 'Come up again, dear!' I shall only look up and say 'Who am I then?'" 
+    voice "alice054"
     alice "'Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else' —but, oh dear!"
+    voice "alice055"
     alice "I do wish they would put their heads down! I am so very tired of being all alone here!"
 
     show alice thinking at breathing:
@@ -808,7 +817,9 @@ label chapter2:
         easein 20.0 zoom alice_scale
     voice "n1072"
     "As she said this she looked down at her hands, and was surprised to see that she had put on one of the Rabbit’s little white kid gloves while she was talking."
+    voice "alice056"
     alice "How can I have done that?"
+    voice "alice057"
     alice "I must be growing small again."
     voice "n1073"
     "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
@@ -816,9 +827,11 @@ label chapter2:
     "She soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
 
     show alice happy at breathing
+    voice "alice058"
     alice "That was a narrow escape!"
     voice "n1074"
     "She was a good deal frightened at the sudden change, but very glad to find herself still in existence."
+    voice "alice059"
     alice "And now for the garden!"
     voice "n1075"
     "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
@@ -851,7 +864,7 @@ label chapter2:
     show alice thinking at breathing
     voice "n1078"
     "Her first idea was that she had somehow fallen into the sea."
-
+    voice "alice060"
     alice "(And in that case I can go back by railway)"
     voice "n1079"
     "(Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station)"
