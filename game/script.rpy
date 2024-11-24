@@ -836,7 +836,8 @@ label chapter2:
     voice "n1075"
     "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
     show alice pout at breathing
-    alice  "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
+    # voice "alice060" # TODO
+    alice "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
 
     stop music fadeout 1.0
     play sound "sfx/splash.mp3"
@@ -864,7 +865,7 @@ label chapter2:
     show alice thinking at breathing
     voice "n1078"
     "Her first idea was that she had somehow fallen into the sea."
-    voice "alice060"
+    voice "alice061"
     alice "(And in that case I can go back by railway)"
     voice "n1079"
     "(Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station)"
@@ -872,9 +873,11 @@ label chapter2:
     "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high."
 
     show alice pout at breathing
+    voice "alice062"
     alice "I wish I hadn’t cried so much!"
     voice "n1081"
     "She swam about, trying to find her way out."
+    voice "alice063"
     alice "I shall be punished for it now, I suppose, by being drowned in my own tears! That will be a queer thing, to be sure! However, everything is queer to-day."
 
     show alice thinking at breathing
@@ -888,12 +891,14 @@ label chapter2:
         ease 2.0 xpos 0.7 
     voice "n1083"
     "At first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself."
-
+    voice "alice064"
     alice "Would it be of any use, now, to speak to this mouse?"
+    voice "alice065"
     alice "Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying."
     voice "n1084"
     "So she began:"
     show alice normal at breathing
+    voice "alice066"
     alice "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!"
     voice "n1085"
     "(Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother’s Latin Grammar, 'A mouse—of a mouse—to a mouse—a mouse—O mouse!')"
@@ -901,6 +906,7 @@ label chapter2:
     "The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing."
 
     show alice thinking at breathing
+    voice "alice067"
     alice "Perhaps it doesn’t understand English, I daresay it’s a French mouse, come over with William the Conqueror."
     voice "n1087"
     "(For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened)"
@@ -908,15 +914,18 @@ label chapter2:
     "So she began again:"
     #voice "n1089"
     show alice normal at breathing
+    voice "alice068"
     alice "Où est ma chatte?"
     voice "n1090"
     "Which was the first sentence in her French lesson-book."
     voice "n1091"
     "The mouse gave a sudden leap out of the water, and seemed to quiver all over with fright."
     show alice thinking at breathing
+    voice "alice069"
     alice "Oh, I beg your pardon!"
     voice "n1092"
     "She was afraid that she had hurt the poor animal’s feelings."
+    voice "alice070"
     alice "I quite forgot you didn’t like cats."
 
     voice "mouse01"
@@ -2190,51 +2199,59 @@ label ch5_sky:
         easein 8.0 zpos 0.0 xpos 0.0
     "She had just succeeded in curving it down into a graceful zigzag, and was going to dive in among the leaves, which she found to be nothing but the tops of the trees under which she had been wandering, when a sharp hiss made her draw back in a hurry: a large pigeon had flown into her face, and was beating her violently with its wings."
 
+    voice "pigeon01"
     pigeon "Serpent!"
 
     alice "I’m not a serpent! Let me alone!"
 
+    voice "pigeon02"
     pigeon "Serpent, I say again!"
+    voice "pigeon03"
     pigeon "I’ve tried every way, and nothing seems to suit them!"
 
     alice "I haven’t the least idea what you’re talking about."
-
+    voice "pigeon04"
     pigeon "I’ve tried the roots of trees, and I’ve tried banks, and I’ve tried hedges, but those serpents! There’s no pleasing them!"
 
     "Alice was more and more puzzled, but she thought there was no use in saying anything more till the pigeon had finished."
-
+    voice "pigeon05"
     pigeon "As if it wasn’t trouble enough hatching the eggs, but I must be on the look-out for serpents night and day!"
+    voice "pigeon06"
     pigeon "Why, I haven’t had a wink of sleep these three weeks!"
 
     alice "I’m very sorry you’ve been annoyed."
-
+    voice "pigeon07"
     pigeon "And just as I’d taken the highest tree in the wood, and just as I was thinking I should be free of them at last, they must needs come wriggling down from the sky! Ugh, Serpent!" # ontinued the Pigeon, raising its voice to a shriek
 
     alice "But I’m not a serpent, I tell you!"
     alice "I’m a—I’m a—"
-
+    voice "pigeon08"
     pigeon "Well! What are you?"
+    voice "pigeon09"
     pigeon "I can see you’re trying to invent something!"
 
     alice "I—I’m a little girl..."
     "Said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day."
-
+    voice "pigeon10"
     pigeon "A likely story indeed!"
+    voice "pigeon11"
     pigeon "I’ve seen a good many little girls in my time, but never one with such a neck as that!"
+    voice "pigeon12"
     pigeon "No, no! You’re a serpent; and there’s no use denying it."
+    voice "pigeon13"
     pigeon "I suppose you’ll be telling me next that you never tasted an egg!"
 
     alice "I have tasted eggs, certainly, but little girls eat eggs quite as much as serpents do, you know."
-
+    voice "pigeon14"
     pigeon "I don’t believe it, but if they do, why then they’re a kind of serpent, that’s all I can say."
 
     "This was such a new idea to Alice, that she was quite silent for a minute or two."
     "..."
-
+    voice "pigeon15"
     pigeon "You’re looking for eggs, I know that well enough; and what does it matter to me whether you’re a little girl or a serpent?"
 
     alice "It matters a good deal to me, but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want yours: I don’t like them raw."
-
+    voice "pigeon16"
     pigeon "Well, be off, then!"
     "Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it."
     "After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height."
