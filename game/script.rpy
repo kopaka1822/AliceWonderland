@@ -836,7 +836,7 @@ label chapter2:
     voice "n1075"
     "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
     show alice pout at breathing
-    # voice "alice060" # TODO
+    voice "alice060"
     alice "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
 
     stop music fadeout 1.0
@@ -933,16 +933,21 @@ label chapter2:
     voice "mouse02"
     mouse "Would you like cats if you were me?"
 
+    voice "alice071"
     alice "Well, perhaps not, don’t be angry about it."
     show alice happy at breathing
+    voice "alice072"
     alice "And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her."
+    voice "alice073"
     alice "She is such a dear quiet thing."
     voice "n1093"
     "Alice went on, half to herself, as she swam lazily about in the pool."
+    voice "alice074"
     alice "And she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
     voice "n1094"
     "This time the Mouse was bristling all over, and she felt certain it must be really offended."
     show alice thinking at breathing
+    voice "alice075"
     alice "We won’t talk about her any more if you’d rather not."
 
     voice "mouse03"
@@ -953,25 +958,32 @@ label chapter2:
     mouse "As if I would talk on such a subject! Our family always hated cats: nasty, low, vulgar things! Don’t let me hear the name again!"
 
     show alice normal at breathing
+    voice "alice076"
     alice "I won’t indeed!"
     voice "n1096"
     "Alice was in a great hurry to change the subject of conversation."
+    voice "alice077"
     alice "Are you—are you fond—of—of dogs?"
     voice "n1097"
     "The mouse did not answer, so Alice went on eagerly:"
+    voice "alice078"
     alice "There is such a nice little dog near our house I should like to show you!"
+    voice "alice079"
     alice "A little bright-eyed terrier, you know, with oh, such long curly brown hair!"
+    voice "alice080"
     alice "And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things—I can’t remember half of them—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds!"
+    voice "alice081"
     alice "He says it kills all the rats and—oh dear!"
     show alice crying at breathing
     voice "n1098"
     "Alice cried in a sorrowful tone."
+    voice "alice082"
     alice "I’m afraid I’ve offended it again!"
     show mouse at swimming:
         linear 10.0 xoffset 1000
     voice "n1099"
     "For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
-
+    voice "alice083"
     alice "Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!"
     show alice normal at breathing
     show mouse at swimming:
