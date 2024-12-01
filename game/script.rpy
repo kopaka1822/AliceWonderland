@@ -372,6 +372,7 @@ label chapter1:
     show rabbit normal at breathing:
         ease 1.0 xpos 1.0 ypos 2.0
     show alice happy at breathing:
+        zoom 0.6
         ease 1.0 xpos rabbit_riverbank
     camera:
         ease cam_transition xpos rabbit_riverbank ypos 0 zpos 0
@@ -1157,6 +1158,7 @@ label ch3_start:
     camera: 
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
     show alice pout at breathing
+    voice "alice084"
     alice "As wet as ever, it doesn’t seem to dry me at all."
 
     camera: 
@@ -1181,6 +1183,7 @@ label ch3_start:
     camera: 
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
     show alice thinking at breathing
+    voice "alice085"
     alice "What is a Caucus-race?"
 
     voice "n1115"
@@ -1334,6 +1337,7 @@ label ch3_start:
     show alice normal at breathing
 
     show thimble at Position(ypos = 0.65) onlayer screens 
+    voice "alice086"
     alice "Only a thimble."
     hide thimble onlayer screens 
 
@@ -1366,8 +1370,9 @@ label ch3_start:
 
     camera:
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
-
+    voice "alice087"
     alice "You promised to tell me your history, you know."
+    voice "alice088"
     alice "And why it is you hate—C and D."
     voice "n1132"
     "Alice added in a whisper, half afraid that it would be offended again."
@@ -1380,7 +1385,7 @@ label ch3_start:
     
     camera:
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
-
+    voice "alice089"
     alice "It is a long {b}tail{/b}, certainly, but why do you call it sad?"
     voice "n1133"
     "She kept on puzzling about it while the Mouse was speaking, so that her idea of the tale was something like this:—"
@@ -1406,7 +1411,7 @@ label ch3_start:
 
     camera:
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
-
+    voice "alice090"
     alice "I beg your pardon, you had got to the fifth bend, I think?"
 
     camera: 
@@ -1416,8 +1421,9 @@ label ch3_start:
 
     camera:
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
-
+    voice "alice091"
     alice "A knot!" # said Alice, always ready to make herself useful, and looking anxiously about her. 
+    voice "alice092"
     alice "Oh, do let me help to undo it!"
 
     camera: 
@@ -1433,13 +1439,13 @@ label ch3_start:
 
     camera:
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
-
+    voice "alice093"
     alice "I didn’t mean it! But you’re so easily offended, you know!"
     show mouse:
         ease 1.0 xoffset 400
     voice "n1135"
     "The Mouse only growled in reply."
-
+    voice "alice094"
     alice "Please come back and finish your story!"
     #"All the others joined in chorus:"
     show mouse:
@@ -1447,7 +1453,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_alice_pos zpos 0 ypos 0
-
+    voice "everyone4"
     everyone "Yes, please do!"
     voice "n1136"
     "But the Mouse only shook its head impatiently, and walked a little quicker."
@@ -1473,7 +1479,9 @@ label ch3_start:
     camera: 
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
     show alice normal at breathing
+    voice "alice095"
     alice "I wish I had our Dinah here, I know I do!"
+    voice "alice096"
     alice "She’d soon fetch it back!"
 
     camera: 
@@ -1483,6 +1491,7 @@ label ch3_start:
 
     camera: 
         ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
+    voice "alice097"
     alice "Dinah’s our cat. And she’s such a capital one for catching mice you can’t think! And oh, I wish you could see her after the birds! Why, she’ll eat a little bird as soon as look at it!"
 
     camera: 
@@ -1519,8 +1528,11 @@ label ch3_start:
     "On various pretexts they all moved off, and Alice was soon left alone."
 
     show alice pout at breathing
+    voice "alice098"
     alice "(I wish I hadn’t mentioned Dinah!)"
+    voice "alice099"
     alice "(Nobody seems to like her, down here, and I’m sure she’s the best cat in the world!)"
+    voice "alice100"
     alice "(Oh, my dear Dinah! I wonder if I shall ever see you any more!)"
     show alice crying at breathing_crying
     voice "n1141"
@@ -1569,6 +1581,7 @@ label chapter4:
     voice "n1147"
     "And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made."
     scene black
+    voice "alice101"
     alice "(He took me for his housemaid. How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them)"
 
     scene rabbit_house:
@@ -1582,11 +1595,13 @@ label chapter4:
     scene rabbit_room:
         xalign 0.0
         linear 10.0 xalign 1.0
-
+    voice "alice102"
     alice "(How queer it seems, to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!)"
     voice "n1150"
     "And she began fancying the sort of thing that would happen:"
+    voice "alice103"
     alice "('Miss Alice! Come here directly, and get ready for your walk!' 'Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.')"
+    voice "alice104"
     alice "(Only I don’t think, that they’d let Dinah stop in the house if it began ordering people about like that!)"
 
     show fan gloves at Position(ypos = 0.65, xpos = 0.5)
