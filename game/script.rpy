@@ -1615,7 +1615,9 @@ label chapter4:
     play sound "sfx/cork.mp3"
     voice "n1153"
     "There was no label this time with the words 'DRINK ME', but nevertheless she uncorked it and put it to her lips."
+    voice "alice105"
     alice "(I know something interesting is sure to happen, whenever I eat or drink anything; so I’ll just see what this bottle does)"
+    voice "alice106"
     alice "(I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!)"
 
     show alice excited at breathing:
@@ -1627,6 +1629,7 @@ label chapter4:
     "It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken."
     voice "n1155"
     "She hastily put down the bottle."
+    voice "alice107"
     alice "(That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!)"
 
     show alice belly at breathing:
@@ -1638,7 +1641,7 @@ label chapter4:
     voice "n1158"
     "Still she went on growing, and, as a last resource, she put one arm out of the window, and one foot up the chimney."
 
-
+    voice "alice108"
     alice "(Now I can do no more, whatever happens. What will become of me?)"
 
     # stop growing, show at max w/ breathing
@@ -1646,16 +1649,21 @@ label chapter4:
     "Luckily for Alice, the little magic bottle had now had its full effect, and she grew no larger:"
     voice "n1160"
     "Still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy."
-
+    voice "alice109"
     alice "(It was much pleasanter at home, when one wasn’t always growing larger and smaller, and being ordered about by mice and rabbits)"
+    voice "alice110"
     alice "(I almost wish I hadn’t gone down that rabbit-hole—and yet—and yet—it’s rather curious, you know, this sort of life!)"
+    voice "alice111"
     alice "(I do wonder what can have happened to me! When I used to read fairy-tales, I fancied that kind of thing never happened, and now here I am in the middle of one!)"
+    voice "alice112"
     alice "(There ought to be a book written about me, that there ought! And when I grow up, I’ll write one—but I’m grown up now, at least there’s no room to grow up any more here)"
-
+    voice "alice113"
     alice "(But then, shall I never get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like that!)"
-
+    voice "alice114"
     alice "(Oh, you foolish Alice!)"
+    voice "alice115"
     alice "(How can you learn lessons in here?)"
+    voice "alice116"
     alice "(Why, there’s hardly room for you, and no room at all for any lesson-books!)"
     voice "n1161"
     "And so she went on, taking first one side and then the other, and making quite a conversation of it altogether; but after a few minutes she heard a voice outside, and stopped to listen."
@@ -1676,7 +1684,7 @@ label chapter4:
     "Presently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure."
     voice "rabbit07"
     rabbit "Then I’ll go round and get in at the window."
-
+    voice "alice117"
     alice "(That you won’t!)"
     voice "n1165"
     "After waiting till she fancied she heard the Rabbit just under the window."
@@ -1724,7 +1732,9 @@ label chapter4:
     play sound "sfx/shatter.mp3"
     voice "n1172"
     "This time there were two little shrieks, and more sounds of broken glass."
+    voice "alice118"
     alice "(What a number of cucumber-frames there must be!)"
+    voice "alice119"
     alice "(I wonder what they’ll do next! As for pulling me out of the window, I only wish they could! I’m sure I don’t want to stay in here any longer!)"
     voice "n1173"
     "She waited for some time without hearing anything more: at last came a rumbling of little cartwheels, and the sound of a good many voices all talking together:"
@@ -1748,11 +1758,13 @@ label chapter4:
     anon "That I won’t, then!" # C
     anon "Bill’s to go down." # A
     anon "Here, Bill! the master says you’re to go down the chimney!" # B
-
+    voice "alice120"
     alice "(Oh! So Bill’s got to come down the chimney, has he?)"
+    voice "alice121"
     alice "(Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I think I can kick a little!)"
     voice "n1174"
     "She drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her:"
+    voice "alice122"
     alice "(This is Bill!)"
     play sound "sfx/snatch.mp3"
     voice "n1175"
@@ -1781,22 +1793,26 @@ label chapter4:
     rabbit "We must burn the house down!"
     voice "n1180"
     "Alice called out as loud as she could:"
+    voice "alice123"
     alice "If you do, I’ll set Dinah at you!"
 
     "..."
     voice "n1181"
     "There was a dead silence instantly."
+    voice "alice124"
     alice "(I wonder what they will do next! If they had any sense, they’d take the roof off)"
     voice "n1182"
     "After a minute or two, they began moving about again."
     voice "rabbit17"
     rabbit "A barrowful will do, to begin with."
-
+    voice "alice125"
     alice "(A barrowful of what?)"
     voice "n1183"
     "She had not long to doubt, for the next moment a shower of little pebbles came rattling in at the window, and some of them hit her in the face."
+    voice "alice126"
     alice "(I’ll put a stop to this)"
     #"she said to herself, and shouted out, "
+    voice "alice127"
     alice "You’d better not do that again!"
     voice "n1184"
     "Which produced another dead silence."
@@ -2331,8 +2347,10 @@ label chapter6:
     "She felt very curious to know what it was all about, and crept a little way out of the wood to listen."
 
     "The Fish-Footman began by producing from under his arm a great letter, nearly as large as himself, and this he handed over to the other, saying, in a solemn tone:"
+    voice "fishfoot1"
     fishfoot "For the Duchess. An invitation from the Queen to play croquet."
     "The Frog-Footman repeated, in the same solemn tone, only changing the order of the words a little:"
+    voice "frogfoot1"
     frogfoot "From the Queen. An invitation for the Duchess to play croquet."
     
     # remove animations
@@ -2364,14 +2382,14 @@ label chapter6:
         pos (0.3, 0.9) zoom alice_scale
     play sound "sfx/knockknockknock.mp3"
     "Alice went timidly up to the door, and knocked."
-
+    voice "frogfoot2"
     frogfoot "There’s no sort of use in knocking, and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you."
 
     #play sound "sfx/shatter.mp3"
     "And certainly there was a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces."
 
     alice "Please, then, how am I to get in?"
-
+    voice "frogfoot3"
     frogfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
 
     "He was looking up into the sky all the time he was speaking, and this Alice thought decidedly uncivil."
@@ -2379,7 +2397,7 @@ label chapter6:
     alice "(But perhaps he can’t help it, his eyes are so very nearly at the top of his head. But at any rate he might answer questions)"
 
     alice "*loud* How am I to get in?"
-
+    voice "frogfoot4"
     frogfoot "I shall sit here, till tomorrow—"
 
     play sound "<silence 2.0>"
@@ -2391,13 +2409,13 @@ label chapter6:
 
     "At this moment the door of the house opened, and a large plate came skimming out, straight at the Footman’s head: it just grazed his nose, and broke to pieces against one of the trees behind him."
 
-
+    voice "frogfoot5"
     frogfoot "—or next day, maybe."
 
     #"The Footman continued in the same tone, exactly as if nothing had happened."
 
     alice "*louder* How am I to get in?" # asked Alice again, in a louder tone.
-
+    voice "frogfoot6"
     frogfoot "Are you to get in at all? That’s the first question, you know."
 
     "It was, no doubt: only Alice did not like to be told so."
@@ -2405,11 +2423,11 @@ label chapter6:
     alice "(It’s really dreadful, the way all the creatures argue. It’s enough to drive one crazy!)"
 
     "The Footman seemed to think this a good opportunity for repeating his remark, with variations."
-
+    voice "frogfoot7"
     frogfoot "I shall sit here, on and off, for days and days."
 
     alice "But what am I to do?"
-
+    voice "frogfoot8"
     frogfoot "Anything you like." # said the Footman, and began whistling.
 
     alice "Oh, there’s no use in talking to him, he’s perfectly idiotic!"
