@@ -1997,6 +1997,7 @@ label chapter5:
     camera: # revert camera
         perspective False
         zpos 0
+    voice "n1203"
     "{size=+40}Chapter V: \n{/size}Advice from a Caterpillar"
 
     play music "audio/rinne sad.mp3" fadein 1.0 fadeout 1.0
@@ -2008,12 +2009,12 @@ label chapter5:
     camera:
         perspective True
         xpos 1000 ypos 635 zpos -1275 xoffset -center_offset
-
+    voice "n1204"
     "The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice."
 
     voice "caterpillar01"
     caterpillar "Who are you?"
-
+    voice "n1205"
     "This was not an encouraging opening for a conversation."
     alice "I—I hardly know, sir, just at present—at least I know who I was when I got up this morning, but I think I must have been changed several times since then."
 
@@ -2043,8 +2044,9 @@ label chapter5:
     caterpillar "You!" # said the Caterpillar contemptuously.
     voice "caterpillar08"
     caterpillar "Who are you?"
-
+    voice "n1206"
     "Which brought them back again to the beginning of the conversation."
+    voice "n1207"
     "Alice felt a little irritated at the Caterpillar’s making such very short remarks, and she drew herself up and said, very gravely:"
     alice "I think, you ought to tell me who you are, first."
 
@@ -2054,6 +2056,7 @@ label chapter5:
     show alice at breathing:
         zpos -1000
         linear 2.0 xoffset -400
+    voice "n1208"
     "Here was another puzzling question; and as Alice could not think of any good reason, and as the Caterpillar seemed to be in a very unpleasant state of mind, she turned away."
 
     voice "caterpillar10"
@@ -2064,6 +2067,7 @@ label chapter5:
     show alice at breathing:
         zpos -1000
         linear 2.0 xoffset 0
+    voice "n1209"
     "This sounded promising, certainly: Alice turned and came back again."
     voice "caterpillar12"
     caterpillar "Keep your temper."
@@ -2071,13 +2075,16 @@ label chapter5:
     "..."
 
     alice "Is that all?"
+    voice "n1210"
     "Alice swallowed down her anger as well as she could."
     voice "caterpillar13"
     caterpillar "No."
-
+    
+    voice "n1211"
     "Alice thought she might as well wait, as she had nothing else to do, and perhaps after all it might tell her something worth hearing."
     play sound "voice/caterpillar_vape.mp3"
     "..."
+    voice "n1212"
     "For some minutes it puffed away without speaking, but at last it unfolded its arms, took the hookah out of its mouth again."
     voice "caterpillar14"
     caterpillar "So you think you’re changed, do you?"
@@ -2092,7 +2099,7 @@ label chapter5:
 
     voice "caterpillar16"
     caterpillar "Repeat, 'You are old, Father William.'"
-
+    voice "n1213"
     "Alice folded her hands, and began:"
 
     alice "'You are old, Father William',\nthe young man said,\n{space=30}And your hair has become very white;\nAnd yet you incessantly stand on your head—\n{space=30}Do you think, at your age, it is right?'"
@@ -2120,6 +2127,7 @@ label chapter5:
     voice "caterpillar18"
     caterpillar "It is wrong from beginning to end."
     "..."
+    voice "n1214"
     "And there was silence for some minutes."
     voice "caterpillar19"
     caterpillar "What size do you want to be?"
@@ -2127,7 +2135,7 @@ label chapter5:
     alice "Oh, I’m not particular as to size, only one doesn’t like changing so often, you know."
     voice "caterpillar20"
     caterpillar "I don’t know."
-
+    voice "n1215"
     "Alice said nothing: she had never been so much contradicted in all her life before, and she felt that she was losing her temper."
     voice "caterpillar21"
     caterpillar "Are you content now?"
@@ -2136,27 +2144,32 @@ label chapter5:
     alice "Three inches is such a wretched height to be."
     voice "caterpillar22"
     caterpillar "It is a very good height indeed!"
+    voice "n1216"
     "Said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)"
 
     alice "But I’m not used to it!"
+    voice "n1217"
     "Pleaded poor Alice in a piteous tone. And she thought of herself:"
 
-    alice "I wish the creatures wouldn’t be so easily offended!"
+    alice "(I wish the creatures wouldn’t be so easily offended!)"
     voice "caterpillar23"
     caterpillar "You’ll get used to it in time."
     play sound "voice/caterpillar_vape.mp3"
+    voice "n1218"
     "The caterpillar put the hookah into its mouth and began smoking again."
-
+    voice "n1219"
     "This time Alice waited patiently until it chose to speak again."
 
     play sound "<silence 2.0>"
     queue sound "voice/caterpillar_yawn.mp3"
+    voice "n1220"
     "In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself."
 
     show caterpillar at breathing:
         zpos -900
         linear 2.0 ypos 1.0
         linear 20.0 zpos -1200
+    voice "n1221"
     "Then it got down off the mushroom, and crawled away in the grass."
     voice "caterpillar24"
     caterpillar "One side will make you grow taller, and the other side will make you grow shorter."
@@ -2164,27 +2177,31 @@ label chapter5:
     alice "One side of what? The other side of what?"
     voice "caterpillar25"
     caterpillar "Of the mushroom."
+    voice "n1222"
     "In another moment it was out of sight."
 
     hide caterpillar
-
+    voice "n1223"
     "Alice remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it; and as it was perfectly round, she found this a very difficult question."
+    voice "n1224"
     "However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand."
 
     camera:
         linear 0.5 xpos 800 ypos 815 zpos -1500
     alice "And now which is which?"
+    voice "n1225"
     "She nibbled a little of the right-hand bit to try the effect:"
 
     show alice normal at breathing:
         zpos -1000
         easein_expo 10.0 yzoom 0.1
-
+    voice "n1226"
     "The next moment she felt a violent blow underneath her chin: it had struck her foot!"
 
 
-
+    voice "n1227"
     "She was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit."
+    voice "n1228"
     "Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit."
 
     alice "Come, my head’s free at last!"
@@ -2193,6 +2210,7 @@ label chapter5:
         zpos -1000
         yzoom 0.1
         easeout_expo 10.0 yzoom 5.0
+    voice "n1229"
     "Alice was delighted, which changed into alarm in another moment, when she found that her shoulders were nowhere to be found: all she could see, when she looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her."
 
     # switch scene to sky
@@ -2233,13 +2251,15 @@ label ch5_sky:
 
     alice "And where have my shoulders got to?"
     alice "And oh, my poor hands, how is it I can’t see you?"
+    voice "n1230"
     "She was moving them about as she spoke, but no result seemed to follow, except a little shaking among the distant green leaves."
-
+    voice "n1231"
     "As there seemed to be no chance of getting her hands up to her head, she tried to get her head down to them, and was delighted to find that her neck would bend about easily in any direction, like a serpent."
 
     show pigeon:
         zpos -1400 xpos 2.0
         easein 8.0 zpos 0.0 xpos 0.0
+    voice "n1232"
     "She had just succeeded in curving it down into a graceful zigzag, and was going to dive in among the leaves, which she found to be nothing but the tops of the trees under which she had been wandering, when a sharp hiss made her draw back in a hurry: a large pigeon had flown into her face, and was beating her violently with its wings."
 
     voice "pigeon01"
@@ -2255,7 +2275,7 @@ label ch5_sky:
     alice "I haven’t the least idea what you’re talking about."
     voice "pigeon04"
     pigeon "I’ve tried the roots of trees, and I’ve tried banks, and I’ve tried hedges, but those serpents! There’s no pleasing them!"
-
+    voice "n1233"
     "Alice was more and more puzzled, but she thought there was no use in saying anything more till the pigeon had finished."
     voice "pigeon05"
     pigeon "As if it wasn’t trouble enough hatching the eggs, but I must be on the look-out for serpents night and day!"
@@ -2274,6 +2294,7 @@ label ch5_sky:
     pigeon "I can see you’re trying to invent something!"
 
     alice "I—I’m a little girl..."
+    voice "n1234"
     "Said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day."
     voice "pigeon10"
     pigeon "A likely story indeed!"
@@ -2287,7 +2308,7 @@ label ch5_sky:
     alice "I have tasted eggs, certainly, but little girls eat eggs quite as much as serpents do, you know."
     voice "pigeon14"
     pigeon "I don’t believe it, but if they do, why then they’re a kind of serpent, that’s all I can say."
-
+    voice "n1235"
     "This was such a new idea to Alice, that she was quite silent for a minute or two."
     "..."
     voice "pigeon15"
@@ -2296,7 +2317,9 @@ label ch5_sky:
     alice "It matters a good deal to me, but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want yours: I don’t like them raw."
     voice "pigeon16"
     pigeon "Well, be off, then!"
+    voice "n1236"
     "Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it."
+    voice "n1237"
     "After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height."
 
     scene forest
@@ -2306,7 +2329,7 @@ label ch5_sky:
 
     #stop music fadeout 1.0
     play music "audio/rinne song of little birds.mp3" fadein 1.0 fadeout 1.0
-
+    voice "n1238"
     "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
 
     show alice happy at breathing:
@@ -2319,10 +2342,12 @@ label ch5_sky:
     scene forest_house
     show alice happy at breathing:
         pos (0.8, 0.9) zoom 0.7
+    voice "n1239"
     "She came suddenly upon an open place, with a little house in it about four feet high."
     alice "Whoever lives there, it’ll never do to come upon them this size: why, I should frighten them out of their wits!"
     show alice at breathing:
         linear 5.0 zoom 0.1
+    voice "n1240"
     "So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high."
 
 label chapter6:
