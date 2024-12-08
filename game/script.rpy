@@ -1738,25 +1738,42 @@ label chapter4:
     alice "(I wonder what they’ll do next! As for pulling me out of the window, I only wish they could! I’m sure I don’t want to stay in here any longer!)"
     voice "n1173"
     "She waited for some time without hearing anything more: at last came a rumbling of little cartwheels, and the sound of a good many voices all talking together:"
-
+    voice "a01"
     anon "Where’s the other ladder?" # A
+    #voice "b01"
     anon "Why, I hadn’t to bring but one; Bill’s got the other." # B
+    voice "a02"
     anon "Bill! fetch it here, lad!" # A
+    #voice "b02"
     anon "Here, put 'em up at this corner." # B
+    voice "a03"
     anon "No, tie 'em together first—they don’t reach half high enough yet" # A
+    #voice "c01"
     anon "Oh! they’ll do well enough; don’t be particular." # C
+    voice "a04"
     anon "Here, Bill! catch hold of this rope." # A
+    #voice "c02"
     anon "Will the roof bear?" # C
+    #voice "b03"
     anon "Mind that loose slate." # B
+    voice "a05"
     anon "Oh, it’s coming down! Heads below!" # A
 
     play sound "sfx/shatter.mp3"
+    "..."
+    voice "a06"
     anon "Now, who did that?" # A
+    #voice "b04"
     anon "It was Bill, I fancy." # B
+    #voice "c03"
     anon "Who’s to go down the chimney?" # C
+    #voice "b05"
     anon "Nay, I shan’t! You do it!" # B
+    #voice "c04"
     anon "That I won’t, then!" # C
+    voice "a07"
     anon "Bill’s to go down." # A
+    #voice "b06"
     anon "Here, Bill! the master says you’re to go down the chimney!" # B
     voice "alice120"
     alice "(Oh! So Bill’s got to come down the chimney, has he?)"
@@ -1771,6 +1788,7 @@ label chapter4:
     "She gave one sharp kick, and waited to see what would happen next."
     voice "n1176"
     "The first thing she heard was a general chorus of:"
+    voice "everyone5"
     everyone "There goes Bill!"
     voice "n1177"
     "Then the Rabbit’s voice along—"
@@ -1780,15 +1798,20 @@ label chapter4:
     "..."
     voice "n1178"
     "Then silence, and then another confusion of voices—"
+    voice "a08"
     anon "Hold up his head." # A
+    #voice "b07"
     anon "Brandy now." # B
+    #voice "c05"
     anon "Don’t choke him." # C
+    voice "a09"
     anon "How was it, old fellow? What happened to you? Tell us all about it!" # A
     voice "n1179"
     "Last came a little feeble, squeaking voice:"
     voice "bill1"
     bill "Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!"
-    anon "So you did, old fellow!" # B
+    voice "a10"
+    anon "So you did, old fellow!" # A
     voice "rabbit16"
     rabbit "We must burn the house down!"
     voice "n1180"
@@ -1820,6 +1843,7 @@ label chapter4:
     show pebble_cake at Position(ypos = 0.65, xpos = 0.5)
     voice "n1185"
     "Alice noticed with some surprise that the pebbles were all turning into little cakes as they lay on the floor, and a bright idea came into her head."
+    voice "alice128"
     alice "(If I eat one of these cakes, it’s sure to make some change in my size; and as it can’t possibly make me larger, it must make me smaller, I suppose)"
     hide pebble_cake
 
@@ -1862,8 +1886,9 @@ label ch4_forest:
         pos (0.89, 0.85)
         anchor (0.5, 1.0)
         zoom 1.0
-
+    voice "alice129"
     alice "The first thing I’ve got to do, is to grow to my right size again; and the second thing is, to find my way into that lovely garden."
+    voice "alice130"
     alice "I think that will be the best plan."
     voice "n1190"
     "It sounded an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that she had not the smallest idea how to set about it; and while she was peering about anxiously among the trees, a little sharp bark just over her head made her look up in a great hurry."
@@ -1874,6 +1899,7 @@ label ch4_forest:
     play sound "sfx/bark.mp3"
     voice "n1191"
     "An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her."
+    voice "alice131"
     alice "Poor little thing!"
     voice "n1192"
     "She tried hard to whistle to it; but she was terribly frightened all the time at the thought that it might be hungry, in which case it would be very likely to eat her up in spite of all her coaxing."
@@ -1965,14 +1991,17 @@ label ch4_caterpillar:
     camera:
         perspective True
         xpos 730 ypos 815 zpos -1460 xoffset -center_offset
-
+    voice "alice132"
     alice "And yet what a dear little puppy it was!"
     voice "n1198"
     "She leant against a buttercup to rest herself, and fanned herself with one of the leaves:"
-
+    voice "alice133"
     alice "I should have liked teaching it tricks very much, if—if I’d only been the right size to do it!"
+    voice "alice134"
     alice "Oh dear! I’d nearly forgotten that I’ve got to grow up again!"
+    voice "alice135"
     alice "Let me see—how is it to be managed?"
+    voice "alice136"
     alice "I suppose I ought to eat or drink something or other; but the great question is, what?"
     voice "n1199"
     "The great question certainly was, what?"
@@ -3518,6 +3547,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos card2_garden zoom 2.0 ypos 700
+    voice "two1"
     two "Look out now, Five! Don’t go splashing paint over me like that!"
     camera:
         ease cam_transition xpos card5_garden zoom 2.0 ypos 700
@@ -3535,6 +3565,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos card2_garden zoom 2.0 ypos 700
+    voice "two2"
     two "What for?"
 
     camera:
@@ -3561,8 +3592,9 @@ label chapter8:
     camera:
         ease cam_transition xpos card2_garden zoom 2.0 ypos 700
     "Five and Seven said nothing, but looked at Two."
-
+    voice "two3"
     two "Why the fact is, you see, Miss, this here ought to have been a red rose-tree, and we put a white one in by mistake; and if the Queen was to find it out, we should all have our heads cut off, you know."
+    voice "two4"
     two "So you see, Miss, we’re doing our best, afore she comes, to—" # "Two began in a low voice,
     camera:
         ease cam_transition xpos card5_garden zoom 2.0 ypos 700
@@ -3868,7 +3900,7 @@ label chapter8:
     "And then, turning to the rose-tree, she went on:"
     voice "queen10"
     queen "What have you been doing here?"
-
+    voice "two5"
     two "May it please your Majesty, we were trying—" # said Two, in a very humble tone, going down on one knee as he spoke
     voice "queen11"
     queen "I see!"
