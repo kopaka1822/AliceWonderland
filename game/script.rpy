@@ -2045,28 +2045,29 @@ label chapter5:
     caterpillar "Who are you?"
     voice "n1205"
     "This was not an encouraging opening for a conversation."
+    voice "alice137"
     alice "I—I hardly know, sir, just at present—at least I know who I was when I got up this morning, but I think I must have been changed several times since then."
 
     voice "caterpillar02"
     caterpillar "What do you mean by that?"
     voice "caterpillar03"
     caterpillar "Explain yourself!"
-
+    voice "alice138"
     alice "I can’t explain myself, I’m afraid, sir, because I’m not myself, you see."
 
     voice "caterpillar04"
     caterpillar "I don’t see."
-
+    voice "alice139"
     alice "I’m afraid I can’t put it more clearly, for I can’t understand it myself to begin with; and being so many different sizes in a day is very confusing."
 
     voice "caterpillar05"
     caterpillar "It isn’t."
-
+    voice "alice140"
     alice "Well, perhaps you haven’t found it so yet, but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll feel it a little queer, won’t you?"
 
     voice "caterpillar06"
     caterpillar "Not a bit."
-
+    voice "alice141"
     alice "Well, perhaps your feelings may be different. All I know is, it would feel very queer to me."
 
     voice "caterpillar07"
@@ -2077,6 +2078,7 @@ label chapter5:
     "Which brought them back again to the beginning of the conversation."
     voice "n1207"
     "Alice felt a little irritated at the Caterpillar’s making such very short remarks, and she drew herself up and said, very gravely:"
+    voice "alice142"
     alice "I think, you ought to tell me who you are, first."
 
     voice "caterpillar09"
@@ -2102,7 +2104,7 @@ label chapter5:
     caterpillar "Keep your temper."
 
     "..."
-
+    voice "alice143"
     alice "Is that all?"
     voice "n1210"
     "Alice swallowed down her anger as well as she could."
@@ -2117,40 +2119,42 @@ label chapter5:
     "For some minutes it puffed away without speaking, but at last it unfolded its arms, took the hookah out of its mouth again."
     voice "caterpillar14"
     caterpillar "So you think you’re changed, do you?"
-
+    voice "alice144"
     alice "I’m afraid I am, sir."
+    voice "alice145"
     alice "I can’t remember things as I used—and I don’t keep the same size for ten minutes together!"
 
     voice "caterpillar15"
     caterpillar "Can’t remember what things?"
-
+    voice "alice146"
     alice "Well, I’ve tried to say 'How doth the little busy bee', but it all came different!"
 
     voice "caterpillar16"
     caterpillar "Repeat, 'You are old, Father William.'"
     voice "n1213"
     "Alice folded her hands, and began:"
-
+    voice "alice147"
     alice "'You are old, Father William',\nthe young man said,\n{space=30}And your hair has become very white;\nAnd yet you incessantly stand on your head—\n{space=30}Do you think, at your age, it is right?'"
-
+    voice "alice148"
     alice "'In my youth',\nFather William replied to his son,\n{space=30}'I feared it might injure the brain;\nBut, now that I’m perfectly sure I have none,\n{space=30}Why, I do it again and again.'"
-
+    voice "alice149"
     alice "'You are old', said the youth,\n'as I mentioned before,\n{space=30}And have grown most uncommonly fat;\nYet you turned a back-somersault\nin at the door—\n{space=30}Pray, what is the reason of that?'"
-
+    voice "alice150"
     alice "'In my youth', said the sage,\nas he shook his grey locks,\n{space=30}'I kept all my limbs very supple\nBy the use of this ointment—\none shilling the box—\n{space=30}Allow me to sell you a couple?'"
-
+    voice "alice151"
     alice "'You are old', said the youth,\n'and your jaws are too weak\n{space=30}For anything tougher than suet;\nYet you finished the goose,\nRwith the bones and the beak—\n{space=30}Pray how did you manage to do it?'"
-
+    voice "alice152"
     alice "'In my youth', said his father, \n'I took to the law,\n{space=30}And argued each case with my wife;\nAnd the muscular strength, \nwhich it gave to my jaw,\n{space=30}Has lasted the rest of my life.'"
-
+    voice "alice153"
     alice "'You are old', said the youth, \n'one would hardly suppose\n{space=30}That your eye was as steady as ever;\nYet you balanced an eel \non the end of your nose—\n{space=30}What made you so awfully clever?'"
-
+    voice "alice154"
     alice "'I have answered three questions, \nand that is enough',\n{space=30}Said his father; 'don’t give yourself airs!\nDo you think I can listen all day to such stuff?\n{space=30}Be off, or I’ll kick you down stairs!'"
 
     voice "caterpillar17"
     caterpillar "That is not said right."
-
+    voice "alice155"
     alice "Not quite right, I’m afraid." # said alice timidly;
+    voice "alice156"
     alice "Some of the words have got altered."
 
     voice "caterpillar18"
@@ -2160,7 +2164,7 @@ label chapter5:
     "And there was silence for some minutes."
     voice "caterpillar19"
     caterpillar "What size do you want to be?"
-
+    voice "alice157"
     alice "Oh, I’m not particular as to size, only one doesn’t like changing so often, you know."
     voice "caterpillar20"
     caterpillar "I don’t know."
@@ -2168,18 +2172,19 @@ label chapter5:
     "Alice said nothing: she had never been so much contradicted in all her life before, and she felt that she was losing her temper."
     voice "caterpillar21"
     caterpillar "Are you content now?"
-
+    voice "alice158"
     alice "Well, I should like to be a little larger, sir, if you wouldn’t mind."
+    voice "alice159"
     alice "Three inches is such a wretched height to be."
     voice "caterpillar22"
     caterpillar "It is a very good height indeed!"
     voice "n1216"
     "Said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)"
-
+    voice "alice160"
     alice "But I’m not used to it!"
     voice "n1217"
     "Pleaded poor Alice in a piteous tone. And she thought of herself:"
-
+    voice "alice161"
     alice "(I wish the creatures wouldn’t be so easily offended!)"
     voice "caterpillar23"
     caterpillar "You’ll get used to it in time."
@@ -2202,7 +2207,7 @@ label chapter5:
     "Then it got down off the mushroom, and crawled away in the grass."
     voice "caterpillar24"
     caterpillar "One side will make you grow taller, and the other side will make you grow shorter."
-
+    voice "alice162"
     alice "One side of what? The other side of what?"
     voice "caterpillar25"
     caterpillar "Of the mushroom."
@@ -2217,6 +2222,7 @@ label chapter5:
 
     camera:
         linear 0.5 xpos 800 ypos 815 zpos -1500
+    voice "alice163"
     alice "And now which is which?"
     voice "n1225"
     "She nibbled a little of the right-hand bit to try the effect:"
@@ -2232,7 +2238,7 @@ label chapter5:
     "She was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit."
     voice "n1228"
     "Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit."
-
+    voice "alice164"
     alice "Come, my head’s free at last!"
     show alice normal at breathing:
         zoom 0.2
@@ -2268,7 +2274,7 @@ label ch5_sky:
     show cloud as cloud3:
         anchor (0.5, 0.5)
         xpos 1.2 ypos 0.7 zpos -600
-
+    voice "alice165"
     alice "What can all that green stuff be?"
     
     camera:
@@ -2277,8 +2283,9 @@ label ch5_sky:
         easein 3.0 zrotate 5.0 xpos 30 ypos 30
         easeout 3.0 zrotate 0.0 ypos 0 ypos 0
         repeat
-
+    voice "alice166"
     alice "And where have my shoulders got to?"
+    voice "alice167"
     alice "And oh, my poor hands, how is it I can’t see you?"
     voice "n1230"
     "She was moving them about as she spoke, but no result seemed to follow, except a little shaking among the distant green leaves."
@@ -2293,7 +2300,7 @@ label ch5_sky:
 
     voice "pigeon01"
     pigeon "Serpent!"
-
+    voice "alice168"
     alice "I’m not a serpent! Let me alone!"
 
     voice "pigeon02"
@@ -2908,7 +2915,7 @@ label chapter7:
     alice "(Very uncomfortable for the Dormouse, only, as it’s asleep, I suppose it doesn’t mind)"
 
     "The table was a large one, but the three were all crowded together at one corner of it."
-
+    #voice "everyone8"
     everyone "No room! No room!" 
 
     camera:
@@ -2958,6 +2965,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    #voice "hatter01"
     hatter "Your hair wants cutting."
 
     "He had been looking at Alice for some time with great curiosity, and this was his first speech."
@@ -2970,6 +2978,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    #voice "hatter02"
     hatter "Why is a raven like a writing-desk?"
 
     camera: 
@@ -2997,6 +3006,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    #voice "hatter03"
     hatter "Not the same thing a bit! Why, you might just as well say that ‘I see what I eat’ is the same thing as ‘I eat what I see’!"
 
     camera: 
@@ -3011,6 +3021,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    #voice "hatter04"
     hatter "It is the same thing with you."
 
     "And here the conversation dropped, and the party sat silent for a minute, while Alice thought over all she could remember about ravens and writing-desks, which wasn’t much."
@@ -3018,6 +3029,7 @@ label chapter7:
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     "The hatter was the first to break the silence."
+    #voice "hatter05"
     hatter "What day of month is it?"
 
 
@@ -3031,8 +3043,10 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter06"
     hatter "Two days wrong!"
     "He looked angrily at the March Hare."
+    voice "hatter07"
     hatter "I told you butter wouldn’t suit the works!"
     
     camera: 
@@ -3042,6 +3056,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter08"
     hatter "Yes, but some crumbs must have got in as well, you shouldn’t have put it in with the bread-knife."
 
     camera: 
@@ -3061,7 +3076,9 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter09"
     hatter "Why should it?" # muttered the Hatter.
+    #voice "hatter10"
     hatter "Does your watch tell you what year it is?"
 
 
@@ -3071,6 +3088,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    #voice "hatter11"
     hatter "Which is just the case with mine."
 
 
@@ -3082,6 +3100,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    #voice "hatter12"
     hatter "The Dormouse is asleep again."
 
     camera:
@@ -3098,6 +3117,7 @@ label chapter7:
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     "The hatter turned to Alice again."
+    #voice "hatter13"
     hatter "Have you guessed the riddle yet?"
 
     camera: 
@@ -3106,6 +3126,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    #voice "hatter14"
     hatter "I haven’t the slightest idea."
 
     camera: 
@@ -3120,6 +3141,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter15"
     hatter "If you knew Time as well as I do, you wouldn’t talk about wasting it. It’s him."
 
 
@@ -3129,6 +3151,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter16"
     hatter "Of course you don’t! I dare say you never even spoke to Time!"
 
 
@@ -3138,7 +3161,9 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter17"
     hatter "Ah! That accounts for it. He won’t stand beating. Now, if you only kept on good terms with him, he’d do almost anything you liked with the clock."
+    voice "hatter18"
     hatter "For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!"
 
     camera: 
@@ -3153,6 +3178,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter19"
     hatter "Not at first, perhaps, but you could keep it to half-past one as long as you liked."
 
 
@@ -3163,11 +3189,13 @@ label chapter7:
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     "The Hatter shook his head mournfully."
+    voice "hatter20"
     hatter "Not I! We quarrelled last March—just before he went mad, you know—"
 
     "The Hatter pointed with his tea spoon at the March Hare."
-
+    voice "hatter21"
     hatter "It was at the great concert given by the Queen of Hearts, and I had to sing\n‘Twinkle, twinkle, little bat!\nHow I wonder what you’re at!’"
+    voice "hatter22"
     hatter "You know the song, perhaps?"
 
 
@@ -3177,7 +3205,9 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter23"
     hatter "It goes on, you know, in this way:"
+    voice "hatter24"
     hatter "Up above the world you fly,\nLike a tea-tray in the sky.\nTwinkle, twinkle—"
 
     "Here the Dormouse shook itself, and began singing in its sleep:"
@@ -3191,6 +3221,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter25"
     hatter "Well, I’d hardly finished the first verse, when the Queen jumped up and bawled out, ‘He’s murdering the time! Off with his head!’"
 
 
@@ -3200,6 +3231,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter26"
     hatter "And ever since that, he won’t do a thing I ask! It’s always six o’clock now."
 
 
@@ -3210,6 +3242,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter27"
     hatter "Yes, that’s it, it’s always tea-time, and we’ve no time to wash the things between whiles."
 
 
@@ -3219,6 +3252,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter28"
     hatter "Exactly so, as the things get used up."
 
 
@@ -3238,6 +3272,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
+    voice "everyone9"
     everyone "Then the Dormouse shall! Wake up, Dormouse!"
 
     "And they pinched it on both sides at once."
@@ -3260,6 +3295,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter29"
     hatter "And be quick about it, or you’ll be asleep again before it’s done."
 
     camera: 
@@ -3315,6 +3351,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter30"
     hatter "You mean you can’t take less. It’s very easy to take more than nothing."
 
 
@@ -3324,6 +3361,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter31"
     hatter "Who’s making personal remarks now?" # the Hatter asked triumphantly.
 
 
@@ -3349,6 +3387,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos 530 zpos -30 ypos 30
+    voice "everyone10"
     everyone "Sh! sh!"
 
     camera: 
@@ -3382,6 +3421,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "hatter32"
     hatter "I want a clean cup, let’s all move one place on."
 
 label ch7_reorder:
@@ -3418,6 +3458,7 @@ label ch7_reorder:
 
     camera: 
         ease cam_transition xpos hatter_cam_pos2 zpos -425 ypos 5
+    voice "hatter33"
     hatter "You can draw water out of a water-well, so I should think you could draw treacle out of a treacle-well—eh, stupid?"
 
     camera: 
@@ -3466,6 +3507,7 @@ label ch7_reorder:
 
     camera: 
         ease cam_transition xpos hatter_cam_pos2 zpos -425 ypos 5
+    voice "hatter34"
     hatter "Then you shouldn’t talk."
 
     hide alice
@@ -5496,6 +5538,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter35"
     hatter "I beg pardon, your Majesty, for bringing these in: but I hadn’t quite finished my tea when I was sent for."
 
     camera:
@@ -5515,6 +5558,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter36"
     hatter "Fourteenth of March, I think it was."
 
     camera:
@@ -5543,6 +5587,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter37"
     hatter "It isn’t mine."
 
     camera:
@@ -5555,6 +5600,7 @@ label ch11_court:
     "The king turned to the jury, who instantly made a memorandum of the fact."
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter38"
     hatter "I keep them to sell. I’ve none of my own. I’m a hatter."
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
@@ -5619,6 +5665,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter39"
     hatter "*trembling* I’m a poor man, your Majesty, —and I hadn’t begun my tea—not above a week or so—and what with the bread-and-butter getting so thin—and the twinkling of the tea—"
     
     camera:
@@ -5628,6 +5675,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter40"
     hatter "It began with the tea."
 
     camera:
@@ -5639,6 +5687,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter41"
     hatter "I’m a poor man, and most things twinkled after that—only the March Hare said—"
 
     camera:
@@ -5648,6 +5697,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter42"
     hatter "You did!"
 
     camera:
@@ -5662,6 +5712,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter43"
     hatter "Well, at any rate, the Dormouse said—"
     
     camera:
@@ -5670,6 +5721,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter44"
     hatter "After that, I cut some more bread-and-butter—"
 
     camera:
@@ -5679,6 +5731,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter45"
     hatter "That I can’t remember."
     
     camera:
@@ -5689,6 +5742,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter46"
     hatter "I’m a poor man, your Majesty."
 
     camera:
@@ -5711,6 +5765,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter47"
     hatter "I can’t go no lower, I’m on the floor, as it is."
 
     camera:
@@ -5725,6 +5780,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "hatter48"
     hatter "I’d rather finish my tea."
     "The hatter looked anxiously at the Queen, who was reading the list of singers."
 
