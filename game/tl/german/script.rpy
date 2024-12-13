@@ -6645,7 +6645,7 @@ translate german chapter9_7ccc509b:
 translate german chapter9_26347513:
 
     # alice "(Soup does very well without—Maybe it’s always pepper that makes people hot-tempered, and vinegar that makes them sour—and camomile that makes them bitter—and—and barley-sugar and such things that make children sweet-tempered)"
-    alice "(Suppe schmeckt auch ohne... Vielleicht ist es immer der Pfeffer, der Leute wütend macht, und Essig, der sie sauer macht, und Kaffee, der sie bitter macht, und... und Zucker, der die Kinder süß macht)"
+    alice "(Suppe schmeckt auch ohne... Vielleicht ist es immer der Pfeffer, der Menschen wütend macht, und Essig, der sie sauer macht, und Kaffee, der sie bitter macht, und... und Zucker, der die Kinder süß macht)"
 
 # game/script.rpy:3769
 translate german chapter9_6c4a5ea9:
