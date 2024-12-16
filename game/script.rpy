@@ -2307,7 +2307,7 @@ label ch5_sky:
     pigeon "Serpent, I say again!"
     voice "pigeon03"
     pigeon "I’ve tried every way, and nothing seems to suit them!"
-
+    voice "alice169"
     alice "I haven’t the least idea what you’re talking about."
     voice "pigeon04"
     pigeon "I’ve tried the roots of trees, and I’ve tried banks, and I’ve tried hedges, but those serpents! There’s no pleasing them!"
@@ -2317,18 +2317,19 @@ label ch5_sky:
     pigeon "As if it wasn’t trouble enough hatching the eggs, but I must be on the look-out for serpents night and day!"
     voice "pigeon06"
     pigeon "Why, I haven’t had a wink of sleep these three weeks!"
-
+    voice "alice170"
     alice "I’m very sorry you’ve been annoyed."
     voice "pigeon07"
     pigeon "And just as I’d taken the highest tree in the wood, and just as I was thinking I should be free of them at last, they must needs come wriggling down from the sky! Ugh, Serpent!" # ontinued the Pigeon, raising its voice to a shriek
-
+    voice "alice171"
     alice "But I’m not a serpent, I tell you!"
+    voice "alice172"
     alice "I’m a—I’m a—"
     voice "pigeon08"
     pigeon "Well! What are you?"
     voice "pigeon09"
     pigeon "I can see you’re trying to invent something!"
-
+    voice "alice173"
     alice "I—I’m a little girl..."
     voice "n1234"
     "Said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day."
@@ -2340,7 +2341,7 @@ label ch5_sky:
     pigeon "No, no! You’re a serpent; and there’s no use denying it."
     voice "pigeon13"
     pigeon "I suppose you’ll be telling me next that you never tasted an egg!"
-
+    voice "alice174"
     alice "I have tasted eggs, certainly, but little girls eat eggs quite as much as serpents do, you know."
     voice "pigeon14"
     pigeon "I don’t believe it, but if they do, why then they’re a kind of serpent, that’s all I can say."
@@ -2349,7 +2350,7 @@ label ch5_sky:
     "..."
     voice "pigeon15"
     pigeon "You’re looking for eggs, I know that well enough; and what does it matter to me whether you’re a little girl or a serpent?"
-
+    voice "alice175"
     alice "It matters a good deal to me, but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want yours: I don’t like them raw."
     voice "pigeon16"
     pigeon "Well, be off, then!"
@@ -2370,9 +2371,13 @@ label ch5_sky:
 
     show alice happy at breathing:
         pos (0.5, 0.9) zoom 0.6
+    voice "alice176"
     alice "Come, there’s half my plan done now!"
+    voice "alice177"
     alice "How puzzling all these changes are!" 
+    voice "alice178"
     alice "I’m never sure what I’m going to be, from one minute to another!"
+    voice "alice179"
     alice "However, I’ve got back to my right size: the next thing is, to get into that beautiful garden—how is that to be done, I wonder?"
     
     scene forest_house
@@ -2380,6 +2385,7 @@ label ch5_sky:
         pos (0.8, 0.9) zoom 0.7
     voice "n1239"
     "She came suddenly upon an open place, with a little house in it about four feet high."
+    voice "alice180"
     alice "Whoever lives there, it’ll never do to come upon them this size: why, I should frighten them out of their wits!"
     show alice at breathing:
         linear 5.0 zoom 0.1
@@ -2448,15 +2454,15 @@ label chapter6:
 
     #play sound "sfx/shatter.mp3"
     "And certainly there was a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces."
-
+    voice "alice181"
     alice "Please, then, how am I to get in?"
     voice "frogfoot3"
     frogfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
 
     "He was looking up into the sky all the time he was speaking, and this Alice thought decidedly uncivil."
-
+    voice "alice182"
     alice "(But perhaps he can’t help it, his eyes are so very nearly at the top of his head. But at any rate he might answer questions)"
-
+    voice "alice183"
     alice "*loud* How am I to get in?"
     voice "frogfoot4"
     frogfoot "I shall sit here, till tomorrow—"
@@ -2474,23 +2480,23 @@ label chapter6:
     frogfoot "—or next day, maybe."
 
     #"The Footman continued in the same tone, exactly as if nothing had happened."
-
+    voice "alice184"
     alice "*louder* How am I to get in?" # asked Alice again, in a louder tone.
     voice "frogfoot6"
     frogfoot "Are you to get in at all? That’s the first question, you know."
 
     "It was, no doubt: only Alice did not like to be told so."
-
+    voice "alice185"
     alice "(It’s really dreadful, the way all the creatures argue. It’s enough to drive one crazy!)"
 
     "The Footman seemed to think this a good opportunity for repeating his remark, with variations."
     voice "frogfoot7"
     frogfoot "I shall sit here, on and off, for days and days."
-
+    voice "alice186"
     alice "But what am I to do?"
     voice "frogfoot8"
     frogfoot "Anything you like." # said the Footman, and began whistling.
-
+    voice "alice187"
     alice "Oh, there’s no use in talking to him, he’s perfectly idiotic!"
 
     play sound "sfx/door_open.mp3"
@@ -2533,7 +2539,7 @@ label ch6_kitchen:
         repeat
     
     "The door led right into a large kitchen, which was full of smoke from one end to the other: the Duchess was sitting on a three-legged stool in the middle, nursing a baby; the cook was leaning over the fire, stirring a large cauldron which seemed to be full of soup."
-
+    voice "alice188"
     alice "(There’s certainly too much pepper in that soup!)" # Alice said to herself, as well as she could for sneezing.
 
     "There was certainly too much of it in the air. Even the Duchess sneezed occasionally; and as for the baby, it was sneezing and howling alternately without a moment’s pause."
@@ -2542,6 +2548,7 @@ label ch6_kitchen:
 
     camera:
         ease cam_transition xpos cat_kitchen_pos zpos cat_cam_z_zom
+    voice "alice189"
     alice "Please would you tell me, why your cat grins like that?" # said Alice, a little timidly, for she was not quite sure whether it was good manners for her to speak first
 
     camera:
@@ -2557,11 +2564,12 @@ label ch6_kitchen:
     "She said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:"
 
     show alice surprised at breathing
+    voice "alice190"
     alice "I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats could grin."
 
     voice "duchess02"
     duchess "They all can, and most of ’em do."
-
+    voice "alice191"
     alice "I don’t know of any that do."
 
     show alice normal at breathing
@@ -2597,9 +2605,11 @@ label ch6_kitchen:
     "The Duchess took no notice of them even when they hit her; and the baby was howling so much already, that it was quite impossible to say whether the blows hurt it or not."
     
     show alice pout at breathing
+    voice "alice192"
     alice "Oh, please mind what you’re doing!"
     #"Cried Alice, jumping up and down in an agony of terror."#
     "Alice was jumping up and down in an agony of terror."#
+    voice "alice193"
     alice "Oh, there goes his precious nose..."
 
     show saucepan:
@@ -2613,6 +2623,7 @@ label ch6_kitchen:
     hide saucepan
 
     show alice normal at breathing
+    voice "alice194"
     alice "Which would not be an advantage. Just think what work it would make with the day and night! You see the earth takes twenty-four hours to turn round on its axis—"
 
     voice "duchess05"
@@ -2627,7 +2638,7 @@ label ch6_kitchen:
     show alice normal at breathing
     camera:
         ease cam_transition xpos alice_kitchen_pos zpos 0
-
+    voice "alice195"
     alice "Twenty-four hours, I think; or is it twelve? I—"
 
     voice "duchess06"
@@ -2643,7 +2654,7 @@ label ch6_kitchen:
         ease cam_transition xpos cook_kitchen_pos zpos 0
 
     #"CHORUS.\n(In which the cook and the baby joined)"
-
+    voice "everyone6"
     everyone "Wow! wow! wow!"
 
     camera:
@@ -2654,7 +2665,8 @@ label ch6_kitchen:
     duchess "I speak severely to my boy,\n{space=30}I beat him when he sneezes;\nFor he can thoroughly enjoy\n{space=30}The pepper when he pleases!"
 
     camera:
-        ease cam_transition xpos cook_kitchen_pos zpos 0    
+        ease cam_transition xpos cook_kitchen_pos zpos 0  
+    voice "everyone6"
     everyone "Wow! wow! wow!"
 
     camera:
@@ -2680,6 +2692,7 @@ label ch6_kitchen:
     
     "Alice caught the baby with some difficulty, as it was a queer-shaped little creature, and held out its arms and legs in all directions."
     show alice surprised at breathing
+    voice "alice196"
     alice "Just like a star-fish."
     "The poor little thing was snorting like a steam-engine when she caught it, and kept doubling itself up and straightening itself out again, so that altogether, for the first minute or two, it was as much as she could do to hold it."
 
@@ -2702,22 +2715,26 @@ label ch6_kitchen:
         linear 1.0 xoffset -10 yoffset 10 rotate 2
         linear 1.0 xoffset 10 yoffset -10 rotate -2
         repeat
-
+    voice "alice197"
     alice "(If I don’t take this child away with me, they’re sure to kill it in a day or two)"
+    voice "alice198"
     alice "Wouldn’t it be murder to leave it behind?"
     "The little thing grunted in reply (it had left off sneezing by this time)"
+    voice "alice199"
     alice "Don’t grunt, that’s not at all a proper way of expressing yourself."
 
     "The baby grunted again, and Alice looked very anxiously into its face to see what was the matter with it."
     show baby half
     "There could be no doubt that it had a very turn-up nose, much more like a snout than a real nose; also not like the look of the thing at all."
+    voice "alice200"
     alice "But perhaps it was only sobbing."
     "She looked into its eyes again, to see if there were any tears."
 
     "No, there were no tears."
+    voice "alice201"
     alice "If you’re going to turn into a pig, my dear, I’ll have nothing more to do with you. Mind now!"
     "The poor little thing sobbed again (or grunted, it was impossible to say which), and they went on for some while in silence."
-
+    voice "alice202"
     alice "Now, what am I to do with this creature when I get it home?"
     "Then it grunted again, so violently, that she looked down into its face in some alarm."
 
@@ -2728,11 +2745,11 @@ label ch6_kitchen:
     "So she set the little creature down, and felt quite relieved to see it trot away quietly into the wood."
 
     play music "audio/rinne lilly.mp3" fadein 1.0 fadeout 1.0
-
+    voice "alice203"
     alice "If it had grown up, it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think."
 
     "And she began thinking over other children she knew, who might do very well as pigs."
-
+    voice "alice204"
     alice "If one only knew the right way to change them—"
 
     "She got a little startled by seeing the Cheshire Cat sitting on a bough of a tree a few yards off."
@@ -2743,62 +2760,64 @@ label ch6_kitchen:
 
     "The Cat only grinned when it saw Alice."
     "It looked good-natured, she thought: still it had very long claws and a great many teeth, so she felt that it ought to be treated with respect."
-
+    voice "alice205"
     alice "*timidly* Cheshire Puss..." 
     #"She began, rather timidly, as 
     "She did not at all know whether it would like the name: however, it only grinned a little wider."
+    voice "alice206"
     alice "Come, it’s pleased so far."
+    voice "alice207"
     alice "Would you tell me, please, which way I ought to go from here?"
 
     voice "cat01"
     cat "That depends a good deal on where you want to get to."
-    
+    voice "alice208"
     alice "I don’t much care where—"
 
     voice "cat02"
     cat "Then it doesn’t matter which way you go."
-
+    voice "alice209"
     alice "—so long as I get somewhere."
 
     voice "cat03"
     cat "Oh, you’re sure to do that, if you only walk long enough."
 
     "Alice felt that this could not be denied, so she tried another question."
-
+    voice "alice210"
     alice "What sort of people live about here?"
 
     voice "cat04"
     cat "In that direction, lives a Hatter: and in that direction, lives a March Hare. Visit either you like: they’re both mad."
-
+    voice "alice211"
     alice "But I don’t want to go among mad people."
 
     voice "cat05"
     cat "Oh, you can’t help that. We’re all mad here. I’m mad. You’re mad."
-
+    voice "alice212"
     alice "How do you know I’m mad?"
 
     voice "cat06"
     cat "You must be, or you wouldn’t have come here."
 
     "Alice didn’t think that proved it at all; however, she went on:"
-
+    voice "alice213"
     alice "And how do you know that you’re mad?"
 
     voice "cat07"
     cat "To begin with, a dog’s not mad. You grant that?"
-
+    voice "alice214"
     alice "I suppose so."
 
     voice "cat08"
     cat "Well, then, you see, a dog growls when it’s angry, and wags its tail when it’s pleased. Now I growl when I’m pleased, and wag my tail when I’m angry. Therefore I’m mad."
-
+    voice "alice215"
     alice "I call it purring, not growling."
 
     voice "cat09"
     cat "Call it what you like."
     voice "cat10"
     cat "Do you play croquet with the Queen today?"
-
+    voice "alice216"
     alice "I should like it very much, but I haven’t been invited yet."
 
     voice "cat11"
@@ -2818,7 +2837,7 @@ label ch6_kitchen:
     cat "By the way, what became of the baby?"
     voice "cat13"
     cat "I’d nearly forgotten to ask."
-
+    voice "alice217"
     alice "It turned into a pig."
 
     voice "cat14"
@@ -2828,7 +2847,7 @@ label ch6_kitchen:
     "The Cat vanished again."
 
     "Alice waited a little, half expecting to see it again, but it did not appear, and after a minute or two she walked on in the direction in which the March Hare was said to live."
-
+    voice "alice218"
     alice "I’ve seen hatters before, the  March Hare will be much the most interesting, and perhaps as this is May it won’t be raving mad—at least not so mad as it was in March."
 
 label ch6_cat:
@@ -2840,7 +2859,7 @@ label ch6_cat:
 
     voice "cat15"
     cat "Did you say pig, or fig?"
-
+    voice "alice219"
     alice "I said pig, and I wish you wouldn’t keep appearing and vanishing so suddenly: you make one quite giddy."
 
     voice "cat16"
@@ -2866,14 +2885,14 @@ label ch6_cat:
         xpos 0.79 ypos 0.25 zoom cat_scale
 
     "This time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone."
-
+    voice "alice220"
     alice "Well! I’ve often seen a cat without a grin, but a grin without a cat! It’s the most curious thing I ever saw in my life!"
 
     scene hare_house
     "She had not gone much farther before she came in sight of the house of the March Hare: she thought it must be the right house, because the chimneys were shaped like ears and the roof was thatched with fur."
 
     "It was so large a house, that she did not like to go nearer till she had nibbled some more of the lefthand bit of mushroom, and raised herself to about two feet high: even then she walked up towards it rather timidly."    
-
+    voice "alice221"
     alice "Suppose it should be raving mad after all! I almost wish I’d gone to see the Hatter instead!"
 
 label chapter7:
@@ -2915,7 +2934,7 @@ label chapter7:
     alice "(Very uncomfortable for the Dormouse, only, as it’s asleep, I suppose it doesn’t mind)"
 
     "The table was a large one, but the three were all crowded together at one corner of it."
-    #voice "everyone8"
+    voice "everyone8"
     everyone "No room! No room!" 
 
     camera:
@@ -2965,7 +2984,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
-    #voice "hatter01"
+    voice "hatter01"
     hatter "Your hair wants cutting."
 
     "He had been looking at Alice for some time with great curiosity, and this was his first speech."
@@ -2978,7 +2997,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
-    #voice "hatter02"
+    voice "hatter02"
     hatter "Why is a raven like a writing-desk?"
 
     camera: 
@@ -3006,7 +3025,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
-    #voice "hatter03"
+    voice "hatter03"
     hatter "Not the same thing a bit! Why, you might just as well say that ‘I see what I eat’ is the same thing as ‘I eat what I see’!"
 
     camera: 
@@ -3021,7 +3040,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
-    #voice "hatter04"
+    voice "hatter04"
     hatter "It is the same thing with you."
 
     "And here the conversation dropped, and the party sat silent for a minute, while Alice thought over all she could remember about ravens and writing-desks, which wasn’t much."
@@ -3029,7 +3048,7 @@ label chapter7:
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     "The hatter was the first to break the silence."
-    #voice "hatter05"
+    voice "hatter05"
     hatter "What day of month is it?"
 
 
@@ -3078,7 +3097,7 @@ label chapter7:
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     voice "hatter09"
     hatter "Why should it?" # muttered the Hatter.
-    #voice "hatter10"
+    voice "hatter10"
     hatter "Does your watch tell you what year it is?"
 
 
@@ -3088,7 +3107,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
-    #voice "hatter11"
+    voice "hatter11"
     hatter "Which is just the case with mine."
 
 
@@ -3100,7 +3119,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
-    #voice "hatter12"
+    voice "hatter12"
     hatter "The Dormouse is asleep again."
 
     camera:
@@ -3117,7 +3136,7 @@ label chapter7:
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     "The hatter turned to Alice again."
-    #voice "hatter13"
+    voice "hatter13"
     hatter "Have you guessed the riddle yet?"
 
     camera: 
@@ -3126,7 +3145,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
-    #voice "hatter14"
+    voice "hatter14"
     hatter "I haven’t the slightest idea."
 
     camera: 
