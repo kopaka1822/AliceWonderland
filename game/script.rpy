@@ -2930,7 +2930,7 @@ label chapter7:
     show hare_house_front_mask zorder 50
 
     "There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head."
-
+    voice "alice222"
     alice "(Very uncomfortable for the Dormouse, only, as it’s asleep, I suppose it doesn’t mind)"
 
     "The table was a large one, but the three were all crowded together at one corner of it."
@@ -2939,6 +2939,7 @@ label chapter7:
 
     camera:
         ease cam_transition xpos 10
+    voice "alice223"
     alice "There’s plenty of room!"
 
     camera:
@@ -2961,6 +2962,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice224"
     alice "I don’t see any wine."
 
     camera: 
@@ -2970,6 +2972,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice225"
     alice "Then it wasn’t very civil of you to offer it." # said Alice angrily
 
     camera: 
@@ -2979,6 +2982,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice226"
     alice "I didn’t know it was your table, it’s laid for a great many more than three."
 
 
@@ -2991,6 +2995,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice227"
     alice "You should learn not to make personal remarks, it’s very rude."
 
     "The Hatter opened his eyes very wide on hearing this." # ; but all he said was"
@@ -3002,7 +3007,9 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice228"
     alice "(Come, we shall have some fun now! I’m glad they’ve begun asking riddles)"
+    voice "alice229"
     alice "I believe I can guess that."
 
     camera: 
@@ -3012,6 +3019,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice230"
     alice "Exactly so."
 
     camera: 
@@ -3021,6 +3029,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice231"
     alice "I do, at least—at least I mean what I say—that’s the same thing, you know."
 
     camera: 
@@ -3057,7 +3066,7 @@ label chapter7:
     "He had taken his watch out of his pocket, and was looking at it uneasily, shaking it every now and then, and holding it to his ear." # turning to alice
 
     "Alice considered it a little..."
-
+    voice "alice232"
     alice "The fourth."
 
     camera: 
@@ -3090,7 +3099,9 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice233"
     alice "What a funny watch!"
+    voice "alice234"
     alice "It tells the day of the month, and doesn’t tell what o’clock it is!"
 
     camera: 
@@ -3103,6 +3114,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice235"
     alice "Of course not, but that’s because it stays the same year for such a long time together."
 
     camera: 
@@ -3115,6 +3127,7 @@ label chapter7:
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     "Alice felt dreadfully puzzled."
     "The Hatter’s remark seemed to have no sort of meaning in it, and yet it was certainly English."
+    voice "alice236"
     alice "I don’t quite understand you."
 
     camera: 
@@ -3141,6 +3154,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice237"
     alice "No, I give it up. What’s the answer?"
 
     camera: 
@@ -3156,6 +3170,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice238"
     alice "I think you might do something better with the time, than waste it in asking riddles that have no answers."
 
     camera: 
@@ -3166,6 +3181,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice239"
     alice "I don’t know what you mean."
 
     camera: 
@@ -3176,6 +3192,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice240"
     alice "Perhaps not, but I know I have to beat time when I learn music."
 
     camera: 
@@ -3193,6 +3210,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice241"
     alice "That would be grand, certainly, but then—I shouldn’t be hungry for it, you know."
 
     camera: 
@@ -3203,6 +3221,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice242"
     alice "Is that the way you manage?"
 
     camera: 
@@ -3220,6 +3239,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice243"
     alice "I’ve heard something like it."
 
     camera: 
@@ -3246,6 +3266,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice244"
     alice "How dreadfully savage!"
 
     camera: 
@@ -3257,6 +3278,7 @@ label chapter7:
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     "A bright idea came into Alice’s head."
+    voice "alice245"
     alice "Is that the reason so many tea-things are put out here?"
 
     camera: 
@@ -3267,6 +3289,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice246"
     alice "Then you keep moving round, I suppose?"
 
     camera: 
@@ -3277,6 +3300,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice247"
     alice "But what happens when you come to the beginning again?"
 
     camera: 
@@ -3287,6 +3311,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice248"
     alice "I’m afraid I don’t know one."
 
     camera: 
@@ -3310,6 +3335,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice249"
     alice "Yes, please do!"
 
     camera: 
@@ -3326,6 +3352,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice250"
     alice "What did they live on?"
 
     "Alice always took a great interest in questions of eating and drinking."
@@ -3342,6 +3369,7 @@ label chapter7:
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     show alice pout at breathing
+    voice "alice251"
     alice "They couldn’t have done that, you know, they’d have been ill."
 
     camera: 
@@ -3352,7 +3380,7 @@ label chapter7:
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     "Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on:"
-
+    voice "alice252"
     alice "But why did they live at the bottom of a well?"
 
     camera: 
@@ -3364,6 +3392,7 @@ label chapter7:
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     show alice pout at breathing
+    voice "alice253"
     alice "I’ve had nothing yet, so I can’t take more."
 
     "Alice replied in an offended tone."
@@ -3376,6 +3405,7 @@ label chapter7:
 
     camera:  
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice254"
     alice "Nobody asked your opinion."
 
     camera: 
@@ -3400,6 +3430,7 @@ label chapter7:
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     show alice pout at breathing
+    voice "alice255"
     alice "There’s no such thing!"
 
     "Alice was beginning very angrily, but the Hatter and the March Hare went."
@@ -3418,6 +3449,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice256"
     alice "No, please go on! I won’t interrupt again. I dare say there may be one."
 
     camera: 
@@ -3431,6 +3463,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "alice257"
     alice "What did they draw?"
 
     camera: 
@@ -3472,7 +3505,7 @@ label ch7_reorder:
 
     camera: 
         ease cam_transition xpos alice_tea_pos2 zpos -495 ypos 30
-
+    voice "alice258"
     alice "But I don’t understand. Where did they draw the treacle from?"
 
     camera: 
@@ -3482,6 +3515,7 @@ label ch7_reorder:
 
     camera: 
         ease cam_transition xpos alice_tea_pos2 zpos -495 ypos 30
+    voice "alice259"
     alice "But they were in the well."
 
     camera: 
@@ -3504,6 +3538,7 @@ label ch7_reorder:
 
     camera: 
         ease cam_transition xpos alice_tea_pos2 zpos -495 ypos 30
+    voice "alice260"
     alice "Why with an M?"
 
     camera: 
@@ -3522,6 +3557,7 @@ label ch7_reorder:
     
     camera: 
         ease cam_transition xpos alice_tea_pos2 zpos -495 ypos 30
+    voice "alice261"
     alice "Really, now you ask me, I don’t think—"
 
     camera: 
@@ -3537,13 +3573,17 @@ label ch7_reorder:
 
     show alice pout at breathing:
         pos (0.5, 0.9) zoom alice_scale
+    voice "alice262"
     alice "At any rate I’ll never go there again!"
+    voice "alice263"
     alice "It’s the stupidest tea-party I ever was at in all my life!"
 
     "Just as she said this, she noticed that one of the trees had a door leading right into it."
 
     show alice surprised at breathing
+    voice "alice264"
     alice "(That’s very curious!)"
+    voice "alice265"
     alice "(But everything’s curious today. I think I may as well go in at once)"
     "And she went in."
 
@@ -3552,6 +3592,7 @@ label ch7_reorder:
 
     show alice normal at breathing:
         pos (0.5, 0.9) zoom alice_scale
+    voice "alice266"
     alice "Now, I’ll manage better this time."
     "She began by taking the little golden key, and unlocking the door that led into the garden."
     
