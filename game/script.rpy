@@ -3688,7 +3688,7 @@ label chapter8:
     camera:
         ease cam_transition xpos alice_garden zoom 2.0 ypos 700
     "His eye chanced to fall upon Alice, as she stood watching them, and he checked himself suddenly: the others looked round also, and all of them bowed low."
-    
+    voice "alice267"
     alice "Would you tell me, why you are painting those roses?"
 
     camera:
@@ -3852,6 +3852,7 @@ label chapter8:
     camera:
         xpos alice_garden2
     "Alice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions."
+    voice "alice268"
     alice "(What would be the use of a procession, if people had all to lie down upon their faces, so that they couldn’t see it?)"
     "So she stood still where she was, and waited."
 
@@ -3896,7 +3897,9 @@ label chapter8:
 
     camera:
         ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
+    voice "alice269"
     alice "My name is Alice, so please your Majesty." # saif alice politely
+    voice "alice270"
     alice "(Why, they’re only a pack of cards, after all. I needn’t be afraid of them!)"
 
     camera:
@@ -3910,6 +3913,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
+    voice "alice271"
     alice "How should I know? It’s no business of mine."
 
     camera:
@@ -3920,6 +3924,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
+    voice "alice272"
     alice "Nonsense!" #  said Alice, very loudly and decidedly, and the Queen was silent.
     "..."
 
@@ -4032,7 +4037,7 @@ label chapter8:
     hide queen
     hide king
     hide knave
-
+    voice "alice273"
     alice "You shan’t be beheaded!"
 
     define alice_garden3 = -0.37
@@ -4063,6 +4068,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos 0.5
+    voice "soldiers1"
     soldiers "Their heads are gone, if it please your Majesty!" # shouted in reply
 
     camera:
@@ -4076,7 +4082,7 @@ label chapter8:
     camera:
         ease cam_transition xpos alice_garden3
     "The soldiers were silent, and looked at Alice, as the question was evidently meant for her."
-
+    voice "alice274"
     alice "Yes!"
 
     camera:
@@ -4104,18 +4110,18 @@ label chapter8:
     rabbit "It’s—it’s a very fine day!" # timid voice
 
     "She was walking by the White Rabbit, who was peeping anxiously into her face."
-
+    voice "alice275"
     alice "Very, —where’s the Duchess?"
     voice "rabbit19"
     rabbit "Hush! Hush!" # low and hurried tone
     "The rabbit looked anxiously over his shoulder as he spoke, and then raised himself upon tiptoe, put his mouth close to her ear, and whispered:"
     voice "rabbit20"
     rabbit "She’s under sentence of execution."
-
+    voice "alice276"
     alice "What for?"
     voice "rabbit21"
     rabbit "Did you say ‘What a pity!’?"
-
+    voice "alice277"
     alice "No, I didn’t, I don’t think it’s at all a pity. I said ‘What for?’"
     voice "rabbit22"
     rabbit "She boxed the Queen’s ears—"
@@ -4181,6 +4187,7 @@ label ch8_croquet:
         ease cam_transition xpos alice_croquet
     show alice pout at breathing
     "Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute."
+    voice "alice278"
     alice "(And then, what would become of me? They’re dreadfully fond of beheading people here; the great wonder is, that there’s any one left alive!)"
 
     # cat appear slowly
@@ -4195,6 +4202,7 @@ label ch8_croquet:
 
     "She was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin."
     show alice happy at breathing
+    voice "alice279"
     alice "(It’s the Cheshire Cat: now I shall have somebody to talk to)"
 
     voice "cat17"
@@ -4207,6 +4215,7 @@ label ch8_croquet:
         linear 10.0 alpha 1.0
 
     "Alice waited till the eyes appeared, and then nodded."
+    voice "alice280"
     alice "(It’s no use speaking to it, till its ears have come, or at least one of them)"
 
     show cat4:
@@ -4218,8 +4227,9 @@ label ch8_croquet:
     "In another minute the whole head appeared, and then Alice put down her flamingo, and began an account of the game, feeling very glad she had someone to listen to her."
     
     "The Cat seemed to think that there was enough of it now in sight, and no more of it appeared."
-
+    voice "alice281"
     alice "I don’t think they play at all fairly, and they all quarrel so dreadfully one can’t hear oneself speak—and they don’t seem to have any rules in particular; at least, if there are, nobody attends to them—"
+    voice "alice282"
     alice "And you’ve no idea how confusing it is all the things being alive; for instance, there’s the arch I’ve got to go through next walking about at the other end of the ground—and I should have croqueted the Queen’s hedgehog just now, only it ran away when it saw mine coming!"
 
     # let it appear full
@@ -4236,13 +4246,14 @@ label ch8_croquet:
     define queen_croquet2 = 1.03
     show queen normal at breathing:
         ease 1.0 xpos queen_croquet2
-
+    voice "alice283"
     alice "Not at all, she’s so extremely—"
     camera:
         ease cam_transition zoom 2.0 ypos 820 xpos 1.16 
     show alice normal at breathing
     "Just then she noticed that the Queen was close behind her, listening: so she went on:"
     show alice happy at breathing
+    voice "alice284"
     alice "—likely to win, that it’s hardly worth while finishing the game."
 
     show queen happy at breathing:
@@ -4259,7 +4270,7 @@ label ch8_croquet:
     voice "king02"
     king "Who are you talking to?" # said the King, going up to Alice
     "The king was looking at the Cat’s head with great curiosity."
-    
+    voice "alice285"
     alice "It’s a friend of mine—a Cheshire Cat, allow me to introduce it."
     voice "king03"
     king "I don’t like the look of it at all, however, it may kiss my hand if it likes."
@@ -4275,7 +4286,7 @@ label ch8_croquet:
     camera:
         ease cam_transition xpos alice_croquet ypos 0 zoom 1.0
     "He got behind Alice as he spoke."
-
+    voice "alice286"
     alice "A cat may look at a king, I’ve read that in some book, but I don’t remember where."
 
     voice "king05"
@@ -4343,6 +4354,7 @@ label ch8_croquet:
         ease 1.5 xpos 0.84 ypos 0 zoom 1.0
 
     "By the time she had caught the flamingo and brought it back, the fight was over, and both the hedgehogs were out of sight."
+    voice "alice287"
     alice "(But it doesn’t matter much, as all the arches are gone from this side of the ground)"
 
     show alice normal at breathing:
@@ -4370,6 +4382,7 @@ label ch8_croquet:
     "(It was this last remark that had made the whole party look so grave and anxious)"
 
     # Alice could think of nothing else to say but
+    voice "alice288"
     alice "It belongs to the Duchess: you’d better ask her about it."
     voice "queen21"
     queen "She’s in prison, fetch her here."
@@ -4420,8 +4433,11 @@ label chapter9:
     show alice thinking at breathing
     camera:
         ease cam_transition xpos alice_nine ypos 1000 zoom 2.0
+    voice "alice289"
     alice "(When I’m a Duchess, I won’t have any pepper in my kitchen at all)"
+    voice "alice290"
     alice "(Soup does very well without—Maybe it’s always pepper that makes people hot-tempered, and vinegar that makes them sour—and camomile that makes them bitter—and—and barley-sugar and such things that make children sweet-tempered)"
+    voice "alice291"
     alice "(I only wish people knew that: then they wouldn’t be so stingy about it, you know—)"
 
     show alice pout at breathing
@@ -4432,6 +4448,7 @@ label chapter9:
     duchess "You’re thinking about something, my dear, and that makes you forget to talk. I can’t tell you just now what the moral of that is, but I shall remember it in a bit."
 
     show alice normal at breathing
+    voice "alice292"
     alice "Perhaps it hasn’t one."
 
     voice "duchess13"
@@ -4445,12 +4462,12 @@ label chapter9:
     "And she squeezed herself up closer to Alice’s side as she spoke."
 
     "Alice did not much like keeping so close to her: first, because the Duchess was very ugly; and secondly, because she was exactly the right height to rest her chin upon Alice’s shoulder, and it was an uncomfortably sharp chin."
-
+    voice "alice293"
     alice "The game’s going on rather better now."
 
     voice "duchess15"
     duchess "’Tis so, and the moral of that is—‘Oh, ’tis love, ’tis love, that makes the world go round!’"
-
+    voice "alice294"
     alice "Somebody said, that it’s done by everybody minding their own business!"
 
     voice "duchess16"
@@ -4460,54 +4477,58 @@ label chapter9:
         ease 0.5 xpos 1.42 zpos -20.0
     #"Said the Duchess, digging her sharp little chin into Alice’s shoulder."
     "The Duchess started digging her sharp little chin into Alice’s shoulder."
-
+    voice "alice295"
     alice "(How fond she is of finding morals in things!)"
     "..."
     voice "duchess17"
     duchess "I dare say you’re wondering why I don’t put my arm round your waist, the reason is, that I’m doubtful about the temper of your flamingo. Shall I try the experiment?"
-
+    voice "alice296"
     alice "He might bite." # Alice cautiously replied, not feeling at all anxious to have the experiment tried.
     "Alice did not feel at all anxious to have the experiment tried."
     voice "duchess18"
     duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together’."
-
+    voice "alice297"
     alice "Only mustard isn’t a bird."
     voice "duchess19"
     duchess "Right, as usual, what a clear way you have of putting things!"
+    voice "alice298"
     alice "It’s a mineral, I think."
     voice "duchess20"
     duchess "Of course it is, there’s a large mustard-mine near here."
     "The Duchess seemed ready to agree to everything that Alice said."
     voice "duchess21"
     duchess "And the moral of that is—‘The more there is of mine, the less there is of yours’."
-
+    voice "alice299"
     alice "Oh, I know!"
+    voice "alice300"
     alice "It’s a vegetable. It doesn’t look like one, but it is."
 
     voice "duchess22"
     duchess "I quite agree with you, and the moral of that is—‘Be what you would seem to be’"
     voice "duchess23"
     duchess "—or if you’d like it put more simply—‘Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise’."
-
+    voice "alice301"
     alice "I think I should understand that better, if I had it written down: but I can’t quite follow it as you say it."
 
     voice "duchess24"
     duchess "That’s nothing to what I could say if I chose."
+    voice "alice302"
     alice "Pray don’t trouble yourself to say it any longer than that."
 
     voice "duchess25"
     duchess "Oh, don’t talk about trouble!"
     voice "duchess26"
     duchess "I make you a present of everything I’ve said as yet."
-
+    voice "alice303"
     alice "(A cheap sort of present!)"
+    voice "alice304"
     alice "(I’m glad they don’t give birthday presents like that!)"
     "She did not venture to say it out loud."
 
     voice "duchess27"
     duchess "Thinking again?"
     "The Duchess asked, with another dig of her sharp little chin."
-
+    voice "alice305"
     alice "I’ve a right to think."
     "She was beginning to feel a little worried."
     voice "duchess28"
@@ -4545,11 +4566,11 @@ label chapter9:
     hide duchess
     voice "queen24"
     queen "Have you seen the Mock Turtle yet?"
-
+    voice "alice306"
     alice "No, I don’t even know what a Mock Turtle is."
     voice "queen25"
     queen "It’s the thing Mock Turtle Soup is made from."
-
+    voice "alice307"
     alice "I never saw one, or heard of one."
     voice "queen26"
     queen "Come on, then, and he shall tell you his history."
@@ -4564,6 +4585,7 @@ label chapter9:
     "As they walked off together, Alice heard the King say in a low voice, to the company generally:"
     voice "king08"
     king "You are all pardoned."
+    voice "alice308"
     alice "(Come, that’s a good thing!)"
     "Alice had felt quite unhappy at the number of executions the Queen had ordered."
 
@@ -4600,12 +4622,12 @@ label ch9_gryphon:
     "The Gryphon sat up and rubbed its eyes: then it watched the Queen till she was out of sight: then it chuckled."
     voice "gryphon01"
     gryphon "What fun!"
-
+    voice "alice309"
     alice "What is the fun?"
 
     voice "gryphon02"
     gryphon "Why, she. It’s all her fancy, that: they never executes nobody, you know. Come on!"
-
+    voice "alice310"
     alice "(Everybody says ‘come on!’ here. I never was so ordered about in all my life, never!)"
 
     define turtle_pos = -0.63
@@ -4621,6 +4643,7 @@ label ch9_gryphon:
     stop music fadeout 10.0
     "They had not gone far before they saw the Mock Turtle in the distance, sitting sad and lonely on a little ledge of rock, and, as they came nearer, Alice could hear him sighing as if his heart would break."
     "She pitied him deeply."
+    voice "alice311"
     alice "What is his sorrow?"
     #"She asked the Gryphon, and the Gryphon answered, very nearly in the same words as before."
     voice "gryphon03"
@@ -4641,7 +4664,8 @@ label ch9_gryphon:
 
     "So they sat down, and nobody spoke for some minutes."
     "..."
-    alice "I don’t see how he can ever finish, if he doesn’t begin."
+    voice "alice312"
+    alice "(I don’t see how he can ever finish, if he doesn’t begin)"
     "But she waited patiently."
 
     play music "audio/rinne sad.mp3" fadein 1.0
@@ -4673,6 +4697,7 @@ label ch9_gryphon:
     
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice313"
     alice "Why did you call him Tortoise, if he wasn’t one?"
 
     camera:
@@ -4703,6 +4728,7 @@ label ch9_gryphon:
     
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice314"
     alice "I never said I didn’t!"
 
     camera:
@@ -4726,6 +4752,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice315"
     alice "I’ve been to a day-school, too, you needn’t be so proud as all that."
 
     camera:
@@ -4735,6 +4762,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice316"
     alice "Yes, we learned French and music."
 
     camera:
@@ -4744,6 +4772,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice317"
     alice "Certainly not!"
 
     camera:
@@ -4756,6 +4785,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice318"
     alice "You couldn’t have wanted it much, living at the bottom of the sea."
 
     camera:
@@ -4765,6 +4795,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice319"
     alice "What was that?"
 
     camera:
@@ -4774,6 +4805,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice320"
     alice "I never heard of ‘Uglification’. What is it?"
 
     camera:
@@ -4786,6 +4818,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice321"
     alice "Yes, it means to make anything prettier." # doubtfully
 
     camera:
@@ -4796,6 +4829,7 @@ label ch9_gryphon:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     "Alice did not feel encouraged to ask any more questions about it, so she turned to the Mock Turtle:"
+    voice "alice322"
     alice "What else had you to learn?"
 
     camera:
@@ -4805,6 +4839,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice323"
     alice "What was that like?"
 
     camera:
@@ -4834,6 +4869,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice324"
     alice "And how many hours a day did you do lessons?"
 
     camera:
@@ -4843,6 +4879,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice325"
     alice "What a curious plan!"
 
     camera:
@@ -4854,6 +4891,7 @@ label ch9_gryphon:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice thinking at breathing
     "This was quite a new idea to Alice, and she thought it over a little before she made her next remark."
+    voice "alice326"
     alice "Then the eleventh day must have been a holiday?"
 
     camera:
@@ -4864,6 +4902,7 @@ label ch9_gryphon:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice happy at breathing
+    voice "alice327"
     alice "And how did you manage on the twelfth?" # eagerly
 
     camera:
@@ -6454,27 +6493,40 @@ label chapter12:
 
     "But her sister sat still just as she left her, leaning her head on her hand, watching the setting sun, and thinking of little Alice and all her wonderful Adventures, till she too began dreaming after a fashion, and this was her dream:—"
 
+    voice "na01"
     "First, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers."
+    voice "na02"
     "She could hear the very tones of her voice, and see that queer little toss of her head to keep back the wandering hair that would always get into her eyes."
+    voice "na03"
     "And still as she listened, or seemed to listen, the whole place around her became alive with the strange creatures of her little sister’s dream."
-
+    voice "na04"
     "The long grass rustled at her feet as the White Rabbit hurried by."
+    voice "na05"
     "The frightened Mouse splashed his way through the neighbouring pool."
+    voice "na06"
     "She could hear the rattle of the teacups as the March Hare and his friends shared their never-ending meal, and the shrill voice of the Queen ordering off her unfortunate guests to execution."
+    voice "na07"
     "Once more the pig-baby was sneezing on the Duchess’s knee, while plates and dishes crashed around it."
+    voice "na08"
     "Once more the shriek of the Gryphon, the squeaking of the Lizard’s slate-pencil, and the choking of the suppressed guinea-pigs, filled the air, mixed up with the distant sobs of the miserable Mock Turtle."
-
+    voice "na09"
     "So she sat on, with closed eyes, and half believed herself in Wonderland, though she knew she had but to open them again, and all would change to dull reality."
+    voice "na10"
     "The grass would be only rustling in the wind, and the pool rippling to the waving of the reeds."
+    voice "na11"
     "The rattling teacups would change to tinkling sheep-bells, and the Queen’s shrill cries to the voice of the shepherd boy."
+    voice "na12"
     "And the sneeze of the baby, the shriek of the Gryphon, and all the other queer noises, would change (she knew) to the confused clamour of the busy farm-yard."
+    voice "na13"
     "While the lowing of the cattle in the distance would take the place of the Mock Turtle’s heavy sobs."
-
+    voice "na14"
     "Lastly, she pictured to herself how this same little sister of hers would, in the after-time, be herself a grown woman; and how she would keep, through all her riper years, the simple and loving heart of her childhood:"
+    voice "na15"
     "And how she would gather about her other little children, and make their eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer days."
 
     scene black
     call reset_camera
+    voice "na16"
     "The End."
     $ persistent.started_story = False # reset story
     call screen credits
