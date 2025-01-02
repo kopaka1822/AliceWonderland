@@ -2395,6 +2395,7 @@ label ch5_sky:
 label chapter6:
     $ persistent.started_story = True
     scene black
+    voice "n1241"
     "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
 
     play music "audio/rinne song of little birds.mp3" if_changed
@@ -2404,18 +2405,22 @@ label chapter6:
         pos (-0.5, 0.9) zoom 0.5
         linear 4.0 xpos 0.3
 
+    voice "n1242"
     "For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood—(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)—and rapped loudly at the door with his knuckles."
 
     play sound "sfx/knockknockknock.mp3"
     show footmen_frog at breathing:
         pos (0.7, 0.9) zoom 0.5
-
+    
+    voice "n1243"
     "It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads."
+    voice "n1244"
     "She felt very curious to know what it was all about, and crept a little way out of the wood to listen."
-
+    voice "n1245"
     "The Fish-Footman began by producing from under his arm a great letter, nearly as large as himself, and this he handed over to the other, saying, in a solemn tone:"
     voice "fishfoot1"
     fishfoot "For the Duchess. An invitation from the Queen to play croquet."
+    voice "n1246"
     "The Frog-Footman repeated, in the same solemn tone, only changing the order of the words a little:"
     voice "frogfoot1"
     frogfoot "From the Queen. An invitation for the Duchess to play croquet."
@@ -2433,32 +2438,34 @@ label chapter6:
         xpos 0.7 ypos 0.9 zoom 0.5
         zrotate -20
 
+    voice "n1247"
     "Then they both bowed low, and their curls got entangled together."
-
-
-
+    voice "n1248"
     "Alice laughed so much at this, that she had to run back into the wood for fear of their hearing her."
     
     hide footmen_fish
     hide footmen_frog
     show footmen_frog at breathing:
         pos (0.7, 0.9) zoom 0.5
+    voice "n1249"
     "And when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky."
 
     show alice normal at breathing:
         pos (0.3, 0.9) zoom alice_scale
     play sound "sfx/knockknockknock.mp3"
+    voice "n1250"
     "Alice went timidly up to the door, and knocked."
     voice "frogfoot2"
     frogfoot "There’s no sort of use in knocking, and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you."
 
     #play sound "sfx/shatter.mp3"
+    voice "n1251"
     "And certainly there was a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces."
     voice "alice181"
     alice "Please, then, how am I to get in?"
     voice "frogfoot3"
     frogfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
-
+    voice "n1252"
     "He was looking up into the sky all the time he was speaking, and this Alice thought decidedly uncivil."
     voice "alice182"
     alice "(But perhaps he can’t help it, his eyes are so very nearly at the top of his head. But at any rate he might answer questions)"
@@ -2473,7 +2480,7 @@ label chapter6:
         anchor(0.5, 0.5)
         xpos 1.5 ypos 0.4 zoom 0.5
         linear 2.0 xpos -0.5
-
+    voice "n1253"
     "At this moment the door of the house opened, and a large plate came skimming out, straight at the Footman’s head: it just grazed his nose, and broke to pieces against one of the trees behind him."
 
     voice "frogfoot5"
@@ -2484,11 +2491,11 @@ label chapter6:
     alice "*louder* How am I to get in?" # asked Alice again, in a louder tone.
     voice "frogfoot6"
     frogfoot "Are you to get in at all? That’s the first question, you know."
-
+    voice "n1254"
     "It was, no doubt: only Alice did not like to be told so."
     voice "alice185"
     alice "(It’s really dreadful, the way all the creatures argue. It’s enough to drive one crazy!)"
-
+    voice "n1255"
     "The Footman seemed to think this a good opportunity for repeating his remark, with variations."
     voice "frogfoot7"
     frogfoot "I shall sit here, on and off, for days and days."
@@ -2500,6 +2507,7 @@ label chapter6:
     alice "Oh, there’s no use in talking to him, he’s perfectly idiotic!"
 
     play sound "sfx/door_open.mp3"
+    voice "n1256"
     "And she opened the door and went in."
 
 label ch6_kitchen:
@@ -2538,12 +2546,13 @@ label ch6_kitchen:
         linear 1.0 xoffset 10 yoffset -10 rotate -2
         repeat
     
+    voice "n1257"
     "The door led right into a large kitchen, which was full of smoke from one end to the other: the Duchess was sitting on a three-legged stool in the middle, nursing a baby; the cook was leaning over the fire, stirring a large cauldron which seemed to be full of soup."
     voice "alice188"
     alice "(There’s certainly too much pepper in that soup!)" # Alice said to herself, as well as she could for sneezing.
-
+    voice "n1258"
     "There was certainly too much of it in the air. Even the Duchess sneezed occasionally; and as for the baby, it was sneezing and howling alternately without a moment’s pause."
-
+    voice "n1259"
     "The only things in the kitchen that did not sneeze, were the cook, and a large cat which was sitting on the hearth and grinning from ear to ear."
 
     camera:
@@ -2561,6 +2570,7 @@ label ch6_kitchen:
     show alice at breathing:
         ease 0.3 yoffset -100
         ease 0.3 yoffset 0
+    voice "n1260"
     "She said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:"
 
     show alice surprised at breathing
@@ -2573,11 +2583,12 @@ label ch6_kitchen:
     alice "I don’t know of any that do."
 
     show alice normal at breathing
+    voice "n1261"
     "Alice said very politely, feeling quite pleased to have got into a conversation."
 
     voice "duchess03"
     duchess "You don’t know much, and that’s a fact."
-
+    voice "n1262"
     "Alice did not at all like the tone of this remark, and thought it would be as well to introduce some other subject of conversation."
     
     show plate as plate1:
@@ -2596,18 +2607,20 @@ label ch6_kitchen:
         xpos cook_kitchen_pos ypos 0.6 zoom 0.5
         pause 1
         linear 2.0 xpos duchess_kitchen_pos
-
+    voice "n1263"
     "While she was trying to fix on one, the cook took the cauldron of soup off the fire, and at once set to work throwing everything within her reach at the Duchess and the baby—the fire-irons came first; then followed a shower of saucepans, plates, and dishes."
 
     hide plate1
     hide plate2
     hide plate3
+    voice "n1264"
     "The Duchess took no notice of them even when they hit her; and the baby was howling so much already, that it was quite impossible to say whether the blows hurt it or not."
     
     show alice pout at breathing
     voice "alice192"
     alice "Oh, please mind what you’re doing!"
     #"Cried Alice, jumping up and down in an agony of terror."#
+    voice "n1265"
     "Alice was jumping up and down in an agony of terror."#
     voice "alice193"
     alice "Oh, there goes his precious nose..."
@@ -2616,6 +2629,7 @@ label ch6_kitchen:
         anchor(0.5, 0.5)
         xpos cook_kitchen_pos ypos 0.7 zoom 1.0
         linear 4.0 xpos -600
+    voice "n1266"
     "An unusually large saucepan flew close by it, and very nearly carried it off."
 
     voice "duchess04"
@@ -2633,6 +2647,7 @@ label ch6_kitchen:
 
     camera:
         ease cam_transition xpos cook_kitchen_pos zpos 0
+    voice "n1267"
     "Alice glanced rather anxiously at the cook, to see if she meant to take the hint; but the cook was busily stirring the soup, and seemed not to be listening, so she went on again:"
 
     show alice normal at breathing
@@ -2643,6 +2658,7 @@ label ch6_kitchen:
 
     voice "duchess06"
     duchess "Oh, don’t bother me, I never could abide figures!" 
+    voice "n1268"
     "And with that she began nursing her child again, singing a sort of lullaby to it as she did so, and giving it a violent shake at the end of every line:"
 
     camera:
@@ -2659,6 +2675,7 @@ label ch6_kitchen:
 
     camera:
         ease cam_transition xpos duchess_kitchen_pos zpos 0
+    voice "n1269"
     "While the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:"
 
     voice "duchess08"
@@ -2676,30 +2693,35 @@ label ch6_kitchen:
     
     show baby normal:
         ease 1.0 xpos alice_kitchen_pos ypos 0.8
+    voice "n1270"
     "The Duchess said to Alice, flinging the baby at her as she spoke."
     voice "duchess10"
     duchess "I must go and get ready to play croquet with the Queen."
+    voice "n1271"
     "The duchess hurried out of the room."
     show duchess:
         linear 3.0 xpos 3000
 
     camera:
         ease cam_transition xpos cook_kitchen_pos zpos 0
+    voice "n1272"
     "The cook threw a frying-pan after her as she went out, but it just missed her."
 
     camera:
         ease cam_transition xpos alice_kitchen_pos zpos 0
-    
+    voice "n1273"
     "Alice caught the baby with some difficulty, as it was a queer-shaped little creature, and held out its arms and legs in all directions."
     show alice surprised at breathing
     voice "alice196"
     alice "Just like a star-fish."
+    voice "n1274"
     "The poor little thing was snorting like a steam-engine when she caught it, and kept doubling itself up and straightening itself out again, so that altogether, for the first minute or two, it was as much as she could do to hold it."
 
     scene black
     camera:
         perspective False
         xpos 0 zpos 0 xoffset 0
+    voice "n1275"
     "As soon as she had made out the proper way of nursing it, (which was to twist it up into a sort of knot, and then keep tight hold of its right ear and left foot, so as to prevent its undoing itself,) she carried it out into the open air."
 
 
@@ -2719,50 +2741,59 @@ label ch6_kitchen:
     alice "(If I don’t take this child away with me, they’re sure to kill it in a day or two)"
     voice "alice198"
     alice "Wouldn’t it be murder to leave it behind?"
+    voice "n1276"
     "The little thing grunted in reply (it had left off sneezing by this time)"
     voice "alice199"
     alice "Don’t grunt, that’s not at all a proper way of expressing yourself."
-
+    voice "n1277"
     "The baby grunted again, and Alice looked very anxiously into its face to see what was the matter with it."
     show baby half
+    voice "n1278"
     "There could be no doubt that it had a very turn-up nose, much more like a snout than a real nose; also not like the look of the thing at all."
     voice "alice200"
     alice "But perhaps it was only sobbing."
+    voice "n1279"
     "She looked into its eyes again, to see if there were any tears."
-
+    voice "n1280"
     "No, there were no tears."
     voice "alice201"
     alice "If you’re going to turn into a pig, my dear, I’ll have nothing more to do with you. Mind now!"
+    voice "n1281"
     "The poor little thing sobbed again (or grunted, it was impossible to say which), and they went on for some while in silence."
     voice "alice202"
     alice "Now, what am I to do with this creature when I get it home?"
+    voice "n1282"
     "Then it grunted again, so violently, that she looked down into its face in some alarm."
 
     show baby pig
+    voice "n1283"
     "This time there could be no mistake about it: it was neither more nor less than a pig, and she felt that it would be quite absurd for her to carry it further."
 
     hide baby
+    voice "n1284"
     "So she set the little creature down, and felt quite relieved to see it trot away quietly into the wood."
 
     play music "audio/rinne lilly.mp3" fadein 1.0 fadeout 1.0
     voice "alice203"
     alice "If it had grown up, it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think."
-
+    voice "n1285"
     "And she began thinking over other children she knew, who might do very well as pigs."
     voice "alice204"
     alice "If one only knew the right way to change them—"
-
+    voice "n1286"
     "She got a little startled by seeing the Cheshire Cat sitting on a bough of a tree a few yards off."
 
     show cat:
         anchor (0.5, 1.0)
         xpos 0.79 ypos 0.25 zoom 0.5
-
+    voice "n1287"
     "The Cat only grinned when it saw Alice."
+    voice "n1288"
     "It looked good-natured, she thought: still it had very long claws and a great many teeth, so she felt that it ought to be treated with respect."
     voice "alice205"
     alice "*timidly* Cheshire Puss..." 
     #"She began, rather timidly, as 
+    voice "n1289"
     "She did not at all know whether it would like the name: however, it only grinned a little wider."
     voice "alice206"
     alice "Come, it’s pleased so far."
@@ -2781,7 +2812,7 @@ label ch6_kitchen:
 
     voice "cat03"
     cat "Oh, you’re sure to do that, if you only walk long enough."
-
+    voice "n1290"
     "Alice felt that this could not be denied, so she tried another question."
     voice "alice210"
     alice "What sort of people live about here?"
@@ -2798,7 +2829,7 @@ label ch6_kitchen:
 
     voice "cat06"
     cat "You must be, or you wouldn’t have come here."
-
+    voice "n1291"
     "Alice didn’t think that proved it at all; however, she went on:"
     voice "alice213"
     alice "And how do you know that you’re mad?"
@@ -2824,10 +2855,11 @@ label ch6_kitchen:
     cat "You’ll see me there."
 
     hide cat
+    voice "n1292"
     "The Cat vanished."
-
+    voice "n1293"
     "Alice was not much surprised at this, she was getting so used to queer things happening."
-
+    voice "n1294"
     "While she was looking at the place where it had been, it suddenly appeared  again." # the cat appeared again
 
     show cat:
@@ -2844,8 +2876,9 @@ label ch6_kitchen:
     cat "I thought it would." # said the cat and VANISHED again
 
     hide cat
+    voice "n1295"
     "The Cat vanished again."
-
+    voice "n1296"
     "Alice waited a little, half expecting to see it again, but it did not appear, and after a minute or two she walked on in the direction in which the March Hare was said to live."
     voice "alice218"
     alice "I’ve seen hatters before, the  March Hare will be much the most interesting, and perhaps as this is May it won’t be raving mad—at least not so mad as it was in March."
@@ -2854,7 +2887,7 @@ label ch6_cat:
     show cat:
         anchor (0.5, 1.0)
         xpos 0.79 ypos 0.25 zoom cat_scale
-        
+    voice "n1297"
     "As she said this, she looked up, and there was the Cat again, sitting on a branch of a tree."
 
     voice "cat15"
@@ -2883,14 +2916,15 @@ label ch6_cat:
     show cat_animated:
         anchor (0.5, 1.0)
         xpos 0.79 ypos 0.25 zoom cat_scale
-
+    voice "n1298"
     "This time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone."
     voice "alice220"
     alice "Well! I’ve often seen a cat without a grin, but a grin without a cat! It’s the most curious thing I ever saw in my life!"
 
     scene hare_house
+    voice "n1299"
     "She had not gone much farther before she came in sight of the house of the March Hare: she thought it must be the right house, because the chimneys were shaped like ears and the roof was thatched with fur."
-
+    voice "n1300"
     "It was so large a house, that she did not like to go nearer till she had nibbled some more of the lefthand bit of mushroom, and raised herself to about two feet high: even then she walked up towards it rather timidly."    
     voice "alice221"
     alice "Suppose it should be raving mad after all! I almost wish I’d gone to see the Hatter instead!"
