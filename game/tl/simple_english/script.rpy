@@ -10521,11 +10521,6 @@ translate simple_english chapter12_dfc16894:
     #voice "na16"
     "The End."
 
-    # game/script.rpy:155
-    old "Sister"
-    new "Sister"
-# TODO: Translation updated at 2025-01-05 14:24
-
 # game/script.rpy:273
     #voice "n1050"
 translate simple_english chapter12_71c1484e:
