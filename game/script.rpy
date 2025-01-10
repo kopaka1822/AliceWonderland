@@ -2932,6 +2932,7 @@ label ch6_cat:
 label chapter7:
     $ persistent.started_story = True
     scene black
+    voice "n1301"
     "{size=+40}Chapter VII: \n{/size}A Mad Tea-Party"
 
     play music "audio/rinne lilly.mp3" if_changed
@@ -2962,11 +2963,11 @@ label chapter7:
 
     image hare_house_front_mask = AlphaMask("hare_house", "hare_house_front")
     show hare_house_front_mask zorder 50
-
+    voice "n1302"
     "There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head."
     voice "alice222"
     alice "(Very uncomfortable for the Dormouse, only, as it’s asleep, I suppose it doesn’t mind)"
-
+    voice "n1303"
     "The table was a large one, but the three were all crowded together at one corner of it."
     voice "everyone8"
     everyone "No room! No room!" 
@@ -2981,7 +2982,7 @@ label chapter7:
     
     show alice normal zorder 0 at breathing:
         pos (alice_tea_pos, 0.9)
-        
+    voice "n1304"
     "She sat down in a large arm-chair at one end of the table."
 
     camera:
@@ -2991,7 +2992,7 @@ label chapter7:
 
     camera:
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
-
+    voice "n1305"
     "Alice looked all round the table, but there was nothing on it but tea."
 
     camera: 
@@ -3024,14 +3025,14 @@ label chapter7:
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     voice "hatter01"
     hatter "Your hair wants cutting."
-
+    voice "n1306"
     "He had been looking at Alice for some time with great curiosity, and this was his first speech."
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     voice "alice227"
     alice "You should learn not to make personal remarks, it’s very rude."
-
+    voice "n1307"
     "The Hatter opened his eyes very wide on hearing this." # ; but all he said was"
 
     camera: 
@@ -3085,11 +3086,12 @@ label chapter7:
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     voice "hatter04"
     hatter "It is the same thing with you."
-
+    voice "n1308"
     "And here the conversation dropped, and the party sat silent for a minute, while Alice thought over all she could remember about ravens and writing-desks, which wasn’t much."
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "n1309"
     "The hatter was the first to break the silence."
     voice "hatter05"
     hatter "What day of month is it?"
@@ -3097,8 +3099,9 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "n1310"
     "He had taken his watch out of his pocket, and was looking at it uneasily, shaking it every now and then, and holding it to his ear." # turning to alice
-
+    voice "n1311"
     "Alice considered it a little..."
     voice "alice232"
     alice "The fourth."
@@ -3107,6 +3110,7 @@ label chapter7:
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     voice "hatter06"
     hatter "Two days wrong!"
+    voice "n1312"
     "He looked angrily at the March Hare."
     voice "hatter07"
     hatter "I told you butter wouldn’t suit the works!"
@@ -3123,11 +3127,12 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+    voice "n1313"
     "The March Hare took the watch and looked at it gloomily: then he dipped it into his cup of tea, and looked at it again: but he could think of nothing better to say than his first remark."
 
     voice "hare08"
     hare "It was the best butter, you know."
-
+    voice "n1314"
     "Alice had been looking over his shoulder with some curiosity."
 
 
@@ -3159,7 +3164,9 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "n1315"
     "Alice felt dreadfully puzzled."
+    voice "n1316"
     "The Hatter’s remark seemed to have no sort of meaning in it, and yet it was certainly English."
     voice "alice236"
     alice "I don’t quite understand you."
@@ -3171,8 +3178,9 @@ label chapter7:
 
     camera:
         ease cam_transition xpos 840 zpos -415 ypos 5
-
+    voice "n1317"
     "He poured a little hot tea upon its nose."
+    voice "n1318"
     "The Door-mouse shook its head impatiently, and said, without opening its eyes:"
     
     camera: 
@@ -3182,6 +3190,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "n1319"
     "The hatter turned to Alice again."
     voice "hatter13"
     hatter "Have you guessed the riddle yet?"
@@ -3260,10 +3269,11 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
+    voice "n1321"
     "The Hatter shook his head mournfully."
     voice "hatter20"
     hatter "Not I! We quarrelled last March—just before he went mad, you know—"
-
+    voice "n1322"
     "The Hatter pointed with his tea spoon at the March Hare."
     voice "hatter21"
     hatter "It was at the great concert given by the Queen of Hearts, and I had to sing\n‘Twinkle, twinkle, little bat!\nHow I wonder what you’re at!’"
@@ -3282,14 +3292,14 @@ label chapter7:
     hatter "It goes on, you know, in this way:"
     voice "hatter24"
     hatter "Up above the world you fly,\nLike a tea-tray in the sky.\nTwinkle, twinkle—"
-
+    voice "n1323"
     "Here the Dormouse shook itself, and began singing in its sleep:"
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     voice "dormouse03"
     dormouse "Twinkle, twinkle, twinkle, twinkle—"
-
+    voice "n1324"
     "And went on so long that they had to pinch it to make it stop."
 
     camera: 
@@ -3311,6 +3321,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "n1325"
     "A bright idea came into Alice’s head."
     voice "alice245"
     alice "Is that the reason so many tea-things are put out here?"
@@ -3352,10 +3363,11 @@ label chapter7:
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
     voice "everyone9"
     everyone "Then the Dormouse shall! Wake up, Dormouse!"
-
+    voice "n1326"
     "And they pinched it on both sides at once."
 
     show dormouse tired at breathing
+    voice "n1327"
     "The Dormouse slowly opened his eyes."
 
     voice "dormouse04"
@@ -3388,7 +3400,7 @@ label chapter7:
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     voice "alice250"
     alice "What did they live on?"
-
+    voice "n1328"
     "Alice always took a great interest in questions of eating and drinking."
 
     camera: 
@@ -3413,6 +3425,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    voice "n1329"
     "Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on:"
     voice "alice252"
     alice "But why did they live at the bottom of a well?"
@@ -3427,9 +3440,9 @@ label chapter7:
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     show alice pout at breathing
     voice "alice253"
-    alice "I’ve had nothing yet, so I can’t take more."
-
-    "Alice replied in an offended tone."
+    alice "I’ve had nothing yet, so I can’t take more." # Alice replied in an offended tone.
+    #voice "n1330"
+    #"Alice replied in an offended tone."
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
@@ -3451,10 +3464,12 @@ label chapter7:
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     show alice normal at breathing
+    voice "n1331"
     "Alice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question."
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
+    voice "n1332"
     "The Dormouse again took a minute or two to think about it."
 
     voice "dormouse08"
@@ -3466,7 +3481,7 @@ label chapter7:
     show alice pout at breathing
     voice "alice255"
     alice "There’s no such thing!"
-
+    voice "n1334"
     "Alice was beginning very angrily, but the Hatter and the March Hare went."
 
     camera: 
@@ -3530,11 +3545,12 @@ label ch7_reorder:
 
     camera: 
         ease cam_transition xpos 855 zpos -130 ypos 30
-
+    voice "n1335"
     "He moved on as he spoke, and the Dormouse followed him: the March Hare moved into the Dormouse’s place, and Alice rather unwillingly took the place of the March Hare. The Hatter was the only one who got any advantage from the change: and Alice was a good deal worse off than before, as the March Hare had just upset the milk-jug into his plate."
 
     camera: 
         ease cam_transition xpos alice_tea_pos2
+    voice "n1336"
     "Alice did not wish to offend the Dormouse again, so she began very cautiously:"
 
     camera: 
@@ -3557,11 +3573,12 @@ label ch7_reorder:
 
     voice "dormouse13"
     dormouse "Of course they were, well in."
-
+    voice "n1337"
     "This answer so confused poor Alice, that she let the Dormouse go on for some time without interrupting it."
 
     voice "dormouse14"
     dormouse "They were learning to draw..."
+    voice "n1338"
     "The Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy."
     # todo close eyes
     voice "dormouse15"
@@ -3579,10 +3596,12 @@ label ch7_reorder:
         ease cam_transition xpos hare_tea_pos2 zpos -425 ypos 5
     voice "hare14"
     hare "Why not?"
+    voice "n1339"
     "Alice was silent."
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos2 zpos -495 ypos 215
+    voice "n1340"
     "The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on:"
     # wake up
     show dormouse tired at breathing
@@ -3600,6 +3619,7 @@ label ch7_reorder:
     hatter "Then you shouldn’t talk."
 
     hide alice
+    voice "n1341"
     "This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot."
 
     scene forest
@@ -3611,7 +3631,7 @@ label ch7_reorder:
     alice "At any rate I’ll never go there again!"
     voice "alice263"
     alice "It’s the stupidest tea-party I ever was at in all my life!"
-
+    voice "n1342"
     "Just as she said this, she noticed that one of the trees had a door leading right into it."
 
     show alice surprised at breathing
@@ -3619,20 +3639,24 @@ label ch7_reorder:
     alice "(That’s very curious!)"
     voice "alice265"
     alice "(But everything’s curious today. I think I may as well go in at once)"
+    voice "n1343"
     "And she went in."
 
     scene hall
+    voice "n1344"
     "Once more she found herself in the long hall, and close to the little glass table."
 
     show alice normal at breathing:
         pos (0.5, 0.9) zoom alice_scale
     voice "alice266"
     alice "Now, I’ll manage better this time."
+    voice "n1345"
     "She began by taking the little golden key, and unlocking the door that led into the garden."
     
     stop music fadeout 1.0
     scene garden at windy:
         xpos 1000
+    voice "n1346"
     "Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and then—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains."
 
 label chapter8:
@@ -4984,6 +5008,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice328"
     alice "I haven’t."
 
     camera:
@@ -4992,8 +5017,10 @@ label chapter10:
     mock "And perhaps you were never even introduced to a lobster—"
 
     camera:
-        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+        ease cam_transition xpos 540 ypos 1020 zoom 2.0 # 
+    voice "alice329"
     alice "I once tasted—" #  but checked herself hastily, and said
+    voice "alice330"
     alice "No, never."
 
     camera:
@@ -5003,6 +5030,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice331"
     alice "No, indeed. What sort of a dance is it?"
 
     camera:
@@ -5094,6 +5122,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice332"
     alice "It must be a very pretty dance." # timidly
 
     camera:
@@ -5103,6 +5132,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice333"
     alice "Very much indeed."
 
     camera:
@@ -5173,8 +5203,10 @@ label chapter10:
         ease 1.0 xoffset 0 yoffset 0
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice334"
     alice "Thank you, it’s a very interesting dance to watch."
     "Alice was feeling very glad that it was over at last."
+    voice "alice335"
     alice "And I do so like that curious song about the whiting!"
 
     camera:
@@ -5184,6 +5216,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice336"
     alice "Yes, I’ve often seen them at dinn—"
     "She checked herself hastily."
 
@@ -5194,7 +5227,9 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice337"
     alice "I believe so."
+    voice "alice338"
     alice "They have their tails in their mouths—and they’re all over crumbs."
 
     camera:
@@ -5221,6 +5256,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice339"
     alice "Thank you, it’s very interesting. I never knew so much about a whiting before."
 
     camera:
@@ -5230,6 +5266,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice340"
     alice "I never thought about it. Why?"
 
     camera:
@@ -5242,6 +5279,7 @@ label chapter10:
     
     show alice thinking at breathing
     "Alice was thoroughly puzzled."
+    voice "alice341"
     alice "Does the boots and shoes!?" # wondering
 
     camera:
@@ -5252,6 +5290,7 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     "Alice looked down at them, and considered a little before she gave her answer."
+    voice "alice342"
     alice "They’re done with blacking, I believe."
 
     camera:
@@ -5261,6 +5300,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice343"
     alice "And what are they made of?" # asked with great curiosity
 
     camera:
@@ -5270,6 +5310,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice344"
     alice "If I’d been the whiting, I’d have said to the porpoise, ‘Keep back, please: we don’t want you with us!’" # still in thoughts
 
     camera:
@@ -5279,6 +5320,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice345"
     alice "Wouldn’t it really?" # surprised
 
     camera:
@@ -5288,6 +5330,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice346"
     alice "Don’t you mean ‘purpose’?"
 
     camera:
@@ -5303,6 +5346,7 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice pout at breathing
+    voice "alice347"
     alice "I could tell you my adventures—beginning from this morning, but it’s no use going back to yesterday, because I was a different person then."
 
     camera:
@@ -5355,19 +5399,21 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "alice348"
     alice "(How the creatures order one about, and make one repeat lessons!)"
+    voice "alice349"
     alice "(I might as well be at school at once)"
     "However, she got up, and began to repeat it, but her head was so full of the Lobster Quadrille, that she hardly knew what she was saying, and the words came very queer indeed:—"
-
+    voice "alice350"
     alice "’Tis the voice of the Lobster; \n{space=30}I heard him declare,
     \n“You have baked me too brown, \n{space=30}I must sugar my hair.”
     \nAs a duck with its eyelids, \n{space=30}so he with his nose
     \nTrims his belt and his buttons, \n{space=30}and turns out his toes."
 
     # later editions continue with
-    #alice "When the sands are all dry, he is gay as a lark,\n
+    #a lice "When the sands are all dry, he is gay as a lark,\n
     #And will talk in contemptuous tones of the Shark,"
-    #alice "But, when the tide rises and sharks are around,\n
+    #a lice "But, when the tide rises and sharks are around,\n
     #His voice has a timid and tremulous sound."
 
     camera:
@@ -5404,6 +5450,7 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice pout at breathing
+    voice "alice351"
     alice "It’s the first position in dancing."
     "She was dreadfully puzzled by the whole thing, and longed to change the subject."
 
@@ -5415,11 +5462,12 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     "Alice did not dare to disobey, though she felt sure it would all come wrong, and she went on in a trembling voice:—"
-
+    voice "alice352"
     alice "I passed by his garden, \n{space=30}and marked, with one eye,
     \nHow the Owl and the Panther \n{space=30}were sharing a pie.
     \nThe Panther took pie-crust, \n{space=30}and gravy, and meat,
     \nWhile the Owl had the dish \n{space=30}as its share of the treat."
+    voice "alice353"
     alice "When the pie was all finished, \n{space=30}the Owl, as a boon,
     \nWas kindly permitted \n{space=30}to pocket the spoon:
     \nWhile the Panther received \n{space=30}knife and fork with a growl,
@@ -5450,6 +5498,7 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice happy at breathing
+    voice "alice354"
     alice "Oh, a song, please, if the Mock Turtle would be so kind." # alice replied eagerly
 
     camera:
@@ -5510,6 +5559,7 @@ label chapter10:
         zoom 1.0 ypos 0
         linear 10.0 xpos 1530
     "The Gryphon took Alice by the hand, and hurried off, without waiting for the end of the song."
+    voice "alice355"
     alice "What trial is it?"
     "Alice panted as she ran."
     voice "gryphon49"
@@ -5630,6 +5680,7 @@ label ch11_court:
     camera:
         ease cam_transition xpos 2560 ypos 300 # tarts
     "In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—"
+    voice "alice356"
     alice "(I wish they’d get the trial done and hand round the refreshments!)"
     "But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time."
 
@@ -5637,14 +5688,16 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000
-        
+    voice "alice357"
     alice "(That’s the judge, because of his great wig."
     "The judge, by the way, was the King; and as he wore his crown over the wig, he did not look at all comfortable, and it was certainly not becoming." # (look at the frontispiece if you want to see how he did it,)
 
     camera:
         ease cam_transition xpos court_jury ypos 0 zpos -500
+    voice "alice358"
     alice "(And that’s the jury-box and those twelve creatures—"
     "(she was obliged to say “creatures,” you see, because some of them were animals, and some were birds)"
+    voice "alice359"
     alice "(I suppose they are the jurors)"
     "She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all."
     "However, “jury-men” would have done just as well."
@@ -5653,11 +5706,12 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500
+    voice "alice360"
     alice "*whispering* What are they doing? They can’t have anything to put down yet, before the trial’s begun." # Alice whispered to the Gryphon. “”
 
     voice "gryphon50"
     gryphon "*whispering* They’re putting down their names, for fear they should forget them before the end of the trial."
-
+    voice "alice361"
     alice "Stupid things!" # Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -500
@@ -5670,6 +5724,7 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_jury ypos 0 zpos -500
     "Alice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid” and that he had to ask his neighbour to tell him."
+    voice "alice362"
     alice "(A nice muddle their slates’ll be in before the trial’s over!)"
     
     show alice normal at breathing zorder 1:
@@ -5823,6 +5878,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
+    voice "alice363"
     alice "I can’t help it, I’m growing." # meekly
 
     camera:
@@ -5832,6 +5888,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
+    voice "alice364"
     alice "Don’t talk nonsense, you know you’re growing too."
     
     camera:
@@ -5952,6 +6009,7 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     show alice happy at breathing
+    voice "alice365"
     alice "(I’m glad I’ve seen that done. I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now)"
     
     camera:
@@ -5972,6 +6030,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
+    voice "alice366"
     alice "(Come, that finished the guinea-pigs! Now we shall get on better)"
 
     camera:
@@ -6079,6 +6138,7 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     "Alice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like."
+    voice "alice367"
     alice "(They haven’t got much evidence yet)"
     "Imagine her surprise, when the White Rabbit read out, at the top of his shrill little voice, the name:"
 
@@ -6102,6 +6162,7 @@ label chapter12:
     
     show alice normal at breathing:
         zoom 1.0
+    voice "alice368"
     alice "Here!"
 
     show alice normal at breathing:
@@ -6128,6 +6189,7 @@ label chapter12:
         ease 1.0 xpos 2030
     camera:
         ease cam_transition xpos court_jury # jury
+    voice "alice369"
     alice "Oh, I beg your pardon!"
     show lory at breathing:
         ease 1.0 zrotate 0
@@ -6153,7 +6215,9 @@ label chapter12:
     show bill at breathing:
         ease 1.0 zrotate 0
     "She soon got it out again, and put it right."
+    voice "alice370"
     alice "(not that it signifies much)" 
+    voice "alice371"
     alice "(I should think it would be quite as much use in the trial one way up as the other)"
 
     show alice normal at breathing:
@@ -6167,6 +6231,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice witness
+    voice "alice372"
     alice "Nothing."
 
     camera:
@@ -6176,6 +6241,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
+    voice "alice373"
     alice "Nothing whatever."
 
     camera:
@@ -6209,6 +6275,7 @@ label chapter12:
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
     "Alice could see this, as she was near enough to look over their slates."
+    voice "alice374"
     alice "(But it doesn’t matter a bit...)"
 
     camera:
@@ -6224,6 +6291,7 @@ label chapter12:
     "Everybody looked at Alice."
 
     show alice pout at breathing
+    voice "alice375"
     alice "I’m not a mile high."
 
     camera:
@@ -6238,6 +6306,7 @@ label chapter12:
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
     show alice normal at breathing
+    voice "alice376"
     alice "Well, I shan’t go, at any rate, besides, that’s not a regular rule: you invented it just now."
     
     camera:
@@ -6247,6 +6316,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
+    voice "alice377"
     alice "Then it ought to be Number One."
 
     camera:
@@ -6337,7 +6407,9 @@ label chapter12:
         ypos 1.0 xpos court_witness zpos -350
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
+    voice "alice378"
     alice "It proves nothing of the sort!"
+    voice "alice379"
     alice "Why, you don’t even know what they’re about!"
 
     camera:
@@ -6384,6 +6456,7 @@ label chapter12:
         ypos 1.0 xpos court_witness zpos -350 zoom 1.3
     camera:
         ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
+    voice "alice380"
     alice "If any one of them can explain it I’ll give him sixpence. I don’t believe there’s an atom of meaning in it."
     "(she had grown so large in the last few minutes that she wasn’t a bit afraid of interrupting him)"
 
@@ -6422,6 +6495,7 @@ label chapter12:
         ypos 1.0 xpos court_witness zpos -350 zoom 1.3
     camera:
         ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
+    voice "alice381"
     alice "But, it goes on ‘they all returned from him to you’"
 
     camera:
@@ -6469,7 +6543,9 @@ label chapter12:
     
     camera:
         ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
+    voice "alice382"
     alice "Stuff and nonsense!"
+    voice "alice383"
     alice "The idea of having the sentence first!"
 
     camera:
@@ -6480,6 +6556,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
+    voice "alice384"
     alice "I won’t!"
 
     camera:
@@ -6493,8 +6570,10 @@ label chapter12:
         ease cam_transition xpos court_witness ypos -900 zpos -500 # alice 
     show alice normal at breathing:
         zoom 1.5
+    voice "alice385"
     alice "Who cares for you?"
     "(Alice had grown to her full size by this time)"
+    voice "alice386"
     alice "You’re nothing but a pack of cards!"
 
     camera:
@@ -6518,7 +6597,7 @@ label chapter12:
         repeat
     voice "sister2"
     sister "Why, what a long sleep you’ve had!"
-
+    voice "alice387"
     alice "Oh, I’ve had such a curious dream!" 
     "She told her sister, as well as she could remember them, all these strange Adventures of hers that you have just been reading about; and when she had finished, her sister kissed her."
     voice "sister3"

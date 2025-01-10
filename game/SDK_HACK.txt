@@ -15,3 +15,20 @@
 # renpy/gl2/gl2shadercache.py
 # replace precision mediump float with:
 precision highp float;
+
+# renpy/preferences.py
+# add multipliers (**) to get and set volume
+    def set_volume(self, mixer, volume):
+        if not renpy.config.preserve_volume_when_muted and volume != 0:
+            self.mute[mixer] = False
+
+        self.volumes[mixer] = volume ** 1.25
+
+    def get_volume(self, mixer):
+        if mixer not in self.volumes:
+            return 0.0
+
+        if not renpy.config.preserve_volume_when_muted and self.mute.get(mixer, False):
+            return 0.0
+
+        return self.volumes[mixer] ** 0.8
