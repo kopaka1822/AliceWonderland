@@ -327,6 +327,8 @@ label chapter1:
     voice "n1001"
     "{size=+40}Chapter I: \n{/size}Down the Rabbit-Hole"
 
+    jump ch1_hall_start
+
     scene riverbank at windy
     play music "audio/rinne wanderer.mp3"
 
@@ -556,11 +558,65 @@ label chapter1:
     voice "n1032"
     "She was close behind it when she turned the corner, but the Rabbit was no longer to be seen."
 
+label ch1_hall_start:
+
+
     play music "audio/rinne memories of clockwise tower.mp3" fadein 1.0
-    scene hall:
-        xalign 0.0
-        linear 15.0 xalign 0.5
+    scene black
     call reset_camera
+    
+    show court_floor as floor1:
+        align (0.5, 0.5) pos(1024, 1.0) xrotate 90.0 zoom 2.0
+
+    show court_floor as floor2:
+        align (0.5, 0.5) pos(3072, 1.0) xrotate 90.0 zoom 2.0
+
+    show court_floor as floor3:
+        align (0.5, 0.5) pos(5120, 1.0) xrotate 90.0 zoom 2.0
+
+    show court_floor as floor4:
+        align (0.5, 0.5) pos(7168, 1.0) xrotate 90.0 zoom 2.0
+
+    show court_floor as floor5:
+        align (0.5, 0.5) pos(9216, 1.0) xrotate 90.0 zoom 2.0
+
+    show court_floor as floor6:
+        align (0.5, 0.5) pos(11264, 1.0) xrotate 90.0 zoom 2.0
+
+    show hallway doors:
+        align (0.0, 1.0) zoom 5.3 zpos -450
+
+    show lamp antique as lamp1:
+        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32
+
+    show lamp antique as lamp2:
+        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 1.6
+        
+    show lamp antique as lamp3:
+        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 2.7
+        
+    show lamp antique as lamp4:
+        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 3.8
+        
+    show lamp antique as lamp5:
+        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 4.9
+        
+    show lamp antique as lamp6:
+        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 6.0
+        
+    show lamp antique as lamp7:
+        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 7.1
+
+    show lamp antique as lamp8:
+        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 8.2
+        
+    show lamp antique as lamp9:
+        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 9.3
+
+    camera:
+        perspective True
+        xpos 885 xoffset -center_offset
+        ease 10 xpos 8695
     
     voice "n1033"
     "She found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof."
