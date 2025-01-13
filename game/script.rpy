@@ -169,7 +169,7 @@ define center_offset = 540 # half of 1080
 
 ## ANIMATED TRANSFORMS ##
 ## remove comment below to work with action editor
-#'''
+'''
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
