@@ -155,7 +155,7 @@ define knave = Character(_("Knave"), color="#ff0000")
 define sister = Character(_("Sister"), color="00ff00")
 
 define alice_scale = 0.5
-define alice_scale_large = 0.9
+define alice_scale_large = 1.2
 define rabbit_scale = 0.7
 define mouse_scale = 0.5
 define queen_scale = 0.65
@@ -165,6 +165,12 @@ define duchess_scale = 0.52
 
 define cam_transition = 0.5
 define center_offset = 540 # half of 1080
+
+
+define three_legged_table_xpos = 5.55
+define three_legged_table_ypos = 1.06
+define three_legged_table_zpos = -400.0
+define three_legged_table_zoom = 1.60
 
 
 ## ANIMATED TRANSFORMS ##
@@ -558,14 +564,9 @@ label chapter1:
     voice "n1032"
     "She was close behind it when she turned the corner, but the Rabbit was no longer to be seen."
 
-label ch1_hall_start:
+    jump ch1_hall_start
 
-
-    play music "audio/rinne memories of clockwise tower.mp3" fadein 1.0
-    scene black
-    call reset_camera
-
-    
+label setup_hallway:
     show court_floor as floor1:
         align (0.5, 0.5) pos(1024, 1.0) xrotate 90.0 zoom 2.0
 
@@ -590,36 +591,46 @@ label ch1_hall_start:
     show hallway doors:
         align (0.0, 1.0) zoom 5.3 zpos -450
 
-    show lamp antique as lamp1:
+    show lamp antique as lamp1 zorder 110:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32
 
-    show lamp antique as lamp2:
+    show lamp antique as lamp2 zorder 110:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 1.6
         
-    show lamp antique as lamp3:
+    show lamp antique as lamp3 zorder 110:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 2.7
         
-    show lamp antique as lamp4:
+    show lamp antique as lamp4 zorder 110:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 3.8
         
-    show lamp antique as lamp5:
+    show lamp antique as lamp5 zorder 110:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 4.9
         
-    show lamp antique as lamp6:
+    show lamp antique as lamp6 zorder 110:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 6.0
         
-    show lamp antique as lamp7:
+    show lamp antique as lamp7 zorder 110:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 7.1
 
-    show lamp antique as lamp8:
+    show lamp antique as lamp8 zorder 110:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 8.2
         
-    show lamp antique as lamp9:
+    show lamp antique as lamp9 zorder 110:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 9.3
 
+    return
+
+label ch1_hall_start:
+
+
+    play music "audio/rinne memories of clockwise tower.mp3" fadein 1.0
+    scene black
+    call setup_hallway
+    call reset_camera
 
     define alice_hall_start_pos = 8695
     define alice_hall_default_zoom = 0.66
+      
 
     show alice normal at breathing zorder 100:
         xpos alice_hall_start_pos zoom alice_hall_default_zoom zpos -45.0 ypos 1.0
@@ -637,7 +648,7 @@ label ch1_hall_start:
     "There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again."
     
     show three_legged_table_key_removebg zorder 50:
-        align (0.5, 1.0) xpos 5.55 zoom 1.60 zpos -400.0 ypos 1.0
+        align (0.5, 1.0) xpos three_legged_table_xpos zoom three_legged_table_zoom zpos three_legged_table_zpos ypos three_legged_table_ypos
 
     camera:
         ease 3 xpos 6000
@@ -695,7 +706,7 @@ label ch1_hall_start:
 
 
     show three_legged_table_bottle_removebg:
-        align (0.5, 1.0) xpos 5.55 zoom 1.51 zpos -400.0 ypos 1.04
+        align (0.5, 1.0) xpos three_legged_table_xpos zoom three_legged_table_zoom zpos three_legged_table_zpos ypos three_legged_table_ypos
 
     show alice normal at breathing: 
         ease 2 xpos 6500 zpos -405.0 
@@ -761,7 +772,7 @@ label ch1_hall_start:
         align (0.5, 1.0) xpos 5.48 ypos 1.0 zpos -370.0 zoom 0.25
 
     show three_legged_table_key_removebg:
-        align (0.5, 1.0) xpos 5.55 zoom 1.51 zpos -400.0 ypos 1.04
+        align (0.5, 1.0) xpos three_legged_table_xpos zoom three_legged_table_zoom zpos three_legged_table_zpos ypos three_legged_table_ypos
 
 
     voice "n1048"
@@ -801,8 +812,7 @@ label ch1_hall_start:
 
     camera: 
         ease 2 xpos 6035 ypos 730 zpos -770.0 
-        
-    hide box_cake onlayer screens
+
     show alice normal at breathing
     voice "alice028"
     alice "Well, I’ll eat it, and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I’ll get into the garden, and I don’t care which happens!"
@@ -816,6 +826,8 @@ label ch1_hall_start:
     "She was holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way."
     voice "n1055"
     "So she set to work, and very soon finished off the cake."
+    
+    hide box_cake_removebg
 
 label chapter2:
     $ persistent.started_story = True
@@ -824,19 +836,27 @@ label chapter2:
     voice "n1056"
     "{size=+40}Chapter II: \n{/size}The Pool of Tears"
 
-    scene hall at center
+    scene black
+    call setup_hallway
+    call reset_camera
+    
     play music "audio/rinne memories of clockwise tower.mp3"
+
+    show three_legged_table_key_removebg:
+        align (0.5, 1.0) xpos three_legged_table_xpos zoom three_legged_table_zoom zpos three_legged_table_zpos ypos three_legged_table_ypos
+
 
     camera:
         perspective True
-        zpos -500 ypos 530
+        xpos 6080 zpos -500 ypos 530
         pause 2.0
         ease 10.0 zpos 0 ypos 0
     
     show alice excited at breathing:
-        pos (0.5, 0.9)
+        xpos 6605 ypos 1.06 zpos -340.0 
         zoom 0.2
         easeout 10.0 zoom alice_scale_large
+
     voice "alice030"
     alice "Curiouser and curiouser!"
     voice "n1057"
@@ -867,7 +887,7 @@ label chapter2:
     voice "n1062"
     "Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again."
     show alice crying at breathing_crying:
-        xpos 0.5 ypos 0.9 zoom alice_scale_large
+        xpos 6605 ypos 1.06 zoom alice_scale_large
     voice "alice038"
     alice "You ought to be ashamed of yourself, a great girl like you, to go on crying in this way! Stop this moment, I tell you!"
     voice "n1063"
@@ -882,27 +902,31 @@ label chapter2:
     "He came trotting along in a great hurry, muttering to himself as he came:"
 
     show rabbit normal at breathing:
-        xpos 1.5 ypos 0.9 zoom 0.5
-        ease 1.0 xpos 0.84
+        xpos 7.35 ypos 0.9 zoom 0.5
+        ease 1.0 xpos 7.25
     camera:
-        ease cam_transition xpos 355 ypos 385 zpos -365
+        ease cam_transition xpos 7270 ypos 385 zpos -365
     voice "rabbit03"
     rabbit "Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!"
     voice "n1067"
     "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice:"
     camera:
-        ease cam_transition xpos 0 ypos 0 zpos 0
+        ease cam_transition xpos 6035 ypos 0 zpos 0
     show alice pout at breathing
     voice "alice039"
     alice "If you please, sir—"
     # hide alice
 
     show fan gloves at Position(ypos = 0.65) onlayer screens
+    camera:
+        ease cam_transition xpos 7270 ypos 385 zpos -365
     show rabbit normal at breathing:
-        xzoom -1.0
-        ease 0.5 xpos 1.5
+        xpos 7.25 ypos 0.9 zoom 0.5
+        ease 2.0 xpos 7.75
     voice "n1068"
     "The Rabbit started violently, dropped the white kid gloves and the fan, and skurried away into the darkness as hard as he could go."
+    camera:
+        ease cam_transition xpos 6035 ypos 0 zpos 0
     voice "n1069"
     "Alice took up the fan and gloves, and, as the hall was very hot, she kept fanning herself all the time she went on talking:"
     hide fan gloves onlayer screens
@@ -949,9 +973,15 @@ label chapter2:
     alice "I do wish they would put their heads down! I am so very tired of being all alone here!"
 
     show alice thinking at breathing:
-        pos (0.5, 0.9)  
+        xpos 6605 ypos 1.00 zpos -340.0  
         zoom alice_scale_large
-        easein 20.0 zoom alice_scale
+        easein 20.0 zoom 0.1
+
+    camera:
+        xpos 6035 zpos 0 ypos 0
+        pause 1.0
+        ease 20.0 xpos 6060 ypos 0.420 zpos -850.0
+    
     voice "n1072"
     "As she said this she looked down at her hands, and was surprised to see that she had put on one of the Rabbit’s little white kid gloves while she was talking."
     voice "alice056"
@@ -963,13 +993,19 @@ label chapter2:
     voice "n1103" # out of order oops
     "She soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
 
-    show alice happy at breathing
     voice "alice058"
     alice "That was a narrow escape!"
+    show alice happy at breathing:
+        ease 5  zoom 0.10
     voice "n1074"
     "She was a good deal frightened at the sudden change, but very glad to find herself still in existence."
     voice "alice059"
     alice "And now for the garden!"
+
+    show alice happy at breathing:
+        ease 2.8 xpos 10527 ypos 1.0 zpos -340.0
+    camera:
+        ease 3 xpos 9970 ypos 0.42 zpos -850.0
     voice "n1075"
     "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
     show alice pout at breathing
@@ -982,19 +1018,19 @@ label chapter2:
     "As she said these words her foot slipped, and in another moment, splash!"
 
     show waves zorder 0:
-        pos (0.5, 1.0)
+        xpos 9.93 ypos 1.19 zpos -595.0
         anchor (0.5, 1.0)
         linear 1.0 yoffset 20
         linear 1.0 yoffset 10
         repeat
     show wavestop zorder 99:
-        pos (0.5, 1.0)
+        xpos 9.93 ypos 1.21 zpos -385.0
         anchor (0.5, 1.0)
         linear 1.0 yoffset 20
         linear 1.0 yoffset 10
         repeat
     show alice pout zorder 1 at swimming:
-        xpos 0.5 ypos 1.0 zoom alice_scale
+        xpos 10527 ypos 1.0 zoom 0.1
     play music "audio/rinne beyond the sea.mp3"
     voice "n1077"
     "She was up to her chin in salt water."
@@ -1022,10 +1058,10 @@ label chapter2:
     voice "n1082"
     "Just then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was:"
     show alice thinking at swimming:
-        ease 1.0 xpos 0.3
+        ease 1.0 xpos 10450
     show mouse zorder 1 at swimming:
-        xpos 1.6 ypos 0.8 zoom mouse_scale
-        ease 2.0 xpos 0.7 
+        xpos 11370 zpos -1050 ypos 1.07 zoom mouse_scale
+        ease 2.0 xpos 10920 
     voice "n1083"
     "At first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself."
     voice "alice064"
