@@ -564,6 +564,7 @@ label ch1_hall_start:
     play music "audio/rinne memories of clockwise tower.mp3" fadein 1.0
     scene black
     call reset_camera
+
     
     show court_floor as floor1:
         align (0.5, 0.5) pos(1024, 1.0) xrotate 90.0 zoom 2.0
@@ -582,6 +583,9 @@ label ch1_hall_start:
 
     show court_floor as floor6:
         align (0.5, 0.5) pos(11264, 1.0) xrotate 90.0 zoom 2.0
+    
+    show garden:
+        align (0.5, 1.0) xpos 9.79 ypos 0.96 zpos -655.0 zoom 0.42
 
     show hallway doors:
         align (0.0, 1.0) zoom 5.3 zpos -450
@@ -613,32 +617,71 @@ label ch1_hall_start:
     show lamp antique as lamp9:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 9.3
 
+
+    define alice_hall_start_pos = 8695
+    define alice_hall_default_zoom = 0.66
+
+    show alice normal at breathing zorder 100:
+        xpos alice_hall_start_pos zoom alice_hall_default_zoom zpos -45.0 ypos 1.0
+
+
     camera:
         perspective True
         xpos 885 xoffset -center_offset
-        ease 10 xpos 8695
+        ease 10 xpos alice_hall_start_pos
     
     voice "n1033"
     "She found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof."
 
     voice "n1034"
     "There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again."
+    
+    show three_legged_table_key_removebg zorder 50:
+        align (0.5, 1.0) xpos 5.55 zoom 1.60 zpos -400.0 ypos 1.0
 
-    show three_legged_table_key at Position(ypos = 0.65)
+    camera:
+        ease 3 xpos 6000
+
+    show alice normal at breathing:
+        ease 2 xpos 6500
+
     voice "n1035"
     "Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key, and Alice’s first thought was that it might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but at any rate it would not open any of them."
-    hide three_legged_table_key
+    
 
-    scene small_door at center
+    camera:
+        ease 3 xpos 10390 ypos 255 zpos -595
+
     voice "n1036"
     "However, on the second time round, she came upon a low curtain she had not noticed before, and behind it was a little door about fifteen inches high: she tried the little golden key in the lock, and to her great delight it fitted!"
+
+   
+    camera:
+        ease 3 xpos 10555 ypos 465 zpos -1085.0
+
+ 
 
     play sound "sfx/unlock.mp3"
     voice "n1037"
     "Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw."
 
+    camera:
+        ease 3 xpos 10390 ypos 255 zpos -595
+
+    show alice normal at breathing:
+        xpos alice_hall_start_pos zoom alice_hall_default_zoom zpos -45.0
+
+    camera:
+        ease 4 xpos alice_hall_start_pos zpos 0 ypos 0
+
+    
     voice "n1038"
     "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway."
+
+    camera:
+        ease 4 xpos alice_hall_start_pos zpos 0 ypos 0
+
+    hide three_legged_table_key_removebg
 
     #show alice pout at breathing:
     #    xpos 0.5 ypos 0.9 zoom alice_scale
@@ -650,17 +693,32 @@ label ch1_hall_start:
     voice "n1039"
     "For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible."
 
-    scene hall at center
+
+    show three_legged_table_bottle_removebg:
+        align (0.5, 1.0) xpos 5.55 zoom 1.51 zpos -400.0 ypos 1.04
+
+    show alice normal at breathing: 
+        ease 2 xpos 6500 zpos -405.0 
+
     camera:
         perspective True
+        xpos 8695 xoffset -center_offset
+        ease 3 xpos 6300
 
-    show three_legged_table_bottle at Position(ypos = 0.65)
+
     voice "n1040"
     "There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it."
     voice "alice021"
     alice "This certainly was not here before."
+
+    camera:
+        ease 2 xpos 6000 ypos 330 zpos -845
     voice "n1041"
     "Around the neck of the bottle was a paper label, with the words 'DRINK ME' beautifully printed on it in large letters."
+    
+    camera:
+        ease 2 xpos 6300 ypos 0 zpos 0
+
     voice "n1042"
     "It was all very well to say 'Drink me', but the wise little Alice was not going to do that in a hurry."
     voice "alice022"
@@ -670,21 +728,24 @@ label ch1_hall_start:
     "She had read several nice little histories about children who had got burnt, and eaten up by wild beasts and other unpleasant things, all because they would not remember the simple rules their friends had taught them: "
     voice "n1044"
     "Such as, that a red-hot poker will burn you if you hold it too long; and that if you cut your finger very deeply with a knife, it usually bleeds; and she had never forgotten that, if you drink much from a bottle marked 'poison', it is almost certain to disagree with you, sooner or later."
-    hide three_legged_table_bottle
+
     play sound "sfx/cork.mp3"
 
     show alice happy at breathing:
-        xpos 0.5 ypos 0.9 zoom alice_scale
+        xpos 6500 zoom alice_hall_default_zoom
     voice "n1045"
     "However, this bottle was not marked 'poison,' so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off."
     
     camera:
         pause 1.0
-        ease 8.0 zpos -500 ypos 530
+        ease 8.0 zpos -500 ypos 730 xpos 6795
     show alice surprised at breathing:
-        ease 10.0 zoom 0.2
+        ease 10.0 zoom 0.2 xpos 6795
+
     voice "alice023"
     alice "What a curious feeling! I must be shutting up like a telescope."
+
+    
 
     voice "n1046"
     "And so it was indeed: she was now only ten inches high, and her face brightened up at the thought that she was now the right size for going through the little door into that lovely garden."
@@ -694,8 +755,23 @@ label ch1_hall_start:
     voice "alice024"
     alice "It might end, you know, in my going out altogether, like a candle. I wonder what I should be like then?"
 
+    hide three_legged_table_bottle_removebg
+
+    show box_cake_removebg:
+        align (0.5, 1.0) xpos 5.48 ypos 1.0 zpos -370.0 zoom 0.25
+
+    show three_legged_table_key_removebg:
+        align (0.5, 1.0) xpos 5.55 zoom 1.51 zpos -400.0 ypos 1.04
+
+
     voice "n1048"
     "And she tried to fancy what the flame of a candle is like after the candle is blown out, for she could not remember ever having seen such a thing."
+
+    show alice crying at breathing_crying:
+        ease 2 xpos 6100 ypos 1.06 zpos -405.0
+
+    camera:
+        ease 3 xpos 6035 zpos -770.0
 
     voice "n1049"
     "After a while, finding that nothing more happened, she decided on going into the garden at once; but, alas for poor Alice, when she got to the door, she found she had forgotten the little golden key, and when she went back to the table for it, she found she could not possibly reach it: "
@@ -717,8 +793,8 @@ label ch1_hall_start:
     voice "alice027"
     alice "(But it’s no use now, to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!)"
 
-    #hide alice
-    show box_cake at Position(ypos = 0.65) onlayer screens
+    #hide alice 
+    
     voice "n1052"
     "Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words 'EAT ME' were beautifully marked in currants."
 
