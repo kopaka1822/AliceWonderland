@@ -738,7 +738,7 @@ label ch1_hall_start:
     
     camera:
         pause 1.0
-        ease 8.0 zpos -500 ypos 730 xpos 6795
+        ease 8.0 zpos -770 ypos 730 xpos 6795
     show alice surprised at breathing:
         ease 10.0 zoom 0.2 xpos 6795
 
@@ -768,10 +768,10 @@ label ch1_hall_start:
     "And she tried to fancy what the flame of a candle is like after the candle is blown out, for she could not remember ever having seen such a thing."
 
     show alice crying at breathing_crying:
-        ease 2 xpos 6100 ypos 1.06 zpos -405.0
+        ease 2 xpos 6100 ypos 1.06 zpos -405.0 zoom 0.2
 
     camera:
-        ease 3 xpos 6035 zpos -770.0
+        ease 3 xpos 6035 zpos -770.0 ypos 730
 
     voice "n1049"
     "After a while, finding that nothing more happened, she decided on going into the garden at once; but, alas for poor Alice, when she got to the door, she found she had forgotten the little golden key, and when she went back to the table for it, she found she could not possibly reach it: "
@@ -794,10 +794,14 @@ label ch1_hall_start:
     alice "(But it’s no use now, to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!)"
 
     #hide alice 
-    
+    camera:
+        ease 2 xpos 5920 ypos 820 zpos -965.0
     voice "n1052"
     "Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words 'EAT ME' were beautifully marked in currants."
 
+    camera: 
+        ease 2 xpos 6035 ypos 730 zpos -770.0 
+        
     hide box_cake onlayer screens
     show alice normal at breathing
     voice "alice028"
