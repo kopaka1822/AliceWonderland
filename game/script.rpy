@@ -3883,6 +3883,7 @@ label chapter8:
     two "Look out now, Five! Don’t go splashing paint over me like that!"
     camera:
         ease cam_transition xpos card5_garden zoom 2.0 ypos 700
+    voice "five1"
     five "I couldn’t help it, Seven jogged my elbow."
     # On which seven looked up and said
     camera:
@@ -3892,7 +3893,9 @@ label chapter8:
 
     camera:
         ease cam_transition xpos card5_garden zoom 2.0 ypos 700
+    voice "five2"
     five "You’d better not talk!" 
+    voice "five3"
     five "I heard the Queen say only yesterday you deserved to be beheaded!"
 
     camera:
@@ -3907,6 +3910,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos card5_garden zoom 2.0 ypos 700
+    voice "five4"
     five "Yes, it is his business! And I’ll tell him—it was for bringing the cook tulip-roots instead of onions."
 
     camera:
@@ -3931,6 +3935,7 @@ label chapter8:
     camera:
         ease cam_transition xpos card5_garden zoom 2.0 ypos 700
     "At this moment Five, who had been anxiously looking across the garden, called out:"
+    voice "five5"
     five "The Queen! The Queen!"
 
     # flip cards:
