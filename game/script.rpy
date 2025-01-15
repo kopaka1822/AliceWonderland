@@ -175,7 +175,7 @@ define three_legged_table_zoom = 1.60
 
 ## ANIMATED TRANSFORMS ##
 ## remove comment below to work with action editor
-'''
+#'''
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
@@ -332,8 +332,6 @@ label chapter1:
     call reset_camera
     voice "n1001"
     "{size=+40}Chapter I: \n{/size}Down the Rabbit-Hole"
-
-    jump ch1_hall_start
 
     scene riverbank at windy
     play music "audio/rinne wanderer.mp3"
