@@ -3834,6 +3834,7 @@ label ch7_reorder:
 label chapter8:
     $ persistent.started_story = True
     scene black
+    voice "n1347"
     "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
 
     play music "audio/rinne rosalia garden.mp3"
@@ -3874,7 +3875,9 @@ label chapter8:
 
     show garden_front_mask zorder 1000 at windy_mask
 
+    voice "n1348"
     "A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red."
+    voice "n1349"
     "Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them..."
 
     camera:
@@ -3915,18 +3918,21 @@ label chapter8:
 
     camera:
         ease cam_transition xpos card7_garden zoom 2.0 ypos 700
+    voice "n1350"
     "Seven flung down his brush..."
     voice "seven3"
     seven "Well, of all the unjust things—"
 
     camera:
         ease cam_transition xpos alice_garden zoom 2.0 ypos 700
+    voice "n1351"
     "His eye chanced to fall upon Alice, as she stood watching them, and he checked himself suddenly: the others looked round also, and all of them bowed low."
     voice "alice267"
     alice "Would you tell me, why you are painting those roses?"
 
     camera:
         ease cam_transition xpos card2_garden zoom 2.0 ypos 700
+    voice "n1352"
     "Five and Seven said nothing, but looked at Two."
     voice "two3"
     two "Why the fact is, you see, Miss, this here ought to have been a red rose-tree, and we put a white one in by mistake; and if the Queen was to find it out, we should all have our heads cut off, you know."
@@ -3934,6 +3940,7 @@ label chapter8:
     two "So you see, Miss, we’re doing our best, afore she comes, to—" # "Two began in a low voice,
     camera:
         ease cam_transition xpos card5_garden zoom 2.0 ypos 700
+    voice "n1353"
     "At this moment Five, who had been anxiously looking across the garden, called out:"
     voice "five5"
     five "The Queen! The Queen!"
@@ -3968,11 +3975,13 @@ label chapter8:
         xpos card7_garden ypos card7_garden_y zpos card7_garden_z zoom card_zoom
         xrotate -100
         linear 1.0 xrotate -180
-
+    
+    voice "n1354"
     "And the three gardeners instantly threw themselves flat upon their faces."
 
     camera:
         ease cam_transition zoom 1.0 ypos 0 xpos 1.4
+    voice "n1355"
     "There was a sound of many footsteps, and Alice looked round, eager to see the Queen."
 
     define garden_p1_start = 3.0
@@ -3990,6 +3999,7 @@ label chapter8:
         anchor (0.5, 1.0)
         xpos garden_p1_start ypos 0.8
         ease 1.0 xpos garden_p1_mid
+    voice "n1356"
     "First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners." # 9
     show soldier9 as soldier2:
         ease 1.0 xpos garden_p2_end
@@ -4004,6 +4014,7 @@ label chapter8:
         anchor (0.5, 1.0)
         xpos garden_p1_start ypos 0.8
         ease 1.0 xpos garden_p1_mid
+    voice "n1357"
     "Next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did." # ace?
     
     hide soldier2
@@ -4020,7 +4031,7 @@ label chapter8:
         anchor (0.5, 1.0)
         xpos garden_p1_start ypos 0.8
         ease 1.0 xpos 1.45 # move child a bit closer
-
+    voice "n1358"
     "After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts." # 10 ?
     
     hide court2
@@ -4043,6 +4054,7 @@ label chapter8:
         xpos garden_p1_start ypos 0.8 zoom rabbit_scale
         ease 1.0 xpos 1.3
 
+    voice "n1359"
     "Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her."
     
     hide child2
@@ -4058,6 +4070,7 @@ label chapter8:
         xpos garden_p1_start ypos 0.8
         ease 1.0 xpos 1.3
 
+    voice "n1360"
     "Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion."
 
     hide normalqueen
@@ -4074,6 +4087,7 @@ label chapter8:
         xpos garden_p1_start ypos 0.8 zoom king_scale
         ease 1.0 xpos garden_p1_mid
 
+    voice "n1361"
     "And, last of all this grand procession, came THE KING AND QUEEN OF HEARTS."
 
     # hide all
@@ -4086,11 +4100,15 @@ label chapter8:
         xpos alice_garden2
     camera:
         xpos alice_garden2
+
+    voice "n1362"
     "Alice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions."
     voice "alice268"
     alice "(What would be the use of a procession, if people had all to lie down upon their faces, so that they couldn’t see it?)"
+    voice "n1363"
     "So she stood still where she was, and waited."
 
+    voice "n1364"
     "When the procession came opposite to Alice, they all stopped and looked at her."
 
     define queen_garden = 0.6
@@ -4117,6 +4135,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos knave_garden zoom 2.0 ypos 700
+    voice "n1365"
     "She said it to the Knave of Hearts, who only bowed and smiled in reply."
 
     camera:
@@ -4124,6 +4143,7 @@ label chapter8:
     voice "queen02"
     queen "Idiot!"
 
+    voice "n1366"
     "The Queen tossed her head impatiently and turned to Alice."
     camera:
         ease cam_transition xpos queen_garden zoom 1.0 ypos 0
@@ -4144,6 +4164,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos card5_garden zoom 2.0 ypos 1400
+    voice "n1367"
     "The Queen pointed to the three gardeners who were lying round the rose-tree; for, you see, as they were lying on their faces, and the pattern on their backs was the same as the rest of the pack, she could not tell whether they were gardeners, or soldiers, or courtiers, or three of her own children."
 
     camera:
@@ -4153,6 +4174,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos queen_garden zoom 1.0 ypos 0
+    voice "n1368"
     "The Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed:"
     voice "queen05"
     queen "Off with her head! Off—"
@@ -4165,12 +4187,14 @@ label chapter8:
 
     camera:
         ease cam_transition xpos king_garden zoom 1.0 ypos 0
+    voice "n1369"
     "The King laid his hand upon her arm, and timidly said:"
     voice "king01"
     king "Consider, my dear: she is only a child!"
 
     camera:
         ease cam_transition xpos queen_garden zoom 1.0 ypos 0
+    voice "n1370"
     "The Queen turned angrily away from him, and said to the Knave:"
     voice "queen06"
     queen "Turn them over!"
@@ -4230,15 +4254,18 @@ label chapter8:
     
     camera:
         ease cam_transition xpos card5_garden zoom 1.0 ypos 0
+    voice "n1371"
     "The Knave did so, very carefully, with one foot."
     voice "queen07"
     queen "Get up!" # said the Queen, in a shrill, loud voice,
+    voice "n1372"
     "The three gardeners instantly jumped up, and began bowing to the King, the Queen, the royal children, and everybody else."
     voice "queen08"
     queen "Leave off that!" # screamed the Queen.
     voice "queen09"
     queen "You make me giddy."
 
+    voice "n1373"
     "And then, turning to the rose-tree, she went on:"
     voice "queen10"
     queen "What have you been doing here?"
@@ -4246,6 +4273,7 @@ label chapter8:
     two "May it please your Majesty, we were trying—" # said Two, in a very humble tone, going down on one knee as he spoke
     voice "queen11"
     queen "I see!"
+    voice "n1374"
     "The queen had meanwhile been examining the roses."
     voice "queen12"
     queen "Off with their heads!"
@@ -4268,6 +4296,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
+    voice "n1375"
     "And the procession moved on, three of the soldiers remaining behind to execute the unfortunate gardeners, who ran to Alice for protection."
     hide queen
     hide king
@@ -4282,6 +4311,7 @@ label chapter8:
     hide card5
     hide card7
     hide card2
+    voice "n1376"
     "Alice put them into a large flower-pot that stood near. "
 
     show soldier9:
@@ -4290,6 +4320,7 @@ label chapter8:
         ease 1.0 xpos 0.3
         pause 1.0
         ease 1.0 xpos 0.5
+    voice "n1377"
     "The three soldiers wandered about for a minute or two, looking for them, and then quietly marched off after the others."
 
     define queen_garden2 = 1.0
