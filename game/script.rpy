@@ -154,8 +154,8 @@ define cook = Character(_("Cook"), color="#ffffff")
 define knave = Character(_("Knave"), color="#ff0000")
 define sister = Character(_("Sister"), color="00ff00")
 
-define alice_scale = 0.5
-define alice_scale_large = 1.2
+define alice_scale = 0.55
+define alice_scale_large = 1.3
 define rabbit_scale = 0.7
 define mouse_scale = 0.5
 define queen_scale = 0.65
@@ -425,7 +425,7 @@ label chapter1:
 
     hide orange marmalade
     show alice falling:
-        xpos -0.5 ypos 0.0
+        xpos -0.4 ypos 0.0
         linear 1.0 xoffset -20 yoffset -20 rotate 5
         linear 1.0 xoffset 20 yoffset 20 rotate -5
         linear 1.0 xoffset -20 yoffset 20 rotate 5
@@ -1033,7 +1033,7 @@ label chapter2:
     voice "n1077"
     "She was up to her chin in salt water."
 
-    show alice thinking at breathing
+    show alice thinking at swimming
     voice "n1078"
     "Her first idea was that she had somehow fallen into the sea."
     voice "alice061"
@@ -1043,7 +1043,7 @@ label chapter2:
     voice "n1080"
     "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high."
 
-    show alice pout at breathing
+    show alice pout at swimming
     voice "alice062"
     alice "I wish I hadn’t cried so much!"
     voice "n1081"
@@ -1051,7 +1051,7 @@ label chapter2:
     voice "alice063"
     alice "I shall be punished for it now, I suppose, by being drowned in my own tears! That will be a queer thing, to be sure! However, everything is queer to-day."
 
-    show alice thinking at breathing
+    show alice thinking at swimming
     play sound "sfx/splash.mp3"
     voice "n1082"
     "Just then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was:"
@@ -1068,7 +1068,7 @@ label chapter2:
     alice "Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying."
     voice "n1084"
     "So she began:"
-    show alice normal at breathing
+    show alice normal at swimming
     voice "alice066"
     alice "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!"
     voice "n1085"
@@ -1076,7 +1076,7 @@ label chapter2:
     voice "n1086"
     "The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing."
 
-    show alice thinking at breathing
+    show alice thinking at swimming
     voice "alice067"
     alice "Perhaps it doesn’t understand English, I daresay it’s a French mouse, come over with William the Conqueror."
     voice "n1087"
@@ -1084,14 +1084,14 @@ label chapter2:
     voice "n1088"
     "So she began again:"
     #voice "n1089"
-    show alice normal at breathing
+    show alice normal at swimming
     voice "alice068"
     alice "Où est ma chatte?"
     voice "n1090"
     "Which was the first sentence in her French lesson-book."
     voice "n1091"
     "The mouse gave a sudden leap out of the water, and seemed to quiver all over with fright."
-    show alice thinking at breathing
+    show alice thinking at swimming
     voice "alice069"
     alice "Oh, I beg your pardon!"
     voice "n1092"
@@ -1106,7 +1106,7 @@ label chapter2:
 
     voice "alice071"
     alice "Well, perhaps not, don’t be angry about it."
-    show alice happy at breathing
+    show alice happy at swimming
     voice "alice072"
     alice "And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her."
     voice "alice073"
@@ -1117,7 +1117,7 @@ label chapter2:
     alice "And she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
     voice "n1094"
     "This time the Mouse was bristling all over, and she felt certain it must be really offended."
-    show alice thinking at breathing
+    show alice thinking at swimming
     voice "alice075"
     alice "We won’t talk about her any more if you’d rather not."
 
@@ -1128,7 +1128,7 @@ label chapter2:
     voice "mouse04"
     mouse "As if I would talk on such a subject! Our family always hated cats: nasty, low, vulgar things! Don’t let me hear the name again!"
 
-    show alice normal at breathing
+    show alice normal at swimming
     voice "alice076"
     alice "I won’t indeed!"
     voice "n1096"
@@ -1145,7 +1145,7 @@ label chapter2:
     alice "And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things—I can’t remember half of them—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds!"
     voice "alice081"
     alice "He says it kills all the rats and—oh dear!"
-    show alice crying at breathing
+    show alice crying at swimming
     voice "n1098"
     "Alice cried in a sorrowful tone."
     voice "alice082"
@@ -1156,7 +1156,7 @@ label chapter2:
     "For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
     voice "alice083"
     alice "Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!"
-    show alice normal at breathing
+    show alice normal at swimming
     show mouse at swimming:
         linear 10.0 xoffset 0
     voice "n1100"
@@ -1194,7 +1194,7 @@ label chapter3:
     define muddy_canary_pos = 3078
     define muddy_canary_cam_pos = 3071
 
-    define alice_scale_muddy = 0.4
+    define alice_scale_muddy = 0.45
     define mouse_muddy_scale = 0.3
     define lory_scale = 0.3
     define duck_scale = 0.4
@@ -2709,7 +2709,7 @@ label ch6_kitchen:
         pos (duchess_kitchen_pos, 0.9) zoom duchess_scale
     show baby normal:
         anchor (0.5, 1.0)
-        xpos duchess_kitchen_pos ypos 0.8 zoom 0.7 zpos 30
+        xpos duchess_kitchen_pos ypos 0.75 zoom 0.7 zpos 30
         linear 1.0 xoffset -10 yoffset -10 rotate 2
         linear 1.0 xoffset 10 yoffset 10 rotate -2
         linear 1.0 xoffset -10 yoffset 10 rotate 2
@@ -2743,7 +2743,8 @@ label ch6_kitchen:
     voice "n1260"
     "She said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:"
 
-    show alice surprised at breathing
+    show alice surprised at breathing:
+        yoffset 0
     voice "alice190"
     alice "I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats could grin."
 
@@ -2862,7 +2863,7 @@ label ch6_kitchen:
     duchess "Here! you may nurse it a bit, if you like!" 
     
     show baby normal:
-        ease 1.0 xpos alice_kitchen_pos ypos 0.8
+        ease 1.0 xpos alice_kitchen_pos ypos 0.75
     voice "n1270"
     "The Duchess said to Alice, flinging the baby at her as she spoke."
     voice "duchess10"
@@ -2901,7 +2902,7 @@ label ch6_kitchen:
         pos (0.5, 0.9) zoom alice_scale
     show baby normal:
         anchor (0.5, 1.0)
-        xpos 0.5 ypos 0.8 zoom 0.7
+        xpos 0.5 ypos 0.75 zoom 0.7
         linear 1.0 xoffset -10 yoffset -10 rotate 2
         linear 1.0 xoffset 10 yoffset 10 rotate -2
         linear 1.0 xoffset -10 yoffset 10 rotate 2
