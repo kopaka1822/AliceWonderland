@@ -401,7 +401,7 @@ label chapter1:
     play music "audio/rinne aurelia.mp3" fadeout 1.0 fadein 1.0 
 
     show alice falling:
-        xpos -0.5 ypos 0.0
+        xpos -0.4 ypos 0.0
         linear 1.0 xoffset -20 yoffset -20 rotate 5
         linear 1.0 xoffset 20 yoffset 20 rotate -5
         linear 1.0 xoffset -20 yoffset 20 rotate 5
@@ -636,7 +636,7 @@ label ch1_hall_start:
 
     camera:
         perspective True
-        xpos 885 xoffset -center_offset
+        xpos 885 xoffset -center_offset ypos 0 zpos 0 zoom 1.0
         ease 10 xpos alice_hall_start_pos
     
     voice "n1033"
@@ -1184,13 +1184,13 @@ label chapter3:
     define muddy_lory_pos = 540
     define muddy_duck_pos = 822
     define muddy_dodo_pos = 1950
-    define muddy_dodo_cam_pos = 1820
+    define muddy_dodo_cam_pos = 1940
     define muddy_alice_pos = 1386
     define muddy_mouse_pos = 1668
     define muddy_old_crab_pos = 2232
     define muddy_young_crab_pos = 2514
     define muddy_magpie_pos = 2796
-    define muddy_magpie_cam_pos = 2761
+    define muddy_magpie_cam_pos = 2780
     define muddy_canary_pos = 3078
     define muddy_canary_cam_pos = 3071
 
