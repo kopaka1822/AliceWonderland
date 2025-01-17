@@ -249,6 +249,8 @@ image alice pout = Model().child("alice pout.png", fit=True).texture("alice_mask
 image alice surprised = Model().child("alice surprised.png", fit=True).texture("alice_mask.png")
 image alice thinking = Model().child("alice thinking.png", fit=True).texture("alice_mask.png")
 image alice belly = Model().child("alice belly.png", fit=True).texture("alice_belly_mask.png")
+image alice disturbed = Model().child("alice disturbed.png", fit=True).texture("alice_mask.png")
+image alice joking = Model().child("alice joking.png", fit=True).texture("alice_mask.png")
 
 image queen normal = Model().child("queen normal.png", fit=True).texture("queen_mask.png")
 image queen happy = Model().child("queen happy.png", fit=True).texture("queen_mask.png")
@@ -1601,7 +1603,7 @@ label ch3_start:
     voice "mouse26"
     mouse "I shall do nothing of the sort."
     show mouse:
-        ease 1.0 xoffset 200
+        ease 1.0 xoffset 270
     voice "n1134"
     "The Mouse got up and walked away."
     voice "mouse27"
@@ -2232,6 +2234,7 @@ label chapter5:
 
     voice "caterpillar05"
     caterpillar "It isn’t."
+    show alice joking at breathing
     voice "alice140"
     alice "Well, perhaps you haven’t found it so yet, but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll feel it a little queer, won’t you?"
 
@@ -2244,6 +2247,7 @@ label chapter5:
     caterpillar "You!" # said the Caterpillar contemptuously.
     voice "caterpillar08"
     caterpillar "Who are you?"
+    show alice normal at breathing
     voice "n1206"
     "Which brought them back again to the beginning of the conversation."
     voice "n1207"
@@ -2334,14 +2338,17 @@ label chapter5:
     "And there was silence for some minutes."
     voice "caterpillar19"
     caterpillar "What size do you want to be?"
+    show alice joking at breathing
     voice "alice157"
     alice "Oh, I’m not particular as to size, only one doesn’t like changing so often, you know."
     voice "caterpillar20"
     caterpillar "I don’t know."
+    show alice normal at breathing
     voice "n1215"
     "Alice said nothing: she had never been so much contradicted in all her life before, and she felt that she was losing her temper."
     voice "caterpillar21"
     caterpillar "Are you content now?"
+    show alice disturbed at breathing 
     voice "alice158"
     alice "Well, I should like to be a little larger, sir, if you wouldn’t mind."
     voice "alice159"
@@ -2350,6 +2357,7 @@ label chapter5:
     caterpillar "It is a very good height indeed!"
     voice "n1216"
     "Said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)"
+    show alice normal at breathing
     voice "alice160"
     alice "But I’m not used to it!"
     voice "n1217"
@@ -2633,6 +2641,7 @@ label chapter6:
     "And certainly there was a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces."
     voice "alice181"
     alice "Please, then, how am I to get in?"
+    show alice disturbed at breathing
     voice "frogfoot3"
     frogfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
     voice "n1252"
@@ -2807,7 +2816,7 @@ label ch6_kitchen:
     duchess "If everybody minded their own business, the world would go round a deal faster than it does." # the Duchess said in a hoarse growl, "
     hide saucepan
 
-    show alice normal at breathing
+    show alice joking at breathing
     voice "alice194"
     alice "Which would not be an advantage. Just think what work it would make with the day and night! You see the earth takes twenty-four hours to turn round on its axis—"
 
@@ -2945,12 +2954,14 @@ label ch6_kitchen:
     "So she set the little creature down, and felt quite relieved to see it trot away quietly into the wood."
 
     play music "audio/rinne lilly.mp3" fadein 1.0 fadeout 1.0
+    show alice joking at breathing
     voice "alice203"
     alice "If it had grown up, it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think."
     voice "n1285"
     "And she began thinking over other children she knew, who might do very well as pigs."
     voice "alice204"
     alice "If one only knew the right way to change them—"
+    show alice surprised at breathing
     voice "n1286"
     "She got a little startled by seeing the Cheshire Cat sitting on a bough of a tree a few yards off."
 
@@ -2966,6 +2977,7 @@ label ch6_kitchen:
     #"She began, rather timidly, as 
     voice "n1289"
     "She did not at all know whether it would like the name: however, it only grinned a little wider."
+    show alice normal at breathing
     voice "alice206"
     alice "Come, it’s pleased so far."
     voice "alice207"
@@ -2978,6 +2990,7 @@ label ch6_kitchen:
 
     voice "cat02"
     cat "Then it doesn’t matter which way you go."
+    show alice disturbed at breathing
     voice "alice209"
     alice "—so long as I get somewhere."
 
@@ -2985,6 +2998,7 @@ label ch6_kitchen:
     cat "Oh, you’re sure to do that, if you only walk long enough."
     voice "n1290"
     "Alice felt that this could not be denied, so she tried another question."
+    show alice normal at breathing
     voice "alice210"
     alice "What sort of people live about here?"
 
@@ -2995,6 +3009,7 @@ label ch6_kitchen:
 
     voice "cat05"
     cat "Oh, you can’t help that. We’re all mad here. I’m mad. You’re mad."
+    show alice disturbed at breathing 
     voice "alice212"
     alice "How do you know I’m mad?"
 
@@ -3002,6 +3017,7 @@ label ch6_kitchen:
     cat "You must be, or you wouldn’t have come here."
     voice "n1291"
     "Alice didn’t think that proved it at all; however, she went on:"
+    show alice joking at breathing
     voice "alice213"
     alice "And how do you know that you’re mad?"
 
@@ -3026,6 +3042,7 @@ label ch6_kitchen:
     cat "You’ll see me there."
 
     hide cat
+    show alice normal at breathing
     voice "n1292"
     "The Cat vanished."
     voice "n1293"
