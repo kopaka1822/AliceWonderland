@@ -1233,7 +1233,7 @@ label chapter3:
     define muddy_canary_pos = 3078
     define muddy_canary_cam_pos = 3071
 
-    define alice_scale_muddy = 0.45
+    define alice_scale_muddy = 0.35
     define mouse_muddy_scale = 0.3
     define lory_scale = 0.3
     define duck_scale = 0.4
@@ -1365,7 +1365,7 @@ label ch3_start:
     mouse "How are you getting on now, my dear?"
 
     camera: 
-        ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
+        ease cam_transition xpos muddy_alice_pos zpos -450 ypos 0
     show alice pout at breathing
     voice "alice084"
     alice "As wet as ever, it doesn’t seem to dry me at all."
@@ -1390,7 +1390,7 @@ label ch3_start:
     "..."
 
     camera: 
-        ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
+        ease cam_transition xpos muddy_alice_pos zpos -450 ypos 0
     show alice thinking at breathing
     voice "alice085"
     alice "What is a Caucus-race?"
@@ -1514,6 +1514,7 @@ label ch3_start:
     dodo "Why, she, of course." 
     camera:
         ease cam_transition xpos muddy_alice_pos zpos -450 ypos -130
+    show alice surprised at breathing
     voice "n1123"
     "Said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way:"
 
@@ -1580,7 +1581,7 @@ label ch3_start:
     "However, it was over at last, and they sat down again in a ring, and begged the Mouse to tell them something more."
 
     camera:
-        ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
+        ease cam_transition xpos muddy_alice_pos zpos -450 ypos 0
     voice "alice087"
     alice "You promised to tell me your history, you know."
     voice "alice088"
@@ -1595,7 +1596,7 @@ label ch3_start:
     mouse "Mine is a long and a sad {b}tale{/b}!"
     
     camera:
-        ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
+        ease cam_transition xpos muddy_alice_pos zpos -450 ypos 0
     voice "alice089"
     alice "It is a long {b}tail{/b}, certainly, but why do you call it sad?"
     voice "n1133"
@@ -1621,7 +1622,8 @@ label ch3_start:
     mouse "What are you thinking of?"
 
     camera:
-        ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
+        ease cam_transition xpos muddy_alice_pos zpos -450 ypos 0
+    show alice surprised at breathing
     voice "alice090"
     alice "I beg your pardon, you had got to the fifth bend, I think?"
 
@@ -1631,7 +1633,7 @@ label ch3_start:
     mouse "I had not!" # cried the Mouse, sharply and very angrily.
 
     camera:
-        ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
+        ease cam_transition xpos muddy_alice_pos zpos -450 ypos 0
     voice "alice091"
     alice "A knot!" # said Alice, always ready to make herself useful, and looking anxiously about her. 
     voice "alice092"
@@ -1649,7 +1651,7 @@ label ch3_start:
     mouse "You insult me by talking such nonsense!"
 
     camera:
-        ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
+        ease cam_transition xpos muddy_alice_pos zpos -450 ypos 0
     voice "alice093"
     alice "I didn’t mean it! But you’re so easily offended, you know!"
     show mouse:
@@ -1688,7 +1690,7 @@ label ch3_start:
     young_crab "Hold your tongue, Ma! You’re enough to try the patience of an oyster!"
 
     camera: 
-        ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
+        ease cam_transition xpos muddy_alice_pos zpos -450 ypos 0
     show alice normal at breathing
     voice "alice095"
     alice "I wish I had our Dinah here, I know I do!"
@@ -1701,7 +1703,8 @@ label ch3_start:
     lory "And who is Dinah, if I might venture to ask the question?"
 
     camera: 
-        ease cam_transition xpos muddy_alice_pos zpos -425 ypos -130
+        ease cam_transition xpos muddy_alice_pos zpos -450 ypos 0
+    show alice happy at breathing
     voice "alice097"
     alice "Dinah’s our cat. And she’s such a capital one for catching mice you can’t think! And oh, I wish you could see her after the birds! Why, she’ll eat a little bird as soon as look at it!"
 
