@@ -775,7 +775,7 @@ label ch1_hall_start:
     hide three_legged_table_bottle
 
     show box_cake:
-        align (0.5, 0.8) xpos 5.48 ypos 1.0 zpos -370.0 zoom 0.25
+        align (0.5, 0.8) xpos 5.48 ypos 1.0 zpos -400.0 zoom 0.125
 
     show three_legged_table_key:
         align (0.5, 1.0) xpos three_legged_table_xpos zoom three_legged_table_zoom zpos three_legged_table_zpos ypos three_legged_table_ypos
@@ -831,7 +831,7 @@ label ch1_hall_start:
 
     #hide alice 
     camera:
-        ease 2 xpos 5920 ypos 820 zpos -965.0
+        ease 2 xpos 5920 ypos 820 zpos -800.0
     voice "n1052"
     "Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words 'EAT ME' were beautifully marked in currants."
 
@@ -878,7 +878,7 @@ label chapter2:
         ease 10.0 zpos 0 ypos 0
     
     show alice excited at breathing:
-        xpos 6605 ypos 1.06 zpos -340.0 
+        xpos 6605 ypos 1.0 zpos -340.0 
         zoom 0.2
         easeout 10.0 zoom alice_scale_large
 
@@ -892,6 +892,8 @@ label chapter2:
     alice "Good-bye, feet!"
     voice "n1058"
     "(For when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off)"
+    show alice surprised at breathing:
+        zoom alice_scale_large
     voice "alice033"
     alice "(Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure I shan’t be able!)"
     voice "alice034"
@@ -900,19 +902,21 @@ label chapter2:
     alice "(Let me see: I’ll give them a new pair of boots every Christmas)"
     voice "n1059"
     "And she went on planning to herself how she would manage it."
+    show alice normal at breathing
     voice "alice036"
     alice "(They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!)"
     voice "n1060" # should this be alice?
     "Alice’s Right Foot, Esq. \nHearthrug, \nNear the Fender, \n(with Alice’s love)\n"
     voice "alice037"
+    show alice joking at breathing
     alice "(Oh dear, what nonsense I’m talking!)"
     play sound "sfx/bump.mp3"
+    show alice normal at breathing
     voice "n1061"
     "Just then, her head struck against the roof of the hall: in fact she was now rather more than nine feet high, and she at once took up the little golden key and hurried off to the garden door."
     voice "n1062"
     "Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again."
-    show alice crying at breathing_crying:
-        xpos 6605 ypos 1.06 zoom alice_scale_large
+    show alice crying at breathing_crying
     voice "alice038"
     alice "You ought to be ashamed of yourself, a great girl like you, to go on crying in this way! Stop this moment, I tell you!"
     voice "n1063"
@@ -937,7 +941,7 @@ label chapter2:
     "Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice:"
     camera:
         ease cam_transition xpos 6035 ypos 0 zpos 0
-    show alice pout at breathing
+    show alice surprised at breathing
     voice "alice039"
     alice "If you please, sir—"
     # hide alice
@@ -960,6 +964,7 @@ label chapter2:
     show alice pout at breathing
     voice "alice040"
     alice "Dear, dear! How queer everything is to-day! And yesterday things went on just as usual."
+    show alice thinking at breathing
     voice "alice041"
     alice "I wonder if I’ve been changed in the night? Let me think:"
     voice "alice042"
@@ -983,7 +988,7 @@ label chapter2:
     voice "alice049"
     alice "How cheerfully he seems to grin,\n{space=30}How neatly spread his claws,\nAnd welcome little fishes in\n{space=30}With gently smiling jaws!"
 
-    show alice crying at breathing_crying
+    show alice disturbed at breathing
     voice "alice050"
     alice "I’m sure those are not the right words."
     voice "alice051"
@@ -992,14 +997,13 @@ label chapter2:
     alice "Ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here!" 
     voice "alice053"
     alice "It’ll be no use their putting their heads down and saying 'Come up again, dear!' I shall only look up and say 'Who am I then?'" 
+    show alice pout at breathing
     voice "alice054"
     alice "'Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else' —but, oh dear!"
     voice "alice055"
     alice "I do wish they would put their heads down! I am so very tired of being all alone here!"
 
     show alice thinking at breathing:
-        xpos 6605 ypos 1.00 zpos -340.0  
-        zoom alice_scale_large
         easein 20.0 zoom 0.1
 
     camera:
@@ -1014,6 +1018,10 @@ label chapter2:
     voice "alice057"
     alice "I must be growing small again."
     voice "n1073"
+    show alice thinking at breathing:
+        ease 2 zoom 0.1 xpos 6300
+    camera:
+        ease 2 xpos 5800 ypos 0.420 zpos -850.0
     "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
     voice "n1103" # out of order oops
     "She soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
@@ -1033,7 +1041,8 @@ label chapter2:
         ease 3 xpos 9970 ypos 0.42 zpos -850.0
     voice "n1075"
     "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
-    show alice pout at breathing
+    show alice pout at breathing:
+        xpos 10527 ypos 1.0 zpos -340.0
     voice "alice060"
     alice "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
 
@@ -1041,6 +1050,9 @@ label chapter2:
     play sound "sfx/splash.mp3"
     voice "n1076"
     "As she said these words her foot slipped, and in another moment, splash!"
+    
+    camera:
+        xpos 9970 ypos 0.42 zpos -850.0
 
     show waves zorder 0:
         xpos 9.93 ypos 1.19 zpos -595.0
@@ -1144,7 +1156,7 @@ label chapter2:
     alice "And she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!"
     voice "n1094"
     "This time the Mouse was bristling all over, and she felt certain it must be really offended."
-    show alice thinking at swimming
+    show alice surprised at swimming
     voice "alice075"
     alice "We won’t talk about her any more if you’d rather not."
 
@@ -1155,7 +1167,6 @@ label chapter2:
     voice "mouse04"
     mouse "As if I would talk on such a subject! Our family always hated cats: nasty, low, vulgar things! Don’t let me hear the name again!"
 
-    show alice normal at swimming
     voice "alice076"
     alice "I won’t indeed!"
     voice "n1096"
@@ -1164,6 +1175,7 @@ label chapter2:
     alice "Are you—are you fond—of—of dogs?"
     voice "n1097"
     "The mouse did not answer, so Alice went on eagerly:"
+    show alice happy at swimming
     voice "alice078"
     alice "There is such a nice little dog near our house I should like to show you!"
     voice "alice079"
