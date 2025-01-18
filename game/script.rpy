@@ -170,7 +170,7 @@ define center_offset = 540 # half of 1080
 define three_legged_table_xpos = 5.55
 define three_legged_table_ypos = 1.06
 define three_legged_table_zpos = -400.0
-define three_legged_table_zoom = 1.60
+define three_legged_table_zoom = 0.9
 
 
 ## ANIMATED TRANSFORMS ##
@@ -355,8 +355,10 @@ label chapter1:
         ease cam_transition zpos -300
     voice "alice001"
     
+    show alice surprised at breathing_calm
     alice "(And what is the use of a book without pictures or conversations?)" 
 
+    show alice sleepy at breathing_calm
     voice "n1003"
     "So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her."
 
@@ -379,7 +381,7 @@ label chapter1:
     
     show rabbit normal at breathing:
         ease 1.0 xpos 1.0 ypos 2.0
-    show alice happy at breathing:
+    show alice excited at breathing:
         zoom 0.6
         ease 1.0 xpos rabbit_riverbank
     camera:
@@ -539,7 +541,7 @@ label chapter1:
     show rabbit normal at breathing zorder 5:
         xpos 0.54 ypos 0.58 zoom 0.25
 
-    show alice happy at breathing zorder 20:
+    show alice surprised at breathing zorder 20:
         xpos 0.82 ypos 0.9 zoom alice_scale
 
     voice "n1030"
@@ -559,7 +561,7 @@ label chapter1:
     
     show rabbit normal at breathing zorder 5:
         ease 1.0 xpos 0.14
-    show alice happy at breathing zorder 20:
+    show alice pout at breathing zorder 20:
         ease 1.0 xpos 0.52 ypos 0.58 zoom 0.2
     voice "n1032"
     "She was close behind it when she turned the corner, but the Rabbit was no longer to be seen."
@@ -647,7 +649,7 @@ label ch1_hall_start:
     voice "n1034"
     "There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again."
     
-    show three_legged_table_key_removebg zorder 50:
+    show three_legged_table_key zorder 50:
         align (0.5, 1.0) xpos three_legged_table_xpos zoom three_legged_table_zoom zpos three_legged_table_zpos ypos three_legged_table_ypos
 
     camera:
@@ -659,18 +661,17 @@ label ch1_hall_start:
     voice "n1035"
     "Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key, and Alice’s first thought was that it might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but at any rate it would not open any of them."
     
-
+    define alice_hall_curtain_pos = 10390
     camera:
-        ease 3 xpos 10390 ypos 255 zpos -595
+        ease 3 xpos alice_hall_curtain_pos ypos 255 zpos -595
 
     voice "n1036"
     "However, on the second time round, she came upon a low curtain she had not noticed before, and behind it was a little door about fifteen inches high: she tried the little golden key in the lock, and to her great delight it fitted!"
 
    
-    camera:
-        ease 3 xpos 10555 ypos 465 zpos -1085.0
-
- 
+    #camera:
+    #    ease 3 xpos 10555 ypos 465 zpos -1085.0
+    # TODO garden?
 
     play sound "sfx/unlock.mp3"
     voice "n1037"
@@ -687,25 +688,25 @@ label ch1_hall_start:
 
     
     voice "n1038"
+    show alice pout at breathing
     "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway."
 
     camera:
         ease 4 xpos alice_hall_start_pos zpos 0 ypos 0
 
-    hide three_legged_table_key_removebg
-
     #show alice pout at breathing:
     #    xpos 0.5 ypos 0.9 zoom alice_scale
     voice "alice019"
     alice "(And even if my head would go through, it would be of very little use without my shoulders)"
+    show alice excited at breathing
     voice "alice020"
     alice "(Oh, how I wish I could shut up like a telescope! I think I could, if I only knew how to begin)"
 
     voice "n1039"
     "For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible."
 
-
-    show three_legged_table_bottle_removebg:
+    hide three_legged_table_key
+    show three_legged_table_bottle:
         align (0.5, 1.0) xpos three_legged_table_xpos zoom three_legged_table_zoom zpos three_legged_table_zpos ypos three_legged_table_ypos
 
     show alice normal at breathing: 
@@ -719,11 +720,13 @@ label ch1_hall_start:
 
     voice "n1040"
     "There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it."
+    show alice thinking at breathing:
+        xpos 6500 zpos -405.0
     voice "alice021"
     alice "This certainly was not here before."
 
     camera:
-        ease 2 xpos 6000 ypos 330 zpos -845
+        ease 2 xpos 6100 ypos 330 zpos -845
     voice "n1041"
     "Around the neck of the bottle was a paper label, with the words 'DRINK ME' beautifully printed on it in large letters."
     
@@ -732,6 +735,7 @@ label ch1_hall_start:
 
     voice "n1042"
     "It was all very well to say 'Drink me', but the wise little Alice was not going to do that in a hurry."
+
     voice "alice022"
     alice "No, I’ll look first and see whether it’s marked 'poison' or not."
     
@@ -742,16 +746,15 @@ label ch1_hall_start:
 
     play sound "sfx/cork.mp3"
 
-    show alice happy at breathing:
-        xpos 6500 zoom alice_hall_default_zoom
+    show alice happy at breathing
     voice "n1045"
     "However, this bottle was not marked 'poison,' so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off."
     
     camera:
         pause 1.0
-        ease 8.0 zpos -770 ypos 730 xpos 6795
+        ease 8.0 zpos -770 ypos 730 xpos 6500
     show alice surprised at breathing:
-        ease 10.0 zoom 0.2 xpos 6795
+        ease 10.0 zoom 0.2
 
     voice "alice023"
     alice "What a curious feeling! I must be shutting up like a telescope."
@@ -766,33 +769,52 @@ label ch1_hall_start:
     voice "alice024"
     alice "It might end, you know, in my going out altogether, like a candle. I wonder what I should be like then?"
 
-    hide three_legged_table_bottle_removebg
+    hide three_legged_table_bottle
 
-    show box_cake_removebg:
-        align (0.5, 1.0) xpos 5.48 ypos 1.0 zpos -370.0 zoom 0.25
+    show box_cake:
+        align (0.5, 0.8) xpos 5.48 ypos 1.0 zpos -370.0 zoom 0.25
 
-    show three_legged_table_key_removebg:
+    show three_legged_table_key:
         align (0.5, 1.0) xpos three_legged_table_xpos zoom three_legged_table_zoom zpos three_legged_table_zpos ypos three_legged_table_ypos
 
 
     voice "n1048"
     "And she tried to fancy what the flame of a candle is like after the candle is blown out, for she could not remember ever having seen such a thing."
 
-    show alice crying at breathing_crying:
-        ease 2 xpos 6100 ypos 1.06 zpos -405.0 zoom 0.2
+    define alice_hall_table_leg_pos = 6100
 
+    show alice thinking at breathing:
+        zoom 0.2
+        # go to garden animation
+        ease 5 xpos alice_hall_curtain_pos
+        pause 2.0
+        xzoom -1
+        # go back to table animation
+        ease 5 xpos alice_hall_table_leg_pos zpos -405.0
     camera:
-        ease 3 xpos 6035 zpos -770.0 ypos 730
+        # go to garden animation
+        ease 5.5 xpos alice_hall_curtain_pos
+        pause 1.5
+        # go to table animation
+        ease 5.5 xpos alice_hall_table_leg_pos zpos -770.0 ypos 730
 
     voice "n1049"
     "After a while, finding that nothing more happened, she decided on going into the garden at once; but, alas for poor Alice, when she got to the door, she found she had forgotten the little golden key, and when she went back to the table for it, she found she could not possibly reach it: "
-    show alice crying at breathing_crying:
-        zoom 0.2
+    camera:
+        xpos alice_hall_table_leg_pos zpos -770.0 ypos 730
+    show alice pout at breathing:
+        zoom 0.2 xpos alice_hall_table_leg_pos zpos -405.0 xzoom -1
+        pause 1.0
+        easein 1.0 ypos 0.95
+        easeout 1.0 ypos 1.0
 
     voice "n1050"
     play sound "<silence 8.0>"
     queue sound "voice/alice_crying1.mp3"
     "She could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
+    show alice crying at breathing_crying:
+        zoom 0.2 xpos alice_hall_table_leg_pos zpos -405.0 xzoom -1
+
     voice "alice025"
     alice "(Come, there’s no use in crying like that!)"
     show alice pout at breathing
@@ -842,7 +864,7 @@ label chapter2:
     
     play music "audio/rinne memories of clockwise tower.mp3"
 
-    show three_legged_table_key_removebg:
+    show three_legged_table_key:
         align (0.5, 1.0) xpos three_legged_table_xpos zoom three_legged_table_zoom zpos three_legged_table_zpos ypos three_legged_table_ypos
 
 
