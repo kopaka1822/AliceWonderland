@@ -2111,6 +2111,7 @@ label ch4_forest:
         linear 2.0 xpos 0 ypos 425 zpos -335
     #scene huge_dog # todo replace with normal sized dog
     play sound "sfx/bark.mp3"
+    show alice surprised at breathing
     voice "n1191"
     "An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her."
     voice "alice131"
@@ -2179,7 +2180,7 @@ label setup_caterpillar:
         zoom 0.5
 
     show alice normal at breathing:
-        pos (800, 1.0) zoom 0.2 zpos -1000 
+        pos (800, 1.0) zoom 0.22 zpos -1000 
 
     show buttercup at windy_no_anchor:
         anchor (0.5, 1.0)
@@ -2259,6 +2260,7 @@ label chapter5:
     caterpillar "Who are you?"
     voice "n1205"
     "This was not an encouraging opening for a conversation."
+    show alice surprised at breathing
     voice "alice137"
     alice "I—I hardly know, sir, just at present—at least I know who I was when I got up this morning, but I think I must have been changed several times since then."
 
@@ -2282,6 +2284,7 @@ label chapter5:
 
     voice "caterpillar06"
     caterpillar "Not a bit."
+    show alice normal at breathing
     voice "alice141"
     alice "Well, perhaps your feelings may be different. All I know is, it would feel very queer to me."
 
@@ -2289,7 +2292,7 @@ label chapter5:
     caterpillar "You!" # said the Caterpillar contemptuously.
     voice "caterpillar08"
     caterpillar "Who are you?"
-    show alice normal at breathing
+    show alice disturbed at breathing
     voice "n1206"
     "Which brought them back again to the beginning of the conversation."
     voice "n1207"
@@ -2311,7 +2314,7 @@ label chapter5:
     voice "caterpillar11"
     caterpillar "I’ve something important to say!"
 
-    show alice at breathing:
+    show alice normal at breathing:
         zpos -1000
         linear 2.0 xoffset 0
     voice "n1209"
@@ -2320,13 +2323,14 @@ label chapter5:
     caterpillar "Keep your temper."
 
     "..."
+    show alice disturbed at breathing
     voice "alice143"
     alice "Is that all?"
     voice "n1210"
     "Alice swallowed down her anger as well as she could."
     voice "caterpillar13"
     caterpillar "No."
-    
+    show alice thinking at breathing
     voice "n1211"
     "Alice thought she might as well wait, as she had nothing else to do, and perhaps after all it might tell her something worth hearing."
     play sound "voice/caterpillar_vape.mp3"
@@ -2368,6 +2372,7 @@ label chapter5:
 
     voice "caterpillar17"
     caterpillar "That is not said right."
+    show alice surprised at breathing
     voice "alice155"
     alice "Not quite right, I’m afraid." # said alice timidly;
     voice "alice156"
@@ -2375,6 +2380,7 @@ label chapter5:
 
     voice "caterpillar18"
     caterpillar "It is wrong from beginning to end."
+    show alice normal at breathing
     "..."
     voice "n1214"
     "And there was silence for some minutes."
@@ -2385,7 +2391,7 @@ label chapter5:
     alice "Oh, I’m not particular as to size, only one doesn’t like changing so often, you know."
     voice "caterpillar20"
     caterpillar "I don’t know."
-    show alice normal at breathing
+    show alice thinking at breathing
     voice "n1215"
     "Alice said nothing: she had never been so much contradicted in all her life before, and she felt that she was losing her temper."
     voice "caterpillar21"
@@ -2399,7 +2405,7 @@ label chapter5:
     caterpillar "It is a very good height indeed!"
     voice "n1216"
     "Said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)"
-    show alice normal at breathing
+    show alice thinking at breathing
     voice "alice160"
     alice "But I’m not used to it!"
     voice "n1217"
@@ -2442,12 +2448,13 @@ label chapter5:
 
     camera:
         linear 0.5 xpos 800 ypos 815 zpos -1500
+    show alice excited at breathing
     voice "alice163"
     alice "And now which is which?"
     voice "n1225"
     "She nibbled a little of the right-hand bit to try the effect:"
 
-    show alice normal at breathing:
+    show alice excited at breathing:
         zpos -1000
         easein_expo 10.0 yzoom 0.1
     voice "n1226"
@@ -2601,7 +2608,7 @@ label ch5_sky:
     alice "However, I’ve got back to my right size: the next thing is, to get into that beautiful garden—how is that to be done, I wonder?"
     
     scene forest_house
-    show alice happy at breathing:
+    show alice normal at breathing:
         pos (0.8, 0.9) zoom 0.7
     voice "n1239"
     "She came suddenly upon an open place, with a little house in it about four feet high."
