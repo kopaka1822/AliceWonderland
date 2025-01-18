@@ -239,6 +239,9 @@ transform windy_mask(child):
     pause get_shader_wind_pause()
     repeat
 
+transform popup:
+    align (0.5, 0.5) ypos 0.38
+
 # alice pictures
 image alice sleepy = Model().child("alice sleepy.png", fit=True).texture("alice_mask.png")
 image alice crying = Model().child("alice crying.png", fit=True).texture("alice_mask.png")
@@ -1507,11 +1510,13 @@ label ch3_start:
     voice "everyone3"
     everyone "Prizes! Prizes!"
 
-    show comfits at Position(ypos = 0.65 ) onlayer screens 
+    show popup at popup onlayer screens
+    show comfits at popup onlayer screens
     voice "n1124"
     "Alice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes."
     voice "n1125"
     "There was exactly one a-piece all round."
+    hide popup onlayer screens
     hide comfits onlayer screens
 
     camera: 
