@@ -658,8 +658,10 @@ label ch1_hall_start:
     camera:
         ease 3 xpos 6000
 
+    define alice_hall_table_pos1 = 6500
+
     show alice normal at breathing:
-        ease 2 xpos 6500
+        ease 2 xpos alice_hall_table_pos1
 
     voice "n1035"
     "Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key, and Alice’s first thought was that it might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but at any rate it would not open any of them."
@@ -3255,6 +3257,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice surprised at breathing
     voice "alice224"
     alice "I don’t see any wine."
 
@@ -3265,6 +3268,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice disturbed at breathing
     voice "alice225"
     alice "Then it wasn’t very civil of you to offer it." # said Alice angrily
 
@@ -3288,6 +3292,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice pout at breathing
     voice "alice227"
     alice "You should learn not to make personal remarks, it’s very rude."
     voice "n1307"
@@ -3300,6 +3305,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice normal at breathing
     voice "alice228"
     alice "(Come, we shall have some fun now! I’m glad they’ve begun asking riddles)"
     voice "alice229"
@@ -3317,6 +3323,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+    show alice pout at breathing
     voice "hare05"
     hare "Then you should say what you mean."
 
@@ -3344,6 +3351,7 @@ label chapter7:
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
     voice "hatter04"
     hatter "It is the same thing with you."
+    show alice thinking at breathing
     voice "n1308"
     "And here the conversation dropped, and the party sat silent for a minute, while Alice thought over all she could remember about ravens and writing-desks, which wasn’t much."
 
@@ -3396,6 +3404,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice excited at breathing
     voice "alice233"
     alice "What a funny watch!"
     voice "alice234"
@@ -3411,6 +3420,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice joking at breathing
     voice "alice235"
     alice "Of course not, but that’s because it stays the same year for such a long time together."
 
@@ -3422,6 +3432,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice thinking at breathing
     voice "n1315"
     "Alice felt dreadfully puzzled."
     voice "n1316"
@@ -3471,6 +3482,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice disturbed at breathing
     voice "alice238"
     alice "I think you might do something better with the time, than waste it in asking riddles that have no answers."
 
@@ -3511,6 +3523,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice thinking at breathing
     voice "alice241"
     alice "That would be grand, certainly, but then—I shouldn’t be hungry for it, you know."
 
@@ -3568,6 +3581,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice surprised at breathing
     voice "alice244"
     alice "How dreadfully savage!"
 
@@ -3581,6 +3595,7 @@ label chapter7:
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     voice "n1325"
     "A bright idea came into Alice’s head."
+    show alice happy at breathing
     voice "alice245"
     alice "Is that the reason so many tea-things are put out here?"
 
@@ -3603,6 +3618,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice thinking at breathing
     voice "alice247"
     alice "But what happens when you come to the beginning again?"
 
@@ -3639,6 +3655,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice excited at breathing
     voice "alice249"
     alice "Yes, please do!"
 
@@ -3656,6 +3673,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice thinking at breathing
     voice "alice250"
     alice "What did they live on?"
     voice "n1328"
@@ -3672,7 +3690,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
-    show alice pout at breathing
+    show alice disturbed at breathing
     voice "alice251"
     alice "They couldn’t have done that, you know, they’d have been ill."
 
@@ -3685,6 +3703,7 @@ label chapter7:
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     voice "n1329"
     "Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on:"
+    show alice thinking at breathing
     voice "alice252"
     alice "But why did they live at the bottom of a well?"
 
@@ -3696,7 +3715,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
-    show alice pout at breathing
+    show alice disturbed at breathing
     voice "alice253"
     alice "I’ve had nothing yet, so I can’t take more." # Alice replied in an offended tone.
     #voice "n1330"
@@ -3721,7 +3740,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
-    show alice normal at breathing
+    show alice thinking at breathing
     voice "n1331"
     "Alice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question."
 
@@ -3756,6 +3775,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice surprised at breathing
     voice "alice256"
     alice "No, please go on! I won’t interrupt again. I dare say there may be one."
 
@@ -3770,6 +3790,7 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    show alice thinking at breathing
     voice "alice257"
     alice "What did they draw?"
 
@@ -3823,6 +3844,7 @@ label ch7_reorder:
 
     camera: 
         ease cam_transition xpos alice_tea_pos2 zpos -495 ypos 30
+    show alice pout at breathing
     voice "alice259"
     alice "But they were in the well."
 
@@ -3847,6 +3869,7 @@ label ch7_reorder:
 
     camera: 
         ease cam_transition xpos alice_tea_pos2 zpos -495 ypos 30
+    show alice thinking at breathing
     voice "alice260"
     alice "Why with an M?"
 
@@ -3868,6 +3891,7 @@ label ch7_reorder:
     
     camera: 
         ease cam_transition xpos alice_tea_pos2 zpos -495 ypos 30
+    show alice surprised at breathing
     voice "alice261"
     alice "Really, now you ask me, I don’t think—"
 
@@ -3883,7 +3907,7 @@ label ch7_reorder:
     scene forest
     call reset_camera
 
-    show alice pout at breathing:
+    show alice disturbed at breathing:
         pos (0.5, 0.9) zoom alice_scale
     voice "alice262"
     alice "At any rate I’ll never go there again!"
@@ -3900,26 +3924,45 @@ label ch7_reorder:
     voice "n1343"
     "And she went in."
 
-    scene hall
+    scene black
+    call setup_hallway
+    call reset_camera
+
+    camera:
+        perspective True
+        xpos alice_hall_table_pos1 zpos -45.0 xoffset -center_offset
+    
+    show alice normal at breathing zorder 100:
+        xpos alice_hall_table_pos1 zoom alice_hall_default_zoom zpos -45.0 ypos 1.0
+
+    show three_legged_table_key zorder 50:
+        align (0.5, 1.0) xpos three_legged_table_xpos zoom three_legged_table_zoom zpos three_legged_table_zpos ypos three_legged_table_ypos
+
     voice "n1344"
     "Once more she found herself in the long hall, and close to the little glass table."
 
-    show alice normal at breathing:
-        pos (0.5, 0.9) zoom alice_scale
     voice "alice266"
     alice "Now, I’ll manage better this time."
+
+    camera:
+        ease 3 xpos alice_hall_curtain_pos ypos 255 zpos -595
+    show alice normal at breathing:
+        ease 3 xpos alice_hall_curtain_pos zpos -400.0
+
     voice "n1345"
     "She began by taking the little golden key, and unlocking the door that led into the garden."
     
-    stop music fadeout 1.0
-    scene garden at windy:
-        xpos 1000
+    show alice normal at breathing:
+        xpos alice_hall_curtain_pos zpos -400.0
+        ease 3 zoom 0.25
+    play sound "sfx/unlock.mp3"
     voice "n1346"
     "Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and then—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains."
 
 label chapter8:
     $ persistent.started_story = True
     scene black
+    call reset_camera
     voice "n1347"
     "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
 
