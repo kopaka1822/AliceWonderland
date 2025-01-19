@@ -4864,20 +4864,22 @@ label chapter9:
     voice "duchess14"
     duchess "Everything’s got a moral, if only you can find it."
 
-    show alice pout at breathing
+    show alice disturbed at breathing
     show duchess happy at breathing:
         ease 0.5 xpos 1.45 zpos -20.0
     "And she squeezed herself up closer to Alice’s side as she spoke."
 
     "Alice did not much like keeping so close to her: first, because the Duchess was very ugly; and secondly, because she was exactly the right height to rest her chin upon Alice’s shoulder, and it was an uncomfortably sharp chin."
+    show alice normal at breathing
     voice "alice293"
     alice "The game’s going on rather better now."
 
     voice "duchess15"
     duchess "’Tis so, and the moral of that is—‘Oh, ’tis love, ’tis love, that makes the world go round!’"
+    show alice joking at breathing
     voice "alice294"
     alice "Somebody said, that it’s done by everybody minding their own business!"
-
+    show alice normal at breathing
     voice "duchess16"
     duchess "Ah, well! It means much the same thing, and the moral of that is—‘Take care of the sense, and the sounds will take care of themselves’."
     
@@ -4886,19 +4888,24 @@ label chapter9:
     #"Said the Duchess, digging her sharp little chin into Alice’s shoulder."
     "The Duchess started digging her sharp little chin into Alice’s shoulder."
     voice "alice295"
+    show alice thinking at breathing
     alice "(How fond she is of finding morals in things!)"
     "..."
     voice "duchess17"
     duchess "I dare say you’re wondering why I don’t put my arm round your waist, the reason is, that I’m doubtful about the temper of your flamingo. Shall I try the experiment?"
+    show alice joking at breathing
     voice "alice296"
     alice "He might bite." # Alice cautiously replied, not feeling at all anxious to have the experiment tried.
+    show alice normal at breathing
     "Alice did not feel at all anxious to have the experiment tried."
     voice "duchess18"
     duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together’."
+    show alice disturbed at breathing
     voice "alice297"
     alice "Only mustard isn’t a bird."
     voice "duchess19"
     duchess "Right, as usual, what a clear way you have of putting things!"
+    show alice thinking at breathing
     voice "alice298"
     alice "It’s a mineral, I think."
     voice "duchess20"
@@ -4906,6 +4913,7 @@ label chapter9:
     "The Duchess seemed ready to agree to everything that Alice said."
     voice "duchess21"
     duchess "And the moral of that is—‘The more there is of mine, the less there is of yours’."
+    show alice excited at breathing
     voice "alice299"
     alice "Oh, I know!"
     voice "alice300"
@@ -4913,13 +4921,16 @@ label chapter9:
 
     voice "duchess22"
     duchess "I quite agree with you, and the moral of that is—‘Be what you would seem to be’"
+    show alice thinking at breathing
     voice "duchess23"
     duchess "—or if you’d like it put more simply—‘Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise’."
+    show alice surprised at breathing
     voice "alice301"
     alice "I think I should understand that better, if I had it written down: but I can’t quite follow it as you say it."
-
+    show alice thinking at breathing
     voice "duchess24"
     duchess "That’s nothing to what I could say if I chose."
+    show alice disturbed at breathing
     voice "alice302"
     alice "Pray don’t trouble yourself to say it any longer than that."
 
@@ -4931,17 +4942,19 @@ label chapter9:
     alice "(A cheap sort of present!)"
     voice "alice304"
     alice "(I’m glad they don’t give birthday presents like that!)"
+    show alice thinking at breathing
     "She did not venture to say it out loud."
 
     voice "duchess27"
     duchess "Thinking again?"
     "The Duchess asked, with another dig of her sharp little chin."
+    show alice pout at breathing
     voice "alice305"
     alice "I’ve a right to think."
     "She was beginning to feel a little worried."
     voice "duchess28"
     duchess "Just about as much right, as pigs have to fly; and the m—"
-    
+    show alice surprised at breathing
     "But here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral’ and the arm that was linked into hers began to tremble."
     
     show queen normal at breathing:
@@ -4974,6 +4987,7 @@ label chapter9:
     hide duchess
     voice "queen24"
     queen "Have you seen the Mock Turtle yet?"
+    show alice thinking at breathing
     voice "alice306"
     alice "No, I don’t even know what a Mock Turtle is."
     voice "queen25"
@@ -4984,7 +4998,7 @@ label chapter9:
     queen "Come on, then, and he shall tell you his history."
 
     # start walk
-    show alice pout at breathing:
+    show alice thinking at breathing:
         linear 10.0 xpos 0.0 # start from 1.3
     show queen happy at breathing:
         linear 10.0 xpos -0.5 # start from 0.8
@@ -5022,7 +5036,7 @@ label ch9_gryphon:
     queen "I must go back and see after some executions I have ordered."
     show queen normal at breathing:
         linear 1.0 xpos 2.0
-    show alice normal at breathing:
+    show alice thinking at breathing:
         ease 3.0 xpos 1.2
     "She walked off, leaving Alice alone with the Gryphon."
     "Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited."
@@ -5035,6 +5049,7 @@ label ch9_gryphon:
 
     voice "gryphon02"
     gryphon "Why, she. It’s all her fancy, that: they never executes nobody, you know. Come on!"
+    show alice disturbed at breathing
     voice "alice310"
     alice "(Everybody says ‘come on!’ here. I never was so ordered about in all my life, never!)"
 
@@ -5071,6 +5086,8 @@ label ch9_gryphon:
     mock "I’ll tell it her, sit down, both of you, and don’t speak a word till I’ve finished."
 
     "So they sat down, and nobody spoke for some minutes."
+    show alice thinking at breathing:
+        xpos alice_turtle
     "..."
     voice "alice312"
     alice "(I don’t see how he can ever finish, if he doesn’t begin)"
@@ -5136,6 +5153,7 @@ label ch9_gryphon:
     
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice disturbed at breathing
     voice "alice314"
     alice "I never said I didn’t!"
 
@@ -5170,6 +5188,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice normal at breathing
     voice "alice316"
     alice "Yes, we learned French and music."
 
@@ -5180,6 +5199,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice disturbed at breathing
     voice "alice317"
     alice "Certainly not!"
 
@@ -5193,6 +5213,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice thinking at breathing
     voice "alice318"
     alice "You couldn’t have wanted it much, living at the bottom of the sea."
 
@@ -5236,7 +5257,9 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice pout at breathing
     "Alice did not feel encouraged to ask any more questions about it, so she turned to the Mock Turtle:"
+    show alice normal at breathing
     voice "alice322"
     alice "What else had you to learn?"
 
@@ -5287,6 +5310,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice happy at breathing
     voice "alice325"
     alice "What a curious plan!"
 
@@ -5309,7 +5333,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice happy at breathing
+    show alice joking at breathing
     voice "alice327"
     alice "And how did you manage on the twelfth?" # eagerly
 
