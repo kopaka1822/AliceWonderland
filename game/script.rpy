@@ -2677,7 +2677,7 @@ label chapter6:
     voice "n1249"
     "And when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky."
 
-    show alice normal at breathing:
+    show alice thinking at breathing:
         pos (0.3, 0.9) zoom alice_scale
     play sound "sfx/knockknockknock.mp3"
     voice "n1250"
@@ -2688,15 +2688,17 @@ label chapter6:
     #play sound "sfx/shatter.mp3"
     voice "n1251"
     "And certainly there was a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces."
+    show alice disturbed at breathing
     voice "alice181"
     alice "Please, then, how am I to get in?"
-    show alice disturbed at breathing
     voice "frogfoot3"
     frogfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
     voice "n1252"
     "He was looking up into the sky all the time he was speaking, and this Alice thought decidedly uncivil."
+    show alice thinking at breathing
     voice "alice182"
     alice "(But perhaps he can’t help it, his eyes are so very nearly at the top of his head. But at any rate he might answer questions)"
+    show alice happy at breathing
     voice "alice183"
     alice "*loud* How am I to get in?"
     voice "frogfoot4"
@@ -2715,10 +2717,12 @@ label chapter6:
     frogfoot "—or next day, maybe."
 
     #"The Footman continued in the same tone, exactly as if nothing had happened."
+    show alice pout at breathing
     voice "alice184"
     alice "*louder* How am I to get in?" # asked Alice again, in a louder tone.
     voice "frogfoot6"
     frogfoot "Are you to get in at all? That’s the first question, you know."
+    show alice disturbed at breathing
     voice "n1254"
     "It was, no doubt: only Alice did not like to be told so."
     voice "alice185"
@@ -2727,6 +2731,7 @@ label chapter6:
     "The Footman seemed to think this a good opportunity for repeating his remark, with variations."
     voice "frogfoot7"
     frogfoot "I shall sit here, on and off, for days and days."
+    show alice pout at breathing
     voice "alice186"
     alice "But what am I to do?"
     voice "frogfoot8"
@@ -2795,13 +2800,13 @@ label ch6_kitchen:
 
     camera:
         ease cam_transition xpos alice_duchess_kitchen_pos zpos 0
-    show alice at breathing:
+    show alice surprised at breathing:
         ease 0.3 yoffset -100
         ease 0.3 yoffset 0
     voice "n1260"
     "She said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:"
 
-    show alice surprised at breathing:
+    show alice thinking at breathing:
         yoffset 0
     voice "alice190"
     alice "I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats could grin."
@@ -2817,6 +2822,7 @@ label ch6_kitchen:
 
     voice "duchess03"
     duchess "You don’t know much, and that’s a fact."
+    show alice disturbed at breathing
     voice "n1262"
     "Alice did not at all like the tone of this remark, and thought it would be as well to introduce some other subject of conversation."
     
@@ -2851,6 +2857,7 @@ label ch6_kitchen:
     #"Cried Alice, jumping up and down in an agony of terror."#
     voice "n1265"
     "Alice was jumping up and down in an agony of terror."#
+    show alice surprised at breathing
     voice "alice193"
     alice "Oh, there goes his precious nose..."
 
@@ -2879,7 +2886,7 @@ label ch6_kitchen:
     voice "n1267"
     "Alice glanced rather anxiously at the cook, to see if she meant to take the hint; but the cook was busily stirring the soup, and seemed not to be listening, so she went on again:"
 
-    show alice normal at breathing
+    show alice thinking at breathing
     camera:
         ease cam_transition xpos alice_kitchen_pos zpos 0
     voice "alice195"
@@ -2924,6 +2931,13 @@ label ch6_kitchen:
         ease 1.0 xpos alice_kitchen_pos ypos 0.75
     voice "n1270"
     "The Duchess said to Alice, flinging the baby at her as she spoke."
+    show baby normal:
+        xpos alice_kitchen_pos ypos 0.75
+        linear 1.0 xoffset -10 yoffset -10 rotate 2
+        linear 1.0 xoffset 10 yoffset 10 rotate -2
+        linear 1.0 xoffset -10 yoffset 10 rotate 2
+        linear 1.0 xoffset 10 yoffset -10 rotate -2
+        repeat
     voice "duchess10"
     duchess "I must go and get ready to play croquet with the Queen."
     voice "n1271"
@@ -2974,6 +2988,7 @@ label ch6_kitchen:
     "The little thing grunted in reply (it had left off sneezing by this time)"
     voice "alice199"
     alice "Don’t grunt, that’s not at all a proper way of expressing yourself."
+    show alice surprised at breathing
     voice "n1277"
     "The baby grunted again, and Alice looked very anxiously into its face to see what was the matter with it."
     show baby half
@@ -2985,6 +3000,7 @@ label ch6_kitchen:
     "She looked into its eyes again, to see if there were any tears."
     voice "n1280"
     "No, there were no tears."
+    show alice pout at breathing
     voice "alice201"
     alice "If you’re going to turn into a pig, my dear, I’ll have nothing more to do with you. Mind now!"
     voice "n1281"
@@ -2993,7 +3009,7 @@ label ch6_kitchen:
     alice "Now, what am I to do with this creature when I get it home?"
     voice "n1282"
     "Then it grunted again, so violently, that she looked down into its face in some alarm."
-
+    show alice surprised at breathing
     show baby pig
     voice "n1283"
     "This time there could be no mistake about it: it was neither more nor less than a pig, and she felt that it would be quite absurd for her to carry it further."
@@ -3072,11 +3088,13 @@ label ch6_kitchen:
 
     voice "cat07"
     cat "To begin with, a dog’s not mad. You grant that?"
+    show alice thinking at breathing
     voice "alice214"
     alice "I suppose so."
 
     voice "cat08"
     cat "Well, then, you see, a dog growls when it’s angry, and wags its tail when it’s pleased. Now I growl when I’m pleased, and wag my tail when I’m angry. Therefore I’m mad."
+    show alice normal at breathing
     voice "alice215"
     alice "I call it purring, not growling."
 
@@ -3106,9 +3124,10 @@ label ch6_kitchen:
     cat "By the way, what became of the baby?"
     voice "cat13"
     cat "I’d nearly forgotten to ask."
+    show alice surprised at breathing
     voice "alice217"
     alice "It turned into a pig."
-
+    show alice thinking at breathing
     voice "cat14"
     cat "I thought it would." # said the cat and VANISHED again
 
@@ -3129,6 +3148,7 @@ label ch6_cat:
 
     voice "cat15"
     cat "Did you say pig, or fig?"
+    show alice disturbed at breathing
     voice "alice219"
     alice "I said pig, and I wish you wouldn’t keep appearing and vanishing so suddenly: you make one quite giddy."
 
@@ -3155,6 +3175,7 @@ label ch6_cat:
         xpos 0.79 ypos 0.25 zoom cat_scale
     voice "n1298"
     "This time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone."
+    show alice happy at breathing
     voice "alice220"
     alice "Well! I’ve often seen a cat without a grin, but a grin without a cat! It’s the most curious thing I ever saw in my life!"
 
