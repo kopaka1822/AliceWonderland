@@ -4056,6 +4056,7 @@ label chapter8:
         ease cam_transition xpos alice_garden zoom 2.0 ypos 700
     voice "n1351"
     "His eye chanced to fall upon Alice, as she stood watching them, and he checked himself suddenly: the others looked round also, and all of them bowed low."
+    show alice surprised at breathing
     voice "alice267"
     alice "Would you tell me, why you are painting those roses?"
 
@@ -4225,7 +4226,7 @@ label chapter8:
     hide king
     # move camera to alice instant
     define alice_garden2 = 0.04
-    show alice normal zorder 100 at breathing:
+    show alice thinking zorder 100 at breathing:
         xpos alice_garden2
     camera:
         xpos alice_garden2
@@ -4281,6 +4282,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
+    show alice normal at breathing
     voice "alice269"
     alice "My name is Alice, so please your Majesty." # saif alice politely
     voice "alice270"
@@ -4298,6 +4300,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
+    show alice surprised at breathing
     voice "alice271"
     alice "How should I know? It’s no business of mine."
 
@@ -4310,6 +4313,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
+    show alice pout at breathing
     voice "alice272"
     alice "Nonsense!" #  said Alice, very loudly and decidedly, and the Queen was silent.
     "..."
@@ -4430,6 +4434,7 @@ label chapter8:
     hide queen
     hide king
     hide knave
+    show alice surprised at breathing
     voice "alice273"
     alice "You shan’t be beheaded!"
 
@@ -4471,6 +4476,7 @@ label chapter8:
     show queen happy at breathing
     voice "queen14"
     queen "That’s right!" # shouted
+    show alice surprised at breathing
     voice "queen15"
     queen "Can you play croquet?"
 
@@ -4491,7 +4497,7 @@ label chapter8:
         linear 1.0 xpos 3.0
     show soldier9:
         linear 1.0 xpos 2.5
-    show alice at breathing:
+    show alice thinking at breathing:
         pos (alice_garden4, 0.8) zoom alice_scale
 
     camera:
@@ -4516,12 +4522,13 @@ label chapter8:
     alice "What for?"
     voice "rabbit21"
     rabbit "Did you say ‘What a pity!’?"
+    show alice disturbed at breathing
     voice "alice277"
     alice "No, I didn’t, I don’t think it’s at all a pity. I said ‘What for?’"
     voice "rabbit22"
     rabbit "She boxed the Queen’s ears—"
 
-    show alice happy at breathing
+    show alice joking at breathing
     "Alice gave a little scream of laughter."
     voice "rabbit23"
     rabbit "Oh, hush! The Queen will hear you! You see, she came rather late, and the Queen said—"
@@ -4608,7 +4615,7 @@ label ch8_croquet:
         xpos cat_croquet ypos 0.4 zoom cat_scale xoffset 120 # offset to center head
         alpha 0.0
         linear 10.0 alpha 1.0
-
+    show alice normal at breathing
     "Alice waited till the eyes appeared, and then nodded."
     voice "alice280"
     alice "(It’s no use speaking to it, till its ears have come, or at least one of them)"
@@ -4641,6 +4648,7 @@ label ch8_croquet:
     define queen_croquet2 = 1.03
     show queen normal at breathing:
         ease 1.0 xpos queen_croquet2
+    show alice disturbed at breathing
     voice "alice283"
     alice "Not at all, she’s so extremely—"
     camera:
@@ -4662,6 +4670,7 @@ label ch8_croquet:
         pos (king_croquet, 0.9) zoom king_scale
     camera:
         ease cam_transition xpos cat_croquet ypos 0 zoom 1.0
+    show alice normal at breathing
     voice "king02"
     king "Who are you talking to?" # said the King, going up to Alice
     "The king was looking at the Cat’s head with great curiosity."
@@ -4681,6 +4690,7 @@ label ch8_croquet:
     camera:
         ease cam_transition xpos alice_croquet ypos 0 zoom 1.0
     "He got behind Alice as he spoke."
+    show alice thinking at breathing
     voice "alice286"
     alice "A cat may look at a king, I’ve read that in some book, but I don’t remember where."
 
@@ -4749,6 +4759,7 @@ label ch8_croquet:
         ease 1.5 xpos 0.84 ypos 0 zoom 1.0
 
     "By the time she had caught the flamingo and brought it back, the fight was over, and both the hedgehogs were out of sight."
+    show alice thinking at breathing
     voice "alice287"
     alice "(But it doesn’t matter much, as all the arches are gone from this side of the ground)"
 
@@ -4777,6 +4788,7 @@ label ch8_croquet:
     "(It was this last remark that had made the whole party look so grave and anxious)"
 
     # Alice could think of nothing else to say but
+    show alice surprised at breathing
     voice "alice288"
     alice "It belongs to the Duchess: you’d better ask her about it."
     voice "queen21"
@@ -4784,6 +4796,7 @@ label ch8_croquet:
 
     show soldier9:
         linear 1.0 xpos 3.0
+    show alice normal at breathing
     "And the executioner went off like an arrow."
 
     show cat4:
