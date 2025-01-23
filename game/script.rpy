@@ -263,8 +263,8 @@ image king scared = Model().child("king scared.png", fit=True).texture("king_mas
 
 image rabbit normal = Model().child("rabbit normal.png", fit=True).texture("rabbit_mask.png")
 
-image dormouse sleep = Model().child("dormouse sleep.png", fit=True).texture("dormouse_mask.png")
-image dormouse tired = Model().child("dormouse tired.png", fit=True).texture("dormouse_mask.png")
+image dormouse sleep = Model().child("dormouse sleep.png", fit=True).texture("dormouse sleep_mask.png")
+image dormouse tired = Model().child("dormouse tired.png", fit=True).texture("dormouse tired_mask.png")
 
 image hatter = Model().child("hatter.png", fit=True).texture("hatter_mask.png")
 
@@ -948,7 +948,8 @@ label chapter2:
     alice "If you please, sir—"
     # hide alice
 
-    show fan gloves at Position(ypos = 0.65) onlayer screens
+    show popup at popup onlayer screens
+    show fan gloves at popup onlayer screens
     camera:
         ease cam_transition xpos 7270 ypos 385 zpos -365
     show rabbit normal at breathing:
@@ -961,6 +962,7 @@ label chapter2:
     voice "n1069"
     "Alice took up the fan and gloves, and, as the hall was very hot, she kept fanning herself all the time she went on talking:"
     hide fan gloves onlayer screens
+    hide popup onlayer screens
     hide rabbit
 
     show alice pout at breathing
@@ -1820,10 +1822,12 @@ label chapter4:
     voice "alice104"
     alice "(Only I don’t think, that they’d let Dinah stop in the house if it began ordering people about like that!)"
 
-    show fan gloves at Position(ypos = 0.65, xpos = 0.5)
+    show popup at popup onlayer screens
+    show fan gloves at popup onlayer screens
     voice "n1151"
     "By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves:"
-    hide fan gloves
+    hide fan gloves onlayer screens
+    hide popup onlayer screens
     show alice excited at breathing:
         xpos 0.5 ypos 0.9 zoom alice_scale
     voice "n1152"
