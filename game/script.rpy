@@ -4486,6 +4486,7 @@ label chapter8:
 
     camera:
         ease cam_transition xpos alice_garden3
+    voice "n1378"
     "The soldiers were silent, and looked at Alice, as the question was evidently meant for her."
     voice "alice274"
     alice "Yes!"
@@ -4506,19 +4507,20 @@ label chapter8:
 
     camera:
         ease cam_transition xpos alice_garden4
-
+    voice "n1379"
     "Alice joined the procession, wondering very much what would happen next."
 
     show rabbit normal zorder 200 at breathing:
         pos (0.57, 0.85) zoom rabbit_scale
     voice "rabbit18"
     rabbit "It’s—it’s a very fine day!" # timid voice
-
+    voice "n1380"
     "She was walking by the White Rabbit, who was peeping anxiously into her face."
     voice "alice275"
     alice "Very, —where’s the Duchess?"
     voice "rabbit19"
     rabbit "Hush! Hush!" # low and hurried tone
+    voice "n1381"
     "The rabbit looked anxiously over his shoulder as he spoke, and then raised himself upon tiptoe, put his mouth close to her ear, and whispered:"
     voice "rabbit20"
     rabbit "She’s under sentence of execution."
@@ -4533,6 +4535,7 @@ label chapter8:
     rabbit "She boxed the Queen’s ears—"
 
     show alice joking at breathing
+    voice "n1382"
     "Alice gave a little scream of laughter."
     voice "rabbit23"
     rabbit "Oh, hush! The Queen will hear you! You see, she came rather late, and the Queen said—"
@@ -4556,19 +4559,25 @@ label ch8_croquet:
 
     voice "queen17"
     queen "Get to your places!"
+    voice "n1383"
     "Shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began."
 
     camera:
         ease cam_transition xpos alice_croquet
+    voice "n1384"
     "Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches."
 
     show alice happy at breathing
+    voice "n1385"
     "The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it would twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing."
+    voice "n1386"
     "And when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog had unrolled itself, and was in the act of crawling away."
+    voice "n1387"
     "Besides all this, there was generally a ridge or furrow in the way wherever she wanted to send the hedgehog to, and, as the doubled-up soldiers were always getting up and walking off to other parts of the ground, Alice soon came to the conclusion that it was a very difficult game indeed."
 
     camera:
         ease cam_transition xpos queen_croquet
+    voice "n1388"
     "The players all played at once without waiting for turns, quarrelling all the while, and fighting for the hedgehogs; and in a very short time the Queen was in a furious passion, and went stamping about:"
     camera:
         ease cam_transition xpos queen_croquet zoom 2.0 ypos 700
@@ -4577,6 +4586,7 @@ label ch8_croquet:
     camera:
         ease cam_transition xpos queen_croquet zoom 1.0 ypos 0
     show queen happy  at breathing
+    voice "n1389"
     "Or"
     camera:
         ease cam_transition xpos queen_croquet zoom 2.0 ypos 700
@@ -4586,12 +4596,14 @@ label ch8_croquet:
     camera:
         ease cam_transition xpos queen_croquet zoom 1.0 ypos 0
     show queen happy  at breathing
+    voice "n1390"
     "About once in a minute."
 
     camera:
         zoom 1.0 ypos 0
         ease cam_transition xpos alice_croquet
     show alice pout at breathing
+    voice "n1391"
     "Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute."
     voice "alice278"
     alice "(And then, what would become of me? They’re dreadfully fond of beheading people here; the great wonder is, that there’s any one left alive!)"
@@ -4605,7 +4617,7 @@ label ch8_croquet:
         xpos cat_croquet ypos 0.4 zoom cat_scale xoffset 120 # offset to center head
         alpha 0.0
         linear 10.0 alpha 1.0
-
+    voice "n1392"
     "She was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin."
     show alice happy at breathing
     voice "alice279"
@@ -4620,6 +4632,7 @@ label ch8_croquet:
         alpha 0.0
         linear 10.0 alpha 1.0
     show alice normal at breathing
+    voice "n1393"
     "Alice waited till the eyes appeared, and then nodded."
     voice "alice280"
     alice "(It’s no use speaking to it, till its ears have come, or at least one of them)"
@@ -4629,9 +4642,9 @@ label ch8_croquet:
         xpos cat_croquet ypos 0.4 zoom cat_scale xoffset 120 # offset to center head
         alpha 0.0
         linear 10.0 alpha 1.0
-
+    voice "n1394"
     "In another minute the whole head appeared, and then Alice put down her flamingo, and began an account of the game, feeling very glad she had someone to listen to her."
-    
+    voice "n1395"
     "The Cat seemed to think that there was enough of it now in sight, and no more of it appeared."
     voice "alice281"
     alice "I don’t think they play at all fairly, and they all quarrel so dreadfully one can’t hear oneself speak—and they don’t seem to have any rules in particular; at least, if there are, nobody attends to them—"
@@ -4658,6 +4671,7 @@ label ch8_croquet:
     camera:
         ease cam_transition zoom 2.0 ypos 820 xpos 1.16 
     show alice normal at breathing
+    voice "n1396"
     "Just then she noticed that the Queen was close behind her, listening: so she went on:"
     show alice happy at breathing
     voice "alice284"
@@ -4666,6 +4680,7 @@ label ch8_croquet:
     show queen happy at breathing:
         pause 1.0
         ease 1.0 xpos queen_croquet
+    voice "n1397"
     "The Queen smiled and passed on."
 
     define king_croquet = 1.8
@@ -4677,6 +4692,7 @@ label ch8_croquet:
     show alice normal at breathing
     voice "king02"
     king "Who are you talking to?" # said the King, going up to Alice
+    voice "n1398"
     "The king was looking at the Cat’s head with great curiosity."
     voice "alice285"
     alice "It’s a friend of mine—a Cheshire Cat, allow me to introduce it."
@@ -4693,6 +4709,7 @@ label ch8_croquet:
 
     camera:
         ease cam_transition xpos alice_croquet ypos 0 zoom 1.0
+    voice "n1399"
     "He got behind Alice as he spoke."
     show alice thinking at breathing
     voice "alice286"
@@ -4705,15 +4722,18 @@ label ch8_croquet:
         xpos 0.57
     camera:
         ease cam_transition xpos 0.84 ypos 0 zoom 1.0
+    voice "n1400"
     "The King called the Queen, who was passing at the moment:"
     voice "king06"
     king "My dear! I wish you would have this cat removed!"
 
     camera:
         ease cam_transition xpos 0.57 ypos 700 zoom 2.0
+    voice "n1401"
     "The Queen had only one way of settling all difficulties, great or small."
     voice "queen20"
     queen "Off with his head!"
+    voice "n1402"
     "She said, without even looking round."
 
     camera:
@@ -4726,8 +4746,10 @@ label ch8_croquet:
 
     camera:
         ease cam_transition xpos cat_croquet ypos 0 zoom 1.0
+    voice "n1403"
     "Alice thought she might as well go back, and see how the game was going on, as she heard the Queen’s voice in the distance, screaming with passion."
     show alice normal at breathing
+    voice "n1404"
     "She had already heard her sentence three of the players to be executed for having missed their turns, and she did not like the look of things at all, as the game was in such confusion that she never knew whether it was her turn or not."
 
     hide queen
@@ -4737,14 +4759,16 @@ label ch8_croquet:
         ease 1.0 xpos 0.84
     camera:
         ease 1.5 xpos 0.84 ypos 0 zoom 1.0
+    voice "n1405"
     "So she went in search of her hedgehog."
-
+    voice "n1406"
     "The hedgehog was engaged in a fight with another hedgehog, which seemed to Alice an excellent opportunity for croqueting one of them with the other:" 
 
     show alice at breathing:
         ease 1.0 xpos -0.42
     camera:
         ease 1.5 xpos -0.42 ypos 0 zoom 1.0
+    voice "n1407"
     "The only difficulty was, that her flamingo was gone across to the other side of the garden, where Alice could see it trying in a helpless sort of way to fly up into a tree."
 
     # setup king and queen when returning
@@ -4761,7 +4785,7 @@ label ch8_croquet:
         ease 1.0 xpos 0.84
     camera:
         ease 1.5 xpos 0.84 ypos 0 zoom 1.0
-
+    voice "n1408"
     "By the time she had caught the flamingo and brought it back, the fight was over, and both the hedgehogs were out of sight."
     show alice thinking at breathing
     voice "alice287"
@@ -4773,22 +4797,24 @@ label ch8_croquet:
     
     camera:
         ease 1.5 xpos alice_croquet ypos 0 zoom 1.0
+    voice "n1409"
     "So she tucked it away under her arm, that it might not escape again, and went back for a little more conversation with her friend."
 
     camera:
         ease 1.5 xpos cat_croquet ypos 0 zoom 1.0
 
 
-    
+    voice "n1410"
     "When she got back to the Cheshire Cat, she was surprised to find quite a large crowd collected round it: there was a dispute going on between the executioner, the King, and the Queen, who were all talking at once, while all the rest were quite silent, and looked very uncomfortable."
-
+    voice "n1411"
     "The moment Alice appeared, she was appealed to by all three to settle the question, and they repeated their arguments to her, though, as they all spoke at once, she found it very hard indeed to make out exactly what they said."
-
+    voice "n1412"
     "The executioner’s argument was, that you couldn’t cut off a head unless there was a body to cut it off from: that he had never had to do such a thing before, and he wasn’t going to begin at his time of life."
-
+    voice "n1413"
     "The King’s argument was, that anything that had a head could be beheaded, and that you weren’t to talk nonsense."
-
+    voice "n1414"
     "The Queen’s argument was, that if something wasn’t done about it in less than no time she’d have everybody executed, all round."
+    voice "n1415"
     "(It was this last remark that had made the whole party look so grave and anxious)"
 
     # Alice could think of nothing else to say but
@@ -4801,12 +4827,14 @@ label ch8_croquet:
     show soldier9:
         linear 1.0 xpos 3.0
     show alice normal at breathing
+    voice "n1416"
     "And the executioner went off like an arrow."
 
     show cat4:
         xpos cat_croquet zoom cat_scale
         xoffset 120
         linear 3.0 alpha 0.0
+    voice "n1417"
     "The Cat’s head began fading away the moment he was gone, and, by the time he had come back with the Duchess, it had entirely disappeared; so the King and the executioner ran wildly up and down looking for it, while the rest of the party went back to the game."
 
 label chapter9:
