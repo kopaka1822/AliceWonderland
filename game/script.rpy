@@ -6590,7 +6590,7 @@ label chapter12:
         xpos 3905 xoffset -center_offset
         ease cam_transition xpos 1475 ypos 0 zpos 0 # alice
     
-    show alice normal at breathing:
+    show alice excited at breathing:
         zoom 1.0
     voice "alice368"
     alice "Here!"
@@ -6615,7 +6615,7 @@ label chapter12:
     #"Cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
     "Alice forgot in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
 
-    show alice normal at breathing:
+    show alice surprised at breathing:
         ease 1.0 xpos 2030
     camera:
         ease cam_transition xpos court_jury # jury
@@ -6650,7 +6650,7 @@ label chapter12:
     voice "alice371"
     alice "(I should think it would be quite as much use in the trial one way up as the other)"
 
-    show alice normal at breathing:
+    show alice thinking at breathing:
         ease 1.0 xpos court_witness zpos -350
     "As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court."
 
@@ -6670,7 +6670,9 @@ label chapter12:
     king "Nothing whatever?" # persisted the King.
 
     camera:
-        ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
+        ease cam_transition xpos court_witness ypos -315 zpos -500 # alice
+    show alice pout at breathing:
+        xpos court_witness zpos -350 
     voice "alice373"
     alice "Nothing whatever."
 
@@ -6704,6 +6706,7 @@ label chapter12:
     
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
+    show alice thinking at breathing
     "Alice could see this, as she was near enough to look over their slates."
     voice "alice374"
     alice "(But it doesn’t matter a bit...)"
@@ -6735,7 +6738,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
-    show alice normal at breathing
+    show alice joking at breathing
     voice "alice376"
     alice "Well, I shan’t go, at any rate, besides, that’s not a regular rule: you invented it just now."
     
@@ -6746,6 +6749,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
+    show alice pout at breathing
     voice "alice377"
     alice "Then it ought to be Number One."
 
@@ -6833,12 +6837,13 @@ label chapter12:
     voice "queen35"
     queen "That proves his guilt."
 
-    show alice normal at breathing:
+    show alice pout at breathing:
         ypos 1.0 xpos court_witness zpos -350
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
     voice "alice378"
     alice "It proves nothing of the sort!"
+    show alice disturbed at breathing
     voice "alice379"
     alice "Why, you don’t even know what they’re about!"
 
@@ -6882,7 +6887,7 @@ label chapter12:
     voice "king52"
     king "So now let the jury—"
 
-    show alice normal at breathing:
+    show alice pout at breathing:
         ypos 1.0 xpos court_witness zpos -350 zoom 1.3
     camera:
         ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
@@ -6921,7 +6926,7 @@ label chapter12:
     voice "king57"
     king "‘We know it to be true—’ that’s the jury, of course—‘I gave her one, they gave him two—’ why, that must be what he did with the tarts, you know—” "
 
-    show alice normal at breathing:
+    show alice disturbed at breathing:
         ypos 1.0 xpos court_witness zpos -350 zoom 1.3
     camera:
         ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
@@ -6972,9 +6977,11 @@ label chapter12:
     queen "No, no! Sentence first—verdict afterwards."
     
     camera:
-        ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
+        ease cam_transition xpos court_witness ypos -800 zpos -500 # alice
+    show alice pout at breathing 
     voice "alice382"
     alice "Stuff and nonsense!"
+    show alice disturbed at breathing
     voice "alice383"
     alice "The idea of having the sentence first!"
 
@@ -6985,7 +6992,8 @@ label chapter12:
     "The queen turned purple."
 
     camera:
-        ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
+        ease cam_transition xpos court_witness ypos -800 zpos -500 # alice
+    show alice pout 
     voice "alice384"
     alice "I won’t!"
 
@@ -6998,7 +7006,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_witness ypos -900 zpos -500 # alice 
-    show alice normal at breathing:
+    show alice joking at breathing:
         zoom 1.5
     voice "alice385"
     alice "Who cares for you?"
@@ -7010,6 +7018,7 @@ label chapter12:
         ease 0.5 zrotate -0.1
         ease 0.5 zrotate 0.1
         repeat
+    show alice surprised at breathing
     "At this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face."
 
     scene black
