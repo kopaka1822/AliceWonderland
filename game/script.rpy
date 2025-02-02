@@ -5414,6 +5414,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice surprised at breathing
     voice "alice328"
     alice "I haven’t."
 
@@ -5424,8 +5425,10 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # 
+    show alice thinking at breathing
     voice "alice329"
     alice "I once tasted—" #  but checked herself hastily, and said
+    show alice surprised at breathing
     voice "alice330"
     alice "No, never."
 
@@ -5436,6 +5439,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice thinking at breathing
     voice "alice331"
     alice "No, indeed. What sort of a dance is it?"
 
@@ -5528,6 +5532,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice normal at breathing
     voice "alice332"
     alice "It must be a very pretty dance." # timidly
 
@@ -5609,6 +5614,7 @@ label chapter10:
         ease 1.0 xoffset 0 yoffset 0
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice happy at breathing
     voice "alice334"
     alice "Thank you, it’s a very interesting dance to watch."
     "Alice was feeling very glad that it was over at last."
@@ -5622,8 +5628,10 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice normal at breathing
     voice "alice336"
     alice "Yes, I’ve often seen them at dinn—"
+    show alice surprised at breathing
     "She checked herself hastily."
 
     camera:
@@ -5633,6 +5641,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    
     voice "alice337"
     alice "I believe so."
     voice "alice338"
@@ -5662,6 +5671,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice normal at breathing
     voice "alice339"
     alice "Thank you, it’s very interesting. I never knew so much about a whiting before."
 
@@ -5672,6 +5682,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice thinking at breathing
     voice "alice340"
     alice "I never thought about it. Why?"
 
@@ -5683,8 +5694,9 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     
-    show alice thinking at breathing
+    show alice disturbed at breathing
     "Alice was thoroughly puzzled."
+    show alice surprised at breathing
     voice "alice341"
     alice "Does the boots and shoes!?" # wondering
 
@@ -5695,6 +5707,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice thinking at breathing
     "Alice looked down at them, and considered a little before she gave her answer."
     voice "alice342"
     alice "They’re done with blacking, I believe."
@@ -5706,6 +5719,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice surprised at breathing
     voice "alice343"
     alice "And what are they made of?" # asked with great curiosity
 
@@ -5716,6 +5730,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice thinking at breathing
     voice "alice344"
     alice "If I’d been the whiting, I’d have said to the porpoise, ‘Keep back, please: we don’t want you with us!’" # still in thoughts
 
@@ -5726,6 +5741,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice surprised at breathing
     voice "alice345"
     alice "Wouldn’t it really?" # surprised
 
@@ -5736,6 +5752,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice disturbed at breathing
     voice "alice346"
     alice "Don’t you mean ‘purpose’?"
 
@@ -5751,7 +5768,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice pout at breathing
+    show alice thinking at breathing
     voice "alice347"
     alice "I could tell you my adventures—beginning from this morning, but it’s no use going back to yesterday, because I was a different person then."
 
@@ -5805,10 +5822,12 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    show alice pout at breathing
     voice "alice348"
     alice "(How the creatures order one about, and make one repeat lessons!)"
     voice "alice349"
     alice "(I might as well be at school at once)"
+    show alice thinking at breathing
     "However, she got up, and began to repeat it, but her head was so full of the Lobster Quadrille, that she hardly knew what she was saying, and the words came very queer indeed:—"
     voice "alice350"
     alice "’Tis the voice of the Lobster; \n{space=30}I heard him declare,
@@ -5855,7 +5874,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice pout at breathing
+    show alice thinking at breathing
     voice "alice351"
     alice "It’s the first position in dancing."
     "She was dreadfully puzzled by the whole thing, and longed to change the subject."
@@ -5956,7 +5975,7 @@ label chapter10:
     voice "gryphon48"
     gryphon "Come on!" # cried
 
-    show alice pout at breathing:
+    show alice disturbed at breathing:
         pause 2.5
         linear 7.5 xpos 1.54
     show gryphon at breathing:
