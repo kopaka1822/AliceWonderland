@@ -4602,7 +4602,7 @@ label ch8_croquet:
     camera:
         zoom 1.0 ypos 0
         ease cam_transition xpos alice_croquet
-    show alice pout at breathing
+    show alice surprised at breathing
     voice "n1391"
     "Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute."
     voice "alice278"
@@ -4646,6 +4646,7 @@ label ch8_croquet:
     "In another minute the whole head appeared, and then Alice put down her flamingo, and began an account of the game, feeling very glad she had someone to listen to her."
     voice "n1395"
     "The Cat seemed to think that there was enough of it now in sight, and no more of it appeared."
+    show alice disturbed at breathing
     voice "alice281"
     alice "I don’t think they play at all fairly, and they all quarrel so dreadfully one can’t hear oneself speak—and they don’t seem to have any rules in particular; at least, if there are, nobody attends to them—"
     voice "alice282"
@@ -4670,7 +4671,7 @@ label ch8_croquet:
     alice "Not at all, she’s so extremely—"
     camera:
         ease cam_transition zoom 2.0 ypos 820 xpos 1.16 
-    show alice normal at breathing
+    show alice thinking at breathing
     voice "n1396"
     "Just then she noticed that the Queen was close behind her, listening: so she went on:"
     show alice happy at breathing
@@ -6131,19 +6132,23 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500
+    show alice thinking at breathing
     voice "alice360"
     alice "*whispering* What are they doing? They can’t have anything to put down yet, before the trial’s begun." # Alice whispered to the Gryphon. “”
 
     voice "gryphon50"
     gryphon "*whispering* They’re putting down their names, for fear they should forget them before the end of the trial."
+    show alice disturbed at breathing
     voice "alice361"
     alice "Stupid things!" # Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -500
+    
     voice "rabbit24"
     rabbit "Silence in the court!"
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -500
+    show alice thinking at breathing
     "The King put on his spectacles and looked anxiously round, to make out who was talking."
 
     camera:
