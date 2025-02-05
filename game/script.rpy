@@ -425,12 +425,14 @@ label chapter1:
     "First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs."
 
     hide alice
-    show orange marmalade at Position(ypos = 0.65)
+    show popup at popup onlayer screens
+    show orange marmalade at popup onlayer screens
 
     voice "n1013"
     "She took down a jar from one of the shelves as she passed; it was labelled 'ORANGE MARMALADE', but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody underneath, so managed to put it into one of the cupboards as she fell past it."
 
-    hide orange marmalade
+    hide orange marmalade onlayer screens
+    hide popup onlayer screens
     show alice falling:
         xpos -0.4 ypos 0.0
         linear 1.0 xoffset -20 yoffset -20 rotate 5
@@ -2195,11 +2197,11 @@ label setup_caterpillar:
         zpos -950
 
     show caterpillar at breathing:
-        pos (1090, 0.85) zoom 0.3 zpos -900
+        pos (1090, 0.88) zoom 0.3 zpos -900
 
     show mushroom at Position(xpos = 1090, ypos = 1.0):
         anchor (0.5, 1.0)
-        zoom 0.38
+        zoom 0.45
         zpos -880
     show blades as blades2 at windy_no_anchor:
         anchor (0.5, 1.0)
@@ -2869,8 +2871,8 @@ label ch6_kitchen:
 
     show saucepan:
         anchor(0.5, 0.5)
-        xpos cook_kitchen_pos ypos 0.7 zoom 1.0
-        linear 4.0 xpos -600
+        xpos cook_kitchen_pos ypos 0.6 zoom 1.0
+        linear 2.0 xpos -600
     voice "n1266"
     "An unusually large saucepan flew close by it, and very nearly carried it off."
 
@@ -3976,9 +3978,9 @@ label chapter8:
 
     define alice_garden = -0.5
     define card_zoom = 0.75
-    define card2_garden = 0.2
-    define card5_garden = 0.38
-    define card7_garden = 0.53
+    define card2_garden = 0.15
+    define card5_garden = 0.33
+    define card7_garden = 0.57
 
     define card2_garden_y = 0.83
     define card5_garden_y = 0.77
