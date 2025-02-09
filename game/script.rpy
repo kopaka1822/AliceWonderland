@@ -4846,6 +4846,7 @@ label chapter9:
     camera:
         perspective False
         xpos 0 ypos 0 zpos 0 xoffset 0
+    voice "n1418"
     "{size=+40}Chapter IX: \n{/size}The Mock Turtle's Story"
 
     play music "audio/rinne oak general store.mp3" fadein 1.0 fadeout 1.0
@@ -4869,8 +4870,9 @@ label chapter9:
 
     voice "duchess11"
     duchess "You can’t think how glad I am to see you again, you dear old thing!"
+    voice "n1419"
     "The Duchess tucked her arm affectionately into Alice’s, and they walked off together."
-
+    voice "n1420"
     "Alice was very glad to find her in such a pleasant temper, and thought to herself that perhaps it was only the pepper that had made her so savage when they met in the kitchen."
 
     show alice thinking at breathing
@@ -4884,6 +4886,7 @@ label chapter9:
     alice "(I only wish people knew that: then they wouldn’t be so stingy about it, you know—)"
 
     show alice pout at breathing
+    voice "n1421"
     "She had quite forgotten the Duchess by this time, and was a little startled when she heard her voice close to her ear."
     camera:
         ease cam_transition xpos 1.4 ypos 1000 zoom 2.0
@@ -4902,8 +4905,9 @@ label chapter9:
     show alice disturbed at breathing
     show duchess happy at breathing:
         ease 0.5 xpos 1.45 zpos -20.0
+    voice "n1422"
     "And she squeezed herself up closer to Alice’s side as she spoke."
-
+    voice "n1423"
     "Alice did not much like keeping so close to her: first, because the Duchess was very ugly; and secondly, because she was exactly the right height to rest her chin upon Alice’s shoulder, and it was an uncomfortably sharp chin."
     show alice normal at breathing
     voice "alice293"
@@ -4921,6 +4925,7 @@ label chapter9:
     show duchess happy at breathing:
         ease 0.5 xpos 1.42 zpos -20.0
     #"Said the Duchess, digging her sharp little chin into Alice’s shoulder."
+    voice "n1424"
     "The Duchess started digging her sharp little chin into Alice’s shoulder."
     voice "alice295"
     show alice thinking at breathing
@@ -4932,6 +4937,7 @@ label chapter9:
     voice "alice296"
     alice "He might bite." # Alice cautiously replied, not feeling at all anxious to have the experiment tried.
     show alice normal at breathing
+    voice "n1425"
     "Alice did not feel at all anxious to have the experiment tried."
     voice "duchess18"
     duchess "Very true, flamingoes and mustard both bite. And the moral of that is—‘Birds of a feather flock together’."
@@ -4945,6 +4951,7 @@ label chapter9:
     alice "It’s a mineral, I think."
     voice "duchess20"
     duchess "Of course it is, there’s a large mustard-mine near here."
+    voice "n1426"
     "The Duchess seemed ready to agree to everything that Alice said."
     voice "duchess21"
     duchess "And the moral of that is—‘The more there is of mine, the less there is of yours’."
@@ -4978,24 +4985,29 @@ label chapter9:
     voice "alice304"
     alice "(I’m glad they don’t give birthday presents like that!)"
     show alice thinking at breathing
+    voice "n1427"
     "She did not venture to say it out loud."
 
     voice "duchess27"
     duchess "Thinking again?"
+    voice "n1428"
     "The Duchess asked, with another dig of her sharp little chin."
     show alice pout at breathing
     voice "alice305"
     alice "I’ve a right to think."
+    voice "n1429"
     "She was beginning to feel a little worried."
     voice "duchess28"
     duchess "Just about as much right, as pigs have to fly; and the m—"
     show alice surprised at breathing
+    voice "n1430"
     "But here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral’ and the arm that was linked into hers began to tremble."
     
     show queen normal at breathing:
         pos (0.8, 0.9) zoom queen_scale
     camera:
         ease cam_transition xpos 1.05 ypos 0 zoom 1.0
+    voice "n1431"
     "Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm."
 
     voice "duchess29"
@@ -5003,20 +5015,25 @@ label chapter9:
     voice "queen22"
     queen "Now, I give you fair warning, either you or your head must be off, and that in about half no time! Take your choice!"
     #"Shouted the Queen, stamping on the ground as she spoke."
+    voice "n1432"
     "The Queen was stamping on the ground as she spoke."
 
     show duchess:
         linear 1.0 xpos 2.0
+    voice "n1433"
     "The Duchess took her choice, and was gone in a moment."
     voice "queen23"
     queen "Let’s go on with the game."
+    voice "n1434"
     "The Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground."
 
+    voice "n1435"
     "The other guests had taken advantage of the Queen’s absence, and were resting in the shade: however, the moment they saw her, they hurried back to the game, the Queen merely remarking that a moment’s delay would cost them their lives."
-
+    voice "n1436"
     "All the time they were playing the Queen never left off quarrelling with the other players, and shouting “Off with his head!” or “Off with her head!”."
+    voice "n1437"
     "Those whom she sentenced were taken into custody by the soldiers, who of course had to leave off being arches to do this, so that by the end of half an hour or so there were no arches left, and all the players, except the King, the Queen, and Alice, were in custody and under sentence of execution."
-
+    voice "n1438"
     "Then the Queen left off, quite out of breath, and said to Alice:"
 
     hide duchess
@@ -5039,11 +5056,13 @@ label chapter9:
         linear 10.0 xpos -0.5 # start from 0.8
     camera:
         linear 10.0 xpos -0.25 ypos 0 zoom 1.0
+    voice "n1439"
     "As they walked off together, Alice heard the King say in a low voice, to the company generally:"
     voice "king08"
     king "You are all pardoned."
     voice "alice308"
     alice "(Come, that’s a good thing!)"
+    voice "n1440"
     "Alice had felt quite unhappy at the number of executions the Queen had ordered."
 
 label ch9_gryphon:
@@ -5061,6 +5080,7 @@ label ch9_gryphon:
         perspective True
         xpos 1535 ypos 0 zpos 0 zoom 1.0 xoffset -center_offset
         ease 5.0 xpos 935
+    voice "n1441"
     "They very soon came upon a Gryphon, lying fast asleep in the sun."
     # "(If you don’t know what a Gryphon is, look at the picture)"
     voice "queen27"
@@ -5073,9 +5093,11 @@ label ch9_gryphon:
         linear 1.0 xpos 2.0
     show alice thinking at breathing:
         ease 3.0 xpos 1.2
+    voice "n1442"
     "She walked off, leaving Alice alone with the Gryphon."
+    voice "n1443"
     "Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited."
-
+    voice "n1444"
     "The Gryphon sat up and rubbed its eyes: then it watched the Queen till she was out of sight: then it chuckled."
     voice "gryphon01"
     gryphon "What fun!"
@@ -5099,7 +5121,9 @@ label ch9_gryphon:
     camera:
         linear 10.0 xpos -425
     stop music fadeout 10.0
+    voice "n1445"
     "They had not gone far before they saw the Mock Turtle in the distance, sitting sad and lonely on a little ledge of rock, and, as they came nearer, Alice could hear him sighing as if his heart would break."
+    voice "n1446"
     "She pitied him deeply."
     voice "alice311"
     alice "What is his sorrow?"
@@ -5113,19 +5137,21 @@ label ch9_gryphon:
         linear 1.0 xpos alice_turtle
     camera:
         linear 1.0 xpos -120
+    voice "n1447"
     "So they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing."
 
     voice "gryphon04"
     gryphon "This here young lady, she wants for to know your history, she do."
     voice "mock01"
     mock "I’ll tell it her, sit down, both of you, and don’t speak a word till I’ve finished."
-
+    voice "n1448"
     "So they sat down, and nobody spoke for some minutes."
     show alice thinking at breathing:
         xpos alice_turtle
     "..."
     voice "alice312"
     alice "(I don’t see how he can ever finish, if he doesn’t begin)"
+    voice "n1449"
     "But she waited patiently."
 
     play music "audio/rinne sad.mp3" fadein 1.0
@@ -5135,7 +5161,7 @@ label ch9_gryphon:
     voice "mock02"
     mock "Once, *deep sigh* I was a real Turtle."
     #"Said the Mock Turtle at last, with a deep sigh."
-
+    voice "n1450"
     "These words were followed by a very long silence, broken only by an occasional exclamation of:"
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
@@ -5143,9 +5169,11 @@ label ch9_gryphon:
     gryphon "Hjckrrh!" 
     camera:
         ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+    voice "n1451"
     "And the constant heavy sobbing of the Mock Turtle." 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "n1452"
     "Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story”, but she could not help thinking there must be more to come, so she sat still and said nothing."
 
     camera:
@@ -5173,7 +5201,9 @@ label ch9_gryphon:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice pout at breathing
+    voice "n1453"
     "They both sat silent and looked at poor Alice, who felt ready to sink into the earth."
+    voice "n1454"
     "At last the Gryphon said to the Mock Turtle:"
 
     camera:
@@ -5274,6 +5304,7 @@ label ch9_gryphon:
 
     camera:
         ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+    voice "n1455"
     "The Gryphon lifted up both its paws in surprise."
     voice "gryphon09"
     gryphon "What! Never heard of uglifying!"
@@ -5293,6 +5324,7 @@ label ch9_gryphon:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice pout at breathing
+    voice "n1456"
     "Alice did not feel encouraged to ask any more questions about it, so she turned to the Mock Turtle:"
     show alice normal at breathing
     voice "alice322"
@@ -5331,6 +5363,7 @@ label ch9_gryphon:
     gryphon "So he did, so he did."
     camera:
         ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
+    voice "n1457"
     "They both sighed and hid their faces in their paws."
 
     camera:
@@ -5357,6 +5390,7 @@ label ch9_gryphon:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice thinking at breathing
+    voice "n1458"
     "This was quite a new idea to Alice, and she thought it over a little before she made her next remark."
     voice "alice326"
     alice "Then the eleventh day must have been a holiday?"
