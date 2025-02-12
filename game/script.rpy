@@ -126,7 +126,7 @@ define duck = Character(_("Duck"), color="#ff8c00")
 define dodo = Character(_("Dodo"), color="#008cff")
 define eaglet = Character(_("Eaglet"), color="#be8200")
 define everyone = Character(_("Everyone"), color="#ffffff")
-define old_crab = Character(_("Old Crab"), color="#ff8c00")
+define old_crab = Character(_("Old Crab"), color="#ff4a3d")
 define young_crab = Character(_("Young Crab"), color="#ff8c00")
 define magpie = Character(_("Magpie"), color="#ffffff")
 define canary = Character(_("Canary"), color="#ffe600")
@@ -2062,12 +2062,14 @@ label chapter4:
     voice "n1184"
     "Which produced another dead silence."
 
-    show pebble_cake at Position(ypos = 0.65, xpos = 0.5)
+    show popup at popup onlayer screens
+    show pebble_cake at popup onlayer screens
     voice "n1185"
     "Alice noticed with some surprise that the pebbles were all turning into little cakes as they lay on the floor, and a bright idea came into her head."
     voice "alice128"
     alice "(If I eat one of these cakes, it’s sure to make some change in my size; and as it can’t possibly make me larger, it must make me smaller, I suppose)"
-    hide pebble_cake
+    hide pebble_cake onlayer screens
+    hide popup onlayer screens
 
     show alice at breathing:
         easein 10.0 zoom 1.0
@@ -2138,6 +2140,7 @@ label ch4_forest:
     show alice at breathing:
         linear 0.5 xpos 0.05
     show puppy:
+        yoffset 0
         linear 0.7 xpos 0.7
         linear 0.7 xpos 0.38 ypos 0.75 zrotate -40
         linear 0.7 xpos 0.0 ypos 0.75 zrotate -80
@@ -2153,7 +2156,7 @@ label ch4_forest:
     camera:
         linear 2.0 xpos -560 ypos 425 zpos -335
     show puppy:
-        ypos 0.85 xpos -0.66 xzoom -1.0 zrotate 0
+        ypos 0.85 xpos -0.66 xzoom -1.0 zrotate 0 
         ease 1.0 xpos -0.56
         ease 1.0 xpos -0.46
         ease 1.0 xpos -0.36
@@ -3687,12 +3690,14 @@ label chapter7:
 
     camera: 
         ease cam_transition xpos dormouse_tea_cam_pos zpos -505 ypos 130
-    show treacle at Position( ypos = 0.65) onlayer screens
+    show popup at popup onlayer screens
+    show treacle at popup onlayer screens
     voice "dormouse06"
     dormouse "They lived on treacle."
 
     "..."
     hide treacle onlayer screens
+    hide popup onlayer screens
 
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
@@ -4161,11 +4166,11 @@ label chapter8:
         ease 1.0 xpos garden_p1_end
     show child10 as child2:
         anchor (0.5, 1.0)
-        xpos garden_p2_start ypos 0.8 zpos -50
+        xpos garden_p2_start ypos 0.8 zpos -50 zoom 1.2
         ease 1.0 xpos garden_p2_mid
     show child10 as child1:
         anchor (0.5, 1.0)
-        xpos garden_p1_start ypos 0.8
+        xpos garden_p1_start ypos 0.8 zoom 1.2
         ease 1.0 xpos 1.45 # move child a bit closer
     voice "n1358"
     "After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts." # 10 ?
@@ -5157,7 +5162,7 @@ label ch9_gryphon:
     play music "audio/rinne sad.mp3" fadein 1.0
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock02"
     mock "Once, *deep sigh* I was a real Turtle."
     #"Said the Mock Turtle at last, with a deep sigh."
@@ -5168,7 +5173,7 @@ label ch9_gryphon:
     voice "gryphon05"
     gryphon "Hjckrrh!" 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "n1451"
     "And the constant heavy sobbing of the Mock Turtle." 
     camera:
@@ -5177,7 +5182,7 @@ label ch9_gryphon:
     "Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story”, but she could not help thinking there must be more to come, so she sat still and said nothing."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock03"
     mock "When we were little, we went to school in the sea."
     voice "mock04"
@@ -5189,7 +5194,7 @@ label ch9_gryphon:
     alice "Why did you call him Tortoise, if he wasn’t one?"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock05"
     mock "We called him Tortoise because he taught us, really you are very dull!" # angrily
 
@@ -5212,7 +5217,7 @@ label ch9_gryphon:
     gryphon "Drive on, old fellow! Don’t be all day about it!"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock06"
     mock "Yes, we went to school in the sea, though you mayn’t believe it—"
     
@@ -5223,7 +5228,7 @@ label ch9_gryphon:
     alice "I never said I didn’t!"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock07"
     mock "You did."
 
@@ -5237,7 +5242,7 @@ label ch9_gryphon:
     "..."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock08"
     mock "We had the best of educations—in fact, we went to school every day—"
 
@@ -5247,7 +5252,7 @@ label ch9_gryphon:
     alice "I’ve been to a day-school, too, you needn’t be so proud as all that."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock09"
     mock "With extras?"
 
@@ -5258,7 +5263,7 @@ label ch9_gryphon:
     alice "Yes, we learned French and music."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock10"
     mock "And washing?"
 
@@ -5269,7 +5274,7 @@ label ch9_gryphon:
     alice "Certainly not!"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock11"
     mock "Ah! then yours wasn’t a really good school."
     # said the Mock Turtle in a tone of great relief.
@@ -5283,7 +5288,7 @@ label ch9_gryphon:
     alice "You couldn’t have wanted it much, living at the bottom of the sea."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock13"
     mock "I couldn’t afford to learn it. I only took the regular course."
 
@@ -5293,7 +5298,7 @@ label ch9_gryphon:
     alice "What was that?"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock14"
     mock "Reeling and Writhing, of course, to begin with, and then the different branches of Arithmetic—Ambition, Distraction, Uglification, and Derision."
 
@@ -5331,7 +5336,7 @@ label ch9_gryphon:
     alice "What else had you to learn?"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock15"
     mock "Well, there was Mystery, ancient and modern, with Seaography: then Drawling—the Drawling-master was an old conger-eel, that used to come once a week: he taught us Drawling, Stretching, and Fainting in Coils."
 
@@ -5341,7 +5346,7 @@ label ch9_gryphon:
     alice "What was that like?"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock16"
     mock "Well, I can’t show it you myself."
     voice "mock17"
@@ -5353,7 +5358,7 @@ label ch9_gryphon:
     gryphon "Hadn’t time, I went to the Classics master, though. He was an old crab, he was."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock18"
     mock "I never went to him, he taught Laughing and Grief, they used to say." # with a sigh
 
@@ -5372,7 +5377,7 @@ label ch9_gryphon:
     alice "And how many hours a day did you do lessons?"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock19"
     mock "Ten hours the first day, nine the next, and so on."
 
@@ -5396,7 +5401,7 @@ label ch9_gryphon:
     alice "Then the eleventh day must have been a holiday?"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock20"
     mock "Of course it was."
 
@@ -5434,7 +5439,7 @@ label chapter10:
     camera:
         perspective True
         xpos -120 ypos 0 zoom 1.0 xoffset -center_offset
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     "The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes."
     "He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice."
     camera:
@@ -5444,7 +5449,7 @@ label chapter10:
     "The gryphon started shaking him and punching him in the back."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     "At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:"
     voice "mock21"
     mock "You may not have lived much under the sea—"
@@ -5456,7 +5461,7 @@ label chapter10:
     alice "I haven’t."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock22"
     mock "And perhaps you were never even introduced to a lobster—"
 
@@ -5470,7 +5475,7 @@ label chapter10:
     alice "No, never."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock23"
     mock "—so you can have no idea what a delightful thing a Lobster Quadrille is!"
 
@@ -5486,7 +5491,7 @@ label chapter10:
     gryphon "Why, you first form into a line along the sea-shore—"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock24"
     mock "Two lines!" # cried the mock turtle
     voice "mock25"
@@ -5498,7 +5503,7 @@ label chapter10:
     gryphon "That generally takes some time."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock26"
     mock "—you advance twice—"
 
@@ -5508,7 +5513,7 @@ label chapter10:
     gryphon "Each with a lobster as a partner!"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock27"
     mock "Of course, advance twice, set to partners—"
 
@@ -5518,7 +5523,7 @@ label chapter10:
     gryphon "—change lobsters, and retire in same order."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock28"
     mock "Then, you know, you throw the—"
     
@@ -5532,7 +5537,7 @@ label chapter10:
     gryphon "The lobsters!"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock29"
     mock "—as far out to sea as you can—"
 
@@ -5542,7 +5547,7 @@ label chapter10:
     gryphon "Swim after them!"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
 
     # capering wildly about
     show turtle at breathing:
@@ -5559,7 +5564,7 @@ label chapter10:
     gryphon "Change lobsters again!"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock31"
     mock "Back to land again, and that’s all the first figure."
 
@@ -5574,7 +5579,7 @@ label chapter10:
     alice "It must be a very pretty dance." # timidly
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock32"
     mock "Would you like to see a little of it?"
 
@@ -5584,7 +5589,7 @@ label chapter10:
     alice "Very much indeed."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     "The mock turtle turned to the gryphon:" # added
     voice "mock33"
     mock "Come, let’s try the first figure!"
@@ -5659,7 +5664,7 @@ label chapter10:
     alice "And I do so like that curious song about the whiting!"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock44"
     mock "Oh, as to the whiting, they—you’ve seen them, of course?"
 
@@ -5672,7 +5677,7 @@ label chapter10:
     "She checked herself hastily."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock45"
     mock "I don’t know where Dinn may be, but if you’ve seen them so often, of course you know what they’re like."
 
@@ -5685,7 +5690,7 @@ label chapter10:
     alice "They have their tails in their mouths—and they’re all over crumbs."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock46"
     mock "You’re wrong about the crumbs, crumbs would all wash off in the sea."
     voice "mock47"
@@ -5772,7 +5777,7 @@ label chapter10:
     alice "If I’d been the whiting, I’d have said to the porpoise, ‘Keep back, please: we don’t want you with us!’" # still in thoughts
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock48"
     mock "They were obliged to have him with them, no wise fish would go anywhere without a porpoise."
 
@@ -5783,7 +5788,7 @@ label chapter10:
     alice "Wouldn’t it really?" # surprised
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock49"
     mock "Of course not, why, if a fish came to me, and told me he was going a journey, I should say ‘With what porpoise?’"
 
@@ -5794,7 +5799,7 @@ label chapter10:
     alice "Don’t you mean ‘purpose’?"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock50"
     mock "*offended* I mean what I say."
 
@@ -5810,7 +5815,7 @@ label chapter10:
     alice "I could tell you my adventures—beginning from this morning, but it’s no use going back to yesterday, because I was a different person then."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock51"
     mock "Explain all that."
 
@@ -5835,7 +5840,7 @@ label chapter10:
     show gryphon at breathing:
         ease 0.5 xoffset 0 yoffset 0
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock52"
     mock "That’s very curious."
 
@@ -5845,7 +5850,7 @@ label chapter10:
     gryphon "It’s all about as curious as it can be."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock53"
     mock "It all came different!"
     voice "mock54"
@@ -5884,7 +5889,7 @@ label chapter10:
     gryphon "That’s different from what I used to say when I was a child."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock55"
     mock "Well, I never heard it before, but it sounds uncommon nonsense."
     camera:
@@ -5893,7 +5898,7 @@ label chapter10:
     "Alice said nothing; she had sat down with her face in her hands, wondering if anything would ever happen in a natural way again."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock56"
     mock "I should like to have it explained."
 
@@ -5903,7 +5908,7 @@ label chapter10:
     gryphon "She can’t explain it. Go on with the next verse."
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock57"
     mock "But about his toes?" # persistet
     voice "mock58"
@@ -5937,7 +5942,7 @@ label chapter10:
 
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock59"
     mock "What is the use of repeating all that stuff, if you don’t explain it as you go on? It’s by far the most confusing thing I ever heard!"
 
@@ -5969,7 +5974,7 @@ label chapter10:
     gryphon "Hm! No accounting for tastes! Sing her ‘Turtle Soup’, will you, old fellow?"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     stop music fadeout 1.0
     "The Mock Turtle sighed deeply, and began, in a voice sometimes choked with sobs, to sing this:—"
     play music "audio/rinne sad.mp3" fadein 1.0 fadeout 1.0
@@ -6029,7 +6034,7 @@ label chapter10:
     "He ran faster, while more and more faintly came, carried on the breeze that followed them, the melancholy words:—"
 
     camera:
-        ease cam_transition xpos -980 ypos 1800 zoom 2.0 # turtle
+        ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     voice "mock68"
     mock "Soo—oop of the e—e—evening,\n
     {space=30}Beautiful, beautiful Soup!"
