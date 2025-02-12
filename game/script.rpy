@@ -262,6 +262,7 @@ image king = Model().child("king.png", fit=True).texture("king_mask.png")
 image king scared = Model().child("king scared.png", fit=True).texture("king_mask.png")
 
 image rabbit normal = Model().child("rabbit normal.png", fit=True).texture("rabbit_mask.png")
+image rabbit court = Model().child("rabbit court.png", fit=True).texture("rabbit_mask.png")
 
 image dormouse sleep = Model().child("dormouse sleep.png", fit=True).texture("dormouse sleep_mask.png")
 image dormouse tired = Model().child("dormouse tired.png", fit=True).texture("dormouse tired_mask.png")
@@ -6102,7 +6103,7 @@ label setup_court:
     show desc at anchor:
         ypos 1.0 xpos 3905 zpos -850 zoom 1.4
 
-    show rabbit normal at breathing:
+    show rabbit court at breathing:
         ypos 1.0 xpos court_rabbit zpos -800
         zoom rabbit_scale
 
