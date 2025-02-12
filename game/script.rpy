@@ -242,6 +242,12 @@ transform windy_mask(child):
 transform popup:
     align (0.5, 0.5) ypos 0.38
 
+transform angrily:
+    anchor (0.5, 0.5)
+    ease 2 rotate 10 zoom 0.9
+    ease 2 rotate 0 zoom 1.0
+    repeat
+
 # alice pictures
 image alice sleepy = Model().child("alice sleepy.png", fit=True).texture("alice_mask.png")
 image alice crying = Model().child("alice crying.png", fit=True).texture("alice_mask.png")
@@ -2534,6 +2540,12 @@ label ch5_sky:
     show pigeon:
         zpos -1400 xpos 2.0
         easein 8.0 zpos 0.0 xpos 0.0
+
+    show angry at angrily:
+        zpos -1400 xpos 2.0
+        xoffset 525 yoffset 478
+        easein 8.0 zpos 0.0 xpos 0.0
+
     voice "n1232"
     "She had just succeeded in curving it down into a graceful zigzag, and was going to dive in among the leaves, which she found to be nothing but the tops of the trees under which she had been wandering, when a sharp hiss made her draw back in a hurry: a large pigeon had flown into her face, and was beating her violently with its wings."
 
