@@ -5086,8 +5086,10 @@ label chapter9:
 label ch9_gryphon:
     scene cliff
 
+    define gryphon_scale = 0.75
+
     show gryphon at breathing:
-        pos (0.11, 1.2) xzoom -1.0 zoom 1.0
+        pos (0.2, 0.95) xzoom -1.0 zoom gryphon_scale
     show queen normal at breathing:
         pos (1.23, 0.9) zoom queen_scale
     show alice normal at breathing:
@@ -5129,7 +5131,7 @@ label ch9_gryphon:
     alice "(Everybody says ‘come on!’ here. I never was so ordered about in all my life, never!)"
 
     define turtle_pos = -0.63
-    define gyphon_pos = 0.49
+    define gyphon_pos = 0.39
     define alice_turtle = 0.26
 
     show gryphon at breathing behind alice:
@@ -5182,7 +5184,7 @@ label ch9_gryphon:
     voice "n1450"
     "These words were followed by a very long silence, broken only by an occasional exclamation of:"
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 875 zoom 2.0 # gryphon
     voice "gryphon05"
     gryphon "Hjckrrh!" 
     camera:
@@ -5212,7 +5214,7 @@ label ch9_gryphon:
     mock "We called him Tortoise because he taught us, really you are very dull!" # angrily
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon06"
     gryphon "You ought to be ashamed of yourself for asking such a simple question."
 
@@ -5225,7 +5227,7 @@ label ch9_gryphon:
     "At last the Gryphon said to the Mock Turtle:"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon07"
     gryphon "Drive on, old fellow! Don’t be all day about it!"
 
@@ -5246,7 +5248,7 @@ label ch9_gryphon:
     mock "You did."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon08"
     gryphon "Hold your tongue!"
 
@@ -5321,7 +5323,7 @@ label ch9_gryphon:
     alice "I never heard of ‘Uglification’. What is it?"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "n1455"
     "The Gryphon lifted up both its paws in surprise."
     voice "gryphon09"
@@ -5335,7 +5337,7 @@ label ch9_gryphon:
     alice "Yes, it means to make anything prettier." # doubtfully
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon11"
     gryphon "Well, then, if you don’t know what to uglify is, you are a simpleton."
 
@@ -5366,7 +5368,7 @@ label ch9_gryphon:
     mock "I’m too stiff. And the Gryphon never learnt it."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon12"
     gryphon "Hadn’t time, I went to the Classics master, though. He was an old crab, he was."
 
@@ -5376,7 +5378,7 @@ label ch9_gryphon:
     mock "I never went to him, he taught Laughing and Grief, they used to say." # with a sigh
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon13"
     gryphon "So he did, so he did."
     camera:
@@ -5401,7 +5403,7 @@ label ch9_gryphon:
     alice "What a curious plan!"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon14"
     gryphon "That’s the reason they’re called lessons, because they lessen from day to day."
 
@@ -5425,7 +5427,7 @@ label ch9_gryphon:
     alice "And how did you manage on the twelfth?" # eagerly
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon15"
     gryphon "That’s enough about lessons, tell her something about the games now."
 
@@ -5445,7 +5447,7 @@ label chapter10:
     show alice normal at breathing:
         pos (alice_turtle, 0.9) zoom alice_scale
     show gryphon at breathing behind alice:
-        pos (gyphon_pos, 1.2) zoom 1.0
+        pos (gyphon_pos, 0.95) zoom gryphon_scale
     show turtle at breathing:
         pos (turtle_pos, 0.89)
 
@@ -5456,7 +5458,7 @@ label chapter10:
     "The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes."
     "He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice."
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon16"
     gryphon "Same as if he had a bone in his throat."
     "The gryphon started shaking him and punching him in the back."
@@ -5499,7 +5501,7 @@ label chapter10:
     alice "No, indeed. What sort of a dance is it?"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon17"
     gryphon "Why, you first form into a line along the sea-shore—"
 
@@ -5511,7 +5513,7 @@ label chapter10:
     mock "Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon18"
     gryphon "That generally takes some time."
 
@@ -5521,7 +5523,7 @@ label chapter10:
     mock "—you advance twice—"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon19"
     gryphon "Each with a lobster as a partner!"
 
@@ -5531,7 +5533,7 @@ label chapter10:
     mock "Of course, advance twice, set to partners—"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon20"
     gryphon "—change lobsters, and retire in same order."
 
@@ -5541,7 +5543,7 @@ label chapter10:
     mock "Then, you know, you throw the—"
     
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     # leap into air
     show gryphon at breathing:
         ease 0.5 yoffset -200
@@ -5555,7 +5557,7 @@ label chapter10:
     mock "—as far out to sea as you can—"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon22"
     gryphon "Swim after them!"
 
@@ -5572,7 +5574,7 @@ label chapter10:
     mock "Turn a somersault in the sea!"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon23"
     gryphon "Change lobsters again!"
 
@@ -5611,7 +5613,7 @@ label chapter10:
     mock "We can do without lobsters, you know. Which shall sing?"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon24"
     gryphon "Oh, you sing. I’ve forgotten the words."
 
@@ -5710,7 +5712,7 @@ label chapter10:
     mock "But they have their tails in their mouths; and the reason is— *yawn* —Tell her about the reason and all that."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon25"
     gryphon "The reason is, that they would go with the lobsters to the dance."
     voice "gryphon26"
@@ -5731,7 +5733,7 @@ label chapter10:
     alice "Thank you, it’s very interesting. I never knew so much about a whiting before."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon31"
     gryphon "I can tell you more than that, if you like. Do you know why it’s called a whiting?"
 
@@ -5742,7 +5744,7 @@ label chapter10:
     alice "I never thought about it. Why?"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon32"
     gryphon "It does the boots and shoes." # solemnly
 
@@ -5756,7 +5758,7 @@ label chapter10:
     alice "Does the boots and shoes!?" # wondering
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon33"
     gryphon "Why, what are your shoes done with? I mean, what makes them so shiny?"
 
@@ -5768,7 +5770,7 @@ label chapter10:
     alice "They’re done with blacking, I believe."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon34"
     gryphon "Boots and shoes under the sea, are done with a whiting. Now you know." # deep voice
 
@@ -5779,7 +5781,7 @@ label chapter10:
     alice "And what are they made of?" # asked with great curiosity
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon35"
     gryphon "Soles and eels, of course, any shrimp could have told you that."
 
@@ -5817,7 +5819,7 @@ label chapter10:
     mock "*offended* I mean what I say."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon36"
     gryphon "Come, let’s hear some of your adventures." 
 
@@ -5833,7 +5835,7 @@ label chapter10:
     mock "Explain all that."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon37"
     gryphon "No, no! The adventures first, explanations take such a dreadful time." # impatient
 
@@ -5858,7 +5860,7 @@ label chapter10:
     mock "That’s very curious."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon38"
     gryphon "It’s all about as curious as it can be."
 
@@ -5871,7 +5873,7 @@ label chapter10:
     "He looked at the Gryphon as if he thought it had some kind of authority over Alice."
     
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon39"
     gryphon "Stand up and repeat ‘Tis the voice of the sluggard’"
 
@@ -5897,7 +5899,7 @@ label chapter10:
     #His voice has a timid and tremulous sound."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon40"
     gryphon "That’s different from what I used to say when I was a child."
 
@@ -5916,7 +5918,7 @@ label chapter10:
     mock "I should like to have it explained."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon41"
     gryphon "She can’t explain it. Go on with the next verse."
 
@@ -5935,7 +5937,7 @@ label chapter10:
     "She was dreadfully puzzled by the whole thing, and longed to change the subject."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon42"
     gryphon "Go on with the next verse, it begins ‘I passed by his garden’."
 
@@ -5960,7 +5962,7 @@ label chapter10:
     mock "What is the use of repeating all that stuff, if you don’t explain it as you go on? It’s by far the most confusing thing I ever heard!"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon43"
     gryphon "Yes, I think you’d better leave off."
     camera:
@@ -5969,7 +5971,7 @@ label chapter10:
     "Alice was only too glad to do so."
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon44"
     gryphon "Shall we try another figure of the Lobster Quadrille?"
     voice "gryphon45"
@@ -5982,7 +5984,7 @@ label chapter10:
     alice "Oh, a song, please, if the Mock Turtle would be so kind." # alice replied eagerly
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon46"
     gryphon "Hm! No accounting for tastes! Sing her ‘Turtle Soup’, will you, old fellow?"
 
@@ -6017,7 +6019,7 @@ label chapter10:
     Beautiful, beauti—FUL SOUP!"
 
     camera:
-        ease cam_transition xpos -135 ypos 975 zoom 2.0 # gryphon
+        ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon47"
     gryphon "Chorus again!" # cried
 
@@ -6026,7 +6028,7 @@ label chapter10:
     "The Mock Turtle had just begun to repeat it, when a cry of “The trial’s beginning!” was heard in the distance."
 
     show gryphon at breathing:
-        xzoom -1.0 xpos -0.5
+        xzoom -1.0 xpos -0.3
     voice "gryphon48"
     gryphon "Come on!" # cried
 
@@ -6140,7 +6142,7 @@ label setup_court:
 
     # observers
     show gryphon at breathing zorder 5:
-        ypos 1.22 xpos 500 zpos -800 zoom 1.0 xzoom -1.0
+        ypos 1.0 xpos 650 zpos -800 zoom gryphon_scale xzoom -1.0
 
     show alice normal at breathing zorder 10:
         ypos 1.0 xpos court_alice zpos -700 zoom alice_scale
