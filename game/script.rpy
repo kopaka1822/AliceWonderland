@@ -239,15 +239,6 @@ transform windy_mask(child):
     pause get_shader_wind_pause()
     repeat
 
-transform popup:
-    align (0.5, 0.5) ypos 0.38
-
-transform angrily:
-    anchor (0.5, 0.5)
-    ease 2 rotate 10 zoom 0.9
-    ease 2 rotate 0 zoom 1.0
-    repeat
-
 # alice pictures
 image alice sleepy = Model().child("alice sleepy.png", fit=True).texture("alice_mask.png")
 image alice crying = Model().child("alice crying.png", fit=True).texture("alice_mask.png")
@@ -327,6 +318,15 @@ transform windy_mask:
 # general transforms / lables
 transform anchor:
     anchor (0.5, 1.0)
+
+transform popup:
+    align (0.5, 0.5) ypos 0.38
+
+transform angrily:
+    anchor (0.5, 0.5)
+    ease 2 rotate 10 zoom 0.9
+    ease 2 rotate 0 zoom 1.0
+    repeat
 
 label reset_camera:
     camera:
@@ -5438,6 +5438,7 @@ label chapter10:
     camera:
         perspective False
         xpos 0 ypos 0 zpos 0 zoom 1.0 xoffset 0
+    voice "n1459"
     "{size=+40}Chapter X: \n{/size}The Lobster Quadrille"
 
     play music "audio/rinne sad.mp3" if_changed
@@ -5455,16 +5456,20 @@ label chapter10:
         perspective True
         xpos -120 ypos 0 zoom 1.0 xoffset -center_offset
         ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
+    voice "n1460"
     "The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes."
+    voice "n1461"
     "He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice."
     camera:
         ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon16"
     gryphon "Same as if he had a bone in his throat."
+    voice "n1462"
     "The gryphon started shaking him and punching him in the back."
 
     camera:
         ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
+    voice "n1463"
     "At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:"
     voice "mock21"
     mock "You may not have lived much under the sea—"
@@ -5585,6 +5590,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
+    voice "n1464"
     "The two creatures, who had been jumping about like mad things all this time, sat down again very sadly and quietly, and looked at Alice."
 
     camera:
@@ -5605,6 +5611,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
+    voice "n1465"
     "The mock turtle turned to the gryphon:" # added
     voice "mock33"
     mock "Come, let’s try the first figure!"
@@ -5634,6 +5641,7 @@ label chapter10:
         linear 2.0 xoffset -970
         xzoom 1.0 xoffset 0
         repeat
+    voice "n1467"
     "So they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—"
     voice "mock35"
     mock " “Will you walk a little faster?” said a whiting to a snail.\n
@@ -5674,6 +5682,7 @@ label chapter10:
     show alice happy at breathing
     voice "alice334"
     alice "Thank you, it’s a very interesting dance to watch."
+    voice "n1468"
     "Alice was feeling very glad that it was over at last."
     voice "alice335"
     alice "And I do so like that curious song about the whiting!"
@@ -5689,6 +5698,7 @@ label chapter10:
     voice "alice336"
     alice "Yes, I’ve often seen them at dinn—"
     show alice surprised at breathing
+    voice "n1469"
     "She checked herself hastily."
 
     camera:
@@ -5752,6 +5762,7 @@ label chapter10:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     
     show alice disturbed at breathing
+    voice "n1470"
     "Alice was thoroughly puzzled."
     show alice surprised at breathing
     voice "alice341"
@@ -5765,6 +5776,7 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice thinking at breathing
+    voice "n1471"
     "Alice looked down at them, and considered a little before she gave her answer."
     voice "alice342"
     alice "They’re done with blacking, I believe."
@@ -5815,6 +5827,8 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
+    show angry at angrily:
+        xpos turtle_pos ypos 0.89 xoffset 390 yoffset -620 zoom 0.7
     voice "mock50"
     mock "*offended* I mean what I say."
 
@@ -5822,7 +5836,7 @@ label chapter10:
         ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon36"
     gryphon "Come, let’s hear some of your adventures." 
-
+    hide angry
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice thinking at breathing
@@ -5842,13 +5856,16 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice normal at breathing
+    voice "n1472"
     "So Alice began telling them her adventures from the time when she first saw the White Rabbit."
     # get close
     show turtle at breathing:
         ease 1.0 xoffset 555 yoffset 0
     show gryphon at breathing:
         ease 1.0 xoffset 180 yoffset 0
-    "She was a little nervous about it just at first, the two creatures got so close to her, one on each side, and opened their eyes and mouths so very wide, but she gained courage as she went on."
+    voice "n1473"
+    "She was a little nervous about it just at first, but the two creatures got so close to her, one on each side, and opened their eyes and mouths so very wide, that she gained courage as she went on."
+    voice "n1474"
     "Her listeners were perfectly quiet till she got to the part about her repeating “You are old, Father William” to the Caterpillar, and the words all coming different, and then the Mock Turtle drew a long breath, and said:"
     show turtle at breathing:
         ease 0.5 xoffset 0 yoffset 0
@@ -5870,6 +5887,7 @@ label chapter10:
     mock "It all came different!"
     voice "mock54"
     mock "I should like to hear her try and repeat something now. Tell her to begin."
+    voice "n1475"
     "He looked at the Gryphon as if he thought it had some kind of authority over Alice."
     
     camera:
@@ -5885,6 +5903,7 @@ label chapter10:
     voice "alice349"
     alice "(I might as well be at school at once)"
     show alice thinking at breathing
+    voice "n1476"
     "However, she got up, and began to repeat it, but her head was so full of the Lobster Quadrille, that she hardly knew what she was saying, and the words came very queer indeed:—"
     voice "alice350"
     alice "’Tis the voice of the Lobster; \n{space=30}I heard him declare,
@@ -5910,6 +5929,7 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice crying at breathing
+    voice "n1477"
     "Alice said nothing; she had sat down with her face in her hands, wondering if anything would ever happen in a natural way again."
 
     camera:
@@ -5934,6 +5954,7 @@ label chapter10:
     show alice thinking at breathing
     voice "alice351"
     alice "It’s the first position in dancing."
+    voice "n1478"
     "She was dreadfully puzzled by the whole thing, and longed to change the subject."
 
     camera:
@@ -5943,6 +5964,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    voice "n1479"
     "Alice did not dare to disobey, though she felt sure it would all come wrong, and she went on in a trembling voice:—"
     voice "alice352"
     alice "I passed by his garden, \n{space=30}and marked, with one eye,
@@ -5968,6 +5990,7 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     show alice normal at breathing
+    voice "n1480"
     "Alice was only too glad to do so."
 
     camera:
@@ -5991,6 +6014,7 @@ label chapter10:
     camera:
         ease cam_transition xpos -700 ypos 1600 zoom 2.0 # turtle
     stop music fadeout 1.0
+    voice "n1481"
     "The Mock Turtle sighed deeply, and began, in a voice sometimes choked with sobs, to sing this:—"
     play music "audio/rinne sad.mp3" fadein 1.0 fadeout 1.0
     voice "mock60"
@@ -6025,6 +6049,7 @@ label chapter10:
 
     camera:
         ease cam_transition xpos -120 ypos 0 zoom 1.0 # NEUTRAL
+    voice "n1482"
     "The Mock Turtle had just begun to repeat it, when a cry of “The trial’s beginning!” was heard in the distance."
 
     show gryphon at breathing:
@@ -6040,12 +6065,15 @@ label chapter10:
     camera:
         zoom 1.0 ypos 0
         linear 10.0 xpos 1530
+    voice "n1483"
     "The Gryphon took Alice by the hand, and hurried off, without waiting for the end of the song."
     voice "alice355"
     alice "What trial is it?"
+    voice "n1484"
     "Alice panted as she ran."
     voice "gryphon49"
     gryphon "Come on!"
+    voice "n1485"
     "He ran faster, while more and more faintly came, carried on the breeze that followed them, the melancholy words:—"
 
     camera:
