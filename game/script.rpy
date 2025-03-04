@@ -158,8 +158,8 @@ define alice_scale = 0.55
 define alice_scale_large = 1.3
 define rabbit_scale = 0.7
 define mouse_scale = 0.5
-define queen_scale = 0.65
-define king_scale = 0.7
+define queen_scale = 0.98
+define king_scale = 1.0
 define cat_scale = 0.5
 define duchess_scale = 0.52
 
@@ -254,6 +254,7 @@ image alice joking = Model().child("alice joking.png", fit=True).texture("alice_
 
 image queen normal = Model().child("queen normal.png", fit=True).texture("queen_mask.png")
 image queen happy = Model().child("queen happy.png", fit=True).texture("queen_mask.png")
+image queen angry = Model().child("queen angry.png", fit=True).texture("queen_mask.png")
 
 image king = Model().child("king.png", fit=True).texture("king_mask.png")
 image king scared = Model().child("king scared.png", fit=True).texture("king_mask.png")
@@ -5928,7 +5929,7 @@ label chapter10:
     mock "Well, I never heard it before, but it sounds uncommon nonsense."
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
-    show alice crying at breathing
+    show alice pout at breathing
     voice "n1477"
     "Alice said nothing; she had sat down with her face in her hands, wondering if anything would ever happen in a natural way again."
 
@@ -6135,11 +6136,11 @@ label setup_court:
     define court_knave = 5195
 
     show king at breathing:
-        ypos 1.0 xpos court_king zpos -900
+        ypos 1.03 xpos court_king zpos -900
         zoom king_scale
 
     show queen normal at breathing:
-        ypos 1.0 xpos court_queen zpos -900
+        ypos 1.03 xpos court_queen zpos -900
         zoom queen_scale
 
     show desc at anchor:
