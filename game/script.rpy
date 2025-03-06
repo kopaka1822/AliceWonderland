@@ -4333,6 +4333,7 @@ label chapter8:
         ease cam_transition xpos queen_garden zoom 1.0 ypos 0
     voice "n1368"
     "The Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed:"
+    show queen angry at breathing
     voice "queen05"
     queen "Off with her head! Off—"
 
@@ -4341,6 +4342,7 @@ label chapter8:
     show alice pout at breathing
     voice "alice272"
     alice "Nonsense!" #  said Alice, very loudly and decidedly, and the Queen was silent.
+    show queen normal at breathing
     "..."
 
     camera:
@@ -4354,9 +4356,10 @@ label chapter8:
         ease cam_transition xpos queen_garden zoom 1.0 ypos 0
     voice "n1370"
     "The Queen turned angrily away from him, and said to the Knave:"
+    show queen angry at breathing
     voice "queen06"
     queen "Turn them over!"
-
+    show queen normal at breathing
     # move knave
     show knave:
         ease 0.5 xpos card5_garden
@@ -4414,12 +4417,16 @@ label chapter8:
         ease cam_transition xpos card5_garden zoom 1.0 ypos 0
     voice "n1371"
     "The Knave did so, very carefully, with one foot."
+    show queen angry at breathing
     voice "queen07"
     queen "Get up!" # said the Queen, in a shrill, loud voice,
+    show queen normal at breathing
     voice "n1372"
     "The three gardeners instantly jumped up, and began bowing to the King, the Queen, the royal children, and everybody else."
+    show queen angry at breathing
     voice "queen08"
     queen "Leave off that!" # screamed the Queen.
+    show queen normal at breathing
     voice "queen09"
     queen "You make me giddy."
 
@@ -4429,10 +4436,12 @@ label chapter8:
     queen "What have you been doing here?"
     voice "two5"
     two "May it please your Majesty, we were trying—" # said Two, in a very humble tone, going down on one knee as he spoke
+    show queen happy at breathing
     voice "queen11"
     queen "I see!"
     voice "n1374"
     "The queen had meanwhile been examining the roses."
+    show queen angry at breathing
     voice "queen12"
     queen "Off with their heads!"
     # queen disappear
@@ -4578,8 +4587,10 @@ label ch8_croquet:
         perspective True
         xpos 0 ypos 0 zpos 0 xoffset -center_offset
 
+    show queen angry at breathing
     voice "queen17"
     queen "Get to your places!"
+    show queen normal at breathing
     voice "n1383"
     "Shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began."
 
@@ -4602,6 +4613,7 @@ label ch8_croquet:
     "The players all played at once without waiting for turns, quarrelling all the while, and fighting for the hedgehogs; and in a very short time the Queen was in a furious passion, and went stamping about:"
     camera:
         ease cam_transition xpos queen_croquet zoom 2.0 ypos 700
+    show queen angry at breathing
     voice "queen18"
     queen "Off with his head!"
     camera:
@@ -4611,7 +4623,7 @@ label ch8_croquet:
     "Or"
     camera:
         ease cam_transition xpos queen_croquet zoom 2.0 ypos 700
-    show queen normal  at breathing
+    show queen angry  at breathing
     voice "queen19"
     queen "Off with her head!" 
     camera:
@@ -4753,8 +4765,10 @@ label ch8_croquet:
         ease cam_transition xpos 0.57 ypos 700 zoom 2.0
     voice "n1401"
     "The Queen had only one way of settling all difficulties, great or small."
+    show queen angry at breathing
     voice "queen20"
     queen "Off with his head!"
+    show queen normal at breathing
     voice "n1402"
     "She said, without even looking round."
 
@@ -5031,18 +5045,21 @@ label chapter9:
 
     voice "duchess29"
     duchess "A fine day, your Majesty!" # the Duchess began in a low, weak voice.
+    show queen angry at breathing
     voice "queen22"
     queen "Now, I give you fair warning, either you or your head must be off, and that in about half no time! Take your choice!"
     #"Shouted the Queen, stamping on the ground as she spoke."
     voice "n1432"
     "The Queen was stamping on the ground as she spoke."
-
+    show queen normal at breathing
     show duchess:
         linear 1.0 xpos 2.0
     voice "n1433"
     "The Duchess took her choice, and was gone in a moment."
+    show queen happy at breathing
     voice "queen23"
     queen "Let’s go on with the game."
+    show queen normal at breathing
     voice "n1434"
     "The Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground."
 
@@ -5061,8 +5078,10 @@ label chapter9:
     show alice thinking at breathing
     voice "alice306"
     alice "No, I don’t even know what a Mock Turtle is."
+    show queen happy at breathing
     voice "queen25"
     queen "It’s the thing Mock Turtle Soup is made from."
+    show queen normal at breathing
     voice "alice307"
     alice "I never saw one, or heard of one."
     voice "queen26"
@@ -5071,7 +5090,7 @@ label chapter9:
     # start walk
     show alice thinking at breathing:
         linear 10.0 xpos 0.0 # start from 1.3
-    show queen happy at breathing:
+    show queen normal at breathing:
         linear 10.0 xpos -0.5 # start from 0.8
     camera:
         linear 10.0 xpos -0.25 ypos 0 zoom 1.0
@@ -5104,13 +5123,16 @@ label ch9_gryphon:
     voice "n1441"
     "They very soon came upon a Gryphon, lying fast asleep in the sun."
     # "(If you don’t know what a Gryphon is, look at the picture)"
+    show queen angry at breathing
     voice "queen27"
     queen "Up, lazy thing!"
+    show queen normal at breathing
     voice "queen28"
     queen "And take this young lady to see the Mock Turtle, and to hear his history."
+    show queen happy at breathing
     voice "queen29"
     queen "I must go back and see after some executions I have ordered."
-    show queen normal at breathing:
+    show queen happy at breathing:
         linear 1.0 xpos 2.0
     show alice thinking at breathing:
         ease 3.0 xpos 1.2
@@ -6860,11 +6882,13 @@ label chapter12:
     king "You are."
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    show queen happy at breathing
     voice "queen33"
     queen "Nearly two miles high."
 
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
+    show queen normal at breathing
     show alice joking at breathing
     voice "alice376"
     alice "Well, I shan’t go, at any rate, besides, that’s not a regular rule: you invented it just now."
@@ -7075,6 +7099,7 @@ label chapter12:
     king "Nothing can be clearer than that. Then again—‘before she had this fit—’ you never had fits, my dear, I think?"
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    show queen angry at breathing
     voice "queen36"
     queen "Never!"
 
@@ -7085,6 +7110,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    show queen normal at breathing
     voice "king60"
     king "Then the words don’t fit you."
     "The King was looking round the court with a smile."
@@ -7114,6 +7140,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    show queen angry at breathing
     voice "queen38"
     queen "Hold your tongue!"
     "The queen turned purple."
