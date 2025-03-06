@@ -6087,6 +6087,7 @@ label chapter11:
     $ persistent.started_story = True
     scene black
     call reset_camera
+    voice "n1486"
     "{size=+40}Chapter XI: \n{/size}Who Stole the Tarts?"
 
     jump ch11_court
@@ -6184,35 +6185,43 @@ label ch11_court:
     camera:
         perspective True
         xpos 3905 xoffset -center_offset
+    voice "n1487"
     "The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards:"
     camera:
         ease cam_transition xpos 4730
+    voice "n1488"
     "The Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other."
     camera:
         ease cam_transition xpos 2560 ypos 300 # tarts
+    voice "n1489"
     "In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—"
     voice "alice356"
     alice "(I wish they’d get the trial done and hand round the refreshments!)"
+    voice "n1490"
     "But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time."
-
+    voice "n1491"
     "Alice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there."
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000
     voice "alice357"
-    alice "(That’s the judge, because of his great wig."
+    alice "(That’s the judge, because of his great wig)"
+    voice "n1492"
     "The judge, by the way, was the King; and as he wore his crown over the wig, he did not look at all comfortable, and it was certainly not becoming." # (look at the frontispiece if you want to see how he did it,)
 
     camera:
         ease cam_transition xpos court_jury ypos 0 zpos -500
     voice "alice358"
     alice "(And that’s the jury-box and those twelve creatures—"
+    voice "n1493"
     "(she was obliged to say “creatures,” you see, because some of them were animals, and some were birds)"
     voice "alice359"
     alice "(I suppose they are the jurors)"
+    voice "n1494"
     "She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all."
+    voice "n1495"
     "However, “jury-men” would have done just as well."
-
+    voice "n1496"
     "The twelve jurors were all writing very busily on slates."
 
     camera:
@@ -6234,24 +6243,29 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -500
     show alice thinking at breathing
+    voice "n1497"
     "The King put on his spectacles and looked anxiously round, to make out who was talking."
 
     camera:
         ease cam_transition xpos court_jury ypos 0 zpos -500
+    voice "n1498"
     "Alice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid” and that he had to ask his neighbour to tell him."
     voice "alice362"
     alice "(A nice muddle their slates’ll be in before the trial’s over!)"
     
-    show alice normal at breathing zorder 1:
+    show alice disturbed at breathing zorder 1:
         ease 1.0 zpos -900 xpos 1525
+    voice "n1499"
     "One of the jurors had a pencil that squeaked."
 
-    show alice normal at breathing zorder 1:
+    show alice disturbed at breathing zorder 1:
         ease 1.0 zpos -900 xpos court_bill
+    voice "n1500"
     "This of course, Alice could not stand, and she went round the court and got behind him, and very soon found an opportunity of taking it away."
 
     show alice normal at breathing zorder 1:
         ease 1.0 zpos -900 xpos court_alice
+    voice "n1501"
     "She did it so quickly that the poor little juror (it was Bill, the Lizard) could not make out at all what had become of it; so, after hunting all about for it, he was obliged to write with one finger for the rest of the day; and this was of very little use, as it left no mark on the slate."
 
     # reset alice pos
@@ -6265,6 +6279,7 @@ label ch11_court:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     
     play sound "sfx/fanfare.mp3"
+    voice "n1502"
     "On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—"
     voice "rabbit25"
     rabbit "The Queen of Hearts, she made some tarts,
@@ -6290,16 +6305,18 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000
     play sound "sfx/fanfare.mp3"
+    voice "n1503"
     "The White Rabbit blew three blasts on the trumpet."
     voice "rabbit27"
-    rabbit "First witnes!"
+    rabbit "First witness!"
 
     show hatter at breathing:
         ypos 1.0 xpos court_witness zoom hatter_scale zpos -350
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos 0
-
+    voice "n1504"
     "The first witness was the Hatter."
+    voice "n1505"
     "He came in with a teacup in one hand and a piece of bread-and-butter in the other."
 
     camera:
@@ -6320,6 +6337,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_hare ypos 365 zpos -500 # hare
+    voice "n1506"
     "The Hatter looked at the March Hare, who had followed him into the court, arm-in-arm with the Dormouse."
 
     camera:
@@ -6344,6 +6362,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_jury ypos 0 zpos -500 # jury
+    voice "n1507"
     "The jury eagerly wrote down all three dates on their slates, and then added them up, and reduced the answer to shillings and pence."
     
     camera:
@@ -6363,6 +6382,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_jury ypos 0 zpos -500 # jury
+    voice "n1508"
     "The king turned to the jury, who instantly made a memorandum of the fact."
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
@@ -6370,6 +6390,7 @@ label ch11_court:
     hatter "I keep them to sell. I’ve none of my own. I’m a hatter."
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    voice "n1509"
     "Here the Queen put on her spectacles, and began staring at the Hatter, who turned pale and fidgeted."
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
@@ -6378,12 +6399,14 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "n1510"
     "This did not seem to encourage the witness at all: he kept shifting from one foot to the other, looking uneasily at the Queen, and in his confusion he bit a large piece out of his teacup instead of the bread-and-butter."
 
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     show alice thinking at breathing:
         easeout 30.0 zoom 0.7
+    voice "n1511"
     "Just at this moment Alice felt a very curious sensation, which puzzled her a good deal until she made out what it was: she was beginning to grow larger again, and she thought at first she would get up and leave the court; but on second thoughts she decided to remain where she was as long as there was room for her."
 
     camera:
@@ -6412,18 +6435,20 @@ label ch11_court:
     dormouse "Yes, but I grow at a reasonable pace, not in that ridiculous fashion."
     
     show dormouse sleep at breathing:
-        ypos 1.0 xpos court_dormouse2 zpos -260 zoom dormouse_scale xzoom 1.0
-
+        ease 10 ypos 1.0 xpos court_dormouse2 zpos -260 zoom dormouse_scale xzoom 1.0
+    voice "n1512"
     "He got up very sulkily and crossed over to the other side of the court."
 
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    voice "n1513"
     "All this time the Queen had never left off staring at the Hatter, and, just as the Dormouse crossed the court, she said to one of the officers of the court:"
     voice "queen30"
     queen "Bring me the list of the singers in the last concert!"
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
+    voice "n1514"
     "On which the wretched Hatter trembled so, that he shook both his shoes off."
 
     camera:
@@ -6485,6 +6510,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_dormouse2 ypos 700 zpos -580 # dormouse2
+    voice "n1515"
     "The Hatter went on, looking anxiously round to see if he would deny it too: but the Dormouse denied nothing, being fast asleep."
 
     camera:
@@ -6506,6 +6532,7 @@ label ch11_court:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king22"
     king "You must remember, or I’ll have you executed."
+    voice "n1516"
     "The miserable Hatter dropped his teacup and bread-and-butter, and went down on one knee."
 
     camera:
@@ -6517,8 +6544,9 @@ label ch11_court:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king23"
     king "You’re a very poor speaker."
-
+    voice "n1517"
     "Here one of the guinea-pigs cheered, and was immediately suppressed by the officers of the court."
+    voice "n1518"
     "(As that is rather a hard word, I will just explain to you how it was done. They had a large canvas bag, which tied up at the mouth with strings: into this they slipped the guinea-pig, head first, and then sat upon it)"
 
     camera:
@@ -6541,6 +6569,7 @@ label ch11_court:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king25"
     king "Then you may sit down."
+    voice "n1519"
     "Here the other guinea-pig cheered, and was suppressed."
 
     camera:
@@ -6552,6 +6581,7 @@ label ch11_court:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     voice "hatter48"
     hatter "I’d rather finish my tea."
+    voice "n1520"
     "The hatter looked anxiously at the Queen, who was reading the list of singers."
 
     camera:
@@ -6563,6 +6593,7 @@ label ch11_court:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     show hatter at breathing:
         linear 3.0 xpos 500
+    voice "n1521"
     "The Hatter hurriedly left the court, without even waiting to put his shoes on."
 
     camera:
@@ -6573,6 +6604,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # neutral
+    voice "n1522"
     "But the Hatter was out of sight before the officers could get to the door."
     "..."
 
@@ -6585,7 +6617,9 @@ label ch11_court:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # neutral
     show cook at breathing:
         ypos 1.0 xpos court_witness zoom cook_scale zpos -350
+    voice "n1523"
     "The next witness was the Duchess’s cook."
+    voice "n1524"
     "She carried the pepper-box in her hand, and Alice guessed who it was, even before she got into the court, by the way the people near the door began sneezing all at once."
 
     camera:
@@ -6600,6 +6634,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
+    voice "n1525"
     "The King looked anxiously at the White Rabbit:"
     voice "rabbit28"
     rabbit "*whispering* Your Majesty must cross-examine this witness."
@@ -6608,6 +6643,7 @@ label ch11_court:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king29"
     king "Well, if I must, I must."
+    voice "n1527"
     "After folding his arms and frowning at the cook till his eyes were nearly out of sight, he said in a deep voice:"
     
     camera:
@@ -6627,6 +6663,7 @@ label ch11_court:
     
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    show queen angry at breathing
     voice "queen32"
     queen "*shriek* Collar that Dormouse! Behead that Dormouse! Turn that Dormouse out of court! Suppress him! Pinch him! Off with his whiskers!"
 
@@ -6635,16 +6672,19 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # neutral
+    voice "n1528"
     "For some minutes the whole court was in confusion, getting the Dormouse turned out, and, by the time they had settled down again, the cook had disappeared."
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    show queen normal at breathing
     voice "king31"
     king "Never mind!" # said the King, with an air of great relief. 
     voice "king32"
     king "Call the next witness."
     camera:
         ease cam_transition xpos 3905 ypos 0 zpos -1000
+    voice "n1529"
     "And he added in an undertone to the Queen:"
     voice "king33"
     king "Really, my dear, you must cross-examine the next witness. It quite makes my forehead ache!"
@@ -6652,9 +6692,11 @@ label ch11_court:
     show alice thinking at breathing
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
+    voice "n1530"
     "Alice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like."
     voice "alice367"
     alice "(They haven’t got much evidence yet)"
+    voice "n1531"
     "Imagine her surprise, when the White Rabbit read out, at the top of his shrill little voice, the name:"
 
     camera:
