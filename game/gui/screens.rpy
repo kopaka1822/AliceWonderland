@@ -383,11 +383,22 @@ screen main_menu():
             padding(10, 10)  # Add some padding around the content
             hbox:
                 align (.5, 1.0)  # Center horizontally and align at the bottom
-                textbutton "BGM by Rinne " action OpenURL("https://www.youtube.com/channel/UCo7fO7SwKzRmm9xGxHJVhaA")
+                textbutton "Art by Piko     " action OpenURL("https://www.tumblr.com/blog/umusan") xalign 0.0
+                imagebutton:
+                    idle "gui/tumblr_logo.png"
+                    hover "gui/tumblr_logo_hover.png"
+                    action OpenURL("https://www.tumblr.com/blog/umusan")
+                    xalign 1.0
+        frame:
+            padding(10, 10)  # Add some padding around the content
+            hbox:
+                align (.5, 1.0)  # Center horizontally and align at the bottom
+                textbutton "BGM by Rinne " action OpenURL("https://www.youtube.com/channel/UCo7fO7SwKzRmm9xGxHJVhaA") xalign 0.0
                 imagebutton:
                     idle "gui/yt_logo.png"
                     hover "gui/yt_logo_hover.png"
                     action OpenURL("https://www.youtube.com/channel/UCo7fO7SwKzRmm9xGxHJVhaA")
+                    xalign 1.0
 
 
 
@@ -1471,7 +1482,7 @@ screen credits():
         style_prefix "credits"
         text "Director:         Kopaka"
         text "\nOriginal Script:  Lewis Carroll"
-        text "\nArt:              Piko"
+        text "\nArt:              {a=https://www.tumblr.com/blog/umusan}Piko{/a}"
         text "\nMusic:            {a=https://www.youtube.com/@RinneMusic}Rinne Music{/a}"
         text "\nLead Programmer:  Kopaka"
         text "Assistant:        Nomander"
