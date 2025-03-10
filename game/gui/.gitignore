@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Ren'Py cache and compiled script files
+*.rpyc
+cache/
+saves/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ren'Py specific gitignore entries
+game/saves/
+game/cache/
+game/renpy/
+game/lib/
+game/tmp/
+*.rpyb
+*.bak
