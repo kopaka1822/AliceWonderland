@@ -310,10 +310,10 @@ screen main_menu():
     add gui.main_menu_background
 
     # title
-    vbox:
-        xalign 0.5
-        yalign 0.1
-        text menu_title size 80 color "#000" font "HennyPenny-Regular.ttf"
+    #vbox:
+    #    xalign 0.5
+    #    yalign 0.1
+    #    text menu_title size 80 color "#000" font "HennyPenny-Regular.ttf"
 
     vbox:
 
