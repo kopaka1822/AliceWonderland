@@ -6730,6 +6730,7 @@ label chapter12:
     $ persistent.started_story = True
     scene black
     call reset_camera
+    voice "n1532"
     "{size=+40}Chapter XII: \n{/size}Alice's Evidence"
 
     call setup_court
@@ -6762,6 +6763,7 @@ label chapter12:
 
 
     #"Cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
+    voice "n1533"
     "Alice forgot in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before."
 
     show alice surprised at breathing:
@@ -6776,6 +6778,7 @@ label chapter12:
     show bill at breathing:
         pause 0.5
         ease 1.0 zrotate 180
+    voice "n1534"
     "She began picking them up again as quickly as she could, for the accident of the goldfish kept running in her head, and she had a vague sort of idea that they must be collected at once and put back into the jury-box, or they would die."
 
     camera:
@@ -6786,13 +6789,16 @@ label chapter12:
         ease cam_transition xpos court_king ypos 0 zpos -1200 # king zoom
     voice "king35"
     king "All!"
+    voice "n1535"
     "He repeated the last word with great emphasis, looking hard at Alice as he said so."
     
     camera:
         ease cam_transition xpos court_bill zpos -1000 ypos 300 # jury bill
+    voice "n1536"
     "Alice looked at the jury-box, and saw that, in her haste, she had put the Lizard in head downwards, and the poor little thing was waving its tail about in a melancholy way, being quite unable to move."
     show bill at breathing:
         ease 1.0 zrotate 0
+    voice "n1537"
     "She soon got it out again, and put it right."
     voice "alice370"
     alice "(not that it signifies much)" 
@@ -6801,6 +6807,7 @@ label chapter12:
 
     show alice thinking at breathing:
         ease 1.0 xpos court_witness zpos -350
+    voice "n1538"
     "As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court."
 
     camera:
@@ -6832,44 +6839,53 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_jury ypos 0 zpos -900 # jury
+    voice "n1539"
     "The king turned to the jury."
+    voice "n1540"
     "They were just beginning to write this down on their slates, when the White Rabbit interrupted:"
 
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     voice "rabbit44"
     rabbit "Unimportant, your Majesty means, of course."
+    voice "n1541"
     "He said in a very respectful tone, but frowning and making faces at him as he spoke."
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king39"
     king "Unimportant, of course, I meant."
+    voice "n1542"
     "The King  went on to himself in an undertone:"
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1200 # king zoom
     voice "king40"
     king "(important—unimportant—unimportant—important—)"
+    voice "n1543"
     "As if he were trying which word sounded best."
-
+    voice "n1544"
     "Some of the jury wrote it down “important,” and some “unimportant.”"
     
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
     show alice thinking at breathing
+    voice "n1545"
     "Alice could see this, as she was near enough to look over their slates."
     voice "alice374"
     alice "(But it doesn’t matter a bit...)"
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
+    voice "n1546"
     "At this moment the King, who had been for some time busily writing in his note-book, cackled out:"
     voice "king41"
     king "Silence!"
+    voice "n1547"
     "And he read out from his book:"
     voice "king42"
     king "Rule Forty-two. All persons more than a mile high have to leave the court."
     camera:
         ease cam_transition xpos court_witness ypos -315 zpos -500 # alice 
+    voice "n1548"
     "Everybody looked at Alice."
 
     show alice pout at breathing
@@ -6907,9 +6923,11 @@ label chapter12:
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     show king scared  at breathing
+    voice "n1549"
     "The King turned pale, and shut his note-book hastily."
     voice "king45"
     king "Consider your verdict."
+    voice "n1550"
     "He said to the jury, in a low, trembling voice."
 
     # hide alice because of clipping
@@ -6918,6 +6936,7 @@ label chapter12:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     voice "rabbit30"
     rabbit "There’s more evidence to come yet, please your Majesty."
+    voice "n1551"
     "The White Rabbit was jumping up in a great hurry."
     voice "rabbit31"
     rabbit "This paper has just been picked up."
@@ -6947,6 +6966,7 @@ label chapter12:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
     voice "rabbit33"
     rabbit "It isn’t directed at all, in fact, there’s nothing written on the outside."
+    voice "n1552"
     "He unfolded the paper as he spoke."
     voice "rabbit34"
     rabbit "It isn’t a letter, after all: it’s a set of verses."
@@ -6963,12 +6983,14 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_jury zpos -900 ypos 0 # jury
+    voice "n1553"
     "(The jury all looked puzzled)"
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king47"
     king "He must have imitated somebody else’s hand."
+    voice "n1554"
     "(The jury all brightened up again)"
 
     
@@ -6981,6 +7003,7 @@ label chapter12:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king48"
     king "If you didn’t sign it, that only makes the matter worse. You must have meant some mischief, or else you’d have signed your name like an honest man."
+    voice "n1555"
     "There was a general clapping of hands at this: it was the first really clever thing the King had said that day."
     
     camera:
@@ -7006,6 +7029,7 @@ label chapter12:
     hide alice # because of clipping
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -1000 # rabbit
+    voice "n1556"
     "The White Rabbit put on his spectacles."
     voice "rabbit36"
     rabbit "Where shall I begin, please your Majesty?"
@@ -7044,10 +7068,12 @@ label chapter12:
         ease cam_transition xpos court_witness ypos -800 zpos -500 # alice 
     voice "alice380"
     alice "If any one of them can explain it I’ll give him sixpence. I don’t believe there’s an atom of meaning in it."
+    voice "n1557"
     "(she had grown so large in the last few minutes that she wasn’t a bit afraid of interrupting him)"
 
     camera:
         ease cam_transition xpos court_jury zpos -900 ypos 0 # jury
+    voice "n1558"
     "The jury all wrote down on their slates: “She doesn’t believe there’s an atom of meaning in it”, but none of them attempted to explain the paper."
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
@@ -7055,6 +7081,7 @@ label chapter12:
     king "If there’s no meaning in it, that saves a world of trouble, you know, as we needn’t try to find any."
     voice "king54"
     king "And yet I don’t know..."
+    voice "n1559"
     "He went on, spreading out the verses on his knee, and looking at them with one eye."
     voice "king55"
     king "I seem to see some meaning in them, after all. “—said I could not swim—” you can’t swim, can you?"
@@ -7062,17 +7089,20 @@ label chapter12:
     hide alice
     camera:
         ease cam_transition xpos court_knave ypos 0 zpos -500 # knave
+    voice "n1560"
     "He turned to the Knave."
-
+    voice "n1561"
     "The Knave shook his head sadly."
     voice "knave2"
     knave "Do I look like it?"
+    voice "n1562"
     "(He certainly did not, being made entirely of cardboard)"
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king56"
     king "All right, so far."
+    voice "n1563"
     "The King went on muttering over the verses to himself:"
     voice "king57"
     king "‘We know it to be true—’ that’s the jury, of course—‘I gave her one, they gave him two—’ why, that must be what he did with the tarts, you know—” "
@@ -7091,6 +7121,7 @@ label chapter12:
 
     camera:
         ease cam_transition xpos 2560 ypos 300 zpos 0 # tarts
+    voice "n1564"
     "The King triumphantly pointed to the tarts on the table."
 
     camera:
@@ -7105,7 +7136,9 @@ label chapter12:
 
     camera:
         ease cam_transition xpos court_bill zpos -1000 ypos 300 # jury bill
+    voice "n1565"
     "Said the Queen furiously, throwing an inkstand at the Lizard as she spoke."
+    voice "n1566"
     "(The unfortunate little Bill had left off writing on his slate with one finger, as he found it made no mark; but he now hastily began again, using the ink, that was trickling down his face, as long as it lasted)"
 
     camera:
@@ -7113,14 +7146,17 @@ label chapter12:
     show queen normal at breathing
     voice "king60"
     king "Then the words don’t fit you."
+    voice "n1570"
     "The King was looking round the court with a smile."
     "..."
+    voice "n1571"
     "There was a dead silence."
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king61"
     king "*offended* It’s a pun!" 
+    voice "n1572"
     "Everybody laughed."
     voice "king62"
     king "Let the jury consider their verdict."
@@ -7143,6 +7179,7 @@ label chapter12:
     show queen angry at breathing
     voice "queen38"
     queen "Hold your tongue!"
+    voice "n1573"
     "The queen turned purple."
 
     camera:
@@ -7155,7 +7192,9 @@ label chapter12:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
     voice "queen39"
     queen "Off with her head!"
+    voice "n1574"
     "The Queen shouted at the top of her voice."
+    voice "n1575"
     "Nobody moved."
 
     camera:
@@ -7164,6 +7203,7 @@ label chapter12:
         zoom 1.5
     voice "alice385"
     alice "Who cares for you?"
+    voice "n1576"
     "(Alice had grown to her full size by this time)"
     voice "alice386"
     alice "You’re nothing but a pack of cards!"
@@ -7173,6 +7213,7 @@ label chapter12:
         ease 0.5 zrotate 0.1
         repeat
     show alice surprised at breathing
+    voice "n1577"
     "At this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face."
 
     scene black
@@ -7192,11 +7233,13 @@ label chapter12:
     sister "Why, what a long sleep you’ve had!"
     voice "alice387"
     alice "Oh, I’ve had such a curious dream!" 
+    voice "n1578"
     "She told her sister, as well as she could remember them, all these strange Adventures of hers that you have just been reading about; and when she had finished, her sister kissed her."
     voice "sister3"
     sister "It was a curious dream, dear, certainly: but now run in to your tea; it’s getting late."
+    voice "n1579"
     "So Alice got up and ran off, thinking while she ran, as well she might, what a wonderful dream it had been."
-
+    voice "n1580"
     "But her sister sat still just as she left her, leaning her head on her hand, watching the setting sun, and thinking of little Alice and all her wonderful Adventures, till she too began dreaming after a fashion, and this was her dream:—"
 
     voice "na01"
