@@ -11023,4 +11023,83 @@ translate german strings:
 # TODO: Translation updated at 2024-11-09 12:45
 
 
-# game/script.rpy:2362
+
+# game/script.rpy:1148
+translate german chapter2_dfd7d7b2:
+
+    # voice "alice069"
+    # alice "Oh, I beg your pardon!"
+    alice "Sorry!"
+
+
+# game/script.rpy:2432
+translate german chapter5_5c7332b5:
+
+    # voice "alice161"
+    # alice "(I wish the creatures wouldn’t be so easily offended!)"
+    pass
+
+# game/script.rpy:2952
+translate german ch6_kitchen_d01b78bf:
+
+    # voice "duchess09"
+    # duchess "Here! you may nurse it a bit, if you like!"
+    duchess "Hier! Du darfst dich auch mal um den kleinen kümmern!"
+
+
+# game/script.rpy:5195
+translate german ch9_gryphon_2291bd55:
+
+    # voice "alice312"
+    # alice "(I don’t see how he can ever finish, if he doesn’t begin)"
+    alice "(Wenn er nicht anfängt, wird er niemals fertig)"
+
+# game/script.rpy:5889
+translate german chapter10_7adca745:
+
+    # voice "n1473"
+    # "She was a little nervous about it just at first, but the two creatures got so close to her, one on each side, and opened their eyes and mouths so very wide, that she gained courage as she went on."
+    "Zuerst war sie ein bisschen nervös. Aber die beiden Kreaturen kamen ihr so nahe, einer auf jeder Seite. Sie öffneten ihre Augen und Münder so weit, dass Alice immer mehr Mut fasste, während sie weiter erzählte."
+
+# game/script.rpy:6229
+translate german ch11_court_ddfbec90:
+
+    # voice "alice357"
+    # alice "(That’s the judge, because of his great wig)"
+    alice "(Das ist der Richter, wegen seiner riesigen Perücke!)"
+
+# game/script.rpy:6332
+translate german ch11_court_c5d2edd9:
+
+    # voice "rabbit27"
+    # rabbit "First witness!"
+    rabbit "Der erste Zeuge!"
+
+# game/script.rpy:7223
+translate german chapter12_6047d7a4:
+
+    # voice "sister1"
+    # sister "Wake up, Alice dear!"
+    sister "Alice, wach auf!"
+
+# game/script.rpy:7232
+translate german chapter12_aa355fee:
+
+    # voice "sister2"
+    # sister "Why, what a long sleep you’ve had!"
+    sister "Wow, du hast wirklich lange geschlafen!"
+
+# game/script.rpy:7238
+translate german chapter12_bc4aaecc:
+
+    # voice "sister3"
+    # sister "It was a curious dream, dear, certainly: but now run in to your tea; it’s getting late."
+    sister "Ich hatte einen super spannenden Traum!"
+
+# game/script.rpy:7245
+translate german chapter12_15d1712f:
+
+    # voice "na01"
+    # "First, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers."
+    "Zuerst träumte sie von Alice."
+

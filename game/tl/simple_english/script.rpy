@@ -10950,10 +10950,95 @@ translate simple_english chapter12_be6510ea:
     #voice "n1580"
     "But her sister sat still just as she left her, leaning her head on her hand, watching the setting sun, and thinking of little Alice and all her wonderful Adventures, till she too began dreaming after a fashion, and this was her dream:—"
 
-# game/script.rpy:6530
-    #voice "alice001"
-    #voice "n1038"
-    #voice "n1050"
-    #voice "alice037"
-    #voice "n1073"
-    #voice "alice295"
+
+# game/script.rpy:2432
+translate simple_english chapter5_5c7332b5:
+
+    # voice "alice161"
+    # alice "(I wish the creatures wouldn’t be so easily offended!)"
+    voice "alice161"
+    alice "(I wish the creatures wouldn’t be so easily offended!)"
+
+# game/script.rpy:5195
+translate simple_english ch9_gryphon_2291bd55:
+
+    # voice "alice312"
+    # alice "(I don’t see how he can ever finish, if he doesn’t begin)"
+    alice "(I don’t see how he can ever finish, if he doesn’t begin)"
+
+# game/script.rpy:5889
+translate simple_english chapter10_7adca745:
+
+    # voice "n1473"
+    # "She was a little nervous about it just at first, but the two creatures got so close to her, one on each side, and opened their eyes and mouths so very wide, that she gained courage as she went on."
+    "She was a little nervous about it just at first, but the two creatures got so close to her, one on each side, and opened their eyes and mouths so very wide, that she gained courage as she went on."
+
+# game/script.rpy:6229
+translate simple_english ch11_court_ddfbec90:
+
+    # voice "alice357"
+    # alice "(That’s the judge, because of his great wig)"
+    alice "(That’s the judge, because of his great wig)"
+
+# game/script.rpy:6332
+translate simple_english ch11_court_c5d2edd9:
+
+    # voice "rabbit27"
+    # rabbit "First witness!"
+    rabbit "First witness!"
+
+# game/script.rpy:7180
+translate simple_english chapter12_2af9efe0:
+
+    # voice "queen38"
+    # queen "Hold your tongue!"
+    queen "Hold your tongue!"
+
+# game/script.rpy:7193
+translate simple_english chapter12_671a7734:
+
+    # voice "queen39"
+    # queen "Off with her head!"
+    queen "Off with her head!"
+
+# game/script.rpy:7223
+translate simple_english chapter12_6047d7a4:
+
+    # voice "sister1"
+    # sister "Wake up, Alice dear!"
+    sister "Wake up, Alice dear!"
+
+# game/script.rpy:7232
+translate simple_english chapter12_aa355fee:
+
+    # voice "sister2"
+    # sister "Why, what a long sleep you’ve had!"
+    sister "Why, what a long sleep you’ve had!"
+
+# game/script.rpy:7238
+translate simple_english chapter12_bc4aaecc:
+
+    # voice "sister3"
+    # sister "It was a curious dream, dear, certainly: but now run in to your tea; it’s getting late."
+    sister "It was a curious dream, dear, certainly: but now run in to your tea; it’s getting late."
+
+# game/script.rpy:7245
+translate simple_english chapter12_15d1712f:
+
+    # voice "na01"
+    # "First, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers."
+    "First, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers."
+
+# game/script.rpy:7247
+translate simple_english chapter12_a8061fb8:
+
+    # voice "na02"
+    # "She could hear the very tones of her voice, and see that queer little toss of her head to keep back the wandering hair that would always get into her eyes."
+    "She could hear the very tones of her voice, and see that queer little toss of her head to keep back the wandering hair that would always get into her eyes."
+
+translate simple_english strings:
+
+    # game/script.rpy:155
+    old "Sister"
+    new "Sister"
+
