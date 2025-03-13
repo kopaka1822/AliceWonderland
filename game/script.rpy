@@ -1562,10 +1562,12 @@ label ch3_start:
         ease cam_transition xpos muddy_alice_pos zpos -450 ypos -130
     show alice normal at breathing
 
-    show thimble at Position(ypos = 0.65) onlayer screens 
+    show popup at popup onlayer screens
+    show thimble at popup onlayer screens 
     voice "alice086"
     alice "Only a thimble."
     hide thimble onlayer screens 
+    hide popup onlayer screens
 
     camera: 
         ease cam_transition xpos muddy_dodo_cam_pos zpos -450 ypos -130
@@ -1575,7 +1577,8 @@ label ch3_start:
     "Then they all crowded round her once more, while the Dodo solemnly presented the thimble."
     camera: 
         ease cam_transition xpos muddy_dodo_cam_pos zpos -450 ypos -130
-    show thimble at Position(ypos = 0.65) onlayer screens
+    show popup at popup onlayer screens
+    show thimble at popup onlayer screens
     voice "dodo10"
     dodo "We beg your acceptance of this elegant thimble."
     voice "n1128"
@@ -1583,6 +1586,7 @@ label ch3_start:
     voice "n1129"
     "Alice thought the whole thing very absurd, but they all looked so grave that she did not dare to laugh; and, as she could not think of anything to say, she simply bowed, and took the thimble, looking as solemn as she could."
     hide thimble onlayer screens
+    hide popup onlayer screens
 
     camera: 
         ease cam_transition xpos muddy_alice_pos zpos -450 ypos -130
@@ -1696,7 +1700,7 @@ label ch3_start:
     camera: 
         ease cam_transition xpos muddy_old_crab_pos zpos -500 ypos muddy_lory_ypos
     voice "old_crab1"
-    old_crab "Ah, my dear! Let this be a lesson to you never to lose your temper!"
+    old_crab "Ah, my dear! Let this be a lesson to you to never to lose your temper!"
     
     camera: 
         ease cam_transition xpos muddy_young_crab_pos zpos -500 ypos muddy_lory_ypos
@@ -1860,7 +1864,7 @@ label chapter4:
     voice "n1155"
     "She hastily put down the bottle."
     voice "alice107"
-    alice "(That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!)"
+    alice "(That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk so much!)"
 
     show alice belly at breathing:
         xpos 0.7 ypos 1.0 zoom 1.9
@@ -2299,7 +2303,7 @@ label chapter5:
     caterpillar "It isn’t."
     show alice joking at breathing
     voice "alice140"
-    alice "Well, perhaps you haven’t found it so yet, but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll feel it a little queer, won’t you?"
+    alice "Well, perhaps you haven’t found it so yet, but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll find it a little queer, won’t you?"
 
     voice "caterpillar06"
     caterpillar "Not a bit."
@@ -2381,7 +2385,7 @@ label chapter5:
     voice "alice150"
     alice "'In my youth', said the sage,\nas he shook his grey locks,\n{space=30}'I kept all my limbs very supple\nBy the use of this ointment—\none shilling the box—\n{space=30}Allow me to sell you a couple?'"
     voice "alice151"
-    alice "'You are old', said the youth,\n'and your jaws are too weak\n{space=30}For anything tougher than suet;\nYet you finished the goose,\nRwith the bones and the beak—\n{space=30}Pray how did you manage to do it?'"
+    alice "'You are old', said the youth,\n'and your jaws are too weak\n{space=30}For anything tougher than suet;\nYet you finished the goose,\nwith the bones and the beak—\n{space=30}Pray how did you manage to do it?'"
     voice "alice152"
     alice "'In my youth', said his father, \n'I took to the law,\n{space=30}And argued each case with my wife;\nAnd the muscular strength, \nwhich it gave to my jaw,\n{space=30}Has lasted the rest of my life.'"
     voice "alice153"
@@ -2693,7 +2697,7 @@ label chapter6:
     voice "n1247"
     "Then they both bowed low, and their curls got entangled together."
     voice "n1248"
-    "Alice laughed so much at this, that she had to run back into the wood for fear of their hearing her."
+    "Alice laughed so much at this, that she had to run back into the wood for fear of them hearing her."
     
     hide footmen_fish
     hide footmen_frog
@@ -2717,7 +2721,7 @@ label chapter6:
     voice "alice181"
     alice "Please, then, how am I to get in?"
     voice "frogfoot3"
-    frogfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
+    frogfoot "There might be some sense in your knocking, if we had a door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
     voice "n1252"
     "He was looking up into the sky all the time he was speaking, and this Alice thought decidedly uncivil."
     show alice thinking at breathing
@@ -2843,7 +2847,7 @@ label ch6_kitchen:
 
     show alice normal at breathing
     voice "n1261"
-    "Alice said very politely, feeling quite pleased to have got into a conversation."
+    "Alice said very politely, feeling quite pleased to have gotten into a conversation."
 
     voice "duchess03"
     duchess "You don’t know much, and that’s a fact."
@@ -3383,7 +3387,7 @@ label chapter7:
     voice "n1309"
     "The hatter was the first to break the silence."
     voice "hatter05"
-    hatter "What day of month is it?"
+    hatter "What day of the month is it?"
 
 
     camera: 
@@ -3431,7 +3435,7 @@ label chapter7:
     voice "alice233"
     alice "What a funny watch!"
     voice "alice234"
-    alice "It tells the day of the month, and doesn’t tell what o’clock it is!"
+    alice "It tells the day of the month, and it doesn’t tell what o’clock it is!"
 
     camera: 
         ease cam_transition xpos hatter_tea_pos zpos -415 ypos 5
@@ -5452,7 +5456,7 @@ label ch9_gryphon:
     camera:
         ease cam_transition xpos -60 ypos 975 zoom 2.0 # gryphon
     voice "gryphon15"
-    gryphon "That’s enough about lessons, tell her something about the games now."
+    gryphon "That’s enough about the lessons, tell her something about the games now."
 
 
 label chapter10:
