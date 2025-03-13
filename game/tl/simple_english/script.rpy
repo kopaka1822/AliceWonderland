@@ -15,7 +15,7 @@ translate simple_english chapter1_c5393ef6:
     "Alice sat next to her sister by the river and was feeling bored. She peeked at her sister's book, but it had no pictures in it."
 
 # game/script.rpy:317
-translate simple_english chapter1_bbddd97e:
+translate simple_english chapter1_065c1c04:
 
     # alice "(And what is the use of a book without pictures or conversations?)"
     #voice "alice001"
@@ -405,7 +405,7 @@ translate simple_english ch1_hall_start_e56adb89:
     "Alice opened the door and found a small passage, not much bigger than a rat-hole. She knelt down and peeked into the passage, seeing the most beautiful garden she had ever seen."
 
 # game/script.rpy:501
-translate simple_english ch1_hall_start_80feb15d:
+translate simple_english ch1_hall_start_9faf042d:
 
     # "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway."
     #voice "n1038"
@@ -548,7 +548,7 @@ translate simple_english ch1_hall_start_23d2a387:
     "After waiting for a while with nothing happening, she decided to go to the garden. But, Alice remembered she forgot the small golden key when she reached the door. When she attempted to return to the table to grab it, she discovered she couldn't reach it anymore."
 
 # game/script.rpy:548
-translate simple_english ch1_hall_start_d5865354:
+translate simple_english ch1_hall_start_36b7d428:
 
     # "She could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
     #voice "n1050"
@@ -720,7 +720,7 @@ translate simple_english chapter2_eed32010:
     "Alice’s Right Foot, Esq. \nHearthrug, \nNear the Fender, \n(with Alice’s love)\n"
 
 # game/script.rpy:599
-translate simple_english chapter2_1cfa834c:
+translate simple_english chapter2_a3bfb0ac:
 
     # alice "(Oh dear, what nonsense I’m talking!)"
     #voice "alice037"
@@ -958,7 +958,7 @@ translate simple_english chapter2_d6b7cd94:
     alice "I think I'm shrinking again."
 
 # game/script.rpy:669
-translate simple_english chapter2_0db0bbb8:
+translate simple_english chapter2_fdbf1e26:
 
     # "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
     #voice "n1073"
@@ -1171,7 +1171,6 @@ translate simple_english chapter2_fca2135a:
 translate simple_english chapter2_dfd7d7b2:
 
     # alice "Oh, I beg your pardon!"
-    #voice "alice369"
     #voice "alice069"
     alice "I'm sorry!"
 
@@ -7225,7 +7224,7 @@ translate simple_english chapter9_2f764706:
     "The Duchess started digging her sharp little chin into Alice’s shoulder."
 
 # game/script.rpy:3803
-translate simple_english chapter9_6f8fa61b:
+translate simple_english chapter9_84acf4c7:
 
     # alice "(How fond she is of finding morals in things!)"
     #voice "alice295"
@@ -10639,8 +10638,6 @@ translate simple_english chapter12_c0890743:
     #voice "n1573"
     "The queen's face turned purple."
 
-# game/script.rpy:5510
-    #voice "n1050"
 translate simple_english strings:
 
     # game/script.rpy:122
@@ -10872,8 +10869,6 @@ translate simple_english chapter12_dfc16894:
     #voice "na16"
     "The End."
 
-# game/script.rpy:273
-    #voice "n1050"
 translate simple_english chapter12_71c1484e:
 
     # alice "I won’t!"
@@ -11041,3 +11036,13 @@ translate simple_english strings:
     # game/script.rpy:155
     old "Sister"
     new "Sister"
+
+
+# game/script.rpy:6779
+translate simple_english chapter12_1ac5911d:
+
+    # voice "alice369"
+    # alice "Oh, I beg your pardon!"
+    voice "alice369"
+    alice "Oh, sorry!"
+

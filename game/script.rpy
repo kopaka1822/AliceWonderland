@@ -364,9 +364,9 @@ label chapter1:
 
     camera:
         ease cam_transition zpos -300
-    voice "alice001"
     
     show alice surprised at breathing_calm
+    voice "alice001"
     alice "(And what is the use of a book without pictures or conversations?)" 
 
     show alice sleepy at breathing_calm
@@ -702,8 +702,8 @@ label ch1_hall_start:
         ease 4 xpos alice_hall_start_pos zpos 0 ypos 0
 
     
-    voice "n1038"
     show alice pout at breathing
+    voice "n1038"
     "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway."
 
     camera:
@@ -823,9 +823,10 @@ label ch1_hall_start:
         easein 1.0 ypos 0.95
         easeout 1.0 ypos 1.0
 
-    voice "n1050"
+    
     play sound "<silence 8.0>"
     queue sound "voice/alice_crying1.mp3"
+    voice "n1050"
     "She could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
     show alice crying at breathing_crying:
         zoom 0.2 xpos alice_hall_table_leg_pos zpos -405.0 xzoom -1
@@ -919,8 +920,8 @@ label chapter2:
     alice "(They must go by the carrier, and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!)"
     voice "n1060" # should this be alice?
     "Alice’s Right Foot, Esq. \nHearthrug, \nNear the Fender, \n(with Alice’s love)\n"
-    voice "alice037"
     show alice joking at breathing
+    voice "alice037"
     alice "(Oh dear, what nonsense I’m talking!)"
     play sound "sfx/bump.mp3"
     show alice normal at breathing
@@ -1031,11 +1032,12 @@ label chapter2:
     alice "How can I have done that?"
     voice "alice057"
     alice "I must be growing small again."
-    voice "n1073"
+    
     show alice thinking at breathing:
         ease 2 zoom 0.1 xpos 6300
     camera:
         ease 2 xpos 5800 ypos 0.420 zpos -850.0
+    voice "n1073"
     "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
     voice "n1103" # out of order oops
     "She soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
@@ -4964,8 +4966,8 @@ label chapter9:
     #"Said the Duchess, digging her sharp little chin into Alice’s shoulder."
     voice "n1424"
     "The Duchess started digging her sharp little chin into Alice’s shoulder."
-    voice "alice295"
     show alice thinking at breathing
+    voice "alice295"
     alice "(How fond she is of finding morals in things!)"
     "..."
     voice "duchess17"

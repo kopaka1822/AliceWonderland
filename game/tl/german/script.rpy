@@ -15,7 +15,7 @@ translate german chapter1_c5393ef6:
     "Alice saß neben ihrer Schwester am Fluss und langweilte sich. Sie schaute in das Buch ihrer Schwester, aber es hatte keine Bilder."
 
 # game/script.rpy:317
-translate german chapter1_bbddd97e:
+translate german chapter1_065c1c04:
 
     # alice "(And what is the use of a book without pictures or conversations?)"
     #voice "alice001"
@@ -406,7 +406,7 @@ translate german ch1_hall_start_e56adb89:
     "Alice öffnete die Tür und sah den tollsten Garten, den sie je gesehen hatte."
 
 # game/script.rpy:501
-translate german ch1_hall_start_80feb15d:
+translate german ch1_hall_start_9faf042d:
 
     # "How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway."
     #voice "n1038"
@@ -549,7 +549,7 @@ translate german ch1_hall_start_23d2a387:
     "Nachdem sie eine Weile gewartet hatte und nichts passierte, beschloss sie, in den Garten zu gehen. Aber dann erinnerte sich Alice, dass sie den kleinen goldenen Schlüssel auf dem Tisch vergessen hatte. Doof war nur, dass sie jetzt viel zu klein war, um an ihn wieder ranzukommen."
 
 # game/script.rpy:548
-translate german ch1_hall_start_d5865354:
+translate german ch1_hall_start_36b7d428:
 
     # "She could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
     #voice "n1050"
@@ -721,7 +721,7 @@ translate german chapter2_eed32010:
     "Alice’s Rechter Fuß \nFußteppich, \nIn der Nähe vom Kamin, \n(mit Alice's Liebe)\n"
 
 # game/script.rpy:599
-translate german chapter2_1cfa834c:
+translate german chapter2_a3bfb0ac:
 
     # alice "(Oh dear, what nonsense I’m talking!)"
     #voice "alice037"
@@ -959,7 +959,7 @@ translate german chapter2_d6b7cd94:
     alice "Ich glaube, ich werde wieder kleiner."
 
 # game/script.rpy:669
-translate german chapter2_0db0bbb8:
+translate german chapter2_fdbf1e26:
 
     # "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
     #voice "n1073"
@@ -7222,7 +7222,7 @@ translate german chapter9_2f764706:
     "Die Herzogin begann, ihr spitzes Kinn in Alices Schulter zu drücken."
 
 # game/script.rpy:3803
-translate german chapter9_6f8fa61b:
+translate german chapter9_84acf4c7:
 
     # alice "(How fond she is of finding morals in things!)"
     #voice "alice295"
