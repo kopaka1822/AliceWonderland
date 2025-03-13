@@ -2013,7 +2013,7 @@ translate german ch3_start_12864365:
     "Der Papagei seufzte, und eine alte Krabbe nutzte die Chance, um mit ihrer Tochter zu sprechen:"
 
 # game/script.rpy:1192
-translate german ch3_start_b3339f33:
+translate german ch3_start_1107d3c3:
 
     # old_crab "Ah, my dear! Let this be a lesson to you never to lose your temper!"
     #voice "old_crab1"
@@ -2272,7 +2272,7 @@ translate german chapter4_2a956013:
     "Sie ließ die Flasche schnell fallen."
 
 # game/script.rpy:1322
-translate german chapter4_a7d1d8e0:
+translate german chapter4_0d23fc3e:
 
     # alice "(That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!)"
     #voice "alice107"
@@ -3200,7 +3200,7 @@ translate german chapter5_19890a08:
     caterpillar "Das stimmt nicht."
 
 # game/script.rpy:1658
-translate german chapter5_0768a122:
+translate german chapter5_9bf04158:
 
     # alice "Well, perhaps you haven’t found it so yet, but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll feel it a little queer, won’t you?"
     #voice "alice140"
@@ -3423,7 +3423,7 @@ translate german chapter5_02803cb2:
 "
 
 # game/script.rpy:1718
-translate german chapter5_034a5897:
+translate german chapter5_67df8b50:
 
     # alice "'You are old', said the youth,\n'and your jaws are too weak\n{space=30}For anything tougher than suet;\nYet you finished the goose,\nRwith the bones and the beak—\n{space=30}Pray how did you manage to do it?'"
     #voice "alice151"
@@ -4071,7 +4071,7 @@ translate german chapter6_a054a5fa:
     "Beide verbeugten sich, und ihre lockigen Haare verhedderten sich ineinander."
 
 # game/script.rpy:1966
-translate german chapter6_5187f17d:
+translate german chapter6_5652ae44:
 
     # "Alice laughed so much at this, that she had to run back into the wood for fear of their hearing her."
     #voice "n1248"
@@ -4113,7 +4113,7 @@ translate german chapter6_0f5f123f:
     alice "Wie komme ich denn rein?"
 
 # game/script.rpy:1986
-translate german chapter6_b15a32bb:
+translate german chapter6_c898c356:
 
     # frogfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
     #voice "frogfoot3"
@@ -4302,7 +4302,7 @@ translate german ch6_kitchen_ebd81118:
     alice "Ich kenne keine, die das macht."
 
 # game/script.rpy:2098
-translate german ch6_kitchen_94841000:
+translate german ch6_kitchen_4bc8bc69:
 
     # "Alice said very politely, feeling quite pleased to have got into a conversation."
     #voice "n1261"
@@ -5188,7 +5188,7 @@ translate german chapter7_f72de0fb:
     "Der Hutmacher war der Erste, der die Stille brach."
 
 # game/script.rpy:2526
-translate german chapter7_39dbb2bd:
+translate german chapter7_ac951da6:
 
     # hatter "What day of month is it?"
     #voice "hatter05"
@@ -5279,7 +5279,7 @@ translate german chapter7_f23fdc11:
     alice "Was für eine witzige Uhr!"
 
 # game/script.rpy:2564
-translate german chapter7_7c0b3672:
+translate german chapter7_862d7c2a:
 
     # alice "It tells the day of the month, and doesn’t tell what o’clock it is!"
     #voice "alice234"
@@ -8100,7 +8100,7 @@ translate german ch9_gryphon_5b30f936:
     alice "Was habt ihr am zwölften Tag gemacht?"
 
 # game/script.rpy:4160
-translate german ch9_gryphon_599de3c2:
+translate german ch9_gryphon_4818b92b:
 
     # gryphon "That’s enough about lessons, tell her something about the games now."
     #voice "gryphon15"

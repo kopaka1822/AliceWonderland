@@ -1168,7 +1168,7 @@ translate simple_english chapter2_fca2135a:
     "The mouse jumped out of the water suddenly and looked very scared."
 
 # game/script.rpy:740
-translate simple_english chapter12_1ac5911d:
+translate simple_english chapter2_dfd7d7b2:
 
     # alice "Oh, I beg your pardon!"
     #voice "alice369"
@@ -2012,7 +2012,7 @@ translate simple_english ch3_start_12864365:
     "The Lory sighed, and an old Crab took the chance to speak to her daughter:"
 
 # game/script.rpy:1192
-translate simple_english ch3_start_b3339f33:
+translate simple_english ch3_start_1107d3c3:
 
     # old_crab "Ah, my dear! Let this be a lesson to you never to lose your temper!"
     #voice "old_crab1"
@@ -2271,7 +2271,7 @@ translate simple_english chapter4_2a956013:
     "She quickly dropped the bottle."
 
 # game/script.rpy:1322
-translate simple_english chapter4_a7d1d8e0:
+translate simple_english chapter4_0d23fc3e:
 
     # alice "(That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!)"
     #voice "alice107"
@@ -3200,7 +3200,7 @@ translate simple_english chapter5_19890a08:
     caterpillar "It isn’t."
 
 # game/script.rpy:1658
-translate simple_english chapter5_0768a122:
+translate simple_english chapter5_9bf04158:
 
     # alice "Well, perhaps you haven’t found it so yet, but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll feel it a little queer, won’t you?"
     #voice "alice140"
@@ -3422,7 +3422,7 @@ translate simple_english chapter5_02803cb2:
     alice "'When I was young,' said the old with a nod,\n{space=30}'I kept my body bendy, not stiff or odd.\nWith this cream, just a coin for a small pod,\n{space=30}Would you like to buy some? It's not a fraud.'"
 
 # game/script.rpy:1718
-translate simple_english chapter5_034a5897:
+translate simple_english chapter5_67df8b50:
 
     # alice "'You are old', said the youth,\n'and your jaws are too weak\n{space=30}For anything tougher than suet;\nYet you finished the goose,\nRwith the bones and the beak—\n{space=30}Pray how did you manage to do it?'"
     #voice "alice151"
@@ -4070,7 +4070,7 @@ translate simple_english chapter6_a054a5fa:
     "They both bent down, and their curly hair got twisted together."
 
 # game/script.rpy:1966
-translate simple_english chapter6_5187f17d:
+translate simple_english chapter6_5652ae44:
 
     # "Alice laughed so much at this, that she had to run back into the wood for fear of their hearing her."
     #voice "n1248"
@@ -4112,7 +4112,7 @@ translate simple_english chapter6_0f5f123f:
     alice "How can I get in?"
 
 # game/script.rpy:1986
-translate simple_english chapter6_b15a32bb:
+translate simple_english chapter6_c898c356:
 
     # frogfoot "There might be some sense in your knocking, if we had the door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
     #voice "frogfoot3"
@@ -4301,7 +4301,7 @@ translate simple_english ch6_kitchen_ebd81118:
     alice "I don't know any who do."
 
 # game/script.rpy:2098
-translate simple_english ch6_kitchen_94841000:
+translate simple_english ch6_kitchen_4bc8bc69:
 
     # "Alice said very politely, feeling quite pleased to have got into a conversation."
     #voice "n1261"
@@ -5189,7 +5189,7 @@ translate simple_english chapter7_f72de0fb:
     "The hatter was the first to break the silence."
 
 # game/script.rpy:2526
-translate simple_english chapter7_39dbb2bd:
+translate simple_english chapter7_ac951da6:
 
     # hatter "What day of month is it?"
     #voice "hatter05"
@@ -5280,7 +5280,7 @@ translate simple_english chapter7_f23fdc11:
     alice "What a funny watch!"
 
 # game/script.rpy:2564
-translate simple_english chapter7_7c0b3672:
+translate simple_english chapter7_862d7c2a:
 
     # alice "It tells the day of the month, and doesn’t tell what o’clock it is!"
     #voice "alice234"
@@ -8103,7 +8103,7 @@ translate simple_english ch9_gryphon_5b30f936:
     alice "What did you do on the twelfth?"
 
 # game/script.rpy:4160
-translate simple_english ch9_gryphon_599de3c2:
+translate simple_english ch9_gryphon_4818b92b:
 
     # gryphon "That’s enough about lessons, tell her something about the games now."
     #voice "gryphon15"
@@ -11041,4 +11041,3 @@ translate simple_english strings:
     # game/script.rpy:155
     old "Sister"
     new "Sister"
-
