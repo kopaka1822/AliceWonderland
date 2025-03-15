@@ -265,7 +265,8 @@ image rabbit court = Model().child("rabbit court.png", fit=True).texture("rabbit
 image dormouse sleep = Model().child("dormouse sleep.png", fit=True).texture("dormouse sleep_mask.png")
 image dormouse tired = Model().child("dormouse tired.png", fit=True).texture("dormouse tired_mask.png")
 
-image hatter = Model().child("hatter.png", fit=True).texture("hatter_mask.png")
+image hatter normal = Model().child("hatter normal.png", fit=True).texture("hatter_mask.png")
+image hatter scared = Model().child("hatter scared.png", fit=True).texture("hatter_mask.png")
 
 image hare = Model().child("hare.png", fit=True).texture("hare_mask.png")
 
@@ -3247,7 +3248,7 @@ label chapter7:
         pos (hare_tea_pos, 0.79) zoom hare_scale
     show dormouse sleep at breathing:
         pos (dormouse_tea_pos, 0.71) zoom dormouse_scale
-    show hatter at breathing:
+    show hatter normal at breathing:
         pos (hatter_tea_pos, 1.02) zoom hatter_scale
 
     image hare_house_front_mask = AlphaMask("hare_house", "hare_house_front")
@@ -3843,7 +3844,7 @@ label ch7_reorder:
     define hare_tea_pos2 = dormouse_tea_pos
     define dormouse_tea_pos2 = hatter_tea_pos
     define dormouse_tea_cam_pos2 = 945
-    show hatter zorder 100 at breathing:
+    show hatter normal zorder 100 at breathing:
         xpos hatter_tea_pos2
     show alice zorder 0 at breathing:
         xpos alice_tea_pos2
@@ -6338,7 +6339,7 @@ label ch11_court:
     voice "rabbit27"
     rabbit "First witness!"
 
-    show hatter at breathing:
+    show hatter normal at breathing:
         ypos 1.0 xpos court_witness zoom hatter_scale zpos -350
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos 0
@@ -6418,6 +6419,7 @@ label ch11_court:
     hatter "I keep them to sell. I’ve none of my own. I’m a hatter."
     camera:
         ease cam_transition xpos court_queen ypos 0 zpos -1000 # queen
+    show hatter scared at breathing
     voice "n1509"
     "Here the Queen put on her spectacles, and began staring at the Hatter, who turned pale and fidgeted."
     camera:
@@ -6619,7 +6621,7 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
-    show hatter at breathing:
+    show hatter scared at breathing:
         linear 3.0 xpos 500
     voice "n1521"
     "The Hatter hurriedly left the court, without even waiting to put his shoes on."
