@@ -117,6 +117,10 @@ init python:
             return (hash(obj.name[0]) % 7919) / 7919
         return 0.0
 
+    def zoom_for_zpos(zpos):
+        if zpos < 0: return 1 - 0.00142 * zpos
+        return 1 - 0.0014 * zpos
+
 
 define alice = Character("Alice", color="#ADD8E6")
 define rabbit = Character(_("Rabbit"), color="#ffffff")
@@ -175,7 +179,7 @@ define three_legged_table_zoom = 0.9
 
 ## ANIMATED TRANSFORMS ##
 ## remove comment below to work with action editor
-#'''
+'''
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
@@ -330,6 +334,12 @@ transform angrily:
     ease 2 rotate 0 zoom 1.0
     repeat
 
+transform parallax(z=0):
+    anchor (0.5, 0.5)
+    pos (0.5, 0.5)
+    zpos z
+    zoom zoom_for_zpos(z)
+
 label reset_camera:
     camera:
         perspective False
@@ -347,7 +357,15 @@ label chapter1:
     voice "n1001"
     "{size=+40}Chapter I: \n{/size}Down the Rabbit-Hole"
 
-    scene riverbank at windy
+    #scene riverbank at windy
+    scene bluesky at parallax(-4000)
+    show hills at parallax(-4000)
+    show river at parallax(-300):
+        zoom 1.1
+    show grass at parallax
+    show tree at parallax(300) zorder 10:
+        xpos -0.48
+    
     play music "audio/rinne wanderer.mp3"
 
     define alice_riverbank = -0.22
