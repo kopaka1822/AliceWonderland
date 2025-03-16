@@ -1250,8 +1250,6 @@ label chapter3:
     voice "n1104"
     "{size=+40}Chapter III: \n{/size}A Caucus-Race and a Long Tale"
 
-    scene muddy:
-        xpos 0
     # show all characters
     define muddy_eaglet_pos = 1104
     define muddy_eaglet_cam_pos = 1054
@@ -1280,7 +1278,17 @@ label chapter3:
     define canary_scale = 0.2
 
     jump ch3_start
+label ch3_scene_setup:
+    scene bluesky at parallax(-4000)
+    show hills at parallax(-4000)
+    show mud at parallax(-300) as mud_safe # safety mud layer behind river
+    show river at parallax(-300):
+        xpos 1.9 zoom 1.1
+    show mud at parallax:
+        xpos 1.56
+    return
 label ch3_setup:
+    call ch3_scene_setup
     show eaglet at breathing:
         xpos muddy_eaglet_pos ypos 0.7 zoom eaglet_scale
     show lory at breathing:
@@ -1441,12 +1449,12 @@ label ch3_start:
     voice "n1116"
     "(And, as you might like to try the thing yourself, some winter day, I will tell you how the Dodo managed it)"
 
-    show racetrack at Position(ypos = 0.65) onlayer screens
+    #show racetrack at Position(ypos = 0.65) onlayer screens
     voice "n1117"
     "First it marked out a race-course, in a sort of circle."
     voice "dodo04"
     dodo "The exact shape doesn’t matter."
-    hide racetrack onlayer screens
+    #hide racetrack onlayer screens
 
     camera: 
         ease cam_transition xpos 1805 zpos -135 ypos -130
@@ -1513,8 +1521,6 @@ label ch3_start:
     voice "n1120"
     "However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out:"
 
-    scene muddy:
-        xpos 0
     # restore original positions
     call ch3_setup
 
@@ -1799,7 +1805,9 @@ label chapter4:
     call reset_camera
     voice "n1143"
     "{size=+40}Chapter IV: \n{/size}The Rabbit Sends in a Little Bill"
-    scene muddy
+    call ch3_scene_setup
+    camera:
+        perspective True
     play music "audio/rinne oak general store.mp3" if_changed
     #jump ch4_forest
     #jump ch4_grass
