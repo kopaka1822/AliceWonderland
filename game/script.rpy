@@ -1282,11 +1282,13 @@ label chapter3:
 label ch3_scene_setup:
     scene bluesky at parallax(-4000)
     show hills at parallax(-4000)
-    show mud at parallax(-300) as mud_safe # safety mud layer behind river
+    show mud at parallax(-300) as mud_safe: # safety mud layer behind river
+        yoffset 550 xtile 5
     show river at parallax(-300):
         xpos 1.9 zoom 1.1
     show mud at parallax:
-        xpos 1.56
+        yoffset 550 xtile 5
+        xpos 1.3
     return
 label ch3_setup:
     call ch3_scene_setup
