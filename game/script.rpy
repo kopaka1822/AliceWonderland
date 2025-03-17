@@ -179,7 +179,7 @@ define three_legged_table_zoom = 0.9
 
 ## ANIMATED TRANSFORMS ##
 ## remove comment below to work with action editor
-'''
+#'''
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
@@ -277,7 +277,6 @@ image hare = Model().child("hare.png", fit=True).texture("hare_mask.png")
 image gryphon = Model().child("gryphon.png", fit=True).texture("gryphon_mask.png")
 
 # backgrounds
-image riverbank = Model().child("riverbank.jpg", fit=True).texture("riverbank_wind.png")
 image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
 image croquet_front_mask = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png").texture("croquet_front.png")
 image garden = Model().child("garden.jpg", fit=True).texture("garden_wind.png")
@@ -360,6 +359,11 @@ label chapter1:
     #scene riverbank at windy
     scene bluesky at parallax(-4000)
     show hills at parallax(-4000)
+    show water at parallax(-300):
+        xpos 1.3 xtile 5 yoffset 110
+        linear 10.0 xoffset 1460
+        xoffset 0
+        repeat
     show river at parallax(-300):
         xoffset -900 xtile 5 yoffset 110
     show grass at parallax:
@@ -1284,6 +1288,11 @@ label ch3_scene_setup:
     show hills at parallax(-4000)
     show mud at parallax(-300) as mud_safe: # safety mud layer behind river
         yoffset 550 xtile 5
+    show water at parallax(-300):
+        xpos 1.3 xtile 5 yoffset 110
+        linear 10.0 xoffset 1460
+        xoffset 0
+        repeat
     show river at parallax(-300):
         xpos 1.3 xtile 5 yoffset 110
     show mud at parallax:
