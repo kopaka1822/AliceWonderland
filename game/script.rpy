@@ -277,8 +277,6 @@ image hare = Model().child("hare.png", fit=True).texture("hare_mask.png")
 image gryphon = Model().child("gryphon.png", fit=True).texture("gryphon_mask.png")
 
 # backgrounds
-image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
-image croquet_front_mask = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png").texture("croquet_front.png")
 
 image blades = Model().child("blades.png", fit=True).texture("blades_wind.png")
 image buttercup = Model().child("buttercup.png", fit=True).texture("buttercup_wind.png")
@@ -4632,9 +4630,22 @@ label chapter8:
     voice "rabbit23"
     rabbit "Oh, hush! The Queen will hear you! You see, she came rather late, and the Queen said—"
 
+    jump ch8_croquet
+label setup_croquet:
+
+    scene bluesky at parallax(-4000)
+    show hills at parallax(-4000)
+    show grass at parallax:
+        yoffset 550 xoffset -900 xtile 10
+    show tree at parallax(300) zorder 10 as tree1:
+        xpos -0.59
+    show tree at parallax(300) zorder 10 as tree2:
+        xpos 1.88
+
+    return
 label ch8_croquet:
-    scene croquet at windy
-    show croquet_front_mask zorder 1000 at windy_mask
+
+    call setup_croquet
 
     # setup character
     define queen_croquet = 0.0
@@ -4709,7 +4720,7 @@ label ch8_croquet:
 
     show cat6:
         anchor (0.5, 1.0)
-        xpos cat_croquet ypos 0.4 zoom cat_scale xoffset 120 # offset to center head
+        xpos cat_croquet ypos 0.5 zoom cat_scale xoffset 120 # offset to center head
         alpha 0.0
         linear 10.0 alpha 1.0
     voice "n1392"
@@ -4723,7 +4734,7 @@ label ch8_croquet:
 
     show cat5:
         anchor (0.5, 1.0)
-        xpos cat_croquet ypos 0.4 zoom cat_scale xoffset 120 # offset to center head
+        xpos cat_croquet ypos 0.5 zoom cat_scale xoffset 120 # offset to center head
         alpha 0.0
         linear 10.0 alpha 1.0
     show alice normal at breathing
@@ -4734,7 +4745,7 @@ label ch8_croquet:
 
     show cat4:
         anchor (0.5, 1.0)
-        xpos cat_croquet ypos 0.4 zoom cat_scale xoffset 120 # offset to center head
+        xpos cat_croquet ypos 0.5 zoom cat_scale xoffset 120 # offset to center head
         alpha 0.0
         linear 10.0 alpha 1.0
     voice "n1394"
@@ -4751,7 +4762,7 @@ label ch8_croquet:
     hide cat6
     hide cat5
     show cat4 at breathing:
-        pos (cat_croquet, 0.4) zoom cat_scale
+        pos (cat_croquet, 0.5) zoom cat_scale
         xoffset 120
         alpha 1.0
 
@@ -4883,6 +4894,12 @@ label ch8_croquet:
         ease 1.0 xpos 0.84
     camera:
         ease 1.5 xpos 0.84 ypos 0 zoom 1.0
+    hide tree2 # otherwise is in the way of king
+    show cat4 at breathing:
+        pos (cat_croquet, 0.4) zoom cat_scale
+        xoffset 120
+        alpha 1.0
+
     voice "n1408"
     "By the time she had caught the flamingo and brought it back, the fight was over, and both the hedgehogs were out of sight."
     show alice thinking at breathing
@@ -4948,8 +4965,7 @@ label chapter9:
 
     #jump ch9_gryphon
 
-    scene croquet at windy
-    show croquet_front_mask zorder 1000 at windy_mask
+    call setup_croquet
 
     # setup character
     define alice_nine = 1.3
