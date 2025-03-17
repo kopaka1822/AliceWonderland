@@ -5187,9 +5187,9 @@ label setup_cliff:
     show hills at parallax(-4000)
     show grass at parallax:
         yoffset 550 xoffset -900 xtile 10
-    show tree at parallax(300) zorder 10 as tree1:
-        xpos -0.59
-    show tree at parallax(300) zorder 10 as tree2:
+    show rock at parallax:
+        xpos -0.6 ypos 0.84
+    show tree at parallax(300) zorder 10:
         xpos 1.88
 
     return
