@@ -362,7 +362,8 @@ label chapter1:
     show hills at parallax(-4000)
     show river at parallax(-300):
         zoom 1.1
-    show grass at parallax
+    show grass at parallax:
+        yoffset 550 xoffset -900 xtile 3
     show tree at parallax(300) zorder 10:
         xpos -0.48
     
