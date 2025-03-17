@@ -179,7 +179,7 @@ define three_legged_table_zoom = 0.9
 
 ## ANIMATED TRANSFORMS ##
 ## remove comment below to work with action editor
-#'''
+P'''
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
@@ -279,8 +279,6 @@ image gryphon = Model().child("gryphon.png", fit=True).texture("gryphon_mask.png
 # backgrounds
 image croquet = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png")
 image croquet_front_mask = Model().child("croquet.jpg", fit=True).texture("croquet_wind.png").texture("croquet_front.png")
-image garden = Model().child("garden.jpg", fit=True).texture("garden_wind.png")
-image garden_front_mask = Model().child("garden.jpg", fit=True).texture("garden_wind.png").texture("garden_front.png")
 
 image blades = Model().child("blades.png", fit=True).texture("blades_wind.png")
 image buttercup = Model().child("buttercup.png", fit=True).texture("buttercup_wind.png")
@@ -4038,7 +4036,26 @@ label chapter8:
 
     play music "audio/rinne rosalia garden.mp3"
 
-    scene garden at windy
+    #scene garden at windy
+    scene bluesky at parallax(-4000)
+    show hills at parallax(-4000)
+    show roses at parallax(-400) as rosesbg1:
+        xtile 10 zoom 0.5 ypos 0.54 xoffset 300
+    show roses at parallax(-300) as rosesbg2:
+        xtile 10 zoom 0.5 ypos 0.54
+    show grass at parallax:
+        yoffset 550 xoffset -900 xtile 5
+    show rosetree at parallax:
+        xpos -0.15
+    show tree at parallax(300) zorder 1000:
+        xpos -0.69
+    show roses at parallax(300) zorder 1000 as roses1:
+        xpos -0.4 yoffset 390
+    show roses at parallax(250) zorder 900 as roses2:
+        xpos 0.0 yoffset 440
+    show roses at parallax(300) zorder 1000 as roses3:
+        xpos 0.4 yoffset 390
+    #show garden_front_mask zorder 1000 at windy_mask
 
     define alice_garden = -0.5
     define card_zoom = 0.75
@@ -4072,7 +4089,7 @@ label chapter8:
     show alice normal at breathing:
         pos (alice_garden, 0.8) zoom alice_scale
 
-    show garden_front_mask zorder 1000 at windy_mask
+    
 
     voice "n1348"
     "A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red."
@@ -4364,7 +4381,7 @@ label chapter8:
     queen "And who are these?"
 
     camera:
-        ease cam_transition xpos card5_garden zoom 2.0 ypos 1400
+        ease cam_transition xpos card5_garden zoom 1.0 ypos 0
     voice "n1367"
     "The Queen pointed to the three gardeners who were lying round the rose-tree; for, you see, as they were lying on their faces, and the pattern on their backs was the same as the rest of the pack, she could not tell whether they were gardeners, or soldiers, or courtiers, or three of her own children."
 
