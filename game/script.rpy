@@ -5181,8 +5181,20 @@ label chapter9:
     voice "n1440"
     "Alice had felt quite unhappy at the number of executions the Queen had ordered."
 
+    jump ch9_gryphon
+label setup_cliff:
+    scene bluesky at parallax(-4000)
+    show hills at parallax(-4000)
+    show grass at parallax:
+        yoffset 550 xoffset -900 xtile 10
+    show tree at parallax(300) zorder 10 as tree1:
+        xpos -0.59
+    show tree at parallax(300) zorder 10 as tree2:
+        xpos 1.88
+
+    return
 label ch9_gryphon:
-    scene cliff
+    call setup_cliff
 
     define gryphon_scale = 0.75
 
@@ -5545,7 +5557,8 @@ label chapter10:
     play music "audio/rinne sad.mp3" if_changed
 
     # scene setup
-    scene cliff
+    call setup_cliff
+
     show alice normal at breathing:
         pos (alice_turtle, 0.9) zoom alice_scale
     show gryphon at breathing behind alice:
