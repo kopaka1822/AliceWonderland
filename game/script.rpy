@@ -333,6 +333,7 @@ transform parallax(z=0):
     anchor (0.5, 0.5)
     pos (0.5, 0.5)
     zpos z
+    # zzoom True # zzoom does not work with tiling qwq
     zoom zoom_for_zpos(z)
 
 label reset_camera:
@@ -2685,18 +2686,46 @@ label ch5_sky:
     voice "n1240"
     "So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high."
 
+    jump chapter6
+label setup_forest:
+    scene black:
+        xtile 10
+    show trees at parallax(-900) as trees4:
+        matrixcolor BrightnessMatrix(-0.3)
+        xoffset 1310 xtile 10 yoffset -400
+    show trees at parallax(-900) as trees3:
+        matrixcolor BrightnessMatrix(-0.2)
+        xoffset 550 xtile 10 yoffset -400
+    show trees at parallax(-600) as trees2:
+        matrixcolor BrightnessMatrix(-0.1)
+        xoffset 200 xtile 10 yoffset -400
+    show trees at parallax(-300) as trees1:
+        xoffset 900 xtile 10 yoffset -400
+    show grass at parallax:
+        matrixcolor BrightnessMatrix(-0.25)
+        yoffset 550 xoffset 900 xtile 10
+
+    return
 label chapter6:
+
+
     $ persistent.started_story = True
     scene black
+    call reset_camera
     voice "n1241"
     "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
 
     play music "audio/rinne song of little birds.mp3" if_changed
 
-    scene forest_house
+    call setup_forest
+
     show footmen_fish at breathing:
         pos (-0.5, 0.9) zoom 0.5
         linear 4.0 xpos 0.3
+
+    camera:
+        perspective True
+        xpos 0.5 xoffset -center_offset
 
     voice "n1242"
     "For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood—(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)—and rapped loudly at the door with his knuckles."
@@ -2765,6 +2794,8 @@ label chapter6:
     voice "alice182"
     alice "(But perhaps he can’t help it, his eyes are so very nearly at the top of his head. But at any rate he might answer questions)"
     show alice happy at breathing
+    camera:
+        ease cam_transition zpos -200
     voice "alice183"
     alice "*loud* How am I to get in?"
     voice "frogfoot4"
@@ -2784,24 +2815,42 @@ label chapter6:
 
     #"The Footman continued in the same tone, exactly as if nothing had happened."
     show alice pout at breathing
+    camera:
+        ease cam_transition zpos -400 xpos 0.33
     voice "alice184"
     alice "*louder* How am I to get in?" # asked Alice again, in a louder tone.
+    camera:
+        ease cam_transition zpos -400 xpos 0.64 ypos -135 zrotate -10 # frog weird
     voice "frogfoot6"
     frogfoot "Are you to get in at all? That’s the first question, you know."
+    camera:
+        ease cam_transition zpos -400 xpos 0.33 ypos 0 zrotate 10 # alice disturbed
     show alice disturbed at breathing
     voice "n1254"
     "It was, no doubt: only Alice did not like to be told so."
+    camera:
+        ease cam_transition zpos -400 xpos 0.33 ypos 0 zrotate 0 # alice normal
     voice "alice185"
     alice "(It’s really dreadful, the way all the creatures argue. It’s enough to drive one crazy!)"
+    camera:
+        ease cam_transition zpos 0 xpos 0.5 ypos 0 zrotate 0 # neutral
     voice "n1255"
     "The Footman seemed to think this a good opportunity for repeating his remark, with variations."
+    camera:
+        ease cam_transition zpos -400 xpos 0.64 ypos -135 zrotate -10 # frog weird
     voice "frogfoot7"
     frogfoot "I shall sit here, on and off, for days and days."
     show alice pout at breathing
+    camera:
+        ease cam_transition zpos -400 xpos 0.33 ypos 0 zrotate 10 # alice disturbed
     voice "alice186"
     alice "But what am I to do?"
+    camera:
+        ease cam_transition zpos -400 xpos 0.64 ypos -135 zrotate 0 # frog normal
     voice "frogfoot8"
     frogfoot "Anything you like." # said the Footman, and began whistling.
+    camera:
+        ease cam_transition zpos -400 xpos 0.33 ypos 0 zrotate 0 # alice normal
     voice "alice187"
     alice "Oh, there’s no use in talking to him, he’s perfectly idiotic!"
 
