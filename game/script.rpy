@@ -565,9 +565,7 @@ label chapter1:
     voice "n1029"
     "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead."
 
-    scene passage
-    image passage_front_mask = AlphaMask("passage", "passage_front")
-    show passage_front_mask zorder 10
+    scene black
     call reset_camera
     camera:
         perspective True
@@ -594,7 +592,7 @@ label chapter1:
     rabbit "Oh my ears and whiskers, how late it's getting!"
     
     show rabbit normal at breathing zorder 5:
-        ease 1.0 xpos 0.14
+        ease 1.0 xpos -0.14
     show alice pout at breathing zorder 20:
         ease 1.0 xpos 0.52 ypos 0.58 zoom 0.2
     voice "n1032"
