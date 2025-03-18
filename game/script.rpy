@@ -2143,8 +2143,30 @@ label chapter4:
     voice "n1189"
     "They all made a rush at Alice the moment she appeared; but she ran off as hard as she could, and soon found herself safe in a thick wood."
 
+    jump ch4_forest
+
+label setup_forest:
+    scene black:
+        xtile 10 xoffset -1000
+    show trees at parallax(-900) as trees4:
+        matrixcolor BrightnessMatrix(-0.3)
+        xoffset 1310 xtile 10 yoffset -400
+    show trees at parallax(-900) as trees3:
+        matrixcolor BrightnessMatrix(-0.2)
+        xoffset 550 xtile 10 yoffset -400
+    show trees at parallax(-600) as trees2:
+        matrixcolor BrightnessMatrix(-0.1)
+        xoffset 200 xtile 10 yoffset -400
+    show trees at parallax(-300) as trees1:
+        xoffset 900 xtile 10 yoffset -400
+    show grass at parallax:
+        matrixcolor BrightnessMatrix(-0.25)
+        yoffset 550 xoffset 900 xtile 10
+
+    return
+
 label ch4_forest:
-    scene forest
+    call setup_forest
     camera:
         perspective True
         xpos -215 ypos 490 zpos -500 xoffset 0
@@ -2155,7 +2177,6 @@ label ch4_forest:
         pos (0.10, 0.85)
         anchor (0.5, 1.0)
         zoom 0.3
-        zpos 60
     show puppy:
         pos (0.89, 0.85)
         anchor (0.5, 1.0)
@@ -2653,10 +2674,11 @@ label ch5_sky:
     voice "n1237"
     "After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height."
 
-    scene forest
+    call setup_forest
+    call reset_camera
     camera:
-        perspective False
-        xpos 0 ypos 0 zpos 0 zrotate 0
+        perspective True
+        xpos 0.5 xoffset -center_offset zrotate 0
 
     #stop music fadeout 1.0
     play music "audio/rinne song of little birds.mp3" fadein 1.0 fadeout 1.0
@@ -2664,7 +2686,7 @@ label ch5_sky:
     "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
 
     show alice happy at breathing:
-        pos (0.5, 0.9) zoom 0.6
+        pos (0.5, 0.9) zoom 1.0
     voice "alice176"
     alice "Come, there’s half my plan done now!"
     voice "alice177"
@@ -2674,38 +2696,17 @@ label ch5_sky:
     voice "alice179"
     alice "However, I’ve got back to my right size: the next thing is, to get into that beautiful garden—how is that to be done, I wonder?"
     
-    scene forest_house
-    show alice normal at breathing:
-        pos (0.8, 0.9) zoom 0.7
+    
+    show alice normal at breathing
     voice "n1239"
     "She came suddenly upon an open place, with a little house in it about four feet high."
     voice "alice180"
     alice "Whoever lives there, it’ll never do to come upon them this size: why, I should frighten them out of their wits!"
     show alice at breathing:
-        linear 5.0 zoom 0.1
+        linear 5.0 zoom 0.5
     voice "n1240"
     "So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high."
 
-    jump chapter6
-label setup_forest:
-    scene black:
-        xtile 10
-    show trees at parallax(-900) as trees4:
-        matrixcolor BrightnessMatrix(-0.3)
-        xoffset 1310 xtile 10 yoffset -400
-    show trees at parallax(-900) as trees3:
-        matrixcolor BrightnessMatrix(-0.2)
-        xoffset 550 xtile 10 yoffset -400
-    show trees at parallax(-600) as trees2:
-        matrixcolor BrightnessMatrix(-0.1)
-        xoffset 200 xtile 10 yoffset -400
-    show trees at parallax(-300) as trees1:
-        xoffset 900 xtile 10 yoffset -400
-    show grass at parallax:
-        matrixcolor BrightnessMatrix(-0.25)
-        yoffset 550 xoffset 900 xtile 10
-
-    return
 label chapter6:
 
 
