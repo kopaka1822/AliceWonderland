@@ -3083,7 +3083,8 @@ label ch6_kitchen:
     "As soon as she had made out the proper way of nursing it, (which was to twist it up into a sort of knot, and then keep tight hold of its right ear and left foot, so as to prevent its undoing itself,) she carried it out into the open air."
 
 
-    scene forest
+    call setup_forest
+    call reset_camera
 
     show alice pout at breathing:
         pos (0.5, 0.9) zoom alice_scale
@@ -3095,6 +3096,12 @@ label ch6_kitchen:
         linear 1.0 xoffset -10 yoffset 10 rotate 2
         linear 1.0 xoffset 10 yoffset -10 rotate -2
         repeat
+    show tree at parallax(300):
+        xpos 1156
+    camera:
+        perspective True
+        xpos 0.5 xoffset -center_offset
+
     voice "alice197"
     alice "(If I don’t take this child away with me, they’re sure to kill it in a day or two)"
     voice "alice198"
@@ -3107,6 +3114,8 @@ label ch6_kitchen:
     voice "n1277"
     "The baby grunted again, and Alice looked very anxiously into its face to see what was the matter with it."
     show baby half
+    camera:
+        ease cam_transition zpos -300
     voice "n1278"
     "There could be no doubt that it had a very turn-up nose, much more like a snout than a real nose; also not like the look of the thing at all."
     voice "alice200"
@@ -3126,10 +3135,14 @@ label ch6_kitchen:
     "Then it grunted again, so violently, that she looked down into its face in some alarm."
     show alice surprised at breathing
     show baby pig
+    camera:
+        ease cam_transition zpos -300 zrotate -10 ypos 135
     voice "n1283"
     "This time there could be no mistake about it: it was neither more nor less than a pig, and she felt that it would be quite absurd for her to carry it further."
 
     hide baby
+    camera:
+        ease cam_transition zpos 0 zrotate 0 ypos 0
     voice "n1284"
     "So she set the little creature down, and felt quite relieved to see it trot away quietly into the wood."
 
@@ -3139,15 +3152,22 @@ label ch6_kitchen:
     alice "If it had grown up, it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think."
     voice "n1285"
     "And she began thinking over other children she knew, who might do very well as pigs."
+    camera:
+        ease cam_transition zpos 0 zrotate 0
     voice "alice204"
     alice "If one only knew the right way to change them—"
     show alice surprised at breathing
+    camera:
+        ease cam_transition xpos 0.74
+    define cat_pos = 0.83
+    define cat_pos_y = 0.41
+    define cat_zoom = 0.35
+    show cat:
+        anchor (0.5, 1.0)
+        xpos cat_pos ypos cat_pos_y zpos 300 zoom cat_zoom
     voice "n1286"
     "She got a little startled by seeing the Cheshire Cat sitting on a bough of a tree a few yards off."
 
-    show cat:
-        anchor (0.5, 1.0)
-        xpos 0.79 ypos 0.25 zoom 0.5
     voice "n1287"
     "The Cat only grinned when it saw Alice."
     voice "n1288"
@@ -3234,7 +3254,7 @@ label ch6_kitchen:
 
     show cat:
         anchor (0.5, 1.0)
-        xpos 0.79 ypos 0.25 zoom 0.5
+        xpos cat_pos ypos cat_pos_y zpos 300 zoom cat_zoom
     voice "cat12"
     cat "By the way, what became of the baby?"
     voice "cat13"
@@ -3257,7 +3277,7 @@ label ch6_kitchen:
 label ch6_cat:
     show cat:
         anchor (0.5, 1.0)
-        xpos 0.79 ypos 0.25 zoom cat_scale
+        xpos cat_pos ypos cat_pos_y zpos 300 zoom cat_zoom
     voice "n1297"
     "As she said this, she looked up, and there was the Cat again, sitting on a branch of a tree."
 
@@ -3287,7 +3307,7 @@ label ch6_cat:
 
     show cat_animated:
         anchor (0.5, 1.0)
-        xpos 0.79 ypos 0.25 zoom cat_scale
+        xpos cat_pos ypos cat_pos_y zpos 300 zoom cat_zoom
     voice "n1298"
     "This time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone."
     show alice happy at breathing
@@ -3295,6 +3315,7 @@ label ch6_cat:
     alice "Well! I’ve often seen a cat without a grin, but a grin without a cat! It’s the most curious thing I ever saw in my life!"
 
     scene hare_house
+    call reset_camera
     voice "n1299"
     "She had not gone much farther before she came in sight of the house of the March Hare: she thought it must be the right house, because the chimneys were shaped like ears and the roof was thatched with fur."
     voice "n1300"
@@ -3305,6 +3326,7 @@ label ch6_cat:
 label chapter7:
     $ persistent.started_story = True
     scene black
+    call reset_camera
     voice "n1301"
     "{size=+40}Chapter VII: \n{/size}A Mad Tea-Party"
 
@@ -4689,7 +4711,7 @@ label setup_croquet:
     show tree at parallax(300) zorder 10 as tree1:
         xpos -0.59
     show tree at parallax(300) zorder 10 as tree2:
-        xpos 1.88
+        xpos 1.88 xzoom -1.0
 
     return
 label ch8_croquet:
