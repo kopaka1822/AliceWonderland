@@ -4041,8 +4041,11 @@ label ch7_reorder:
     voice "n1341"
     "This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot."
 
-    scene forest
+    call setup_forest
     call reset_camera
+    camera:
+        perspective True
+        xpos 0.5 xoffset -center_offset
 
     show alice disturbed at breathing:
         pos (0.5, 0.9) zoom alice_scale
