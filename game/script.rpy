@@ -336,6 +336,12 @@ transform parallax(z=0):
     # zzoom True # zzoom does not work with tiling qwq
     zoom zoom_for_zpos(z)
 
+transform parallax2(z=0):
+    anchor (0.5, 1.0)
+    pos (0.5, 0.0)
+    zpos z
+    zoom zoom_for_zpos(z)
+
 label reset_camera:
     camera:
         perspective False
@@ -2245,13 +2251,18 @@ label ch4_grass:
     jump ch4_caterpillar
 
 label setup_caterpillar:
-    scene sky:
+    scene bluesky:
         xpos 0.0 zpos -6000 zzoom True
 
 
-    show soil:
+    #show soil:
+    #    anchor (0.0, 0.0)
+    #    xrotate 90 yoffset -512 zpos -1100 ypos 1.0 
+    #show mud at parallax:
+    #    xpos -1.0 xtile 10
+    show mud:
         anchor (0.0, 0.0)
-        xrotate 90 yoffset -512 zpos -1100 ypos 1.0 
+        xrotate 90 yoffset -512 zpos -1100 ypos 1.0 xtile 10
 
     show blades at windy_no_anchor:
         anchor (0.5, 1.0)
@@ -2282,10 +2293,10 @@ label setup_caterpillar:
         zoom 0.5
     return
 label ch4_caterpillar:
-
+    call reset_camera
     camera:
         perspective True
-        xpos 730 ypos 815 zpos -1460 xoffset -center_offset
+        xpos 0.5 ypos 0.5 xoffset -center_offset
     voice "alice132"
     alice "And yet what a dear little puppy it was!"
     voice "n1198"
@@ -2560,7 +2571,7 @@ label ch5_sky:
 
     play music "audio/rinne alice.mp3" fadein 1.0 fadeout 1.0
 
-    scene sky:
+    scene bluesky:
         # center sky
         anchor (0.5, 0.5)
         xpos 0.5 ypos 0.5
