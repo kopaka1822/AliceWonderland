@@ -360,8 +360,11 @@ label chapter1:
     "{size=+40}Chapter I: \n{/size}Down the Rabbit-Hole"
 
     #scene riverbank at windy
-    scene bluesky at parallax(-4000)
-    show hills at parallax(-4000)
+    define hills_y = 1.2
+    scene bluesky at parallax(-4000):
+        xoffset -1.0 xtile 10
+    show hills at parallax(-4000):
+        ypos hills_y xtile 3
     show water at parallax(-300):
         xpos 1.3 xtile 5 yoffset 110
         linear 10.0 xoffset 1460
@@ -1285,8 +1288,10 @@ label chapter3:
 
     jump ch3_start
 label ch3_scene_setup:
-    scene bluesky at parallax(-4000)
-    show hills at parallax(-4000)
+    scene bluesky at parallax(-4000):
+        xoffset -1.0 xtile 10
+    show hills at parallax(-4000):
+        ypos hills_y xtile 3
     show mud at parallax(-300) as mud_safe: # safety mud layer behind river
         yoffset 550 xtile 5
     show water at parallax(-300):
@@ -2253,6 +2258,7 @@ label ch4_grass:
 label setup_caterpillar:
     scene bluesky:
         xpos 0.0 zpos -6000 zzoom True
+        xtile 5
 
 
     #show soil:
@@ -2576,6 +2582,7 @@ label ch5_sky:
         anchor (0.5, 0.5)
         xpos 0.5 ypos 0.5
         zoom 1.1
+        xtile 4
     camera:
         perspective True
         xpos 0 ypos 0 zpos 0 xoffset 0
@@ -4119,8 +4126,10 @@ label chapter8:
     play music "audio/rinne rosalia garden.mp3"
 
     #scene garden at windy
-    scene bluesky at parallax(-4000)
-    show hills at parallax(-4000)
+    scene bluesky at parallax(-4000):
+        xpos -1.0 xtile 10
+    show hills at parallax(-4000):
+        ypos hills_y xtile 3
     show roses at parallax(-400) as rosesbg1:
         xtile 10 zoom 0.5 ypos 0.54 xoffset 300
     show roses at parallax(-300) as rosesbg2:
@@ -4717,8 +4726,10 @@ label chapter8:
     jump ch8_croquet
 label setup_croquet:
 
-    scene bluesky at parallax(-4000)
-    show hills at parallax(-4000)
+    scene bluesky at parallax(-4000):
+        xpos -1.0 xtile 10
+    show hills at parallax(-4000):
+        ypos hills_y xtile 3
     show grass at parallax:
         yoffset 550 xoffset -900 xtile 10
     show tree at parallax(300) zorder 10 as tree1:
@@ -5267,8 +5278,10 @@ label chapter9:
 
     jump ch9_gryphon
 label setup_cliff:
-    scene bluesky at parallax(-4000)
-    show hills at parallax(-4000)
+    scene bluesky at parallax(-4000):
+        xpos -1.0 xtile 10
+    show hills at parallax(-4000):
+        ypos hills_y xtile 3
     show grass at parallax:
         yoffset 550 xoffset -900 xtile 10
     show rock at parallax:
