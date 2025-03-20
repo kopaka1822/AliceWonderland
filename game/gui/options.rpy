@@ -44,11 +44,11 @@ define config.has_voice = True
 ## movie audio channels. This should be a number between 0.0 and 1.0
 ## with 1.0 being full volume.
 
-define config.default_music_volume = 0.4
+define config.default_music_volume = 0.3
 
 ## The default volume of the sfx mixer, which is used for the sound audio channel.
 ## This should be a number between 0.0 and 1.0, with 1.0 being full volume.
-define config.default_sfx_volume = 1.0
+define config.default_sfx_volume = 0.8
 
 ## The default volume of the voice mixer, which is used for the voice audio channel
 ## (And hence the voice statement, auto-voice, etc.).
@@ -125,7 +125,7 @@ default preferences.text_cps = 60
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0
 ## to 30 being the valid range.
 
-default preferences.afm_time = 15
+default preferences.afm_time = 5
 
 ## If true, hardware video playback will be used on mobile platforms.
 ## This is faster, but only some formats are supported and only fullscreen video is available.
