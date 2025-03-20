@@ -179,7 +179,7 @@ define three_legged_table_zoom = 0.9
 
 ## ANIMATED TRANSFORMS ##
 ## remove comment below to work with action editor
-P'''
+#'''
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
