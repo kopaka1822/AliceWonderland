@@ -8,6 +8,14 @@ init python:
     config.keymap['rollback'] = ['any_K_PAGEUP', 'any_KP_PAGEUP', 'K_AC_BACK']
     config.keymap['rollforward'] = ['any_K_PAGEDOWN', 'any_KP_PAGEDOWN']
 
+    renpy.register_shader("game.grayscale_shader", variables="""
+        uniform sampler2D tex0;
+        varying vec2 v_tex_coord;
+    """, fragment_300="""
+        vec4 color = texture2D(tex0, v_tex_coord);
+        float gray = dot(color.rgb, vec3(0.33, 0.33, 0.33));
+        gl_FragColor = vec4(gray, gray, gray, 1.0);
+    """)
     renpy.register_shader("game.breathing", variables="""
         uniform sampler2D tex0;
         uniform float u_time;
@@ -121,6 +129,17 @@ init python:
         if zpos < 0: return 1 - 0.00142 * zpos
         return 1 - 0.0014 * zpos
 
+
+# full screen camera shaders
+transform shader_gray(child):
+    child
+    shader "game.grayscale_shader"
+    mesh True
+
+transform shader_empty(child):
+    child
+    shader []
+    mesh True
 
 define alice = Character("Alice", color="#ADD8E6")
 define rabbit = Character(_("Rabbit"), color="#ffffff")
@@ -6992,10 +7011,15 @@ label chapter12:
         ease 1.0 zrotate 0
     voice "n1537"
     "She soon got it out again, and put it right."
+    
+    camera at shader_gray
+    
     voice "alice370"
     alice "(not that it signifies much)" 
     voice "alice371"
     alice "(I should think it would be quite as much use in the trial one way up as the other)"
+    
+    camera at shader_empty
 
     show alice thinking at breathing:
         ease 1.0 xpos court_witness zpos -350
@@ -7062,9 +7086,13 @@ label chapter12:
     show alice thinking at breathing
     voice "n1545"
     "Alice could see this, as she was near enough to look over their slates."
+
+    camera at shader_gray
     voice "alice374"
     alice "(But it doesn’t matter a bit...)"
 
+    camera at shader_empty
+    "..."
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "n1546"
