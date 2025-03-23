@@ -357,12 +357,6 @@ transform parallax(z=0):
     # zzoom True # zzoom does not work with tiling qwq
     zoom zoom_for_zpos(z)
 
-transform parallax2(z=0):
-    anchor (0.5, 1.0)
-    pos (0.5, 0.0)
-    zpos z
-    zoom zoom_for_zpos(z)
-
 label reset_camera:
     camera:
         perspective False
@@ -2277,53 +2271,37 @@ label ch4_grass:
     jump ch4_caterpillar
 
 label setup_caterpillar:
-    scene bluesky:
-        xpos 0.0 zpos -6000 zzoom True
-        xtile 5
+    scene bluesky at parallax(-4000):
+        xtile 10
 
+    show blades at parallax(-300), windy_no_anchor:
+        xtile 10
 
-    #show soil:
-    #    anchor (0.0, 0.0)
-    #    xrotate 90 yoffset -512 zpos -1100 ypos 1.0 
-    #show mud at parallax:
-    #    xpos -1.0 xtile 10
-    show mud:
-        anchor (0.0, 0.0)
-        xrotate 90 yoffset -512 zpos -1100 ypos 1.0 xtile 10
-
-    show blades at windy_no_anchor:
-        anchor (0.5, 1.0)
-        pos (800, 1.0)
-        zpos -1100
-        zoom 0.5
+    show mud at parallax:
+        xtile 10 yoffset 550
 
     show alice normal at breathing:
-        pos (800, 1.0) zoom 0.22 zpos -1000 
+        pos (-350, 0.77) zoom 0.43
 
-    show buttercup at windy_no_anchor:
-        anchor (0.5, 1.0)
-        pos (650, 1.0)
-        zoom 0.3
-        zpos -950
+    show buttercup at parallax, windy_no_anchor:
+        pos (-745, 0.49) zoom 0.8
 
     show caterpillar at breathing:
-        pos (1090, 0.88) zoom 0.3 zpos -900
+        pos (246, 0.48) zoom 0.5 zpos 150
 
-    show mushroom at Position(xpos = 1090, ypos = 1.0):
-        anchor (0.5, 1.0)
-        zoom 0.45
-        zpos -880
-    show blades as blades2 at windy_no_anchor:
-        anchor (0.5, 1.0)
-        pos (800, 1.14)
-        zpos -860
-        zoom 0.5
+    show mushroom at parallax(150):
+        zoom 1.0 xpos 0.25 ypos 0.57 xzoom -1.0
+
+    show blades as blades2 at parallax(300), windy_no_anchor:
+        xtile 10 ypos 0.66
+        
     return
 label ch4_caterpillar:
     call reset_camera
     camera:
         perspective True
-        xpos 0.5 ypos 0.5 xoffset -center_offset
+        xoffset -center_offset
+        xpos -550 ypos 70 zpos -265
     voice "alice132"
     alice "And yet what a dear little puppy it was!"
     voice "n1198"
@@ -2340,7 +2318,7 @@ label ch4_caterpillar:
     "The great question certainly was, what?"
 
     camera:
-        linear 4.0 xpos 1000 
+        linear 4.0 xpos -135 
     voice "n1200"
     "Alice looked all round her at the flowers and the blades of grass, but she did not see anything that looked like the right thing to eat or drink under the circumstances."
 
@@ -2349,7 +2327,7 @@ label ch4_caterpillar:
     "There was a large mushroom growing near her, about the same height as herself; and when she had looked under it, and on both sides of it, and behind it, it occurred to her that she might as well look and see what was on the top of it."
 
     camera:
-        linear 4.0 xpos 1000 ypos 635 zpos -1275
+        linear 4.0 xpos 0 ypos 0 zpos 0
     voice "n1202"
     "She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else."
 
@@ -2370,7 +2348,7 @@ label chapter5:
 
     camera:
         perspective True
-        xpos 1000 ypos 635 zpos -1275 xoffset -center_offset
+        xpos 0.0 xoffset -center_offset
     voice "n1204"
     "The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice."
 
@@ -2422,7 +2400,6 @@ label chapter5:
     caterpillar "Why?"
 
     show alice at breathing:
-        zpos -1000
         linear 2.0 xoffset -400
     voice "n1208"
     "Here was another puzzling question; and as Alice could not think of any good reason, and as the Caterpillar seemed to be in a very unpleasant state of mind, she turned away."
@@ -2433,7 +2410,6 @@ label chapter5:
     caterpillar "I’ve something important to say!"
 
     show alice normal at breathing:
-        zpos -1000
         linear 2.0 xoffset 0
     voice "n1209"
     "This sounded promising, certainly: Alice turned and came back again."
@@ -2544,8 +2520,7 @@ label chapter5:
     "In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself."
 
     show caterpillar at breathing:
-        zpos -900
-        linear 2.0 ypos 1.0
+        linear 2.0 ypos 0.72
         linear 20.0 zpos -1200
     voice "n1221"
     "Then it got down off the mushroom, and crawled away in the grass."
@@ -2565,7 +2540,7 @@ label chapter5:
     "However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand."
 
     camera:
-        linear 0.5 xpos 800 ypos 815 zpos -1500
+        linear 0.5 xpos -335 ypos 235 zpos -335
     show alice excited at breathing
     voice "alice163"
     alice "And now which is which?"
@@ -2573,7 +2548,6 @@ label chapter5:
     "She nibbled a little of the right-hand bit to try the effect:"
 
     show alice excited at breathing:
-        zpos -1000
         easein_expo 10.0 yzoom 0.1
     voice "n1226"
     "The next moment she felt a violent blow underneath her chin: it had struck her foot!"
@@ -2586,8 +2560,6 @@ label chapter5:
     voice "alice164"
     alice "Come, my head’s free at last!"
     show alice normal at breathing:
-        zoom 0.2
-        zpos -1000
         yzoom 0.1
         easeout_expo 10.0 yzoom 5.0
     voice "n1229"
