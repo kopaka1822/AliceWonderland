@@ -156,7 +156,7 @@ define gryphon = Character(_("Gryphon"), color="#ff8c00")
 define mock = Character(_("Mock Turtle"), color="#6cb30f")
 define cook = Character(_("Cook"), color="#ffffff")
 define knave = Character(_("Knave"), color="#ff0000")
-define sister = Character(_("Sister"), color="00ff00")
+define sister = Character(_("Sister"), color="bc484e")
 
 define alice_scale = 0.55
 define alice_scale_large = 1.3
@@ -275,6 +275,8 @@ image hatter scared = Model().child("hatter scared.png", fit=True).texture("hatt
 image hare = Model().child("hare.png", fit=True).texture("hare_mask.png")
 
 image gryphon = Model().child("gryphon.png", fit=True).texture("gryphon_mask.png")
+
+image sister_cg = Model().child("sister_cg.png", fit=True).texture("sister_cg_mask.png")
 
 # backgrounds
 
@@ -2900,7 +2902,7 @@ label ch6_kitchen:
     show cat:
         align (0.5, 1.0)
         xpos cat_kitchen_pos ypos 0.59 zoom 0.63
-    show duchess at breathing:
+    show duchess normal at breathing:
         pos (duchess_kitchen_pos, 0.9) zoom duchess_scale
     show baby normal:
         anchor (0.5, 1.0)
@@ -5215,7 +5217,8 @@ label chapter9:
         ease cam_transition xpos 1.05 ypos 0 zoom 1.0
     voice "n1431"
     "Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm."
-
+    
+    show duchess normal at breathing
     voice "duchess29"
     duchess "A fine day, your Majesty!" # the Duchess began in a low, weak voice.
     show queen angry at breathing
@@ -7412,12 +7415,12 @@ label chapter12:
     voice "sister1"
     sister "Wake up, Alice dear!"
 
-    scene sister_cg with dissolve
+    scene bluesky:
+        xtile 2
+    show sister_cg at breathing:
+        ypos 1.0 xpos 0.5
     play music "audio/rinne sad.mp3"
-    camera:
-        ease 3.0 zrotate -0.1
-        ease 3.0 zrotate 0.1
-        repeat
+    
     voice "sister2"
     sister "Why, what a long sleep you’ve had!"
     voice "alice387"
