@@ -2687,7 +2687,7 @@ label ch5_sky:
     call reset_camera
     camera:
         perspective True
-        xpos 0.5 xoffset -center_offset zrotate 0
+        xpos 0.5 xoffset -center_offset zrotate 0 ypos 0
 
     #stop music fadeout 1.0
     play music "audio/rinne song of little birds.mp3" fadein 1.0 fadeout 1.0
@@ -2730,7 +2730,7 @@ label chapter6:
     call setup_forest
 
     show footmen_fish at breathing:
-        pos (-0.5, 0.9) zoom 0.5
+        pos (-0.5, 0.9) zoom 0.55
         linear 4.0 xpos 0.3
 
     camera:
@@ -2762,7 +2762,7 @@ label chapter6:
     hide footmen_frog
     show footmen_fish:
         anchor (0.5, 1.0)
-        xpos 0.3 ypos 0.9 zoom 0.5
+        xpos 0.3 ypos 0.9 zoom 0.55
         zrotate 20
 
     show footmen_frog:
