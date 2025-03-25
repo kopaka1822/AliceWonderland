@@ -13,7 +13,7 @@ init python:
         varying vec2 v_tex_coord;
     """, fragment_300="""
         vec4 color = texture2D(tex0, v_tex_coord);
-        float gray = dot(color.rgb, vec3(0.33, 0.33, 0.33));
+        float gray = dot(color.rgb, vec3(0.2126, 0.7152, 0.0722));
         gl_FragColor = vec4(gray, gray, gray, 1.0);
     """)
     renpy.register_shader("game.breathing", variables="""
@@ -2502,10 +2502,12 @@ label chapter5:
     show alice thinking at breathing
     voice "alice160"
     alice "But I’m not used to it!"
-    voice "n1217"
-    "Pleaded poor Alice in a piteous tone. And she thought of herself:"
+    #voice "n1217"
+    #"Pleaded poor Alice in a piteous tone. And she thought of herself:"
+    camera at shader_gray
     voice "alice161"
     alice "(I wish the creatures wouldn’t be so easily offended!)"
+    camera at shader_empty
     voice "caterpillar23"
     caterpillar "You’ll get used to it in time."
     play sound "voice/caterpillar_vape.mp3"
@@ -2800,12 +2802,12 @@ label chapter6:
     frogfoot "There might be some sense in your knocking, if we had a door between us. For instance, if you were inside, you might knock, and I could let you out, you know."
     voice "n1252"
     "He was looking up into the sky all the time he was speaking, and this Alice thought decidedly uncivil."
+    camera at shader_gray
     show alice thinking at breathing
     voice "alice182"
     alice "(But perhaps he can’t help it, his eyes are so very nearly at the top of his head. But at any rate he might answer questions)"
     show alice happy at breathing
-    camera:
-        ease cam_transition zpos -200
+    camera at shader_empty
     voice "alice183"
     alice "*loud* How am I to get in?"
     voice "frogfoot4"
@@ -2838,12 +2840,10 @@ label chapter6:
     show alice disturbed at breathing
     voice "n1254"
     "It was, no doubt: only Alice did not like to be told so."
-    camera:
-        ease cam_transition zpos -400 xpos 0.33 ypos 0 zrotate 0 # alice normal
+    camera at shader_gray
     voice "alice185"
     alice "(It’s really dreadful, the way all the creatures argue. It’s enough to drive one crazy!)"
-    camera:
-        ease cam_transition zpos 0 xpos 0.5 ypos 0 zrotate 0 # neutral
+    camera at shader_empty
     voice "n1255"
     "The Footman seemed to think this a good opportunity for repeating his remark, with variations."
     camera:
@@ -3448,11 +3448,15 @@ label chapter7:
     voice "hatter02"
     hatter "Why is a raven like a writing-desk?"
 
+    
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
+    pause 0.5
+    camera at shader_gray
     show alice normal at breathing
     voice "alice228"
     alice "(Come, we shall have some fun now! I’m glad they’ve begun asking riddles)"
+    camera at shader_empty
     voice "alice229"
     alice "I believe I can guess that."
 
@@ -4404,8 +4408,10 @@ label chapter8:
 
     voice "n1362"
     "Alice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions."
+    camera at shader_gray
     voice "alice268"
     alice "(What would be the use of a procession, if people had all to lie down upon their faces, so that they couldn’t see it?)"
+    camera at shader_empty
     voice "n1363"
     "So she stood still where she was, and waited."
 
@@ -4456,9 +4462,11 @@ label chapter8:
     show alice normal at breathing
     voice "alice269"
     alice "My name is Alice, so please your Majesty." # saif alice politely
+    camera at shader_gray
     voice "alice270"
     alice "(Why, they’re only a pack of cards, after all. I needn’t be afraid of them!)"
-
+    camera at shader_empty
+    pause 0.1
     camera:
         ease cam_transition xpos queen_garden zoom 1.0 ypos 0
     voice "queen04"
@@ -4799,9 +4807,11 @@ label ch8_croquet:
     show alice surprised at breathing
     voice "n1391"
     "Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute."
+    camera at shader_gray
     voice "alice278"
     alice "(And then, what would become of me? They’re dreadfully fond of beheading people here; the great wonder is, that there’s any one left alive!)"
-
+    camera at shader_empty
+    pause 0.1
     # cat appear slowly
     camera:
         ease 10.0 xpos cat_croquet
@@ -4813,10 +4823,11 @@ label ch8_croquet:
         linear 10.0 alpha 1.0
     voice "n1392"
     "She was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin."
+    camera at shader_gray
     show alice happy at breathing
     voice "alice279"
     alice "(It’s the Cheshire Cat: now I shall have somebody to talk to)"
-
+    camera at shader_empty
     voice "cat17"
     cat "How are you getting on?" # said the Cat, as soon as there was mouth enough for it to speak with.
 
@@ -4828,9 +4839,10 @@ label ch8_croquet:
     show alice normal at breathing
     voice "n1393"
     "Alice waited till the eyes appeared, and then nodded."
+    camera at shader_gray
     voice "alice280"
     alice "(It’s no use speaking to it, till its ears have come, or at least one of them)"
-
+    camera at shader_empty
     show cat4:
         anchor (0.5, 1.0)
         xpos cat_croquet ypos 0.5 zoom cat_scale xoffset 120 # offset to center head
@@ -4991,9 +5003,11 @@ label ch8_croquet:
     voice "n1408"
     "By the time she had caught the flamingo and brought it back, the fight was over, and both the hedgehogs were out of sight."
     show alice thinking at breathing
+    camera at shader_gray
     voice "alice287"
     alice "(But it doesn’t matter much, as all the arches are gone from this side of the ground)"
-
+    camera at shader_empty
+    pause 0.1
     show alice normal at breathing:
         ease 1.0 xpos alice_croquet
 
@@ -5077,13 +5091,15 @@ label chapter9:
     show alice thinking at breathing
     camera:
         ease cam_transition xpos alice_nine ypos 1000 zoom 2.0
+    pause cam_transition
+    camera at shader_gray
     voice "alice289"
     alice "(When I’m a Duchess, I won’t have any pepper in my kitchen at all)"
     voice "alice290"
     alice "(Soup does very well without—Maybe it’s always pepper that makes people hot-tempered, and vinegar that makes them sour—and camomile that makes them bitter—and—and barley-sugar and such things that make children sweet-tempered)"
     voice "alice291"
     alice "(I only wish people knew that: then they wouldn’t be so stingy about it, you know—)"
-
+    camera at shader_empty
     show alice pout at breathing
     voice "n1421"
     "She had quite forgotten the Duchess by this time, and was a little startled when she heard her voice close to her ear."
@@ -5127,8 +5143,10 @@ label chapter9:
     voice "n1424"
     "The Duchess started digging her sharp little chin into Alice’s shoulder."
     show alice thinking at breathing
+    camera at shader_gray
     voice "alice295"
     alice "(How fond she is of finding morals in things!)"
+    camera at shader_empty
     "..."
     voice "duchess17"
     duchess "I dare say you’re wondering why I don’t put my arm round your waist, the reason is, that I’m doubtful about the temper of your flamingo. Shall I try the experiment?"
@@ -5179,10 +5197,12 @@ label chapter9:
     duchess "Oh, don’t talk about trouble!"
     voice "duchess26"
     duchess "I make you a present of everything I’ve said as yet."
+    camera at shader_gray
     voice "alice303"
     alice "(A cheap sort of present!)"
     voice "alice304"
     alice "(I’m glad they don’t give birthday presents like that!)"
+    camera at shader_empty
     show alice thinking at breathing
     voice "n1427"
     "She did not venture to say it out loud."
@@ -5331,8 +5351,12 @@ label ch9_gryphon:
     voice "gryphon02"
     gryphon "Why, she. It’s all her fancy, that: they never executes nobody, you know. Come on!"
     show alice disturbed at breathing
+
+    camera at shader_gray
     voice "alice310"
     alice "(Everybody says ‘come on!’ here. I never was so ordered about in all my life, never!)"
+    camera at shader_empty
+    pause 0.1
 
     define turtle_pos = -0.63
     define gyphon_pos = 0.39
@@ -5373,8 +5397,10 @@ label ch9_gryphon:
     show alice thinking at breathing:
         xpos alice_turtle
     "..."
+    camera at shader_gray
     voice "alice312"
     alice "(I don’t see how he can ever finish, if he doesn’t begin)"
+    camera at shader_empty
     voice "n1449"
     "But she waited patiently."
 
@@ -6102,11 +6128,14 @@ label chapter10:
 
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
+    pause cam_transition
+    camera at shader_gray
     show alice pout at breathing
     voice "alice348"
     alice "(How the creatures order one about, and make one repeat lessons!)"
     voice "alice349"
     alice "(I might as well be at school at once)"
+    camera at shader_empty
     show alice thinking at breathing
     voice "n1476"
     "However, she got up, and began to repeat it, but her head was so full of the Lobster Quadrille, that she hardly knew what she was saying, and the words came very queer indeed:—"
@@ -6399,8 +6428,10 @@ label ch11_court:
         ease cam_transition xpos 2560 ypos 300 # tarts
     voice "n1489"
     "In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—"
+    camera at shader_gray
     voice "alice356"
     alice "(I wish they’d get the trial done and hand round the refreshments!)"
+    camera at shader_empty
     voice "n1490"
     "But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time."
     voice "n1491"
@@ -6408,19 +6439,27 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000
+    pause cam_transition
+    camera at shader_gray
     voice "alice357"
     alice "(That’s the judge, because of his great wig)"
+    camera at shader_empty
     voice "n1492"
     "The judge, by the way, was the King; and as he wore his crown over the wig, he did not look at all comfortable, and it was certainly not becoming." # (look at the frontispiece if you want to see how he did it,)
 
     camera:
         ease cam_transition xpos court_jury ypos 0 zpos -500
+    pause cam_transition
+    camera at shader_gray
     voice "alice358"
     alice "(And that’s the jury-box and those twelve creatures—"
+    camera at shader_empty
     voice "n1493"
     "(she was obliged to say “creatures,” you see, because some of them were animals, and some were birds)"
+    camera at shader_gray
     voice "alice359"
     alice "(I suppose they are the jurors)"
+    camera at shader_empty
     voice "n1494"
     "She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all."
     voice "n1495"
@@ -6454,9 +6493,10 @@ label ch11_court:
         ease cam_transition xpos court_jury ypos 0 zpos -500
     voice "n1498"
     "Alice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid” and that he had to ask his neighbour to tell him."
+    camera at shader_gray
     voice "alice362"
     alice "(A nice muddle their slates’ll be in before the trial’s over!)"
-    
+    camera at shader_empty
     show alice disturbed at breathing zorder 1:
         ease 1.0 zpos -900 xpos 1525
     voice "n1499"
@@ -6756,10 +6796,13 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
+    pause cam_transition
+    camera at shader_gray
     show alice happy at breathing
     voice "alice365"
     alice "(I’m glad I’ve seen that done. I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now)"
-    
+    camera at shader_empty
+    pause 0.1
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king24"
@@ -6779,9 +6822,12 @@ label ch11_court:
 
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
+    pause cam_transition
+    camera at shader_gray
     voice "alice366"
     alice "(Come, that finished the guinea-pigs! Now we shall get on better)"
-
+    camera at shader_empty
+    pause 0.1
     camera:
         ease cam_transition xpos court_witness ypos 0 zpos -500 # hatter
     voice "hatter48"
@@ -6899,8 +6945,10 @@ label ch11_court:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     voice "n1530"
     "Alice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like."
+    camera at shader_gray
     voice "alice367"
     alice "(They haven’t got much evidence yet)"
+    camera at shader_empty
     voice "n1531"
     "Imagine her surprise, when the White Rabbit read out, at the top of his shrill little voice, the name:"
 
@@ -7062,9 +7110,8 @@ label chapter12:
     camera at shader_gray
     voice "alice374"
     alice "(But it doesn’t matter a bit...)"
-
     camera at shader_empty
-    "..."
+    pause 0.1
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "n1546"
