@@ -113,7 +113,7 @@ translate simple_english chapter1_988fd847:
     alice "(Wow! If I can fall like that and still be fine, I won't be afraid of falling down stairs anymore!)"
 
 # game/script.rpy:386
-translate simple_english chapter1_a38eedd8:
+translate simple_english chapter1_155bbc87:
 
     # alice "(How brave they'll all think me at home!)"
     #voice "alice003"

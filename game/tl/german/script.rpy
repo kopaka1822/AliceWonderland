@@ -113,7 +113,7 @@ translate german chapter1_988fd847:
     alice "(Krass! Wenn ich so tief fallen kann, muss ich mir später keine Sorgen machen, wenn ich die Treppe runterfalle!)"
 
 # game/script.rpy:386
-translate german chapter1_a38eedd8:
+translate german chapter1_155bbc87:
 
     # alice "(How brave they'll all think me at home!)"
     #voice "alice003"

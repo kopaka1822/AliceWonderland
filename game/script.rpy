@@ -498,7 +498,7 @@ label chapter1:
     alice "(Well! After such a fall as this, I shall think nothing of tumbling down stairs!)"  
     
     voice "alice003"
-    alice "(How brave they'll all think me at home!)" 
+    alice "(How brave they'll all think of me at home!)" 
     
     voice "alice004"
     alice "(Why, I wouldn’t say anything about it, even if I fell off the top of the house!)"  
