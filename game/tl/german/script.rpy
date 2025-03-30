@@ -12,14 +12,14 @@ translate german chapter1_c5393ef6:
 
     # "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it."
     #voice "n1002"
-    "Alice saß neben ihrer Schwester am Fluss und langweilte sich. Sie schaute in das Buch ihrer Schwester, aber es hatte keine Bilder."
+    "Alice saß neben ihrer Schwester am Fluss und langweilte sich. Sie schaute in das Buch ihrer Schwester, aber es hatte keine Bilder oder Dialoge."
 
 # game/script.rpy:317
 translate german chapter1_065c1c04:
 
     # alice "(And what is the use of a book without pictures or conversations?)"
     #voice "alice001"
-    alice "(Warum sollte man ein Buch ohne Bilder lesen?)"
+    alice "(Warum sollte man ein Buch ohne Bilder oder Dialoge lesen?)"
 
 # game/script.rpy:319
 translate german chapter1_42fca085:
@@ -371,7 +371,7 @@ translate german ch1_hall_start_0d0954b7:
     # "She found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof."
     #voice "n1033"
     #voice "n1033"
-    "Sie war in einem langen Flur, der von Lampen beleuchtet wurde."
+    "Sie war nun in einem langen Flur, der von Lampen beleuchtet wurde."
 
 # game/script.rpy:489
 translate german ch1_hall_start_078bc577:
@@ -466,7 +466,7 @@ translate german ch1_hall_start_15515f9a:
     # "It was all very well to say 'Drink me', but the wise little Alice was not going to do that in a hurry."
     #voice "n1042"
     #voice "n1042"
-    "Alice war schlau und wollte es nicht trinken, nur weil da 'Trink mich' stand."
+    "Alice war schlau und wollte es nicht trinken, nur weil da 'TRINK MICH' stand."
 
 # game/script.rpy:520
 translate german ch1_hall_start_27d921c8:
@@ -498,7 +498,7 @@ translate german ch1_hall_start_ae5e4ab8:
     # "However, this bottle was not marked 'poison,' so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off."
     #voice "n1045"
     #voice "n1045"
-    "Aber weil die Flasche kein Totenkopf-Symbol hatte, entschied sich Alice, einen Schluck zu probieren. Es schmeckte echt lecker, wie eine Mischung aus Kirschkuchen, Pudding, Ananas, gebratenem Hähnchen, Karamell und geröstetem Brot. Sie hatte es schnell ausgetrunken."
+    "Aber weil die Flasche kein Totenkopf-Symbol hatte, entschied sich Alice, einen Schluck zu probieren. Es schmeckte echt lecker, wie eine Mischung aus Kirschkuchen, Pudding, Ananas, gebratenem Hähnchen, Karamell und Weißbrot. Sie hatte es schnell ausgetrunken."
 
 # game/script.rpy:536
 translate german ch1_hall_start_8d7a5d1b:
@@ -865,7 +865,7 @@ translate german chapter2_e5ad9e24:
 
     # alice "However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, that’s all wrong, I’m certain!"
     #voice "alice046"
-    alice "Das Einmaleins ist echt nutzlos. Lass uns lieber über Erdkunde reden. London ist die Hauptstadt von Paris. Paris ist die Hauptstadt von Rom. Irgendwas stimmt hier nicht!"
+    alice "Das Einmaleins braucht eh niemand! Lass uns lieber über Erdkunde reden. London ist die Hauptstadt von Paris. Paris ist die Hauptstadt von Rom. Irgendwas stimmt hier nicht!"
 
 # game/script.rpy:647
 translate german chapter2_2c427d31:
@@ -1110,7 +1110,7 @@ translate german chapter2_a66996cb:
 
     # alice "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!"
     #voice "alice066"
-    alice "O Maus, kannst du mir helfen, einen Weg aus dem Pool zu finden? Ich möchte nicht mehr schwimmen, O Maus!"
+    alice "O Maus, kannst du mir helfen, einen Weg aus dem See zu finden? Ich möchte nicht mehr schwimmen, O Maus!"
 
 # game/script.rpy:728
 translate german chapter2_c9b3b48a:
@@ -1168,12 +1168,11 @@ translate german chapter2_fca2135a:
     #voice "n1091"
     "Die Maus sprang plötzlich aus dem Wasser und sah ganz erschrocken aus."
 
-# game/script.rpy:740
-translate german chapter12_1ac5911d:
+# game/script.rpy:1148
+translate german chapter2_dfd7d7b2:
 
+    # voice "alice069"
     # alice "Oh, I beg your pardon!"
-    #voice "alice369"
-    #voice "alice069"
     alice "Sorry!"
 
 # game/script.rpy:741
@@ -3569,7 +3568,7 @@ translate german chapter5_6886f8e9:
     pass
 
 # game/script.rpy:1754
-translate german chapter5_a6d293b7:
+translate german chapter5_5c7332b5:
 
     # alice "I wish the creatures wouldn’t be so easily offended!"
     pass
@@ -4448,9 +4447,11 @@ translate german ch6_kitchen_73312f44:
     #voice "everyone6"
     everyone "Ho! Ho! Ho!"
 
-# game/script.rpy:2186
-translate german ch6_kitchen_6cd4f3ad:
+# game/script.rpy:2952
+translate german ch6_kitchen_d01b78bf:
 
+    # voice "duchess09"
+    # duchess "Here! you may nurse it a bit, if you like!"
     duchess "Hier! Du kannst dich ein bisschen um ihn kümmern."
 
 # game/script.rpy:2190
@@ -7709,10 +7710,11 @@ translate german ch9_gryphon_a20cefa7:
     # "..."
     "..."
 
-# game/script.rpy:3962
-translate german ch9_gryphon_9b72d5ac:
+# game/script.rpy:5195
+translate german ch9_gryphon_2291bd55:
 
-    # alice "I don’t see how he can ever finish, if he doesn’t begin."
+    # voice "alice312"
+    # alice "(I don’t see how he can ever finish, if he doesn’t begin)"
     alice "(Wenn er nicht anfängt, wird er niemals fertig)"
 
 # game/script.rpy:3963
@@ -8709,9 +8711,10 @@ translate german chapter10_6ab813b9:
     "Alice begann ihre Geschichte damit, wie sie zum ersten Mal das Weiße Kaninchen sah."
 
 # game/script.rpy:4491
-translate german chapter10_84de0935:
+translate german chapter10_7adca745:
 
     # "She was a little nervous about it just at first, the two creatures got so close to her, one on each side, and opened their eyes and mouths so very wide, but she gained courage as she went on."
+    # voice "n1473"
     "Zuerst war sie ein bisschen nervös. Aber die beiden Kreaturen kamen ihr so nahe, einer auf jeder Seite. Sie öffneten ihre Augen und Münder so weit, dass Alice immer mehr Mut fasste, während sie weiter erzählte."
 
 # game/script.rpy:4492
@@ -9106,10 +9109,11 @@ translate german ch11_court_26004f38:
     #voice "n1491"
     "Alice war noch nie vor Gericht gewesen, aber sie hatte darüber in Büchern gelesen. Sie war froh, weil sie fast alles wiedererkannte."
 
-# game/script.rpy:4776
-translate german ch11_court_241e79dc:
+# game/script.rpy:6229
+translate german ch11_court_ddfbec90:
 
-    # alice "(That’s the judge, because of his great wig."
+    # voice "alice357"
+    # alice "(That’s the judge, because of his great wig)"
     alice "(Das ist der Richter, wegen seiner riesigen Perücke!)"
 
 # game/script.rpy:4777
@@ -9280,11 +9284,11 @@ translate german ch11_court_04730789:
     #voice "n1503"
     "Das Weiße Kaninchen blies dreimal in die Trompete."
 
-# game/script.rpy:4853
-translate german ch11_court_d4090ad4:
+# game/script.rpy:6332
+translate german ch11_court_c5d2edd9:
 
-    # rabbit "First witnes!"
-    #voice "rabbit27"
+    # voice "rabbit27"
+    # rabbit "First witness!"
     rabbit "Der erste Zeuge!"
 
 # game/script.rpy:4860
@@ -10698,6 +10702,20 @@ translate german chapter12_208bc6db:
     #voice "n1577"
     "Plötzlich flogen die Karten alle auf sie zu. Sie schrie vor Angst und versuchte, sie wegzuschieben. Doch dann wachte sie im Schoß ihrer Schwester auf."
 
+# game/script.rpy:7223
+translate german chapter12_6047d7a4:
+
+    # voice "sister1"
+    # sister "Wake up, Alice dear!"
+    sister "Alice, wach auf!"
+
+# game/script.rpy:7232
+translate german chapter12_aa355fee:
+
+    # voice "sister2"
+    # sister "Why, what a long sleep you’ve had!"
+    sister "Wow, du hast wirklich lange geschlafen!"
+
 # game/script.rpy:5536
 translate german chapter12_bf33b94e:
 
@@ -10711,6 +10729,13 @@ translate german chapter12_17ff6091:
     # "She told her sister, as well as she could remember them, all these strange Adventures of hers that you have just been reading about; and when she had finished, her sister kissed her."
     #voice "n1578"
     "Sie erzählte ihrer Schwester von dem komischen Abenteuer, so gut sie sich erinnern konnte. Als sie fertig war, küsste ihre Schwester sie auf die Stirn."
+
+# game/script.rpy:7238
+translate german chapter12_bc4aaecc:
+
+    # voice "sister3"
+    # sister "It was a curious dream, dear, certainly: but now run in to your tea; it’s getting late."
+    sister "Das war ein komischer Traum, aber jetzt geh schon mal nach Hause, es gibt gleich Abendessen."
 
 # game/script.rpy:5548
 translate german chapter12_30811a43:
@@ -10726,11 +10751,11 @@ translate german chapter12_be6510ea:
     #voice "n1580"
     "Ihre Schwester blieb noch eine Weile sitzen und schaute den Sonnenuntergang an. Sie dachte an die kleine Alice und all ihre Abenteuer. Bald begann auch sie zu träumen. Und das ist, was sie träumte:—"
 
-# game/script.rpy:5553
-translate german chapter12_0f065aa8:
+# game/script.rpy:7245
+translate german chapter12_15d1712f:
 
+    # voice "na01"
     # "First, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers."
-    #voice "na01"
     "Zuerst träumte sie von Alice."
 
 # game/script.rpy:5554
@@ -10839,53 +10864,6 @@ translate german chapter12_dfc16894:
     "Ende."
 # TODO: Translation updated at 2024-06-17 23:09
 
-# game/script.rpy:270
-translate german 49ec12a8:
-
-    # "# non-animated transforms (comment in for action editor) transform breathing_calm: anchor (0.5, 1.0)"
-    "# non-animated transforms (comment in for action editor) transform breathing_calm: anchor (0.5, 1.0)"
-
-# game/script.rpy:270
-translate german 6cac8cd0:
-
-    # "transform breathing: anchor (0.5, 1.0)"
-    "transform breathing: anchor (0.5, 1.0)"
-
-# game/script.rpy:270
-translate german fbceb752:
-
-    # "transform breathing_crying: anchor (0.5, 1.0)"
-    "transform breathing_crying: anchor (0.5, 1.0)"
-
-# game/script.rpy:270
-translate german f9eeca60:
-
-    # "transform swimming: anchor (0.5, 1.0) ease 2.0 yoffset -10 ease 2.0 yoffset 10 repeat"
-    "transform swimming: anchor (0.5, 1.0) ease 2.0 yoffset -10 ease 2.0 yoffset 10 repeat"
-
-# game/script.rpy:270
-translate german 7ffe53c8:
-
-    # "transform windy: anchor (0.5,0) pos (0,0) xoffset center_offset"
-    "transform windy: anchor (0.5,0) pos (0,0) xoffset center_offset"
-
-# game/script.rpy:270
-translate german 85d9f747:
-
-    # "transform windy_no_anchor: xoffset 0 # do nothing"
-    "transform windy_no_anchor: xoffset 0 # do nothing"
-
-# game/script.rpy:270
-translate german 28b69ff9:
-
-    # "transform windy_mask: anchor (0.5,0) pos (0,0) xoffset center_offset"
-    "transform windy_mask: anchor (0.5,0) pos (0,0) xoffset center_offset"
-
-# game/script.rpy:270
-translate german 548c14c4:
-
-    # "#"
-    "#"
 
 translate german strings:
 
@@ -11016,90 +10994,3 @@ translate german strings:
     # game/script.rpy:152
     old "Sister"
     new "Schwester"
-
-# TODO: Translation updated at 2024-10-12 16:31
-
-# game/script.rpy:346
-# TODO: Translation updated at 2024-11-09 12:45
-
-
-
-# game/script.rpy:1148
-translate german chapter2_dfd7d7b2:
-
-    # voice "alice069"
-    # alice "Oh, I beg your pardon!"
-    alice "Sorry!"
-
-
-# game/script.rpy:2432
-translate german chapter5_5c7332b5:
-
-    # voice "alice161"
-    # alice "(I wish the creatures wouldn’t be so easily offended!)"
-    pass
-
-# game/script.rpy:2952
-translate german ch6_kitchen_d01b78bf:
-
-    # voice "duchess09"
-    # duchess "Here! you may nurse it a bit, if you like!"
-    duchess "Hier! Du darfst dich auch mal um den kleinen kümmern!"
-
-
-# game/script.rpy:5195
-translate german ch9_gryphon_2291bd55:
-
-    # voice "alice312"
-    # alice "(I don’t see how he can ever finish, if he doesn’t begin)"
-    alice "(Wenn er nicht anfängt, wird er niemals fertig)"
-
-# game/script.rpy:5889
-translate german chapter10_7adca745:
-
-    # voice "n1473"
-    # "She was a little nervous about it just at first, but the two creatures got so close to her, one on each side, and opened their eyes and mouths so very wide, that she gained courage as she went on."
-    "Zuerst war sie ein bisschen nervös. Aber die beiden Kreaturen kamen ihr so nahe, einer auf jeder Seite. Sie öffneten ihre Augen und Münder so weit, dass Alice immer mehr Mut fasste, während sie weiter erzählte."
-
-# game/script.rpy:6229
-translate german ch11_court_ddfbec90:
-
-    # voice "alice357"
-    # alice "(That’s the judge, because of his great wig)"
-    alice "(Das ist der Richter, wegen seiner riesigen Perücke!)"
-
-# game/script.rpy:6332
-translate german ch11_court_c5d2edd9:
-
-    # voice "rabbit27"
-    # rabbit "First witness!"
-    rabbit "Der erste Zeuge!"
-
-# game/script.rpy:7223
-translate german chapter12_6047d7a4:
-
-    # voice "sister1"
-    # sister "Wake up, Alice dear!"
-    sister "Alice, wach auf!"
-
-# game/script.rpy:7232
-translate german chapter12_aa355fee:
-
-    # voice "sister2"
-    # sister "Why, what a long sleep you’ve had!"
-    sister "Wow, du hast wirklich lange geschlafen!"
-
-# game/script.rpy:7238
-translate german chapter12_bc4aaecc:
-
-    # voice "sister3"
-    # sister "It was a curious dream, dear, certainly: but now run in to your tea; it’s getting late."
-    sister "Ich hatte einen super spannenden Traum!"
-
-# game/script.rpy:7245
-translate german chapter12_15d1712f:
-
-    # voice "na01"
-    # "First, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers."
-    "Zuerst träumte sie von Alice."
-
