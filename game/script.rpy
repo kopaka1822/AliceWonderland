@@ -2294,6 +2294,9 @@ label setup_caterpillar:
 
     show blades as blades2 at parallax(300), windy_no_anchor:
         xtile 10 ypos 0.66
+
+    show blades as blades3 at parallax(300), windy_no_anchor:
+        xtile 10 ypos 0.61 xoffset 0.5
         
     return
 label ch4_caterpillar:
@@ -2523,7 +2526,7 @@ label chapter5:
 
     show caterpillar at breathing:
         linear 2.0 ypos 0.72
-        linear 20.0 zpos -1200
+        linear 20.0 zpos -1200 xpos 900
     voice "n1221"
     "Then it got down off the mushroom, and crawled away in the grass."
     voice "caterpillar24"
@@ -2582,18 +2585,6 @@ label ch5_sky:
         perspective True
         xpos 0 ypos 0 zpos 0 xoffset 0
 
-
-    show cloud as cloud1:
-        anchor (0.5, 0.5)
-        xpos 0.0 ypos 0.2 zpos -1200
-
-    show cloud as cloud2:
-        anchor (0.5, 0.5)
-        xpos 1.0 ypos 0.0 zpos -800
-
-    show cloud as cloud3:
-        anchor (0.5, 0.5)
-        xpos 1.2 ypos 0.7 zpos -600
     voice "alice165"
     alice "What can all that green stuff be?"
     
@@ -6370,11 +6361,11 @@ label setup_court:
     define court_knave = 5195
 
     show king at breathing:
-        ypos 1.03 xpos court_king zpos -900
+        ypos 1.0 xpos court_king zpos -900
         zoom king_scale
 
     show queen normal at breathing:
-        ypos 1.03 xpos court_queen zpos -900
+        ypos 1.0 xpos court_queen zpos -900
         zoom queen_scale
 
     show desc at anchor:
