@@ -1319,6 +1319,9 @@ label ch3_scene_setup:
     show mud at parallax:
         yoffset 550 xtile 5
         xpos 1.3
+    show racetrack at parallax:
+        yoffset 550
+        ypos 0.41 xpos 1.43 xzoom 1.23 yzoom 0.72 #alpha 0.0
     return
 label ch3_setup:
     call ch3_scene_setup
@@ -1352,7 +1355,8 @@ label ch3_start:
 
 
     play music "audio/rinne oak general store.mp3"
-
+    show racetrack:
+        alpha 0.0
     voice "n1105"
     "They were indeed a queer-looking party that assembled on the bank—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable."
     voice "n1106"
@@ -1482,15 +1486,19 @@ label ch3_start:
     voice "n1116"
     "(And, as you might like to try the thing yourself, some winter day, I will tell you how the Dodo managed it)"
 
-    #show racetrack at Position(ypos = 0.65) onlayer screens
+    camera: 
+        ease cam_transition xpos 1805 zpos 0 ypos 0
+    show racetrack at parallax:
+        yoffset 550
+        ypos 0.41 xpos 1.43 xzoom 1.23 yzoom 0.72 
+        ease 4.0 alpha 1.0
     voice "n1117"
     "First it marked out a race-course, in a sort of circle."
     voice "dodo04"
     dodo "The exact shape doesn’t matter."
-    #hide racetrack onlayer screens
 
     camera: 
-        ease cam_transition xpos 1805 zpos -135 ypos -130
+        xpos 1805 zpos 0 ypos 0
 
     # place party members randomly
     show alice normal at breathing:
