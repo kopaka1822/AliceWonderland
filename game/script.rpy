@@ -4127,21 +4127,27 @@ label chapter8:
     show hills at parallax(-4000):
         ypos hills_y xtile 3
     show roses at parallax(-400) as rosesbg1:
-        xtile 10 zoom 0.5 ypos 0.54 xoffset 300
+        xtile 10 zoom 0.5 ypos 0.57 xoffset 300
     show roses at parallax(-300) as rosesbg2:
-        xtile 10 zoom 0.5 ypos 0.54
+        xtile 10 zoom 0.5 ypos 0.57
     show grass at parallax:
         yoffset 550 xoffset -900 xtile 5
     show rosetree at parallax:
         xpos -0.15
     show tree at parallax(300) zorder 1000:
         xpos -0.69
+    #show roses at parallax(300) zorder 1000 as roses1:
+    #    xpos -0.4 yoffset 430
+    #show roses at parallax(250) zorder 900 as roses2:
+    #    xpos 0.0 yoffset 490
+    #show roses at parallax(300) zorder 1000 as roses3:
+    #    xpos 0.4 yoffset 430
     show roses at parallax(300) zorder 1000 as roses1:
-        xpos -0.4 yoffset 390
+        xpos -0.4 yoffset 410 zoom 1.2
     show roses at parallax(250) zorder 900 as roses2:
-        xpos 0.0 yoffset 440
+        xpos 0.0 yoffset 470 zoom 1.2
     show roses at parallax(300) zorder 1000 as roses3:
-        xpos 0.4 yoffset 390
+        xpos 0.4 yoffset 410 zoom 1.2
     #show garden_front_mask zorder 1000 at windy_mask
 
     define alice_garden = -0.5
@@ -4735,7 +4741,7 @@ label setup_croquet:
     show tree at parallax(300) zorder 10 as tree1:
         xpos -0.59
     show tree at parallax(300) zorder 10 as tree2:
-        xpos 1.88 xzoom -1.0
+        xpos 2.25 xzoom -1.0
 
     return
 label ch8_croquet:
