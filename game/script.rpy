@@ -625,29 +625,14 @@ label chapter1:
     jump ch1_hall_start
 
 label setup_hallway:
-    show court_floor as floor1:
-        align (0.5, 0.5) pos(1024, 1.0) xrotate 90.0 zoom 2.0
+    show court_floor:
+        align (0.5, 0.5) pos(1024, 1.0) xrotate 90.0 zoom 2.0 xtile 10
 
-    show court_floor as floor2:
-        align (0.5, 0.5) pos(3072, 1.0) xrotate 90.0 zoom 2.0
-
-    show court_floor as floor3:
-        align (0.5, 0.5) pos(5120, 1.0) xrotate 90.0 zoom 2.0
-
-    show court_floor as floor4:
-        align (0.5, 0.5) pos(7168, 1.0) xrotate 90.0 zoom 2.0
-
-    show court_floor as floor5:
-        align (0.5, 0.5) pos(9216, 1.0) xrotate 90.0 zoom 2.0
-
-    show court_floor as floor6:
-        align (0.5, 0.5) pos(11264, 1.0) xrotate 90.0 zoom 2.0
+    show hallwaydoor:
+        align (0.0, 1.0) zoom 5.2 zpos -450 xtile 9 xpos -0.48
     
-    show garden:
-        align (0.5, 1.0) xpos 9.79 ypos 0.96 zpos -655.0 zoom 0.42
-
-    show hallway doors:
-        align (0.0, 1.0) zoom 5.3 zpos -450
+    show smalldoor:
+        align (0.0, 1.0) zoom 5.2 zpos -450 xpos 9.46
 
     show lamp antique as lamp1 zorder 110:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32
