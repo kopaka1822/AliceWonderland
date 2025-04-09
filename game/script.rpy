@@ -851,9 +851,6 @@ label ch1_hall_start:
         easein 1.0 ypos 0.95
         easeout 1.0 ypos 1.0
 
-    
-    play sound "<silence 8.0>"
-    queue sound "voice/alice_crying1.mp3"
     voice "n1050"
     "She could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried."
     show alice crying at breathing_crying:
@@ -2423,7 +2420,6 @@ label chapter5:
     show alice thinking at breathing
     voice "n1211"
     "Alice thought she might as well wait, as she had nothing else to do, and perhaps after all it might tell her something worth hearing."
-    play sound "voice/caterpillar_vape.mp3"
     "..."
     voice "n1212"
     "For some minutes it puffed away without speaking, but at last it unfolded its arms, took the hookah out of its mouth again."
@@ -2506,14 +2502,11 @@ label chapter5:
     camera at shader_empty
     voice "caterpillar23"
     caterpillar "You’ll get used to it in time."
-    play sound "voice/caterpillar_vape.mp3"
     voice "n1218"
     "The caterpillar put the hookah into its mouth and began smoking again."
     voice "n1219"
     "This time Alice waited patiently until it chose to speak again."
 
-    play sound "<silence 2.0>"
-    queue sound "voice/caterpillar_yawn.mp3"
     voice "n1220"
     "In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself."
 
