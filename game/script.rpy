@@ -4,6 +4,9 @@ init python:
     import random
     import time
 
+    # ambient audio channel
+    renpy.music.register_channel('ambient', "music")
+
     # remove mouse wheel from rollback (its annoying in the browser)
     config.keymap['rollback'] = ['any_K_PAGEUP', 'any_KP_PAGEUP', 'K_AC_BACK']
     config.keymap['rollforward'] = ['any_K_PAGEDOWN', 'any_KP_PAGEDOWN']
@@ -198,7 +201,7 @@ define three_legged_table_zoom = 0.9
 
 ## ANIMATED TRANSFORMS ##
 ## remove comment below to work with action editor
-#'''
+'''
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
@@ -632,7 +635,7 @@ label setup_hallway:
         align (0.0, 1.0) zoom 5.2 zpos -450 xtile 9 xpos -0.48
     
     show smalldoor:
-        align (0.0, 1.0) zoom 5.2 zpos -450 xpos 9.46
+        align (0.0, 1.0) zoom 5.2 zpos -450 xpos 9.31
 
     show lamp antique as lamp1 zorder 110:
         zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32
