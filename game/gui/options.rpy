@@ -48,7 +48,7 @@ define config.default_music_volume = 0.3
 
 ## The default volume of the sfx mixer, which is used for the sound audio channel.
 ## This should be a number between 0.0 and 1.0, with 1.0 being full volume.
-define config.default_sfx_volume = 0.8
+define config.default_sfx_volume = 0.9
 
 ## The default volume of the voice mixer, which is used for the voice audio channel
 ## (And hence the voice statement, auto-voice, etc.).

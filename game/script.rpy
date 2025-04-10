@@ -1,11 +1,12 @@
 ﻿default persistent.started_story = False
+define af = renpy.audio.filter
 
 init python:
     import random
     import time
 
     # ambient audio channel
-    renpy.music.register_channel('ambient', "music")
+    renpy.music.register_channel('ambient', "sfx", loop=True, tight=True)
 
     # remove mouse wheel from rollback (its annoying in the browser)
     config.keymap['rollback'] = ['any_K_PAGEUP', 'any_KP_PAGEUP', 'K_AC_BACK']
@@ -201,7 +202,7 @@ define three_legged_table_zoom = 0.9
 
 ## ANIMATED TRANSFORMS ##
 ## remove comment below to work with action editor
-'''
+#'''
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
@@ -396,7 +397,7 @@ label chapter1:
         xpos -0.48
     
     play music "audio/rinne wanderer.mp3"
-
+    play ambient "sfx/river.ogg" fadein 2.0
     define alice_riverbank = -0.22
     define rabbit_riverbank = 0.5
 
@@ -457,11 +458,13 @@ label chapter1:
     call reset_camera
 
     stop music fadeout 1.0
+    stop ambient fadeout 1.0
     voice "n1009"
     "The rabbit-hole went straight on like a tunnel for some way."
     
     scene well at center 
     play music "audio/rinne aurelia.mp3" fadeout 1.0 fadein 1.0 
+    play ambient "sfx/falling.ogg" fadeout 1.0 fadein 2.0
 
     show alice falling:
         xpos -0.4 ypos 0.0
@@ -583,6 +586,7 @@ label chapter1:
     alice "Now, Dinah, tell me the truth: did you ever eat a bat?"
 
     stop music fadeout 1.0
+    stop ambient fadeout 1.0
     scene black
 
     play sound "sfx/thump2.mp3"
@@ -994,6 +998,8 @@ label chapter2:
     show rabbit normal at breathing:
         xpos 7.25 ypos 0.9 zoom 0.5
         ease 2.0 xpos 7.75
+
+    play sound "sfx/drop.ogg"
     voice "n1068"
     "The Rabbit started violently, dropped the white kid gloves and the fan, and skurried away into the darkness as hard as he could go."
     camera:
@@ -1067,6 +1073,7 @@ label chapter2:
         ease 2 xpos 5800 ypos 0.420 zpos -850.0
     voice "n1073"
     "She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly:"
+    play sound ["<silence 3>", "sfx/drop.ogg"]
     voice "n1103" # out of order oops
     "She soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether."
 
@@ -1113,6 +1120,7 @@ label chapter2:
     show alice pout zorder 1 at swimming:
         xpos 10527 ypos 1.0 zoom 0.1
     play music "audio/rinne beyond the sea.mp3"
+    play ambient "sfx/river.ogg"
     voice "n1077"
     "She was up to her chin in salt water."
 
@@ -1249,6 +1257,7 @@ label chapter2:
     voice "n1101"
     "It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures."
     stop music fadeout 1.0
+    stop ambient fadeout 1.0
     voice "n1102"
     "Alice led the way, and the whole party swam to the shore."
 
@@ -1340,6 +1349,7 @@ label ch3_start:
 
 
     play music "audio/rinne oak general store.mp3"
+    play ambient "sfx/river.ogg"
     show racetrack:
         alpha 0.0
     voice "n1105"
@@ -1477,6 +1487,7 @@ label ch3_start:
         yoffset 550
         ypos 0.41 xpos 1.43 xzoom 1.23 yzoom 0.72 
         ease 4.0 alpha 1.0
+    play sound "sfx/sketch.ogg"
     voice "n1117"
     "First it marked out a race-course, in a sort of circle."
     voice "dodo04"
@@ -1540,13 +1551,15 @@ label ch3_start:
         ease 2.0 xpos muddy_eaglet_pos
         ease 2.0 xpos muddy_dodo_pos
         repeat
-
+    
+    play sound "sfx/race.ogg" loop
     voice "n1119"
     "There was no 'One, two, three, and away', but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over."
     "..."
     voice "n1120"
     "However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out:"
 
+    stop sound
     # restore original positions
     call ch3_setup
 
@@ -1835,6 +1848,7 @@ label chapter4:
     camera:
         perspective True
     play music "audio/rinne oak general store.mp3" if_changed
+    play ambient "sfx/river.ogg" if_changed
     #jump ch4_forest
     #jump ch4_grass
 
@@ -1868,12 +1882,14 @@ label chapter4:
     voice "n1147"
     "And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made."
     scene black
+    stop ambient fadeout 1.0
     voice "alice101"
     alice "(He took me for his housemaid. How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them)"
 
     scene rabbit_house:
         xalign 0.0
         linear 10.0 xalign 1.0
+    play ambient "sfx/birds.ogg" fadein 0.5
     voice "n1148"
     "As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name 'W. RABBIT' engraved upon it."
     voice "n1149"
@@ -1882,6 +1898,9 @@ label chapter4:
     scene rabbit_room:
         xalign 0.0
         linear 10.0 xalign 1.0
+
+    # lowpass filter because inside
+    $ renpy.music.set_audio_filter("ambient", [af.Lowpass(1000, 1.0), af.Lowpass(1000, 1.0), af.Multiply(2.0)], replace=True)
     voice "alice102"
     alice "(How queer it seems, to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!)"
     voice "n1150"
@@ -2145,7 +2164,9 @@ label chapter4:
 
     scene rabbit_house:
         xalign 0.2 zoom 1.3 yalign 1.0
-
+    # outside of house
+    $ renpy.music.set_audio_filter("ambient", None, replace=True)
+    play sound "sfx/door_open.mp3"
     show bill guinea at breathing:
         pos (0.25, 0.92) zoom 0.8
     show alice surprised at breathing:
@@ -2198,6 +2219,9 @@ label ch4_forest:
         pos (0.89, 0.85)
         anchor (0.5, 1.0)
         zoom 1.0
+
+    # lowpass forest
+    $ renpy.music.set_audio_filter("ambient", [af.Lowpass(800, 1.0), af.Multiply(1.9)], replace=True)
     voice "alice129"
     alice "The first thing I’ve got to do, is to grow to my right size again; and the second thing is, to find my way into that lovely garden."
     voice "alice130"
@@ -2298,6 +2322,9 @@ label ch4_caterpillar:
         perspective True
         xoffset -center_offset
         xpos -550 ypos 70 zpos -265
+    # remove lowpass filter
+    $ renpy.music.set_audio_filter("ambient", None, replace=True)
+    play ambient "sfx/birds.ogg" volume 0.1 fadein 1.0 fadeout 1.0
     voice "alice132"
     alice "And yet what a dear little puppy it was!"
     voice "n1198"
@@ -2337,7 +2364,7 @@ label chapter5:
     "{size=+40}Chapter V: \n{/size}Advice from a Caterpillar"
 
     play music "audio/rinne sad.mp3" fadein 1.0 fadeout 1.0
-
+    play ambient "sfx/birds.ogg" volume 0.1 fadein 1.0 if_changed
     #jump ch5_sky
 
     call setup_caterpillar
@@ -2563,7 +2590,7 @@ label chapter5:
 label ch5_sky:
 
     play music "audio/rinne alice.mp3" fadein 1.0 fadeout 1.0
-
+    play ambient "sfx/falling.ogg" volume 0.4 fadein 1.0 fadeout 1.0
     scene bluesky:
         # center sky
         anchor (0.5, 0.5)
@@ -2673,6 +2700,7 @@ label ch5_sky:
 
     #stop music fadeout 1.0
     play music "audio/rinne song of little birds.mp3" fadein 1.0 fadeout 1.0
+    play ambient "sfx/birds.ogg" volume 0.4 fadein 1.0 fadeout 1.0
     voice "n1238"
     "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
 
@@ -2708,7 +2736,7 @@ label chapter6:
     "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
 
     play music "audio/rinne song of little birds.mp3" if_changed
-
+    play ambient "sfx/birds.ogg" volume 0.4 fadein 1.0 if_changed
     call setup_forest
 
     show footmen_fish at breathing:
