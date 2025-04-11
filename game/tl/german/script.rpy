@@ -9907,7 +9907,7 @@ translate german chapter12_00cc6077:
     "Alice stand schnell auf, wobei sie versehentlich die Geschworenenbank mit ihrem Rock umstieß. Die Geschworenen fielen zu Boden, was sie an den Goldfisch erinnerte, den sie in der Woche zuvor verschüttet hatte."
 
 # game/script.rpy:5206
-translate german chapter12_4947535b:
+translate german chapter12_1ac5911d:
 
     # alice "Oh, I beg your pardon!"
     alice "Oh nein!"
