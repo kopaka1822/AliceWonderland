@@ -4145,6 +4145,7 @@ label chapter8:
     "{size=+40}Chapter VIII: \n{/size}The Queen's Croquet-Ground"
 
     play music "audio/rinne rosalia garden.mp3"
+    play ambient "sfx/birds.ogg" fadein 1.0 fadeout 1.0
 
     #scene garden at windy
     scene bluesky at parallax(-4000):
@@ -4550,7 +4551,7 @@ label chapter8:
         ease 1.0 xpos card2_garden
         ease 1.0 xpos card7_garden
         ease 1.0 xpos knave_garden
-    
+    play sound "sfx/flipcards.ogg"
     pause 0.5
     # flip cards back
     show card_back as cardback5 zorder 6:
@@ -4785,6 +4786,9 @@ label ch8_croquet:
     camera:
         perspective True
         xpos 0 ypos 0 zpos 0 xoffset -center_offset
+
+    stop ambient
+    #play ambient "sfx/cicada.ogg" volume 0.1 fadein 1.0 fadeout 1.0
 
     show queen angry at breathing
     voice "queen17"
