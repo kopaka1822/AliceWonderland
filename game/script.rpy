@@ -2220,8 +2220,8 @@ label ch4_forest:
         anchor (0.5, 1.0)
         zoom 1.0
 
-    # lowpass forest
-    $ renpy.music.set_audio_filter("ambient", [af.Lowpass(800, 1.0), af.Multiply(1.9)], replace=True)
+    # forest birds
+    play ambient "sfx/birds2.ogg" fadein 1.0 fadeout 1.0
     voice "alice129"
     alice "The first thing I’ve got to do, is to grow to my right size again; and the second thing is, to find my way into that lovely garden."
     voice "alice130"
@@ -2322,9 +2322,8 @@ label ch4_caterpillar:
         perspective True
         xoffset -center_offset
         xpos -550 ypos 70 zpos -265
-    # remove lowpass filter
-    $ renpy.music.set_audio_filter("ambient", None, replace=True)
-    play ambient "sfx/birds.ogg" volume 0.1 fadein 1.0 fadeout 1.0
+
+    play ambient "sfx/birds.ogg" volume 0.5 fadein 1.0 fadeout 1.0
     voice "alice132"
     alice "And yet what a dear little puppy it was!"
     voice "n1198"
@@ -2364,7 +2363,7 @@ label chapter5:
     "{size=+40}Chapter V: \n{/size}Advice from a Caterpillar"
 
     play music "audio/rinne sad.mp3" fadein 1.0 fadeout 1.0
-    play ambient "sfx/birds.ogg" volume 0.1 fadein 1.0 if_changed
+    play ambient "sfx/birds.ogg" volume 0.5 fadein 1.0 if_changed
     #jump ch5_sky
 
     call setup_caterpillar
@@ -2590,7 +2589,7 @@ label chapter5:
 label ch5_sky:
 
     play music "audio/rinne alice.mp3" fadein 1.0 fadeout 1.0
-    play ambient "sfx/falling.ogg" volume 0.4 fadein 1.0 fadeout 1.0
+    play ambient "sfx/falling.ogg" fadein 1.0 fadeout 1.0
     scene bluesky:
         # center sky
         anchor (0.5, 0.5)
@@ -2700,7 +2699,7 @@ label ch5_sky:
 
     #stop music fadeout 1.0
     play music "audio/rinne song of little birds.mp3" fadein 1.0 fadeout 1.0
-    play ambient "sfx/birds.ogg" volume 0.4 fadein 1.0 fadeout 1.0
+    play ambient "sfx/birds2.ogg" fadein 1.0 fadeout 1.0
     voice "n1238"
     "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
 
@@ -2736,7 +2735,7 @@ label chapter6:
     "{size=+40}Chapter VI: \n{/size}Pig and Pepper"
 
     play music "audio/rinne song of little birds.mp3" if_changed
-    play ambient "sfx/birds.ogg" volume 0.4 fadein 1.0 if_changed
+    play ambient "sfx/birds2.ogg" fadein 1.0 if_changed
     call setup_forest
 
     show footmen_fish at breathing:
@@ -2880,6 +2879,7 @@ label ch6_kitchen:
     scene kitchen
 
     play music "audio/rinne oak general store.mp3" fadein 1.0 fadeout 1.0
+    play ambient "sfx/kitchen.ogg" fadein 1.0 fadeout 1.0
 
     camera:
         perspective True
@@ -3097,6 +3097,8 @@ label ch6_kitchen:
     camera:
         perspective False
         xpos 0 zpos 0 xoffset 0
+
+    stop ambient fadeout 2.0
     voice "n1275"
     "As soon as she had made out the proper way of nursing it, (which was to twist it up into a sort of knot, and then keep tight hold of its right ear and left foot, so as to prevent its undoing itself,) she carried it out into the open air."
 
@@ -3120,15 +3122,19 @@ label ch6_kitchen:
         perspective True
         xpos 0.5 xoffset -center_offset
 
+    play ambient "sfx/birds2.ogg" fadein 1.0 fadeout 1.0
+
     voice "alice197"
     alice "(If I don’t take this child away with me, they’re sure to kill it in a day or two)"
     voice "alice198"
     alice "Wouldn’t it be murder to leave it behind?"
+    play sound ["<silence 1>", "sfx/grunt.ogg"]
     voice "n1276"
     "The little thing grunted in reply (it had left off sneezing by this time)"
     voice "alice199"
     alice "Don’t grunt, that’s not at all a proper way of expressing yourself."
     show alice surprised at breathing
+    play sound ["<silence 1>", "sfx/grunt.ogg"]
     voice "n1277"
     "The baby grunted again, and Alice looked very anxiously into its face to see what was the matter with it."
     show baby half
@@ -3145,10 +3151,12 @@ label ch6_kitchen:
     show alice pout at breathing
     voice "alice201"
     alice "If you’re going to turn into a pig, my dear, I’ll have nothing more to do with you. Mind now!"
+    play sound ["<silence 1>", "sfx/grunt.ogg"]
     voice "n1281"
     "The poor little thing sobbed again (or grunted, it was impossible to say which), and they went on for some while in silence."
     voice "alice202"
     alice "Now, what am I to do with this creature when I get it home?"
+    play sound ["<silence 1>", "sfx/grunt.ogg", "sfx/grunt.ogg"]
     voice "n1282"
     "Then it grunted again, so violently, that she looked down into its face in some alarm."
     show alice surprised at breathing
@@ -3341,6 +3349,8 @@ label ch6_cat:
     voice "alice221"
     alice "Suppose it should be raving mad after all! I almost wish I’d gone to see the Hatter instead!"
 
+    stop ambient fadeout 1.0
+
 label chapter7:
     $ persistent.started_story = True
     scene black
@@ -3349,7 +3359,7 @@ label chapter7:
     "{size=+40}Chapter VII: \n{/size}A Mad Tea-Party"
 
     play music "audio/rinne lilly.mp3" if_changed
-
+    play ambient "sfx/teaparty.ogg" fadein 1.0
     scene hare_house
     camera:
         perspective True
@@ -3604,6 +3614,7 @@ label chapter7:
 
     camera:
         ease cam_transition xpos 840 zpos -415 ypos 5
+    play sound ["<silence 1>", "sfx/pour.ogg"]
     voice "n1317"
     "He poured a little hot tea upon its nose."
     voice "n1318"
@@ -3672,12 +3683,16 @@ label chapter7:
     voice "hatter18"
     hatter "For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!"
 
+    camera at shader_gray
+    pause 0.01
     camera: 
         ease cam_transition xpos hare_tea_pos zpos -415 ypos 5
+
     voice "hare10"
     hare "(I only with wish it was...)"
 
-
+    camera at shader_empty
+    pause 0.01
     camera: 
         ease cam_transition xpos alice_tea_pos zpos -415 ypos 5
     show alice thinking at breathing
@@ -4068,7 +4083,7 @@ label ch7_reorder:
     camera:
         perspective True
         xpos 0.5 xoffset -center_offset
-
+    play ambient "sfx/birds2.ogg" fadein 1.0 fadeout 1.0
     show alice disturbed at breathing:
         pos (0.5, 0.9) zoom alice_scale
     voice "alice262"
@@ -4094,6 +4109,7 @@ label ch7_reorder:
         perspective True
         xpos alice_hall_table_pos1 zpos -45.0 xoffset -center_offset
     
+    stop ambient
     show alice normal at breathing zorder 100:
         xpos alice_hall_table_pos1 zoom alice_hall_default_zoom zpos -45.0 ypos 1.0
 
