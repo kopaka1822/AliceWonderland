@@ -4787,7 +4787,7 @@ label ch8_croquet:
         perspective True
         xpos 0 ypos 0 zpos 0 xoffset -center_offset
 
-    stop ambient
+    # continue birds ambient
     #play ambient "sfx/cicada.ogg" volume 0.1 fadein 1.0 fadeout 1.0
 
     show queen angry at breathing
@@ -5098,7 +5098,7 @@ label chapter9:
     "{size=+40}Chapter IX: \n{/size}The Mock Turtle's Story"
 
     play music "audio/rinne oak general store.mp3" fadein 1.0 fadeout 1.0
-
+    play ambient "sfx/birds.ogg" fadein 1.0 if_changed
     #jump ch9_gryphon
 
     call setup_croquet
@@ -5706,6 +5706,7 @@ label chapter10:
     "{size=+40}Chapter X: \n{/size}The Lobster Quadrille"
 
     play music "audio/rinne sad.mp3" if_changed
+    play ambient "sfx/birds.ogg" fadein 1.0 if_changed
 
     # scene setup
     call setup_cliff
@@ -6350,6 +6351,8 @@ label chapter10:
     mock "Soo—oop of the e—e—evening,\n
     {space=30}Beautiful, beautiful Soup!"
 
+    stop ambient
+
 label chapter11:
     $ persistent.started_story = True
     scene black
@@ -6449,6 +6452,7 @@ label setup_court:
 label ch11_court:
     call setup_court
     play music "audio/rinne lilly.mp3" fadein 1.0 fadeout 1.0
+    play ambient "sfx/court.ogg" fadein 1.0
     camera:
         perspective True
         xpos 3905 xoffset -center_offset
@@ -6515,6 +6519,7 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_rabbit ypos 500 zpos -500
     
+    stop ambient fadeout 10.0
     voice "rabbit24"
     rabbit "Silence in the court!"
     camera:
@@ -7486,12 +7491,14 @@ label chapter12:
         ease 0.5 zrotate 0.1
         repeat
     show alice surprised at breathing
+    play ambient "sfx/court.ogg" fadein 0.5
     voice "n1577"
     "At this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face."
 
     scene black
     call reset_camera
     stop music fadeout 1.0
+    play ambient "sfx/birds.ogg" fadein 1.0 fadeout 1.0
 
     voice "sister1"
     sister "Wake up, Alice dear!"
@@ -7548,6 +7555,7 @@ label chapter12:
 
     scene black
     call reset_camera
+    stop ambient fadeout 1.0
     voice "na16"
     "The End."
     $ persistent.started_story = False # reset story
