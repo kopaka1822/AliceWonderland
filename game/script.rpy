@@ -2847,6 +2847,9 @@ label chapter6:
     show alice disturbed at breathing
     voice "n1254"
     "It was, no doubt: only Alice did not like to be told so."
+    camera:
+        zpos -400 xpos 0.33 ypos 0 zrotate 10
+    pause 0.01
     camera at shader_gray
     voice "alice185"
     alice "(It’s really dreadful, the way all the creatures argue. It’s enough to drive one crazy!)"
@@ -2884,7 +2887,7 @@ label ch6_kitchen:
     camera:
         perspective True
 
-        xpos 0 ypos 0 zpos 0 xoffset -center_offset
+        xpos 0 ypos 0 zpos 0 xoffset -center_offset zrotate 0
         linear 30.0 xpos 1480
 
     define alice_kitchen_pos = 0
@@ -4492,7 +4495,10 @@ label chapter8:
         ease cam_transition xpos alice_garden2 zoom 1.0 ypos 0
     show alice normal at breathing
     voice "alice269"
-    alice "My name is Alice, so please your Majesty." # saif alice politely
+    alice "My name is Alice, so please your Majesty." # said alice politely
+    camera:
+        xpos alice_garden2 zoom 1.0 ypos 0
+    pause 0.01
     camera at shader_gray
     voice "alice270"
     alice "(Why, they’re only a pack of cards, after all. I needn’t be afraid of them!)"
@@ -4841,6 +4847,9 @@ label ch8_croquet:
     show alice surprised at breathing
     voice "n1391"
     "Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute."
+    camera:
+        xpos queen_croquet zoom 1.0 ypos 0
+    pause 0.01
     camera at shader_gray
     voice "alice278"
     alice "(And then, what would become of me? They’re dreadfully fond of beheading people here; the great wonder is, that there’s any one left alive!)"
@@ -4857,6 +4866,9 @@ label ch8_croquet:
         linear 10.0 alpha 1.0
     voice "n1392"
     "She was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin."
+    camera:
+        xpos cat_croquet
+    pause 0.01
     camera at shader_gray
     show alice happy at breathing
     voice "alice279"
@@ -5037,6 +5049,9 @@ label ch8_croquet:
     voice "n1408"
     "By the time she had caught the flamingo and brought it back, the fight was over, and both the hedgehogs were out of sight."
     show alice thinking at breathing
+    camera:
+        xpos 0.84 ypos 0 zoom 1.0
+    pause 0.01
     camera at shader_gray
     voice "alice287"
     alice "(But it doesn’t matter much, as all the arches are gone from this side of the ground)"
@@ -5126,6 +5141,9 @@ label chapter9:
     camera:
         ease cam_transition xpos alice_nine ypos 1000 zoom 2.0
     pause cam_transition
+    camera:
+        xpos alice_nine ypos 1000 zoom 2.0
+    pause 0.01
     camera at shader_gray
     voice "alice289"
     alice "(When I’m a Duchess, I won’t have any pepper in my kitchen at all)"
@@ -5177,6 +5195,9 @@ label chapter9:
     voice "n1424"
     "The Duchess started digging her sharp little chin into Alice’s shoulder."
     show alice thinking at breathing
+    camera:
+        xpos 1.4 ypos 1000 zoom 2.0
+    pause 0.01
     camera at shader_gray
     voice "alice295"
     alice "(How fond she is of finding morals in things!)"
@@ -5230,7 +5251,7 @@ label chapter9:
     voice "duchess25"
     duchess "Oh, don’t talk about trouble!"
     voice "duchess26"
-    duchess "I make you a present of everything I’ve said as yet."
+    duchess "I make you a present of everything I’ve said as yet."  
     camera at shader_gray
     voice "alice303"
     alice "(A cheap sort of present!)"
@@ -5385,7 +5406,9 @@ label ch9_gryphon:
     voice "gryphon02"
     gryphon "Why, she. It’s all her fancy, that: they never executes nobody, you know. Come on!"
     show alice disturbed at breathing
-
+    camera:
+        xpos 935
+    pause 0.01
     camera at shader_gray
     voice "alice310"
     alice "(Everybody says ‘come on!’ here. I never was so ordered about in all my life, never!)"
@@ -5431,6 +5454,9 @@ label ch9_gryphon:
     show alice thinking at breathing:
         xpos alice_turtle
     "..."
+    camera:
+        xpos -120
+    pause 0.01
     camera at shader_gray
     voice "alice312"
     alice "(I don’t see how he can ever finish, if he doesn’t begin)"
@@ -6164,6 +6190,9 @@ label chapter10:
     camera:
         ease cam_transition xpos 540 ypos 1020 zoom 2.0 # alice
     pause cam_transition
+    camera:
+        xpos 540 ypos 1020 zoom 2.0 # alice
+    pause 0.01
     camera at shader_gray
     show alice pout at breathing
     voice "alice348"
@@ -6466,6 +6495,9 @@ label ch11_court:
         ease cam_transition xpos 2560 ypos 300 # tarts
     voice "n1489"
     "In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—"
+    camera:
+        xpos 2560 ypos 300 # tarts
+    pause 0.01
     camera at shader_gray
     voice "alice356"
     alice "(I wish they’d get the trial done and hand round the refreshments!)"
@@ -6478,6 +6510,9 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000
     pause cam_transition
+    camera:
+        xpos court_king ypos 0 zpos -1000
+    pause 0.01
     camera at shader_gray
     voice "alice357"
     alice "(That’s the judge, because of his great wig)"
@@ -6488,6 +6523,9 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_jury ypos 0 zpos -500
     pause cam_transition
+    camera:
+        xpos court_jury ypos 0 zpos -500
+    pause 0.01
     camera at shader_gray
     voice "alice358"
     alice "(And that’s the jury-box and those twelve creatures—"
@@ -6837,12 +6875,15 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     pause cam_transition
+    camera:
+        xpos court_alice ypos 0 zpos -500 # alice
+    pause 0.01
     camera at shader_gray
     show alice happy at breathing
     voice "alice365"
     alice "(I’m glad I’ve seen that done. I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now)"
     camera at shader_empty
-    pause 0.1
+    pause 0.01
     camera:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king24"
@@ -6864,6 +6905,9 @@ label ch11_court:
     camera:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     pause cam_transition
+    camera:
+        xpos court_alice ypos 0 zpos -500 # alice
+    pause 0.01
     camera at shader_gray
     voice "alice366"
     alice "(Come, that finished the guinea-pigs! Now we shall get on better)"
@@ -6986,6 +7030,9 @@ label ch11_court:
         ease cam_transition xpos court_alice ypos 0 zpos -500 # alice
     voice "n1530"
     "Alice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like."
+    camera:
+        xpos court_alice ypos 0 zpos -500 # alice
+    pause 0.01
     camera at shader_gray
     voice "alice367"
     alice "(They haven’t got much evidence yet)"
@@ -7073,6 +7120,9 @@ label chapter12:
     voice "n1537"
     "She soon got it out again, and put it right."
     
+    camera:
+        xpos court_bill zpos -1000 ypos 300 # jury bill
+    pause 0.01
     camera at shader_gray
     
     voice "alice370"
@@ -7148,6 +7198,9 @@ label chapter12:
     voice "n1545"
     "Alice could see this, as she was near enough to look over their slates."
 
+    camera:
+        xpos court_witness ypos -315 zpos -500 # alice 
+    pause 0.01
     camera at shader_gray
     voice "alice374"
     alice "(But it doesn’t matter a bit...)"

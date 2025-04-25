@@ -4193,7 +4193,7 @@ translate german chapter6_b1d9b6cb:
 
     # "The Footman seemed to think this a good opportunity for repeating his remark, with variations."
     #voice "n1255"
-    pass
+    "Der Butler fuhr fort:"
 
 # game/script.rpy:2020
 translate german chapter6_d91766bc:
