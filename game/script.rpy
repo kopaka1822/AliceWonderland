@@ -6828,6 +6828,7 @@ label ch11_court:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king23"
     king "You’re a very poor speaker."
+    play sound ["<silence 2>", "sfx/guinea.ogg"]
     voice "n1517"
     "Here one of the guinea-pigs cheered, and was immediately suppressed by the officers of the court."
     voice "n1518"
@@ -6856,6 +6857,7 @@ label ch11_court:
         ease cam_transition xpos court_king ypos 0 zpos -1000 # king
     voice "king25"
     king "Then you may sit down."
+    play sound ["<silence 2>", "sfx/guinea.ogg"]
     voice "n1519"
     "Here the other guinea-pig cheered, and was suppressed."
 
