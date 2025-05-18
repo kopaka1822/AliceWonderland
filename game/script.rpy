@@ -1087,13 +1087,13 @@ label chapter2:
     alice "And now for the garden!"
 
     show alice happy at breathing:
-        ease 2.8 xpos 10527 ypos 1.0 zpos -340.0
+        ease 2.8 xpos 10527 ypos 1.0 zpos -340.0 zoom 0.10
     camera:
         ease 3 xpos 9970 ypos 0.42 zpos -850.0
     voice "n1075"
     "And she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before."
     show alice pout at breathing:
-        xpos 10527 ypos 1.0 zpos -340.0
+        xpos 10527 ypos 1.0 zpos -340.0 zoom 0.10
     voice "alice060"
     alice "And things are worse than ever, for I never was so small as this before, never! And I declare it’s too bad, that it is!"
 
@@ -1106,13 +1106,13 @@ label chapter2:
         xpos 9970 ypos 0.42 zpos -850.0
 
     show waves zorder 0:
-        xpos 9.93 ypos 1.19 zpos -595.0
+        xpos 9.77 ypos 1.09 zpos -385.0 zoom 0.5
         anchor (0.5, 1.0)
         linear 1.0 yoffset 20
         linear 1.0 yoffset 10
         repeat
     show wavestop zorder 99:
-        xpos 9.93 ypos 1.21 zpos -385.0
+        xpos 9.77 ypos 1.09 zpos -385.0 zoom 0.5
         anchor (0.5, 1.0)
         linear 1.0 yoffset 20
         linear 1.0 yoffset 10
