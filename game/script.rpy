@@ -2168,7 +2168,7 @@ label chapter4:
     $ renpy.music.set_audio_filter("ambient", None, replace=True)
     play sound "sfx/door_open.mp3"
     show bill guinea at breathing:
-        pos (0.25, 0.92) zoom 0.8
+        pos (0.25, 0.81) zoom 0.8
     show alice surprised at breathing:
         pos (0.85, 0.79) zoom alice_scale
     voice "n1187"
