@@ -202,7 +202,7 @@ define three_legged_table_zoom = 0.9
 
 ## ANIMATED TRANSFORMS ##
 ## remove comment below to work with action editor
-#'''
+'''
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
@@ -3344,7 +3344,7 @@ label ch6_cat:
     alice "Well! I’ve often seen a cat without a grin, but a grin without a cat! It’s the most curious thing I ever saw in my life!"
 
     scene hare_house:
-        xpos -0.1
+        xpos -0.1 zoom 0.5
     call reset_camera
     voice "n1299"
     "She had not gone much farther before she came in sight of the house of the March Hare: she thought it must be the right house, because the chimneys were shaped like ears and the roof was thatched with fur."
@@ -3364,7 +3364,8 @@ label chapter7:
 
     play music "audio/rinne lilly.mp3" if_changed
     play ambient "sfx/teaparty.ogg" fadein 1.0
-    scene hare_house
+    scene hare_house:
+        zoom 0.5 xpos -540
     camera:
         perspective True
         xpos 10 ypos 0 zpos 0 xoffset -center_offset
@@ -3389,7 +3390,8 @@ label chapter7:
         pos (hatter_tea_pos, 1.02) zoom hatter_scale
 
     image hare_house_front_mask = AlphaMask("hare_house", "hare_house_front")
-    show hare_house_front_mask zorder 50
+    show hare_house_front_mask zorder 50:
+        zoom 0.5 xpos -540
     voice "n1302"
     "There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head."
     voice "alice222"
