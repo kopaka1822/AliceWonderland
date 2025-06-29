@@ -3343,7 +3343,8 @@ label ch6_cat:
     voice "alice220"
     alice "Well! I’ve often seen a cat without a grin, but a grin without a cat! It’s the most curious thing I ever saw in my life!"
 
-    scene hare_house
+    scene hare_house:
+        xpos -0.1
     call reset_camera
     voice "n1299"
     "She had not gone much farther before she came in sight of the house of the March Hare: she thought it must be the right house, because the chimneys were shaped like ears and the roof was thatched with fur."
@@ -3370,15 +3371,15 @@ label chapter7:
         linear 10.0 xpos 800
 
     define alice_tea_pos = 10
-    define hare_tea_pos = 500
-    define dormouse_tea_pos = 800
-    define dormouse_tea_cam_pos = 760
-    define hatter_tea_pos = 1000
+    define hare_tea_pos = 325
+    define dormouse_tea_pos = 580
+    define dormouse_tea_cam_pos = 540
+    define hatter_tea_pos = 790
     define hare_scale = 0.9
     define hatter_scale = 0.5
     define dormouse_scale = 0.44
-    show alice normal zorder 100 at breathing:
-        pos (-285, 0.9) zoom alice_scale
+    show alice normal zorder 0 at breathing:
+        pos (-85, 0.84) zoom alice_scale
 
     show hare at breathing:
         pos (hare_tea_pos, 0.79) zoom hare_scale
@@ -3616,7 +3617,7 @@ label chapter7:
     hatter "The Dormouse is asleep again."
 
     camera:
-        ease cam_transition xpos 840 zpos -415 ypos 5
+        ease cam_transition xpos dormouse_tea_cam_pos zpos -415 ypos 5
     play sound ["<silence 1>", "sfx/pour.ogg"]
     voice "n1317"
     "He poured a little hot tea upon its nose."
@@ -3983,14 +3984,14 @@ label chapter7:
 
 label ch7_reorder:
 
-    define hatter_tea_pos2 = 1210
-    define hatter_cam_pos2 = 1215
+    define hatter_tea_pos2 = 1025
+    define hatter_cam_pos2 = 1030
     define alice_tea_pos2 = hare_tea_pos
     define hare_tea_pos2 = dormouse_tea_pos
     define dormouse_tea_pos2 = hatter_tea_pos
-    define dormouse_tea_cam_pos2 = 945
-    show hatter normal zorder 100 at breathing:
-        xpos hatter_tea_pos2
+    define dormouse_tea_cam_pos2 = 760
+    show hatter normal zorder 0 at breathing:
+        xpos hatter_tea_pos2 ypos 1.04
     show alice zorder 0 at breathing:
         xpos alice_tea_pos2
     show hare zorder 1 at breathing:
