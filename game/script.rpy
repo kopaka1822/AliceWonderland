@@ -1895,9 +1895,7 @@ label chapter4:
     voice "n1149"
     "She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves."
 
-    scene rabbit_room:
-        xalign 0.0
-        linear 10.0 xalign 1.0
+    scene rabbit_room
 
     # lowpass filter because inside
     $ renpy.music.set_audio_filter("ambient", [af.Lowpass(1000, 1.0), af.Lowpass(1000, 1.0), af.Multiply(2.0)], replace=True)
