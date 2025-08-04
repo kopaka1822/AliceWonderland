@@ -2892,18 +2892,18 @@ label ch6_kitchen:
 
     define alice_kitchen_pos = 0
     define duchess_kitchen_pos = 540
-    define cook_kitchen_pos = 1115
-    define cat_kitchen_pos = 1735
+    define cook_kitchen_pos = 1235
+    define cat_kitchen_pos = 2000
     define cat_cam_z_zom = -300
     define alice_duchess_kitchen_pos = 270
     define cook_scale = 0.6
     show alice normal at breathing:
         pos (alice_kitchen_pos, 0.9) zoom alice_scale
     show cook at breathing:
-        pos (cook_kitchen_pos, 0.9) zoom cook_scale
+        pos (cook_kitchen_pos, 0.9) zoom cook_scale xzoom -1.0
     show cat:
         align (0.5, 1.0)
-        xpos cat_kitchen_pos ypos 0.59 zoom 0.63
+        xpos cat_kitchen_pos ypos 0.47 zoom 0.63
     show duchess normal at breathing:
         pos (duchess_kitchen_pos, 0.9) zoom duchess_scale
     show baby normal:
@@ -2925,16 +2925,17 @@ label ch6_kitchen:
     "The only things in the kitchen that did not sneeze, were the cook, and a large cat which was sitting on the hearth and grinning from ear to ear."
 
     camera:
-        ease cam_transition xpos cat_kitchen_pos zpos cat_cam_z_zom
+        ease cam_transition xpos 1880 zpos -270 ypos -175
     voice "alice189"
     alice "Please would you tell me, why your cat grins like that?" # said Alice, a little timidly, for she was not quite sure whether it was good manners for her to speak first
 
     camera:
-        ease cam_transition xpos duchess_kitchen_pos zpos 0
+        ease cam_transition xpos duchess_kitchen_pos zpos 0 ypos 0
     voice "duchess01"
     duchess "It’s a Cheshire cat, and that’s why. Pig!"
 
     camera:
+        ypos 0 zpos 0 xpos duchess_kitchen_pos
         ease cam_transition xpos alice_duchess_kitchen_pos zpos 0
     show alice surprised at breathing:
         ease 0.3 yoffset -100
