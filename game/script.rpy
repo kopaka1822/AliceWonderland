@@ -202,7 +202,7 @@ define three_legged_table_zoom = 0.9
 
 ## ANIMATED TRANSFORMS ##
 ## remove comment below to work with action editor
-#'''
+'''
 transform breathing_calm(child):
     child
     anchor (0.5, 1.0)
@@ -641,32 +641,34 @@ label setup_hallway:
     show smalldoor:
         align (0.0, 1.0) zoom 5.2 zpos -450 xpos 9.31
 
-    show lamp antique as lamp1 zorder 110:
-        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32
+    define lamp_y = 0.11
 
-    show lamp antique as lamp2 zorder 110:
-        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 1.6
-        
-    show lamp antique as lamp3 zorder 110:
-        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 2.7
-        
-    show lamp antique as lamp4 zorder 110:
-        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 3.8
-        
-    show lamp antique as lamp5 zorder 110:
-        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 4.9
-        
-    show lamp antique as lamp6 zorder 110:
-        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 6.0
-        
-    show lamp antique as lamp7 zorder 110:
-        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 7.1
+    show lamp antique as lamp1 at parallax(100) zorder 110:
+        ypos lamp_y
 
-    show lamp antique as lamp8 zorder 110:
-        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 8.2
+    show lamp antique as lamp2 at parallax(100) zorder 110:
+        ypos lamp_y xpos 1.6
+
+    show lamp antique as lamp3 at parallax(100) zorder 110:
+        ypos lamp_y xpos 2.7
         
-    show lamp antique as lamp9 zorder 110:
-        zpos 100 zoom 3.0 align (0.5, 0.0) ypos -0.32 xpos 9.3
+    show lamp antique as lamp4 at parallax(100) zorder 110:
+        ypos lamp_y xpos 3.8
+        
+    show lamp antique as lamp5 at parallax(100) zorder 110:
+        ypos lamp_y xpos 4.9
+        
+    show lamp antique as lamp6 at parallax(100) zorder 110:
+        ypos lamp_y xpos 6.0
+        
+    show lamp antique as lamp7 at parallax(100) zorder 110:
+        ypos lamp_y xpos 7.1
+
+    show lamp antique as lamp8 at parallax(100) zorder 110:
+        ypos lamp_y xpos 8.2
+        
+    show lamp antique as lamp9 at parallax(100) zorder 110:
+        ypos lamp_y xpos 9.3
 
     return
 
