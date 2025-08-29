@@ -321,12 +321,20 @@ screen main_menu():
         yalign 0.6
         spacing 20
 
-        imagebutton:
-            alt "continue"
-            auto default_button_image
-            hover_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
-            idle_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
-            action Start(label="autoload")
+        if persistent.started_story:
+            imagebutton:
+                alt "continue"
+                auto default_button_image
+                hover_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
+                idle_foreground Text(_("Continue"), xalign=0.5, yalign=0.5)
+                action Start(label="autoload")
+        else:
+            imagebutton:
+                alt "start"
+                auto default_button_image
+                hover_foreground Text(_("Start"), xalign=0.5, yalign=0.5)
+                idle_foreground Text(_("Start"), xalign=0.5, yalign=0.5)
+                action Start()
 
         # imagebutton:
         #     alt "load"
@@ -1518,10 +1526,15 @@ screen credits():
         text "  Dodo            Draccardis"
         text "  Eaglet          Meya Dionisio"
         text "  Magpie          Lacey Rose"
-        text "\nQuality Assurance Testers:"
+        text "\nTesters:"
         text "  Darkwilli"
         text "  SirKero"
         text "  Ateshi"
+        text "  Flecksy"
+        text "  Lenchen"
+        text "  Encjon"
+        text "  Barracuda"
+        text "  LucyGodwing"
         text "\nTranslations: Kopaka"
         text "\nMade with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
 
