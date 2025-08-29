@@ -689,7 +689,8 @@ translate german chapter2_88459525:
 
     # alice "(I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; —but I must be kind to them, or perhaps they won’t walk the way I want to go!)"
     #voice "alice034"
-    alice "(Ich bin schon zu weit weg, um mich um euch zu kümmern. Ihr müsst jetzt selber klarkommen. Aber ich sollte trotzdem nett zu euch sein, sonst gehen ihr einfach woanders hin, als ich will)"
+    alice "(Ich bin schon zu weit weg, um mich um euch zu kümmern. Ihr müsst jetzt selber klarkommen)"
+    alice "(Aber ich sollte trotzdem nett zu ihnen sein, sonst gehen sie vielleicht einfach woanders hin)"
 
 # game/script.rpy:595
 translate german chapter2_9074235e:
