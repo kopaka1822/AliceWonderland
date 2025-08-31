@@ -327,7 +327,7 @@ translate simple_english chapter1_31d7f0e1:
 
     # "When suddenly, thump! thump! down she came upon a heap of sticks and dry leaves, and the fall was over."
     #voice "n1028"
-    "All of a sudden, she landed on a dried leaves, and that's where the fall stopped."
+    "All of a sudden, she landed on dried leaves, and that's where the fall stopped."
 
 # game/script.rpy:448
 translate simple_english chapter1_719765f3:
@@ -3566,11 +3566,13 @@ translate simple_english chapter5_6886f8e9:
     #voice "n1217"
     "She thought to herself:"
 
-# game/script.rpy:1754
-translate simple_english chapter5_a6d293b7:
+# game/script.rpy:2432
+translate simple_english chapter5_5c7332b5:
 
-    # alice "I wish the creatures wouldn’t be so easily offended!"
-    alice "I wish the creatures wouldn’t be so easily offended!"
+    # voice "alice161"
+    # alice "(I wish the creatures wouldn’t be so easily offended!)"
+    #voice "alice161"
+    alice "(I wish the creatures wouldn’t be so easily offended!)"
 
 # game/script.rpy:1756
 translate simple_english chapter5_eb6626af:
@@ -5877,7 +5879,7 @@ translate simple_english ch7_reorder_e42dba8c:
 
     # "He moved on as he spoke, and the Dormouse followed him: the March Hare moved into the Dormouse’s place, and Alice rather unwillingly took the place of the March Hare. The Hatter was the only one who got any advantage from the change: and Alice was a good deal worse off than before, as the March Hare had just upset the milk-jug into his plate."
     #voice "n1335"
-    "As he talked, he moved on, the Dormouse took the Hatter's place, and then the March Hare took the Dormouse's place. Alice ended up sitting where the March Hare was before, not very happy about it. The Hatter was the only one who benefited from the change. Alice was worse of than before, because the March Hare had just spilled milk on his plate."
+    "As he talked, he moved on, the Dormouse took the Hatter's place, and then the March Hare took the Dormouse's place. Alice ended up sitting where the March Hare was before, not very happy about it. The Hatter was the only one who benefited from the change. Alice was worse off than before, because the March Hare had just spilled milk on his plate."
 
 # game/script.rpy:2899
 translate simple_english ch7_reorder_944cce4f:
@@ -7711,11 +7713,12 @@ translate simple_english ch9_gryphon_a20cefa7:
     # "..."
     "..."
 
-# game/script.rpy:3962
-translate simple_english ch9_gryphon_9b72d5ac:
+# game/script.rpy:5195
+translate simple_english ch9_gryphon_2291bd55:
 
-    # alice "I don’t see how he can ever finish, if he doesn’t begin."
-    alice "If he doesn't start, he won't be able to finish."
+    # voice "alice312"
+    # alice "(I don’t see how he can ever finish, if he doesn’t begin)"
+    alice "(If he doesn't start, he will never be finished)"
 
 # game/script.rpy:3963
 translate simple_english ch9_gryphon_7e84e205:
@@ -10820,20 +10823,9 @@ translate simple_english chapter12_be6510ea:
     "But her sister sat still just as she left her, leaning her head on her hand, watching the setting sun, and thinking of little Alice and all her wonderful Adventures, till she too began dreaming after a fashion, and this was her dream:—"
 
 
-# game/script.rpy:2432
-translate simple_english chapter5_5c7332b5:
 
-    # voice "alice161"
-    # alice "(I wish the creatures wouldn’t be so easily offended!)"
-    voice "alice161"
-    alice "(I wish the creatures wouldn’t be so easily offended!)"
 
-# game/script.rpy:5195
-translate simple_english ch9_gryphon_2291bd55:
 
-    # voice "alice312"
-    # alice "(I don’t see how he can ever finish, if he doesn’t begin)"
-    alice "(I don’t see how he can ever finish, if he doesn’t begin)"
 
 # game/script.rpy:5889
 translate simple_english chapter10_7adca745:
@@ -10910,6 +10902,6 @@ translate simple_english chapter12_1ac5911d:
 
     # voice "alice369"
     # alice "Oh, I beg your pardon!"
-    voice "alice369"
+    #voice "alice369"
     alice "Oh, sorry!"
 
