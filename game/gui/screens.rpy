@@ -1536,6 +1536,7 @@ screen credits():
         text "  Barracuda"
         text "  LucyGodwing"
         text "\nTranslations: Kopaka"
+        text "\nFür Hermine und Marvin"
         text "\nMade with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
 
 style credits_text:
