@@ -1558,11 +1558,11 @@ screen language():
             yoffset 400
             spacing 20
 
-            textbutton _("Deutsch") action [Language("german"), Return()] style "stretch_button"
-
-            textbutton _("Old English (Original)") action [Language(None), Return()] style "stretch_button"
+            textbutton _("Old English (Voiced)") action [Language(None), Return()] style "stretch_button"
                     
             textbutton _("Simple English") action [Language("simple_english"), Return()] style "stretch_button"
+
+            textbutton _("Deutsch") action [Language("german"), Return()] style "stretch_button"
 
 style stretch_button is button_text:
         xsize 600
